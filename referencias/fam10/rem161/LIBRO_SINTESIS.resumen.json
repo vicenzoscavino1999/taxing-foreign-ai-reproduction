@@ -1,0 +1,41 @@
+{
+ "_resumen_fam10": {
+  "kind": "resumen-libro-referencia-fam10",
+  "libro": "review_20261106_rem161_EXP8_sintesis_aceptada.json",
+  "original_sha256": "0d84eb80d10ad530f222ca4b38c5e5ef86be1fcf7afde604243012a3cdd7e707",
+  "campos": [
+   "inventory_sha256",
+   "accepted_products",
+   "scientific_rows",
+   "changed_interpretation",
+   "counts",
+   "numerical_categories_bounds_sources_unchanged"
+  ],
+  "regla": "recuentos, cotas y huellas del libro, copiados tal cual; las claves de productos se reducen a su nombre de archivo; solo para comparar"
+ },
+ "inventory_sha256": "3bcebf129042e5006519de16ca205d21cc07db8c5c6a189e4a5abd365cccc4de",
+ "accepted_products": {
+  "EXP8_POR_AFIRMACION.jsonl": "816209e40007471265f0a06e529d1d30ed60ca80d445594ce43b57bbdede113f",
+  "RESUMEN_EXP8.json": "1dc9d778b6dcaec13d5f19c8cf9fb8e447e15dc65a1752e13f912da892ea2751",
+  "MANIFIESTO_SINTESIS.json": "9adbcc842ff82d8c8487f550a2d9da7eca354da2f8dc761f413e367c19b83389"
+ },
+ "scientific_rows": 1728,
+ "changed_interpretation": {
+  "se_sabe": 1728,
+  "no_se_concluye": 12
+ },
+ "counts": {
+  "original_inconclusive": 1712,
+  "original_robust_infeasible_MEX": 16,
+  "ENF_inconclusive_preserved": 1712,
+  "COV_inconclusive_preserved": 1700,
+  "COV_inconclusive_unknown": 12,
+  "ENF_COV_original_robust_unknown_each": 16,
+  "Q_half_preserved_each_version": 1712,
+  "Q_half_infeasible_robustness_refuted_by_sup_each_version": 16,
+  "Q_positions_each_version": 3456,
+  "P7_claims_applied_once": 7,
+  "historical_decompositions": 1705
+ },
+ "numerical_categories_bounds_sources_unchanged": true
+}

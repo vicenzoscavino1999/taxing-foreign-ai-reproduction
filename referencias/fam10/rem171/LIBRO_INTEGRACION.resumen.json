@@ -1,0 +1,64 @@
+{
+ "_resumen_fam10": {
+  "kind": "resumen-libro-referencia-fam10",
+  "libro": "review_20261108_rem171_EXP8_integracion_aceptada.json",
+  "original_sha256": "ef558e84860258d6d8ff560fa34860649ba688883b1a55d3b7311107761776d5",
+  "campos": [
+   "inventory_sha256",
+   "accepted_products",
+   "scientific_rows",
+   "counts",
+   "classification_authority_sha256",
+   "parent_categories_unchanged",
+   "ENF_Q_P7_unchanged",
+   "historical_COV_preserved",
+   "scientific_rows_unchanged",
+   "scientific_rows_updated"
+  ],
+  "regla": "recuentos, cotas y huellas del libro, copiados tal cual; las claves de productos se reducen a su nombre de archivo; solo para comparar"
+ },
+ "inventory_sha256": "5e79840678eeabe383939e519b54124b125f4eba6220298c6e42c5bbd28ab427",
+ "accepted_products": {
+  "EXP8_POR_AFIRMACION.jsonl": "b4abf72c532431b6f2d221d2f354e5f0f34de04fc75e3d9b6e7f255e47bb6276",
+  "COV12_RESOLUCION_GLOBAL.jsonl": "ac18226808b7e0124140043347e853a6581097e4433798932083f4ed9b02fd7f",
+  "RESUMEN_EXP8.json": "e9a8b9e6bb75817bea0e86f7883ca14400a17d768e249015212fd4aa8545324c",
+  "MANIFIESTO_SINTESIS.json": "8b9d57ff228f291a25d44ba665ac4c7b2f726363ad3866a9e6550415a55819c4"
+ },
+ "scientific_rows": 1728,
+ "counts": {
+  "claims": 1728,
+  "parent_inconclusive": 1712,
+  "parent_robust_infeasible_MEX": 16,
+  "COV": {
+   "inconclusa_preservada": 1700,
+   "no_decidida_por_testigos": 16,
+   "robust_infeasible": 12
+  },
+  "ENF": {
+   "inconclusa_preservada": 1712,
+   "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 16
+  },
+  "Q_contrato": {
+   "inconclusa_preservada": 1712,
+   "robustez_refutada_por_testigo_sup": 16
+  },
+  "Q_conservadora": {
+   "inconclusa_preservada": 1712,
+   "robustez_refutada_por_testigo_sup": 16
+  },
+  "COV_sign_changes": 20,
+  "COV_signs_in_preserved": 8,
+  "COV_signs_in_new_robust": 12,
+  "P7_claims": 7,
+  "P7_units": 4,
+  "historical_decompositions": 1705,
+  "unchanged_rows": 1716,
+  "updated_rows": 12
+ },
+ "classification_authority_sha256": "d53bbe822a4df76f57e2826da6786914338dff15671a72d73521f2ee848c80cd",
+ "parent_categories_unchanged": true,
+ "ENF_Q_P7_unchanged": true,
+ "historical_COV_preserved": true,
+ "scientific_rows_unchanged": 1716,
+ "scientific_rows_updated": 12
+}

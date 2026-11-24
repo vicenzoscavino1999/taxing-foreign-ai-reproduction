@@ -1,0 +1,11 @@
+{
+ "ancla": null,
+ "d7_dir": "salidas_s6/d7",
+ "d7_tree": "2a25893b09c097b2af22ed2e5be9a4014851faf55bbaaf380c7a078f1a740591",
+ "descripcion": "Despliegue de FAM03 en la base limpia (sustituye a despliegue_operativo.json de la producción, f293a0a6…, que contiene rutas, autor y anclas de autorización del equipo de origen). Solo lo que usa la ruta: raíz copiada, paquete S6 y D7 de FAM01, run_class de la producción (paso4_operativo_s6, el que registra cada documento de unidad histórico) y etiqueta NO OFICIAL. Sin acto de autorización (ancla = null).",
+ "etiqueta": "REPRODUCCION LIMPIA FAM03 NO OFICIAL",
+ "raiz_fuentes": "nucleo_s6/raiz/tmp",
+ "raiz_proyecto": "nucleo_s6/raiz",
+ "run_class": "paso4_operativo_s6",
+ "s6_package": "dccdfe0adb8663907f84c984b62b1da9cf6b6a31d9d691e17b00e47f4d940104"
+}

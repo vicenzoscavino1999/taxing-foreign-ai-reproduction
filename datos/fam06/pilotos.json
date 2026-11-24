@@ -1,0 +1,35 @@
+{
+ "pilotos": [
+  {
+   "clave": "N|d|FRN-E4:N:45044919d27cdb437994",
+   "cobertura": "malla E4 completa: 5 nodos (frontier_n = 4, dimensión 1) con sus filas laterales si hay kink y su topología; su pareja G/N se concilia con la malla de origen autenticada del lote 2",
+   "instrumento": "d",
+   "malla_de_origen": "G|d|FRN:bfe553449ac56be7863b5cd492a45939a6a860f7",
+   "operacion": "F06-MALLAS",
+   "par": "E4:FRN-E4:N:45044919d27cdb437994",
+   "tarea": "L1-ELAST",
+   "unidad": "FRN-E4:N:45044919d27cdb437994"
+  },
+  {
+   "clave": "N|f|FRN-E4:N:daf7cba57188e8913298",
+   "cobertura": "malla E4 completa: 5 nodos (frontier_n = 4, dimensión 1) con sus filas laterales si hay kink y su topología; su pareja G/N se concilia con la malla de origen autenticada del lote 2",
+   "instrumento": "f",
+   "malla_de_origen": "G|f|FRN:ef796dd0a40f87638b95dcf2836d5c915b15fb68",
+   "operacion": "F06-MALLAS",
+   "par": "E4:FRN-E4:N:daf7cba57188e8913298",
+   "tarea": "L1-ELAST",
+   "unidad": "FRN-E4:N:daf7cba57188e8913298"
+  },
+  {
+   "clave": "G|df|FRN-E4:G:fe634bc9b3181d2e7247",
+   "cobertura": "malla E4 completa: 25 nodos (frontier_n = 4, dimensión 2) con sus filas laterales si hay kink y su topología; su pareja G/N se concilia con la malla de origen autenticada del lote 2",
+   "instrumento": "df",
+   "malla_de_origen": "N|df|FRN:25b337fbb97d4df2895c5aa4585c02c0b4dabdc8",
+   "operacion": "F06-MALLAS",
+   "par": "E4:FRN-E4:G:fe634bc9b3181d2e7247",
+   "tarea": "L1-ELAST",
+   "unidad": "FRN-E4:G:fe634bc9b3181d2e7247"
+  }
+ ],
+ "regla": "fijados por identificador desde el MANIFIESTO E4 (entrada), antes de calcular y sin mirar resultados: la primera malla de cada instrumento d, f y df en el orden del manifiesto; cada piloto es la malla entera (todos sus nodos y laterales)"
+}

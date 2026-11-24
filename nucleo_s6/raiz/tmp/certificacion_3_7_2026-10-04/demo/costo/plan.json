@@ -1,0 +1,1434 @@
+{
+ "esfuerzo": [
+  {
+   "clave": "PER-E0E3.micro|2,0,0,0,3,2,0,0,1",
+   "familia": "G",
+   "indices": [
+    2,
+    0,
+    0,
+    0,
+    3,
+    2,
+    0,
+    0,
+    1
+   ],
+   "tipo": "esfuerzo"
+  },
+  {
+   "clave": "PER-E0E3.micro|2,1,2,1,4,0,2,1,1",
+   "familia": "G",
+   "indices": [
+    2,
+    1,
+    2,
+    1,
+    4,
+    0,
+    2,
+    1,
+    1
+   ],
+   "tipo": "esfuerzo"
+  },
+  {
+   "clave": "PER-E0E3.micro|1,2,1,0,4,1,2,0,1",
+   "familia": "G",
+   "indices": [
+    1,
+    2,
+    1,
+    0,
+    4,
+    1,
+    2,
+    0,
+    1
+   ],
+   "tipo": "esfuerzo"
+  },
+  {
+   "clave": "PER-E0E3.micro|2,0,0,0,3,2,0,0,1",
+   "familia": "N",
+   "indices": [
+    2,
+    0,
+    0,
+    0,
+    3,
+    2,
+    0,
+    0,
+    1
+   ],
+   "tipo": "esfuerzo"
+  },
+  {
+   "clave": "PER-E0E3.micro|2,1,2,1,4,0,2,1,1",
+   "familia": "N",
+   "indices": [
+    2,
+    1,
+    2,
+    1,
+    4,
+    0,
+    2,
+    1,
+    1
+   ],
+   "tipo": "esfuerzo"
+  },
+  {
+   "clave": "PER-E0E3.micro|1,2,1,0,4,1,2,0,1",
+   "familia": "N",
+   "indices": [
+    1,
+    2,
+    1,
+    0,
+    4,
+    1,
+    2,
+    0,
+    1
+   ],
+   "tipo": "esfuerzo"
+  }
+ ],
+ "etiqueta": "CERTIFICACIÓN 3.7 NO OFICIAL",
+ "identidad_sha256": "07771847c6e420445de7b8e1cf44952f8d03515b15005e0ea025c5bb0142a2a5",
+ "limites": {
+  "hojas_por_caja": 64,
+  "segundos_por_caja": 120.0
+ },
+ "n_por_familia": 40,
+ "poblacion_por_familia": 81920,
+ "radices": {
+  "a": 4,
+  "beta_tilde": 4,
+  "eta_d": 4,
+  "eta_f": 4,
+  "kappa_tilde": 5,
+  "phi": 4,
+  "rho": 4,
+  "u_theta": 2,
+  "z_cost": 2
+ },
+ "registro_sha256": "d4de49f493203ac17523ddc38ea4036c3185b5afb3c96c2ceb439be662f997e0",
+ "seleccion": "muestra aleatoria simple sin reemplazo de cajas L0 (random.Random(semilla).sample); mismas cajas para G y N",
+ "semilla": 20261004,
+ "tareas": [
+  {
+   "familia": "G",
+   "indices": [
+    1,
+    0,
+    1,
+    3,
+    2,
+    2,
+    1,
+    1,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 3.6027299902665047e-07
+  },
+  {
+   "familia": "G",
+   "indices": [
+    0,
+    1,
+    1,
+    2,
+    0,
+    3,
+    2,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 4.203184988644253e-07
+  },
+  {
+   "familia": "G",
+   "indices": [
+    1,
+    3,
+    3,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 3.362547990915405e-06
+  },
+  {
+   "familia": "G",
+   "indices": [
+    2,
+    2,
+    0,
+    0,
+    4,
+    2,
+    0,
+    1,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 1.6812739954577016e-05
+  },
+  {
+   "familia": "G",
+   "indices": [
+    1,
+    3,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 4.035057589098484e-06
+  },
+  {
+   "familia": "G",
+   "indices": [
+    3,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    1,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 2.101592494322127e-07
+  },
+  {
+   "familia": "G",
+   "indices": [
+    1,
+    0,
+    3,
+    2,
+    0,
+    2,
+    1,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 1.6812739954577022e-06
+  },
+  {
+   "familia": "G",
+   "indices": [
+    0,
+    3,
+    0,
+    3,
+    4,
+    2,
+    1,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 7.68582397923521e-05
+  },
+  {
+   "familia": "G",
+   "indices": [
+    3,
+    0,
+    0,
+    2,
+    4,
+    3,
+    1,
+    1,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 1.6812739954577027e-05
+  },
+  {
+   "familia": "G",
+   "indices": [
+    0,
+    3,
+    2,
+    3,
+    1,
+    2,
+    2,
+    1,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 9.607279974044008e-07
+  },
+  {
+   "familia": "G",
+   "indices": [
+    2,
+    2,
+    0,
+    1,
+    0,
+    3,
+    3,
+    0,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 2.401819993511001e-08
+  },
+  {
+   "familia": "G",
+   "indices": [
+    3,
+    3,
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 1.2609554965932764e-05
+  },
+  {
+   "familia": "G",
+   "indices": [
+    2,
+    1,
+    0,
+    3,
+    1,
+    0,
+    3,
+    0,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 2.401819993511002e-07
+  },
+  {
+   "familia": "G",
+   "indices": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 2.401819993511003e-08
+  },
+  {
+   "familia": "G",
+   "indices": [
+    1,
+    1,
+    1,
+    3,
+    3,
+    1,
+    3,
+    1,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 6.004549983777505e-06
+  },
+  {
+   "familia": "G",
+   "indices": [
+    0,
+    2,
+    1,
+    2,
+    3,
+    2,
+    2,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 8.406369977288507e-06
+  },
+  {
+   "familia": "G",
+   "indices": [
+    1,
+    2,
+    1,
+    1,
+    4,
+    3,
+    1,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 4.803639987022006e-06
+  },
+  {
+   "familia": "G",
+   "indices": [
+    1,
+    0,
+    2,
+    1,
+    2,
+    1,
+    0,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 7.205459980533004e-07
+  },
+  {
+   "familia": "G",
+   "indices": [
+    1,
+    2,
+    3,
+    1,
+    2,
+    0,
+    2,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 2.8821839922132017e-06
+  },
+  {
+   "familia": "G",
+   "indices": [
+    2,
+    2,
+    0,
+    2,
+    4,
+    0,
+    3,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 3.3625479909154026e-05
+  },
+  {
+   "familia": "G",
+   "indices": [
+    1,
+    2,
+    2,
+    2,
+    4,
+    2,
+    1,
+    0,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 6.72509598183081e-06
+  },
+  {
+   "familia": "G",
+   "indices": [
+    1,
+    0,
+    3,
+    1,
+    3,
+    1,
+    1,
+    1,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 2.401819993511003e-06
+  },
+  {
+   "familia": "G",
+   "indices": [
+    0,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 0.00011528735968852814
+  },
+  {
+   "familia": "G",
+   "indices": [
+    1,
+    2,
+    1,
+    1,
+    2,
+    1,
+    0,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 1.4410919961066008e-06
+  },
+  {
+   "familia": "G",
+   "indices": [
+    0,
+    1,
+    3,
+    2,
+    1,
+    0,
+    2,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 3.3625479909154023e-06
+  },
+  {
+   "familia": "G",
+   "indices": [
+    0,
+    3,
+    3,
+    0,
+    3,
+    1,
+    1,
+    1,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 3.362547990915405e-05
+  },
+  {
+   "familia": "G",
+   "indices": [
+    2,
+    2,
+    3,
+    0,
+    1,
+    3,
+    1,
+    0,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 8.406369977288514e-07
+  },
+  {
+   "familia": "G",
+   "indices": [
+    2,
+    2,
+    3,
+    3,
+    0,
+    1,
+    2,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 1.2009099967555011e-05
+  },
+  {
+   "familia": "G",
+   "indices": [
+    1,
+    1,
+    2,
+    2,
+    0,
+    2,
+    3,
+    0,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 8.406369977288506e-08
+  },
+  {
+   "familia": "G",
+   "indices": [
+    2,
+    1,
+    1,
+    3,
+    1,
+    1,
+    3,
+    0,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 3.002274991888753e-07
+  },
+  {
+   "familia": "G",
+   "indices": [
+    0,
+    1,
+    2,
+    0,
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 4.203184988644254e-07
+  },
+  {
+   "familia": "G",
+   "indices": [
+    1,
+    1,
+    3,
+    1,
+    3,
+    3,
+    1,
+    1,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 4.803639987022006e-06
+  },
+  {
+   "familia": "G",
+   "indices": [
+    1,
+    3,
+    0,
+    2,
+    0,
+    3,
+    3,
+    0,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 1.3450191963661606e-07
+  },
+  {
+   "familia": "G",
+   "indices": [
+    2,
+    1,
+    3,
+    2,
+    2,
+    0,
+    0,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 5.0438219863731056e-05
+  },
+  {
+   "familia": "G",
+   "indices": [
+    2,
+    1,
+    1,
+    3,
+    0,
+    2,
+    0,
+    0,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 3.002274991888753e-07
+  },
+  {
+   "familia": "G",
+   "indices": [
+    1,
+    2,
+    2,
+    0,
+    0,
+    3,
+    3,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 4.2031849886442534e-07
+  },
+  {
+   "familia": "G",
+   "indices": [
+    1,
+    3,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 3.842911989617602e-07
+  },
+  {
+   "familia": "G",
+   "indices": [
+    3,
+    3,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 2.101592494322127e-07
+  },
+  {
+   "familia": "G",
+   "indices": [
+    2,
+    0,
+    1,
+    2,
+    1,
+    0,
+    2,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 1.0507962471610633e-06
+  },
+  {
+   "familia": "G",
+   "indices": [
+    0,
+    0,
+    2,
+    0,
+    4,
+    2,
+    3,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 2.1015924943221266e-06
+  },
+  {
+   "familia": "N",
+   "indices": [
+    1,
+    0,
+    1,
+    3,
+    2,
+    2,
+    1,
+    1,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 3.6027299902665047e-07
+  },
+  {
+   "familia": "N",
+   "indices": [
+    0,
+    1,
+    1,
+    2,
+    0,
+    3,
+    2,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 4.203184988644253e-07
+  },
+  {
+   "familia": "N",
+   "indices": [
+    1,
+    3,
+    3,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 3.362547990915405e-06
+  },
+  {
+   "familia": "N",
+   "indices": [
+    2,
+    2,
+    0,
+    0,
+    4,
+    2,
+    0,
+    1,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 1.6812739954577016e-05
+  },
+  {
+   "familia": "N",
+   "indices": [
+    1,
+    3,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 4.035057589098484e-06
+  },
+  {
+   "familia": "N",
+   "indices": [
+    3,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    1,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 2.101592494322127e-07
+  },
+  {
+   "familia": "N",
+   "indices": [
+    1,
+    0,
+    3,
+    2,
+    0,
+    2,
+    1,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 1.6812739954577022e-06
+  },
+  {
+   "familia": "N",
+   "indices": [
+    0,
+    3,
+    0,
+    3,
+    4,
+    2,
+    1,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 7.68582397923521e-05
+  },
+  {
+   "familia": "N",
+   "indices": [
+    3,
+    0,
+    0,
+    2,
+    4,
+    3,
+    1,
+    1,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 1.6812739954577027e-05
+  },
+  {
+   "familia": "N",
+   "indices": [
+    0,
+    3,
+    2,
+    3,
+    1,
+    2,
+    2,
+    1,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 9.607279974044008e-07
+  },
+  {
+   "familia": "N",
+   "indices": [
+    2,
+    2,
+    0,
+    1,
+    0,
+    3,
+    3,
+    0,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 2.401819993511001e-08
+  },
+  {
+   "familia": "N",
+   "indices": [
+    3,
+    3,
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 1.2609554965932764e-05
+  },
+  {
+   "familia": "N",
+   "indices": [
+    2,
+    1,
+    0,
+    3,
+    1,
+    0,
+    3,
+    0,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 2.401819993511002e-07
+  },
+  {
+   "familia": "N",
+   "indices": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 2.401819993511003e-08
+  },
+  {
+   "familia": "N",
+   "indices": [
+    1,
+    1,
+    1,
+    3,
+    3,
+    1,
+    3,
+    1,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 6.004549983777505e-06
+  },
+  {
+   "familia": "N",
+   "indices": [
+    0,
+    2,
+    1,
+    2,
+    3,
+    2,
+    2,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 8.406369977288507e-06
+  },
+  {
+   "familia": "N",
+   "indices": [
+    1,
+    2,
+    1,
+    1,
+    4,
+    3,
+    1,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 4.803639987022006e-06
+  },
+  {
+   "familia": "N",
+   "indices": [
+    1,
+    0,
+    2,
+    1,
+    2,
+    1,
+    0,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 7.205459980533004e-07
+  },
+  {
+   "familia": "N",
+   "indices": [
+    1,
+    2,
+    3,
+    1,
+    2,
+    0,
+    2,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 2.8821839922132017e-06
+  },
+  {
+   "familia": "N",
+   "indices": [
+    2,
+    2,
+    0,
+    2,
+    4,
+    0,
+    3,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 3.3625479909154026e-05
+  },
+  {
+   "familia": "N",
+   "indices": [
+    1,
+    2,
+    2,
+    2,
+    4,
+    2,
+    1,
+    0,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 6.72509598183081e-06
+  },
+  {
+   "familia": "N",
+   "indices": [
+    1,
+    0,
+    3,
+    1,
+    3,
+    1,
+    1,
+    1,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 2.401819993511003e-06
+  },
+  {
+   "familia": "N",
+   "indices": [
+    0,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 0.00011528735968852814
+  },
+  {
+   "familia": "N",
+   "indices": [
+    1,
+    2,
+    1,
+    1,
+    2,
+    1,
+    0,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 1.4410919961066008e-06
+  },
+  {
+   "familia": "N",
+   "indices": [
+    0,
+    1,
+    3,
+    2,
+    1,
+    0,
+    2,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 3.3625479909154023e-06
+  },
+  {
+   "familia": "N",
+   "indices": [
+    0,
+    3,
+    3,
+    0,
+    3,
+    1,
+    1,
+    1,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 3.362547990915405e-05
+  },
+  {
+   "familia": "N",
+   "indices": [
+    2,
+    2,
+    3,
+    0,
+    1,
+    3,
+    1,
+    0,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 8.406369977288514e-07
+  },
+  {
+   "familia": "N",
+   "indices": [
+    2,
+    2,
+    3,
+    3,
+    0,
+    1,
+    2,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 1.2009099967555011e-05
+  },
+  {
+   "familia": "N",
+   "indices": [
+    1,
+    1,
+    2,
+    2,
+    0,
+    2,
+    3,
+    0,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 8.406369977288506e-08
+  },
+  {
+   "familia": "N",
+   "indices": [
+    2,
+    1,
+    1,
+    3,
+    1,
+    1,
+    3,
+    0,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 3.002274991888753e-07
+  },
+  {
+   "familia": "N",
+   "indices": [
+    0,
+    1,
+    2,
+    0,
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 4.203184988644254e-07
+  },
+  {
+   "familia": "N",
+   "indices": [
+    1,
+    1,
+    3,
+    1,
+    3,
+    3,
+    1,
+    1,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 4.803639987022006e-06
+  },
+  {
+   "familia": "N",
+   "indices": [
+    1,
+    3,
+    0,
+    2,
+    0,
+    3,
+    3,
+    0,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 1.3450191963661606e-07
+  },
+  {
+   "familia": "N",
+   "indices": [
+    2,
+    1,
+    3,
+    2,
+    2,
+    0,
+    0,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 5.0438219863731056e-05
+  },
+  {
+   "familia": "N",
+   "indices": [
+    2,
+    1,
+    1,
+    3,
+    0,
+    2,
+    0,
+    0,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 3.002274991888753e-07
+  },
+  {
+   "familia": "N",
+   "indices": [
+    1,
+    2,
+    2,
+    0,
+    0,
+    3,
+    3,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 4.2031849886442534e-07
+  },
+  {
+   "familia": "N",
+   "indices": [
+    1,
+    3,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 3.842911989617602e-07
+  },
+  {
+   "familia": "N",
+   "indices": [
+    3,
+    3,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 2.101592494322127e-07
+  },
+  {
+   "familia": "N",
+   "indices": [
+    2,
+    0,
+    1,
+    2,
+    1,
+    0,
+    2,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 1.0507962471610633e-06
+  },
+  {
+   "familia": "N",
+   "indices": [
+    0,
+    0,
+    2,
+    0,
+    4,
+    2,
+    3,
+    0,
+    1
+   ],
+   "tipo": "muestra",
+   "volumen_relativo": 2.1015924943221266e-06
+  }
+ ],
+ "unidad": "caja L0 x familia; un encierro de C2(familia, f) por hoja compartido por las afirmaciones pendientes de la familia",
+ "universo": {
+  "G": 75,
+  "N": 82,
+  "conjuntos_G": [
+   "CMP-E1.macro",
+   "CMP-E1.micro",
+   "COL-E2-2023.2023p.macro",
+   "COL-E2-2023.2023p.micro",
+   "COL-E2-2023.2024p.macro",
+   "COL-E2-2023.2024p.micro",
+   "PER-E0E3.macro",
+   "PER-E0E3.micro",
+   "PER-E1.macro",
+   "PER-E1.micro"
+  ],
+  "conjuntos_N": [
+   "CMP-E1.macro",
+   "CMP-E1.micro",
+   "COL-E2-2023.2023p.macro",
+   "COL-E2-2023.2023p.micro",
+   "COL-E2-2023.2024p.macro",
+   "COL-E2-2023.2024p.micro",
+   "PER-E0E3.macro",
+   "PER-E0E3.micro",
+   "PER-E1.macro",
+   "PER-E1.micro"
+  ],
+  "pendientes": 157
+ }
+}

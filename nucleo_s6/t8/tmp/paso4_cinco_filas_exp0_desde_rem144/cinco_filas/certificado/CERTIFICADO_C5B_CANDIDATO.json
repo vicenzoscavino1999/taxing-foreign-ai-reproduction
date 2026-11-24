@@ -1,0 +1,423 @@
+{
+ "kind": "certificado-candidato-c5b-rem144",
+ "experimental": true,
+ "productivo": false,
+ "candidato_separado_de_la_vista_vigente": true,
+ "no_modifica": [
+  "T8",
+  "vista vigente ec6e3929…",
+  "doce ledgers",
+  "original",
+  "instalación",
+  "C0",
+  "D7"
+ ],
+ "requiere_dictamen": true,
+ "tipo_prueba_propuesto": "exclusion_cota_U_global",
+ "semantica_propuesta": "encierro_exterior_por_cota_U_global",
+ "regla_propuesta": "Fraction(v) > U_global + banda  =>  outside_support (la igualdad no excluye; nunca prueba pertenencia)",
+ "fuentes": {
+  "analisis_salida_sha256": "05c10ea6d2e8f87b96704f66d9c1edb6c188a2d6c528b4d086ab3061d9da4691",
+  "analisis_script_sha256": "f725f028ff1fa63281a69d5ff30fa51df988cb9ac4f9654ab62e9a29355b3a1b",
+  "vista_sha256": "ec6e3929dd6be8dbb56b17493ce51061b95dde7991722832045a1c4411c8fd93",
+  "ledger_rem144_sha256": "7ed13ccf8123e1bce9e013bdbdce56d5df29de37699a192f1aaa32c55555241c",
+  "nota_U_sha256": "cf738de6945a86ffb55ed0994610bc6d8d9d21860a5cd0b7e92a27f0afe0f34a",
+  "fuentes_captura_sha256": "77d9a10b409416a0f148ff665584c20e4a8f8d997862e4b79cc7f8b5f1c506e1",
+  "finalizador_sha256": "a8aded1db50f80feffd62bcb655e62e5f93487364a3c4e625f47dcdbd1f17c86",
+  "conexion_captura_sha256": "f7a8d23f5d2558843f4620052b49d20250cf23c67ac8a02d54ea57db1c05dba7",
+  "certificacion_fila_sha256": "4741b4ea3b72fc2f754cc2d8c79dd9dd718f8e37205bf3e4ee5c0c539be60f4b",
+  "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42"
+ },
+ "premisas": {
+  "P1": "E0 <= 0 y U (nota rem137 cf738de6…)",
+  "P2": "acoplamiento por adopción (C3_ACOPLADA §1, aceptado en rem138 §4)",
+  "H3": "signos verdaderos (nota rem137 §5)",
+  "L-MASA": "nuevo: F ⊆ {z^(1-rho) > c}; momentos Pareto cerrados; Φ no creciente en m",
+  "ocultacion": "no usada: basta t̃_f >= Q (ocultación >= 0)",
+  "universo": "plan 6cec0a6d… = retícula L0 completa de los diez conjuntos base (843.750 puntos por conjunto), menús d/f/df (rectángulo), G/N"
+ },
+ "cotas_por_bloque": {
+  "N_todo_rho": "17696268342839126206548459561845137884573205861101540386851/31250000000000000000000000000000000000000000000000000000000",
+  "G_rho_1": "777013633277990199081469641662862015037421930762568224276977/1000000000000000000000000000000000000000000000000000000000000",
+  "G_rho_menor_1_por_C5": "382579006407933609585301874905805523404779226123837649669417/500000000000000000000000000000000000000000000000000000000000",
+  "G_rho_menor_1_por_masa": "15432592858721952385078662585664465762806429615972266476412514029254334532321/19815838360430182000000000000000000000000000000000000000000000000000000000000"
+ },
+ "cotas_por_bloque_float": {
+  "N_todo_rho": 0.566280586970852,
+  "G_rho_1": 0.7770136332779902,
+  "G_rho_menor_1_por_C5": 0.7651580128158673,
+  "G_rho_menor_1_por_masa": 0.7788009055190399
+ },
+ "U_global_hi": "15432592858721952385078662585664465762806429615972266476412514029254334532321/19815838360430182000000000000000000000000000000000000000000000000000000000000",
+ "U_global": 0.7788009055190399,
+ "U_aceptada": "184927708619012784273/225179981368524800000",
+ "banda": "944473296573929/9444732965739290427392",
+ "bloque_L_MASA": {
+  "combinacion": {
+   "kappa_tilde": "1/5",
+   "phi": "1",
+   "eta_d": "1/10",
+   "eta_f": "1/10"
+  },
+  "nodos": [
+   {
+    "rho": "2/5",
+    "a": "11/10",
+    "cota": 0.5865708449285234,
+    "cajas_evaluadas": 1,
+    "cajas_finales": 1
+   },
+   {
+    "rho": "2/5",
+    "a": "13/10",
+    "cota": 0.6387104755888366,
+    "cajas_evaluadas": 1,
+    "cajas_finales": 1
+   },
+   {
+    "rho": "2/5",
+    "a": "3/2",
+    "cota": 0.6718902405544904,
+    "cajas_evaluadas": 1,
+    "cajas_finales": 1
+   },
+   {
+    "rho": "2/5",
+    "a": "2",
+    "cota": 0.7185492850374412,
+    "cajas_evaluadas": 1,
+    "cajas_finales": 1
+   },
+   {
+    "rho": "2/5",
+    "a": "5/2",
+    "cota": 0.742989736909463,
+    "cajas_evaluadas": 1,
+    "cajas_finales": 1
+   },
+   {
+    "rho": "3/5",
+    "a": "11/10",
+    "cota": 0.6022127341266175,
+    "cajas_evaluadas": 1,
+    "cajas_finales": 1
+   },
+   {
+    "rho": "3/5",
+    "a": "13/10",
+    "cota": 0.6647802909189933,
+    "cajas_evaluadas": 1,
+    "cajas_finales": 1
+   },
+   {
+    "rho": "3/5",
+    "a": "3/2",
+    "cota": 0.6995400446925354,
+    "cajas_evaluadas": 1,
+    "cajas_finales": 1
+   },
+   {
+    "rho": "3/5",
+    "a": "2",
+    "cota": 0.742989736909463,
+    "cajas_evaluadas": 1,
+    "cajas_finales": 1
+   },
+   {
+    "rho": "3/5",
+    "a": "5/2",
+    "cota": 0.7635711700648498,
+    "cajas_evaluadas": 1,
+    "cajas_finales": 1
+   },
+   {
+    "rho": "4/5",
+    "a": "11/10",
+    "cota": 0.6387104755888366,
+    "cajas_evaluadas": 1,
+    "cajas_finales": 1
+   },
+   {
+    "rho": "4/5",
+    "a": "13/10",
+    "cota": 0.7117059585132751,
+    "cajas_evaluadas": 1,
+    "cajas_finales": 1
+   },
+   {
+    "rho": "4/5",
+    "a": "3/2",
+    "cota": 0.742989736909463,
+    "cajas_evaluadas": 1,
+    "cajas_finales": 1
+   },
+   {
+    "rho": "4/5",
+    "a": "2",
+    "cota": 0.7755770060721587,
+    "cajas_evaluadas": 1,
+    "cajas_finales": 1
+   },
+   {
+    "rho": "4/5",
+    "a": "5/2",
+    "cota": 0.7743220948870903,
+    "cajas_evaluadas": 21,
+    "cajas_finales": 16
+   },
+   {
+    "rho": "9/10",
+    "a": "11/10",
+    "cota": 0.6843326524166107,
+    "cajas_evaluadas": 1,
+    "cajas_finales": 1
+   },
+   {
+    "rho": "9/10",
+    "a": "13/10",
+    "cota": 0.7527659176582717,
+    "cajas_evaluadas": 1,
+    "cajas_finales": 1
+   },
+   {
+    "rho": "9/10",
+    "a": "3/2",
+    "cota": 0.7755770060721587,
+    "cajas_evaluadas": 1,
+    "cajas_finales": 1
+   },
+   {
+    "rho": "9/10",
+    "a": "2",
+    "cota": 0.7788009055190399,
+    "cajas_evaluadas": 25,
+    "cajas_finales": 19
+   },
+   {
+    "rho": "9/10",
+    "a": "5/2",
+    "cota": 0.7744942429692151,
+    "cajas_evaluadas": 29,
+    "cajas_finales": 22
+   }
+  ]
+ },
+ "particion_G_rho_menor_1": {
+  "por_C5_trasladado": 749,
+  "por_L_MASA": 1
+ },
+ "filas": [
+  {
+   "fila": 7028,
+   "clave_fila": "273d71ee0f67962a2f407f0874046e684c599650a1aaac6783996cc481482051",
+   "cell_id": "CEL:181df62c0df8755529e199f54af34890e1539245e905",
+   "run_destino": "BRUN-9c6c66e7af8b139a613b1c3f",
+   "pais": "PER",
+   "conjunto": "CMP-E1.micro",
+   "magnitud": {
+    "k": "C2",
+    "target_unit": "share"
+   },
+   "valor_requerido_exacto": "7089940826878089/9007199254740992",
+   "valor_requerido": 0.7871415549229975,
+   "linea_vista_sha256": "26f9150c25f0703c04d55689ed3040b0de45281648a11bde397d3700f0c219fb",
+   "estado_vigente": "pendiente_soporte_global",
+   "estado_historico_declarado_aparte": "outside_support",
+   "soporte_a_cubrir": "soporte global C2 (C_2_share, gamma = z_m = 1) de la corrida destino; está contenido en el universo del plan 6cec0a6d… (retícula L0 completa de los diez conjuntos base, 843.750 puntos estructurales por conjunto; diseños G y N; menús d, f, df; tasas en [0, binary64(0,6)]^2 ⊆ [0, 3/5]^2), y la cota cubre ese universo entero, de modo que cubre el soporte de cualquier corrida del plan",
+   "cota": {
+    "U_global_hi": "15432592858721952385078662585664465762806429615972266476412514029254334532321/19815838360430182000000000000000000000000000000000000000000000000000000000000",
+    "U_global": 0.7788009055190399,
+    "banda": "944473296573929/9444732965739290427392",
+    "U_global_mas_banda": "63211908465892509401484381860881651764462549776380850282762606476105264742433691/81165673924322025472000000000000000000000000000000000000000000000000000000000000"
+   },
+   "argumento": "L-MASA (G, rho<1, combinación kappa_tilde=1/5, phi=1, eta_d=eta_f=1/10) + C5 trasladado a binary64 (N, G rho=1, G rho<1 restante)",
+   "garantia_numerica": "aritmética racional exacta (Fraction); binary64 encerrado por intervalos [min, max](decimal, binary64) y Bernoulli exacta; sin coma flotante en la decisión",
+   "desigualdad": "Fraction(v) > U_global + banda  =>  outside_support (la igualdad no excluye; nunca prueba pertenencia)",
+   "holgura_exacta": "676966313271324905662894553279190486104379802400277646924893523894735257566309/81165673924322025472000000000000000000000000000000000000000000000000000000000000",
+   "holgura": 0.008340549403957648,
+   "cota_U_aceptada_no_decide": {
+    "U_mas_banda": "24238847575590295453758781/29514790517935282585600000",
+    "v_menor_o_igual": true
+   },
+   "ensayo_conexion_finalizador": {
+    "C-a_(-inf,U_global+banda]": "outside_support",
+    "C-b_(-inf,U+banda]": "computed",
+    "C-c_(-inf,v]": "computed"
+   },
+   "estado": "demostracion_candidata_suficiente",
+   "causa": null
+  },
+  {
+   "fila": 7208,
+   "clave_fila": "869cc35d96ad584bc0dc9619bda895cc17713bd2c7861a3030ca9c3b68a8aa30",
+   "cell_id": "CEL:93b1ad5d947c99343a3c6d1b6da8e08d5b1876bc0368",
+   "run_destino": "BRUN-63a9e9ea157b2faaf317ae61",
+   "pais": "PER",
+   "conjunto": "CMP-E1.macro",
+   "magnitud": {
+    "k": "C2",
+    "target_unit": "share"
+   },
+   "valor_requerido_exacto": "3544220821268237/4503599627370496",
+   "valor_requerido": 0.7869751120255757,
+   "linea_vista_sha256": "21a4f0df4b15ea30f74b24a5062fddb8c616ae0767e3ff4c4d62b66fd5b260d4",
+   "estado_vigente": "pendiente_soporte_global",
+   "estado_historico_declarado_aparte": "outside_support",
+   "soporte_a_cubrir": "soporte global C2 (C_2_share, gamma = z_m = 1) de la corrida destino; está contenido en el universo del plan 6cec0a6d… (retícula L0 completa de los diez conjuntos base, 843.750 puntos estructurales por conjunto; diseños G y N; menús d, f, df; tasas en [0, binary64(0,6)]^2 ⊆ [0, 3/5]^2), y la cota cubre ese universo entero, de modo que cubre el soporte de cualquier corrida del plan",
+   "cota": {
+    "U_global_hi": "15432592858721952385078662585664465762806429615972266476412514029254334532321/19815838360430182000000000000000000000000000000000000000000000000000000000000",
+    "U_global": 0.7788009055190399,
+    "banda": "944473296573929/9444732965739290427392",
+    "U_global_mas_banda": "63211908465892509401484381860881651764462549776380850282762606476105264742433691/81165673924322025472000000000000000000000000000000000000000000000000000000000000"
+   },
+   "argumento": "L-MASA (G, rho<1, combinación kappa_tilde=1/5, phi=1, eta_d=eta_f=1/10) + C5 trasladado a binary64 (N, G rho=1, G rho<1 restante)",
+   "garantia_numerica": "aritmética racional exacta (Fraction); binary64 encerrado por intervalos [min, max](decimal, binary64) y Bernoulli exacta; sin coma flotante en la decisión",
+   "desigualdad": "Fraction(v) > U_global + banda  =>  outside_support (la igualdad no excluye; nunca prueba pertenencia)",
+   "holgura_exacta": "663456863332163817935594596415146124822239785844491514112393523894735257566309/81165673924322025472000000000000000000000000000000000000000000000000000000000000",
+   "holgura": 0.0081741065065358,
+   "cota_U_aceptada_no_decide": {
+    "U_mas_banda": "24238847575590295453758781/29514790517935282585600000",
+    "v_menor_o_igual": true
+   },
+   "ensayo_conexion_finalizador": {
+    "C-a_(-inf,U_global+banda]": "outside_support",
+    "C-b_(-inf,U+banda]": "computed",
+    "C-c_(-inf,v]": "computed"
+   },
+   "estado": "demostracion_candidata_suficiente",
+   "causa": null
+  },
+  {
+   "fila": 8144,
+   "clave_fila": "314a614e7e163b62587dc10f8a2bcc84ad02c92c38375d5f27e6bc4a1bbc7bed",
+   "cell_id": "CEL:90556c35127dfd0fdd0074cc1134a79bcc7321c3350c",
+   "run_destino": "BRUN-991c466a1938ddbf2192eefb",
+   "pais": "MEX",
+   "conjunto": "CMP-E1.macro",
+   "magnitud": {
+    "k": "C2",
+    "target_unit": "share"
+   },
+   "valor_requerido_exacto": "3550769140379883/4503599627370496",
+   "valor_requerido": 0.7884291309556442,
+   "linea_vista_sha256": "6b5920a24e079790d35dc54eaa636c208bff1fd3eeb10efa9e6194921a85a63d",
+   "estado_vigente": "pendiente_soporte_global",
+   "estado_historico_declarado_aparte": "outside_support",
+   "soporte_a_cubrir": "soporte global C2 (C_2_share, gamma = z_m = 1) de la corrida destino; está contenido en el universo del plan 6cec0a6d… (retícula L0 completa de los diez conjuntos base, 843.750 puntos estructurales por conjunto; diseños G y N; menús d, f, df; tasas en [0, binary64(0,6)]^2 ⊆ [0, 3/5]^2), y la cota cubre ese universo entero, de modo que cubre el soporte de cualquier corrida del plan",
+   "cota": {
+    "U_global_hi": "15432592858721952385078662585664465762806429615972266476412514029254334532321/19815838360430182000000000000000000000000000000000000000000000000000000000000",
+    "U_global": 0.7788009055190399,
+    "banda": "944473296573929/9444732965739290427392",
+    "U_global_mas_banda": "63211908465892509401484381860881651764462549776380850282762606476105264742433691/81165673924322025472000000000000000000000000000000000000000000000000000000000000"
+   },
+   "argumento": "L-MASA (G, rho<1, combinación kappa_tilde=1/5, phi=1, eta_d=eta_f=1/10) + C5 trasladado a binary64 (N, G rho=1, G rho<1 restante)",
+   "garantia_numerica": "aritmética racional exacta (Fraction); binary64 encerrado por intervalos [min, max](decimal, binary64) y Bernoulli exacta; sin coma flotante en la decisión",
+   "desigualdad": "Fraction(v) > U_global + banda  =>  outside_support (la igualdad no excluye; nunca prueba pertenencia)",
+   "holgura_exacta": "781473289689892685953329981390968068775873094255136045362393523894735257566309/81165673924322025472000000000000000000000000000000000000000000000000000000000000",
+   "holgura": 0.009628125436604268,
+   "cota_U_aceptada_no_decide": {
+    "U_mas_banda": "24238847575590295453758781/29514790517935282585600000",
+    "v_menor_o_igual": true
+   },
+   "ensayo_conexion_finalizador": {
+    "C-a_(-inf,U_global+banda]": "outside_support",
+    "C-b_(-inf,U+banda]": "computed",
+    "C-c_(-inf,v]": "computed"
+   },
+   "estado": "demostracion_candidata_suficiente",
+   "causa": null
+  },
+  {
+   "fila": 8186,
+   "clave_fila": "9c2782cf675d790889a46f269733c51dc1b62f0b23806f6a14cf04223c73d433",
+   "cell_id": "CEL:8a9d1b5f0dafb6c840e30ddecc7a27ccd8f5afbb07b1",
+   "run_destino": "BRUN-1368187e9a43de0d95926dca",
+   "pais": "PER",
+   "conjunto": "PER-E1.micro",
+   "magnitud": {
+    "k": "C2",
+    "target_unit": "share"
+   },
+   "valor_requerido_exacto": "3537073397432819/4503599627370496",
+   "valor_requerido": 0.7853880651238085,
+   "linea_vista_sha256": "93bb989720d2be5047162039b7dc748027af3633f75cb17c7b93ba7712e7f5bb",
+   "estado_vigente": "pendiente_soporte_global",
+   "estado_historico_declarado_aparte": "outside_support",
+   "soporte_a_cubrir": "soporte global C2 (C_2_share, gamma = z_m = 1) de la corrida destino; está contenido en el universo del plan 6cec0a6d… (retícula L0 completa de los diez conjuntos base, 843.750 puntos estructurales por conjunto; diseños G y N; menús d, f, df; tasas en [0, binary64(0,6)]^2 ⊆ [0, 3/5]^2), y la cota cubre ese universo entero, de modo que cubre el soporte de cualquier corrida del plan",
+   "cota": {
+    "U_global_hi": "15432592858721952385078662585664465762806429615972266476412514029254334532321/19815838360430182000000000000000000000000000000000000000000000000000000000000",
+    "U_global": 0.7788009055190399,
+    "banda": "944473296573929/9444732965739290427392",
+    "U_global_mas_banda": "63211908465892509401484381860881651764462549776380850282762606476105264742433691/81165673924322025472000000000000000000000000000000000000000000000000000000000000"
+   },
+   "argumento": "L-MASA (G, rho<1, combinación kappa_tilde=1/5, phi=1, eta_d=eta_f=1/10) + C5 trasladado a binary64 (N, G rho=1, G rho<1 restante)",
+   "garantia_numerica": "aritmética racional exacta (Fraction); binary64 encerrado por intervalos [min, max](decimal, binary64) y Bernoulli exacta; sin coma flotante en la decisión",
+   "desigualdad": "Fraction(v) > U_global + banda  =>  outside_support (la igualdad no excluye; nunca prueba pertenencia)",
+   "holgura_exacta": "534643132000726457335812240270431257126073747331307920362393523894735257566309/81165673924322025472000000000000000000000000000000000000000000000000000000000000",
+   "holgura": 0.006587059604768659,
+   "cota_U_aceptada_no_decide": {
+    "U_mas_banda": "24238847575590295453758781/29514790517935282585600000",
+    "v_menor_o_igual": true
+   },
+   "ensayo_conexion_finalizador": {
+    "C-a_(-inf,U_global+banda]": "outside_support",
+    "C-b_(-inf,U+banda]": "computed",
+    "C-c_(-inf,v]": "computed"
+   },
+   "estado": "demostracion_candidata_suficiente",
+   "causa": null
+  },
+  {
+   "fila": 9578,
+   "clave_fila": "4a16cc773f46a0424a4c4903de1358cebd501a04715f697c62168698d8b4a012",
+   "cell_id": "CEL:361e031833f43dae2a6edf9cfa0617270d813a43519b",
+   "run_destino": "BRUN-cb33e6b24039acc84fb1a065",
+   "pais": "MEX",
+   "conjunto": "CMP-E1.macro",
+   "magnitud": {
+    "k": "C2",
+    "target_unit": "share"
+   },
+   "valor_requerido_exacto": "7051605380861609/9007199254740992",
+   "valor_requerido": 0.7828854654403204,
+   "linea_vista_sha256": "981d500cb3a590fd08c38eada7fd1125923fc060ca7e09cee6fc0114f97f03b3",
+   "estado_vigente": "pendiente_soporte_global",
+   "estado_historico_declarado_aparte": "outside_support",
+   "soporte_a_cubrir": "soporte global C2 (C_2_share, gamma = z_m = 1) de la corrida destino; está contenido en el universo del plan 6cec0a6d… (retícula L0 completa de los diez conjuntos base, 843.750 puntos estructurales por conjunto; diseños G y N; menús d, f, df; tasas en [0, binary64(0,6)]^2 ⊆ [0, 3/5]^2), y la cota cubre ese universo entero, de modo que cubre el soporte de cualquier corrida del plan",
+   "cota": {
+    "U_global_hi": "15432592858721952385078662585664465762806429615972266476412514029254334532321/19815838360430182000000000000000000000000000000000000000000000000000000000000",
+    "U_global": 0.7788009055190399,
+    "banda": "944473296573929/9444732965739290427392",
+    "U_global_mas_banda": "63211908465892509401484381860881651764462549776380850282762606476105264742433691/81165673924322025472000000000000000000000000000000000000000000000000000000000000"
+   },
+   "argumento": "L-MASA (G, rho<1, combinación kappa_tilde=1/5, phi=1, eta_d=eta_f=1/10) + C5 trasladado a binary64 (N, G rho=1, G rho<1 restante)",
+   "garantia_numerica": "aritmética racional exacta (Fraction); binary64 encerrado por intervalos [min, max](decimal, binary64) y Bernoulli exacta; sin coma flotante en la decisión",
+   "desigualdad": "Fraction(v) > U_global + banda  =>  outside_support (la igualdad no excluye; nunca prueba pertenencia)",
+   "holgura_exacta": "331517942127620336636071561697323968441377788240121396924893523894735257566309/81165673924322025472000000000000000000000000000000000000000000000000000000000000",
+   "holgura": 0.004084459921280565,
+   "cota_U_aceptada_no_decide": {
+    "U_mas_banda": "24238847575590295453758781/29514790517935282585600000",
+    "v_menor_o_igual": true
+   },
+   "ensayo_conexion_finalizador": {
+    "C-a_(-inf,U_global+banda]": "outside_support",
+    "C-b_(-inf,U+banda]": "computed",
+    "C-c_(-inf,v]": "computed"
+   },
+   "estado": "demostracion_candidata_suficiente",
+   "causa": null
+  }
+ ],
+ "conexion_minima_futura": {
+  "pieza_existente": "certificacion_fila.py (4741b4ea…) + conexion_captura.adaptar (f7a8d23f…) + _finalize instalado (a8aded1d…)",
+  "cambio": "un tipo de prueba más, «exclusion_cota_U_global», con el mismo esquema que exclusion_cota_U y la cota fija U_global_hi de este certificado (y su sha256) en lugar de U; en adaptar, la rama de exclusión usa c2 = (-inf, U_global_hi + banda]; _finalize no cambia",
+  "condiciones": [
+   "dictamen que acepte L-MASA, el traslado binary64 y este certificado",
+   "la misma magnitud C2/share y la misma banda",
+   "una ronda de conexión/emisión con su propio alcance y acto nativo del autor; no se reutilizan actos consumidos"
+  ],
+  "no_hace": "no se desarrolla otro emisor, no se toca T8 ni la vista vigente en rem144"
+ },
+ "fallos": [],
+ "conforme": true
+}

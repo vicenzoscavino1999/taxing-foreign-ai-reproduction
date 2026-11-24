@@ -1,0 +1,247 @@
+{
+ "kind": "tabla-T5-rem183",
+ "objeto": "T5",
+ "titulo_diseno": "Incidencia: s_P exacta contra el límite, por τ_f",
+ "cita_diseno": {
+  "documento": "PLAN_DISENO_v2_2_30.md",
+  "sha256": "08fc62957ca33f413cb0c82760426b4d57b7d37f24421d6c35d5670a23e47c9a",
+  "linea": 2692
+ },
+ "estado": "candidato de preparación editorial S1 (rem183); fuera del manuscrito; no aceptado; no es exportación oficial",
+ "obligacion_posterior": "T5.tabla_cuerpo",
+ "estado_obligacion_posterior": "etapa_posterior",
+ "fuentes": [
+  {
+   "id": "P_elast_lote2",
+   "ruta": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-ELAST/salida/frontier_result.jsonl",
+   "sha256": "007095a94b7d1fce18aea6214c56c45b370e9a6eb5b0e415da6a0cc09a26ea8c",
+   "bytes": 2355364,
+   "autoridad": [
+    "L_rem121"
+   ]
+  },
+  {
+   "id": "P_phi_lote2",
+   "ruta": "tmp/paso4_lote2_cobertura_desde_rem114/lote2/LOTE2_MANIFIESTO.json",
+   "sha256": "b1cf8af5eab8aa22c53ec279bd5660dbf57847b6be8f874c56af7d71f9cd4bab",
+   "bytes": 1888423,
+   "autoridad": [
+    "L_rem121"
+   ]
+  },
+  {
+   "id": "P_val_e1235",
+   "ruta": "tmp/paso4_conciliacion_portabilidad_desde_rem107/validaciones/resultados_E1235_i1.json",
+   "sha256": "f05c2ba464ab530b5f1dd0fe14e4c73cf7f4c7df9acdc8d929d334299cbb5188",
+   "bytes": 26068,
+   "autoridad": [
+    "D_rem108"
+   ]
+  }
+ ],
+ "controles_selector": [
+  {
+   "selector": "S_ELAST2_SP_EXACTA",
+   "producto": "P_elast_lote2",
+   "filas": 2620,
+   "cardinalidad": 2620,
+   "duplicados": 0,
+   "huella_claves": "68d48d8f430b9ef8784b3988515a26902ea0204b364a484ecebd3f5abd9130d2",
+   "huella_mapa": "68d48d8f430b9ef8784b3988515a26902ea0204b364a484ecebd3f5abd9130d2",
+   "filas_mapa": 2620,
+   "igual_al_mapa": true
+  },
+  {
+   "selector": "S_ELAST2_SP_LIMITE",
+   "producto": "P_elast_lote2",
+   "filas": 975,
+   "cardinalidad": 975,
+   "duplicados": 0,
+   "huella_claves": "16233a8eeb2fe80532cefd191cef6cfb505acf62085ec9f4c56a20dd1a65f29c",
+   "huella_mapa": "16233a8eeb2fe80532cefd191cef6cfb505acf62085ec9f4c56a20dd1a65f29c",
+   "filas_mapa": 975,
+   "igual_al_mapa": true
+  },
+  {
+   "selector": "S_ELAST2_SP_BASE_NO_POSITIVA",
+   "producto": "P_elast_lote2",
+   "filas": 600,
+   "cardinalidad": 600,
+   "duplicados": 0,
+   "huella_claves": "a63851898754f332a5544c8a6138041e807fe94150f011042f4d5ef47ebf429c",
+   "huella_mapa": "a63851898754f332a5544c8a6138041e807fe94150f011042f4d5ef47ebf429c",
+   "filas_mapa": 600,
+   "igual_al_mapa": true
+  },
+  {
+   "selector": "S_ELAST2_TAU_F",
+   "producto": "P_elast_lote2",
+   "filas": 4195,
+   "cardinalidad": 5,
+   "duplicados": 4190,
+   "huella_claves": "68b0671c2e24b52ae2dddf00fd4410d9a78724b9a7e31617f6d9f6967561b6c7"
+  },
+  {
+   "selector": "S_PHI_LOTE2",
+   "producto": "P_phi_lote2",
+   "filas": 399,
+   "cardinalidad": 399,
+   "duplicados": 0,
+   "huella_claves": "ee591f6e41a7c53932373c63901ce88db303e72cac81c36967eeb05a9a59b694",
+   "huella_mapa": "ee591f6e41a7c53932373c63901ce88db303e72cac81c36967eeb05a9a59b694",
+   "filas_mapa": 399,
+   "igual_al_mapa": true
+  },
+  {
+   "selector": "S_E3",
+   "producto": "P_val_e1235",
+   "filas": 3,
+   "cardinalidad": 3,
+   "duplicados": 0,
+   "huella_claves": "026c251a89c3442dc9284effc0d7ea416bb22f1df12463883b60b1e743de8890",
+   "huella_mapa": "026c251a89c3442dc9284effc0d7ea416bb22f1df12463883b60b1e743de8890",
+   "filas_mapa": 3,
+   "igual_al_mapa": true
+  }
+ ],
+ "limites_mapa": [
+  "la base no positiva es un estado, no un cero",
+  "2.620 + 975 + 600 = 4.195"
+ ],
+ "notas_de_garantia": "dato_puntual_malla; E3: validacion_sintetica",
+ "transformaciones_mapa": {
+  "evaluacion_cientifica": "ninguna: el ensamblado solo selecciona, une, agrupa por claves declaradas y da formato a valores aceptados; no recalcula, no reclasifica, no promedia (H12) y no elige celda de referencia",
+  "seleccion": "SP_EXACTA (2.620), SP_LIMITE (975), SP_BASE_NO_POSITIVA (600) de las 4.195 filas del lote 2; S_PHI_LOTE2 (399); S_E3 (3)",
+  "union": "ninguna entre estados; cada fila conserva su estado",
+  "agregacion": "agrupación por τ_f (S_ELAST2_TAU_F) con recuentos por estado",
+  "redondeo": "de presentación, declarado",
+  "formato": "por τ_f: s_P exacta, límite y recuento de bases no positivas"
+ },
+ "condicion_firewall": "Insertar la tabla en main.tex (secciones Quantitative Results/Discussion, marcadas FROZEN en l.720 y l.723) exige la condición del firewall: diseño §8.4, §12.5 (Gate 5), §12.6 (Gate 6), §12.7 (Fase 7, Gate 7) y H11 (l.2090). La preparación fuera del .tex no lo levanta.",
+ "notas": [
+  "BASE_NO_POSITIVA: s_P no definido; tampoco es un límite 1−phi",
+  "las tres partes no se solapan",
+  "anexo por fila en T5_anexo.jsonl / .csv"
+ ],
+ "cuerpo": {
+  "por_tau_f": [
+   {
+    "tau_f": 0.0,
+    "filas": 1575,
+    "EXACTA": 0,
+    "LIMITE_TAU_F_CERO": 975,
+    "BASE_NO_POSITIVA": 600,
+    "s_P_exacta_min": null,
+    "s_P_exacta_max": null
+   },
+   {
+    "tau_f": 0.15,
+    "filas": 655,
+    "EXACTA": 655,
+    "LIMITE_TAU_F_CERO": 0,
+    "BASE_NO_POSITIVA": 0,
+    "s_P_exacta_min": 0.0,
+    "s_P_exacta_max": 1.0000000000000002
+   },
+   {
+    "tau_f": 0.3,
+    "filas": 655,
+    "EXACTA": 655,
+    "LIMITE_TAU_F_CERO": 0,
+    "BASE_NO_POSITIVA": 0,
+    "s_P_exacta_min": 0.0,
+    "s_P_exacta_max": 1.0000000000000002
+   },
+   {
+    "tau_f": 0.44999999999999996,
+    "filas": 655,
+    "EXACTA": 655,
+    "LIMITE_TAU_F_CERO": 0,
+    "BASE_NO_POSITIVA": 0,
+    "s_P_exacta_min": 0.0,
+    "s_P_exacta_max": 1.0
+   },
+   {
+    "tau_f": 0.6,
+    "filas": 655,
+    "EXACTA": 655,
+    "LIMITE_TAU_F_CERO": 0,
+    "BASE_NO_POSITIVA": 0,
+    "s_P_exacta_min": 0.0,
+    "s_P_exacta_max": 1.0
+   }
+  ],
+  "particion": {
+   "LIMITE_TAU_F_CERO": 975,
+   "BASE_NO_POSITIVA": 600,
+   "EXACTA": 2620
+  },
+  "total": 4195,
+  "E3": {
+   "casos": [
+    {
+     "caso": 1,
+     "phi": 0.25,
+     "monotona_hacia_0": true,
+     "razon_ultimos": 0.4999997218453005,
+     "ultima_diferencia": 8.940701690107744e-08,
+     "conforme": true,
+     "_traza": {
+      "producto": "P_val_e1235",
+      "sha256": "f05c2ba464ab530b5f1dd0fe14e4c73cf7f4c7df9acdc8d929d334299cbb5188",
+      "fila": "/E3/filas/0",
+      "clave": [
+       "*"
+      ],
+      "escenario": "padre (escenario base aceptado)",
+      "unidad": "caso E3",
+      "clase_garantia": "validacion_sintetica"
+     }
+    },
+    {
+     "caso": 2,
+     "phi": 0.5,
+     "monotona_hacia_0": true,
+     "razon_ultimos": 0.49999976158164827,
+     "ultima_diferencia": 1.192093463942001e-07,
+     "conforme": true,
+     "_traza": {
+      "producto": "P_val_e1235",
+      "sha256": "f05c2ba464ab530b5f1dd0fe14e4c73cf7f4c7df9acdc8d929d334299cbb5188",
+      "fila": "/E3/filas/1",
+      "clave": [
+       "*"
+      ],
+      "escenario": "padre (escenario base aceptado)",
+      "unidad": "caso E3",
+      "clase_garantia": "validacion_sintetica"
+     }
+    },
+    {
+     "caso": 3,
+     "phi": 0.75,
+     "monotona_hacia_0": true,
+     "razon_ultimos": 0.49999980131800864,
+     "ultima_diferencia": 8.940700269022273e-08,
+     "conforme": true,
+     "_traza": {
+      "producto": "P_val_e1235",
+      "sha256": "f05c2ba464ab530b5f1dd0fe14e4c73cf7f4c7df9acdc8d929d334299cbb5188",
+      "fila": "/E3/filas/2",
+      "clave": [
+       "*"
+      ],
+      "escenario": "padre (escenario base aceptado)",
+      "unidad": "caso E3",
+      "clase_garantia": "validacion_sintetica"
+     }
+    }
+   ],
+   "conforme": true,
+   "limites_excluidos": "φ∈{0,1} (s_P=1−φ exacta: «salvo en el límite», C4) y τ_f=0 (model.provider_share devuelve el límite por convenio)",
+   "lectura": "s_P ≠ 1−φ a τ_f finito (φ interior) y la diferencia decrece monótonamente ~ −φ(1−φ)τ_f/2 → 0; no se extrapola a φ∈{0,1}",
+   "nota": "validación sintética citada, no re-ejecutada; no valida empíricamente supuestos"
+  }
+ },
+ "filas": null
+}

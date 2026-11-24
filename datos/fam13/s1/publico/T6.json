@@ -1,0 +1,1582 @@
+{
+ "kind": "tabla-T6-rem183",
+ "objeto": "T6",
+ "titulo_diseno": "Envolvente de λ_π por país, con y sin vértices θ_W<0",
+ "cita_diseno": {
+  "documento": "PLAN_DISENO_v2_2_30.md",
+  "sha256": "08fc62957ca33f413cb0c82760426b4d57b7d37f24421d6c35d5670a23e47c9a",
+  "linea": 2693
+ },
+ "estado": "candidato de preparación editorial S1 (rem183); fuera del manuscrito; no aceptado; no es exportación oficial",
+ "obligacion_posterior": "T6.tabla_cuerpo",
+ "estado_obligacion_posterior": "etapa_posterior",
+ "fuentes": [
+  {
+   "id": "P_lambda_lote1",
+   "ruta": "tmp/paso4_lote1_desde_rem112/lote1_LOTE1_REM112/L1-LAMBDA/salida/lambda_envolvente.jsonl",
+   "sha256": "b1ca755c6af02c185565c8be371ffb2ff069e5a5b2dbe407a99be98dceb3b1ef",
+   "bytes": 18297,
+   "autoridad": [
+    "L_rem113"
+   ]
+  },
+  {
+   "id": "P_lambda_lote2",
+   "ruta": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-LAMBDA/salida/lambda_envolvente.jsonl",
+   "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+   "bytes": 118669,
+   "autoridad": [
+    "L_rem121"
+   ]
+  }
+ ],
+ "controles_selector": [
+  {
+   "selector": "S_LAMBDA1_ENV",
+   "producto": "P_lambda_lote1",
+   "filas": 4,
+   "cardinalidad": 4,
+   "duplicados": 0,
+   "huella_claves": "0013b25cc92ed98a85939216d1a653b852ae7e4d3c074a6e447b2fa930135668",
+   "huella_mapa": "0013b25cc92ed98a85939216d1a653b852ae7e4d3c074a6e447b2fa930135668",
+   "filas_mapa": 4,
+   "igual_al_mapa": true
+  },
+  {
+   "selector": "S_LAMBDA1_PARES",
+   "producto": "P_lambda_lote1",
+   "filas": 4,
+   "cardinalidad": 2,
+   "duplicados": 2,
+   "huella_claves": "9f2d569e08c0d6469da5c20e4ee27e8851870edbd55569a37b48a1395edb6d64",
+   "huella_mapa": "9f2d569e08c0d6469da5c20e4ee27e8851870edbd55569a37b48a1395edb6d64",
+   "filas_mapa": 4,
+   "igual_al_mapa": true
+  },
+  {
+   "selector": "S_LAMBDA1_CON_NEG",
+   "producto": "P_lambda_lote1",
+   "filas": 2,
+   "cardinalidad": 2,
+   "duplicados": 0,
+   "huella_claves": "4d457426101e9a00716627eaeee4a15f875bf2ec118672353ee996c61a32b205",
+   "huella_mapa": "4d457426101e9a00716627eaeee4a15f875bf2ec118672353ee996c61a32b205",
+   "filas_mapa": 2,
+   "igual_al_mapa": true
+  },
+  {
+   "selector": "S_LAMBDA1_SIN_NEG",
+   "producto": "P_lambda_lote1",
+   "filas": 0,
+   "cardinalidad": 0,
+   "duplicados": 0,
+   "huella_claves": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "huella_mapa": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "filas_mapa": 0,
+   "igual_al_mapa": true
+  },
+  {
+   "selector": "S_LAMBDA2_ENV",
+   "producto": "P_lambda_lote2",
+   "filas": 24,
+   "cardinalidad": 24,
+   "duplicados": 0,
+   "huella_claves": "e091e3f5e4394b2fd9a69520f3260aaeef76b80a294d6c292e3b45c952c75d8d",
+   "huella_mapa": "e091e3f5e4394b2fd9a69520f3260aaeef76b80a294d6c292e3b45c952c75d8d",
+   "filas_mapa": 24,
+   "igual_al_mapa": true
+  },
+  {
+   "selector": "S_LAMBDA2_PARES",
+   "producto": "P_lambda_lote2",
+   "filas": 24,
+   "cardinalidad": 12,
+   "duplicados": 12,
+   "huella_claves": "ae8286cd9592b912cdcf63110a5cc0b1eccb2a8c46bd68002982577bb6b021b3",
+   "huella_mapa": "ae8286cd9592b912cdcf63110a5cc0b1eccb2a8c46bd68002982577bb6b021b3",
+   "filas_mapa": 24,
+   "igual_al_mapa": true
+  },
+  {
+   "selector": "S_LAMBDA2_CON_NEG",
+   "producto": "P_lambda_lote2",
+   "filas": 12,
+   "cardinalidad": 12,
+   "duplicados": 0,
+   "huella_claves": "fb865be2c78299969693521078799c2286a21bc30881d7eb38df98177d60ff41",
+   "huella_mapa": "fb865be2c78299969693521078799c2286a21bc30881d7eb38df98177d60ff41",
+   "filas_mapa": 12,
+   "igual_al_mapa": true
+  },
+  {
+   "selector": "S_LAMBDA2_SIN_NEG",
+   "producto": "P_lambda_lote2",
+   "filas": 0,
+   "cardinalidad": 0,
+   "duplicados": 0,
+   "huella_claves": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "huella_mapa": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "filas_mapa": 0,
+   "igual_al_mapa": true
+  }
+ ],
+ "limites_mapa": [
+  "cada par (conjunto, país) tiene una envolvente «con» y una «sin» (PARES 2/12): la variante «sin» tiene 2 + 12 = 14 envolventes, igual que la variante «con»",
+  "CON_NEG 2/12: todas las envolventes «con» contienen vértices θ_W<0; SIN_NEG 0/0 es la comprobación de que ninguna envolvente «sin» los contiene, no una columna vacía"
+ ],
+ "notas_de_garantia": "aritmetica_exacta",
+ "transformaciones_mapa": {
+  "evaluacion_cientifica": "ninguna: el ensamblado solo selecciona, une, agrupa por claves declaradas y da formato a valores aceptados; no recalcula, no reclasifica, no promedia (H12) y no elige celda de referencia",
+  "seleccion": "LAMBDA1_ENV (4) y LAMBDA2_ENV (24); pares 2/12; CON_NEG 2/12; SIN_NEG 0/0",
+  "union": "lote 1 y lote 2 por (conjunto, país, variante), sin mezclar variantes",
+  "agregacion": "ninguna",
+  "redondeo": "de presentación, declarado",
+  "formato": "λ_min, λ_max, alcanzado y estado por conjunto y variante"
+ },
+ "condicion_firewall": "Insertar la tabla en main.tex (secciones Quantitative Results/Discussion, marcadas FROZEN en l.720 y l.723) exige la condición del firewall: diseño §8.4, §12.5 (Gate 5), §12.6 (Gate 6), §12.7 (Fase 7, Gate 7) y H11 (l.2090). La preparación fuera del .tex no lo levanta.",
+ "notas": [
+  "lambda_pi no se recalcula; valores racionales almacenados"
+ ],
+ "cuerpo": {
+  "envolventes": 28,
+  "por_variante": {
+   "con": 14,
+   "sin": 14
+  },
+  "pares": 14,
+  "pares_completos_con_sin": 14,
+  "con_vertices_negativos": {
+   "con": 14
+  }
+ },
+ "filas": [
+  {
+   "lote": "lote1",
+   "pais": "PER",
+   "conjunto": "PER-E1.macro",
+   "variante": "con",
+   "lambda_min": "29607630768625/53030370417936",
+   "lambda_max": "1550150402465/1212989173248",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": true,
+   "theta_W_en_min": "1",
+   "theta_W_en_max": "-1/5",
+   "testigo_min": {
+    "eta_w": "1",
+    "eta_H": "-1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "2/5",
+    "eta_H": "-1/2",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote1",
+    "sha256": "b1ca755c6af02c185565c8be371ffb2ff069e5a5b2dbe407a99be98dceb3b1ef",
+    "fila": 1,
+    "clave": [
+     "PER-E1.macro",
+     "PER",
+     "con"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA1_CON_NEG o S_LAMBDA1_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote1",
+   "pais": "PER",
+   "conjunto": "PER-E1.macro",
+   "variante": "sin",
+   "lambda_min": "29607630768625/53030370417936",
+   "lambda_max": "1202520/1003439",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": false,
+   "theta_W_en_min": "1",
+   "theta_W_en_max": "0",
+   "testigo_min": {
+    "eta_w": "1",
+    "eta_H": "-1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "1/2",
+    "eta_H": "-1/2",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote1",
+    "sha256": "b1ca755c6af02c185565c8be371ffb2ff069e5a5b2dbe407a99be98dceb3b1ef",
+    "fila": 2,
+    "clave": [
+     "PER-E1.macro",
+     "PER",
+     "sin"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA1_CON_NEG o S_LAMBDA1_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote1",
+   "pais": "PER",
+   "conjunto": "PER-E1.micro",
+   "variante": "con",
+   "lambda_min": "115844501136875/159091111253808",
+   "lambda_max": "1258613675235/808659448832",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": true,
+   "theta_W_en_min": "7/15",
+   "theta_W_en_max": "-9/10",
+   "testigo_min": {
+    "eta_w": "1/5",
+    "eta_H": "1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "1/20",
+    "eta_H": "-1/2",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote1",
+    "sha256": "b1ca755c6af02c185565c8be371ffb2ff069e5a5b2dbe407a99be98dceb3b1ef",
+    "fila": 3,
+    "clave": [
+     "PER-E1.micro",
+     "PER",
+     "con"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA1_CON_NEG o S_LAMBDA1_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote1",
+   "pais": "PER",
+   "conjunto": "PER-E1.micro",
+   "variante": "sin",
+   "lambda_min": "115844501136875/159091111253808",
+   "lambda_max": "16655102947023/14105639040944",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": false,
+   "theta_W_en_min": "7/15",
+   "theta_W_en_max": "1/20",
+   "testigo_min": {
+    "eta_w": "1/5",
+    "eta_H": "1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "1/20",
+    "eta_H": "0",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote1",
+    "sha256": "b1ca755c6af02c185565c8be371ffb2ff069e5a5b2dbe407a99be98dceb3b1ef",
+    "fila": 4,
+    "clave": [
+     "PER-E1.micro",
+     "PER",
+     "sin"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA1_CON_NEG o S_LAMBDA1_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "COL",
+   "conjunto": "CMP-E1.macro|COL",
+   "variante": "con",
+   "lambda_min": "69033368901900/158100910527007",
+   "lambda_max": "7998301044721/6328556818808",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": true,
+   "theta_W_en_min": "1",
+   "theta_W_en_max": "-1/5",
+   "testigo_min": {
+    "eta_w": "1",
+    "eta_H": "-1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "2/5",
+    "eta_H": "-1/2",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 1,
+    "clave": [
+     "CMP-E1.macro|COL",
+     "COL",
+     "con"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "COL",
+   "conjunto": "CMP-E1.macro|COL",
+   "variante": "sin",
+   "lambda_min": "69033368901900/158100910527007",
+   "lambda_max": "7419415/6338248",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": false,
+   "theta_W_en_min": "1",
+   "theta_W_en_max": "0",
+   "testigo_min": {
+    "eta_w": "1",
+    "eta_H": "-1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "1/2",
+    "eta_H": "-1/2",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 2,
+    "clave": [
+     "CMP-E1.macro|COL",
+     "COL",
+     "sin"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "MEX",
+   "conjunto": "CMP-E1.macro|MEX",
+   "variante": "con",
+   "lambda_min": "6845267647925/11146913239249",
+   "lambda_max": "326213524733/254968708832",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": true,
+   "theta_W_en_min": "1",
+   "theta_W_en_max": "-1/5",
+   "testigo_min": {
+    "eta_w": "1",
+    "eta_H": "-1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "2/5",
+    "eta_H": "-1/2",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 3,
+    "clave": [
+     "CMP-E1.macro|MEX",
+     "MEX",
+     "con"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "MEX",
+   "conjunto": "CMP-E1.macro|MEX",
+   "variante": "sin",
+   "lambda_min": "6845267647925/11146913239249",
+   "lambda_max": "308008558925/254968708832",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": false,
+   "theta_W_en_min": "1",
+   "theta_W_en_max": "0",
+   "testigo_min": {
+    "eta_w": "1",
+    "eta_H": "-1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "1/2",
+    "eta_H": "-1/2",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 4,
+    "clave": [
+     "CMP-E1.macro|MEX",
+     "MEX",
+     "sin"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "PER",
+   "conjunto": "CMP-E1.macro|PER",
+   "variante": "con",
+   "lambda_min": "29607630768625/53030370417936",
+   "lambda_max": "1550150402465/1212989173248",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": true,
+   "theta_W_en_min": "1",
+   "theta_W_en_max": "-1/5",
+   "testigo_min": {
+    "eta_w": "1",
+    "eta_H": "-1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "2/5",
+    "eta_H": "-1/2",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 5,
+    "clave": [
+     "CMP-E1.macro|PER",
+     "PER",
+     "con"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "PER",
+   "conjunto": "CMP-E1.macro|PER",
+   "variante": "sin",
+   "lambda_min": "29607630768625/53030370417936",
+   "lambda_max": "1202520/1003439",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": false,
+   "theta_W_en_min": "1",
+   "theta_W_en_max": "0",
+   "testigo_min": {
+    "eta_w": "1",
+    "eta_H": "-1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "1/2",
+    "eta_H": "-1/2",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 6,
+    "clave": [
+     "CMP-E1.macro|PER",
+     "PER",
+     "sin"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "COL",
+   "conjunto": "CMP-E1.micro|COL",
+   "variante": "con",
+   "lambda_min": "301536959546660/474302731581021",
+   "lambda_max": "10064107200617/6328556818808",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": true,
+   "theta_W_en_min": "7/15",
+   "theta_W_en_max": "-9/10",
+   "testigo_min": {
+    "eta_w": "1/5",
+    "eta_H": "1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "1/20",
+    "eta_H": "-1/2",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 7,
+    "clave": [
+     "CMP-E1.micro|COL",
+     "COL",
+     "con"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "COL",
+   "conjunto": "CMP-E1.micro|COL",
+   "variante": "sin",
+   "lambda_min": "301536959546660/474302731581021",
+   "lambda_max": "21464885167837/18648127059184",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": false,
+   "theta_W_en_min": "7/15",
+   "theta_W_en_max": "1/20",
+   "testigo_min": {
+    "eta_w": "1/5",
+    "eta_H": "1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "1/20",
+    "eta_H": "0",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 8,
+    "clave": [
+     "CMP-E1.micro|COL",
+     "COL",
+     "sin"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "MEX",
+   "conjunto": "CMP-E1.micro|MEX",
+   "variante": "con",
+   "lambda_min": "8544397790005/11146913239249",
+   "lambda_max": "389930905061/254968708832",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": true,
+   "theta_W_en_min": "7/15",
+   "theta_W_en_max": "-9/10",
+   "testigo_min": {
+    "eta_w": "1/5",
+    "eta_H": "1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "1/20",
+    "eta_H": "-1/2",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 9,
+    "clave": [
+     "CMP-E1.micro|MEX",
+     "MEX",
+     "con"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "MEX",
+   "conjunto": "CMP-E1.micro|MEX",
+   "variante": "sin",
+   "lambda_min": "8544397790005/11146913239249",
+   "lambda_max": "3426455860873655006713/2873014215469398090496",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": false,
+   "theta_W_en_min": "7/15",
+   "theta_W_en_max": "1/20",
+   "testigo_min": {
+    "eta_w": "1/5",
+    "eta_H": "1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "1/20",
+    "eta_H": "0",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 10,
+    "clave": [
+     "CMP-E1.micro|MEX",
+     "MEX",
+     "sin"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "PER",
+   "conjunto": "CMP-E1.micro|PER",
+   "variante": "con",
+   "lambda_min": "115844501136875/159091111253808",
+   "lambda_max": "1258613675235/808659448832",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": true,
+   "theta_W_en_min": "7/15",
+   "theta_W_en_max": "-9/10",
+   "testigo_min": {
+    "eta_w": "1/5",
+    "eta_H": "1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "1/20",
+    "eta_H": "-1/2",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 11,
+    "clave": [
+     "CMP-E1.micro|PER",
+     "PER",
+     "con"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "PER",
+   "conjunto": "CMP-E1.micro|PER",
+   "variante": "sin",
+   "lambda_min": "115844501136875/159091111253808",
+   "lambda_max": "16655102947023/14105639040944",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": false,
+   "theta_W_en_min": "7/15",
+   "theta_W_en_max": "1/20",
+   "testigo_min": {
+    "eta_w": "1/5",
+    "eta_H": "1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "1/20",
+    "eta_H": "0",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 12,
+    "clave": [
+     "CMP-E1.micro|PER",
+     "PER",
+     "sin"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "COL",
+   "conjunto": "COL-E2-2023.2023p.macro|COL",
+   "variante": "con",
+   "lambda_min": "75845600/158343017",
+   "lambda_max": "1985871/1584562",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": true,
+   "theta_W_en_min": "1",
+   "theta_W_en_max": "-1/5",
+   "testigo_min": {
+    "eta_w": "1",
+    "eta_H": "-1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "2/5",
+    "eta_H": "-1/2",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 13,
+    "clave": [
+     "COL-E2-2023.2023p.macro|COL",
+     "COL",
+     "con"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "COL",
+   "conjunto": "COL-E2-2023.2023p.macro|COL",
+   "variante": "sin",
+   "lambda_min": "75845600/158343017",
+   "lambda_max": "7419415/6338248",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": false,
+   "theta_W_en_min": "1",
+   "theta_W_en_max": "0",
+   "testigo_min": {
+    "eta_w": "1",
+    "eta_H": "-1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "1/2",
+    "eta_H": "-1/2",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 14,
+    "clave": [
+     "COL-E2-2023.2023p.macro|COL",
+     "COL",
+     "sin"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "COL",
+   "conjunto": "COL-E2-2023.2023p.micro|COL",
+   "variante": "con",
+   "lambda_min": "311387840/475029051",
+   "lambda_max": "850237/551152",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": true,
+   "theta_W_en_min": "7/15",
+   "theta_W_en_max": "-9/10",
+   "testigo_min": {
+    "eta_w": "1/5",
+    "eta_H": "1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "1/20",
+    "eta_H": "-1/2",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 15,
+    "clave": [
+     "COL-E2-2023.2023p.micro|COL",
+     "COL",
+     "con"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "COL",
+   "conjunto": "COL-E2-2023.2023p.micro|COL",
+   "variante": "sin",
+   "lambda_min": "311387840/475029051",
+   "lambda_max": "29153591/25352992",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": false,
+   "theta_W_en_min": "7/15",
+   "theta_W_en_max": "1/20",
+   "testigo_min": {
+    "eta_w": "1/5",
+    "eta_H": "1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "1/20",
+    "eta_H": "0",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 16,
+    "clave": [
+     "COL-E2-2023.2023p.micro|COL",
+     "COL",
+     "sin"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "COL",
+   "conjunto": "COL-E2-2023.2024p.macro|COL",
+   "variante": "con",
+   "lambda_min": "5329331/11102464",
+   "lambda_max": "1591287/1269760",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": true,
+   "theta_W_en_min": "1",
+   "theta_W_en_max": "-1/5",
+   "testigo_min": {
+    "eta_w": "1",
+    "eta_H": "-1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "2/5",
+    "eta_H": "-1/2",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 17,
+    "clave": [
+     "COL-E2-2023.2024p.macro|COL",
+     "COL",
+     "con"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "COL",
+   "conjunto": "COL-E2-2023.2024p.macro|COL",
+   "variante": "sin",
+   "lambda_min": "5329331/11102464",
+   "lambda_max": "1486521/1269760",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": false,
+   "theta_W_en_min": "1",
+   "theta_W_en_max": "0",
+   "testigo_min": {
+    "eta_w": "1",
+    "eta_H": "-1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "1/2",
+    "eta_H": "-1/2",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 18,
+    "clave": [
+     "COL-E2-2023.2024p.macro|COL",
+     "COL",
+     "sin"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "COL",
+   "conjunto": "COL-E2-2023.2024p.micro|COL",
+   "variante": "con",
+   "lambda_min": "7284963/11102464",
+   "lambda_max": "122373/79360",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": true,
+   "theta_W_en_min": "7/15",
+   "theta_W_en_max": "-9/10",
+   "testigo_min": {
+    "eta_w": "1/5",
+    "eta_H": "1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "1/20",
+    "eta_H": "-1/2",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 19,
+    "clave": [
+     "COL-E2-2023.2024p.micro|COL",
+     "COL",
+     "con"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "COL",
+   "conjunto": "COL-E2-2023.2024p.micro|COL",
+   "variante": "sin",
+   "lambda_min": "7284963/11102464",
+   "lambda_max": "2920659/2539520",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": false,
+   "theta_W_en_min": "7/15",
+   "theta_W_en_max": "1/20",
+   "testigo_min": {
+    "eta_w": "1/5",
+    "eta_H": "1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "1/20",
+    "eta_H": "0",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 20,
+    "clave": [
+     "COL-E2-2023.2024p.micro|COL",
+     "COL",
+     "sin"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "PER",
+   "conjunto": "PER-E0E3.macro|PER",
+   "variante": "con",
+   "lambda_min": "1665505100/2807620923",
+   "lambda_max": "20377697/16055016",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": true,
+   "theta_W_en_min": "1",
+   "theta_W_en_max": "-1/5",
+   "testigo_min": {
+    "eta_w": "1",
+    "eta_H": "-1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "2/5",
+    "eta_H": "-1/2",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 21,
+    "clave": [
+     "PER-E0E3.macro|PER",
+     "PER",
+     "con"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "PER",
+   "conjunto": "PER-E0E3.macro|PER",
+   "variante": "sin",
+   "lambda_min": "1665505100/2807620923",
+   "lambda_max": "19240335/16055032",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": false,
+   "theta_W_en_min": "1",
+   "theta_W_en_max": "0",
+   "testigo_min": {
+    "eta_w": "1",
+    "eta_H": "-1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "1/2",
+    "eta_H": "-1/2",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 22,
+    "clave": [
+     "PER-E0E3.macro|PER",
+     "PER",
+     "sin"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "PER",
+   "conjunto": "PER-E0E3.micro|PER",
+   "variante": "con",
+   "lambda_min": "6270383140/8422862769",
+   "lambda_max": "12179267/8027508",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": true,
+   "theta_W_en_min": "7/15",
+   "theta_W_en_max": "-9/10",
+   "testigo_min": {
+    "eta_w": "1/5",
+    "eta_H": "1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "1/20",
+    "eta_H": "-1/2",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 23,
+    "clave": [
+     "PER-E0E3.micro|PER",
+     "PER",
+     "con"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  },
+  {
+   "lote": "lote2",
+   "pais": "PER",
+   "conjunto": "PER-E0E3.micro|PER",
+   "variante": "sin",
+   "lambda_min": "6270383140/8422862769",
+   "lambda_max": "37911981/32110064",
+   "lambda_min_alcanzado": true,
+   "lambda_max_alcanzado": true,
+   "estado": "ok",
+   "vertices_theta_W_negativos": false,
+   "theta_W_en_min": "7/15",
+   "theta_W_en_max": "1/20",
+   "testigo_min": {
+    "eta_w": "1/5",
+    "eta_H": "1/2",
+    "pi_iva": "3/2",
+    "pi_otros_productos": "3/2",
+    "pi_produccion": "3/2",
+    "a": "11/10",
+    "rho": "2/5",
+    "kappa_tilde": "1/200"
+   },
+   "testigo_max": {
+    "eta_w": "1/20",
+    "eta_H": "0",
+    "pi_iva": "1/2",
+    "pi_otros_productos": "1/2",
+    "pi_produccion": "1/2",
+    "a": "5/2",
+    "rho": "1",
+    "kappa_tilde": "1/5"
+   },
+   "notas": [],
+   "_traza": {
+    "producto": "P_lambda_lote2",
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "fila": 24,
+    "clave": [
+     "PER-E0E3.micro|PER",
+     "PER",
+     "sin"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "envolvente lambda",
+    "clase_garantia": "aritmetica_exacta",
+    "derivada": {
+     "vertices_theta_W_negativos": "pertenencia a S_LAMBDA2_CON_NEG o S_LAMBDA2_SIN_NEG (filtro algun_lo_negativo del esquema)"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "etiqueta": "CIERRE INF DF PASO4 3.7 NO OFICIAL",
+ "filas": [
+  {
+   "L_punto": 0.0004963025316046729,
+   "U": 0.0004969644829844021,
+   "U_menos_L_global": 9.848898946412422e-05,
+   "admisible": true,
+   "converge": true,
+   "holgura_punto": 6.619513797291197e-07,
+   "incompatible": false,
+   "tau_L_punto": [
+    0.0003308120690941267,
+    0.08996315002441407
+   ],
+   "techo": {
+    "U_C2": 0.0004969644829844021,
+    "cajas": 36047,
+    "estado": "tope_tiempo",
+    "evaluaciones": 216874,
+    "segundos": 300.0,
+    "sup_puntos_U": 0.0004963025316046761,
+    "tau_sup_puntos": [
+     0.0003308120690941267,
+     0.08996315002441407
+    ],
+    "vivas": 11829
+   },
+   "theta": {
+    "a": 2.5,
+    "beta_tilde": 4.0,
+    "eta_d": 4.0,
+    "eta_f": 8.0,
+    "kappa_tilde": 0.005,
+    "phi": 0.990234375,
+    "rho": 0.4,
+    "u_theta": 0.9,
+    "z_cost": 100.0
+   }
+  }
+ ],
+ "parcial": true
+}

@@ -1,0 +1,43 @@
+{
+  "contract_version": "CA2-2X-PRECISION-1",
+  "status": "CANDIDATO PARA REVISIÓN, SIN ACTIVACIÓN",
+  "extends": "CA2-2 (catalogo_contratos.json, ca2.precision_rule_fields / precision_kinds / selector_rule_fields), which remains active and unchanged",
+  "scope": "payload of precision_rule inside a CA2 evidence receipt with role 'precision'; the receipt envelope (facts, outcome, precision_rule, common_conflicts) is unchanged",
+  "dispatch": {
+    "rule_without_contract_version": "CA2-2 semantics: one kind per receipt, one rounding unit per member selector; never re-read per primitive",
+    "rule_with_contract_version=CA2-2X-PRECISION-1": "semantics below; the active CA2-2 validator rejects it (different field set), so no consumer can accept it silently"
+  },
+  "rule_fields": ["contract_version", "kind", "primitives", "selector_rules", "shared_denominator"],
+  "kind": {"values": ["rounding", "exact", "mixed"], "rule": "mixed iff primitives contain both rounding and exact; otherwise the single kind present"},
+  "primitive_fields": {
+    "primitive": "stored cell selector 'Sheet!A1' (no coefficient)",
+    "value": "stored literal (canonical decimal); '0' for a documented exact zero read from a blank cell",
+    "kind": "rounding | exact",
+    "rounding_unit": "canonical positive decimal in the file unit for rounding; null for exact",
+    "domain": "[low, high] canonical decimals; rounding: exactly [value - unit/2, value + unit/2] (closed envelope, no tie rule assumed); exact: [0, 0]",
+    "rule_id": "id in the sealed dossier reglas_publicacion.json",
+    "evidence_ids": "non-empty list of current DB-02 evidence ids resolved for this primitive (rule claim and, for concept-level rules, the concept-cell correspondence claim)",
+    "correspondence": "{sna_code, relation (direct | component_of_<code>), status}",
+    "basis": "institutional_fact | institutional_fact+documented_interpretation",
+    "status": "ok | pending_review (an emitted PASS receipt must contain only ok)"
+  },
+  "selector_rule_fields": {
+    "selector": "member selector exactly as in facts.selectors (same order)",
+    "concept": "member concept",
+    "terms": "[[primitive, coefficient], ...] exactly the parse of the member selector; a composite member can never be a single cell",
+    "member_domain": "affine propagation of the term domains after grouping identical primitives (shared primitives cancel exactly)",
+    "rule_locator": "dossier seal prefix and rule ids"
+  },
+  "shared_denominator": {"concept": "PIB", "member_selector": "the GDP member selector", "primitives": "its primitives; every share of the vector uses this same assignment"},
+  "consumer_checks": [
+    "exact field sets at every level",
+    "primitive domain recomputed from value and unit; value on the declared increment",
+    "exact primitive: value 0, unit null, domain [0,0]; with cells, stored cell blank or 0",
+    "with cells: rounded primitive equals the stored value of a non-formula cell",
+    "terms equal the member selector parse; member domain equals the grouped affine propagation",
+    "every primitive used by some member; shared denominator equals the GDP member terms",
+    "emitted PASS receipts contain no primitive pending review"
+  ],
+  "reference_implementation": "codigo/ca2x.py (validate, interpret)",
+  "compatibility_tests": "codigo/test_cierre_precision.py: HistoricalReceiptsNotReinterpreted, ValidCasesAndRepresentation, NoContradictions"
+}

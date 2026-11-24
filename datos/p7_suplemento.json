@@ -1,0 +1,853 @@
+{
+  "afirmaciones": [
+    {
+      "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:c:COL:conditional_none:G:addback_completo:micro:sensibilidad",
+      "canal_eta_f_aceptado": "parcial_no_robusta_factible",
+      "canal_phi_COV_aceptado": "parcial_no_robusta_factible",
+      "categoria_original": "cambio_de_signo_certificado",
+      "cell_id_faltante": "CEL:0a78787867a78d889ab438431aa38ac1f8f6daea79a8",
+      "cobertura_COV": "solo_inf",
+      "familia": "c",
+      "lado_faltante": "sup",
+      "pais": "COL",
+      "presente": {
+        "COV": {
+          "C2_cov": 0.0003984759189710493,
+          "G_padre": -1.7572346335136937,
+          "K1": 1.7576331094326647,
+          "cell_id": "CEL:f8e64fee59f5be905ea0807df2dd3eec63594bf74a36",
+          "clave_cov": "2f2ec5b8dfcc480a",
+          "error_R": 5.7747793926492905e-09,
+          "error_normalizado": 3.4648676355895744e-09,
+          "g_hi": "-4248732630773973362409471/2417851639229258349412352",
+          "g_hi_float": -1.757234630048826,
+          "g_lo": "-4248732647529045147254785/2417851639229258349412352",
+          "g_lo_float": -1.7572346369785612,
+          "signo_cov_certificado": -1,
+          "signo_padre": -1,
+          "unidad": "799f5b8590ed573075bf9fe6a6f36cf2d98f361b58a93ae7333f0bad7bc16658"
+        },
+        "ENF": {
+          "C2_enf": 0.0003984759189710493,
+          "G_enf": -1.7572346335136937,
+          "G_padre_ENF": -1.7572346335136937,
+          "K1_reutilizado": 1.7576331094326647,
+          "cell_id": "CEL:f8e64fee59f5be905ea0807df2dd3eec63594bf74a36",
+          "clave_transformada_sha256": "334b9a1c0f334ab1",
+          "garantia_clave": {
+            "error_R": 5.7747793926492905e-09,
+            "error_kind": "certified_bound",
+            "estado_fila_historica": "complete",
+            "garantia": "ieee754_binary64_rn",
+            "origen_techo": "T1_recuperado",
+            "resolucion_par": null,
+            "segundos": 12.533,
+            "tarea": "ABL-ENF-T1"
+          },
+          "unidad": "799f5b8590ed573075bf9fe6a6f36cf2d98f361b58a93ae7333f0bad7bc16658"
+        },
+        "ENF_resolucion_aceptada": null,
+        "ENF_techo": {
+          "C_2": 0.0003984759189710493,
+          "error_R": 5.7747793926492905e-09,
+          "error_kind": "certified_bound",
+          "error_normalizado": 3.4648676355895744e-09,
+          "estado": "complete",
+          "garantia": "ieee754_binary64_rn",
+          "origen": "T1_recuperado",
+          "tarea": "ABL-ENF-T1"
+        },
+        "lado": "inf"
+      },
+      "testigo_faltante": "6c79a6e185e1358fb4436f91f6bdc774cea2a0b71da37ac2ce0663d80cbe220a",
+      "unidad_faltante": "S1-G-d"
+    },
+    {
+      "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:G:addback_completo:micro:sensibilidad",
+      "canal_eta_f_aceptado": "parcial_no_robusta_factible",
+      "canal_phi_COV_aceptado": "parcial_no_robusta_factible",
+      "categoria_original": "cambio_de_signo_certificado",
+      "cell_id_faltante": "CEL:0a78787867a78d889ab438431aa38ac1f8f6daea79a8",
+      "cobertura_COV": "solo_inf",
+      "familia": "ci",
+      "lado_faltante": "sup",
+      "pais": "COL",
+      "presente": {
+        "COV": {
+          "C2_cov": 0.0003984759189710493,
+          "G_padre": -1.7572346335136937,
+          "K1": 1.7576331094326647,
+          "cell_id": "CEL:f8e64fee59f5be905ea0807df2dd3eec63594bf74a36",
+          "clave_cov": "2f2ec5b8dfcc480a",
+          "error_R": 5.7747793926492905e-09,
+          "error_normalizado": 3.4648676355895744e-09,
+          "g_hi": "-4248732630773973362409471/2417851639229258349412352",
+          "g_hi_float": -1.757234630048826,
+          "g_lo": "-4248732647529045147254785/2417851639229258349412352",
+          "g_lo_float": -1.7572346369785612,
+          "signo_cov_certificado": -1,
+          "signo_padre": -1,
+          "unidad": "799f5b8590ed573075bf9fe6a6f36cf2d98f361b58a93ae7333f0bad7bc16658"
+        },
+        "ENF": {
+          "C2_enf": 0.0003984759189710493,
+          "G_enf": -1.7572346335136937,
+          "G_padre_ENF": -1.7572346335136937,
+          "K1_reutilizado": 1.7576331094326647,
+          "cell_id": "CEL:f8e64fee59f5be905ea0807df2dd3eec63594bf74a36",
+          "clave_transformada_sha256": "334b9a1c0f334ab1",
+          "garantia_clave": {
+            "error_R": 5.7747793926492905e-09,
+            "error_kind": "certified_bound",
+            "estado_fila_historica": "complete",
+            "garantia": "ieee754_binary64_rn",
+            "origen_techo": "T1_recuperado",
+            "resolucion_par": null,
+            "segundos": 12.533,
+            "tarea": "ABL-ENF-T1"
+          },
+          "unidad": "799f5b8590ed573075bf9fe6a6f36cf2d98f361b58a93ae7333f0bad7bc16658"
+        },
+        "ENF_resolucion_aceptada": null,
+        "ENF_techo": {
+          "C_2": 0.0003984759189710493,
+          "error_R": 5.7747793926492905e-09,
+          "error_kind": "certified_bound",
+          "error_normalizado": 3.4648676355895744e-09,
+          "estado": "complete",
+          "garantia": "ieee754_binary64_rn",
+          "origen": "T1_recuperado",
+          "tarea": "ABL-ENF-T1"
+        },
+        "lado": "inf"
+      },
+      "testigo_faltante": "6c79a6e185e1358fb4436f91f6bdc774cea2a0b71da37ac2ce0663d80cbe220a",
+      "unidad_faltante": "S1-G-d"
+    },
+    {
+      "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:df:conditional_full:G:addback_completo:macro:guardrail_deuda",
+      "canal_eta_f_aceptado": "parcial_no_robusta_infactible",
+      "canal_phi_COV_aceptado": "parcial_no_robusta_infactible",
+      "categoria_original": "cambio_de_signo_certificado",
+      "cell_id_faltante": "CEL:17f4550f7fd79cf8d51aeebcfdb74fa1e414baff76e2",
+      "cobertura_COV": "solo_sup",
+      "familia": "ci",
+      "lado_faltante": "inf",
+      "pais": "MEX",
+      "presente": {
+        "COV": {
+          "C2_cov": 0.7109611856954505,
+          "G_padre": 0.42875662739315096,
+          "K1": 0.36289661914188237,
+          "cell_id": "CEL:5d0d16839184f4dddb426e4837e2f03b04bc264d0492",
+          "clave_cov": "705c001ba112067b",
+          "error_R": 5.180220639111607e-07,
+          "error_normalizado": 4.7092914901014644e-08,
+          "g_hi": "52598037291427971465217/151115727451828646838272",
+          "g_hi_float": 0.34806461364648306,
+          "g_lo": "52598023058467785277439/151115727451828646838272",
+          "g_lo_float": 0.34806451946065325,
+          "signo_cov_certificado": 1,
+          "signo_padre": 1,
+          "unidad": "893fec05c9f42b31fefd8a0b7e538930f2b1b40dac756ef9514342d5e411410a"
+        },
+        "ENF": {
+          "C2_enf": 0.7982494059645469,
+          "G_enf": 0.4353527868226645,
+          "G_padre_ENF": 0.42875662739315096,
+          "K1_reutilizado": 0.36289661914188237,
+          "cell_id": "CEL:5d0d16839184f4dddb426e4837e2f03b04bc264d0492",
+          "clave_transformada_sha256": "d59edf8a9d1461d1",
+          "garantia_clave": {
+            "error_R": 2.4180657476335894e-13,
+            "error_kind": "certified_bound",
+            "estado_fila_historica": "incomplete",
+            "garantia": "ieee754_binary64_rn",
+            "origen_techo": "resolucion_no_alcanzado",
+            "resolucion_par": {
+              "esquema_supremo_no_alcanzado": {
+                "eje_lateral": "tau_d en tau_f = 0.6: low = desde tasas menores (c > 0, FF); high = desde tasas mayores (c < 0, NF)",
+                "sup_lateral_high": 0.0,
+                "sup_lateral_low": [
+                  0.7982494059645449,
+                  0.7982494059645682
+                ],
+                "sup_not_attained": true,
+                "sup_witness": [
+                  {
+                    "branch_id": "FF",
+                    "limit_value": [
+                      0.7982494059645449,
+                      0.7982494059645682
+                    ],
+                    "side": "minus",
+                    "tau_d": [
+                      0.5937443203343036,
+                      0.5937443203343207
+                    ],
+                    "tau_f": 0.6
+                  }
+                ],
+                "tau_d_at_sup": null,
+                "tau_f_at_sup": null
+              },
+              "estado_historico": "incomplete",
+              "resolucion": "no_alcanzado_demostrado",
+              "testigo_lateral": {
+                "eje": "tau_d desde abajo",
+                "lado": "c > 0 (FF, adopción formal)",
+                "limite_R": [
+                  8.780743465609994,
+                  8.780743465610234
+                ],
+                "limite_desde_c_negativo_R": 0.0,
+                "tau_d": [
+                  0.5937443203343036,
+                  0.5937443203343207
+                ],
+                "tau_f": 0.6,
+                "valor_en_la_curva_R": 0.0
+              },
+              "valor_limite_C2": [
+                0.7982494059645449,
+                0.7982494059645682
+              ]
+            },
+            "segundos": 6.925,
+            "tarea": "ABL-ENF-T1"
+          },
+          "unidad": "893fec05c9f42b31fefd8a0b7e538930f2b1b40dac756ef9514342d5e411410a"
+        },
+        "ENF_resolucion_aceptada": {
+          "G_lower": "137968805381688791575585357823/316912650057057350374175801344",
+          "G_upper": "137968805381702724586932535297/316912650057057350374175801344",
+          "clave": "d59edf8a9d1461d1",
+          "cobertura_aceptada": "solo_sup",
+          "conclusion_aceptada": "parcial_no_robusta_infactible",
+          "estado_historico_del_techo": "incomplete",
+          "fuente_cotas": {
+            "fila": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:df:conditional_full:G:addback_completo:macro:guardrail_deuda",
+            "lado": "sup",
+            "sha256": "74342fd08788103af28fcba180e864a91a6c02cd7737d67bb5e94e6123ead571"
+          },
+          "promovido_a_complete": false,
+          "recalculado": false,
+          "resolucion": {
+            "argmax": null,
+            "attained_historico": false,
+            "certificado": {
+              "recalculado_identico": true,
+              "sha256": "cc1aa49abf64585dd500838d1120d02c938a571f4be6fe159e3ab42fc697daaa"
+            },
+            "clave": "d59edf8a9d1461d1",
+            "clave_completa_sha256": "d59edf8a9d1461d135ecb84f7cf0fbf1a332ea182ad1acde96113702f4a8d40e",
+            "estado_historico": "incomplete",
+            "fuente": {
+              "sha256": "500537615c2c0deebebec90165f6aae5fe2e7272b8fe1976ca00376a8c34debf"
+            },
+            "motivo_historico": "SUP_ATTAINMENT_UNDECIDED_AT_JUMP_CURVE",
+            "regla": "supremo no alcanzado demostrado (G, rho = 1, S13; caja cerrada del manifiesto); aceptada en rem129 para esta clave exacta",
+            "resolucion": "no_alcanzado_demostrado",
+            "sup_not_attained": true,
+            "tarea_origen": "ABL-ENF-T1",
+            "testigo_lateral": {
+              "eje": "tau_d desde abajo",
+              "lado": "c > 0 (FF, adopción formal)",
+              "limite_R": [
+                8.780743465609994,
+                8.780743465610234
+              ],
+              "limite_desde_c_negativo_R": 0.0,
+              "tau_d": [
+                0.5937443203343036,
+                0.5937443203343207
+              ],
+              "tau_f": 0.6,
+              "valor_en_la_curva_R": 0.0
+            }
+          }
+        },
+        "ENF_techo": {
+          "C_2": 0.7982494059645469,
+          "error_R": 2.4180657476335894e-13,
+          "error_kind": "certified_bound",
+          "error_normalizado": 2.1982415887578103e-14,
+          "estado": "incomplete",
+          "garantia": "ieee754_binary64_rn",
+          "origen": "resolucion_no_alcanzado",
+          "tarea": "ABL-ENF-T1"
+        },
+        "lado": "sup"
+      },
+      "testigo_faltante": "3ae01c555e324d65fdbd1a07bba092384ba6dfabfe54168543542388751d98e8",
+      "unidad_faltante": "S1-G-df"
+    },
+    {
+      "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:df:conditional_full:N:sin_addback:macro:guardrail_deuda",
+      "canal_eta_f_aceptado": "parcial_no_robusta_infactible",
+      "canal_phi_COV_aceptado": "parcial_no_robusta_infactible",
+      "categoria_original": "cambio_de_signo_certificado",
+      "cell_id_faltante": "CEL:cb64b71ca529ceb2a233c3b2ffdd5f5908d70d36e730",
+      "cobertura_COV": "solo_sup",
+      "familia": "ci",
+      "lado_faltante": "inf",
+      "pais": "MEX",
+      "presente": {
+        "COV": {
+          "C2_cov": 0.5581372620639119,
+          "G_padre": 0.2006857955859394,
+          "K1": 0.3621150184739131,
+          "cell_id": "CEL:1ff9f03fc911c4f4fc15ba5a480b4a59535353aa895a",
+          "clave_cov": "03e73643fdf197b2",
+          "error_R": 3.1208226025647413e-07,
+          "error_normalizado": 2.8371114568770398e-08,
+          "g_hi": "59244096448327684456449/302231454903657293676544",
+          "g_hi_float": 0.19602227196111338,
+          "g_lo": "59244079299041217740799/302231454903657293676544",
+          "g_lo_float": 0.19602221521888424,
+          "signo_cov_certificado": 1,
+          "signo_padre": 1,
+          "unidad": "dc2c7db1ed549e6f5955fc9f5255380e0012ec294cf15d1f0a3aadd89c77dad2"
+        },
+        "ENF": {
+          "C2_enf": 0.5703797259116736,
+          "G_enf": 0.20826470743776054,
+          "G_padre_ENF": 0.2006857955859394,
+          "K1_reutilizado": 0.3621150184739131,
+          "cell_id": "CEL:1ff9f03fc911c4f4fc15ba5a480b4a59535353aa895a",
+          "clave_transformada_sha256": "8437b741f27bef3a",
+          "garantia_clave": {
+            "error_R": 3.0346998325381215e-07,
+            "error_kind": "certified_bound",
+            "estado_fila_historica": "complete",
+            "garantia": "ieee754_binary64_rn",
+            "origen_techo": "T1_recuperado",
+            "resolucion_par": null,
+            "segundos": 0.083,
+            "tarea": "ABL-ENF-T1"
+          },
+          "unidad": "dc2c7db1ed549e6f5955fc9f5255380e0012ec294cf15d1f0a3aadd89c77dad2"
+        },
+        "ENF_resolucion_aceptada": null,
+        "ENF_techo": {
+          "C_2": 0.5703797259116736,
+          "error_R": 3.0346998325381215e-07,
+          "error_kind": "certified_bound",
+          "error_normalizado": 2.7588180295801127e-08,
+          "estado": "complete",
+          "garantia": "ieee754_binary64_rn",
+          "origen": "T1_recuperado",
+          "tarea": "ABL-ENF-T1"
+        },
+        "lado": "sup"
+      },
+      "testigo_faltante": "19b30be06efb62dd5af016887e35bf513a5f3d936a2f2ea1e2057ec6d962dfef",
+      "unidad_faltante": "S1-N-df"
+    },
+    {
+      "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:micro:sensibilidad",
+      "canal_eta_f_aceptado": "parcial_no_robusta_factible",
+      "canal_phi_COV_aceptado": "parcial_no_robusta_factible",
+      "categoria_original": "inconclusa_por_testigos_en_tolerancia",
+      "cell_id_faltante": "CEL:6f743e74b7814d1c1a4301a3801ebfa0192b39a53d0a",
+      "cobertura_COV": "solo_inf",
+      "familia": "ci",
+      "lado_faltante": "sup",
+      "pais": "COL",
+      "presente": {
+        "COV": {
+          "C2_cov": 3.0930799284724314e-05,
+          "G_padre": -1.7094929771264455,
+          "K1": 1.7095239079257303,
+          "cell_id": "CEL:0d48533067396c80576ae7ad8d0d96ccd1ec8d7979ad",
+          "clave_cov": "b454cf4e8221081b",
+          "error_R": 5.409400230561921e-07,
+          "error_normalizado": 4.917636573238113e-08,
+          "g_hi": "-258331267380932808538111/151115727451828646838272",
+          "g_hi_float": -1.70949292795008,
+          "g_lo": "-258331282243577370710017/151115727451828646838272",
+          "g_lo_float": -1.7094930263028112,
+          "signo_cov_certificado": -1,
+          "signo_padre": -1,
+          "unidad": "fe402e6bd0d92cf76334e57f66b75363eeb075d7f2bf88b8fc2012ebba5af8fe"
+        },
+        "ENF": {
+          "C2_enf": 5.8513726587859486e-05,
+          "G_enf": -1.7094653941991425,
+          "G_padre_ENF": -1.7094929771264455,
+          "K1_reutilizado": 1.7095239079257303,
+          "cell_id": "CEL:0d48533067396c80576ae7ad8d0d96ccd1ec8d7979ad",
+          "clave_transformada_sha256": "8a9fbd6ddd9bf9c4",
+          "garantia_clave": {
+            "error_R": 3.230435784393562e-07,
+            "error_kind": "certified_bound",
+            "estado_fila_historica": "complete",
+            "garantia": "ieee754_binary64_rn",
+            "origen_techo": "T1_recuperado",
+            "resolucion_par": null,
+            "segundos": 0.064,
+            "tarea": "ABL-ENF-T1"
+          },
+          "unidad": "fe402e6bd0d92cf76334e57f66b75363eeb075d7f2bf88b8fc2012ebba5af8fe"
+        },
+        "ENF_resolucion_aceptada": null,
+        "ENF_techo": {
+          "C_2": 5.8513726587859486e-05,
+          "error_R": 3.230435784393562e-07,
+          "error_kind": "certified_bound",
+          "error_normalizado": 2.9367598039941497e-08,
+          "estado": "complete",
+          "garantia": "ieee754_binary64_rn",
+          "origen": "T1_recuperado",
+          "tarea": "ABL-ENF-T1"
+        },
+        "lado": "inf"
+      },
+      "testigo_faltante": "4967fc85cd9412d17d5d16256c0afdb5a87c7b636013a073f0795de2f9760f51",
+      "unidad_faltante": "S1-N-f"
+    },
+    {
+      "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:df:conditional_full:G:addback_completo:macro:guardrail_deuda",
+      "canal_eta_f_aceptado": "parcial_no_robusta_infactible",
+      "canal_phi_COV_aceptado": "parcial_no_robusta_infactible",
+      "categoria_original": "cambio_de_signo_certificado",
+      "cell_id_faltante": "CEL:17f4550f7fd79cf8d51aeebcfdb74fa1e414baff76e2",
+      "cobertura_COV": "solo_sup",
+      "familia": "ci",
+      "lado_faltante": "inf",
+      "pais": "MEX",
+      "presente": {
+        "COV": {
+          "C2_cov": 0.7109611856954505,
+          "G_padre": 0.42875662739315096,
+          "K1": 0.36289661914188237,
+          "cell_id": "CEL:5d0d16839184f4dddb426e4837e2f03b04bc264d0492",
+          "clave_cov": "705c001ba112067b",
+          "error_R": 5.180220639111607e-07,
+          "error_normalizado": 4.7092914901014644e-08,
+          "g_hi": "52598037291427971465217/151115727451828646838272",
+          "g_hi_float": 0.34806461364648306,
+          "g_lo": "52598023058467785277439/151115727451828646838272",
+          "g_lo_float": 0.34806451946065325,
+          "signo_cov_certificado": 1,
+          "signo_padre": 1,
+          "unidad": "893fec05c9f42b31fefd8a0b7e538930f2b1b40dac756ef9514342d5e411410a"
+        },
+        "ENF": {
+          "C2_enf": 0.7982494059645469,
+          "G_enf": 0.4353527868226645,
+          "G_padre_ENF": 0.42875662739315096,
+          "K1_reutilizado": 0.36289661914188237,
+          "cell_id": "CEL:5d0d16839184f4dddb426e4837e2f03b04bc264d0492",
+          "clave_transformada_sha256": "d59edf8a9d1461d1",
+          "garantia_clave": {
+            "error_R": 2.4180657476335894e-13,
+            "error_kind": "certified_bound",
+            "estado_fila_historica": "incomplete",
+            "garantia": "ieee754_binary64_rn",
+            "origen_techo": "resolucion_no_alcanzado",
+            "resolucion_par": {
+              "esquema_supremo_no_alcanzado": {
+                "eje_lateral": "tau_d en tau_f = 0.6: low = desde tasas menores (c > 0, FF); high = desde tasas mayores (c < 0, NF)",
+                "sup_lateral_high": 0.0,
+                "sup_lateral_low": [
+                  0.7982494059645449,
+                  0.7982494059645682
+                ],
+                "sup_not_attained": true,
+                "sup_witness": [
+                  {
+                    "branch_id": "FF",
+                    "limit_value": [
+                      0.7982494059645449,
+                      0.7982494059645682
+                    ],
+                    "side": "minus",
+                    "tau_d": [
+                      0.5937443203343036,
+                      0.5937443203343207
+                    ],
+                    "tau_f": 0.6
+                  }
+                ],
+                "tau_d_at_sup": null,
+                "tau_f_at_sup": null
+              },
+              "estado_historico": "incomplete",
+              "resolucion": "no_alcanzado_demostrado",
+              "testigo_lateral": {
+                "eje": "tau_d desde abajo",
+                "lado": "c > 0 (FF, adopción formal)",
+                "limite_R": [
+                  8.780743465609994,
+                  8.780743465610234
+                ],
+                "limite_desde_c_negativo_R": 0.0,
+                "tau_d": [
+                  0.5937443203343036,
+                  0.5937443203343207
+                ],
+                "tau_f": 0.6,
+                "valor_en_la_curva_R": 0.0
+              },
+              "valor_limite_C2": [
+                0.7982494059645449,
+                0.7982494059645682
+              ]
+            },
+            "segundos": 6.925,
+            "tarea": "ABL-ENF-T1"
+          },
+          "unidad": "893fec05c9f42b31fefd8a0b7e538930f2b1b40dac756ef9514342d5e411410a"
+        },
+        "ENF_resolucion_aceptada": {
+          "G_lower": "137968805381688791575585357823/316912650057057350374175801344",
+          "G_upper": "137968805381702724586932535297/316912650057057350374175801344",
+          "clave": "d59edf8a9d1461d1",
+          "cobertura_aceptada": "solo_sup",
+          "conclusion_aceptada": "parcial_no_robusta_infactible",
+          "estado_historico_del_techo": "incomplete",
+          "fuente_cotas": {
+            "fila": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:df:conditional_full:G:addback_completo:macro:guardrail_deuda",
+            "lado": "sup",
+            "sha256": "74342fd08788103af28fcba180e864a91a6c02cd7737d67bb5e94e6123ead571"
+          },
+          "promovido_a_complete": false,
+          "recalculado": false,
+          "resolucion": {
+            "argmax": null,
+            "attained_historico": false,
+            "certificado": {
+              "recalculado_identico": true,
+              "sha256": "cc1aa49abf64585dd500838d1120d02c938a571f4be6fe159e3ab42fc697daaa"
+            },
+            "clave": "d59edf8a9d1461d1",
+            "clave_completa_sha256": "d59edf8a9d1461d135ecb84f7cf0fbf1a332ea182ad1acde96113702f4a8d40e",
+            "estado_historico": "incomplete",
+            "fuente": {
+              "sha256": "500537615c2c0deebebec90165f6aae5fe2e7272b8fe1976ca00376a8c34debf"
+            },
+            "motivo_historico": "SUP_ATTAINMENT_UNDECIDED_AT_JUMP_CURVE",
+            "regla": "supremo no alcanzado demostrado (G, rho = 1, S13; caja cerrada del manifiesto); aceptada en rem129 para esta clave exacta",
+            "resolucion": "no_alcanzado_demostrado",
+            "sup_not_attained": true,
+            "tarea_origen": "ABL-ENF-T1",
+            "testigo_lateral": {
+              "eje": "tau_d desde abajo",
+              "lado": "c > 0 (FF, adopción formal)",
+              "limite_R": [
+                8.780743465609994,
+                8.780743465610234
+              ],
+              "limite_desde_c_negativo_R": 0.0,
+              "tau_d": [
+                0.5937443203343036,
+                0.5937443203343207
+              ],
+              "tau_f": 0.6,
+              "valor_en_la_curva_R": 0.0
+            }
+          }
+        },
+        "ENF_techo": {
+          "C_2": 0.7982494059645469,
+          "error_R": 2.4180657476335894e-13,
+          "error_kind": "certified_bound",
+          "error_normalizado": 2.1982415887578103e-14,
+          "estado": "incomplete",
+          "garantia": "ieee754_binary64_rn",
+          "origen": "resolucion_no_alcanzado",
+          "tarea": "ABL-ENF-T1"
+        },
+        "lado": "sup"
+      },
+      "testigo_faltante": "3ae01c555e324d65fdbd1a07bba092384ba6dfabfe54168543542388751d98e8",
+      "unidad_faltante": "S1-G-df"
+    },
+    {
+      "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:df:conditional_full:N:sin_addback:macro:guardrail_deuda",
+      "canal_eta_f_aceptado": "parcial_no_robusta_infactible",
+      "canal_phi_COV_aceptado": "parcial_no_robusta_infactible",
+      "categoria_original": "cambio_de_signo_certificado",
+      "cell_id_faltante": "CEL:cb64b71ca529ceb2a233c3b2ffdd5f5908d70d36e730",
+      "cobertura_COV": "solo_sup",
+      "familia": "ci",
+      "lado_faltante": "inf",
+      "pais": "MEX",
+      "presente": {
+        "COV": {
+          "C2_cov": 0.5581372620639119,
+          "G_padre": 0.2006857955859394,
+          "K1": 0.3621150184739131,
+          "cell_id": "CEL:1ff9f03fc911c4f4fc15ba5a480b4a59535353aa895a",
+          "clave_cov": "03e73643fdf197b2",
+          "error_R": 3.1208226025647413e-07,
+          "error_normalizado": 2.8371114568770398e-08,
+          "g_hi": "59244096448327684456449/302231454903657293676544",
+          "g_hi_float": 0.19602227196111338,
+          "g_lo": "59244079299041217740799/302231454903657293676544",
+          "g_lo_float": 0.19602221521888424,
+          "signo_cov_certificado": 1,
+          "signo_padre": 1,
+          "unidad": "dc2c7db1ed549e6f5955fc9f5255380e0012ec294cf15d1f0a3aadd89c77dad2"
+        },
+        "ENF": {
+          "C2_enf": 0.5703797259116736,
+          "G_enf": 0.20826470743776054,
+          "G_padre_ENF": 0.2006857955859394,
+          "K1_reutilizado": 0.3621150184739131,
+          "cell_id": "CEL:1ff9f03fc911c4f4fc15ba5a480b4a59535353aa895a",
+          "clave_transformada_sha256": "8437b741f27bef3a",
+          "garantia_clave": {
+            "error_R": 3.0346998325381215e-07,
+            "error_kind": "certified_bound",
+            "estado_fila_historica": "complete",
+            "garantia": "ieee754_binary64_rn",
+            "origen_techo": "T1_recuperado",
+            "resolucion_par": null,
+            "segundos": 0.083,
+            "tarea": "ABL-ENF-T1"
+          },
+          "unidad": "dc2c7db1ed549e6f5955fc9f5255380e0012ec294cf15d1f0a3aadd89c77dad2"
+        },
+        "ENF_resolucion_aceptada": null,
+        "ENF_techo": {
+          "C_2": 0.5703797259116736,
+          "error_R": 3.0346998325381215e-07,
+          "error_kind": "certified_bound",
+          "error_normalizado": 2.7588180295801127e-08,
+          "estado": "complete",
+          "garantia": "ieee754_binary64_rn",
+          "origen": "T1_recuperado",
+          "tarea": "ABL-ENF-T1"
+        },
+        "lado": "sup"
+      },
+      "testigo_faltante": "19b30be06efb62dd5af016887e35bf513a5f3d936a2f2ea1e2057ec6d962dfef",
+      "unidad_faltante": "S1-N-df"
+    }
+  ],
+  "eps": "1/100",
+  "kind": "entradas-suplemento-p7",
+  "manifiesto_p7_sha256_aceptado": "f3d4a848f1ba88f30462877f130275ae3f2eb7d4587055d171277515decfaeeb",
+  "nota": "techos COV/ENF y lado presente tomados como entradas aceptadas (no se recalculan); el K1 de la celda faltante lo aporta el cálculo p7-k1",
+  "regla_union": "suplemento explícito de SIETE filas (una por afirmación); no sobrescribe CONCILIACION_COV.jsonl ni ENF_POR_AFIRMACION.jsonl",
+  "unidades": {
+    "S1-G-d": {
+      "K1_tipo": "reutilizado",
+      "afirmaciones": [
+        {
+          "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:c:COL:conditional_none:G:addback_completo:micro:sensibilidad",
+          "lado": "sup"
+        },
+        {
+          "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:G:addback_completo:micro:sensibilidad",
+          "lado": "sup"
+        }
+      ],
+      "cell_id": "CEL:0a78787867a78d889ab438431aa38ac1f8f6daea79a8",
+      "multiplicidad": 2,
+      "techos": {
+        "COV": {
+          "C_2": 0.5474661219332885,
+          "clave": "71515777d36fa6f0",
+          "error_R": 2.8649354721910193e-07,
+          "error_kind": "certified_bound",
+          "error_normalizado": 2.604486792900929e-08,
+          "estado": "complete",
+          "fuente": {
+            "sha256": "0bae15d406b24773e2ff66c0765a777e0787bff90beb90da21af9927f70de676"
+          },
+          "garantia": "ieee754_binary64_rn",
+          "tarea": "ABL-COV-T1"
+        },
+        "ENF": {
+          "C_2": 0.5474661219332885,
+          "clave": "5c72a56472225d7b",
+          "error_R": 2.8649354721910193e-07,
+          "error_kind": "certified_bound",
+          "error_normalizado": 2.604486792900929e-08,
+          "estado": "complete",
+          "fuente": {
+            "sha256": "31ee1d746870391f227c11df28035b2299ed33a7493f978be9cb111607baac28"
+          },
+          "garantia": "ieee754_binary64_rn",
+          "origen": "T1_recuperado",
+          "producto_origen_sha256": "ee76629337035a5c9179917b1dc3c076fe1ffb60accb358aa7e3d5393026ee74",
+          "tarea": "ABL-ENF-T1",
+          "tarea_origen": "ABL-ENF-T1"
+        },
+        "padre": {
+          "C_2": 0.5474661219332885,
+          "celda_censo": "CEL:c3c4d9efefe0a7add06df6ffa5d77033ccfc8c65f8fc",
+          "error": 2.604486792900929e-08,
+          "error_tipo": "certified_bound (convergencia aceptada: certified_bound_C2_closed_form_K1; método del techo certified_branch_and_bound)",
+          "fuente": {
+            "sha256": "e57397553bc0d5cbf66ca5c985b2c0cdb4effac5c7772868d39014765e007e16"
+          }
+        }
+      }
+    },
+    "S1-G-df": {
+      "K1_tipo": "confrontacion",
+      "afirmaciones": [
+        {
+          "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:df:conditional_full:G:addback_completo:macro:guardrail_deuda",
+          "lado": "inf"
+        },
+        {
+          "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:df:conditional_full:G:addback_completo:macro:guardrail_deuda",
+          "lado": "inf"
+        }
+      ],
+      "cell_id": "CEL:17f4550f7fd79cf8d51aeebcfdb74fa1e414baff76e2",
+      "multiplicidad": 2,
+      "techos": {
+        "COV": {
+          "C_2": 0.0019503979653759111,
+          "clave": "81f3e4b7d6a93c62",
+          "error_R": 8.702987505299523e-08,
+          "error_kind": "certified_bound",
+          "error_normalizado": 4.617077878398338e-08,
+          "estado": "complete",
+          "fuente": {
+            "sha256": "0bae15d406b24773e2ff66c0765a777e0787bff90beb90da21af9927f70de676"
+          },
+          "garantia": "ieee754_binary64_rn",
+          "tarea": "ABL-COV-T3"
+        },
+        "ENF": {
+          "C_2": 0.002014759937711804,
+          "clave": "075cb6d4080fc856",
+          "error_R": 9.215295129291454e-08,
+          "error_kind": "certified_bound",
+          "error_normalizado": 4.888865491126452e-08,
+          "estado": "complete",
+          "fuente": {
+            "sha256": "31ee1d746870391f227c11df28035b2299ed33a7493f978be9cb111607baac28"
+          },
+          "garantia": "ieee754_binary64_rn",
+          "origen": "tarea_completa",
+          "producto_origen_sha256": "7e106a4efa638ba63acfc6c540070a12bea09772f2667dd4bbac8c7a7d92685c",
+          "tarea": "ABL-ENF-T3",
+          "tarea_origen": "ABL-ENF-T3"
+        },
+        "padre": {
+          "C_2": 0.0019214393456644019,
+          "celda_censo": "CEL:8e4763bb8d00f3755d9f56774765c5f34ffde185ba51",
+          "error": 4.9872756738853295e-08,
+          "error_tipo": "certified_bound (convergencia aceptada: certified_bound_C2_closed_form_K1; método del techo certified_branch_and_bound)",
+          "fuente": {
+            "sha256": "8dc16db8ae9b7ab4477f3530afa01a3e391be63e0562536be463153fab6ad080"
+          }
+        }
+      }
+    },
+    "S1-N-df": {
+      "K1_tipo": "confrontacion",
+      "afirmaciones": [
+        {
+          "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:df:conditional_full:N:sin_addback:macro:guardrail_deuda",
+          "lado": "inf"
+        },
+        {
+          "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:df:conditional_full:N:sin_addback:macro:guardrail_deuda",
+          "lado": "inf"
+        }
+      ],
+      "cell_id": "CEL:cb64b71ca529ceb2a233c3b2ffdd5f5908d70d36e730",
+      "multiplicidad": 2,
+      "techos": {
+        "COV": {
+          "C_2": 0.002185616661819879,
+          "clave": "cdb0e9e3e43631b0",
+          "error_R": 9.410383167250712e-08,
+          "error_kind": "certified_bound",
+          "error_normalizado": 4.929248325702754e-08,
+          "estado": "complete",
+          "fuente": {
+            "sha256": "0bae15d406b24773e2ff66c0765a777e0787bff90beb90da21af9927f70de676"
+          },
+          "garantia": "ieee754_binary64_rn",
+          "tarea": "ABL-COV-T2"
+        },
+        "ENF": {
+          "C_2": 0.0022480208932554374,
+          "clave": "57e622fb22a3ad95",
+          "error_R": 8.499292455817335e-08,
+          "error_kind": "certified_bound",
+          "error_normalizado": 4.452010333999557e-08,
+          "estado": "complete",
+          "fuente": {
+            "sha256": "31ee1d746870391f227c11df28035b2299ed33a7493f978be9cb111607baac28"
+          },
+          "garantia": "ieee754_binary64_rn",
+          "origen": "tarea_completa",
+          "producto_origen_sha256": "263ecb9ce3781bc555bdab174067c10293b55c68a703704283bcb128ae454204",
+          "tarea": "ABL-ENF-T2",
+          "tarea_origen": "ABL-ENF-T2"
+        },
+        "padre": {
+          "C_2": 0.0021564980080148364,
+          "celda_censo": "CEL:506b0a1be4b85b7dc3920245478bf112ac4e83daa447",
+          "error": 4.872441517356913e-08,
+          "error_tipo": "certified_bound (convergencia aceptada: certified_bound_C2_closed_form_K1; método del techo certified_branch_and_bound)",
+          "fuente": {
+            "sha256": "f5ebb00caa47702e15c15a027c9160a67fc05c278933539da8c54fb7122960a8"
+          }
+        }
+      }
+    },
+    "S1-N-f": {
+      "K1_tipo": "reutilizado",
+      "afirmaciones": [
+        {
+          "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:micro:sensibilidad",
+          "lado": "sup"
+        }
+      ],
+      "cell_id": "CEL:6f743e74b7814d1c1a4301a3801ebfa0192b39a53d0a",
+      "multiplicidad": 1,
+      "techos": {
+        "COV": {
+          "C_2": 0.1731239887088656,
+          "clave": "22d6a8dcf42be6fb",
+          "error_R": 2.7569860072684783e-07,
+          "error_kind": "certified_bound",
+          "error_normalizado": 2.506350915698619e-08,
+          "estado": "complete",
+          "fuente": {
+            "sha256": "0bae15d406b24773e2ff66c0765a777e0787bff90beb90da21af9927f70de676"
+          },
+          "garantia": "ieee754_binary64_rn",
+          "tarea": "ABL-COV-T1"
+        },
+        "ENF": {
+          "C_2": 0.28656573118569717,
+          "clave": "dff097a9f2c3bfcd",
+          "error_R": 2.0353442725662405e-07,
+          "error_kind": "certified_bound",
+          "error_normalizado": 1.8503129750602202e-08,
+          "estado": "complete",
+          "fuente": {
+            "sha256": "31ee1d746870391f227c11df28035b2299ed33a7493f978be9cb111607baac28"
+          },
+          "garantia": "ieee754_binary64_rn",
+          "origen": "T1_recuperado",
+          "producto_origen_sha256": "ee76629337035a5c9179917b1dc3c076fe1ffb60accb358aa7e3d5393026ee74",
+          "tarea": "ABL-ENF-T1",
+          "tarea_origen": "ABL-ENF-T1"
+        },
+        "padre": {
+          "C_2": 0.27373306096664424,
+          "celda_censo": "CEL:b7367a054ce6a9c88e7b12784d5589cc699a10fae1ba",
+          "error": 2.007881888532737e-08,
+          "error_tipo": "certified_bound (convergencia aceptada: certified_bound_C2_closed_form_K1; método del techo certified_branch_and_bound)",
+          "fuente": {
+            "sha256": "11070830214a73a390e3006edffe099c60af4d1e8cdf455046a11fc45526e031"
+          }
+        }
+      }
+    }
+  }
+}

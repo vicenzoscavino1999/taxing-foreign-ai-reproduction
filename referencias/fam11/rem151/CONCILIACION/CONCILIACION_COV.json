@@ -1,0 +1,57 @@
+{
+ "kind": "conciliacion-cov-por-afirmacion-rem148",
+ "modo": "produccion",
+ "sintetico": false,
+ "manifiesto_sha256": "a38f9e95b83af3fd921f240f26fd1d8a242f46009c770c5123a8b7c72932c9c3",
+ "ensamblado_sha256": "1f0eb893ab4184ed9cf597fe5cec0f68b51a5a9f11f8dcdae84978caa4ae11f4",
+ "enf_por_afirmacion_sha256": "e0670acc74ac1aaf92686b4fd207c11da1aa8636833b140e40c0a08ddc30ac3c",
+ "eps": "1/100",
+ "garantia_K1": "K1_reutilizado = valor binary64 aceptado del padre (mismo que ENF y T7); sin cota numérica adicional declarada en la fuente; K1_error de la fila si existe",
+ "regla": "testigo sup: C2_inf − K1 − eK1 > −eps; testigo inf: C2_sup − K1 + eK1 < eps; cruce del umbral = no decidida; sin margen 1e-4",
+ "universo": 1728,
+ "inconclusas": 1712,
+ "robustas": 16,
+ "canal_phi": {
+  "inconclusa_preservada": 1693,
+  "no_decidida_por_testigos": 28,
+  "parcial_no_robusta_factible": 3,
+  "parcial_no_robusta_infactible": 4
+ },
+ "canal_phi_inconclusas": {
+  "inconclusa_preservada": 1693,
+  "no_decidida_por_testigos": 12,
+  "parcial_no_robusta_factible": 3,
+  "parcial_no_robusta_infactible": 4
+ },
+ "canal_phi_robustas": {
+  "no_decidida_por_testigos": 16
+ },
+ "cruce_eta_f_phi": {
+  "inconclusa_preservada | inconclusa_preservada": 1693,
+  "inconclusa_preservada | no_decidida_por_testigos": 12,
+  "parcial_no_robusta_factible | parcial_no_robusta_factible": 3,
+  "parcial_no_robusta_infactible | parcial_no_robusta_infactible": 4,
+  "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte) | no_decidida_por_testigos": 16
+ },
+ "por_pais": {
+  "-": {
+   "inconclusa_preservada": 128
+  },
+  "COL": {
+   "inconclusa_preservada": 465,
+   "no_decidida_por_testigos": 12,
+   "parcial_no_robusta_factible": 3
+  },
+  "MEX": {
+   "inconclusa_preservada": 300,
+   "parcial_no_robusta_infactible": 4,
+   "no_decidida_por_testigos": 16
+  },
+  "PER": {
+   "inconclusa_preservada": 800
+  }
+ },
+ "cambios_de_signo_certificados": 20,
+ "nota": "contraste finito del modelo (phi/2, resto fijo); no causalidad, no canal dominante, no ordenación frente a eta_f/2",
+ "producto_sha256": "5ba0142304deb949777ad3ae3443556250f2237d214cb4e4fb0d427aa5ea049f"
+}

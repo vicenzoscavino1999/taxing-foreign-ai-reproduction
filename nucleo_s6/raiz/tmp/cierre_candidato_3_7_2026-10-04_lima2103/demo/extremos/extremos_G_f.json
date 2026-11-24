@@ -1,0 +1,4875 @@
+{
+ "C2_G": {
+  "caja": [
+   -2e-323,
+   0.2737330609666464
+  ],
+  "p_inf": [
+   2.9195413397042297e-05,
+   8.974478633468374e-05
+  ],
+  "p_sup": [
+   0.27373306096664307,
+   0.2738140726535289
+  ]
+ },
+ "C2_N": {
+  "caja": [
+   -2e-323,
+   0.2737330609666464
+  ],
+  "p_inf": [
+   2.9195413397042297e-05,
+   8.974478633468374e-05
+  ],
+  "p_sup": [
+   0.27373306096664307,
+   0.2738140726535289
+  ]
+ },
+ "T2_G": 0.0001,
+ "afirmaciones": {
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -2.4339428908031255,
+    -2.433853146016785
+   ],
+   "sup_G": [
+    0.18070797873779182,
+    0.1807079787377954
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634726779e-05,
+   "brecha_sup": 3.8441472227646045e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -5.641040177645523,
+    -5.640950432859175
+   ],
+   "sup_G": [
+    0.0581330038064792,
+    0.05813300380648304
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 8.974478634016236e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -2.245080081457649,
+    -2.2449903366713087
+   ],
+   "sup_G": [
+    0.18792629862348872,
+    0.1879262986234923
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -2.339511486130387,
+    -2.3394217413440463
+   ],
+   "sup_G": [
+    0.18431713868064029,
+    0.18431713868064387
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7785266655117058,
+    -1.7784369207253674
+   ],
+   "sup_G": [
+    0.19815891519178322,
+    0.1981589151917868
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 8.974478634549143e-05,
+   "brecha_sup": 3.774758283725532e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -4.122011414103049,
+    -4.121921669316704
+   ],
+   "sup_G": [
+    0.09857825584853587,
+    0.09857825584853964
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.640521150339759,
+    -1.6404314055534206
+   ],
+   "sup_G": [
+    0.20402312241655293,
+    0.20402312241655648
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7095239079257323,
+    -1.709434163139394
+   ],
+   "sup_G": [
+    0.2010910188041681,
+    0.20109101880417166
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -2.4239219208114404,
+    -2.4238321760251
+   ],
+   "sup_G": [
+    0.18109097932544396,
+    0.18109097932544757
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634726779e-05,
+   "brecha_sup": 3.8441472227646045e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -5.6310192076538375,
+    -5.63092946286749
+   ],
+   "sup_G": [
+    0.05851600439413134,
+    0.058516004394135186
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 8.974478634016236e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -2.235059111465964,
+    -2.234969366679624
+   ],
+   "sup_G": [
+    0.18830929921114084,
+    0.18830929921114445
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -2.3294905161387023,
+    -2.3294007713523617
+   ],
+   "sup_G": [
+    0.1847001392682924,
+    0.184700139268296
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633860805e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.77120415913251,
+    -1.7711144143461715
+   ],
+   "sup_G": [
+    0.19847006721174995,
+    0.19847006721175353
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 8.974478634549143e-05,
+   "brecha_sup": 3.774758283725532e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -4.1146889077238535,
+    -4.114599162937508
+   ],
+   "sup_G": [
+    0.09888940786850263,
+    0.0988894078685064
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633816396e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.633198643960563,
+    -1.6331088991742249
+   ],
+   "sup_G": [
+    0.2043342744365197,
+    0.20433427443652324
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 8.974478633816396e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7022014015465363,
+    -1.7021116567601982
+   ],
+   "sup_G": [
+    0.20140217082413484,
+    0.2014021708241384
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -2.4339428908031255,
+    -2.433853146016785
+   ],
+   "sup_G": [
+    0.18070797873779182,
+    0.1807079787377954
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634726779e-05,
+   "brecha_sup": 3.8441472227646045e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -5.641040177645523,
+    -5.640950432859175
+   ],
+   "sup_G": [
+    0.0581330038064792,
+    0.05813300380648304
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 8.974478634016236e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -2.245080081457649,
+    -2.2449903366713087
+   ],
+   "sup_G": [
+    0.18792629862348872,
+    0.1879262986234923
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -2.339511486130387,
+    -2.3394217413440463
+   ],
+   "sup_G": [
+    0.18431713868064029,
+    0.18431713868064387
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7785266655117058,
+    -1.7784369207253674
+   ],
+   "sup_G": [
+    0.19815891519178322,
+    0.1981589151917868
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 8.974478634549143e-05,
+   "brecha_sup": 3.774758283725532e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -4.122011414103049,
+    -4.121921669316704
+   ],
+   "sup_G": [
+    0.09857825584853587,
+    0.09857825584853964
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.640521150339759,
+    -1.6404314055534206
+   ],
+   "sup_G": [
+    0.20402312241655293,
+    0.20402312241655648
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7095239079257323,
+    -1.709434163139394
+   ],
+   "sup_G": [
+    0.2010910188041681,
+    0.20109101880417166
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -2.4239219208114404,
+    -2.4238321760251
+   ],
+   "sup_G": [
+    0.18109097932544396,
+    0.18109097932544757
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634726779e-05,
+   "brecha_sup": 3.8441472227646045e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -5.6310192076538375,
+    -5.63092946286749
+   ],
+   "sup_G": [
+    0.05851600439413134,
+    0.058516004394135186
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 8.974478634016236e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -2.235059111465964,
+    -2.234969366679624
+   ],
+   "sup_G": [
+    0.18830929921114084,
+    0.18830929921114445
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -2.3294905161387023,
+    -2.3294007713523617
+   ],
+   "sup_G": [
+    0.1847001392682924,
+    0.184700139268296
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633860805e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.77120415913251,
+    -1.7711144143461715
+   ],
+   "sup_G": [
+    0.19847006721174995,
+    0.19847006721175353
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 8.974478634549143e-05,
+   "brecha_sup": 3.774758283725532e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -4.1146889077238535,
+    -4.114599162937508
+   ],
+   "sup_G": [
+    0.09888940786850263,
+    0.0988894078685064
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633816396e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.633198643960563,
+    -1.6331088991742249
+   ],
+   "sup_G": [
+    0.2043342744365197,
+    0.20433427443652324
+   ]
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 8.974478633816396e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7022014015465363,
+    -1.7021116567601982
+   ],
+   "sup_G": [
+    0.20140217082413484,
+    0.2014021708241384
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634105054e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.670036281734148,
+    -2.669946536947807
+   ],
+   "sup_G": [
+    0.18148679467515474,
+    0.18148679467515835
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634904415e-05,
+   "brecha_sup": 3.816391647148976e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -6.188223231508801,
+    -6.188133486722452
+   ],
+   "sup_G": [
+    0.05993803054324264,
+    0.05993803054324646
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.4628537076778323,
+    -2.4627639628914917
+   ],
+   "sup_G": [
+    0.18864468201477622,
+    0.18864468201477982
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 8.974478634105054e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.56644499470599,
+    -2.566355249919649
+   ],
+   "sup_G": [
+    0.1850657383449655,
+    0.1850657383449691
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.8338209673751997,
+    -1.8337312225888613
+   ],
+   "sup_G": [
+    0.20042169878186927,
+    0.20042169878187285
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 8.974478634549143e-05,
+   "brecha_sup": 3.747002708109903e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -4.250164535355581,
+    -4.2500747905692355
+   ],
+   "sup_G": [
+    0.10382260779829773,
+    0.10382260779830148
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633816396e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.6915248678883141,
+    -1.691435123101976
+   ],
+   "sup_G": [
+    0.2061103243743093,
+    0.20611032437431284
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7626729176317568,
+    -1.7625831728454184
+   ],
+   "sup_G": [
+    0.2032660115780893,
+    0.20326601157809285
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634105054e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.659043273822143,
+    -2.6589535290358017
+   ],
+   "sup_G": [
+    0.1818665887409255,
+    0.18186658874092912
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634815597e-05,
+   "brecha_sup": 3.8441472227646045e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -6.177230223596795,
+    -6.177140478810447
+   ],
+   "sup_G": [
+    0.06031782460901341,
+    0.06031782460901725
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.451860699765827,
+    -2.4517709549794864
+   ],
+   "sup_G": [
+    0.18902447608054698,
+    0.1890244760805506
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 8.974478634105054e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.555451986793985,
+    -2.555362242007644
+   ],
+   "sup_G": [
+    0.18544553241073627,
+    0.18544553241073986
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633860805e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.8262708046521436,
+    -1.826181059865805
+   ],
+   "sup_G": [
+    0.20072353452472055,
+    0.2007235345247241
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 8.974478634549143e-05,
+   "brecha_sup": 3.747002708109903e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -4.2426143726325245,
+    -4.242524627846179
+   ],
+   "sup_G": [
+    0.10412444354114901,
+    0.10412444354115276
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.683974705165258,
+    -1.6838849603789197
+   ],
+   "sup_G": [
+    0.20641216011716057,
+    0.20641216011716412
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7551227549087007,
+    -1.7550330101223623
+   ],
+   "sup_G": [
+    0.20356784732094058,
+    0.20356784732094413
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634105054e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.670036281734148,
+    -2.669946536947807
+   ],
+   "sup_G": [
+    0.18148679467515474,
+    0.18148679467515835
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634904415e-05,
+   "brecha_sup": 3.816391647148976e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -6.188223231508801,
+    -6.188133486722452
+   ],
+   "sup_G": [
+    0.05993803054324264,
+    0.05993803054324646
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.4628537076778323,
+    -2.4627639628914917
+   ],
+   "sup_G": [
+    0.18864468201477622,
+    0.18864468201477982
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 8.974478634105054e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.56644499470599,
+    -2.566355249919649
+   ],
+   "sup_G": [
+    0.1850657383449655,
+    0.1850657383449691
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.8338209673751997,
+    -1.8337312225888613
+   ],
+   "sup_G": [
+    0.20042169878186927,
+    0.20042169878187285
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 8.974478634549143e-05,
+   "brecha_sup": 3.747002708109903e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -4.250164535355581,
+    -4.2500747905692355
+   ],
+   "sup_G": [
+    0.10382260779829773,
+    0.10382260779830148
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633816396e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.6915248678883141,
+    -1.691435123101976
+   ],
+   "sup_G": [
+    0.2061103243743093,
+    0.20611032437431284
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7626729176317568,
+    -1.7625831728454184
+   ],
+   "sup_G": [
+    0.2032660115780893,
+    0.20326601157809285
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634105054e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.659043273822143,
+    -2.6589535290358017
+   ],
+   "sup_G": [
+    0.1818665887409255,
+    0.18186658874092912
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634815597e-05,
+   "brecha_sup": 3.8441472227646045e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -6.177230223596795,
+    -6.177140478810447
+   ],
+   "sup_G": [
+    0.06031782460901341,
+    0.06031782460901725
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.451860699765827,
+    -2.4517709549794864
+   ],
+   "sup_G": [
+    0.18902447608054698,
+    0.1890244760805506
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 8.974478634105054e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.555451986793985,
+    -2.555362242007644
+   ],
+   "sup_G": [
+    0.18544553241073627,
+    0.18544553241073986
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633860805e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.8262708046521436,
+    -1.826181059865805
+   ],
+   "sup_G": [
+    0.20072353452472055,
+    0.2007235345247241
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 8.974478634549143e-05,
+   "brecha_sup": 3.747002708109903e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -4.2426143726325245,
+    -4.242524627846179
+   ],
+   "sup_G": [
+    0.10412444354114901,
+    0.10412444354115276
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.683974705165258,
+    -1.6838849603789197
+   ],
+   "sup_G": [
+    0.20641216011716057,
+    0.20641216011716412
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7551227549087007,
+    -1.7550330101223623
+   ],
+   "sup_G": [
+    0.20356784732094058,
+    0.20356784732094413
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.391989340137382,
+    -2.3918995953510414
+   ],
+   "sup_G": [
+    0.15892299288225595,
+    0.15892299288225956
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478635170868e-05,
+   "brecha_sup": 4.246603069191224e-15,
+   "categoria_v4": "robusta_infactible_certificada",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -7.56070315994633,
+    -7.560613415159978
+   ],
+   "sup_G": [
+    -0.08916355817523976,
+    -0.08916355817523551
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.6637359812630166e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.2271935723725123,
+    -2.2271038275861716
+   ],
+   "sup_G": [
+    0.1668328163081483,
+    0.16683281630815197
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.635980405647388e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.309591456254947,
+    -2.3095017114686063
+   ],
+   "sup_G": [
+    0.16287790459520213,
+    0.16287790459520576
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9163208041855815,
+    -1.916231059399243
+   ],
+   "sup_G": [
+    0.17768374428376912,
+    0.17768374428377273
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 8.974478634726779e-05,
+   "brecha_sup": 4.0592529337857286e-15,
+   "categoria_v4": "robusta_infactible_certificada",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -6.057189518597383,
+    -6.057099773811036
+   ],
+   "sup_G": [
+    -0.029863765310677196,
+    -0.029863765310673137
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633816396e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7842961530257992,
+    -1.784206408239461
+   ],
+   "sup_G": [
+    0.18430104839146058,
+    0.1843010483914642
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.8503084786056903,
+    -1.8502187338193519
+   ],
+   "sup_G": [
+    0.18099239633761485,
+    0.18099239633761846
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634105054e-05,
+   "brecha_sup": 3.6637359812630166e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.375705224142845,
+    -2.375615479356504
+   ],
+   "sup_G": [
+    0.15970459355022523,
+    0.1597045935502289
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478635170868e-05,
+   "brecha_sup": 4.191091917959966e-15,
+   "categoria_v4": "robusta_infactible_certificada",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -7.544419043951793,
+    -7.544329299165441
+   ],
+   "sup_G": [
+    -0.08838195750727042,
+    -0.08838195750726623
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.2109094563779754,
+    -2.210819711591635
+   ],
+   "sup_G": [
+    0.16761441697611765,
+    0.16761441697612126
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.635980405647388e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.29330734026041,
+    -2.2932175954740694
+   ],
+   "sup_G": [
+    0.16365950526317144,
+    0.16365950526317508
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9032749307218184,
+    -1.90318518593548
+   ],
+   "sup_G": [
+    0.1783376260498016,
+    0.17833762604980521
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 8.974478634726779e-05,
+   "brecha_sup": 4.0592529337857286e-15,
+   "categoria_v4": "robusta_infactible_certificada",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -6.0441436451336195,
+    -6.044053900347272
+   ],
+   "sup_G": [
+    -0.029209883544644714,
+    -0.029209883544640654
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633816396e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7712502795620362,
+    -1.771160534775698
+   ],
+   "sup_G": [
+    0.1849549301574931,
+    0.18495493015749667
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.8372626051419272,
+    -1.8371728603555888
+   ],
+   "sup_G": [
+    0.18164627810364736,
+    0.18164627810365097
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.391989340137382,
+    -2.3918995953510414
+   ],
+   "sup_G": [
+    0.15892299288225595,
+    0.15892299288225956
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478635170868e-05,
+   "brecha_sup": 4.246603069191224e-15,
+   "categoria_v4": "robusta_infactible_certificada",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -7.56070315994633,
+    -7.560613415159978
+   ],
+   "sup_G": [
+    -0.08916355817523976,
+    -0.08916355817523551
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.6637359812630166e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.2271935723725123,
+    -2.2271038275861716
+   ],
+   "sup_G": [
+    0.1668328163081483,
+    0.16683281630815197
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.635980405647388e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.309591456254947,
+    -2.3095017114686063
+   ],
+   "sup_G": [
+    0.16287790459520213,
+    0.16287790459520576
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9163208041855815,
+    -1.916231059399243
+   ],
+   "sup_G": [
+    0.17768374428376912,
+    0.17768374428377273
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 8.974478634726779e-05,
+   "brecha_sup": 4.0592529337857286e-15,
+   "categoria_v4": "robusta_infactible_certificada",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -6.057189518597383,
+    -6.057099773811036
+   ],
+   "sup_G": [
+    -0.029863765310677196,
+    -0.029863765310673137
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633816396e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7842961530257992,
+    -1.784206408239461
+   ],
+   "sup_G": [
+    0.18430104839146058,
+    0.1843010483914642
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.8503084786056903,
+    -1.8502187338193519
+   ],
+   "sup_G": [
+    0.18099239633761485,
+    0.18099239633761846
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634105054e-05,
+   "brecha_sup": 3.6637359812630166e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.375705224142845,
+    -2.375615479356504
+   ],
+   "sup_G": [
+    0.15970459355022523,
+    0.1597045935502289
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478635170868e-05,
+   "brecha_sup": 4.191091917959966e-15,
+   "categoria_v4": "robusta_infactible_certificada",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -7.544419043951793,
+    -7.544329299165441
+   ],
+   "sup_G": [
+    -0.08838195750727042,
+    -0.08838195750726623
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.2109094563779754,
+    -2.210819711591635
+   ],
+   "sup_G": [
+    0.16761441697611765,
+    0.16761441697612126
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.635980405647388e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.29330734026041,
+    -2.2932175954740694
+   ],
+   "sup_G": [
+    0.16365950526317144,
+    0.16365950526317508
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9032749307218184,
+    -1.90318518593548
+   ],
+   "sup_G": [
+    0.1783376260498016,
+    0.17833762604980521
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 8.974478634726779e-05,
+   "brecha_sup": 4.0592529337857286e-15,
+   "categoria_v4": "robusta_infactible_certificada",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -6.0441436451336195,
+    -6.044053900347272
+   ],
+   "sup_G": [
+    -0.029209883544644714,
+    -0.029209883544640654
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633816396e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7712502795620362,
+    -1.771160534775698
+   ],
+   "sup_G": [
+    0.1849549301574931,
+    0.18495493015749667
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.8372626051419272,
+    -1.8371728603555888
+   ],
+   "sup_G": [
+    0.18164627810364736,
+    0.18164627810365097
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:G:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 8.974478633771987e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.4039788223667362,
+    -1.4038890775803985
+   ],
+   "sup_G": [
+    0.21239604561173903,
+    0.21239604561174255
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:G:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.635980405647388e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.577078492940428,
+    -2.576988748154087
+   ],
+   "sup_G": [
+    0.16114567675965388,
+    0.16114567675965752
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:G:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 8.974478633771987e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.3041454107681776,
+    -1.3040556659818399
+   ],
+   "sup_G": [
+    0.2167575668844251,
+    0.2167575668844286
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:G:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 8.974478633771987e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.354062116567457,
+    -1.3539723717811192
+   ],
+   "sup_G": [
+    0.21457680624808206,
+    0.2145768062480856
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:G:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633705374e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0764901097158268,
+    -1.0764003649294898
+   ],
+   "sup_G": [
+    0.22336992417612983,
+    0.22336992417613333
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:G:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9759553815314488,
+    -1.9758656367451104
+   ],
+   "sup_G": [
+    0.18128881993382084,
+    0.18128881993382442
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:G:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633660965e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -0.9999435988333674,
+    -0.9998538540470308
+   ],
+   "sup_G": [
+    0.22695112047660257,
+    0.22695112047660607
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:G:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 8.974478633705374e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0382168542745973,
+    -1.0381271094882603
+   ],
+   "sup_G": [
+    0.22516052232636619,
+    0.22516052232636968
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478633771987e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.395381519191897,
+    -1.3952917744055593
+   ],
+   "sup_G": [
+    0.21277164452280875,
+    0.21277164452281225
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:G:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.635980405647388e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.568481189765589,
+    -2.568391444979248
+   ],
+   "sup_G": [
+    0.16152127567072358,
+    0.16152127567072722
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:G:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.2955481075933384,
+    -1.2954583628070009
+   ],
+   "sup_G": [
+    0.2171331657954948,
+    0.21713316579549832
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:G:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 8.974478633771987e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.3454648133926177,
+    -1.34537506860628
+   ],
+   "sup_G": [
+    0.21495240515915176,
+    0.21495240515915529
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:G:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633705374e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0698981927363802,
+    -1.0698084479500432
+   ],
+   "sup_G": [
+    0.22367832423810088,
+    0.22367832423810438
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:G:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9693634645520024,
+    -1.969273719765664
+   ],
+   "sup_G": [
+    0.1815972199957919,
+    0.18159721999579548
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:G:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633660965e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -0.9933516818539208,
+    -0.9932619370675841
+   ],
+   "sup_G": [
+    0.2272595205385736,
+    0.2272595205385771
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:G:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 8.97447863368317e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0316249372951505,
+    -1.0315351925088136
+   ],
+   "sup_G": [
+    0.22546892238833724,
+    0.22546892238834074
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:N:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 8.974478633771987e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.4039788223667362,
+    -1.4038890775803985
+   ],
+   "sup_G": [
+    0.21239604561173903,
+    0.21239604561174255
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:N:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.635980405647388e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.577078492940428,
+    -2.576988748154087
+   ],
+   "sup_G": [
+    0.16114567675965388,
+    0.16114567675965752
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:N:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 8.974478633771987e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.3041454107681776,
+    -1.3040556659818399
+   ],
+   "sup_G": [
+    0.2167575668844251,
+    0.2167575668844286
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:N:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 8.974478633771987e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.354062116567457,
+    -1.3539723717811192
+   ],
+   "sup_G": [
+    0.21457680624808206,
+    0.2145768062480856
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:N:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633705374e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0764901097158268,
+    -1.0764003649294898
+   ],
+   "sup_G": [
+    0.22336992417612983,
+    0.22336992417613333
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:N:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9759553815314488,
+    -1.9758656367451104
+   ],
+   "sup_G": [
+    0.18128881993382084,
+    0.18128881993382442
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:N:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633660965e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -0.9999435988333674,
+    -0.9998538540470308
+   ],
+   "sup_G": [
+    0.22695112047660257,
+    0.22695112047660607
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:N:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 8.974478633705374e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0382168542745973,
+    -1.0381271094882603
+   ],
+   "sup_G": [
+    0.22516052232636619,
+    0.22516052232636968
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:N:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478633771987e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.395381519191897,
+    -1.3952917744055593
+   ],
+   "sup_G": [
+    0.21277164452280875,
+    0.21277164452281225
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:N:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.635980405647388e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.568481189765589,
+    -2.568391444979248
+   ],
+   "sup_G": [
+    0.16152127567072358,
+    0.16152127567072722
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:N:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.2955481075933384,
+    -1.2954583628070009
+   ],
+   "sup_G": [
+    0.2171331657954948,
+    0.21713316579549832
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:N:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 8.974478633771987e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.3454648133926177,
+    -1.34537506860628
+   ],
+   "sup_G": [
+    0.21495240515915176,
+    0.21495240515915529
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:N:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633705374e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0698981927363802,
+    -1.0698084479500432
+   ],
+   "sup_G": [
+    0.22367832423810088,
+    0.22367832423810438
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:N:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9693634645520024,
+    -1.969273719765664
+   ],
+   "sup_G": [
+    0.1815972199957919,
+    0.18159721999579548
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:N:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633660965e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -0.9933516818539208,
+    -0.9932619370675841
+   ],
+   "sup_G": [
+    0.2272595205385736,
+    0.2272595205385771
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:f:conditional_full:N:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 8.97447863368317e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0316249372951505,
+    -1.0315351925088136
+   ],
+   "sup_G": [
+    0.22546892238833724,
+    0.22546892238834074
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.4339428908031255,
+    -2.433853146016785
+   ],
+   "sup_G": [
+    0.18070797873779182,
+    0.1807079787377954
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634726779e-05,
+   "brecha_sup": 3.8441472227646045e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -5.641040177645523,
+    -5.640950432859175
+   ],
+   "sup_G": [
+    0.0581330038064792,
+    0.05813300380648304
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 8.974478634016236e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.245080081457649,
+    -2.2449903366713087
+   ],
+   "sup_G": [
+    0.18792629862348872,
+    0.1879262986234923
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.339511486130387,
+    -2.3394217413440463
+   ],
+   "sup_G": [
+    0.18431713868064029,
+    0.18431713868064387
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7785266655117058,
+    -1.7784369207253674
+   ],
+   "sup_G": [
+    0.19815891519178322,
+    0.1981589151917868
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 8.974478634549143e-05,
+   "brecha_sup": 3.774758283725532e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -4.122011414103049,
+    -4.121921669316704
+   ],
+   "sup_G": [
+    0.09857825584853587,
+    0.09857825584853964
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.640521150339759,
+    -1.6404314055534206
+   ],
+   "sup_G": [
+    0.20402312241655293,
+    0.20402312241655648
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7095239079257323,
+    -1.709434163139394
+   ],
+   "sup_G": [
+    0.2010910188041681,
+    0.20109101880417166
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.4239219208114404,
+    -2.4238321760251
+   ],
+   "sup_G": [
+    0.18109097932544396,
+    0.18109097932544757
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634726779e-05,
+   "brecha_sup": 3.8441472227646045e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -5.6310192076538375,
+    -5.63092946286749
+   ],
+   "sup_G": [
+    0.05851600439413134,
+    0.058516004394135186
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 8.974478634016236e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.235059111465964,
+    -2.234969366679624
+   ],
+   "sup_G": [
+    0.18830929921114084,
+    0.18830929921114445
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.3294905161387023,
+    -2.3294007713523617
+   ],
+   "sup_G": [
+    0.1847001392682924,
+    0.184700139268296
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633860805e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.77120415913251,
+    -1.7711144143461715
+   ],
+   "sup_G": [
+    0.19847006721174995,
+    0.19847006721175353
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 8.974478634549143e-05,
+   "brecha_sup": 3.774758283725532e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -4.1146889077238535,
+    -4.114599162937508
+   ],
+   "sup_G": [
+    0.09888940786850263,
+    0.0988894078685064
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633816396e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.633198643960563,
+    -1.6331088991742249
+   ],
+   "sup_G": [
+    0.2043342744365197,
+    0.20433427443652324
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 8.974478633816396e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7022014015465363,
+    -1.7021116567601982
+   ],
+   "sup_G": [
+    0.20140217082413484,
+    0.2014021708241384
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.4339428908031255,
+    -2.433853146016785
+   ],
+   "sup_G": [
+    0.18070797873779182,
+    0.1807079787377954
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634726779e-05,
+   "brecha_sup": 3.8441472227646045e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -5.641040177645523,
+    -5.640950432859175
+   ],
+   "sup_G": [
+    0.0581330038064792,
+    0.05813300380648304
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 8.974478634016236e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.245080081457649,
+    -2.2449903366713087
+   ],
+   "sup_G": [
+    0.18792629862348872,
+    0.1879262986234923
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.339511486130387,
+    -2.3394217413440463
+   ],
+   "sup_G": [
+    0.18431713868064029,
+    0.18431713868064387
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7785266655117058,
+    -1.7784369207253674
+   ],
+   "sup_G": [
+    0.19815891519178322,
+    0.1981589151917868
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 8.974478634549143e-05,
+   "brecha_sup": 3.774758283725532e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -4.122011414103049,
+    -4.121921669316704
+   ],
+   "sup_G": [
+    0.09857825584853587,
+    0.09857825584853964
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.640521150339759,
+    -1.6404314055534206
+   ],
+   "sup_G": [
+    0.20402312241655293,
+    0.20402312241655648
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7095239079257323,
+    -1.709434163139394
+   ],
+   "sup_G": [
+    0.2010910188041681,
+    0.20109101880417166
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.4239219208114404,
+    -2.4238321760251
+   ],
+   "sup_G": [
+    0.18109097932544396,
+    0.18109097932544757
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634726779e-05,
+   "brecha_sup": 3.8441472227646045e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -5.6310192076538375,
+    -5.63092946286749
+   ],
+   "sup_G": [
+    0.05851600439413134,
+    0.058516004394135186
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 8.974478634016236e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.235059111465964,
+    -2.234969366679624
+   ],
+   "sup_G": [
+    0.18830929921114084,
+    0.18830929921114445
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.3294905161387023,
+    -2.3294007713523617
+   ],
+   "sup_G": [
+    0.1847001392682924,
+    0.184700139268296
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633860805e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.77120415913251,
+    -1.7711144143461715
+   ],
+   "sup_G": [
+    0.19847006721174995,
+    0.19847006721175353
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 8.974478634549143e-05,
+   "brecha_sup": 3.774758283725532e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -4.1146889077238535,
+    -4.114599162937508
+   ],
+   "sup_G": [
+    0.09888940786850263,
+    0.0988894078685064
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633816396e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.633198643960563,
+    -1.6331088991742249
+   ],
+   "sup_G": [
+    0.2043342744365197,
+    0.20433427443652324
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 8.974478633816396e-05,
+   "brecha_sup": 3.552713678800501e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7022014015465363,
+    -1.7021116567601982
+   ],
+   "sup_G": [
+    0.20140217082413484,
+    0.2014021708241384
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.391989340137382,
+    -2.3918995953510414
+   ],
+   "sup_G": [
+    0.15892299288225595,
+    0.15892299288225956
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478635170868e-05,
+   "brecha_sup": 4.246603069191224e-15,
+   "categoria_v4": "robusta_infactible_certificada",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -7.56070315994633,
+    -7.560613415159978
+   ],
+   "sup_G": [
+    -0.08916355817523976,
+    -0.08916355817523551
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.6637359812630166e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.2271935723725123,
+    -2.2271038275861716
+   ],
+   "sup_G": [
+    0.1668328163081483,
+    0.16683281630815197
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.635980405647388e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.309591456254947,
+    -2.3095017114686063
+   ],
+   "sup_G": [
+    0.16287790459520213,
+    0.16287790459520576
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9163208041855815,
+    -1.916231059399243
+   ],
+   "sup_G": [
+    0.17768374428376912,
+    0.17768374428377273
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 8.974478634726779e-05,
+   "brecha_sup": 4.0592529337857286e-15,
+   "categoria_v4": "robusta_infactible_certificada",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -6.057189518597383,
+    -6.057099773811036
+   ],
+   "sup_G": [
+    -0.029863765310677196,
+    -0.029863765310673137
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633816396e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7842961530257992,
+    -1.784206408239461
+   ],
+   "sup_G": [
+    0.18430104839146058,
+    0.1843010483914642
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.8503084786056903,
+    -1.8502187338193519
+   ],
+   "sup_G": [
+    0.18099239633761485,
+    0.18099239633761846
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634105054e-05,
+   "brecha_sup": 3.6637359812630166e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.375705224142845,
+    -2.375615479356504
+   ],
+   "sup_G": [
+    0.15970459355022523,
+    0.1597045935502289
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478635170868e-05,
+   "brecha_sup": 4.191091917959966e-15,
+   "categoria_v4": "robusta_infactible_certificada",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -7.544419043951793,
+    -7.544329299165441
+   ],
+   "sup_G": [
+    -0.08838195750727042,
+    -0.08838195750726623
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.2109094563779754,
+    -2.210819711591635
+   ],
+   "sup_G": [
+    0.16761441697611765,
+    0.16761441697612126
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.635980405647388e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.29330734026041,
+    -2.2932175954740694
+   ],
+   "sup_G": [
+    0.16365950526317144,
+    0.16365950526317508
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9032749307218184,
+    -1.90318518593548
+   ],
+   "sup_G": [
+    0.1783376260498016,
+    0.17833762604980521
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 8.974478634726779e-05,
+   "brecha_sup": 4.0592529337857286e-15,
+   "categoria_v4": "robusta_infactible_certificada",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -6.0441436451336195,
+    -6.044053900347272
+   ],
+   "sup_G": [
+    -0.029209883544644714,
+    -0.029209883544640654
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633816396e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7712502795620362,
+    -1.771160534775698
+   ],
+   "sup_G": [
+    0.1849549301574931,
+    0.18495493015749667
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.8372626051419272,
+    -1.8371728603555888
+   ],
+   "sup_G": [
+    0.18164627810364736,
+    0.18164627810365097
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.391989340137382,
+    -2.3918995953510414
+   ],
+   "sup_G": [
+    0.15892299288225595,
+    0.15892299288225956
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478635170868e-05,
+   "brecha_sup": 4.246603069191224e-15,
+   "categoria_v4": "robusta_infactible_certificada",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -7.56070315994633,
+    -7.560613415159978
+   ],
+   "sup_G": [
+    -0.08916355817523976,
+    -0.08916355817523551
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.6637359812630166e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.2271935723725123,
+    -2.2271038275861716
+   ],
+   "sup_G": [
+    0.1668328163081483,
+    0.16683281630815197
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.635980405647388e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.309591456254947,
+    -2.3095017114686063
+   ],
+   "sup_G": [
+    0.16287790459520213,
+    0.16287790459520576
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9163208041855815,
+    -1.916231059399243
+   ],
+   "sup_G": [
+    0.17768374428376912,
+    0.17768374428377273
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 8.974478634726779e-05,
+   "brecha_sup": 4.0592529337857286e-15,
+   "categoria_v4": "robusta_infactible_certificada",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -6.057189518597383,
+    -6.057099773811036
+   ],
+   "sup_G": [
+    -0.029863765310677196,
+    -0.029863765310673137
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633816396e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7842961530257992,
+    -1.784206408239461
+   ],
+   "sup_G": [
+    0.18430104839146058,
+    0.1843010483914642
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.8503084786056903,
+    -1.8502187338193519
+   ],
+   "sup_G": [
+    0.18099239633761485,
+    0.18099239633761846
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634105054e-05,
+   "brecha_sup": 3.6637359812630166e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.375705224142845,
+    -2.375615479356504
+   ],
+   "sup_G": [
+    0.15970459355022523,
+    0.1597045935502289
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478635170868e-05,
+   "brecha_sup": 4.191091917959966e-15,
+   "categoria_v4": "robusta_infactible_certificada",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -7.544419043951793,
+    -7.544329299165441
+   ],
+   "sup_G": [
+    -0.08838195750727042,
+    -0.08838195750726623
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.2109094563779754,
+    -2.210819711591635
+   ],
+   "sup_G": [
+    0.16761441697611765,
+    0.16761441697612126
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.635980405647388e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.29330734026041,
+    -2.2932175954740694
+   ],
+   "sup_G": [
+    0.16365950526317144,
+    0.16365950526317508
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9032749307218184,
+    -1.90318518593548
+   ],
+   "sup_G": [
+    0.1783376260498016,
+    0.17833762604980521
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 8.974478634726779e-05,
+   "brecha_sup": 4.0592529337857286e-15,
+   "categoria_v4": "robusta_infactible_certificada",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -6.0441436451336195,
+    -6.044053900347272
+   ],
+   "sup_G": [
+    -0.029209883544644714,
+    -0.029209883544640654
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633816396e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.7712502795620362,
+    -1.771160534775698
+   ],
+   "sup_G": [
+    0.1849549301574931,
+    0.18495493015749667
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.8372626051419272,
+    -1.8371728603555888
+   ],
+   "sup_G": [
+    0.18164627810364736,
+    0.18164627810365097
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:G:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.3213899346910183,
+    -1.3213001899046808
+   ],
+   "sup_G": [
+    0.21197475892030948,
+    0.211974758920313
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:G:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634016236e-05,
+   "brecha_sup": 3.6637359812630166e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.4254821563046822,
+    -2.425392411518342
+   ],
+   "sup_G": [
+    0.1603723824231945,
+    0.16037238242319815
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:G:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.2274292116867918,
+    -1.2273394669004545
+   ],
+   "sup_G": [
+    0.2163662368326517,
+    0.21636623683265518
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:G:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.2744095731889051,
+    -1.2743198284025676
+   ],
+   "sup_G": [
+    0.2141704978764806,
+    0.2141704978764841
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:G:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0529422498289764,
+    -1.0528525050426392
+   ],
+   "sup_G": [
+    0.22206770383673533,
+    0.22206770383673882
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:G:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 8.97447863388301e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.932732020678414,
+    -1.9326422758920752
+   ],
+   "sup_G": [
+    0.1788985245986918,
+    0.1788985245986954
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:G:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 8.97447863368317e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -0.9780701681835523,
+    -0.9779804233972155
+   ],
+   "sup_G": [
+    0.22574149775838556,
+    0.22574149775838906
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:G:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0155062090062645,
+    -1.0154164642199273
+   ],
+   "sup_G": [
+    0.22390460079756044,
+    0.22390460079756394
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.3132983668555656,
+    -1.313208622069228
+   ],
+   "sup_G": [
+    0.21235293759209356,
+    0.21235293759209709
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:G:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.635980405647388e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.41739058846923,
+    -2.4173008436828893
+   ],
+   "sup_G": [
+    0.16075056109497857,
+    0.1607505610949822
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:G:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.219337643851339,
+    -1.2192478990650018
+   ],
+   "sup_G": [
+    0.21674441550443574,
+    0.21674441550443926
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:G:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.2663180053534522,
+    -1.266228260567115
+   ],
+   "sup_G": [
+    0.21454867654826465,
+    0.21454867654826817
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:G:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0464945288212502,
+    -1.0464047840349129
+   ],
+   "sup_G": [
+    0.22238407808099447,
+    0.222384078080998
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:G:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 8.97447863388301e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9262842996706877,
+    -1.9261945548843489
+   ],
+   "sup_G": [
+    0.17921489884295097,
+    0.17921489884295458
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:G:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633672067e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -0.9716224471758259,
+    -0.9715327023894892
+   ],
+   "sup_G": [
+    0.22605787200264474,
+    0.22605787200264824
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:G:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0090584879985383,
+    -1.008968743212201
+   ],
+   "sup_G": [
+    0.22422097504181962,
+    0.22422097504182312
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:N:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.3213899346910183,
+    -1.3213001899046808
+   ],
+   "sup_G": [
+    0.21197475892030948,
+    0.211974758920313
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:N:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634016236e-05,
+   "brecha_sup": 3.6637359812630166e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.4254821563046822,
+    -2.425392411518342
+   ],
+   "sup_G": [
+    0.1603723824231945,
+    0.16037238242319815
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:N:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.2274292116867918,
+    -1.2273394669004545
+   ],
+   "sup_G": [
+    0.2163662368326517,
+    0.21636623683265518
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:N:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.2744095731889051,
+    -1.2743198284025676
+   ],
+   "sup_G": [
+    0.2141704978764806,
+    0.2141704978764841
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:N:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0529422498289764,
+    -1.0528525050426392
+   ],
+   "sup_G": [
+    0.22206770383673533,
+    0.22206770383673882
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:N:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 8.97447863388301e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.932732020678414,
+    -1.9326422758920752
+   ],
+   "sup_G": [
+    0.1788985245986918,
+    0.1788985245986954
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:N:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 8.97447863368317e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -0.9780701681835523,
+    -0.9779804233972155
+   ],
+   "sup_G": [
+    0.22574149775838556,
+    0.22574149775838906
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:N:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0155062090062645,
+    -1.0154164642199273
+   ],
+   "sup_G": [
+    0.22390460079756044,
+    0.22390460079756394
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:N:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.3132983668555656,
+    -1.313208622069228
+   ],
+   "sup_G": [
+    0.21235293759209356,
+    0.21235293759209709
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:N:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.635980405647388e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.41739058846923,
+    -2.4173008436828893
+   ],
+   "sup_G": [
+    0.16075056109497857,
+    0.1607505610949822
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:N:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.219337643851339,
+    -1.2192478990650018
+   ],
+   "sup_G": [
+    0.21674441550443574,
+    0.21674441550443926
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:N:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.2663180053534522,
+    -1.266228260567115
+   ],
+   "sup_G": [
+    0.21454867654826465,
+    0.21454867654826817
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:N:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0464945288212502,
+    -1.0464047840349129
+   ],
+   "sup_G": [
+    0.22238407808099447,
+    0.222384078080998
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:N:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 8.97447863388301e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9262842996706877,
+    -1.9261945548843489
+   ],
+   "sup_G": [
+    0.17921489884295097,
+    0.17921489884295458
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:N:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633672067e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -0.9716224471758259,
+    -0.9715327023894892
+   ],
+   "sup_G": [
+    0.22605787200264474,
+    0.22605787200264824
+   ]
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:f:conditional_full:N:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0090584879985383,
+    -1.008968743212201
+   ],
+   "sup_G": [
+    0.22422097504181962,
+    0.22422097504182312
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:G:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.3213931638542857,
+    -1.3213034190679482
+   ],
+   "sup_G": [
+    0.21197478060159217,
+    0.2119747806015957
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:G:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634016236e-05,
+   "brecha_sup": 3.6637359812630166e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -2.425488083607199,
+    -2.425398338820859
+   ],
+   "sup_G": [
+    0.16037242222035267,
+    0.16037242222035633
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:G:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.2274322112323612,
+    -1.2273424664460237
+   ],
+   "sup_G": [
+    0.21636625697223275,
+    0.21636625697223624
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:G:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.2744126875433235,
+    -1.274322942756986
+   ],
+   "sup_G": [
+    0.21417051878691246,
+    0.21417051878691598
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:G:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0529438174831127,
+    -1.0528540726967754
+   ],
+   "sup_G": [
+    0.22206773806502442,
+    0.22206773806502791
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:G:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 8.97447863388301e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9327348981917314,
+    -1.9326451534053926
+   ],
+   "sup_G": [
+    0.17889858742655376,
+    0.17889858742655737
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:G:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 8.97447863368317e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -0.978071624365736,
+    -0.9779818795793992
+   ],
+   "sup_G": [
+    0.2257415295527869,
+    0.2257415295527904
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:G:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0155077209244245,
+    -1.0154179761380873
+   ],
+   "sup_G": [
+    0.22390463380890566,
+    0.22390463380890915
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.3133015762449625,
+    -1.313211831458625
+   ],
+   "sup_G": [
+    0.2123529591406103,
+    0.21235295914061383
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:G:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634016236e-05,
+   "brecha_sup": 3.635980405647388e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -2.4173964959978758,
+    -2.4173067512115356
+   ],
+   "sup_G": [
+    0.1607506007593708,
+    0.16075060075937445
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:G:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.2193406236230377,
+    -1.2192508788367005
+   ],
+   "sup_G": [
+    0.21674443551125086,
+    0.21674443551125439
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:G:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.266321099934,
+    -1.2662313551476627
+   ],
+   "sup_G": [
+    0.2145486973259306,
+    0.2145486973259341
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:G:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0464960868758129,
+    -1.0464063420894756
+   ],
+   "sup_G": [
+    0.2223841120996857,
+    0.2223841120996892
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:G:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 8.97447863388301e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9262871675844317,
+    -1.926197422798093
+   ],
+   "sup_G": [
+    0.17921496146121507,
+    0.17921496146121865
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:G:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 8.97447863368317e-05,
+   "brecha_sup": 3.469446951953614e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -0.9716238937584362,
+    -0.9715341489720993
+   ],
+   "sup_G": [
+    0.2260579035874482,
+    0.22605790358745168
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:G:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0090599903171247,
+    -1.0089702455307874
+   ],
+   "sup_G": [
+    0.22422100784356694,
+    0.22422100784357044
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:N:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.3213931638542857,
+    -1.3213034190679482
+   ],
+   "sup_G": [
+    0.21197478060159217,
+    0.2119747806015957
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:N:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634016236e-05,
+   "brecha_sup": 3.6637359812630166e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -2.425488083607199,
+    -2.425398338820859
+   ],
+   "sup_G": [
+    0.16037242222035267,
+    0.16037242222035633
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:N:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.2274322112323612,
+    -1.2273424664460237
+   ],
+   "sup_G": [
+    0.21636625697223275,
+    0.21636625697223624
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:N:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.2744126875433235,
+    -1.274322942756986
+   ],
+   "sup_G": [
+    0.21417051878691246,
+    0.21417051878691598
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:N:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0529438174831127,
+    -1.0528540726967754
+   ],
+   "sup_G": [
+    0.22206773806502442,
+    0.22206773806502791
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:N:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 8.97447863388301e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9327348981917314,
+    -1.9326451534053926
+   ],
+   "sup_G": [
+    0.17889858742655376,
+    0.17889858742655737
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:N:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 8.97447863368317e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -0.978071624365736,
+    -0.9779818795793992
+   ],
+   "sup_G": [
+    0.2257415295527869,
+    0.2257415295527904
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:N:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0155077209244245,
+    -1.0154179761380873
+   ],
+   "sup_G": [
+    0.22390463380890566,
+    0.22390463380890915
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:N:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.3133015762449625,
+    -1.313211831458625
+   ],
+   "sup_G": [
+    0.2123529591406103,
+    0.21235295914061383
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:N:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634016236e-05,
+   "brecha_sup": 3.635980405647388e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -2.4173964959978758,
+    -2.4173067512115356
+   ],
+   "sup_G": [
+    0.1607506007593708,
+    0.16075060075937445
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:N:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.2193406236230377,
+    -1.2192508788367005
+   ],
+   "sup_G": [
+    0.21674443551125086,
+    0.21674443551125439
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:N:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.266321099934,
+    -1.2662313551476627
+   ],
+   "sup_G": [
+    0.2145486973259306,
+    0.2145486973259341
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:N:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0464960868758129,
+    -1.0464063420894756
+   ],
+   "sup_G": [
+    0.2223841120996857,
+    0.2223841120996892
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:N:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 8.97447863388301e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9262871675844317,
+    -1.926197422798093
+   ],
+   "sup_G": [
+    0.17921496146121507,
+    0.17921496146121865
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:N:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 8.97447863368317e-05,
+   "brecha_sup": 3.469446951953614e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -0.9716238937584362,
+    -0.9715341489720993
+   ],
+   "sup_G": [
+    0.2260579035874482,
+    0.22605790358745168
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:f:conditional_full:N:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0090599903171247,
+    -1.0089702455307874
+   ],
+   "sup_G": [
+    0.22422100784356694,
+    0.22422100784357044
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:G:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 8.974478633771987e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.4039788223667362,
+    -1.4038890775803985
+   ],
+   "sup_G": [
+    0.21239604561173903,
+    0.21239604561174255
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:G:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.635980405647388e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.577078492940428,
+    -2.576988748154087
+   ],
+   "sup_G": [
+    0.16114567675965388,
+    0.16114567675965752
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:G:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 8.974478633771987e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.3041454107681776,
+    -1.3040556659818399
+   ],
+   "sup_G": [
+    0.2167575668844251,
+    0.2167575668844286
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:G:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 8.974478633771987e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.354062116567457,
+    -1.3539723717811192
+   ],
+   "sup_G": [
+    0.21457680624808206,
+    0.2145768062480856
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:G:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633705374e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0764901097158268,
+    -1.0764003649294898
+   ],
+   "sup_G": [
+    0.22336992417612983,
+    0.22336992417613333
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:G:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9759553815314488,
+    -1.9758656367451104
+   ],
+   "sup_G": [
+    0.18128881993382084,
+    0.18128881993382442
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:G:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633660965e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -0.9999435988333674,
+    -0.9998538540470308
+   ],
+   "sup_G": [
+    0.22695112047660257,
+    0.22695112047660607
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:G:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 8.974478633705374e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0382168542745973,
+    -1.0381271094882603
+   ],
+   "sup_G": [
+    0.22516052232636619,
+    0.22516052232636968
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478633771987e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.395381519191897,
+    -1.3952917744055593
+   ],
+   "sup_G": [
+    0.21277164452280875,
+    0.21277164452281225
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:G:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.635980405647388e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.568481189765589,
+    -2.568391444979248
+   ],
+   "sup_G": [
+    0.16152127567072358,
+    0.16152127567072722
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:G:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.2955481075933384,
+    -1.2954583628070009
+   ],
+   "sup_G": [
+    0.2171331657954948,
+    0.21713316579549832
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:G:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 8.974478633771987e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.3454648133926177,
+    -1.34537506860628
+   ],
+   "sup_G": [
+    0.21495240515915176,
+    0.21495240515915529
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:G:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633705374e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0698981927363802,
+    -1.0698084479500432
+   ],
+   "sup_G": [
+    0.22367832423810088,
+    0.22367832423810438
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:G:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9693634645520024,
+    -1.969273719765664
+   ],
+   "sup_G": [
+    0.1815972199957919,
+    0.18159721999579548
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:G:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633660965e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -0.9933516818539208,
+    -0.9932619370675841
+   ],
+   "sup_G": [
+    0.2272595205385736,
+    0.2272595205385771
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:G:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 8.97447863368317e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0316249372951505,
+    -1.0315351925088136
+   ],
+   "sup_G": [
+    0.22546892238833724,
+    0.22546892238834074
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:N:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 8.974478633771987e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.4039788223667362,
+    -1.4038890775803985
+   ],
+   "sup_G": [
+    0.21239604561173903,
+    0.21239604561174255
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:N:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.635980405647388e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.577078492940428,
+    -2.576988748154087
+   ],
+   "sup_G": [
+    0.16114567675965388,
+    0.16114567675965752
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:N:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 8.974478633771987e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.3041454107681776,
+    -1.3040556659818399
+   ],
+   "sup_G": [
+    0.2167575668844251,
+    0.2167575668844286
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:N:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 8.974478633771987e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.354062116567457,
+    -1.3539723717811192
+   ],
+   "sup_G": [
+    0.21457680624808206,
+    0.2145768062480856
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:N:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633705374e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0764901097158268,
+    -1.0764003649294898
+   ],
+   "sup_G": [
+    0.22336992417612983,
+    0.22336992417613333
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:N:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9759553815314488,
+    -1.9758656367451104
+   ],
+   "sup_G": [
+    0.18128881993382084,
+    0.18128881993382442
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:N:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633660965e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -0.9999435988333674,
+    -0.9998538540470308
+   ],
+   "sup_G": [
+    0.22695112047660257,
+    0.22695112047660607
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:N:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 8.974478633705374e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0382168542745973,
+    -1.0381271094882603
+   ],
+   "sup_G": [
+    0.22516052232636619,
+    0.22516052232636968
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:N:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478633771987e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.395381519191897,
+    -1.3952917744055593
+   ],
+   "sup_G": [
+    0.21277164452280875,
+    0.21277164452281225
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:N:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.635980405647388e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -2.568481189765589,
+    -2.568391444979248
+   ],
+   "sup_G": [
+    0.16152127567072358,
+    0.16152127567072722
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:N:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.2955481075933384,
+    -1.2954583628070009
+   ],
+   "sup_G": [
+    0.2171331657954948,
+    0.21713316579549832
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:N:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 8.974478633771987e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.3454648133926177,
+    -1.34537506860628
+   ],
+   "sup_G": [
+    0.21495240515915176,
+    0.21495240515915529
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:N:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633705374e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0698981927363802,
+    -1.0698084479500432
+   ],
+   "sup_G": [
+    0.22367832423810088,
+    0.22367832423810438
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:N:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 8.9744786338386e-05,
+   "brecha_sup": 3.58046925441613e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9693634645520024,
+    -1.969273719765664
+   ],
+   "sup_G": [
+    0.1815972199957919,
+    0.18159721999579548
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:N:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633660965e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -0.9933516818539208,
+    -0.9932619370675841
+   ],
+   "sup_G": [
+    0.2272595205385736,
+    0.2272595205385771
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:f:conditional_full:N:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 8.97447863368317e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0316249372951505,
+    -1.0315351925088136
+   ],
+   "sup_G": [
+    0.22546892238833724,
+    0.22546892238834074
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:G:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.3213899346910183,
+    -1.3213001899046808
+   ],
+   "sup_G": [
+    0.21197475892030948,
+    0.211974758920313
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:G:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634016236e-05,
+   "brecha_sup": 3.6637359812630166e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.4254821563046822,
+    -2.425392411518342
+   ],
+   "sup_G": [
+    0.1603723824231945,
+    0.16037238242319815
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:G:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.2274292116867918,
+    -1.2273394669004545
+   ],
+   "sup_G": [
+    0.2163662368326517,
+    0.21636623683265518
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:G:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.2744095731889051,
+    -1.2743198284025676
+   ],
+   "sup_G": [
+    0.2141704978764806,
+    0.2141704978764841
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:G:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0529422498289764,
+    -1.0528525050426392
+   ],
+   "sup_G": [
+    0.22206770383673533,
+    0.22206770383673882
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:G:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 8.97447863388301e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.932732020678414,
+    -1.9326422758920752
+   ],
+   "sup_G": [
+    0.1788985245986918,
+    0.1788985245986954
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:G:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 8.97447863368317e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -0.9780701681835523,
+    -0.9779804233972155
+   ],
+   "sup_G": [
+    0.22574149775838556,
+    0.22574149775838906
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:G:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0155062090062645,
+    -1.0154164642199273
+   ],
+   "sup_G": [
+    0.22390460079756044,
+    0.22390460079756394
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.3132983668555656,
+    -1.313208622069228
+   ],
+   "sup_G": [
+    0.21235293759209356,
+    0.21235293759209709
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:G:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.635980405647388e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.41739058846923,
+    -2.4173008436828893
+   ],
+   "sup_G": [
+    0.16075056109497857,
+    0.1607505610949822
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:G:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.219337643851339,
+    -1.2192478990650018
+   ],
+   "sup_G": [
+    0.21674441550443574,
+    0.21674441550443926
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:G:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.2663180053534522,
+    -1.266228260567115
+   ],
+   "sup_G": [
+    0.21454867654826465,
+    0.21454867654826817
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:G:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0464945288212502,
+    -1.0464047840349129
+   ],
+   "sup_G": [
+    0.22238407808099447,
+    0.222384078080998
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:G:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 8.97447863388301e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9262842996706877,
+    -1.9261945548843489
+   ],
+   "sup_G": [
+    0.17921489884295097,
+    0.17921489884295458
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:G:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633672067e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -0.9716224471758259,
+    -0.9715327023894892
+   ],
+   "sup_G": [
+    0.22605787200264474,
+    0.22605787200264824
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:G:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0090584879985383,
+    -1.008968743212201
+   ],
+   "sup_G": [
+    0.22422097504181962,
+    0.22422097504182312
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:N:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.3213899346910183,
+    -1.3213001899046808
+   ],
+   "sup_G": [
+    0.21197475892030948,
+    0.211974758920313
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:N:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634016236e-05,
+   "brecha_sup": 3.6637359812630166e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.4254821563046822,
+    -2.425392411518342
+   ],
+   "sup_G": [
+    0.1603723824231945,
+    0.16037238242319815
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:N:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.2274292116867918,
+    -1.2273394669004545
+   ],
+   "sup_G": [
+    0.2163662368326517,
+    0.21636623683265518
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:N:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.2744095731889051,
+    -1.2743198284025676
+   ],
+   "sup_G": [
+    0.2141704978764806,
+    0.2141704978764841
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:N:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0529422498289764,
+    -1.0528525050426392
+   ],
+   "sup_G": [
+    0.22206770383673533,
+    0.22206770383673882
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:N:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 8.97447863388301e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.932732020678414,
+    -1.9326422758920752
+   ],
+   "sup_G": [
+    0.1788985245986918,
+    0.1788985245986954
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:N:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 8.97447863368317e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -0.9780701681835523,
+    -0.9779804233972155
+   ],
+   "sup_G": [
+    0.22574149775838556,
+    0.22574149775838906
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:N:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0155062090062645,
+    -1.0154164642199273
+   ],
+   "sup_G": [
+    0.22390460079756044,
+    0.22390460079756394
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:N:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478633749783e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.3132983668555656,
+    -1.313208622069228
+   ],
+   "sup_G": [
+    0.21235293759209356,
+    0.21235293759209709
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:N:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478634060645e-05,
+   "brecha_sup": 3.635980405647388e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -2.41739058846923,
+    -2.4173008436828893
+   ],
+   "sup_G": [
+    0.16075056109497857,
+    0.1607505610949822
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:N:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.219337643851339,
+    -1.2192478990650018
+   ],
+   "sup_G": [
+    0.21674441550443574,
+    0.21674441550443926
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:N:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.2663180053534522,
+    -1.266228260567115
+   ],
+   "sup_G": [
+    0.21454867654826465,
+    0.21454867654826817
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:N:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.524958103184872e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0464945288212502,
+    -1.0464047840349129
+   ],
+   "sup_G": [
+    0.22238407808099447,
+    0.222384078080998
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:N:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 8.97447863388301e-05,
+   "brecha_sup": 3.608224830031759e-15,
+   "categoria_v4": "inconclusa_por_testigos_en_tolerancia",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.9262842996706877,
+    -1.9261945548843489
+   ],
+   "sup_G": [
+    0.17921489884295097,
+    0.17921489884295458
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:N:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633672067e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -0.9716224471758259,
+    -0.9715327023894892
+   ],
+   "sup_G": [
+    0.22605787200264474,
+    0.22605787200264824
+   ]
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:f:conditional_full:N:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 8.974478633727578e-05,
+   "brecha_sup": 3.497202527569243e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado": "convergida",
+   "inf_G": [
+    -1.0090584879985383,
+    -1.008968743212201
+   ],
+   "sup_G": [
+    0.22422097504181962,
+    0.22422097504182312
+   ]
+  }
+ },
+ "etiqueta": "CIERRE CANDIDATO 3.7 NO OFICIAL",
+ "identidad_sha256": "6a1da22b512d42c03be56f726014a9e42deca771b23300dcdf5dad1ceb99bbab",
+ "no_exportable": true,
+ "puntos": {
+  "inf_C2": {
+   "a": 1.1,
+   "beta_tilde": 2.125,
+   "eta_d": 2.05,
+   "eta_f": 8.0,
+   "kappa_tilde": 0.005,
+   "phi": 0.0,
+   "rho": 0.4,
+   "u_theta": 0.9,
+   "z_cost": 1.0
+  },
+  "sup_C2": {
+   "a": 1.1,
+   "beta_tilde": 2.125,
+   "eta_d": 2.05,
+   "eta_f": 0.1,
+   "kappa_tilde": 0.2,
+   "phi": 1.0,
+   "rho": 1.0,
+   "u_theta": 0.5,
+   "z_cost": 1.0
+  }
+ },
+ "resumen": {
+  "coherencia_con_registro": {
+   "cambio_de_signo": 116,
+   "cambio_de_signo_con_sup_L_mayor_o_igual_eps_e_inf_U_menor_o_igual_menos_eps": 116,
+   "robusta_infactible_con_sup_U_menor_que_menos_eps": 16,
+   "robustas": 16
+  },
+  "convergidas": 320,
+  "equivalencia_G_N": true,
+  "max_brecha_inf": 8.974478635170868e-05,
+  "max_brecha_sup": 4.246603069191224e-15,
+  "procesadas": 320
+ },
+ "segundos": 52.8,
+ "universo": 320
+}

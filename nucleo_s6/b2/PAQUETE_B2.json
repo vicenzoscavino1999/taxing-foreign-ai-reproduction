@@ -1,0 +1,103 @@
+{
+ "kind": "paquete-b2-rem168",
+ "no_incorpora": true,
+ "naturaleza": "CORRECCIONES DEL PAQUETE B2 DOCE COV (receta parametrizada y validacion numerica estricta), SIN PRODUCCION",
+ "base_rem167": {
+  "area_sellada": "c19f2e70721e8000217b8c53c8df1cafa2992784971c71011363a8b499665c78",
+  "indice": "b8c75ee8f92d8a84cb17a214198c28a9313a66e8de089a18f4f4335de6fa04b3",
+  "hallazgos_corregidos": [
+   "P4-B2-RECETA-MARCADORES",
+   "P4-B2-VALIDACION-CAMPOS-NUMERICOS"
+  ],
+  "piezas_que_cambian": [
+   "comun_b2.py (validar_evidencia y sus ayudantes)",
+   "receta_b2.sh (interfaz)"
+  ]
+ },
+ "base_b1": {
+  "area_rem165": "80d1b2cb1cd7187f8d767b928ac9f4994711a67a9d1ac4931fe499931bf9acf1",
+  "indice_b1": "9244a279c4b5ede08b9a48b9f2f0ebe99a22ed91cd137b8ae24aa7ae4aa3f13d",
+  "manifiesto_b1": "1194923c273da998db23a83700dac1669693490d01f7fc52668ae39c105fe33e",
+  "produccion_b1_rem166": "af7678fda72eca202a3fa0e369c35279f13cbc2241c84e702aadcbf4267b6f4c",
+  "libro_b1_aceptada": "649457712e6f3d33ca596021e5c4878782558579971c4f60a5048455cb1b4535"
+ },
+ "procedencia": {
+  "funcion_unica": "comun_b2.procedencia (solo lanzamiento)",
+  "continuacion": "NO implementada: rechazada explicitamente",
+  "invocacion_admitida": {
+   "comprobacion_unica": "comun_b2._invocacion (trabajo y validacion propia)",
+   "interprete": "@@R_BS2@@\\tmp\\pilotos_b36_b37_2026-10-02\\entorno\\cpython-3.12.4-amd64\\python.exe",
+   "interprete_sha256": "fd5c46d73d29ba21b04c844bbaf9096066136526911230645a2a040d23fb612b",
+   "opciones": [
+    "-B",
+    "-I",
+    "-X",
+    "utf8"
+   ],
+   "programa": "paquete_b2/<script> en la posicion 5",
+   "cwd": "@@R_BS2@@",
+   "normalizacion_rutas": "comun_b2.ruta_windows (identica a comun_b1)"
+  }
+ },
+ "piezas": {
+  "comun_b2.py": "9035e3b19c152c2e68f8e0b65146187b964a1b37d9351ed06c4b64a7737da1a5",
+  "puerta_b2.py": "1e43464b30fd0d79f91c02096f86b91e9ad3864c7f7ee7de575ec7244c6e2300",
+  "alcance_b2.py": "e88c01a26c9f71ed1480905a86070a252c7f960f206c7a7487e700951ebcd6a7",
+  "b2_trabajo.py": "3b9cb6c7c1c73f7a59fd4f5da0b5833bf5db2eef8e95bdbb70c51691398e00a1",
+  "validar_b2.py": "de51d0cf2f0ad7c8bf2a9cd855ccf568ff2c24c8a1ba77c5b4f2dc2add629be9",
+  "conducir_b2.py": "5ac0876b669b9bc2c8a59779c0b2cdab00e19247c190b9188f627a6d9c6f8aa5",
+  "receta_b2.sh": "7dfe7a5e1634cdd3ac42b2fcc44709946cec12f2bdbe654f16cb81537e595fad",
+  "manifiesto_b2.py": "74ce3442b1293c9046dea05f755b2c1926d0955bd26443d96c184e803fc093e8"
+ },
+ "herramientas": {
+  "indice_b2.py": "1d92097c25bc2ad95ec94e8c46206cd68bb40476ab291a0d43dcb8761a4d1415"
+ },
+ "productos": {
+  "MANIFIESTO_B2.json": "0f1582cc3718f2f5545ab4a112d108d7e4d4639505dec4826d21d22045664d7b"
+ },
+ "ensayos_no_productivos": {
+  "pruebas/doble_b2.py": "94221ed3f9b33bc73ae562e0189f471cb8dcf9c10e32fe32e397431b51648ef8",
+  "pruebas/preparar_sinteticos_b2.py": "cd5563b5bbb8d66461bf7c09beb522b29d1ccef35f1d86ab228423613feaed1b",
+  "pruebas/ensayos_b2.py": "e8f8635ff8fe3bc592499d4aae80b1076222601538d73932ec75b96f8b21e47b",
+  "pruebas/preflight_b2.py": "fbcf022716699292c1f852782c31d120bc1c49d8724848687abdb8c7f37f3749",
+  "pruebas/conductor_rem168.sh": "f558b6b22367f3a0d99fe31b5cff6715496a2a36c8212c9b7c350bea0fc01468",
+  "pruebas/sintaxis_rem168.py": "5321260fa4572f246fa4d408b9d8f636d54b86f8deacb0367e18bbd4f4f66c93",
+  "pruebas/ensayos_numericos_rem168.py": "c251f6226a4d85be60487795ff75e0df273a32f8ea490c1eee84f6f50a59653f",
+  "pruebas/despacho_receta_rem168.sh": "fc69645df7159c499a1e2d4fa39277548816a7c4ee3153012a6e1481718d0ef9",
+  "pruebas/despacho/registrar_despacho.py": "ebbfebfeb6cc984d172edc684cac22f712789a379e0bce3c155f61886fabe413",
+  "pruebas/despacho/paquete_b2/alcance_b2.py": "0e35392b947d8f8f313547720b53e7c907f32309eab51b3ce71e9a8e01ea6153",
+  "pruebas/despacho/paquete_b2/conducir_b2.py": "6d901fd0b3baaed12f93f0a696375739ad0b8afaedf95d758daab56accb1c202",
+  "pruebas/despacho/paquete_b2/MANIFIESTO_B2.json": "b99b73e9909e4351cbabf8439258112121f91bc2c423e6ddd6b2281531e99f54",
+  "pruebas/despacho/paquete_b2/PAQUETE_B2.json": "2fe38302d048777aecb34ce3222577b700f504f5ddf14ab87778fc8268be5769",
+  "pruebas/despacho/transcripcion fixture/sesion fixture.jsonl": "d82dc4a331d913e926791b62c0d4d86df3832d40b3f37a5679d13789aec4cfee"
+ },
+ "reutilizadas_identicas": {
+  "C0 herramientas/b/aprobacion_alcance.py (verificar_documento, decision_humana, identidad_instalacion)": "631003ca87989ccd0189b33c9bd35e338a6f16fe4a0d50cbc2ccef0ee6f96467",
+  "paquete_cov_i5/referencia_decision.py (referencia a la decisión nativa, receta futura)": "039f6f6b490c81bd553f1a5c07fec848f15a8cdf0f6c70e6782511140abe7446",
+  "codigo/p3ctl.py (directa, vivos, union)": "546271b057a9635ab39ca3f94e0fd79da46cc7091a4bff873ab8c54e6d875841",
+  "cierre C0 de B2 (4 archivos, cargados desde sus bytes)": {
+   "__init__.py": "89f7210e7c118c83eec9d73323491e0d8c778b76d1297f703dfca2b86069c72a",
+   "intervalos.py": "2607d0cf3f879316c699ec4cd73021bff9ae8f680f7c7c01facb84dfb65aa891",
+   "macro.py": "4a94661d1cd0f3fe654f2cf7ecaa740b860e1c735b1585d51fda8f56dd068b98",
+   "external.py": "0b14fc0ee0fe4b0bc6d28aebad717dc0e02af03d8b53007be00d7295b72c4a6b"
+  },
+  "C0 cobertura.py (solo prueba de equivalencia)": "d6be53db849fbfaa1d11c3213cc25a0f86a990ef6b3198e36e6b56607f5d9381"
+ },
+ "derivadas_en_forma": {
+  "comun_b2.py": "paquete_b1/comun_b1.py (procedencia, invocacion, cierre, manifiesto, validacion unica)",
+  "puerta_b2.py": "paquete_b1/puerta_b1.py",
+  "alcance_b2.py": "paquete_b1/alcance_b1.py",
+  "conducir_b2.py": "paquete_b1/conducir_b1.py (sin continuacion)",
+  "validar_b2.py": "paquete_b1/validar_b1.py",
+  "b2_trabajo.py": "paquete_b1/b1_trabajo.py",
+  "receta_b2.sh": "paquete_b1/receta_b1.sh (area como parametro; rem168: transcripcion y uuid como argumentos de ejecutar, paquete localizado por la ruta de la receta)",
+  "indice_b2.py": "paquete_b1/indice_b1.py",
+  "manifiesto_b2.py": "paquete_b1/manifiesto_b1.py"
+ },
+ "evaluaciones_futuras": {
+  "bridge": 480,
+  "Q": 60,
+  "contextos": 1920,
+  "C2_nuevas": 0
+ }
+}

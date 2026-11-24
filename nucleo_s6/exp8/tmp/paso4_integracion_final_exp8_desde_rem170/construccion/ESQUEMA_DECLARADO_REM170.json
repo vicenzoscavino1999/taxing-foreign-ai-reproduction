@@ -1,0 +1,110 @@
+{
+ "kind": "esquema-declarado-integracion-exp8-rem170",
+ "declarado_antes_de_construir": true,
+ "nota": "Declaración previa a la construcción (encargo rem170 §4). El constructor la lee, fija su huella y se detiene con rc 3 si una fila exige cambiar una ruta no declarada aquí. No se amplía en silencio: si hiciera falta, se describe la contradicción y se entrega el bloqueador.",
+ "base": {
+  "area": "tmp/paso4_correcciones_sintesis_exp8_desde_rem160",
+  "inventario_sha256": "3bcebf129042e5006519de16ca205d21cc07db8c5c6a189e4a5abd365cccc4de",
+  "filas": "sintesis/EXP8_POR_AFIRMACION.jsonl",
+  "filas_sha256": "816209e40007471265f0a06e529d1d30ed60ca80d445594ce43b57bbdede113f",
+  "numero_filas": 1728
+ },
+ "identificacion_de_las_doce": "por la clave completa de afirmación de claims[].afirmacion del libro B2 (review_20261108_rem170_B2_COV12_aceptada.json); cada una con exactamente una coincidencia exacta en la síntesis y un único grupo aceptado; nunca por posición, por país ni por prefijo",
+ "filas_doce": {
+  "numero": 12,
+  "rutas_que_pueden_cambiar": [
+   "COV.conclusion",
+   "se_sabe[i], siendo i el único elemento que empieza por «COV phi/2:»",
+   "no_se_concluye[j], siendo j el único elemento igual a «clasificación de la afirmación bajo phi/2: no están demostradas ni la preservación de la inconclusión ni la robustez»",
+   "no_se_concluye: elementos añadidos al final de la lista"
+  ],
+  "rutas_añadidas": [
+   "COV.resolucion_global"
+  ],
+  "valor_nuevo_COV.conclusion": "robust_infeasible",
+  "rutas_intactas": [
+   "afirmacion",
+   "categoria_original",
+   "conjunto_padre",
+   "dimensiones",
+   "padre",
+   "garantias",
+   "ENF",
+   "Q",
+   "P7",
+   "COV.cambio_de_signo_certificado",
+   "COV.cobertura_historica",
+   "COV.conclusion_historica",
+   "COV.escenario",
+   "COV.fuente",
+   "COV.lados",
+   "COV.suplemento_P7",
+   "se_sabe: todos los demás elementos, en su orden",
+   "no_se_concluye: todos los demás elementos, en su orden"
+  ],
+  "tres_niveles": {
+   "padre": "categoria_original y conjunto_padre (intactos)",
+   "historico_COV_testigos": "COV.conclusion_historica, COV.lados, COV.fuente, COV.cambio_de_signo_certificado (intactos) y COV.resolucion_global.lectura_anterior (copia literal de la lectura rem160 que se sustituye)",
+   "vigente_transformada": "COV.conclusion = robust_infeasible con COV.resolucion_global (cota global B1+B2)"
+  }
+ },
+ "filas_ajenas": {
+  "numero": 1716,
+  "regla": "línea idéntica byte a byte a la de S y JSON canónico idéntico; mismo orden de filas y mismas claves; sin tolerancia"
+ },
+ "orden_de_filas": "el de S",
+ "serializacion": {
+  "filas_doce": "json.dumps(fila, ensure_ascii=False, sort_keys=True) + LF, como el constructor rem160",
+  "filas_ajenas": "bytes de la línea de S, sin volver a serializar",
+  "canon_de_comparacion": "json.dumps(o, sort_keys=True, ensure_ascii=False, separators=(',', ':')); distingue 0.0/−0.0, 1/1.0 y true/1"
+ },
+ "esquema_COV.resolucion_global": {
+  "estado": "«vigente»",
+  "veredicto": "«robust_infeasible»",
+  "escenario": "«ABL-COV phi/2 (coverage_half), resto fijo»",
+  "nivel_de_evidencia": "«cota_global»",
+  "grupo": "K1…K6 del libro B2",
+  "afirmaciones_del_grupo": "las dos claves G/N del grupo",
+  "eps": "«1/100»",
+  "regla": "G <= U_C2 − L_K1 <= −eps, borde incluido",
+  "U_C2": "{float, hex, exacto, fuente B1, naturaleza}",
+  "L_K1": "{float, hex, exacto, fuente B2}",
+  "G_hi": "{exacto, float}",
+  "margen_bajo_menos_eps": "{exacto, float}",
+  "soporte": "{contextos_del_grupo, ediciones, contextos_antes_dedup_de_la_afirmacion, union_efectiva_seis_grupos, suma_tamanos_grupo, contextos_antes_dedup_doce, inclusiones, nota 2024p}",
+  "prueba": "texto",
+  "no_requiere": "lista",
+  "procedencia": "{B1, B2, dictamen, auditoria, enlace, soporte_rem162, sintesis_rem160}",
+  "lectura_anterior": "{conclusion, se_sabe_rem160, no_se_concluye_rem160, estado, fuente}",
+  "limites": "lista"
+ },
+ "suplemento": {
+  "archivo": "sintesis/COV12_RESOLUCION_GLOBAL.jsonl",
+  "filas": 12,
+  "regla": "una fila por afirmación, en el orden de la síntesis; resolucion_global idéntica a la de la fila; enlaza la línea y la huella canónica de la fila nueva y de la de S y la entrada del libro B2"
+ },
+ "resumen": {
+  "recalculado_desde_filas": true,
+  "claves_que_pueden_cambiar": [
+   "kind",
+   "utc",
+   "filas_sha256",
+   "COV.final_con_P7",
+   "COV.final_por_conjunto_padre",
+   "COV.final_por_categoria_original",
+   "COV_cambios_de_signo_certificados.conclusion_COV",
+   "por_dimension.<dim>.<valor>.COV",
+   "por_pais_y_bloque.<clave>.COV",
+   "listas.COV_no_decididas_inconclusas",
+   "cotejos_esperados_del_encargo"
+  ],
+  "claves_nuevas": [
+   "listas.COV_robust_infeasible_desde_inconclusas",
+   "listas.COV_no_decididas_robustas_padre",
+   "COV_resolucion_global",
+   "derivado_de"
+  ],
+  "resto": "idéntico en JSON canónico al resumen de S"
+ },
+ "manifiesto": "distingue fuente_historica (S y sus libros) de autoridad_de_actualizacion (dictamen rem170, libro B2, libro B1, auditoría, enlace, productos B1/B2 y soporte rem162); los bloques libros, dictamenes_y_registros, fuentes, excepcion_integridad_ENF y referencias_no_autoridad de S se copian sin cambios como procedencia de la base"
+}

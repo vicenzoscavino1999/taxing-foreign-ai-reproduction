@@ -1,0 +1,292 @@
+{
+ "kind": "prerregistro-validaciones-sinteticas-rem107",
+ "registrado_utc": "2026-10-28T23:39:16.554543+00:00",
+ "naturaleza": "pruebas de implementación con datos sintéticos (§19.3: 'Ninguna prueba se calibra contra la salida que se quiere obtener'); no producción empírica",
+ "fuentes": {
+  "diseno": {
+   "archivo": "fase6_planes/PLAN_DISENO_v2_2_30.md",
+   "sha256": "08fc62957ca33f413cb0c82760426b4d57b7d37f24421d6c35d5670a23e47c9a"
+  },
+  "check_teoria": {
+   "archivo": "fase4_teoria/baseline_check_v2.py",
+   "sha256": "30be1871df4aeace4be37b41aaabfc4858ec8f05f72668487f4790236133eabf"
+  },
+  "ledger_lambda": {
+   "archivo": "fase5_cuantificacion/LEDGER_LAMBDA_PI.md",
+   "sha256": "a82fd07121732b2eec84b4ab73aa95b4aebe185de57a9ac60d1ddf674c64c2cf"
+  },
+  "nucleo_model": {
+   "archivo": "paso4/instalacion/src/paper2b/model.py",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9"
+  }
+ },
+ "E1": {
+  "criterio": "§19.2 E1: B_f(0) y dR/dτ_f|_0 idénticos para η_f∈{0.8,1.2,4,8}",
+  "estados": {
+   "E1-A": {
+    "a": 1.5,
+    "z_m": 0.5,
+    "gamma": 1.0,
+    "delta": 0.08,
+    "theta": 2.0,
+    "kappa0": 0.6,
+    "eta_d": 0.02,
+    "eta_f": 8.0,
+    "beta": 0.0,
+    "rho": 0.0,
+    "phi": 1.0
+   },
+   "E1-B": {
+    "a": 1.5,
+    "z_m": 0.5,
+    "gamma": 1.0,
+    "delta": 0.08,
+    "theta": 2.0,
+    "kappa0": 0.6,
+    "eta_d": 0.02,
+    "eta_f": 8.0,
+    "beta": 0.0,
+    "rho": 0.0,
+    "phi": 0.5
+   }
+  },
+  "fuente_estados": "Params de fase4_teoria/baseline_check_v2.py (vector de verificación de la teoría v2.2); E1-B con phi=0.50 (p_incidence del mismo script)",
+  "tau_d": 0.37,
+  "fuente_tau_d": "baseline_check_v2.py l.610 (tau_d = 0.37)",
+  "eta_f": [
+   0.8,
+   1.2,
+   4.0,
+   8.0
+  ],
+  "fuente_eta_f": "el propio criterio E1",
+  "disenos": [
+   "G",
+   "N"
+  ],
+  "h": [
+   0.00390625,
+   0.001953125,
+   0.0009765625,
+   0.00048828125,
+   0.000244140625,
+   0.0001220703125,
+   6.103515625e-05,
+   3.0517578125e-05,
+   1.52587890625e-05,
+   7.62939453125e-06,
+   3.814697265625e-06
+  ],
+  "tolerancias": {
+   "B_f0": "igualdad exacta en coma flotante (las cuatro evaluaciones no dependen de η_f en τ_f=0)",
+   "derivada": 1e-09,
+   "razon_derivada": "cociente unilateral con extrapolación de Richardson: error O(h²)+O(ε/h) ≈ 1e-10 para h≈2^-16; tolerancia relativa 1e-9 declarada antes de ejecutar (el diseño no fija una para derivadas numéricas)"
+  },
+  "ingredientes_exactos": "τ̃_f(0)=0 y τ̃_f'(0)=1 para todo η_f (model.tilde_f, model.tilde_f_prime): la partición y B_d dependen de τ_f solo vía k_F"
+ },
+ "E2": {
+  "criterio": "§19.2 E2: incluir adopción no viable produce ΔCS<0; masa 23.93% contra B_pot 8.71%, neto −0.86%",
+  "ejemplo_original": "LEDGER_LAMBDA_PI.md §1.2: vector de diagnóstico a=1.5, z_m=0.5, ρ=0, κ_0=0.6, γ=1 ⇒ κ̃_0=1.2; m_-=1−κ̃_0^{−a/(1−ρ)}, b_-=1−κ̃_0^{−(a−1)/(1−ρ)}",
+  "entradas": {
+   "a": 1.5,
+   "z_m": 0.5,
+   "rho": 0.0,
+   "kappa0": 0.6,
+   "gamma": 1.0
+  },
+  "estado_para_R": {
+   "a": 1.5,
+   "z_m": 0.5,
+   "gamma": 1.0,
+   "delta": 0.08,
+   "theta": 2.0,
+   "kappa0": 0.6,
+   "eta_d": 0.02,
+   "eta_f": 8.0,
+   "beta": 0.0,
+   "rho": 0.0,
+   "phi": 1.0
+  },
+  "tasas_para_R": {
+   "tau_d": 0.37,
+   "tau_f": 0.18,
+   "disenos": [
+    "G",
+    "N"
+   ]
+  },
+  "fuente_estado_para_R": "mismo vector de baseline_check_v2.py (coincide con el del ledger en a, z_m, ρ, κ_0, γ); τ_f=0.18 de l.618",
+  "presentacion_publicada": {
+   "masa_pct": 23.93,
+   "b_pot_pct": 8.71,
+   "neto_pct": 0.86
+  },
+  "tolerancias": {
+   "exacto": 1e-12,
+   "razon_exacto": "T1 (identidades) entre momentos Pareto del núcleo y formas cerradas del ledger",
+   "presentacion": 0.005,
+   "razon_presentacion": "cifras publicadas redondeadas a 2 decimales en %: media unidad del último dígito"
+  }
+ },
+ "E3": {
+  "criterio": "§19.2 E3: s_P exacta difiere de 1−φ a τ_f finito, y converge cuando τ_f→0",
+  "phi": [
+   0.25,
+   0.5,
+   0.75
+  ],
+  "fuente_phi": "0.5 de baseline_check_v2.py (p_incidence); 0.25 y 0.75 rejilla interior declarada (el criterio exige φ∈(0,1))",
+  "tau_f_finitos": [
+   0.18,
+   0.5,
+   0.8
+  ],
+  "fuente_tau_f": "0.18 (l.618) y 0.80 (tau_f_bar) de baseline_check_v2.py; 0.5 punto medio declarado",
+  "sucesion": [
+   0.5,
+   0.25,
+   0.125,
+   0.0625,
+   0.03125,
+   0.015625,
+   0.0078125,
+   0.00390625,
+   0.001953125,
+   0.0009765625,
+   0.00048828125,
+   0.000244140625,
+   0.0001220703125,
+   6.103515625e-05,
+   3.0517578125e-05,
+   1.52587890625e-05,
+   7.62939453125e-06,
+   3.814697265625e-06,
+   1.9073486328125e-06,
+   9.5367431640625e-07
+  ],
+  "razon_sucesion": "hasta 2^-20: por debajo, la cancelación de (x^φ−x)/τ en coma flotante domina la diferencia",
+  "limites_excluidos": "φ∈{0,1} (s_P=1−φ exacta: «salvo en el límite», C4) y τ_f=0 (model.provider_share devuelve el límite por convenio)",
+  "tolerancias": {
+   "referencia": 1e-09,
+   "razon": "error absoluto de s_P ≈ ε/τ_f; referencia decimal de 50 dígitos",
+   "diferencia_minima": 1e-12
+  }
+ },
+ "E5": {
+  "criterio": "§19.2 E5: r* decreciente en τ_d; τ̃_d < τ_d para η_d>0",
+  "eta_d": [
+   0.02,
+   0.5,
+   1.0,
+   4.0
+  ],
+  "fuente_eta_d": "0.02 de baseline_check_v2.py; 0.5, 1 y 4 rejilla declarada (η_d>0)",
+  "tau_d": [
+   0.01,
+   0.02,
+   0.03,
+   0.04,
+   0.05,
+   0.06,
+   0.07,
+   0.08,
+   0.09,
+   0.1,
+   0.11,
+   0.12,
+   0.13,
+   0.14,
+   0.15,
+   0.16,
+   0.17,
+   0.18,
+   0.19,
+   0.2,
+   0.21,
+   0.22,
+   0.23,
+   0.24,
+   0.25,
+   0.26,
+   0.27,
+   0.28,
+   0.29,
+   0.3,
+   0.31,
+   0.32,
+   0.33,
+   0.34,
+   0.35,
+   0.36,
+   0.37,
+   0.38,
+   0.39,
+   0.4,
+   0.41,
+   0.42,
+   0.43,
+   0.44,
+   0.45,
+   0.46,
+   0.47,
+   0.48,
+   0.49,
+   0.5,
+   0.51,
+   0.52,
+   0.53,
+   0.54,
+   0.55,
+   0.56,
+   0.57,
+   0.58,
+   0.59,
+   0.6,
+   0.61,
+   0.62,
+   0.63,
+   0.64,
+   0.65,
+   0.66,
+   0.67,
+   0.68,
+   0.69,
+   0.7,
+   0.71,
+   0.72,
+   0.73,
+   0.74,
+   0.75,
+   0.76,
+   0.77,
+   0.78,
+   0.79,
+   0.8,
+   0.81,
+   0.82,
+   0.83,
+   0.84,
+   0.85,
+   0.86,
+   0.87,
+   0.88,
+   0.89,
+   0.9,
+   0.91,
+   0.92,
+   0.93,
+   0.94,
+   0.95,
+   0.96,
+   0.97,
+   0.98
+  ],
+  "fuente_tau_d": "rejilla 0.01..0.98 (tau_d_bar=0.98 del script)",
+  "optimalidad": "r* minimiza τ_d·r + C_d(1−r), C_d(u)=u−η/(η+1)(1−(1−u)^{(η+1)/η}) (domestic_hiding_cost de baseline_check_v2.py), por búsqueda ternaria independiente",
+  "tolerancias": {
+   "optimo": 1e-07,
+   "tasa_efectiva": 1e-12,
+   "razon": "búsqueda ternaria a 200 iteraciones; T1 para la identidad τ̃_d = τ_d r* + C_d(1−r*)"
+  }
+ }
+}

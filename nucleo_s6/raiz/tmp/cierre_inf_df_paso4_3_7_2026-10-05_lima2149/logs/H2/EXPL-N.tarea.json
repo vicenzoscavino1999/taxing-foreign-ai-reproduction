@@ -1,0 +1,26 @@
+{
+ "cpu_usuario_s": 852.09375,
+ "cpu_nucleo_s": 1.859375,
+ "procesos_totales": 6,
+ "procesos_activos": 0,
+ "memoria_pico_job_mb": 264.8,
+ "memoria_pico_proceso_mb": 257.8,
+ "id": "EXPL-N",
+ "comando": [
+  "bash",
+  "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149/../pilotos_b36_b37_2026-10-02/entorno/py_integracion.sh",
+  "-m",
+  "codigo.explorar_inf_df",
+  "N",
+  "demo/hito2/explorar_N_df.json",
+  "900"
+ ],
+ "cwd": "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149",
+ "limite_duro_s": 1000.0,
+ "inicio_utc": "2026-10-06T02:56:21Z",
+ "pared_s": 870.1,
+ "codigo_salida": 0,
+ "estado": "TERMINO",
+ "cpu_total_s": 854.0,
+ "cpu_por_pared": 0.98
+}

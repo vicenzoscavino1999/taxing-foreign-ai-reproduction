@@ -1,0 +1,201 @@
+{
+ "D_dme_gai": 0.0,
+ "G_N_mismo_m_estrella": true,
+ "afirmaciones": {
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda": {
+   "C2_G_igual_N_en_el_punto": [
+    [
+     0.27373306096664307,
+     0.2738140726535289
+    ],
+    [
+     0.27373306096664307,
+     0.2738140726535289
+    ]
+   ],
+   "Phi_estrella": {
+    "L": 0.3546663262083035,
+    "U": 0.35466632620830835,
+    "brecha": 4.829470157119431e-15,
+    "cajas": 0,
+    "estado": "convergido",
+    "punto": {
+     "a": 1.1,
+     "beta_tilde": 2.125,
+     "eta_d": 2.05,
+     "eta_f": 0.1,
+     "kappa_tilde": 0.2,
+     "phi": 1.0,
+     "rho": 1.0,
+     "u_theta": 0.5,
+     "z_cost": 50.5
+    },
+    "segundos": 8.9
+   },
+   "codigo_universo_nudos": {
+    "filas": 51840,
+    "m_Q_critical": 0.24097496970797253,
+    "nudos": 60,
+    "segundos": 7.3,
+    "status": "breakdown_found"
+   },
+   "codigo_universo_testigo": {
+    "err_encierro_puntual": 8.10116868858457e-05,
+    "formula_en_el_punto": 0.936589104012196,
+    "m_Q_critical": 0.9368565196703375,
+    "m_Q_critical_err0": 0.936589104012196,
+    "status": "breakdown_found"
+   },
+   "comprobaciones": {
+    "C2_G_igual_N": true,
+    "codigo_con_err_conservador": true,
+    "formula_igual_codigo_en_testigo_err0": true,
+    "mismo_estado_nudos_y_continuo": true,
+    "nudos_no_superan_continuo": true,
+    "punto_testigo_dentro_del_encierro_continuo": true
+   },
+   "contextos": 864,
+   "diseno": "G",
+   "estado_formula": "breakdown_found",
+   "m_estrella_continuo": [
+    0.9365891040121952,
+    0.936589104012208
+   ],
+   "por_contexto_s": 0.001,
+   "preparacion_s": 0.5,
+   "rama_y_cota_s": 8.9
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda": {
+   "C2_G_igual_N_en_el_punto": [
+    [
+     0.27373306096664307,
+     0.2738140726535289
+    ],
+    [
+     0.27373306096664307,
+     0.2738140726535289
+    ]
+   ],
+   "Phi_estrella": {
+    "L": 0.3546663262083035,
+    "U": 0.35466632620830835,
+    "brecha": 4.829470157119431e-15,
+    "cajas": 0,
+    "estado": "convergido",
+    "punto": {
+     "a": 1.1,
+     "beta_tilde": 2.125,
+     "eta_d": 2.05,
+     "eta_f": 0.1,
+     "kappa_tilde": 0.2,
+     "phi": 1.0,
+     "rho": 1.0,
+     "u_theta": 0.5,
+     "z_cost": 50.5
+    },
+    "segundos": 8.9
+   },
+   "codigo_universo_nudos": {
+    "filas": 51840,
+    "m_Q_critical": 0.24097496970797253,
+    "nudos": 60,
+    "segundos": 6.0,
+    "status": "breakdown_found"
+   },
+   "codigo_universo_testigo": {
+    "err_encierro_puntual": 8.10116868858457e-05,
+    "formula_en_el_punto": 0.936589104012196,
+    "m_Q_critical": 0.9368565196703375,
+    "m_Q_critical_err0": 0.936589104012196,
+    "status": "breakdown_found"
+   },
+   "comprobaciones": {
+    "C2_G_igual_N": true,
+    "codigo_con_err_conservador": true,
+    "formula_igual_codigo_en_testigo_err0": true,
+    "mismo_estado_nudos_y_continuo": true,
+    "nudos_no_superan_continuo": true,
+    "punto_testigo_dentro_del_encierro_continuo": true
+   },
+   "contextos": 864,
+   "diseno": "N",
+   "estado_formula": "breakdown_found",
+   "m_estrella_continuo": [
+    0.9365891040121952,
+    0.936589104012208
+   ],
+   "por_contexto_s": 0.001,
+   "preparacion_s": 0.5,
+   "rama_y_cota_s": 0.0
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda": {
+   "C2_G_igual_N_en_el_punto": [
+    [
+     0.27373306096664307,
+     0.2738140726535289
+    ],
+    [
+     0.27373306096664307,
+     0.2738140726535289
+    ]
+   ],
+   "Phi_estrella": {
+    "L": 0.3546663262083035,
+    "U": 0.35466632620830835,
+    "brecha": 4.829470157119431e-15,
+    "cajas": 0,
+    "estado": "convergido",
+    "punto": {
+     "a": 1.1,
+     "beta_tilde": 2.125,
+     "eta_d": 2.05,
+     "eta_f": 0.1,
+     "kappa_tilde": 0.2,
+     "phi": 1.0,
+     "rho": 1.0,
+     "u_theta": 0.5,
+     "z_cost": 50.5
+    },
+    "segundos": 8.9
+   },
+   "codigo_universo_nudos": {
+    "filas": 5760,
+    "m_Q_critical": 0.2011638109207898,
+    "nudos": 60,
+    "segundos": 4.3,
+    "status": "breakdown_found"
+   },
+   "codigo_universo_testigo": {
+    "err_encierro_puntual": 8.10116868858457e-05,
+    "formula_en_el_punto": 0.7818564461624576,
+    "m_Q_critical": 0.7820796824303441,
+    "m_Q_critical_err0": 0.7818564461624576,
+    "status": "breakdown_found"
+   },
+   "comprobaciones": {
+    "C2_G_igual_N": true,
+    "codigo_con_err_conservador": true,
+    "formula_igual_codigo_en_testigo_err0": true,
+    "mismo_estado_nudos_y_continuo": true,
+    "nudos_no_superan_continuo": true,
+    "punto_testigo_dentro_del_encierro_continuo": true
+   },
+   "contextos": 96,
+   "diseno": "G",
+   "estado_formula": "breakdown_found",
+   "m_estrella_continuo": [
+    0.781856446162457,
+    0.7818564461624676
+   ],
+   "por_contexto_s": 0.0,
+   "preparacion_s": 0.6,
+   "rama_y_cota_s": 0.0
+  }
+ },
+ "contexto_s": 74.6,
+ "cumple_todo": true,
+ "eps": 0.01,
+ "etiqueta": "CIERRE DF PASO4 3.7 NO OFICIAL",
+ "no_exportable": true,
+ "segundos": 119.8
+}

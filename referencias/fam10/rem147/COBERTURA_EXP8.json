@@ -1,0 +1,192 @@
+{
+ "kind": "cobertura-exp8-enf-rem147",
+ "derivado_de_fuentes_existentes": true,
+ "no_es_corrida_aceptada": true,
+ "fuentes": {
+  "autenticacion": {
+   "ruta": "fuentes/AUTENTICACION_FUENTES_REM147.json",
+   "sha256": "180db2d0d3b900930522b2286f82ce754b48c951addd892f72b7eafce291b0de"
+  },
+  "T7_anexo": "070f3c8e01f245897985c1bd3ee9b0094f3feb388c6c8390a7b1a41ef4f023ec",
+  "EXP8_TABLA": "8e43185e1b46954a8a9484e7dc385ace0f8eea008b2438cd8ddfa4c673489a5f",
+  "brechas_celdas": "0220543dce3b4187b557d0ca6175513b88037408146a8d7f6968b29e585fed1b",
+  "enf_brechas_resueltas": "b987ec77948c5ad5c3859305a1b9ea688f8a56cd07c497b78fa8c6f3eb4148ab",
+  "enf_techos_integrados": "31ee1d746870391f227c11df28035b2299ed33a7493f978be9cb111607baac28",
+  "techos_pares": "3d8aa516c64f7c24d6e6dbe4ea0301c64c37ddf0950e952a840def684e356d1f"
+ },
+ "reglas": {
+  "enlace": "igualdad exacta (unidad, cell_id) y G_padre(ENF) == G(T7); nunca por país, prefijo o cantidad",
+  "umbral": "§17.1: sup G <= -eps robusta infactible; inf G >= eps robusta factible; si no, inconclusa; eps = 0,01",
+  "tolerancia": "1e-4 (tolerancia de certificado del T7): una comparación a <= 1e-4 del umbral queda en_tolerancia_no_decidida",
+  "cotas": "sup_Omega G_enf >= G_enf(testigo sup padre); inf_Omega G_enf <= G_enf(testigo inf padre): solo demuestran NO robustez",
+  "lo_que_no_es": "no es clasificación sobre todo el soporte ENF salvo donde las cotas bastan; no es causalidad empírica; no ordena canales; la descomposición rem108 es identidad entre testigos distintos, no ablación",
+  "resolucion": "no_alcanzado_demostrado (144 celdas, clave d59edf8a9d1461d1) separado de complete; sin argmax"
+ },
+ "recuentos": {
+  "universo_T7": 1728,
+  "afirmaciones_unicas": 1728,
+  "por_categoria": {
+   "cambio_de_signo_certificado": 1524,
+   "inconclusa_por_testigos_en_tolerancia": 188,
+   "robusta_infactible_certificada": 16
+  },
+  "inconclusas": 1712,
+  "filas_EXP8": 1712,
+  "descompuestas": 1705,
+  "sin_descomposicion": 7,
+  "testigos_sin_filas": {
+   "sup": 3,
+   "inf": 4
+  },
+  "resumen_EXP8_declarado": {
+   "inconclusas": 1712,
+   "descompuestas": 1705,
+   "sin_descomposicion": 7
+  }
+ },
+ "fallos": [],
+ "testigos": {
+  "ranuras": 3456,
+  "con_filas": 3449,
+  "enlazadas_ENF": 3449,
+  "celdas_testigo_unicas_universo": 1724,
+  "celdas_testigo_unicas_inconclusas": 1716,
+  "celdas_ENF": 1724,
+  "celdas_ENF_que_son_testigo": 1724,
+  "celdas_ENF_sin_afirmacion": 0,
+  "filas_padre_leidas_para_cell_id_de_robustas": 32,
+  "motivos_no_enlace": {
+   "testigo sin filas aceptadas (fuera de las 2.276 unidades)": 7
+  },
+  "origen_G_de_enlazadas": {
+   "resolucion_no_alcanzado_demostrado": 352,
+   "techo_cerrado": 3097
+  },
+  "claves_ENF_usadas": 26,
+  "dG_enlazadas": [
+   0.0,
+   0.012832670219052933
+  ],
+  "max_error_R_claves_usadas": 3.230435784393562e-07
+ },
+ "universo": {
+  "afirmaciones": 1728,
+  "cobertura_ENF": {
+   "ambos": 1721,
+   "solo_inf": 3,
+   "solo_sup": 4
+  },
+  "canal_eta_f": {
+   "inconclusa_preservada": 1705,
+   "parcial_no_robusta_factible": 3,
+   "parcial_no_robusta_infactible": 4,
+   "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 16
+  }
+ },
+ "inconclusas": {
+  "afirmaciones": 1712,
+  "cobertura_ENF": {
+   "ambos": 1705,
+   "solo_inf": 3,
+   "solo_sup": 4
+  },
+  "canal_eta_f": {
+   "inconclusa_preservada": 1705,
+   "parcial_no_robusta_factible": 3,
+   "parcial_no_robusta_infactible": 4
+  }
+ },
+ "inconclusas_descompuestas": {
+  "afirmaciones": 1705,
+  "cobertura_ENF": {
+   "ambos": 1705
+  },
+  "canal_eta_f": {
+   "inconclusa_preservada": 1705
+  }
+ },
+ "inconclusas_sin_descomposicion": {
+  "afirmaciones": 7,
+  "cobertura_ENF": {
+   "solo_inf": 3,
+   "solo_sup": 4
+  },
+  "canal_eta_f": {
+   "parcial_no_robusta_factible": 3,
+   "parcial_no_robusta_infactible": 4
+  }
+ },
+ "robustas": {
+  "afirmaciones": 16,
+  "cobertura_ENF": {
+   "ambos": 16
+  },
+  "canal_eta_f": {
+   "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 16
+  }
+ },
+ "por_familia_inconclusas": {
+  "c": {
+   "afirmaciones": 640,
+   "cobertura_ENF": {
+    "ambos": 639,
+    "solo_inf": 1
+   },
+   "canal_eta_f": {
+    "inconclusa_preservada": 639,
+    "parcial_no_robusta_factible": 1
+   }
+  },
+  "ci": {
+   "afirmaciones": 944,
+   "cobertura_ENF": {
+    "ambos": 938,
+    "solo_inf": 2,
+    "solo_sup": 4
+   },
+   "canal_eta_f": {
+    "inconclusa_preservada": 938,
+    "parcial_no_robusta_factible": 2,
+    "parcial_no_robusta_infactible": 4
+   }
+  },
+  "g": {
+   "afirmaciones": 128,
+   "cobertura_ENF": {
+    "ambos": 128
+   },
+   "canal_eta_f": {
+    "inconclusa_preservada": 128
+   }
+  }
+ },
+ "por_pais_j_inconclusas": {
+  "COL|df": 192,
+  "COL|d": 190,
+  "COL|f": 95,
+  "COL|None": 3,
+  "MEX|df": 128,
+  "MEX|d": 128,
+  "PER|df": 320,
+  "PER|d": 320,
+  "MEX|f": 48,
+  "PER|f": 160,
+  "None|df": 64,
+  "None|d": 64
+ },
+ "afirmaciones_con_cambio_de_signo_en_testigo_ENF": [],
+ "no_cubierto": {
+  "afirmaciones": [
+   "CLM:PREG-COMPARACION-E1:historical_anchor:c:COL:conditional_none:G:addback_completo:micro:sensibilidad",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:G:addback_completo:micro:sensibilidad",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:df:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:df:conditional_full:N:sin_addback:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:micro:sensibilidad",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:df:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:df:conditional_full:N:sin_addback:macro:guardrail_deuda"
+  ],
+  "causa": "testigo sin filas aceptadas (7 afirmaciones, 4 testigos); ninguna otra causa si la lista coincide con SIETE_CASOS"
+ },
+ "conforme": true,
+ "ENF_POR_AFIRMACION_sha256": "e0670acc74ac1aaf92686b4fd207c11da1aa8636833b140e40c0a08ddc30ac3c"
+}

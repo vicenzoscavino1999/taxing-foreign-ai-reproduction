@@ -1,0 +1,188 @@
+{
+ "tipo": "paquete por procedencia de celdas detalladas (alternativa A; preparación, NO aprobado ni incorporado)",
+ "lote": "rem-lima2330",
+ "entrega": "remanente_e6a4_correccion_cierre_paso4_3_7_2026-10-11_lima2330",
+ "autoridad": {
+  "sha256": "25099490133103e56dc50129985fa0025ec32001e7703f11f7f6e65dd1057630",
+  "archivo": "audit/entrega.json",
+  "estado": "autenticada por la cadena de custodia"
+ },
+ "productor": {
+  "archivo": "codigo/bloque_s1.py",
+  "sha256": "df33175fdd226cd2a94e57f8f4809adcd2ce6f3905d64f8cc4b841a11b504167"
+ },
+ "contrato": "v3",
+ "run_class": "remanente_e6a4_correccion_cierre_3_7",
+ "etiqueta": "REMANENTE e6a4 CORRECCION CIERRE 3.7 NO OFICIAL",
+ "carpeta_resultados": "demo/rem11/resultados",
+ "validacion": {
+  "entrega": "remanente_e6a4_correccion_cierre_paso4_3_7_2026-10-11_lima2330",
+  "archivo": "demo/rem11/validacion_final_REM11.json",
+  "sha256": "b03b44058bd6edbd90af25e23ff04b05bbb7aed8179edfbcec09fa07db81f133",
+  "autoridad": {
+   "sha256": "25099490133103e56dc50129985fa0025ec32001e7703f11f7f6e65dd1057630",
+   "archivo": "audit/entrega.json",
+   "estado": "autenticada por la cadena de custodia"
+  }
+ },
+ "unidades": [
+  {
+   "unidad": "S2:e6a4f7a3e323199a:0",
+   "familia": "S2",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "ed677155b823e850fc21af401311d18ef87d4f153c74c6abd5658f75d61e8a04",
+   "filas_sha256": "ff8138b111258ede780b0918f2c5ecf975b18cb22cd17fec5ebca48fd2d51ac4",
+   "cell_id_e12": "CEL:18e15d767b25b423bc447e84930c48f18eabb4d1f743",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "producida con la VARIANTE variante_arranque_subintervalos_e6a4 (identidad dd9463df93293785b7ec1b1a08045b6046b856bd17c88c650a006fdbaec77ae7; entrada correccion_e6a4/trabajador_variante.py); alcance aceptado: SOLO S2:e6a4f7a3e323199a:0; aceptación técnica, no firma científica ni incorporación",
+    "el intento completo tiene instantánea INICIAL de 125 módulos (al instalar la variante) pero NO FINAL: el trabajador (codigo/bloque_s1.trabajador_c) termina con os._exit(0) y atexit no se ejecuta; no se reconstruye retrospectivamente ni se repite la celda para obtenerla"
+   ]
+  }
+ ],
+ "propuesta_registro_consumidor": {
+  "area": "remanente_e6a4_correccion_cierre_paso4_3_7_2026-10-11_lima2330",
+  "inventario": "25099490133103e56dc50129985fa0025ec32001e7703f11f7f6e65dd1057630",
+  "codigo": [
+   "codigo/bloque_s1.py"
+  ],
+  "run_class": "remanente_e6a4_correccion_cierre_3_7",
+  "etiqueta": "REMANENTE e6a4 CORRECCION CIERRE 3.7 NO OFICIAL",
+  "encargo": "autorizacion/encargo.txt",
+  "contrato": "v3",
+  "productor": "codigo/bloque_s1.py",
+  "nota": "NO aplicada: el consumidor del candidato solo registra productores de paquetes de selección del paso 4; aceptar celdas detalladas por procedencia es un cambio del candidato",
+  "variante": {
+   "identidad": "dd9463df93293785b7ec1b1a08045b6046b856bd17c88c650a006fdbaec77ae7",
+   "alcance": [
+    "S2:e6a4f7a3e323199a:0"
+   ],
+   "entrada": {
+    "archivo": "correccion_e6a4/trabajador_variante.py",
+    "sha256": "61abb4ff356d76f18ad4b783221b347916c2104f40bc73eb9a154e5719ac96fd"
+   },
+   "archivos": {
+    "correccion_e6a4/evidencia_arranque.py": "a5b38068ae97b88683036d8af7e1ee4635b529d84ea9f03476c17dc89dabafd8",
+    "correccion_e6a4/variante.py": "7e7e6aa0baf052b961e09f2358f894521fb5f296a895f8b49aa814363e2ce4f3"
+   },
+   "congelacion": {
+    "archivo": "demo/preregistro/D_REM13_variante.json",
+    "sha256": "46507fe8ca217bf3abbf13b939b99138aa765446d0daaa1ea247f4a0f323b466"
+   },
+   "declaracion": {
+    "archivo": "demo/rem11/intento/declaracion_variante_lote.json",
+    "sha256": "589f137217519bd3f143be6520315ef025143f98b0b755122b8ecea2e6af9ba1"
+   },
+   "limitaciones": [
+    "SIN_INSTANTANEA_FINAL_DE_MODULOS_DEL_INTENTO"
+   ]
+  }
+ },
+ "procedencia_variante": {
+  "tipo": "VARIANTE DECLARADA (aislada; NO incorporada; no se adopta para otras inversiones)",
+  "identidad": "dd9463df93293785b7ec1b1a08045b6046b856bd17c88c650a006fdbaec77ae7",
+  "alcance": [
+   "S2:e6a4f7a3e323199a:0"
+  ],
+  "productor_original": {
+   "archivo": "codigo/bloque_s1.py",
+   "sha256": "df33175fdd226cd2a94e57f8f4809adcd2ce6f3905d64f8cc4b841a11b504167",
+   "papel": "escribe y exporta el contrato v3 (codigo/bloque_s1.trabajador_c SIN cambios)",
+   "identidad_del_validador_original": "091bddb86e90683e473301ba95963504a50252d9b0243540f91971a67f6753be"
+  },
+  "entrada_variante": {
+   "archivo": "correccion_e6a4/trabajador_variante.py",
+   "sha256": "61abb4ff356d76f18ad4b783221b347916c2104f40bc73eb9a154e5719ac96fd"
+  },
+  "archivos_variante": {
+   "correccion_e6a4/evidencia_arranque.py": "a5b38068ae97b88683036d8af7e1ee4635b529d84ea9f03476c17dc89dabafd8",
+   "correccion_e6a4/variante.py": "7e7e6aa0baf052b961e09f2358f894521fb5f296a895f8b49aa814363e2ce4f3"
+  },
+  "metodo": {
+   "tipo": "variante_arranque_subintervalos_e6a4",
+   "metodo": "paper2b.modelos.ModeloTeorico.c2_param_evidence",
+   "metodo_original_sha256": "f8306f4933f4ed30888659c58460eb366069e54a2810dca9265b5f803d2b1afe",
+   "fuente_corregida_sha256": "061788219acba504eafaffad332bfd05fff38dc66a5d78c6c30b7dd836fb8f3b",
+   "parche_diff_sha256": "6ff85e5e1fd1029ce30841ea8eb7e9be473ef4a7c3425531afe50e6504fc0f50",
+   "modelos_py_sha256": "7f0dd31cacf431fb421e2c5047aa5b750cbecfc1064e3374c4247dcd40c93fda"
+  },
+  "identidad_recalculada": {
+   "resumen_trabajador": {
+    "archivo": "demo/rem11/resultados/trabajador_E10.json",
+    "sha256": "400f346d1ac51057398009efe21dac8e6034177ed5df89f0bf776611cbd9bcc8"
+   },
+   "regla": "identidad = sha256(canon(identidad_almacen.autoridad)); codigo_demo_sha256 = sha256(canon(identidad_almacen.codigo)), que contiene la variante"
+  },
+  "congelacion": {
+   "archivo": "demo/preregistro/D_REM13_variante.json",
+   "sha256": "46507fe8ca217bf3abbf13b939b99138aa765446d0daaa1ea247f4a0f323b466",
+   "archivos": 11
+  },
+  "declaracion": {
+   "archivo": "demo/rem11/intento/declaracion_variante_lote.json",
+   "sha256": "589f137217519bd3f143be6520315ef025143f98b0b755122b8ecea2e6af9ba1"
+  },
+  "procedencia_ejecucion": {
+   "archivo": "demo/rem11/intento/procedencia_intento.json",
+   "sha256": "2360af34ca572598fa299160f3429efa6a6c5f7ac38cd6ba3fdc32ceb890bfef",
+   "etapa": "instalada",
+   "instantanea_inicial_modulos": 125,
+   "instantanea_final_modulos": null
+  },
+  "evidencias": {
+   "control_negativo_validador_original": {
+    "archivo": "demo/rem11/control_validacion_E1_validador_original.json",
+    "sha256": "f8e97c11c8262daf5f09d66ba8720f1d21fb2c809b29bb26c3cf28fc32c8319e"
+   },
+   "ensayo_parcial": {
+    "archivo": "demo/rem11/ensayo/ensayo_parcial.json",
+    "sha256": "cfa205a9117acc07785f0c89cdaac1b2e6ceb67790b9df9583e7da1bf09d5519"
+   },
+   "procedencia_validacion_final": {
+    "archivo": "demo/rem11/variante/procedencia_VALC11-FINAL.json",
+    "sha256": "745febcc884cc088580745aa209322c88f21f3260ad0951cdefebc0a710dfd13"
+   },
+   "procedencia_validacion_lote": {
+    "archivo": "demo/rem11/variante/procedencia_VALC11-E1.json",
+    "sha256": "14603ad364ad11db49f9e57e9b1653fe90e9321519f3c34748b081fc43e9372c"
+   },
+   "puerta_del_intento": {
+    "archivo": "demo/rem11/ensayo/puerta.json",
+    "sha256": "87387fa2a2a0e56427a49c8f0c7405363512b4bb419f0a43f419c3b2c5986382"
+   },
+   "supervision_del_intento": {
+    "archivo": "demo/rem11/intento/supervision_E1.json",
+    "sha256": "73b63f43a3304a60cb8ac9b03c82343dad9f4c27f96d773b959281d2988bd04b"
+   },
+   "validacion_lote_en_contexto_de_la_variante": {
+    "archivo": "demo/rem11/validacion_E1.json",
+    "sha256": "9cdf6a1f6c5b99fb03ca69d711dcc935e96bf442a0587772486aef19d9a61002"
+   }
+  },
+  "limitaciones": [
+   {
+    "codigo": "SIN_INSTANTANEA_FINAL_DE_MODULOS_DEL_INTENTO",
+    "detalle": "el intento completo tiene instantánea INICIAL de 125 módulos (al instalar la variante) pero NO FINAL: el trabajador (codigo/bloque_s1.trabajador_c) termina con os._exit(0) y atexit no se ejecuta; no se reconstruye retrospectivamente ni se repite la celda para obtenerla",
+    "fuente": {
+     "archivo": "demo/rem11/intento/procedencia_intento.json",
+     "sha256": "2360af34ca572598fa299160f3429efa6a6c5f7ac38cd6ba3fdc32ceb890bfef",
+     "etapa": "instalada",
+     "instantanea_inicial_modulos": 125,
+     "instantanea_final_modulos": null
+    }
+   }
+  ],
+  "aceptacion": {
+   "tipo": "ACEPTACIÓN TÉCNICA del revisor independiente: SOLO esta unidad, en el alcance de la variante aislada autenticada",
+   "dictamen": "review_20261012_rem11_dictamen.txt",
+   "dictamen_sha256": "7d1e8a7a5bf7a738344c47672e63cdabfcb80aeba28c1672347e0ee20e811910",
+   "firma_cientifica": false,
+   "aceptacion_cientifica_v2_na": false,
+   "autorizacion_de_incorporacion": false,
+   "adopcion_para_otras_inversiones": false
+  }
+ }
+}

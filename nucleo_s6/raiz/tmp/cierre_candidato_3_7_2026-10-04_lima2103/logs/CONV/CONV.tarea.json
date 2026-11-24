@@ -1,0 +1,24 @@
+{
+ "cpu_usuario_s": 2.453125,
+ "cpu_nucleo_s": 1.53125,
+ "procesos_totales": 6,
+ "procesos_activos": 0,
+ "memoria_pico_job_mb": 108.3,
+ "memoria_pico_proceso_mb": 101.1,
+ "id": "CONV",
+ "comando": [
+  "bash",
+  "tmp/cierre_candidato_3_7_2026-10-04_lima2103/../pilotos_b36_b37_2026-10-02/entorno/py_integracion.sh",
+  "-m",
+  "codigo.prueba_convergencia",
+  "demo/convergencia/pruebas.json"
+ ],
+ "cwd": "tmp/cierre_candidato_3_7_2026-10-04_lima2103",
+ "limite_duro_s": 300.0,
+ "inicio_utc": "2026-10-05T02:10:07Z",
+ "pared_s": 4.3,
+ "codigo_salida": 0,
+ "estado": "TERMINO",
+ "cpu_total_s": 4.0,
+ "cpu_por_pared": 0.93
+}

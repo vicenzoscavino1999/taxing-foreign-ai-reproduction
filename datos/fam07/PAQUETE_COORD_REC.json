@@ -1,0 +1,136 @@
+{
+ "kind": "paquete-coord-rec-rem123",
+ "estado": "CANDIDATO_NO_EMITIDO",
+ "piezas": {
+  "COBERTURA_COORD_REC_A-SINTETICO-FALLO.json": {
+   "sha256": "5bb2c0dd3c63da28cf16b108860671c06277fd85b9b55b60f8652c19cca3a1ae",
+   "bytes": 318
+  },
+  "COBERTURA_COORD_REC_A-SINTETICO.json": {
+   "sha256": "acab6e200bfe09cc9c926735183afe168833c029212f1cae1284ab0565c0940a",
+   "bytes": 318
+  },
+  "COBERTURA_COORD_REC_A.json": {
+   "sha256": "b5cf8900239f395f4600af09c8e8a47d4be2fd1c4910cbb5e30014d5528ba0ed",
+   "bytes": 318
+  },
+  "COBERTURA_COORD_REC_B-SINTETICO.json": {
+   "sha256": "f98394c3a96e272e1adc26b6a820b07b53c645c00e59677f300b6e6d027a2029",
+   "bytes": 318
+  },
+  "COBERTURA_COORD_REC_B.json": {
+   "sha256": "a4d8c58e7dcf3403b388737ba0e2bfc75055673af374ea21c20d64626c72260e",
+   "bytes": 318
+  },
+  "COBERTURA_COORD_REC_FIXTURE-PUERTA.json": {
+   "sha256": "3131e3c56f3e5245f3cb4f6775655b9a19e569adb3a32df39b146e30e75f0ba0",
+   "bytes": 318
+  },
+  "conducir_lote.py": {
+   "sha256": "8c5e08ae0e0374e9ab9020d30e7c665cf2bcd03ab583f5f6df3ef56424f6df1c",
+   "bytes": 17548
+  },
+  "conexion_coord_cert.py": {
+   "sha256": "e5776de970b72535ec7b72340604abfd9e8448479ea78dac4b714d870d273d61",
+   "bytes": 5649
+  },
+  "DIFERENCIAS_REM122.json": {
+   "sha256": "fd3fa2779f7fb04e3a86b40343ed207bad8adcc2193c522c65e5ee4732c101f6",
+   "bytes": 40652
+  },
+  "DIFERENCIAS_REM123.json": {
+   "sha256": "dcd4ea5e8b31870afe0f95d85db708825427c8981d671667ec95b2f8ba819834",
+   "bytes": 16946
+  },
+  "emitir_alcance_rec.py": {
+   "sha256": "cf3d71676ae3ce1dfaa9b9ca10867cd5bac2b31a323b077091687330e15a07dc",
+   "bytes": 5992
+  },
+  "ensamblar_coord.py": {
+   "sha256": "fcb4046962a930aea76495a59bee861882336df4cd97686c8ad0c59607825793",
+   "bytes": 5205
+  },
+  "MANIFIESTO_COORD_REC_A-SINTETICO-FALLO.json": {
+   "sha256": "dfc7aaee7cdc00d0f2269dd301e1fe7f2cc8af286521b2a543027aa0fbf6fbe1",
+   "bytes": 42311
+  },
+  "MANIFIESTO_COORD_REC_A-SINTETICO.json": {
+   "sha256": "6a1d1c4f9f07e0c553eadf1aa019bb675c7340a31d046e5292e61913e497075f",
+   "bytes": 42317
+  },
+  "MANIFIESTO_COORD_REC_A.json": {
+   "sha256": "4b07f7d792a8bf90ad266a792a046857bff96d7b53357e16fc390b46780d29fe",
+   "bytes": 40618
+  },
+  "MANIFIESTO_COORD_REC_B-SINTETICO.json": {
+   "sha256": "6e73b8ae4a1215aef950dd189e53b21efb006be37b73e8ad3a53995b49e7f614",
+   "bytes": 46959
+  },
+  "MANIFIESTO_COORD_REC_B.json": {
+   "sha256": "108bf2edc0261769e3f8a3d962c12610c9045b5898dfbfe70409607c278979e6",
+   "bytes": 44651
+  },
+  "MANIFIESTO_COORD_REC_FIXTURE-PUERTA.json": {
+   "sha256": "977601050f0b73ef89b3a48ddb0fc2c235f7a33a12dcb1af75dfb25fb60d9ee1",
+   "bytes": 40496
+  },
+  "preparar_manifiestos_rec.py": {
+   "sha256": "f3a82d7c38f009618578b7aa214c831a6973e1ce57b89d15810a852e679d33fc",
+   "bytes": 16022
+  },
+  "receta_coord_rec.sh": {
+   "sha256": "88b0b18a9fee6b63d15fd258e6bb91b5e0ad2254ae861bb860d7d4532a442ea5",
+   "bytes": 2426
+  },
+  "referencia_decision.py": {
+   "sha256": "039f6f6b490c81bd553f1a5c07fec848f15a8cdf0f6c70e6782511140abe7446",
+   "bytes": 1280
+  },
+  "tarea_lote.py": {
+   "sha256": "ffd44b60534922410fbbb99c7c68064ffc84b7e7b467d9b30510cbd06e852ed4",
+   "bytes": 9610
+  },
+  "validar_coord_rec.py": {
+   "sha256": "cc83b778cfc4d7f56417084cb9222a4c40d8c097138eaf519aedf94ee37fa0a8",
+   "bytes": 18972
+  },
+  "validar_lote.py": {
+   "sha256": "070ae81d15119735369b08bf083e9ff3b7652ca99a2956547b9f290db4022ee4",
+   "bytes": 2494
+  }
+ },
+ "nucleo": {
+  "ruta": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion",
+  "identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae"
+ },
+ "fuentes": {
+  "lote2_manifiesto": {
+   "ruta": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/LOTE2_MANIFIESTO.json",
+   "sha256": "b1cf8af5eab8aa22c53ec279bd5660dbf57847b6be8f874c56af7d71f9cd4bab"
+  },
+  "rem112_coord_techos": {
+   "ruta": "tmp/paso4_lote1_desde_rem112/lote1_LOTE1_REM112/L1-COORD/salida/coord_techos.jsonl",
+   "sha256": "f3aa14936af061ecb3d924c2085baca5aa993445245661bc0588e7cc5c0faf10"
+  },
+  "rem120_coord_techos": {
+   "ruta": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-COORD/salida/coord_techos.jsonl",
+   "sha256": "f6d24054583baa6919641385527e31ff206c3de20a6469b3d79d763348cde4dd"
+  },
+  "rem120_coord_comparacion": {
+   "ruta": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-COORD/salida/coord_comparacion.jsonl",
+   "sha256": "6b6baca8e8346837b758b713e1fb24e8e1cc1d95511c68da8645455e70c18bad"
+  }
+ },
+ "deriva_de": {
+  "indice_rem122_sha256": "74180cd0bbe2273c6cc544cc82e5811a3ad549aeee2077e97b39379089248e21",
+  "piezas_cambiadas": [
+   "validar_coord_rec.py",
+   "validar_lote.py",
+   "ensamblar_coord.py",
+   "receta_coord_rec.sh"
+  ],
+  "pieza_nueva": "DIFERENCIAS_REM123.json"
+ },
+ "alcance_necesario": "un alcance v3 por variante (todas sus tareas) + decisión humana nativa; no emitido en rem122",
+ "pines_del_alcance": "el emisor fija validador_lote, validador_coord_rec y ensamblador por sha256 en la emisión; el código del trabajador (tarea_lote.py, conexion_coord_cert.py) no cambia"
+}

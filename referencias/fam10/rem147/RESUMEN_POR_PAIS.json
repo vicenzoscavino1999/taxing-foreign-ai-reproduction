@@ -1,0 +1,155 @@
+{
+ "kind": "resumen-por-pais-exp8-enf-rem147",
+ "denominadores": "universo 1.728; inconclusas 1.712; descompuestas 1.705; robustas 16",
+ "por_pais": {
+  "-": {
+   "universo": {
+    "afirmaciones": 128,
+    "cobertura_ENF": {
+     "ambos": 128
+    },
+    "canal_eta_f": {
+     "inconclusa_preservada": 128
+    }
+   },
+   "inconclusas": {
+    "afirmaciones": 128,
+    "cobertura_ENF": {
+     "ambos": 128
+    },
+    "canal_eta_f": {
+     "inconclusa_preservada": 128
+    }
+   },
+   "inconclusas_descompuestas": {
+    "afirmaciones": 128,
+    "cobertura_ENF": {
+     "ambos": 128
+    },
+    "canal_eta_f": {
+     "inconclusa_preservada": 128
+    }
+   },
+   "robustas": {
+    "afirmaciones": 0,
+    "cobertura_ENF": {},
+    "canal_eta_f": {}
+   }
+  },
+  "COL": {
+   "universo": {
+    "afirmaciones": 480,
+    "cobertura_ENF": {
+     "ambos": 477,
+     "solo_inf": 3
+    },
+    "canal_eta_f": {
+     "inconclusa_preservada": 477,
+     "parcial_no_robusta_factible": 3
+    }
+   },
+   "inconclusas": {
+    "afirmaciones": 480,
+    "cobertura_ENF": {
+     "ambos": 477,
+     "solo_inf": 3
+    },
+    "canal_eta_f": {
+     "inconclusa_preservada": 477,
+     "parcial_no_robusta_factible": 3
+    }
+   },
+   "inconclusas_descompuestas": {
+    "afirmaciones": 477,
+    "cobertura_ENF": {
+     "ambos": 477
+    },
+    "canal_eta_f": {
+     "inconclusa_preservada": 477
+    }
+   },
+   "robustas": {
+    "afirmaciones": 0,
+    "cobertura_ENF": {},
+    "canal_eta_f": {}
+   }
+  },
+  "MEX": {
+   "universo": {
+    "afirmaciones": 320,
+    "cobertura_ENF": {
+     "ambos": 316,
+     "solo_sup": 4
+    },
+    "canal_eta_f": {
+     "inconclusa_preservada": 300,
+     "parcial_no_robusta_infactible": 4,
+     "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 16
+    }
+   },
+   "inconclusas": {
+    "afirmaciones": 304,
+    "cobertura_ENF": {
+     "ambos": 300,
+     "solo_sup": 4
+    },
+    "canal_eta_f": {
+     "inconclusa_preservada": 300,
+     "parcial_no_robusta_infactible": 4
+    }
+   },
+   "inconclusas_descompuestas": {
+    "afirmaciones": 300,
+    "cobertura_ENF": {
+     "ambos": 300
+    },
+    "canal_eta_f": {
+     "inconclusa_preservada": 300
+    }
+   },
+   "robustas": {
+    "afirmaciones": 16,
+    "cobertura_ENF": {
+     "ambos": 16
+    },
+    "canal_eta_f": {
+     "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 16
+    }
+   }
+  },
+  "PER": {
+   "universo": {
+    "afirmaciones": 800,
+    "cobertura_ENF": {
+     "ambos": 800
+    },
+    "canal_eta_f": {
+     "inconclusa_preservada": 800
+    }
+   },
+   "inconclusas": {
+    "afirmaciones": 800,
+    "cobertura_ENF": {
+     "ambos": 800
+    },
+    "canal_eta_f": {
+     "inconclusa_preservada": 800
+    }
+   },
+   "inconclusas_descompuestas": {
+    "afirmaciones": 800,
+    "cobertura_ENF": {
+     "ambos": 800
+    },
+    "canal_eta_f": {
+     "inconclusa_preservada": 800
+    }
+   },
+   "robustas": {
+    "afirmaciones": 0,
+    "cobertura_ENF": {},
+    "canal_eta_f": {}
+   }
+  }
+ }
+}

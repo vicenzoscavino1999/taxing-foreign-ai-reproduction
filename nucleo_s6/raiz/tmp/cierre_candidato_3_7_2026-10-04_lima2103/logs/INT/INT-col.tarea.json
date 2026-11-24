@@ -1,0 +1,26 @@
+{
+ "cpu_usuario_s": 134.203125,
+ "cpu_nucleo_s": 2.890625,
+ "procesos_totales": 6,
+ "procesos_activos": 0,
+ "memoria_pico_job_mb": 230.3,
+ "memoria_pico_proceso_mb": 223.2,
+ "id": "INT-col",
+ "comando": [
+  "bash",
+  "tmp/cierre_candidato_3_7_2026-10-04_lima2103/../pilotos_b36_b37_2026-10-02/entorno/py_integracion.sh",
+  "-m",
+  "codigo.ensayo_integracion",
+  "celda",
+  "P1-COL-N-df-1",
+  "demo/integracion/celda_P1-COL-N-df-1.json"
+ ],
+ "cwd": "tmp/cierre_candidato_3_7_2026-10-04_lima2103",
+ "limite_duro_s": 1200.0,
+ "inicio_utc": "2026-10-05T02:20:42Z",
+ "pared_s": 141.2,
+ "codigo_salida": 0,
+ "estado": "TERMINO",
+ "cpu_total_s": 137.1,
+ "cpu_por_pared": 0.97
+}

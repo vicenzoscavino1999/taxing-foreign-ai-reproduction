@@ -1,0 +1,91 @@
+{
+ "kind": "auditoria-circularidad-rem183",
+ "objeto": "D. Auditoría de circularidad (§22.7)",
+ "estado": "candidato de preparación editorial S1 (rem183); fuera del manuscrito; no aceptado; no es exportación oficial",
+ "alcance": "reconstrucción aceptada de circularity_audit (rem133), rotulada como reconstrucción; no es documento contemporáneo",
+ "nivel_evidencia": "reconstrucción documental",
+ "fuentes": [
+  {
+   "id": "P_matriz_v4",
+   "ruta": "tmp/paso4_exp0_lambda_autenticada_desde_rem134/a_exp0/salida_a2/MATRIZ_REVISADA_v4.json",
+   "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+   "bytes": 20031,
+   "autoridad": [
+    "L_rem147"
+   ]
+  },
+  {
+   "id": "P_ficha_dexp0",
+   "ruta": "tmp/paso4_conexion_cinco_filas_t8_desde_rem145/decisiones/FICHA_D_EXP0_REM145.md",
+   "sha256": "f72ff8dbd605f677ea6de540fcbd441d787c84062579620846ff01fb5ea8f000",
+   "bytes": 4830,
+   "autoridad": [
+    "L_rem147"
+   ]
+  }
+ ],
+ "requisitos": [
+  {
+   "requisito": "H5",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "`circularity_check = FAIL`",
+   "linea_diseno": 2084,
+   "clase_evidencia": "retrospectiva_comprobada",
+   "resultado": "comprobada_con_reconstruccion",
+   "evidencia": "G11 (construir_d7.py (toolchain S5, 5f15b2193f3caff1) líneas [452]) cubre escenarios/c_legal/c_trace; circularity_audit RECONSTRUIDO en rem133: {'PASS': 44, 'DERIVADO_DEL_REQUERIMIENTO_EXTERNO': 5, 'REQUERIMIENTO_EXTERNO_DEL_COMPANERO': 2, 'INACTIVO': 11}",
+   "accion_minima": "el revisor debe aceptar la reconstrucción y la frontera «compañero» = fase5_cuantificacion/ (Q/DME son requerimiento externo por diseño)",
+   "clase_D_EXP0": "retrospectiva comprobada",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/4",
+    "clave": [
+     "H5"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "G0-CIRCULARIDAD",
+   "tipo": "objeto_gate0",
+   "nivel": null,
+   "texto_diseno": "auditoría de circularidad (circularity_audit)",
+   "linea_diseno": null,
+   "clase_evidencia": "reconstruccion_rem133",
+   "resultado": "reconstruida_hoy",
+   "evidencia": "no existía como objeto; reconstruida en A4 con {'PASS': 44, 'DERIVADO_DEL_REQUERIMIENTO_EXTERNO': 5, 'REQUERIMIENTO_EXTERNO_DEL_COMPANERO': 2, 'INACTIVO': 11}",
+   "accion_minima": "aceptación del revisor de la reconstrucción",
+   "clase_D_EXP0": "reconstrucción (circularidad)",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/37",
+    "clave": [
+     "G0-CIRCULARIDAD"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  }
+ ],
+ "clases": {
+  "contemporanea": "no localizado en el corpus revisado (G0-CIRCULARIDAD: «no existía como objeto»)",
+  "retrospectiva": "H5 comprobada con reconstrucción (G11 cubre escenarios/c_legal/c_trace)",
+  "reconstruccion": "G0-CIRCULARIDAD reconstruida (rem133, A4)",
+  "no_localizado": "circularity_audit contemporáneo por corrida"
+ },
+ "recuentos": {
+  "requisitos": 2,
+  "corridas": "no aplica",
+  "conjuntos": "no aplica"
+ },
+ "hallazgos": [
+  "la reconstrucción no se presenta como documento contemporáneo",
+  "una búsqueda sin hallazgos no prueba ausencia de circularidad ni su presencia"
+ ],
+ "limitaciones_adoptadas": [
+  "la circularidad es una reconstrucción (D-EXP0)",
+  "no localizado en el corpus revisado",
+  "Gate 0 sin PASS global"
+ ]
+}

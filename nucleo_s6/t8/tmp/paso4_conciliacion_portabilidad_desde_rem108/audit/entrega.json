@@ -1,0 +1,1179 @@
+{
+ "archivos": 291,
+ "bytes": 165957774,
+ "entrega": "paso4_conciliacion_portabilidad_desde_rem108",
+ "externos_al_inventario": [
+  "audit/entrega.json",
+  "audit/entrega.sha256"
+ ],
+ "files": {
+  "FICHAS_PENDIENTES.json": {
+   "bytes": 55891,
+   "sha256": "ca71733deaf0e5b9f89022722ba292f92bfd9bae61d8367b214bceaddb2b22c2"
+  },
+  "FICHAS_PENDIENTES.md": {
+   "bytes": 43837,
+   "sha256": "3b8265e84668010d3827af7dffc91a24bfb44b1c1839d35ba89e7d8fa2888294"
+  },
+  "INFORME_REM108.md": {
+   "bytes": 16009,
+   "sha256": "5b274e6033bfcb3489b8a34830e5e920b9102a466aa20141441250b706857d66"
+  },
+  "MATRIZ_CONCILIACION_GLOBAL.json": {
+   "bytes": 175772,
+   "sha256": "02a420e9582666fb0fbd48c90a55e1774045288ff09957837af0b67118b1e55b"
+  },
+  "MATRIZ_CONCILIACION_GLOBAL.md": {
+   "bytes": 24824,
+   "sha256": "87abe5bc59d5a19a2ee49a4ba3673af1e2895c95f42705a6fa0006267758054e"
+  },
+  "PAQUETE_PORTABILIDAD/LEEME.md": {
+   "bytes": 8203,
+   "sha256": "71166cfe4c19c5f497f8d13646aa66025d6b9533f747a48dd6b26c04357eda07"
+  },
+  "PAQUETE_PORTABILIDAD/incorporacion/acta_p3_sucesora_PROPUESTA.json": {
+   "bytes": 33368,
+   "sha256": "a8d700fa0d6cc40d788687a332f368fc9fef560c273287bb3a2849cf451ab1ed"
+  },
+  "PAQUETE_PORTABILIDAD/incorporacion/p2/aplicar_candidato.py": {
+   "bytes": 9691,
+   "sha256": "01b6bb86510ac7de007dba54cac49f1998b1420cc1c3ce23b4a74b73457db8cd"
+  },
+  "PAQUETE_PORTABILIDAD/incorporacion/p2/origen/paso4/instalacion/datos/paso4/almacenes_decision.json": {
+   "bytes": 550,
+   "sha256": "1e96a4d7258316e5b13053a1068a682076d8723b85eefde1b784444a01b60807"
+  },
+  "PAQUETE_PORTABILIDAD/incorporacion/p2/origen/paso4/instalacion/herramientas/b/aprobacion_alcance.py": {
+   "bytes": 9170,
+   "sha256": "631003ca87989ccd0189b33c9bd35e338a6f16fe4a0d50cbc2ccef0ee6f96467"
+  },
+  "PAQUETE_PORTABILIDAD/incorporacion/p2/origen/paso4/instalacion/herramientas/b/contexto_s6.py": {
+   "bytes": 9839,
+   "sha256": "618463864db1268678bdfd2d018aded56358411cda80f103dafc7cf1a648e107"
+  },
+  "PAQUETE_PORTABILIDAD/incorporacion/p2/origen/paso4/instalacion/herramientas/b/continuidad.py": {
+   "bytes": 21764,
+   "sha256": "cfe02dbe5a2ba32a752a3f8262f71cae1ed38ac376569520aa9330f47aa65ae2"
+  },
+  "PAQUETE_PORTABILIDAD/incorporacion/p2/origen/paso4/instalacion/herramientas/b/corrida_paso4.py": {
+   "bytes": 87438,
+   "sha256": "02d455f9d8d80d994c22cdc3f93744931dff770fa6c20eaa75c6f69d9b5823c9"
+  },
+  "PAQUETE_PORTABILIDAD/incorporacion/p2/origen/paso4/instalacion/herramientas/b/seleccion_paso4.py": {
+   "bytes": 18029,
+   "sha256": "ae10124df9d2c333471a8d9ee71eade2a4fc010cfbcd51a96c0aee23e1818d8d"
+  },
+  "PAQUETE_PORTABILIDAD/incorporacion/p2/origen/paso4/instalacion/herramientas/b/tarea_prod.py": {
+   "bytes": 24706,
+   "sha256": "2e6c16991e7ebccb614d62a1be0d4d708e8adab52533d72e0f2ca55b15e2c26a"
+  },
+  "PAQUETE_PORTABILIDAD/incorporacion/p2/propuesta_incorporacion_candidato.json": {
+   "bytes": 25046,
+   "sha256": "660c86360a2158151a2201f7ae466968c2b9f2d68c25e5e4c2ac887db28ba48a"
+  },
+  "admin/autenticar_partida_rem107.py": {
+   "bytes": 2784,
+   "sha256": "5461779b9d9cba689c943bf802a746a694a0ce3545e744c63d2c140c1efdad3a"
+  },
+  "admin/custodia_rem108.py": {
+   "bytes": 14008,
+   "sha256": "2e378b5d5d29b7326d93e363a42229fa9b998e1179a1edd78d1ca3caf172dc92"
+  },
+  "admin/linea_base_revisor_rem108.py": {
+   "bytes": 2641,
+   "sha256": "4a1941a95099102e00cc0aebaa567ce82da72c393abf4444760ac2c1d8912614"
+  },
+  "admin/recibo_rem108.py": {
+   "bytes": 2327,
+   "sha256": "42975cdca3000a6eb4ca0855f3046ffa19be54f7215b5497c10d1c5f869dcfa2"
+  },
+  "admin/sellar_rem108.py": {
+   "bytes": 3043,
+   "sha256": "6432e7eceb2a5863c427fa8d01169998164585e14adafa7891241762e3479b03"
+  },
+  "audit/autenticacion_partida_rem107.json": {
+   "bytes": 678,
+   "sha256": "55f7153a9cc99288243fba3d62669d1957230e7ded73ef9261162e47917a53e1"
+  },
+  "audit/custodia_rem108.json": {
+   "bytes": 14775,
+   "sha256": "584f0394102da1334631a5614d9f0bc7fa7030f18d04d5a6707e1260041878aa"
+  },
+  "audit/custodia_rem108.stderr.txt": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "audit/custodia_rem108.stdout.txt": {
+   "bytes": 2472,
+   "sha256": "f5c850b6a97ce8c0f1a812e63e3cf7a0d5a71321d76d093010d0cd919da905c2"
+  },
+  "audit/p3ctl/eventos.jsonl": {
+   "bytes": 9877,
+   "sha256": "c4e24812318ecce7ea62a1dc5e273f682a324c91e9add853b4d37b1fb3a9cf60"
+  },
+  "audit/p3ctl/eventos.lock": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "audit/pausa_disco_lleno.json": {
+   "bytes": 619,
+   "sha256": "484e1b98d32fa903b767a4e35f99aed7170b8a8c434e7aeff72af4344eeeac55"
+  },
+  "audit/recepcion.json": {
+   "bytes": 1621,
+   "sha256": "eda30f46b6ff42a4632a0cd90eb61e75d34bc8e2bf83a01cac747d270306d183"
+  },
+  "audit/revisor_linea_base.json": {
+   "bytes": 7208,
+   "sha256": "fb4df01b8444cf75765de043af4cb01ce31c01e24879922ee96a78c9e2f65d59"
+  },
+  "codigo/cupos.py": {
+   "bytes": 28826,
+   "sha256": "3e07e5753e62b5203dac200e8bf4fdaf085e4ede009ed7544bbc6440e8ef66e0"
+  },
+  "codigo/p3ctl.py": {
+   "bytes": 34986,
+   "sha256": "546271b057a9635ab39ca3f94e0fd79da46cc7091a4bff873ab8c54e6d875841"
+  },
+  "codigo/procesos.py": {
+   "bytes": 7690,
+   "sha256": "0ade23a92c8e83f01d6fade66bc7da211e386ace09c7eda6ef36610cfc9516df"
+  },
+  "codigo/recursos/supervisar.py": {
+   "bytes": 8197,
+   "sha256": "beec8d3c5a3fa9cdc21482b5f96c5e35e4d0b48994b6935a500a08fe3b678b15"
+  },
+  "codigo/registrar_recepcion_rem103.py": {
+   "bytes": 3873,
+   "sha256": "8d7b503719efb50a1992c00013b56ac18ee68c5bab060f19d030f64527411103"
+  },
+  "codigo/tarea_con_cupo.py": {
+   "bytes": 18767,
+   "sha256": "9e2501b30a07a8192462f1c9de701d8ce6649f4e837f6edf458265d17005fba3"
+  },
+  "conciliacion/EXP8_TABLA.csv": {
+   "bytes": 3033582,
+   "sha256": "1ce0c37265b923e2247470e1948c43e4bc227c7b9ef0838f98296a2f348bd31c"
+  },
+  "conciliacion/EXP8_TABLA.json": {
+   "bytes": 5228257,
+   "sha256": "8e43185e1b46954a8a9484e7dc385ace0f8eea008b2438cd8ddfa4c673489a5f"
+  },
+  "conciliacion/ensamblajes/COBERTURA.json": {
+   "bytes": 1455,
+   "sha256": "3a18a8973a2e9f2a69c1ba9c6b30e77282f59113ee4d0a26d81b0d204916e8f6"
+  },
+  "conciliacion/ensamblajes/T1.csv": {
+   "bytes": 2110,
+   "sha256": "7fd883d3d8e87f05b7607a2df3a939e7ff082f0051e7542dd551b1cd93cfc6e4"
+  },
+  "conciliacion/ensamblajes/T2.csv": {
+   "bytes": 946,
+   "sha256": "bce470b6bebcaaa5c5e8f46110972417a34b9889292c3b0a8a03704e0b9bce2d"
+  },
+  "conciliacion/ensamblajes/T7.csv": {
+   "bytes": 31602,
+   "sha256": "504255e10e769188699c1725660595f56cf2edd995a346213a1d5ba82001572b"
+  },
+  "conciliacion/ensamblajes/T7_anexo.csv": {
+   "bytes": 2000797,
+   "sha256": "133d019b18319e6004818bae7e146a1c6e44a2b638f67e024b42e80e97b1ab66"
+  },
+  "conciliacion/ensamblajes/T7_anexo.json": {
+   "bytes": 3314968,
+   "sha256": "070f3c8e01f245897985c1bd3ee9b0094f3feb388c6c8390a7b1a41ef4f023ec"
+  },
+  "conciliacion/ensamblajes/T8.csv": {
+   "bytes": 3168,
+   "sha256": "057dad3b9fe5f4cad887958650db88899ef68632f15617851159aebc8e1df6b4"
+  },
+  "conciliacion/ensamblajes/T8_anexo.csv": {
+   "bytes": 8505547,
+   "sha256": "7262b4a619b4cff12f44131ac80cb7faed2f717bb141f8f9b937373da1dd2ef6"
+  },
+  "conciliacion/ensamblajes/T8_anexo.json": {
+   "bytes": 17613302,
+   "sha256": "e63ae329777ca04342a2d86c439b70008e52965adf801b23b3339bd657074bc9"
+  },
+  "conciliacion/ensamblajes/admissibility_report.csv": {
+   "bytes": 46577,
+   "sha256": "bf651399bf900967ff4c90bdcd3c8b7103cef9c19081f462a7b9e3fb2584fe95"
+  },
+  "conciliacion/ensamblajes/auditoria_por_corrida.csv": {
+   "bytes": 7224,
+   "sha256": "64ba7b760f79f15f11cde5df14741f2086e6a1cad5172f85fde5639b1c077c13"
+  },
+  "conciliacion/generar_matriz_rem108.py": {
+   "bytes": 112468,
+   "sha256": "8954fdd4ab7a7fb076f3a3bd347dd12b363122d4cbe91d2fab724ce0b40d4335"
+  },
+  "conciliacion/intentos/i1/EXP8_TABLA.csv": {
+   "bytes": 3033582,
+   "sha256": "1ce0c37265b923e2247470e1948c43e4bc227c7b9ef0838f98296a2f348bd31c"
+  },
+  "conciliacion/intentos/i1/EXP8_TABLA.json": {
+   "bytes": 5228257,
+   "sha256": "8e43185e1b46954a8a9484e7dc385ace0f8eea008b2438cd8ddfa4c673489a5f"
+  },
+  "conciliacion/intentos/i1/FICHAS_PENDIENTES.json": {
+   "bytes": 35797,
+   "sha256": "4c68fd241f607249f04a81ef97584fc75705fe2e125f2e113f5874c34fe59d1b"
+  },
+  "conciliacion/intentos/i1/FICHAS_PENDIENTES.md": {
+   "bytes": 29990,
+   "sha256": "391fa17297cbbe5040154ced89a1a9c526ebea23a02840b44a5d4a61e1f3364e"
+  },
+  "conciliacion/intentos/i1/MATRIZ_CONCILIACION_GLOBAL.json": {
+   "bytes": 172995,
+   "sha256": "1a44f17aa22323624d6e69560784e2b94bb5ca3223534b7cbd31fc7433009dca"
+  },
+  "conciliacion/intentos/i1/MATRIZ_CONCILIACION_GLOBAL.md": {
+   "bytes": 24343,
+   "sha256": "8537428ab6d02329fca1a9cc108c49a16da7a77234ffd09a478a4d9ebb5c95e9"
+  },
+  "conciliacion/intentos/i1/ensamblajes/COBERTURA.json": {
+   "bytes": 1455,
+   "sha256": "3a18a8973a2e9f2a69c1ba9c6b30e77282f59113ee4d0a26d81b0d204916e8f6"
+  },
+  "conciliacion/intentos/i1/ensamblajes/T1.csv": {
+   "bytes": 2110,
+   "sha256": "7fd883d3d8e87f05b7607a2df3a939e7ff082f0051e7542dd551b1cd93cfc6e4"
+  },
+  "conciliacion/intentos/i1/ensamblajes/T2.csv": {
+   "bytes": 946,
+   "sha256": "bce470b6bebcaaa5c5e8f46110972417a34b9889292c3b0a8a03704e0b9bce2d"
+  },
+  "conciliacion/intentos/i1/ensamblajes/T7.csv": {
+   "bytes": 31602,
+   "sha256": "504255e10e769188699c1725660595f56cf2edd995a346213a1d5ba82001572b"
+  },
+  "conciliacion/intentos/i1/ensamblajes/T7_anexo.csv": {
+   "bytes": 2000797,
+   "sha256": "133d019b18319e6004818bae7e146a1c6e44a2b638f67e024b42e80e97b1ab66"
+  },
+  "conciliacion/intentos/i1/ensamblajes/T7_anexo.json": {
+   "bytes": 3314968,
+   "sha256": "070f3c8e01f245897985c1bd3ee9b0094f3feb388c6c8390a7b1a41ef4f023ec"
+  },
+  "conciliacion/intentos/i1/ensamblajes/T8.csv": {
+   "bytes": 3168,
+   "sha256": "057dad3b9fe5f4cad887958650db88899ef68632f15617851159aebc8e1df6b4"
+  },
+  "conciliacion/intentos/i1/ensamblajes/T8_anexo.csv": {
+   "bytes": 8505547,
+   "sha256": "7262b4a619b4cff12f44131ac80cb7faed2f717bb141f8f9b937373da1dd2ef6"
+  },
+  "conciliacion/intentos/i1/ensamblajes/T8_anexo.json": {
+   "bytes": 17613302,
+   "sha256": "e63ae329777ca04342a2d86c439b70008e52965adf801b23b3339bd657074bc9"
+  },
+  "conciliacion/intentos/i1/ensamblajes/admissibility_report.csv": {
+   "bytes": 46577,
+   "sha256": "bf651399bf900967ff4c90bdcd3c8b7103cef9c19081f462a7b9e3fb2584fe95"
+  },
+  "conciliacion/intentos/i1/ensamblajes/auditoria_por_corrida.csv": {
+   "bytes": 7224,
+   "sha256": "64ba7b760f79f15f11cde5df14741f2086e6a1cad5172f85fde5639b1c077c13"
+  },
+  "conciliacion/intentos/i2/EXP8_TABLA.csv": {
+   "bytes": 3033582,
+   "sha256": "1ce0c37265b923e2247470e1948c43e4bc227c7b9ef0838f98296a2f348bd31c"
+  },
+  "conciliacion/intentos/i2/EXP8_TABLA.json": {
+   "bytes": 5228257,
+   "sha256": "8e43185e1b46954a8a9484e7dc385ace0f8eea008b2438cd8ddfa4c673489a5f"
+  },
+  "conciliacion/intentos/i2/FICHAS_PENDIENTES.json": {
+   "bytes": 55184,
+   "sha256": "1ceb59686cae0274c95378514131386046a95bc05cb0327ab8c5819a82485dfa"
+  },
+  "conciliacion/intentos/i2/FICHAS_PENDIENTES.md": {
+   "bytes": 43176,
+   "sha256": "a0bce23423818d023b4f20d1b62f5db350f31bfc1b17699a5881a47ee43f9623"
+  },
+  "conciliacion/intentos/i2/MATRIZ_CONCILIACION_GLOBAL.json": {
+   "bytes": 175772,
+   "sha256": "ad7782662b80b876a70d254ec0f3408829be9a01dabb096128308dcbee2aad47"
+  },
+  "conciliacion/intentos/i2/MATRIZ_CONCILIACION_GLOBAL.md": {
+   "bytes": 24824,
+   "sha256": "87abe5bc59d5a19a2ee49a4ba3673af1e2895c95f42705a6fa0006267758054e"
+  },
+  "conciliacion/intentos/i2/ensamblajes/COBERTURA.json": {
+   "bytes": 1455,
+   "sha256": "3a18a8973a2e9f2a69c1ba9c6b30e77282f59113ee4d0a26d81b0d204916e8f6"
+  },
+  "conciliacion/intentos/i2/ensamblajes/T1.csv": {
+   "bytes": 2110,
+   "sha256": "7fd883d3d8e87f05b7607a2df3a939e7ff082f0051e7542dd551b1cd93cfc6e4"
+  },
+  "conciliacion/intentos/i2/ensamblajes/T2.csv": {
+   "bytes": 946,
+   "sha256": "bce470b6bebcaaa5c5e8f46110972417a34b9889292c3b0a8a03704e0b9bce2d"
+  },
+  "conciliacion/intentos/i2/ensamblajes/T7.csv": {
+   "bytes": 31602,
+   "sha256": "504255e10e769188699c1725660595f56cf2edd995a346213a1d5ba82001572b"
+  },
+  "conciliacion/intentos/i2/ensamblajes/T7_anexo.csv": {
+   "bytes": 2000797,
+   "sha256": "133d019b18319e6004818bae7e146a1c6e44a2b638f67e024b42e80e97b1ab66"
+  },
+  "conciliacion/intentos/i2/ensamblajes/T7_anexo.json": {
+   "bytes": 3314968,
+   "sha256": "070f3c8e01f245897985c1bd3ee9b0094f3feb388c6c8390a7b1a41ef4f023ec"
+  },
+  "conciliacion/intentos/i2/ensamblajes/T8.csv": {
+   "bytes": 3168,
+   "sha256": "057dad3b9fe5f4cad887958650db88899ef68632f15617851159aebc8e1df6b4"
+  },
+  "conciliacion/intentos/i2/ensamblajes/T8_anexo.csv": {
+   "bytes": 8505547,
+   "sha256": "7262b4a619b4cff12f44131ac80cb7faed2f717bb141f8f9b937373da1dd2ef6"
+  },
+  "conciliacion/intentos/i2/ensamblajes/T8_anexo.json": {
+   "bytes": 17613302,
+   "sha256": "e63ae329777ca04342a2d86c439b70008e52965adf801b23b3339bd657074bc9"
+  },
+  "conciliacion/intentos/i2/ensamblajes/admissibility_report.csv": {
+   "bytes": 46577,
+   "sha256": "bf651399bf900967ff4c90bdcd3c8b7103cef9c19081f462a7b9e3fb2584fe95"
+  },
+  "conciliacion/intentos/i2/ensamblajes/auditoria_por_corrida.csv": {
+   "bytes": 7224,
+   "sha256": "64ba7b760f79f15f11cde5df14741f2086e6a1cad5172f85fde5639b1c077c13"
+  },
+  "conciliacion/intentos/i3/EXP8_TABLA.csv": {
+   "bytes": 3033582,
+   "sha256": "1ce0c37265b923e2247470e1948c43e4bc227c7b9ef0838f98296a2f348bd31c"
+  },
+  "conciliacion/intentos/i3/EXP8_TABLA.json": {
+   "bytes": 5228257,
+   "sha256": "8e43185e1b46954a8a9484e7dc385ace0f8eea008b2438cd8ddfa4c673489a5f"
+  },
+  "conciliacion/intentos/i3/FICHAS_PENDIENTES.json": {
+   "bytes": 55891,
+   "sha256": "ca71733deaf0e5b9f89022722ba292f92bfd9bae61d8367b214bceaddb2b22c2"
+  },
+  "conciliacion/intentos/i3/FICHAS_PENDIENTES.md": {
+   "bytes": 43837,
+   "sha256": "3b8265e84668010d3827af7dffc91a24bfb44b1c1839d35ba89e7d8fa2888294"
+  },
+  "conciliacion/intentos/i3/MATRIZ_CONCILIACION_GLOBAL.json": {
+   "bytes": 175772,
+   "sha256": "02a420e9582666fb0fbd48c90a55e1774045288ff09957837af0b67118b1e55b"
+  },
+  "conciliacion/intentos/i3/MATRIZ_CONCILIACION_GLOBAL.md": {
+   "bytes": 24824,
+   "sha256": "87abe5bc59d5a19a2ee49a4ba3673af1e2895c95f42705a6fa0006267758054e"
+  },
+  "conciliacion/intentos/i3/ensamblajes/COBERTURA.json": {
+   "bytes": 1455,
+   "sha256": "3a18a8973a2e9f2a69c1ba9c6b30e77282f59113ee4d0a26d81b0d204916e8f6"
+  },
+  "conciliacion/intentos/i3/ensamblajes/T1.csv": {
+   "bytes": 2110,
+   "sha256": "7fd883d3d8e87f05b7607a2df3a939e7ff082f0051e7542dd551b1cd93cfc6e4"
+  },
+  "conciliacion/intentos/i3/ensamblajes/T2.csv": {
+   "bytes": 946,
+   "sha256": "bce470b6bebcaaa5c5e8f46110972417a34b9889292c3b0a8a03704e0b9bce2d"
+  },
+  "conciliacion/intentos/i3/ensamblajes/T7.csv": {
+   "bytes": 31602,
+   "sha256": "504255e10e769188699c1725660595f56cf2edd995a346213a1d5ba82001572b"
+  },
+  "conciliacion/intentos/i3/ensamblajes/T7_anexo.csv": {
+   "bytes": 2000797,
+   "sha256": "133d019b18319e6004818bae7e146a1c6e44a2b638f67e024b42e80e97b1ab66"
+  },
+  "conciliacion/intentos/i3/ensamblajes/T7_anexo.json": {
+   "bytes": 3314968,
+   "sha256": "070f3c8e01f245897985c1bd3ee9b0094f3feb388c6c8390a7b1a41ef4f023ec"
+  },
+  "conciliacion/intentos/i3/ensamblajes/T8.csv": {
+   "bytes": 3168,
+   "sha256": "057dad3b9fe5f4cad887958650db88899ef68632f15617851159aebc8e1df6b4"
+  },
+  "conciliacion/intentos/i3/ensamblajes/T8_anexo.csv": {
+   "bytes": 8505547,
+   "sha256": "7262b4a619b4cff12f44131ac80cb7faed2f717bb141f8f9b937373da1dd2ef6"
+  },
+  "conciliacion/intentos/i3/ensamblajes/T8_anexo.json": {
+   "bytes": 17613302,
+   "sha256": "e63ae329777ca04342a2d86c439b70008e52965adf801b23b3339bd657074bc9"
+  },
+  "conciliacion/intentos/i3/ensamblajes/admissibility_report.csv": {
+   "bytes": 46577,
+   "sha256": "bf651399bf900967ff4c90bdcd3c8b7103cef9c19081f462a7b9e3fb2584fe95"
+  },
+  "conciliacion/intentos/i3/ensamblajes/auditoria_por_corrida.csv": {
+   "bytes": 7224,
+   "sha256": "64ba7b760f79f15f11cde5df14741f2086e6a1cad5172f85fde5639b1c077c13"
+  },
+  "conciliacion/prueba_entregas.py": {
+   "bytes": 4854,
+   "sha256": "5440a11448ae55b315fa1c9d836c20a26b550241702597300fc27f7c78f28322"
+  },
+  "logs/matriz_i1.stderr.txt": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "logs/matriz_i1.stdout.txt": {
+   "bytes": 2349,
+   "sha256": "ca5280dc5c789f3f5265d3b6a98642fc4e719d9debff023e7dc485cd4695bbe6"
+  },
+  "logs/matriz_i2.stderr.txt": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "logs/matriz_i2.stdout.txt": {
+   "bytes": 2430,
+   "sha256": "f318f75641167d15fc72261f7ccbf88607978cae7b1f83242a8b33964f2149b3"
+  },
+  "logs/matriz_i3.stderr.txt": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "logs/matriz_i3.stdout.txt": {
+   "bytes": 2430,
+   "sha256": "f318f75641167d15fc72261f7ccbf88607978cae7b1f83242a8b33964f2149b3"
+  },
+  "logs/p3_directas/ENSAYO_INC_i1.muestras.jsonl": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "logs/p3_directas/ENSAYO_INC_i1.stderr.log": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "logs/p3_directas/ENSAYO_INC_i1.stdout.log": {
+   "bytes": 456,
+   "sha256": "2742cf33b0a7f2b5446662c674f07fe291f839fdeae4d33a0fe92698d601d7a8"
+  },
+  "logs/p3_directas/ENSAYO_INC_i1.tarea.json": {
+   "bytes": 1179,
+   "sha256": "51c6885cbcba0de61bcd227b620ee530abb21db6f5698eb0cc26495ada97a53b"
+  },
+  "logs/p3_directas/FRONTERA_SINT_i1.muestras.jsonl": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "logs/p3_directas/FRONTERA_SINT_i1.stderr.log": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "logs/p3_directas/FRONTERA_SINT_i1.stdout.log": {
+   "bytes": 564,
+   "sha256": "a6342d4b0f152049fe6c8f33e938368afe1c619194f4524a2be9f005a1f8c2d5"
+  },
+  "logs/p3_directas/FRONTERA_SINT_i1.tarea.json": {
+   "bytes": 960,
+   "sha256": "3861dafd9b85c4fe9810dbc18cb2895f7acbc0a7ff666e91bf41c6549a583b1e"
+  },
+  "logs/p3_directas/FRONTERA_SINT_i2.muestras.jsonl": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "logs/p3_directas/FRONTERA_SINT_i2.stderr.log": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "logs/p3_directas/FRONTERA_SINT_i2.stdout.log": {
+   "bytes": 636,
+   "sha256": "93e50b215c46365911bee6896ea57ffe610aaad1c089d76857c7a81ec39b7322"
+  },
+  "logs/p3_directas/FRONTERA_SINT_i2.tarea.json": {
+   "bytes": 963,
+   "sha256": "703a502fea6c4fea9edebfaad46ea3bea2698fb609b2a934ea48e86014bd8bf4"
+  },
+  "logs/p3_directas/LAMBDA_SINT_i1.muestras.jsonl": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "logs/p3_directas/LAMBDA_SINT_i1.stderr.log": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "logs/p3_directas/LAMBDA_SINT_i1.stdout.log": {
+   "bytes": 486,
+   "sha256": "960c70ce7bc33dd55b8cfc69246ddd058e8a9e8abd608bfbc6d9dea598612445"
+  },
+  "logs/p3_directas/LAMBDA_SINT_i1.tarea.json": {
+   "bytes": 953,
+   "sha256": "427ed972bb14cd765ddc196c56b07e35b3477706a9764271c851582f8b40ea58"
+  },
+  "logs/p3_directas/LAMBDA_SINT_i2.muestras.jsonl": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "logs/p3_directas/LAMBDA_SINT_i2.stderr.log": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "logs/p3_directas/LAMBDA_SINT_i2.stdout.log": {
+   "bytes": 486,
+   "sha256": "2be89ad3d64c81512234e7955e5c7f052ff85b02b113f81854498d9493011130"
+  },
+  "logs/p3_directas/LAMBDA_SINT_i2.tarea.json": {
+   "bytes": 953,
+   "sha256": "93f9ba56ba438f7181af17ff815e714430cbde23974a5774ffa74ad4c4ad8e14"
+  },
+  "lote/LOTE1_MANIFIESTO.json": {
+   "bytes": 16050,
+   "sha256": "43af41ae24d3e32dc31393fa1c5b0e11cc84b37bf994df2cc08aa82e6dbeb37e"
+  },
+  "lote/LOTE1_MANIFIESTO_i1.json": {
+   "bytes": 15995,
+   "sha256": "e7180aeedd0a9d1e46d3031d87bf7485977d45811cab6928cdadb8b11cb21674"
+  },
+  "lote/conexion_frontera.py": {
+   "bytes": 4086,
+   "sha256": "cac8b7ec3214ea37ffb985079fde972b682af4ebb8e5c64361d933a7b346147c"
+  },
+  "lote/conexion_lambda.py": {
+   "bytes": 6336,
+   "sha256": "5fa6f8cc675a86cc161b9d98d6d0882b7c729e12062f0e0c0ebe9458938d6a6e"
+  },
+  "lote/verificar_lote.py": {
+   "bytes": 5626,
+   "sha256": "c68bd4324f3e2b41f76af36ccaa4704090869766d7bbf83697636b8d3791f2e2"
+  },
+  "portabilidad/construir_paquete_incorporacion.py": {
+   "bytes": 6246,
+   "sha256": "0de6ee368529a067167eb23147239d8c4eb610e58d809a9332874262d0751346"
+  },
+  "portabilidad/ensayo_i1/fixtures/fffff108-0000-4000-8000-660c86360a21.jsonl": {
+   "bytes": 487,
+   "sha256": "68869b9b232db3e714fe0fe39390cc3010b6f73d11d6425729a271996a01a643"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/datos/paso4/calendario_v1.json": {
+   "bytes": 202041,
+   "sha256": "afa05f835f4b6ab78a044dc217fd94ae9b475c8768fbaca6f96a67902a71eeb6"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/datos/paso4/calendario_v2.json": {
+   "bytes": 207200,
+   "sha256": "d21b962a7cd2543b3e5468f8631786becdffc6ed9ef9a0c7f3fcedbfe507dfb2"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/datos/paso4/dr1_tecnicas_admitidas.json": {
+   "bytes": 8661,
+   "sha256": "3be9730ff25053fb45d2c7c739de899b61c8aac846bbe5b263289f3489da42b3"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/datos/paso4/lista_PROD.json": {
+   "bytes": 119409,
+   "sha256": "42fe89148b4346e3b9defe6f91ff7920823570afe77a932ffdc690373c33bf8b"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/datos/paso4/lista_R2_testigos.json": {
+   "bytes": 1977856,
+   "sha256": "519ec91924cad7ce8b8cf29c407894926c912c9cb9196de3c626514303ae066f"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/datos/paso4/lista_R3_candidata_B_NA.json": {
+   "bytes": 21606,
+   "sha256": "7f8fed89a8d678fc18ec629b1e9326c8c776d03c566533f7b4a2a2c2a94853b2"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/datos/paso4/opciones_r1.json": {
+   "bytes": 4133,
+   "sha256": "00c27b5976adf5074a2448a12d401786a4d9770405ffeb7b47342d5b510db24f"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/datos/paso4/rebalanceo_v1.json": {
+   "bytes": 211189,
+   "sha256": "8e15ac607d3a011b8c6ff7a6b34a3c0db8981dcf13585a87974d4f9de887358b"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/datos/paso4/reglas_selladas_R3.json": {
+   "bytes": 3494,
+   "sha256": "bc4b8407a0c05ea57fdd1fb2a70f54463e83eae55b3b9444d333d25cb3fd2ca0"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/datos/paso4/reglas_selladas_lote1_R2.json": {
+   "bytes": 2300,
+   "sha256": "d37338d7a68e5a2a4eb8952e76207e545a2fcfcc983e705a10e6578c3c07be1f"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/calendario_paso4.py": {
+   "bytes": 20382,
+   "sha256": "66aa570048af88c8d8a02cca1194988edd7f97a6367df098297a6e5786015ffc"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/captura_ra.py": {
+   "bytes": 11127,
+   "sha256": "2accf7299f9d01d011a71e5b7f59f9228922271b8bac8c698cc68d76606040f9"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/comparar_reproduccion.py": {
+   "bytes": 71935,
+   "sha256": "c90fd2206af5d2d698c8a89522cd6b59959370c592ce89fcd3816bc3a7774737"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/comparar_tarea.py": {
+   "bytes": 15915,
+   "sha256": "6cb512a1b58ae66b054a4c30edd6d34981b6bf9fc85e8fcd80cfffa8c4489e3f"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/contexto_s5.py": {
+   "bytes": 8700,
+   "sha256": "346916c6a96742a53a271e3efeb4f9bf887429970fc3ab37d573f712a9ccb58c"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/contexto_s6.py": {
+   "bytes": 9278,
+   "sha256": "fb4a4b1efa4d713f98f2dc8772e0f885e39fd32c9ce33877221f66bcdb8f12e7"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/corrida_paso4.py": {
+   "bytes": 76838,
+   "sha256": "6a30c86fdf9bdbb21ab5cd6d26cc21ac65770cc678c8482f467dea1b6baae56e"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/decision_d4.py": {
+   "bytes": 2865,
+   "sha256": "dd78998bcc89c01069c224251a664d61936e1f65ce8e47fe94fe44c83d92a705"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/ejecutor_supervisado.py": {
+   "bytes": 6412,
+   "sha256": "3b6480bd663b3d95340922262d983304bdb962803581587ee23cfb4adf45b3e4"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/evaluadores_ra.py": {
+   "bytes": 42873,
+   "sha256": "db962e34b3e0df756f75617b60a6d984a9eebedc223060f36e0fec057d0fb152"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/generador_seleccion.py": {
+   "bytes": 16524,
+   "sha256": "92898e1ee72e6187d7670c74b85a70ba89ad44c83be33efdf7ee06fa31e4488a"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/opciones_p1.py": {
+   "bytes": 59726,
+   "sha256": "0c940eca74e84bba0191a66498263941e93e3647987f25ee3f6fe23be754b6bb"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/plan_prod.py": {
+   "bytes": 9289,
+   "sha256": "18c32fbaa3770d92674e2363ddf3bf2949cfeb7a7d700b78e160c0ceb4cee39c"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/productor_r3.py": {
+   "bytes": 9592,
+   "sha256": "12bf425b5d10ee4a249de5e5e1c577191683f19f8ca8d8eb4596d9745f55a816"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/r1_rutas.py": {
+   "bytes": 28450,
+   "sha256": "e6f922fb78d4d5a54b3fadad555d290bb481740ed17f3dcd901e41c5db125f55"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/r1_s6.py": {
+   "bytes": 29259,
+   "sha256": "31faa40de838c840a3133d8e74e2594737d89e37c0abeed36e2af5809ff2ac54"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/rebalanceo_paso4.py": {
+   "bytes": 11510,
+   "sha256": "c9575cfb8bee384282eefff0f0e307e1f8f1ae1c37ab734c9e882eab82a885ad"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/registro_productivo.py": {
+   "bytes": 34633,
+   "sha256": "d9addec6bb5caf5292a973f5f2742c7801656ee97cc67f859ac828f4da958253"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/regla_dr1.py": {
+   "bytes": 9100,
+   "sha256": "95c8cdca9cc5066eb3c705dff542a2e2162bc22e2a94fc6534ab9c7d38b30284"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/seleccion_paso4.py": {
+   "bytes": 17088,
+   "sha256": "a005160bbb1b5d9953b73c50e8cf597a0ddca871e776f66e7dc747ca46425e34"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/soporte_global.py": {
+   "bytes": 12513,
+   "sha256": "fa379d35c3f825f91c10c642c472d94ab25d07517f4ee85df8077066adf84374"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/tarea_paso4.py": {
+   "bytes": 9805,
+   "sha256": "5b476dc6c0d77f3a2af9cb39eb18ea4af515750e554485af517eb7e02b1db304"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/tarea_prod.py": {
+   "bytes": 24556,
+   "sha256": "3204ebe5c13f856a8fd38e4ce55da7c1b90489a3ba25c9b105208f815b9d3d9f"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/tarea_r1.py": {
+   "bytes": 31355,
+   "sha256": "fdf4ba1e67709f315c197733fa1778af9d00572b5a48185857a618e117ec248d"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/techos_persistentes.py": {
+   "bytes": 30377,
+   "sha256": "8e349de642df5d4c56647ac0c44969df367d487ca68dbd9099dde887e2eabc22"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/unidades.py": {
+   "bytes": 37463,
+   "sha256": "a8aded1db50f80feffd62bcb655e62e5f93487364a3c4e625f47dcdbd1f17c86"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/validador_prod.py": {
+   "bytes": 17390,
+   "sha256": "8891819114c9571e0fe4fac193d6ae9e4c1f8b589711459f4cd46862e5cd5f13"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/validador_r3.py": {
+   "bytes": 4252,
+   "sha256": "d2a5cbb6be9146434fa5455cfd47647e67e470411ebb975f12a4a8dce5a04125"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/validar_detallado_lima1533.py": {
+   "bytes": 50130,
+   "sha256": "871b1d7f2923c2aa7ca2dbe9dfaf3b9eeb36debad02ee3c40fceee10bb840c2c"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/b/vinculo_paso4.py": {
+   "bytes": 19066,
+   "sha256": "75b20ee0911547a4f836152168f34f28011c9916c4ef50431768afae40885df7"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/s3/validadores/aceptaciones/procedencia_aceptaciones.json": {
+   "bytes": 1631,
+   "sha256": "40eb4d92ff71f1bc023a70cb2e9741602737a7581cc4866766fa80ca8a38fc0a"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/s3/validadores/aceptaciones/review_20261012_rem11_dictamen.txt": {
+   "bytes": 8973,
+   "sha256": "7d1e8a7a5bf7a738344c47672e63cdabfcb80aeba28c1672347e0ee20e811910"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/s3/validadores/e13_referencia.py": {
+   "bytes": 57303,
+   "sha256": "7870b5ad2827fde4ae978f35b5b24cf071e949a87dcd9e43511e9b76ba5b66d6"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/s3/validadores/e13_v4.py": {
+   "bytes": 13851,
+   "sha256": "f1772b27b61fc2dc6f9e8c45fc17aa298ff5503112b708780e7265e19eadcf48"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/herramientas/s3/validadores/paquete_seleccion.py": {
+   "bytes": 110623,
+   "sha256": "a70cf9042e93458d2df49fb1ac7b1ceb5a27b1e6697575cf0ce532b8e4924f35"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/R_A_dependencias.json": {
+   "bytes": 16887,
+   "sha256": "70dcf6d5bc9df5be5a132c55dc7f314a10859fec1250dd54126619ef4fbae0c7"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/historico/codigo/__init__.py": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/historico/codigo/cobertura_dificiles.py": {
+   "bytes": 18456,
+   "sha256": "fdb5e3909ba793bbb98c100c49d4b34e801e920c749d648deaac7db7b95610db"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/historico/codigo/cobertura_m4.py": {
+   "bytes": 23036,
+   "sha256": "99f3e07c0ba1d024cb90f11be804a199af2b6838a0acba0ac309bdcd7f85fd8f"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/historico/codigo/demo/__init__.py": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/historico/codigo/demo/c2_normalizado.py": {
+   "bytes": 6223,
+   "sha256": "31d247eeb0368a38aa90ea8c262e3ea55cdfa62d312fe68024969b54670ab785"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/historico/codigo/demo/cobertura_compartida.py": {
+   "bytes": 13315,
+   "sha256": "529d69dc5a878b8a74d78fbcf7716b065fa2dd391ed0fe08bc2e8459a5580a6f"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/historico/codigo/demo/cobertura_mejorada.py": {
+   "bytes": 15081,
+   "sha256": "4254e7a34b334edebde3a56e87ec4c0cc3080ca715d44489cbd8de90258477c6"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/historico/codigo/demo/init_autenticada.py": {
+   "bytes": 10566,
+   "sha256": "ce57ff15d128a08aee9bc9ffde8119283b85a5d14d4cb427774e7426357a06b8"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/historico/codigo/demo/memo_c2.py": {
+   "bytes": 2594,
+   "sha256": "dc40b2330b52e85bc19cac086f83f2d259ec0a7e2f150e4c8edf64f955084b9a"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/historico/codigo/demo/nucleo_v.py": {
+   "bytes": 11306,
+   "sha256": "0071c7470ee242ba3838997d8108c6db34c3daa6a2ee239f2f71edac3ab570eb"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/historico/codigo/demo/universo.py": {
+   "bytes": 4996,
+   "sha256": "60a1a71af6c11f78373a49e3a57206768ab86e128605f4bbc34845b168489a8c"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/historico/codigo/demo/verificador_v2.py": {
+   "bytes": 18325,
+   "sha256": "3c28797f952aa6edf2989eeedd10a6ef897278c420e5bf5db4876b53360ea4f8"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/historico/codigo/ensayo_quiebres.py": {
+   "bytes": 9918,
+   "sha256": "4fdc0853db79216ace6120122394ef8295f4079ad80210f420e0e7256f07318f"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/historico/codigo/ensayo_quiebres_macro.py": {
+   "bytes": 14589,
+   "sha256": "08bf879636123da44037763a0ced67b45a1114b384d367d4aaf67e2f75fa89f2"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/historico/codigo/muestra_costo.py": {
+   "bytes": 18614,
+   "sha256": "52532a33dd0625072f17b32a3a0870cb35d2efbbd5a713596549006d43daea53"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/historico/codigo/sensibilidad_q.py": {
+   "bytes": 11852,
+   "sha256": "5b1716149926964a38f917f3b917eebdf5e0edc1a367e457223d82375e03e417"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/historico/codigo/testigos.py": {
+   "bytes": 15528,
+   "sha256": "2ef80687d8483c203ba79e5e893e0144f18cc435058c31e0db3d2040a9a6dc8c"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/puerto/codigo/__init__.py": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/puerto/codigo/cobertura_dificiles.py": {
+   "bytes": 18456,
+   "sha256": "fdb5e3909ba793bbb98c100c49d4b34e801e920c749d648deaac7db7b95610db"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/puerto/codigo/cobertura_m4.py": {
+   "bytes": 23036,
+   "sha256": "99f3e07c0ba1d024cb90f11be804a199af2b6838a0acba0ac309bdcd7f85fd8f"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/puerto/codigo/demo/__init__.py": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/puerto/codigo/demo/c2_normalizado.py": {
+   "bytes": 6223,
+   "sha256": "31d247eeb0368a38aa90ea8c262e3ea55cdfa62d312fe68024969b54670ab785"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/puerto/codigo/demo/cobertura_compartida.py": {
+   "bytes": 13058,
+   "sha256": "d8b71f183e5f15de503c8539ea1b09db08e6bac264e818e5a0e567840bcead98"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/puerto/codigo/demo/cobertura_mejorada.py": {
+   "bytes": 14801,
+   "sha256": "78140f33fa5499918dd36468788380e0daec51dfc913f03e0c2a145033dc0541"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/puerto/codigo/demo/init_autenticada.py": {
+   "bytes": 10566,
+   "sha256": "ce57ff15d128a08aee9bc9ffde8119283b85a5d14d4cb427774e7426357a06b8"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/puerto/codigo/demo/memo_c2.py": {
+   "bytes": 2594,
+   "sha256": "dc40b2330b52e85bc19cac086f83f2d259ec0a7e2f150e4c8edf64f955084b9a"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/puerto/codigo/demo/nucleo_v.py": {
+   "bytes": 11335,
+   "sha256": "bd0f0b954926bcb20d77834e24f3506ab236903ac0c47e2ae96bad2d8fbc8520"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/puerto/codigo/demo/universo.py": {
+   "bytes": 4996,
+   "sha256": "60a1a71af6c11f78373a49e3a57206768ab86e128605f4bbc34845b168489a8c"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/puerto/codigo/demo/verificador_v2.py": {
+   "bytes": 17991,
+   "sha256": "3527ba17e2a877da22c7af35d9a678012f1edc874d5a3b6d4737770bbb5c4ecd"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/puerto/codigo/ensayo_quiebres.py": {
+   "bytes": 9918,
+   "sha256": "4fdc0853db79216ace6120122394ef8295f4079ad80210f420e0e7256f07318f"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/puerto/codigo/ensayo_quiebres_macro.py": {
+   "bytes": 14589,
+   "sha256": "08bf879636123da44037763a0ced67b45a1114b384d367d4aaf67e2f75fa89f2"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/puerto/codigo/muestra_costo.py": {
+   "bytes": 18614,
+   "sha256": "52532a33dd0625072f17b32a3a0870cb35d2efbbd5a713596549006d43daea53"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/puerto/codigo/sensibilidad_q.py": {
+   "bytes": 11852,
+   "sha256": "5b1716149926964a38f917f3b917eebdf5e0edc1a367e457223d82375e03e417"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/puerto/codigo/testigos.py": {
+   "bytes": 15528,
+   "sha256": "2ef80687d8483c203ba79e5e893e0144f18cc435058c31e0db3d2040a9a6dc8c"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/ra/puerto_ra.py": {
+   "bytes": 4881,
+   "sha256": "455af684db345a48923ee85a1383507d0c2abfdf184e2f2434b72d21da8023ef"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/__init__.py": {
+   "bytes": 407,
+   "sha256": "89f7210e7c118c83eec9d73323491e0d8c778b76d1297f703dfca2b86069c72a"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/aplicabilidad.py": {
+   "bytes": 6110,
+   "sha256": "71f452c7c0eea7b47ffb2985d0add1041780ecdaa19a4e24ed0ede7a1997a6cf"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/c2_normalizado.py": {
+   "bytes": 6223,
+   "sha256": "31d247eeb0368a38aa90ea8c262e3ea55cdfa62d312fe68024969b54670ab785"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/claims.py": {
+   "bytes": 9674,
+   "sha256": "24438732d316f299379a40a2476971dddacf59f338c1a36c1a4757f17f0254a0"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/claves_condicionales.py": {
+   "bytes": 8951,
+   "sha256": "a6826bcddf9d413f5a2438703dc202b3096fbfcb9edb63f035963b8d8485e6e3"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/cobertura.py": {
+   "bytes": 13330,
+   "sha256": "d6be53db849fbfaa1d11c3213cc25a0f86a990ef6b3198e36e6b56607f5d9381"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/contexto.py": {
+   "bytes": 5798,
+   "sha256": "035d51c3fcb48dd68d8b73f26ba436a7ff9a7a36e34cc89d9432cc76be673b9e"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/contour.py": {
+   "bytes": 24570,
+   "sha256": "d826dd8f57ca5d26a6feca2d44ebc9babda6179419f5f58391bb09f6e7907a69"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/contrato_paquete.py": {
+   "bytes": 59272,
+   "sha256": "6705b2467fce21dc5517b2648f80fa6857423f7239222bd224a112f2294c4538"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/convergencia.py": {
+   "bytes": 11968,
+   "sha256": "b7d41d81e5e29626f52634b5ef8de8cf5abc54e00688c7b4d4a255294b369b98"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/cota_fiscal.py": {
+   "bytes": 11833,
+   "sha256": "46b2d1617cfcca45be696e844a807baca866842d6ccd17363fb1f1978b0f0dca"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/d7build.py": {
+   "bytes": 30804,
+   "sha256": "e0dbe9562617642a08dcfd4dae5afafaef5b13df9a45f4c66e68967f6654013b"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/d7view.py": {
+   "bytes": 3843,
+   "sha256": "74f4b60a602ac951d5871c11e43e6a29efb6c3ffc5fb218135724ccea5671660"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/elementales.py": {
+   "bytes": 16623,
+   "sha256": "c71faf35370fa2329db69802f03f52d9bc72566a2d9fa50a9ca8dbea1eb6f82b"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/encierros_modelo.py": {
+   "bytes": 62827,
+   "sha256": "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/external.py": {
+   "bytes": 4662,
+   "sha256": "0b14fc0ee0fe4b0bc6d28aebad717dc0e02af03d8b53007be00d7295b72c4a6b"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/frontier.py": {
+   "bytes": 6392,
+   "sha256": "709f51b21188ff8d4638d7eadf535dd3f8307f2e1ce995a49539fe7bfcd36ed2"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/intervalos.py": {
+   "bytes": 3856,
+   "sha256": "2607d0cf3f879316c699ec4cd73021bff9ae8f680f7c7c01facb84dfb65aa891"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/inversion.py": {
+   "bytes": 11701,
+   "sha256": "60fced8313fb90f1e69531d0a15f193dbeb94c369b2b3a7a7b939077d340685a"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/keys.py": {
+   "bytes": 5935,
+   "sha256": "fbcbc899f267cf2a367ce3cf6d46e0479869bd681d5a248ee5d49574660ac530"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/macro.py": {
+   "bytes": 5494,
+   "sha256": "4a94661d1cd0f3fe654f2cf7ecaa740b860e1c735b1585d51fda8f56dd068b98"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/model.py": {
+   "bytes": 16523,
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/modelos.py": {
+   "bytes": 34103,
+   "sha256": "7f0dd31cacf431fb421e2c5047aa5b750cbecfc1064e3374c4247dcd40c93fda"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/motor_theta.py": {
+   "bytes": 25471,
+   "sha256": "a5ab3b74321e35fdf59afcbeb992b9053acf7d7b9742f2ff4c14ff70cab27a42"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/niveles.py": {
+   "bytes": 5108,
+   "sha256": "5e686f31a60d473a8e12282cc8bb7d615fe94226a0f388b1627c9c09b1a9ce7a"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/numeric.py": {
+   "bytes": 5695,
+   "sha256": "4b19f4cb45a637c3a3370ca95059bc4f94feb71649a9f54fd5ac8c33c941c98e"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/r1_local.py": {
+   "bytes": 13228,
+   "sha256": "47790d95ef8c882305629484f1d215480eb859b1dbde8b3d7b28c6fcf438ca06"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/r1_reanudable.py": {
+   "bytes": 24477,
+   "sha256": "a73d83f99c10ded9ddff4e081a0c5ddf3c225b824055bc552c0f4e21d17a52c1"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/raices.py": {
+   "bytes": 26744,
+   "sha256": "1db76cf7129558f5d95d5f49ddbbb1110a30e753124cee152100f16f3313de22"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/robustness.py": {
+   "bytes": 18046,
+   "sha256": "587f7fc294655e0bb0759aeae09edf372274da651aa2c463a191c3da22aea2b8"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/rules.py": {
+   "bytes": 58052,
+   "sha256": "12c59cd46a8e4865a378dfbf3d7e3f9dc00bd4ee9e28addc7252e7b21b7c9fda"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/run.py": {
+   "bytes": 103551,
+   "sha256": "18abae7000d727c88dc7693db59c75a20ea79db7031b0c2e510d2b3af0058360"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/sections.py": {
+   "bytes": 5224,
+   "sha256": "0505b0df978fa31719332359b73bfb81d5413ad71b2331b247290ca2c481bd61"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/seleccion_valores.py": {
+   "bytes": 9286,
+   "sha256": "b5eaf6ea348c243ce13658b484b9e650d255317e43f4df70d2b492c6ec3cf65e"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/supports.py": {
+   "bytes": 2232,
+   "sha256": "8051efef6ae2819f864ec1e516b09ac7f03e421b74478454b57391c6529fa752"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/supremum.py": {
+   "bytes": 19690,
+   "sha256": "2c246c8be6d4437892cd951cc0acaaac6e5d8ea7a921de2e13f560caf8dfebbb"
+  },
+  "portabilidad/ensayo_i1/raiz/paso4/instalacion/src/paper2b/tables.py": {
+   "bytes": 7042,
+   "sha256": "10450098e68b929e3522d789acee57cdebb532c646abd85ddf788b58e228f6fe"
+  },
+  "portabilidad/ensayo_i1/registro/archivos/paso4/instalacion/herramientas/b/contexto_s6.py": {
+   "bytes": 9278,
+   "sha256": "fb4a4b1efa4d713f98f2dc8772e0f885e39fd32c9ce33877221f66bcdb8f12e7"
+  },
+  "portabilidad/ensayo_i1/registro/archivos/paso4/instalacion/herramientas/b/corrida_paso4.py": {
+   "bytes": 76838,
+   "sha256": "6a30c86fdf9bdbb21ab5cd6d26cc21ac65770cc678c8482f467dea1b6baae56e"
+  },
+  "portabilidad/ensayo_i1/registro/archivos/paso4/instalacion/herramientas/b/seleccion_paso4.py": {
+   "bytes": 17088,
+   "sha256": "a005160bbb1b5d9953b73c50e8cf597a0ddca871e776f66e7dc747ca46425e34"
+  },
+  "portabilidad/ensayo_i1/registro/archivos/paso4/instalacion/herramientas/b/tarea_prod.py": {
+   "bytes": 24556,
+   "sha256": "3204ebe5c13f856a8fd38e4ce55da7c1b90489a3ba25c9b105208f815b9d3d9f"
+  },
+  "portabilidad/ensayo_i1/registro/diario_aplicacion.jsonl": {
+   "bytes": 1785,
+   "sha256": "92efa53a8826d3f3b9d038e64c7c7536442cf5bd1b431c7441c15e8976e2abae"
+  },
+  "portabilidad/ensayo_i1/registro/diario_reversion.jsonl": {
+   "bytes": 894,
+   "sha256": "b2c376534b8ae1056551f254db65d6f1a4713fbbaf7ee3e065ed8255aff44704"
+  },
+  "portabilidad/ensayo_i1/registro/respaldo.json": {
+   "bytes": 1021,
+   "sha256": "0ae7bca35621e9fef01e79b679bc4b5bda18f8d2ee802d1436fd0d4387b69162"
+  },
+  "portabilidad/ensayo_incorporacion.py": {
+   "bytes": 5880,
+   "sha256": "fca185710a7948b53f9459f51a6662909c7359a7c8e98ee521d954246d69b3e4"
+  },
+  "pruebas/conexion_frontera_sintetica_i1.json": {
+   "bytes": 1539,
+   "sha256": "5c4362ecf4f4f2e8cc3194c319e0621f7ec7b8e1ece96d8562d0decf0ad8764d"
+  },
+  "pruebas/conexion_frontera_sintetica_i2.json": {
+   "bytes": 1609,
+   "sha256": "bd8b3c48b6cdc94496747de6e2b5fef4be44fca339c5353d888d5c3851450b4a"
+  },
+  "pruebas/conexion_lambda_sintetica_i1.json": {
+   "bytes": 2179,
+   "sha256": "c3890945f1246237bc2c1bc024818c0b9c7718f7e4d5bcdd4647e59606b7ee5c"
+  },
+  "pruebas/conexion_lambda_sintetica_i2.json": {
+   "bytes": 2178,
+   "sha256": "1be0d05fd4ee91a35f8424ca3534698e0705e4c4a007f7b421dfa24918ab5fad"
+  },
+  "pruebas/ensamblajes_i1.json": {
+   "bytes": 3094,
+   "sha256": "3018e0784ff2886879eb532bfbee28467ac218ac7f80ffb7dda4220ae71e2845"
+  },
+  "pruebas/ensamblajes_i2.json": {
+   "bytes": 3094,
+   "sha256": "3018e0784ff2886879eb532bfbee28467ac218ac7f80ffb7dda4220ae71e2845"
+  },
+  "pruebas/ensayo_incorporacion_i1.json": {
+   "bytes": 3697,
+   "sha256": "f8d4dcfa53be02af6252fa793e6f1485dec9f0ca3eab2f56d399d3de51234646"
+  },
+  "pruebas/entregas_i1.json": {
+   "bytes": 2215,
+   "sha256": "5022373fce6c0a582f8cb95d8d3230a13cf9c90b15a5fe938961f2c488c5949b"
+  },
+  "pruebas/entregas_i1/esquema_exclusions/audit/entrega.json": {
+   "bytes": 175,
+   "sha256": "5d8b63432d5fa211230f33f68f5acf9e5581099215aff204e326c3216fd29b4f"
+  },
+  "pruebas/entregas_i1/esquema_exclusions/z.json": {
+   "bytes": 7,
+   "sha256": "9d80fd5b8b1e66e0eb1a8f15644749bbdcb6304691b9d3de20aa4010cdac2bc1"
+  },
+  "pruebas/entregas_i1/legitima/audit/entrega.json": {
+   "bytes": 301,
+   "sha256": "19d1aa13db2ec62a0f6f5183502ac191f020f2b94e9433202bacda17247374a1"
+  },
+  "pruebas/entregas_i1/legitima/datos/agregado.json": {
+   "bytes": 7,
+   "sha256": "caba9cb06ac77da7781b8bbd7e0700c58ea69bc7d8b12f0b6695a2af6ee6a6b3"
+  },
+  "pruebas/entregas_i1/legitima/datos/y.json": {
+   "bytes": 7,
+   "sha256": "1c5a0908e9f80c8f010b6bf82a205898fd8d4e7f0fd6031b01d1a7c8b07c5f65"
+  },
+  "pruebas/entregas_i1/revisor_sin_files/audit/entrega.json": {
+   "bytes": 87,
+   "sha256": "2f39d50f6179c23a9b4264d2069104e1af925f90be29a1e1bffec6f2f2a3aba6"
+  },
+  "pruebas/entregas_i1/revisor_sin_files/unlisted.json": {
+   "bytes": 21,
+   "sha256": "f69fabcd2be445bde140af8f93aa381d8cad80542843fedb42700f504a95e5e0"
+  },
+  "pruebas/prueba_ensamblajes.py": {
+   "bytes": 5457,
+   "sha256": "63e965b1c680a33a4fb6c04ead6ba30bee828cfa2dbe72f1c46886269d618304"
+  },
+  "pruebas/salida_ensayo_inc_i1.txt": {
+   "bytes": 456,
+   "sha256": "2742cf33b0a7f2b5446662c674f07fe291f839fdeae4d33a0fe92698d601d7a8"
+  },
+  "pruebas/salida_frontera_sint_i1.txt": {
+   "bytes": 564,
+   "sha256": "a6342d4b0f152049fe6c8f33e938368afe1c619194f4524a2be9f005a1f8c2d5"
+  },
+  "pruebas/salida_frontera_sint_i2.txt": {
+   "bytes": 636,
+   "sha256": "93e50b215c46365911bee6896ea57ffe610aaad1c089d76857c7a81ec39b7322"
+  },
+  "pruebas/salida_lambda_sint_i1.txt": {
+   "bytes": 486,
+   "sha256": "960c70ce7bc33dd55b8cfc69246ddd058e8a9e8abd608bfbc6d9dea598612445"
+  },
+  "pruebas/salida_lambda_sint_i2.txt": {
+   "bytes": 486,
+   "sha256": "2be89ad3d64c81512234e7955e5c7f052ff85b02b113f81854498d9493011130"
+  },
+  "recepcion/encargo.txt": {
+   "bytes": 16620,
+   "sha256": "c365bf7f74a7991466581bbc99b287f201e938ccf034e4ee7e53cdcf49506ea2"
+  },
+  "recepcion/mensaje.txt": {
+   "bytes": 119,
+   "sha256": "c28bc7ea731910e565576fac77fd239c319306b9222c9fdbbb2db13f95d3768d"
+  },
+  "recepcion/recepcion.json": {
+   "bytes": 1537,
+   "sha256": "09d773349067145b64ab1bffc1cef645800da2ff54d9263f572b0146eb97aa83"
+  },
+  "validaciones/e1_romberg.py": {
+   "bytes": 4363,
+   "sha256": "289b5d94dc4face38a52a367f602587a3bad56d380da172b5da335dcd6b99879"
+  },
+  "validaciones/prerregistro_E1235.json": {
+   "bytes": 6622,
+   "sha256": "9f9846e78c53da76012059df106029bb50002ef46d90090ab50933fa1f6254fd"
+  },
+  "validaciones/prerregistro_E1_i2.json": {
+   "bytes": 709,
+   "sha256": "ee65ec1780f8d7a75cf72a3181707b101ad7c88fc07bc01d402c932e41f98338"
+  },
+  "validaciones/resultados_E1235_i1.json": {
+   "bytes": 26068,
+   "sha256": "f05c2ba464ab530b5f1dd0fe14e4c73cf7f4c7df9acdc8d929d334299cbb5188"
+  },
+  "validaciones/resultados_E1_i2.json": {
+   "bytes": 10742,
+   "sha256": "59f98aa200bee055ed2ce6b5b2f38bfa5b1d9fd46c6d9903a022c27ed0eb510a"
+  },
+  "validaciones/validaciones_sinteticas.py": {
+   "bytes": 16150,
+   "sha256": "d09c7d4c9ebe3484717ca58ea310842ff527cd12bcaa67d47dd4ef049058b57a"
+  }
+ },
+ "kind": "paso4-p3-rem95-conciliacion-portabilidad-rem108-cierre",
+ "pyc": [],
+ "pyc_en_cuarentena_declarada": [],
+ "sellada_utc": "2026-10-29T02:11:25.676888+00:00"
+}

@@ -1,0 +1,27 @@
+{
+ "_resumen_fam10": {
+  "kind": "resumen-libro-fam10",
+  "clave": "Q",
+  "libro": "review_20261106_rem159_Q_local_aceptada.json",
+  "original_sha256": "a6946c0e8fbe06db29f9f9fef9afdf91621ff2354d6eacbb169ac6a751c8db5e",
+  "campos": [
+   "products",
+   "general_diagnostic_separate"
+  ],
+  "regla": "solo los campos que lee el código histórico, copiados tal cual del original autenticado; rutas privadas por marcadores; sin transcripciones, horas ni referencias de decisión"
+ },
+ "products": {
+  "@@R_BS2@@\\tmp\\paso4_produccion_q_local_desde_rem158\\q_lanzamientos\\QPROD158\\Q-MAT-CONTRATO\\resultado.json": "95cfa83d90d6172f8478e840493f8e7aa477b05881a1783966ac3d1a9e5b6683",
+  "@@R_BS2@@\\tmp\\paso4_produccion_q_local_desde_rem158\\q_lanzamientos\\QPROD158\\Q-MAT-CONTRATO\\validacion.json": "844d306c6b83a4bced197a017b8511fe337c42da64dbef6d8f1c4ed478a61bf1",
+  "@@R_BS2@@\\tmp\\paso4_produccion_q_local_desde_rem158\\q_lanzamientos\\QPROD158\\Q-MAT-CONSERVADORA\\resultado.json": "248193c245db979d5e84032175a5f9b01dfc6e1d36dbc3e865253796b92c50c6",
+  "@@R_BS2@@\\tmp\\paso4_produccion_q_local_desde_rem158\\q_lanzamientos\\QPROD158\\Q-MAT-CONSERVADORA\\validacion.json": "d83a9772a434cc4bd39244dd4fdc88359e4a0db94a9db5bb5bf504894ccb697c",
+  "@@R_BS2@@\\tmp\\paso4_produccion_q_local_desde_rem158\\q_lanzamientos\\QPROD158\\CONCILIACION\\CONCILIACION_Q.json": "38f99a45561574e2a6cb2fb31ebc9315dd56659d706d3a142200a0bc2f87a9f2"
+ },
+ "general_diagnostic_separate": {
+  "file": "@@W_BS2@@\\review_20261106_rem156_Q_diagnostico.json",
+  "sha256": "7609b7bdfb0bc66305100d3b2967e7612e5430d36f1d653c54f25ba49d4f1301",
+  "domain": "0<m<=1",
+  "inconclusive_preserved": 1712,
+  "m_zero": "Algebraic boundary only"
+ }
+}

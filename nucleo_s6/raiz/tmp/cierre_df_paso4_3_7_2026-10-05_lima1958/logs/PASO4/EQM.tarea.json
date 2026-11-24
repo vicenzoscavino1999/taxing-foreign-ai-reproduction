@@ -1,0 +1,29 @@
+{
+ "cpu_usuario_s": 759.359375,
+ "cpu_nucleo_s": 10.359375,
+ "procesos_totales": 6,
+ "procesos_activos": 0,
+ "memoria_pico_job_mb": 544.7,
+ "memoria_pico_proceso_mb": 537.8,
+ "id": "EQM",
+ "comando": [
+  "bash",
+  "tmp/cierre_df_paso4_3_7_2026-10-05_lima1958/../pilotos_b36_b37_2026-10-02/entorno/py_integracion.sh",
+  "-m",
+  "codigo.ensayo_quiebres_macro",
+  "demo/paso4/ensayo_quiebres_macro.json",
+  "demo/paso4/ensayo_quiebres_macro.jsonl",
+  "120",
+  "420",
+  "1200",
+  "4"
+ ],
+ "cwd": "tmp/cierre_df_paso4_3_7_2026-10-05_lima1958",
+ "limite_duro_s": 1800.0,
+ "inicio_utc": "2026-10-06T01:26:39Z",
+ "pared_s": 796.4,
+ "codigo_salida": 0,
+ "estado": "TERMINO",
+ "cpu_total_s": 769.7,
+ "cpu_por_pared": 0.97
+}

@@ -1,0 +1,1751 @@
+{
+ "kind": "registro-localizacion-18-7-rem174",
+ "naturaleza": "Registro de localización por corrida. NO es la auditoría §18.7: no contiene ni infiere los campos de diseño que faltan; una ausencia significa «no localizado en el corpus revisado», no inexistencia.",
+ "objeto_buscado": {
+  "diseno": "fase6_planes/PLAN_DISENO_v2_2_30.md §18.7 (l.2458–2460)",
+  "campos_de_diseno": [
+   "run_id",
+   "mechanism",
+   "where_counted",
+   "where_not_counted",
+   "verified_by",
+   "status"
+  ]
+ },
+ "corpus_declarado": {
+  "ruta": "bloque_b/CORPUS_DECLARADO_18_7_REM174.md",
+  "sha256": "9e91eaa5630c7b7f7bf99f6d80c18f80de9a8e15c300eb5960be1203896a3a36",
+  "adenda": "bloque_b/CORPUS_DECLARADO_18_7_REM174_ADENDA.md",
+  "adenda_sha256": "17c5c7a49a9893c3a93636e7961533339310827aedfb7ce56bda0a62e5ac5869",
+  "clasificacion": "v2",
+  "directorios_resultados_de_celda_de_las_14": [
+   "demo/d_s1_d/resultados",
+   "demo/d_s1_d/resultados_tramo1",
+   "demo/d_s1_f/resultados",
+   "demo/d_s1f_r/resultados",
+   "demo/detallado/resultados",
+   "demo/detallado/resultados_tramo1",
+   "demo/diagnostico_s2gdf",
+   "demo/rem/resultados",
+   "demo/rem10/resultados",
+   "demo/rem11/resultados",
+   "demo/rem3/resultados",
+   "demo/rem4/resultados",
+   "demo/rem5/resultados",
+   "demo/rem6/resultados",
+   "demo/rem7/resultados",
+   "demo/rem8/resultados",
+   "demo/rem9/resultados"
+  ]
+ },
+ "partes": {
+  "parte_00_04.json": "8690d63accd5160c1dac53ed35d09bd00a71cb69ee6e6b97068c0341c8c0125e",
+  "parte_04_14.json": "7e19328cd1834947cc01a65724bafe62bcd7c02d533452b2dad91da4a930fddc"
+ },
+ "fuentes_autenticadas": {
+  "@@W_BS2@@\\FUENTES_SUPREMOS_GN_AUDITORIA_PROD4_6_REM174.json": "196b4e24750d4bb1234a71d36a672b4056487c96b7300bd23c253c0e4db9e0ea",
+  "@@R_BS2@@\\tmp\\paso4_correcciones_conciliacion_global_desde_rem173\\admin\\custodia_rem173.py": "2ff7a9c89725dc996fb01b0b789250510056d0ba2ff23926c63353ead3a9e8b8",
+  "@@R_BS2@@\\tmp\\paso4_exp0_t8_desde_rem132\\derivados\\salida_d2\\RESUMEN.json": "1a633681ef11f4ef04d1f27874f38fcc27b7b6fec4ea9349782a7fd35ed1584d",
+  "@@R_BS2@@\\tmp\\paso4_exp0_lambda_captura_desde_rem133\\a_exp0\\salida_a3\\UNIVERSOS_POR_CORRIDA.json": "b8a2821231ae340bdd1a99456717fa7700f75b6916e751450107c0ec92b8e3cb",
+  "@@R_BS2@@\\tmp\\paso4_exp0_lambda_captura_desde_rem133\\a_exp0\\salida_a3\\MATRIZ_REVISADA.json": "a0a47410a50f0063fa2cb9f7ec3757bbb4333742b9e268ee84e236cdfb2b806c",
+  "@@R_BS2@@\\tmp\\paso4_exp0_lambda_autenticada_desde_rem134\\a_exp0\\salida_a2\\MATRIZ_REVISADA_v4.json": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+  "@@R_BS2@@\\tmp\\paso4_exp0_lambda_autenticada_desde_rem134\\a_exp0\\salida_a2\\input_audit_report_v4.json": "fd02e9a589d6043b77efd4009c4c01abecfe1b7b44f888d92236887068568bf2",
+  "@@R_BS2@@\\tmp\\paso4_cinco_filas_exp0_desde_rem144\\decisiones\\AUTENTICACION_FUENTES_D_EXP0.json": "7a91ffeb69aea428c6c51cc9916b13236447026f16ae8340b0163b78568dd381",
+  "@@R_BS2@@\\tmp\\paso4_conexion_cinco_filas_t8_desde_rem145\\decisiones\\FICHA_D_EXP0_REM145.md": "f72ff8dbd605f677ea6de540fcbd441d787c84062579620846ff01fb5ea8f000"
+ },
+ "corridas": [
+  {
+   "run_id": "BRUN-050091213b198d7cd7ba9ea2",
+   "entrega": "fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201",
+   "inventario_sha256": "1f81beca84009c710fe23a427644f4c15260475fb70052862a89613596ebf3a8",
+   "inventario_autenticado_por": "RESUMEN.json rem132 (entregas_de_unidades), miembro del inventario rem132 542036fd…, sellado en custodia_rem173.py fijada por la raíz rem174 196b4e24…",
+   "directorios_resultados_de_celda_excluidos": [
+    "demo/detallado/resultados_tramo1",
+    "demo/detallado/resultados"
+   ],
+   "examinado": {
+    "nombres_de_archivo": 7047,
+    "artefactos_texto_leidos": 204,
+    "bytes_artefactos": 38622929,
+    "codigo_py_leido": 468,
+    "bytes_codigo": 6963546,
+    "solo_nombre": {
+     "resultado_celda": 52,
+     "almacen_techos": 13,
+     "demo_profundo": 6047,
+     "otro": 263
+    }
+   },
+   "consultas_nombre": [
+    "double_count",
+    "doble_conteo",
+    "circularity",
+    "circularidad",
+    "d8_pre",
+    "d8_post",
+    "run_manifest",
+    "input_audit_report",
+    "admissibility_report",
+    "b_manifest"
+   ],
+   "consultas_contenido": [
+    "double_counting",
+    "doble_conteo",
+    "doble conteo",
+    "where_counted",
+    "where_not_counted",
+    "verified_by"
+   ],
+   "coincidencias_nombre": [],
+   "coincidencias_contenido_artefactos": [],
+   "coincidencias_contenido_codigo": [],
+   "copias_auditor_d8_en_la_entrega": [],
+   "tablas_con_los_seis_campos_de_esta_corrida": [],
+   "filas_input_audit_report_v4": 34,
+   "compuertas_H7_H13_de_insumos_v4": {
+    "H7": {
+     "level": "hard_fail",
+     "decision": "pass_retrospectivo_codigo_o_datos",
+     "clase_evidencia": "no_recuperable",
+     "clase_evidencia_v2": "retrospectiva_comprobada",
+     "resultado_v2": "comprobada"
+    },
+    "H13": {
+     "level": "hard_fail",
+     "decision": "pass",
+     "clase_evidencia": "contemporanea",
+     "clase_evidencia_v2": "contemporanea",
+     "resultado_v2": "satisfecha"
+    }
+   },
+   "nota_compuertas": "H7/H13 son compuertas de insumos de la matriz v4 (Gate 0), no el registro §18.7; se citan para el cotejo, no lo sustituyen.",
+   "resultado": "no localizado en el corpus revisado"
+  },
+  {
+   "run_id": "BRUN-1368187e9a43de0d95926dca",
+   "entrega": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738",
+   "inventario_sha256": "ceb85c096307abd68d4e138baa1f6da54457d7548d825cbcd6ec89c217a91a51",
+   "inventario_autenticado_por": "RESUMEN.json rem132 (entregas_de_unidades), miembro del inventario rem132 542036fd…, sellado en custodia_rem173.py fijada por la raíz rem174 196b4e24…",
+   "directorios_resultados_de_celda_excluidos": [
+    "demo/rem9/resultados"
+   ],
+   "examinado": {
+    "nombres_de_archivo": 24182,
+    "artefactos_texto_leidos": 794,
+    "bytes_artefactos": 89506250,
+    "codigo_py_leido": 967,
+    "bytes_codigo": 21019408,
+    "solo_nombre": {
+     "resultado_celda": 5988,
+     "almacen_techos": 468,
+     "demo_profundo": 15361,
+     "otro": 604
+    }
+   },
+   "consultas_nombre": [
+    "double_count",
+    "doble_conteo",
+    "circularity",
+    "circularidad",
+    "d8_pre",
+    "d8_post",
+    "run_manifest",
+    "input_audit_report",
+    "admissibility_report",
+    "b_manifest"
+   ],
+   "consultas_contenido": [
+    "double_counting",
+    "doble_conteo",
+    "doble conteo",
+    "where_counted",
+    "where_not_counted",
+    "verified_by"
+   ],
+   "coincidencias_nombre": [],
+   "coincidencias_contenido_artefactos": [],
+   "coincidencias_contenido_codigo": [
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem.py",
+     "sha256": "fafc9b850d339c1623a9848beee1afe3692063c1f27e4ad57d91ff2b55d9caf9"
+    },
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem6.py",
+     "sha256": "82d8956d0abfb2a8298c2e9f2ec0145bbb3f8db6306fa1311297c5ee81b6f1d0"
+    },
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem7.py",
+     "sha256": "0fe9e089655875796cba2b92970408056a3e894d888e91fed98fb7760fbddcc5"
+    },
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem8.py",
+     "sha256": "bc6de98428d38c17515aed1ff7119e961b7491d2b6054fa1a29d332a007ceb27"
+    },
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem9.py",
+     "sha256": "bfbfa0c376f12392cf68cf92bd78ada986631a57d88f2fbc64460a4cafd07f47"
+    },
+    {
+     "consultas": {
+      "doble conteo": 1
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       29
+      ]
+     },
+     "ruta": "analisis/tablas_informe.py",
+     "sha256": "1ea454fe0290d217ec0827eb5d219ecfaec4a406073d07016b58f2d2adac7ccd"
+    }
+   ],
+   "copias_auditor_d8_en_la_entrega": [],
+   "tablas_con_los_seis_campos_de_esta_corrida": [],
+   "filas_input_audit_report_v4": 34,
+   "compuertas_H7_H13_de_insumos_v4": {
+    "H7": {
+     "level": "hard_fail",
+     "decision": "pass_retrospectivo_codigo_o_datos",
+     "clase_evidencia": "no_recuperable",
+     "clase_evidencia_v2": "retrospectiva_comprobada",
+     "resultado_v2": "comprobada"
+    },
+    "H13": {
+     "level": "hard_fail",
+     "decision": "pass",
+     "clase_evidencia": "contemporanea",
+     "clase_evidencia_v2": "contemporanea",
+     "resultado_v2": "satisfecha"
+    }
+   },
+   "nota_compuertas": "H7/H13 son compuertas de insumos de la matriz v4 (Gate 0), no el registro §18.7; se citan para el cotejo, no lo sustituyen.",
+   "resultado": "no localizado en el corpus revisado"
+  },
+  {
+   "run_id": "BRUN-47e3d9f48d2b65e9ddeed02f",
+   "entrega": "remanente_s2_diagnostico_e6a4_r3_incorporacion_paso4_3_7_2026-10-11_lima2059",
+   "inventario_sha256": "29dae035ec937447cab69645b2319f211acf040c3d50506e8137f569d41a2b12",
+   "inventario_autenticado_por": "RESUMEN.json rem132 (entregas_de_unidades), miembro del inventario rem132 542036fd…, sellado en custodia_rem173.py fijada por la raíz rem174 196b4e24…",
+   "directorios_resultados_de_celda_excluidos": [
+    "demo/rem10/resultados"
+   ],
+   "examinado": {
+    "nombres_de_archivo": 24707,
+    "artefactos_texto_leidos": 629,
+    "bytes_artefactos": 92635943,
+    "codigo_py_leido": 1069,
+    "bytes_codigo": 23736289,
+    "solo_nombre": {
+     "resultado_celda": 5996,
+     "almacen_techos": 477,
+     "demo_profundo": 16164,
+     "otro": 372
+    }
+   },
+   "consultas_nombre": [
+    "double_count",
+    "doble_conteo",
+    "circularity",
+    "circularidad",
+    "d8_pre",
+    "d8_post",
+    "run_manifest",
+    "input_audit_report",
+    "admissibility_report",
+    "b_manifest"
+   ],
+   "consultas_contenido": [
+    "double_counting",
+    "doble_conteo",
+    "doble conteo",
+    "where_counted",
+    "where_not_counted",
+    "verified_by"
+   ],
+   "coincidencias_nombre": [],
+   "coincidencias_contenido_artefactos": [],
+   "coincidencias_contenido_codigo": [
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem.py",
+     "sha256": "fafc9b850d339c1623a9848beee1afe3692063c1f27e4ad57d91ff2b55d9caf9"
+    },
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem10.py",
+     "sha256": "db8f905a2dce9c39d32816a42eee2aa1ea5fcdc785ae44cc741be0ef4d1b190f"
+    },
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem6.py",
+     "sha256": "82d8956d0abfb2a8298c2e9f2ec0145bbb3f8db6306fa1311297c5ee81b6f1d0"
+    },
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem7.py",
+     "sha256": "0fe9e089655875796cba2b92970408056a3e894d888e91fed98fb7760fbddcc5"
+    },
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem8.py",
+     "sha256": "bc6de98428d38c17515aed1ff7119e961b7491d2b6054fa1a29d332a007ceb27"
+    },
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem9.py",
+     "sha256": "bfbfa0c376f12392cf68cf92bd78ada986631a57d88f2fbc64460a4cafd07f47"
+    },
+    {
+     "consultas": {
+      "doble conteo": 1
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       29
+      ]
+     },
+     "ruta": "analisis/tablas_informe.py",
+     "sha256": "1ea454fe0290d217ec0827eb5d219ecfaec4a406073d07016b58f2d2adac7ccd"
+    }
+   ],
+   "copias_auditor_d8_en_la_entrega": [],
+   "tablas_con_los_seis_campos_de_esta_corrida": [],
+   "filas_input_audit_report_v4": 34,
+   "compuertas_H7_H13_de_insumos_v4": {
+    "H7": {
+     "level": "hard_fail",
+     "decision": "pass_retrospectivo_codigo_o_datos",
+     "clase_evidencia": "no_recuperable",
+     "clase_evidencia_v2": "retrospectiva_comprobada",
+     "resultado_v2": "comprobada"
+    },
+    "H13": {
+     "level": "hard_fail",
+     "decision": "pass",
+     "clase_evidencia": "contemporanea",
+     "clase_evidencia_v2": "contemporanea",
+     "resultado_v2": "satisfecha"
+    }
+   },
+   "nota_compuertas": "H7/H13 son compuertas de insumos de la matriz v4 (Gate 0), no el registro §18.7; se citan para el cotejo, no lo sustituyen.",
+   "resultado": "no localizado en el corpus revisado"
+  },
+  {
+   "run_id": "BRUN-4ef8507fcdefbddc55dbc3b7",
+   "entrega": "remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200",
+   "inventario_sha256": "ca6ab27856f36418d1d3bbfb7e30e89abeb13e66ff31925b1e61060ffdf64715",
+   "inventario_autenticado_por": "RESUMEN.json rem132 (entregas_de_unidades), miembro del inventario rem132 542036fd…, sellado en custodia_rem173.py fijada por la raíz rem174 196b4e24…",
+   "directorios_resultados_de_celda_excluidos": [
+    "demo/rem5/resultados"
+   ],
+   "examinado": {
+    "nombres_de_archivo": 17246,
+    "artefactos_texto_leidos": 446,
+    "bytes_artefactos": 69649597,
+    "codigo_py_leido": 562,
+    "bytes_codigo": 9375622,
+    "solo_nombre": {
+     "resultado_celda": 4761,
+     "almacen_techos": 304,
+     "demo_profundo": 10815,
+     "otro": 358
+    }
+   },
+   "consultas_nombre": [
+    "double_count",
+    "doble_conteo",
+    "circularity",
+    "circularidad",
+    "d8_pre",
+    "d8_post",
+    "run_manifest",
+    "input_audit_report",
+    "admissibility_report",
+    "b_manifest"
+   ],
+   "consultas_contenido": [
+    "double_counting",
+    "doble_conteo",
+    "doble conteo",
+    "where_counted",
+    "where_not_counted",
+    "verified_by"
+   ],
+   "coincidencias_nombre": [],
+   "coincidencias_contenido_artefactos": [
+    {
+     "consultas": {
+      "doble conteo": 1
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       120
+      ]
+     },
+     "ruta": "review/INFORME_REMANENTE_S1DF_S2_ENSAMBLAJE.md",
+     "sha256": "ae5be612b3545ec929d7cee3d19f203d7074f10f44611454c324fd07c30acba1",
+     "tablas_con_los_seis_campos": []
+    },
+    {
+     "consultas": {
+      "doble conteo": 1
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       13
+      ]
+     },
+     "ruta": "review/plantillas/tablas_0200.md",
+     "sha256": "f9886c2aa9af24d90b9f9204b75cafe428352e599dae0441e85bcc79017acd74",
+     "tablas_con_los_seis_campos": []
+    }
+   ],
+   "coincidencias_contenido_codigo": [
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem.py",
+     "sha256": "fafc9b850d339c1623a9848beee1afe3692063c1f27e4ad57d91ff2b55d9caf9"
+    },
+    {
+     "consultas": {
+      "doble conteo": 1
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       29
+      ]
+     },
+     "ruta": "analisis/tablas_informe.py",
+     "sha256": "1ea454fe0290d217ec0827eb5d219ecfaec4a406073d07016b58f2d2adac7ccd"
+    }
+   ],
+   "copias_auditor_d8_en_la_entrega": [],
+   "tablas_con_los_seis_campos_de_esta_corrida": [],
+   "filas_input_audit_report_v4": 34,
+   "compuertas_H7_H13_de_insumos_v4": {
+    "H7": {
+     "level": "hard_fail",
+     "decision": "pass_retrospectivo_codigo_o_datos",
+     "clase_evidencia": "no_recuperable",
+     "clase_evidencia_v2": "retrospectiva_comprobada",
+     "resultado_v2": "comprobada"
+    },
+    "H13": {
+     "level": "hard_fail",
+     "decision": "pass",
+     "clase_evidencia": "contemporanea",
+     "clase_evidencia_v2": "contemporanea",
+     "resultado_v2": "satisfecha"
+    }
+   },
+   "nota_compuertas": "H7/H13 son compuertas de insumos de la matriz v4 (Gate 0), no el registro §18.7; se citan para el cotejo, no lo sustituyen.",
+   "resultado": "no localizado en el corpus revisado"
+  },
+  {
+   "run_id": "BRUN-5b35ba3f51bc08bd48b384bd",
+   "entrega": "validacion_detallada_d_s1_d_h4_paso4_3_7_2026-10-09_lima2331",
+   "inventario_sha256": "4caedd3bb0901bc678193035422d673bd41be6a8abcba6184a982f8638a1b7f1",
+   "inventario_autenticado_por": "RESUMEN.json rem132 (entregas_de_unidades), miembro del inventario rem132 542036fd…, sellado en custodia_rem173.py fijada por la raíz rem174 196b4e24…",
+   "directorios_resultados_de_celda_excluidos": [
+    "demo/d_s1_d/resultados_tramo1",
+    "demo/d_s1_d/resultados",
+    "demo/diagnostico_s2gdf"
+   ],
+   "examinado": {
+    "nombres_de_archivo": 9393,
+    "artefactos_texto_leidos": 275,
+    "bytes_artefactos": 43356157,
+    "codigo_py_leido": 478,
+    "bytes_codigo": 7081696,
+    "solo_nombre": {
+     "resultado_celda": 1618,
+     "almacen_techos": 27,
+     "demo_profundo": 6655,
+     "otro": 340
+    }
+   },
+   "consultas_nombre": [
+    "double_count",
+    "doble_conteo",
+    "circularity",
+    "circularidad",
+    "d8_pre",
+    "d8_post",
+    "run_manifest",
+    "input_audit_report",
+    "admissibility_report",
+    "b_manifest"
+   ],
+   "consultas_contenido": [
+    "double_counting",
+    "doble_conteo",
+    "doble conteo",
+    "where_counted",
+    "where_not_counted",
+    "verified_by"
+   ],
+   "coincidencias_nombre": [],
+   "coincidencias_contenido_artefactos": [],
+   "coincidencias_contenido_codigo": [],
+   "copias_auditor_d8_en_la_entrega": [],
+   "tablas_con_los_seis_campos_de_esta_corrida": [],
+   "filas_input_audit_report_v4": 34,
+   "compuertas_H7_H13_de_insumos_v4": {
+    "H7": {
+     "level": "hard_fail",
+     "decision": "pass_retrospectivo_codigo_o_datos",
+     "clase_evidencia": "no_recuperable",
+     "clase_evidencia_v2": "retrospectiva_comprobada",
+     "resultado_v2": "comprobada"
+    },
+    "H13": {
+     "level": "hard_fail",
+     "decision": "pass",
+     "clase_evidencia": "contemporanea",
+     "clase_evidencia_v2": "contemporanea",
+     "resultado_v2": "satisfecha"
+    }
+   },
+   "nota_compuertas": "H7/H13 son compuertas de insumos de la matriz v4 (Gate 0), no el registro §18.7; se citan para el cotejo, no lo sustituyen.",
+   "resultado": "no localizado en el corpus revisado"
+  },
+  {
+   "run_id": "BRUN-612818cb081c6797d4923b4d",
+   "entrega": "s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800",
+   "inventario_sha256": "d22952fad5782ff67c0c514a5b2c8d613c089f8cdfb241ebad133fb8903d7dc1",
+   "inventario_autenticado_por": "RESUMEN.json rem132 (entregas_de_unidades), miembro del inventario rem132 542036fd…, sellado en custodia_rem173.py fijada por la raíz rem174 196b4e24…",
+   "directorios_resultados_de_celda_excluidos": [
+    "demo/d_s1_f/resultados"
+   ],
+   "examinado": {
+    "nombres_de_archivo": 11636,
+    "artefactos_texto_leidos": 306,
+    "bytes_artefactos": 48908363,
+    "codigo_py_leido": 488,
+    "bytes_codigo": 7166908,
+    "solo_nombre": {
+     "resultado_celda": 2597,
+     "almacen_techos": 33,
+     "demo_profundo": 7856,
+     "otro": 356
+    }
+   },
+   "consultas_nombre": [
+    "double_count",
+    "doble_conteo",
+    "circularity",
+    "circularidad",
+    "d8_pre",
+    "d8_post",
+    "run_manifest",
+    "input_audit_report",
+    "admissibility_report",
+    "b_manifest"
+   ],
+   "consultas_contenido": [
+    "double_counting",
+    "doble_conteo",
+    "doble conteo",
+    "where_counted",
+    "where_not_counted",
+    "verified_by"
+   ],
+   "coincidencias_nombre": [],
+   "coincidencias_contenido_artefactos": [],
+   "coincidencias_contenido_codigo": [],
+   "copias_auditor_d8_en_la_entrega": [],
+   "tablas_con_los_seis_campos_de_esta_corrida": [],
+   "filas_input_audit_report_v4": 34,
+   "compuertas_H7_H13_de_insumos_v4": {
+    "H7": {
+     "level": "hard_fail",
+     "decision": "pass_retrospectivo_codigo_o_datos",
+     "clase_evidencia": "no_recuperable",
+     "clase_evidencia_v2": "retrospectiva_comprobada",
+     "resultado_v2": "comprobada"
+    },
+    "H13": {
+     "level": "hard_fail",
+     "decision": "pass",
+     "clase_evidencia": "contemporanea",
+     "clase_evidencia_v2": "contemporanea",
+     "resultado_v2": "satisfecha"
+    }
+   },
+   "nota_compuertas": "H7/H13 son compuertas de insumos de la matriz v4 (Gate 0), no el registro §18.7; se citan para el cotejo, no lo sustituyen.",
+   "resultado": "no localizado en el corpus revisado"
+  },
+  {
+   "run_id": "BRUN-63a9e9ea157b2faaf317ae61",
+   "entrega": "remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324",
+   "inventario_sha256": "e2772375180cfa6faf39e152c5a802b97724a5cdfc19dcfc86d28747e9ebcc86",
+   "inventario_autenticado_por": "RESUMEN.json rem132 (entregas_de_unidades), miembro del inventario rem132 542036fd…, sellado en custodia_rem173.py fijada por la raíz rem174 196b4e24…",
+   "directorios_resultados_de_celda_excluidos": [
+    "demo/rem8/resultados"
+   ],
+   "examinado": {
+    "nombres_de_archivo": 22423,
+    "artefactos_texto_leidos": 706,
+    "bytes_artefactos": 83879834,
+    "codigo_py_leido": 878,
+    "bytes_codigo": 18384439,
+    "solo_nombre": {
+     "resultado_celda": 5710,
+     "almacen_techos": 411,
+     "demo_profundo": 14151,
+     "otro": 567
+    }
+   },
+   "consultas_nombre": [
+    "double_count",
+    "doble_conteo",
+    "circularity",
+    "circularidad",
+    "d8_pre",
+    "d8_post",
+    "run_manifest",
+    "input_audit_report",
+    "admissibility_report",
+    "b_manifest"
+   ],
+   "consultas_contenido": [
+    "double_counting",
+    "doble_conteo",
+    "doble conteo",
+    "where_counted",
+    "where_not_counted",
+    "verified_by"
+   ],
+   "coincidencias_nombre": [],
+   "coincidencias_contenido_artefactos": [],
+   "coincidencias_contenido_codigo": [
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem.py",
+     "sha256": "fafc9b850d339c1623a9848beee1afe3692063c1f27e4ad57d91ff2b55d9caf9"
+    },
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem6.py",
+     "sha256": "82d8956d0abfb2a8298c2e9f2ec0145bbb3f8db6306fa1311297c5ee81b6f1d0"
+    },
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem7.py",
+     "sha256": "0fe9e089655875796cba2b92970408056a3e894d888e91fed98fb7760fbddcc5"
+    },
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem8.py",
+     "sha256": "bc6de98428d38c17515aed1ff7119e961b7491d2b6054fa1a29d332a007ceb27"
+    },
+    {
+     "consultas": {
+      "doble conteo": 1
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       29
+      ]
+     },
+     "ruta": "analisis/tablas_informe.py",
+     "sha256": "1ea454fe0290d217ec0827eb5d219ecfaec4a406073d07016b58f2d2adac7ccd"
+    }
+   ],
+   "copias_auditor_d8_en_la_entrega": [],
+   "tablas_con_los_seis_campos_de_esta_corrida": [],
+   "filas_input_audit_report_v4": 34,
+   "compuertas_H7_H13_de_insumos_v4": {
+    "H7": {
+     "level": "hard_fail",
+     "decision": "pass_retrospectivo_codigo_o_datos",
+     "clase_evidencia": "no_recuperable",
+     "clase_evidencia_v2": "retrospectiva_comprobada",
+     "resultado_v2": "comprobada"
+    },
+    "H13": {
+     "level": "hard_fail",
+     "decision": "pass",
+     "clase_evidencia": "contemporanea",
+     "clase_evidencia_v2": "contemporanea",
+     "resultado_v2": "satisfecha"
+    }
+   },
+   "nota_compuertas": "H7/H13 son compuertas de insumos de la matriz v4 (Gate 0), no el registro §18.7; se citan para el cotejo, no lo sustituyen.",
+   "resultado": "no localizado en el corpus revisado"
+  },
+  {
+   "run_id": "BRUN-7bdfe0a1bee57298e31e1b34",
+   "entrega": "remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533",
+   "inventario_sha256": "aefcf73f21948fcfa1a07b9860d2d8f3a810859a9621d426ad580a646ce3aadd",
+   "inventario_autenticado_por": "RESUMEN.json rem132 (entregas_de_unidades), miembro del inventario rem132 542036fd…, sellado en custodia_rem173.py fijada por la raíz rem174 196b4e24…",
+   "directorios_resultados_de_celda_excluidos": [
+    "demo/rem/resultados"
+   ],
+   "examinado": {
+    "nombres_de_archivo": 14170,
+    "artefactos_texto_leidos": 302,
+    "bytes_artefactos": 56102033,
+    "codigo_py_leido": 505,
+    "bytes_codigo": 7318562,
+    "solo_nombre": {
+     "resultado_celda": 3241,
+     "almacen_techos": 77,
+     "demo_profundo": 9748,
+     "otro": 297
+    }
+   },
+   "consultas_nombre": [
+    "double_count",
+    "doble_conteo",
+    "circularity",
+    "circularidad",
+    "d8_pre",
+    "d8_post",
+    "run_manifest",
+    "input_audit_report",
+    "admissibility_report",
+    "b_manifest"
+   ],
+   "consultas_contenido": [
+    "double_counting",
+    "doble_conteo",
+    "doble conteo",
+    "where_counted",
+    "where_not_counted",
+    "verified_by"
+   ],
+   "coincidencias_nombre": [],
+   "coincidencias_contenido_artefactos": [
+    {
+     "consultas": {
+      "doble conteo": 1
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       134
+      ]
+     },
+     "ruta": "autorizacion/encargo.txt",
+     "sha256": "cc6bdc4ee1251c48c06b4ac632295ce757832ebcac1c2a6a8f696e3fb3a6c882",
+     "tablas_con_los_seis_campos": []
+    },
+    {
+     "consultas": {
+      "doble conteo": 1
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       157
+      ]
+     },
+     "ruta": "review/INFORME_REMANENTE_DETALLADO.md",
+     "sha256": "aa96669a72073a74dae92adf3d1c11e83f1aa2caf2b1031e944720de5ba7db7b",
+     "tablas_con_los_seis_campos": []
+    }
+   ],
+   "coincidencias_contenido_codigo": [
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       64
+      ]
+     },
+     "ruta": "analisis/resumen_rem.py",
+     "sha256": "51b5a628dc1019b8047df7138f7d25694246eec18cc95b88acdb5ae1d13c7b7f"
+    },
+    {
+     "consultas": {
+      "doble conteo": 1
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       29
+      ]
+     },
+     "ruta": "analisis/tablas_informe.py",
+     "sha256": "841d07e7f0bf87f3f46337e57dbb675c5ea1d9c7fcddcb36df9771ec71b70fab"
+    }
+   ],
+   "copias_auditor_d8_en_la_entrega": [],
+   "tablas_con_los_seis_campos_de_esta_corrida": [],
+   "filas_input_audit_report_v4": 34,
+   "compuertas_H7_H13_de_insumos_v4": {
+    "H7": {
+     "level": "hard_fail",
+     "decision": "pass_retrospectivo_codigo_o_datos",
+     "clase_evidencia": "no_recuperable",
+     "clase_evidencia_v2": "retrospectiva_comprobada",
+     "resultado_v2": "comprobada"
+    },
+    "H13": {
+     "level": "hard_fail",
+     "decision": "pass",
+     "clase_evidencia": "contemporanea",
+     "clase_evidencia_v2": "contemporanea",
+     "resultado_v2": "satisfecha"
+    }
+   },
+   "nota_compuertas": "H7/H13 son compuertas de insumos de la matriz v4 (Gate 0), no el registro §18.7; se citan para el cotejo, no lo sustituyen.",
+   "resultado": "no localizado en el corpus revisado"
+  },
+  {
+   "run_id": "BRUN-991c466a1938ddbf2192eefb",
+   "entrega": "remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213",
+   "inventario_sha256": "30474cee53e48bdcde9592aa7cc299e71cdf50e624a2f78692d323ca75864bed",
+   "inventario_autenticado_por": "RESUMEN.json rem132 (entregas_de_unidades), miembro del inventario rem132 542036fd…, sellado en custodia_rem173.py fijada por la raíz rem174 196b4e24…",
+   "directorios_resultados_de_celda_excluidos": [
+    "demo/rem4/resultados"
+   ],
+   "examinado": {
+    "nombres_de_archivo": 15693,
+    "artefactos_texto_leidos": 384,
+    "bytes_artefactos": 66243127,
+    "codigo_py_leido": 525,
+    "bytes_codigo": 7836011,
+    "solo_nombre": {
+     "resultado_celda": 4329,
+     "almacen_techos": 240,
+     "demo_profundo": 9893,
+     "otro": 322
+    }
+   },
+   "consultas_nombre": [
+    "double_count",
+    "doble_conteo",
+    "circularity",
+    "circularidad",
+    "d8_pre",
+    "d8_post",
+    "run_manifest",
+    "input_audit_report",
+    "admissibility_report",
+    "b_manifest"
+   ],
+   "consultas_contenido": [
+    "double_counting",
+    "doble_conteo",
+    "doble conteo",
+    "where_counted",
+    "where_not_counted",
+    "verified_by"
+   ],
+   "coincidencias_nombre": [],
+   "coincidencias_contenido_artefactos": [
+    {
+     "consultas": {
+      "doble conteo": 1
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       126
+      ]
+     },
+     "ruta": "review/INFORME_REMANENTE_S3_ENSAMBLAJE.md",
+     "sha256": "a75413a2513a7419367071bd6b994a2ab88fdcfccd2a6fa09e866ae13ae33c73",
+     "tablas_con_los_seis_campos": []
+    }
+   ],
+   "coincidencias_contenido_codigo": [
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem.py",
+     "sha256": "4a5c4805062c929f8adb87b8cea7735809f919b4f5092cad45b3015c1cda0137"
+    },
+    {
+     "consultas": {
+      "doble conteo": 1
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       29
+      ]
+     },
+     "ruta": "analisis/tablas_informe.py",
+     "sha256": "a195c7d4576645d95166cc83afeb0b4f5677c53a159c863865d6d5f72f21d3e9"
+    }
+   ],
+   "copias_auditor_d8_en_la_entrega": [],
+   "tablas_con_los_seis_campos_de_esta_corrida": [],
+   "filas_input_audit_report_v4": 34,
+   "compuertas_H7_H13_de_insumos_v4": {
+    "H7": {
+     "level": "hard_fail",
+     "decision": "pass_retrospectivo_codigo_o_datos",
+     "clase_evidencia": "no_recuperable",
+     "clase_evidencia_v2": "retrospectiva_comprobada",
+     "resultado_v2": "comprobada"
+    },
+    "H13": {
+     "level": "hard_fail",
+     "decision": "pass",
+     "clase_evidencia": "contemporanea",
+     "clase_evidencia_v2": "contemporanea",
+     "resultado_v2": "satisfecha"
+    }
+   },
+   "nota_compuertas": "H7/H13 son compuertas de insumos de la matriz v4 (Gate 0), no el registro §18.7; se citan para el cotejo, no lo sustituyen.",
+   "resultado": "no localizado en el corpus revisado"
+  },
+  {
+   "run_id": "BRUN-9c6c66e7af8b139a613b1c3f",
+   "entrega": "remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009",
+   "inventario_sha256": "a1af40e6fdd1a20dc78dab7d817f82bed718d39a7d50f90424ac47f3c970cc1d",
+   "inventario_autenticado_por": "RESUMEN.json rem132 (entregas_de_unidades), miembro del inventario rem132 542036fd…, sellado en custodia_rem173.py fijada por la raíz rem174 196b4e24…",
+   "directorios_resultados_de_celda_excluidos": [
+    "demo/rem7/resultados"
+   ],
+   "examinado": {
+    "nombres_de_archivo": 20184,
+    "artefactos_texto_leidos": 556,
+    "bytes_artefactos": 77450090,
+    "codigo_py_leido": 734,
+    "bytes_codigo": 14580032,
+    "solo_nombre": {
+     "resultado_celda": 5324,
+     "almacen_techos": 362,
+     "demo_profundo": 12728,
+     "otro": 480
+    }
+   },
+   "consultas_nombre": [
+    "double_count",
+    "doble_conteo",
+    "circularity",
+    "circularidad",
+    "d8_pre",
+    "d8_post",
+    "run_manifest",
+    "input_audit_report",
+    "admissibility_report",
+    "b_manifest"
+   ],
+   "consultas_contenido": [
+    "double_counting",
+    "doble_conteo",
+    "doble conteo",
+    "where_counted",
+    "where_not_counted",
+    "verified_by"
+   ],
+   "coincidencias_nombre": [],
+   "coincidencias_contenido_artefactos": [],
+   "coincidencias_contenido_codigo": [
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem.py",
+     "sha256": "fafc9b850d339c1623a9848beee1afe3692063c1f27e4ad57d91ff2b55d9caf9"
+    },
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem6.py",
+     "sha256": "82d8956d0abfb2a8298c2e9f2ec0145bbb3f8db6306fa1311297c5ee81b6f1d0"
+    },
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem7.py",
+     "sha256": "0fe9e089655875796cba2b92970408056a3e894d888e91fed98fb7760fbddcc5"
+    },
+    {
+     "consultas": {
+      "doble conteo": 1
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       29
+      ]
+     },
+     "ruta": "analisis/tablas_informe.py",
+     "sha256": "1ea454fe0290d217ec0827eb5d219ecfaec4a406073d07016b58f2d2adac7ccd"
+    }
+   ],
+   "copias_auditor_d8_en_la_entrega": [],
+   "tablas_con_los_seis_campos_de_esta_corrida": [],
+   "filas_input_audit_report_v4": 34,
+   "compuertas_H7_H13_de_insumos_v4": {
+    "H7": {
+     "level": "hard_fail",
+     "decision": "pass_retrospectivo_codigo_o_datos",
+     "clase_evidencia": "no_recuperable",
+     "clase_evidencia_v2": "retrospectiva_comprobada",
+     "resultado_v2": "comprobada"
+    },
+    "H13": {
+     "level": "hard_fail",
+     "decision": "pass",
+     "clase_evidencia": "contemporanea",
+     "clase_evidencia_v2": "contemporanea",
+     "resultado_v2": "satisfecha"
+    }
+   },
+   "nota_compuertas": "H7/H13 son compuertas de insumos de la matriz v4 (Gate 0), no el registro §18.7; se citan para el cotejo, no lo sustituyen.",
+   "resultado": "no localizado en el corpus revisado"
+  },
+  {
+   "run_id": "BRUN-a81e3f45f7111e18b1f39370",
+   "entrega": "remanente_s1df_s2_consumidor_h4_paso4_3_7_2026-10-11_lima0604",
+   "inventario_sha256": "5bd46fafb7c73bf046dd3f7262465274e3a7b8191e2cd4b3feaca3c935ce011a",
+   "inventario_autenticado_por": "RESUMEN.json rem132 (entregas_de_unidades), miembro del inventario rem132 542036fd…, sellado en custodia_rem173.py fijada por la raíz rem174 196b4e24…",
+   "directorios_resultados_de_celda_excluidos": [
+    "demo/rem6/resultados"
+   ],
+   "examinado": {
+    "nombres_de_archivo": 18013,
+    "artefactos_texto_leidos": 419,
+    "bytes_artefactos": 71572268,
+    "codigo_py_leido": 596,
+    "bytes_codigo": 10895602,
+    "solo_nombre": {
+     "resultado_celda": 4876,
+     "almacen_techos": 317,
+     "demo_profundo": 11490,
+     "otro": 315
+    }
+   },
+   "consultas_nombre": [
+    "double_count",
+    "doble_conteo",
+    "circularity",
+    "circularidad",
+    "d8_pre",
+    "d8_post",
+    "run_manifest",
+    "input_audit_report",
+    "admissibility_report",
+    "b_manifest"
+   ],
+   "consultas_contenido": [
+    "double_counting",
+    "doble_conteo",
+    "doble conteo",
+    "where_counted",
+    "where_not_counted",
+    "verified_by"
+   ],
+   "coincidencias_nombre": [],
+   "coincidencias_contenido_artefactos": [],
+   "coincidencias_contenido_codigo": [
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem.py",
+     "sha256": "fafc9b850d339c1623a9848beee1afe3692063c1f27e4ad57d91ff2b55d9caf9"
+    },
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem6.py",
+     "sha256": "82d8956d0abfb2a8298c2e9f2ec0145bbb3f8db6306fa1311297c5ee81b6f1d0"
+    },
+    {
+     "consultas": {
+      "doble conteo": 1
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       29
+      ]
+     },
+     "ruta": "analisis/tablas_informe.py",
+     "sha256": "1ea454fe0290d217ec0827eb5d219ecfaec4a406073d07016b58f2d2adac7ccd"
+    }
+   ],
+   "copias_auditor_d8_en_la_entrega": [],
+   "tablas_con_los_seis_campos_de_esta_corrida": [],
+   "filas_input_audit_report_v4": 34,
+   "compuertas_H7_H13_de_insumos_v4": {
+    "H7": {
+     "level": "hard_fail",
+     "decision": "pass_retrospectivo_codigo_o_datos",
+     "clase_evidencia": "no_recuperable",
+     "clase_evidencia_v2": "retrospectiva_comprobada",
+     "resultado_v2": "comprobada"
+    },
+    "H13": {
+     "level": "hard_fail",
+     "decision": "pass",
+     "clase_evidencia": "contemporanea",
+     "clase_evidencia_v2": "contemporanea",
+     "resultado_v2": "satisfecha"
+    }
+   },
+   "nota_compuertas": "H7/H13 son compuertas de insumos de la matriz v4 (Gate 0), no el registro §18.7; se citan para el cotejo, no lo sustituyen.",
+   "resultado": "no localizado en el corpus revisado"
+  },
+  {
+   "run_id": "BRUN-c5af32a993773f5258ce570f",
+   "entrega": "s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125",
+   "inventario_sha256": "3f62b34c51e82dafb77b199c9ea3f99177b46535d782c869eed9ead80be910cc",
+   "inventario_autenticado_por": "RESUMEN.json rem132 (entregas_de_unidades), miembro del inventario rem132 542036fd…, sellado en custodia_rem173.py fijada por la raíz rem174 196b4e24…",
+   "directorios_resultados_de_celda_excluidos": [
+    "demo/d_s1f_r/resultados"
+   ],
+   "examinado": {
+    "nombres_de_archivo": 13773,
+    "artefactos_texto_leidos": 290,
+    "bytes_artefactos": 52057279,
+    "codigo_py_leido": 494,
+    "bytes_codigo": 7220419,
+    "solo_nombre": {
+     "resultado_celda": 2959,
+     "almacen_techos": 39,
+     "demo_profundo": 9686,
+     "otro": 305
+    }
+   },
+   "consultas_nombre": [
+    "double_count",
+    "doble_conteo",
+    "circularity",
+    "circularidad",
+    "d8_pre",
+    "d8_post",
+    "run_manifest",
+    "input_audit_report",
+    "admissibility_report",
+    "b_manifest"
+   ],
+   "consultas_contenido": [
+    "double_counting",
+    "doble_conteo",
+    "doble conteo",
+    "where_counted",
+    "where_not_counted",
+    "verified_by"
+   ],
+   "coincidencias_nombre": [],
+   "coincidencias_contenido_artefactos": [],
+   "coincidencias_contenido_codigo": [],
+   "copias_auditor_d8_en_la_entrega": [],
+   "tablas_con_los_seis_campos_de_esta_corrida": [],
+   "filas_input_audit_report_v4": 34,
+   "compuertas_H7_H13_de_insumos_v4": {
+    "H7": {
+     "level": "hard_fail",
+     "decision": "pass_retrospectivo_codigo_o_datos",
+     "clase_evidencia": "no_recuperable",
+     "clase_evidencia_v2": "retrospectiva_comprobada",
+     "resultado_v2": "comprobada"
+    },
+    "H13": {
+     "level": "hard_fail",
+     "decision": "pass",
+     "clase_evidencia": "contemporanea",
+     "clase_evidencia_v2": "contemporanea",
+     "resultado_v2": "satisfecha"
+    }
+   },
+   "nota_compuertas": "H7/H13 son compuertas de insumos de la matriz v4 (Gate 0), no el registro §18.7; se citan para el cotejo, no lo sustituyen.",
+   "resultado": "no localizado en el corpus revisado"
+  },
+  {
+   "run_id": "BRUN-cb33e6b24039acc84fb1a065",
+   "entrega": "remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855",
+   "inventario_sha256": "1bb94b75d57c4b97e9ebf662bc6cc6117e3b8b30792e46d6d1e5ef1a36ea8cdd",
+   "inventario_autenticado_por": "RESUMEN.json rem132 (entregas_de_unidades), miembro del inventario rem132 542036fd…, sellado en custodia_rem173.py fijada por la raíz rem174 196b4e24…",
+   "directorios_resultados_de_celda_excluidos": [
+    "demo/rem3/resultados"
+   ],
+   "examinado": {
+    "nombres_de_archivo": 14993,
+    "artefactos_texto_leidos": 355,
+    "bytes_artefactos": 60175562,
+    "codigo_py_leido": 509,
+    "bytes_codigo": 7353663,
+    "solo_nombre": {
+     "resultado_celda": 3853,
+     "almacen_techos": 159,
+     "demo_profundo": 9785,
+     "otro": 332
+    }
+   },
+   "consultas_nombre": [
+    "double_count",
+    "doble_conteo",
+    "circularity",
+    "circularidad",
+    "d8_pre",
+    "d8_post",
+    "run_manifest",
+    "input_audit_report",
+    "admissibility_report",
+    "b_manifest"
+   ],
+   "consultas_contenido": [
+    "double_counting",
+    "doble_conteo",
+    "doble conteo",
+    "where_counted",
+    "where_not_counted",
+    "verified_by"
+   ],
+   "coincidencias_nombre": [],
+   "coincidencias_contenido_artefactos": [
+    {
+     "consultas": {
+      "doble conteo": 1
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       115
+      ]
+     },
+     "ruta": "review/INFORME_REMANENTE_S1DF_S2_S3.md",
+     "sha256": "56b5a54d72626ca89162dcc5470d723fd7d561645ca9705c4feb03a619e7234f",
+     "tablas_con_los_seis_campos": []
+    }
+   ],
+   "coincidencias_contenido_codigo": [
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem.py",
+     "sha256": "d78a96b2cdab2697819aa717f069abdd57dc363e72305d62161ef63950344bd3"
+    },
+    {
+     "consultas": {
+      "doble conteo": 1
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       29
+      ]
+     },
+     "ruta": "analisis/tablas_informe.py",
+     "sha256": "b0104e5ba08e52f6e095ce66c4000854d9fe9b65b30611a1840d1351a4e4a4a8"
+    }
+   ],
+   "copias_auditor_d8_en_la_entrega": [],
+   "tablas_con_los_seis_campos_de_esta_corrida": [],
+   "filas_input_audit_report_v4": 34,
+   "compuertas_H7_H13_de_insumos_v4": {
+    "H7": {
+     "level": "hard_fail",
+     "decision": "pass_retrospectivo_codigo_o_datos",
+     "clase_evidencia": "no_recuperable",
+     "clase_evidencia_v2": "retrospectiva_comprobada",
+     "resultado_v2": "comprobada"
+    },
+    "H13": {
+     "level": "hard_fail",
+     "decision": "pass",
+     "clase_evidencia": "contemporanea",
+     "clase_evidencia_v2": "contemporanea",
+     "resultado_v2": "satisfecha"
+    }
+   },
+   "nota_compuertas": "H7/H13 son compuertas de insumos de la matriz v4 (Gate 0), no el registro §18.7; se citan para el cotejo, no lo sustituyen.",
+   "resultado": "no localizado en el corpus revisado"
+  },
+  {
+   "run_id": "BRUN-f5f58960bbf9017776d3d7fc",
+   "entrega": "remanente_e6a4_correccion_cierre_paso4_3_7_2026-10-11_lima2330",
+   "inventario_sha256": "25099490133103e56dc50129985fa0025ec32001e7703f11f7f6e65dd1057630",
+   "inventario_autenticado_por": "RESUMEN.json rem132 (entregas_de_unidades), miembro del inventario rem132 542036fd…, sellado en custodia_rem173.py fijada por la raíz rem174 196b4e24…",
+   "directorios_resultados_de_celda_excluidos": [
+    "demo/rem11/resultados"
+   ],
+   "examinado": {
+    "nombres_de_archivo": 25643,
+    "artefactos_texto_leidos": 636,
+    "bytes_artefactos": 95099004,
+    "codigo_py_leido": 1171,
+    "bytes_codigo": 26422348,
+    "solo_nombre": {
+     "resultado_celda": 6000,
+     "almacen_techos": 480,
+     "demo_profundo": 16997,
+     "otro": 359
+    }
+   },
+   "consultas_nombre": [
+    "double_count",
+    "doble_conteo",
+    "circularity",
+    "circularidad",
+    "d8_pre",
+    "d8_post",
+    "run_manifest",
+    "input_audit_report",
+    "admissibility_report",
+    "b_manifest"
+   ],
+   "consultas_contenido": [
+    "double_counting",
+    "doble_conteo",
+    "doble conteo",
+    "where_counted",
+    "where_not_counted",
+    "verified_by"
+   ],
+   "coincidencias_nombre": [],
+   "coincidencias_contenido_artefactos": [],
+   "coincidencias_contenido_codigo": [
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem.py",
+     "sha256": "fafc9b850d339c1623a9848beee1afe3692063c1f27e4ad57d91ff2b55d9caf9"
+    },
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem10.py",
+     "sha256": "db8f905a2dce9c39d32816a42eee2aa1ea5fcdc785ae44cc741be0ef4d1b190f"
+    },
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem11.py",
+     "sha256": "166adbcf5ae625848190e7bc48f55e192162629f24d5b0f9987b4d70dad1e96b"
+    },
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem6.py",
+     "sha256": "82d8956d0abfb2a8298c2e9f2ec0145bbb3f8db6306fa1311297c5ee81b6f1d0"
+    },
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem7.py",
+     "sha256": "0fe9e089655875796cba2b92970408056a3e894d888e91fed98fb7760fbddcc5"
+    },
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem8.py",
+     "sha256": "bc6de98428d38c17515aed1ff7119e961b7491d2b6054fa1a29d332a007ceb27"
+    },
+    {
+     "consultas": {
+      "doble conteo": 2
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       6,
+       66
+      ]
+     },
+     "ruta": "analisis/resumen_rem9.py",
+     "sha256": "bfbfa0c376f12392cf68cf92bd78ada986631a57d88f2fbc64460a4cafd07f47"
+    },
+    {
+     "consultas": {
+      "doble conteo": 1
+     },
+     "primeras_lineas": {
+      "doble conteo": [
+       29
+      ]
+     },
+     "ruta": "analisis/tablas_informe.py",
+     "sha256": "1ea454fe0290d217ec0827eb5d219ecfaec4a406073d07016b58f2d2adac7ccd"
+    }
+   ],
+   "copias_auditor_d8_en_la_entrega": [],
+   "tablas_con_los_seis_campos_de_esta_corrida": [],
+   "filas_input_audit_report_v4": 34,
+   "compuertas_H7_H13_de_insumos_v4": {
+    "H7": {
+     "level": "hard_fail",
+     "decision": "pass_retrospectivo_codigo_o_datos",
+     "clase_evidencia": "no_recuperable",
+     "clase_evidencia_v2": "retrospectiva_comprobada",
+     "resultado_v2": "comprobada"
+    },
+    "H13": {
+     "level": "hard_fail",
+     "decision": "pass",
+     "clase_evidencia": "contemporanea",
+     "clase_evidencia_v2": "contemporanea",
+     "resultado_v2": "satisfecha"
+    }
+   },
+   "nota_compuertas": "H7/H13 son compuertas de insumos de la matriz v4 (Gate 0), no el registro §18.7; se citan para el cotejo, no lo sustituyen.",
+   "resultado": "no localizado en el corpus revisado"
+  }
+ ],
+ "resumen": {
+  "corridas": 14,
+  "localizadas": 0,
+  "no_localizadas": 14,
+  "artefactos_texto_leidos": 6302,
+  "codigo_py_leido": 9444,
+  "nombres_examinados": 239103,
+  "coincidencias_contenido_artefactos": 6,
+  "coincidencias_contenido_codigo": 41,
+  "coincidencias_nombre": 0,
+  "copias_auditor_d8": 0
+ },
+ "codigo_original_D8": [
+  {
+   "ruta": "herramientas/d8/auditor.py",
+   "sha256": "85a8adeae70d9c20f8885bb923b3ba05445307224fb21414b1031fbb53e2a88b",
+   "bytes": 58489,
+   "consultas": {
+    "double_counting": 3,
+    "doble conteo": 2,
+    "where_counted": 1,
+    "where_not_counted": 1,
+    "verified_by": 1
+   },
+   "primeras_lineas": {
+    "double_counting": [
+     330,
+     348,
+     373
+    ],
+    "doble conteo": [
+     333,
+     338
+    ],
+    "where_counted": [
+     377
+    ],
+    "where_not_counted": [
+     377
+    ],
+    "verified_by": [
+     378
+    ]
+   },
+   "lineas_def_double_counting": []
+  },
+  {
+   "ruta": "herramientas/bloque2/pruebas/test_b_d8.py",
+   "sha256": "c207537d3468c7ba32a895bc4bf688010d3de1b6ee8456d46f86b8ea09e2a943",
+   "bytes": 22731,
+   "consultas": {
+    "double_counting": 1,
+    "doble_conteo": 2
+   },
+   "primeras_lineas": {
+    "double_counting": [
+     220
+    ],
+    "doble_conteo": [
+     213,
+     219
+    ]
+   },
+   "lineas_def_double_counting": []
+  }
+ ],
+ "arbol_fase2_datos_d8": [
+  {
+   "ruta": "fase2_datos/d8/entradas/entorno_a8834116504b8f7a.json",
+   "sha256": "a8834116504b8f7a7b3d2531552190a69a3643c4bb907fb6360e09ac07b90a3e",
+   "bytes": 3800,
+   "consultas_nombre": [],
+   "contenido": null,
+   "tablas_con_los_seis_campos": []
+  }
+ ],
+ "fuentes_exp0": [
+  {
+   "ruta": "tmp/paso4_conexion_cinco_filas_t8_desde_rem145/decisiones/FICHA_D_EXP0_REM145.md",
+   "sha256": "f72ff8dbd605f677ea6de540fcbd441d787c84062579620846ff01fb5ea8f000",
+   "contenido": null,
+   "tablas_con_los_seis_campos": []
+  },
+  {
+   "ruta": "tmp/paso4_cinco_filas_exp0_desde_rem144/decisiones/AUTENTICACION_FUENTES_D_EXP0.json",
+   "sha256": "7a91ffeb69aea428c6c51cc9916b13236447026f16ae8340b0163b78568dd381",
+   "contenido": null,
+   "tablas_con_los_seis_campos": []
+  },
+  {
+   "ruta": "tmp/paso4_exp0_lambda_autenticada_desde_rem134/a_exp0/salida_a2/MATRIZ_REVISADA_v4.json",
+   "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+   "contenido": null,
+   "tablas_con_los_seis_campos": []
+  },
+  {
+   "ruta": "tmp/paso4_exp0_lambda_autenticada_desde_rem134/a_exp0/salida_a2/input_audit_report_v4.json",
+   "sha256": "fd02e9a589d6043b77efd4009c4c01abecfe1b7b44f888d92236887068568bf2",
+   "contenido": {
+    "consultas": {
+     "double_counting": 14
+    },
+    "primeras_lineas": {
+     "double_counting": [
+      108,
+      664,
+      1220,
+      1776,
+      2332,
+      2888,
+      3444,
+      4000
+     ]
+    }
+   },
+   "tablas_con_los_seis_campos": []
+  },
+  {
+   "ruta": "tmp/paso4_exp0_lambda_captura_desde_rem133/a_exp0/salida_a3/UNIVERSOS_POR_CORRIDA.json",
+   "sha256": "b8a2821231ae340bdd1a99456717fa7700f75b6916e751450107c0ec92b8e3cb",
+   "contenido": null,
+   "tablas_con_los_seis_campos": []
+  },
+  {
+   "ruta": "tmp/paso4_exp0_lambda_captura_desde_rem133/a_exp0/salida_a3/MATRIZ_REVISADA.json",
+   "sha256": "a0a47410a50f0063fa2cb9f7ec3757bbb4333742b9e268ee84e236cdfb2b806c",
+   "contenido": null,
+   "tablas_con_los_seis_campos": []
+  }
+ ],
+ "v4_doble_conteo": {
+  "H7": {
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "`F^{fix}` sumado fuera de `𝒬`",
+   "linea_diseno": 2086,
+   "clase_evidencia": "retrospectiva_comprobada",
+   "resultado": "comprobada",
+   "evidencia": "F_fix solo existe en external.py dentro de Q (cotas sin_addback/addback_completo) con identities() T1=1e-12; ningún otro módulo lo suma"
+  },
+  "H13": {
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "`c_{trace}` usado como factor multiplicativo de `B_f`",
+   "linea_diseno": 2092,
+   "clase_evidencia": "contemporanea",
+   "resultado": "satisfecha",
+   "evidencia": "parameter_registry c_trace inactive_reason=H13_NO_TRACE_FACTOR; G11 trace_inactive [450]"
+  }
+ },
+ "segundos": 0.02
+}

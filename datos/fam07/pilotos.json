@@ -1,0 +1,27 @@
+{
+ "pilotos": [
+  {
+   "claves": [
+    {
+     "celdas": 8,
+     "clave": "141cd6fb73fd5f82",
+     "diseno": "N",
+     "j": "df"
+    },
+    {
+     "celdas": 8,
+     "clave": "6f8e6a5a9bb213af",
+     "diseno": "G",
+     "j": "df"
+    }
+   ],
+   "comparaciones": 16,
+   "limite_externo_s": 2400.0,
+   "operacion": "F07-RECALCULO",
+   "reloj_interno_s": 2280.0,
+   "tarea": "L1-COORD-R1",
+   "techos": 2
+  }
+ ],
+ "regla": "fijado por el encargo de FAM07, antes de conocer resultados nuevos: la tarea histórica completa L1-COORD-R1, primera de la partición B (sus dos techos certificados y sus comparaciones dependientes, sin reducir el problema)"
+}

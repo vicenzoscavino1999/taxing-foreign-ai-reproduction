@@ -1,0 +1,112 @@
+{
+ "kind": "estado-b1",
+ "inicio_utc": "2026-11-08T01:23:28.149846+00:00",
+ "etapas": {
+  "trabajo_dir": "@@R_BS2@@\\tmp\\paso4_produccion_b1_doce_cov_desde_rem166\\b1_B1PROD166\\TRABAJO",
+  "validacion_dir": "@@R_BS2@@\\tmp\\paso4_produccion_b1_doce_cov_desde_rem166\\b1_B1PROD166\\VALIDACION"
+ },
+ "operaciones": {
+  "trabajo": {
+   "id": "B1PROD166_TRABAJO",
+   "rc_p3ctl": 0,
+   "estado": "complete",
+   "motivo": null,
+   "admision": {
+    "ahora_efectivo_utc": "2026-11-08T01:23:28.341322+00:00",
+    "union_efectiva_s": 1.855,
+    "reserva_s": 1380.0,
+    "holgura_corte_s": 4275.264,
+    "holgura_union_s": 9418.145
+   },
+   "solicitudes": 1,
+   "inicio_registrado": true
+  },
+  "validacion": {
+   "id": "B1PROD166_VALIDACION",
+   "rc_p3ctl": 0,
+   "aceptada": true,
+   "fallos": [],
+   "admision": {
+    "ahora_efectivo_utc": "2026-11-08T01:23:30.102797+00:00",
+    "union_efectiva_s": 3.48,
+    "reserva_s": 690.0,
+    "holgura_corte_s": 4963.502,
+    "holgura_union_s": 10106.52
+   },
+   "evidencia_sha256_validada": "8bb0b86e213f88cd902a9a5f8ad6c4ea2f979ee8d948717362d9dc6c66f808c5"
+  }
+ },
+ "pendientes": [],
+ "lanzamiento": "B1PROD166",
+ "modo": "produccion",
+ "argumentos": {
+  "--area": "@@R_FS@@/tmp/paso4_produccion_b1_doce_cov_desde_rem166",
+  "--modo": "produccion",
+  "--manifiesto": "@@R_FS@@/tmp/paso4_invocacion_procedencia_b1_desde_rem165/paquete_b1/MANIFIESTO_B1.json",
+  "--salida": "@@R_FS@@/tmp/paso4_produccion_b1_doce_cov_desde_rem166/b1_B1PROD166",
+  "--lanzamiento": "B1PROD166",
+  "--alcance": "@@R_FS@@/tmp/paso4_produccion_b1_doce_cov_desde_rem166/alcance/alcance_b1.json",
+  "--decision": "@@R_FS@@/tmp/paso4_produccion_b1_doce_cov_desde_rem166/decisiones/DECISION_REF_B1.json"
+ },
+ "indice_sha256": "9244a279c4b5ede08b9a48b9f2f0ebe99a22ed91cd137b8ae24aa7ae4aa3f13d",
+ "manifiesto_sha256": "1194923c273da998db23a83700dac1669693490d01f7fc52668ae39c105fe33e",
+ "puerta_nativa": {
+  "proveedor": "claude",
+  "transcripcion": "@@TRANSCRIPCION_CLAUDE_BS2@@\\fa99d748-337c-44a7-8d1d-ca7ced1b9871.jsonl",
+  "linea": 31088,
+  "uuid": "1bb5809b-ff5d-41fc-a6a0-6191394f32c1",
+  "session_id": "fa99d748-337c-44a7-8d1d-ca7ced1b9871",
+  "timestamp": "2026-11-08T01:21:57.799Z",
+  "registro_sha256": "1d65a70c2a5bb928a72e28b969165ad83a9f0c1dfdabdd01d410a7ab58a48b80",
+  "contenido": "AUTORIZO ALCANCE PASO4 alcance_sha256=150d4b71b6343af63655e239d70f0ee9b920a31edd244c2514096ef18854797e",
+  "mensaje_sha256": "1d65a70c2a5bb928a72e28b969165ad83a9f0c1dfdabdd01d410a7ab58a48b80",
+  "alcance_sha256": "150d4b71b6343af63655e239d70f0ee9b920a31edd244c2514096ef18854797e",
+  "modo_arnes": false
+ },
+ "alcance_sha256": "150d4b71b6343af63655e239d70f0ee9b920a31edd244c2514096ef18854797e",
+ "reservas": {
+  "trabajo_s": 690.0,
+  "validacion_s": 690.0,
+  "total_s": 1380.0,
+  "margen_s": 90.0,
+  "cierre_s": 60.0,
+  "corte_utc": "2026-11-08T02:57:43.605000+00:00",
+  "calculo_max_s": 10800,
+  "desplazamiento_reloj_s": 0.0,
+  "union_adicional_s": 0.0,
+  "union_adicional_validacion_s": 0.0
+ },
+ "evidencia_sha256": "8bb0b86e213f88cd902a9a5f8ad6c4ea2f979ee8d948717362d9dc6c66f808c5",
+ "procedencia": {
+  "tipo": "lanzamiento",
+  "modo": "produccion",
+  "area": "@@R_BS2@@\\tmp\\paso4_produccion_b1_doce_cov_desde_rem166",
+  "lanzamiento": "B1PROD166",
+  "eventos_sha256": "e811ff24dd4099783d16cbd1a893defc5d4aa86373081e93efbe9022496925e5",
+  "evento_inicio_sha256": "45abe1746a68cb99cd7adcf26972607555f9f601a50e7ee1430106860f7be605",
+  "evento_fin_sha256": "130415d5f3c4ec977460c2ae4f47d871d81bdf181b196bd9239f7a52870a1e05",
+  "trabajo_id": "B1PROD166_TRABAJO",
+  "trabajo_dir": "@@R_BS2@@\\tmp\\paso4_produccion_b1_doce_cov_desde_rem166\\b1_B1PROD166\\TRABAJO",
+  "salida_trabajador_sha256": "4871c9916ba65ea8c8ab58e79a5e78e4ff476c0f39b16d52a8f33391dbf4627c",
+  "evidencia_sha256": "8bb0b86e213f88cd902a9a5f8ad6c4ea2f979ee8d948717362d9dc6c66f808c5"
+ },
+ "validacion_sha256": "a6806885bfcd47d399564080efe230269f04fd8ca485aa574f4d7b4fdc8d3540",
+ "lectura_sha256": "ec3db4e494caeb413407157ae0027c39da5e49f712bf83468d63c5c7e35df960",
+ "estado_final": "completo",
+ "causa": null,
+ "fallo_original": null,
+ "fin_utc": "2026-11-08T01:23:30.787334+00:00",
+ "pared_s": 2.64,
+ "cierre": {
+  "helper": "@@R_BS2@@\\tmp\\paso4_produccion_b1_doce_cov_desde_rem166\\codigo\\p3ctl.py",
+  "helper_presente": true,
+  "rc": 0,
+  "stdout": "{\"identidades\": 7, \"vivos\": []}\n",
+  "vivos": [],
+  "conforme_p3ctl": true,
+  "motivo": null,
+  "conforme": true
+ },
+ "rc": 0,
+ "conjunto_completo": true
+}

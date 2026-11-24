@@ -1,0 +1,1150 @@
+{
+ "kind": "equivalencia-soporte-lambda-rem132",
+ "estado": "COMPROBACIÓN sin bridge; NO es una vista nueva ni un cierre; requiere decisión",
+ "criterios": {
+  "E1": "envolvente «con» cubierta, alcanzada, sin estados no cubiertos, no sintética",
+  "E2": "dominio de cada eje de la envolvente = soporte D7 del conjunto (árbol 10a0bd5bb8ea48d5)",
+  "E3": "testigos de mín y máx = puntos de la retícula L0 del plan (nodos D7 de cada eje)",
+  "E4": "estados nacionales: los usados por las celdas de las corridas históricas (national_state_sha256 recalculado con paper2b.keys.national_state del núcleo instalado) están en el censo que usó la envolvente; la envolvente usa el censo"
+ },
+ "fuentes": {
+  "envolventes": {
+   "paso4_lote1_desde_rem112": "19ecd7d3eb0e42a67d46678a6b447f064c8011a27361c8777330ddade9e8ebb9",
+   "paso4_lote2_e4_desde_rem120": "b1cf8af5eab8aa22c53ec279bd5660dbf57847b6be8f874c56af7d71f9cd4bab"
+  },
+  "manifiestos": {
+   "paso4_lote1_desde_rem112": "tmp/paso4_conciliacion_portabilidad_desde_rem111/lote/LOTE1_MANIFIESTO.json",
+   "paso4_lote2_e4_desde_rem120": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/LOTE2_MANIFIESTO.json"
+  },
+  "censo": "tmp/paso4_remanente_lotes_desde_rem113/censo/CENSO_NACIONAL.json"
+ },
+ "por_clave": {
+  "CMP-E1.macro|COL": {
+   "clave": "CMP-E1.macro|COL",
+   "envolvente": {
+    "fuente": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-LAMBDA/salida/lambda_envolvente.jsonl",
+    "estado": "ok",
+    "lambda_min": "69033368901900/158100910527007",
+    "lambda_max": "7998301044721/6328556818808",
+    "lambda_min_alcanzado": true,
+    "lambda_max_alcanzado": true,
+    "estados_no_cubiertos": {
+     "max": [],
+     "min": []
+    },
+    "testigo_min": {
+     "eta_w": "1",
+     "eta_H": "-1/2",
+     "pi_iva": "3/2",
+     "pi_otros_productos": "3/2",
+     "pi_produccion": "3/2",
+     "a": "11/10",
+     "rho": "2/5",
+     "kappa_tilde": "1/200"
+    },
+    "testigo_max": {
+     "eta_w": "2/5",
+     "eta_H": "-1/2",
+     "pi_iva": "1/2",
+     "pi_otros_productos": "1/2",
+     "pi_produccion": "1/2",
+     "a": "5/2",
+     "rho": "1",
+     "kappa_tilde": "1/5"
+    },
+    "testigo_nacional_min": 5,
+    "testigo_nacional_max": 5,
+    "sintetico": false,
+    "validacion": "completa"
+   },
+   "E1_cubierta_y_alcanzada": true,
+   "E2_dominio_igual_a_D7": true,
+   "E2_ejes": [
+    "a",
+    "eta_H",
+    "eta_w",
+    "gain_share",
+    "kappa_tilde",
+    "pi_iva",
+    "pi_otros_productos",
+    "pi_produccion",
+    "rho"
+   ],
+   "E2_diferencias": [],
+   "manifiesto": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/LOTE2_MANIFIESTO.json",
+   "E3_testigos_en_reticula_L0": true,
+   "E3_fuera": {},
+   "E4_estados_censo": 9,
+   "E4_estados_de_celdas_distintos": 9,
+   "E4_celdas_en_censo": 9,
+   "E4_celdas_contenidas_en_censo": true,
+   "E4_envolvente_usa_censo": true,
+   "E4_tipo_censo": "vectores_publicados",
+   "contraste_celdas": {
+    "lambda_pi_admisibles": 230,
+    "dentro": 230,
+    "min": 0.4366411848722885,
+    "max": 1.263842811832019
+   },
+   "intervalo_float": [
+    0.4366411848722885,
+    1.263842811832019
+   ]
+  },
+  "CMP-E1.macro|MEX": {
+   "clave": "CMP-E1.macro|MEX",
+   "envolvente": {
+    "fuente": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-LAMBDA/salida/lambda_envolvente.jsonl",
+    "estado": "ok",
+    "lambda_min": "6845267647925/11146913239249",
+    "lambda_max": "326213524733/254968708832",
+    "lambda_min_alcanzado": true,
+    "lambda_max_alcanzado": true,
+    "estados_no_cubiertos": {
+     "max": [],
+     "min": []
+    },
+    "testigo_min": {
+     "eta_w": "1",
+     "eta_H": "-1/2",
+     "pi_iva": "3/2",
+     "pi_otros_productos": "3/2",
+     "pi_produccion": "3/2",
+     "a": "11/10",
+     "rho": "2/5",
+     "kappa_tilde": "1/200"
+    },
+    "testigo_max": {
+     "eta_w": "2/5",
+     "eta_H": "-1/2",
+     "pi_iva": "1/2",
+     "pi_otros_productos": "1/2",
+     "pi_produccion": "1/2",
+     "a": "5/2",
+     "rho": "1",
+     "kappa_tilde": "1/5"
+    },
+    "testigo_nacional_min": 8,
+    "testigo_nacional_max": 8,
+    "sintetico": false,
+    "validacion": "completa"
+   },
+   "E1_cubierta_y_alcanzada": true,
+   "E2_dominio_igual_a_D7": true,
+   "E2_ejes": [
+    "a",
+    "eta_H",
+    "eta_w",
+    "gain_share",
+    "kappa_tilde",
+    "pi_iva",
+    "pi_otros_productos",
+    "pi_produccion",
+    "rho"
+   ],
+   "E2_diferencias": [],
+   "manifiesto": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/LOTE2_MANIFIESTO.json",
+   "E3_testigos_en_reticula_L0": true,
+   "E3_fuera": {},
+   "E4_estados_censo": 9,
+   "E4_estados_de_celdas_distintos": 9,
+   "E4_celdas_en_censo": 9,
+   "E4_celdas_contenidas_en_censo": true,
+   "E4_envolvente_usa_censo": true,
+   "E4_tipo_censo": "vectores_publicados",
+   "contraste_celdas": {
+    "lambda_pi_admisibles": 137,
+    "dentro": 137,
+    "min": 0.6140953554587983,
+    "max": 1.2794257233656994
+   },
+   "intervalo_float": [
+    0.6140953554587983,
+    1.2794257233656994
+   ]
+  },
+  "CMP-E1.macro|PER": {
+   "clave": "CMP-E1.macro|PER",
+   "envolvente": {
+    "fuente": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-LAMBDA/salida/lambda_envolvente.jsonl",
+    "estado": "ok",
+    "lambda_min": "29607630768625/53030370417936",
+    "lambda_max": "1550150402465/1212989173248",
+    "lambda_min_alcanzado": true,
+    "lambda_max_alcanzado": true,
+    "estados_no_cubiertos": {
+     "max": [],
+     "min": []
+    },
+    "testigo_min": {
+     "eta_w": "1",
+     "eta_H": "-1/2",
+     "pi_iva": "3/2",
+     "pi_otros_productos": "3/2",
+     "pi_produccion": "3/2",
+     "a": "11/10",
+     "rho": "2/5",
+     "kappa_tilde": "1/200"
+    },
+    "testigo_max": {
+     "eta_w": "2/5",
+     "eta_H": "-1/2",
+     "pi_iva": "1/2",
+     "pi_otros_productos": "1/2",
+     "pi_produccion": "1/2",
+     "a": "5/2",
+     "rho": "1",
+     "kappa_tilde": "1/5"
+    },
+    "testigo_nacional_min": 0,
+    "testigo_nacional_max": 0,
+    "sintetico": false,
+    "validacion": "completa"
+   },
+   "E1_cubierta_y_alcanzada": true,
+   "E2_dominio_igual_a_D7": true,
+   "E2_ejes": [
+    "a",
+    "eta_H",
+    "eta_w",
+    "gain_share",
+    "kappa_tilde",
+    "pi_iva",
+    "pi_otros_productos",
+    "pi_produccion",
+    "rho"
+   ],
+   "E2_diferencias": [],
+   "manifiesto": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/LOTE2_MANIFIESTO.json",
+   "E3_testigos_en_reticula_L0": true,
+   "E3_fuera": {},
+   "E4_estados_censo": 9,
+   "E4_estados_de_celdas_distintos": 8,
+   "E4_celdas_en_censo": 8,
+   "E4_celdas_contenidas_en_censo": true,
+   "E4_envolvente_usa_censo": true,
+   "E4_tipo_censo": "vectores_publicados",
+   "contraste_celdas": {
+    "lambda_pi_admisibles": 230,
+    "dentro": 230,
+    "min": 0.5583146135937808,
+    "max": 1.2779589765951407
+   },
+   "intervalo_float": [
+    0.5583146135937808,
+    1.2779589765951407
+   ]
+  },
+  "CMP-E1.micro|COL": {
+   "clave": "CMP-E1.micro|COL",
+   "envolvente": {
+    "fuente": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-LAMBDA/salida/lambda_envolvente.jsonl",
+    "estado": "ok",
+    "lambda_min": "301536959546660/474302731581021",
+    "lambda_max": "10064107200617/6328556818808",
+    "lambda_min_alcanzado": true,
+    "lambda_max_alcanzado": true,
+    "estados_no_cubiertos": {
+     "max": [],
+     "min": []
+    },
+    "testigo_min": {
+     "eta_w": "1/5",
+     "eta_H": "1/2",
+     "pi_iva": "3/2",
+     "pi_otros_productos": "3/2",
+     "pi_produccion": "3/2",
+     "a": "11/10",
+     "rho": "2/5",
+     "kappa_tilde": "1/200"
+    },
+    "testigo_max": {
+     "eta_w": "1/20",
+     "eta_H": "-1/2",
+     "pi_iva": "1/2",
+     "pi_otros_productos": "1/2",
+     "pi_produccion": "1/2",
+     "a": "5/2",
+     "rho": "1",
+     "kappa_tilde": "1/5"
+    },
+    "testigo_nacional_min": 5,
+    "testigo_nacional_max": 5,
+    "sintetico": false,
+    "validacion": "completa"
+   },
+   "E1_cubierta_y_alcanzada": true,
+   "E2_dominio_igual_a_D7": true,
+   "E2_ejes": [
+    "a",
+    "eta_H",
+    "eta_w",
+    "gain_share",
+    "kappa_tilde",
+    "pi_iva",
+    "pi_otros_productos",
+    "pi_produccion",
+    "rho"
+   ],
+   "E2_diferencias": [],
+   "manifiesto": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/LOTE2_MANIFIESTO.json",
+   "E3_testigos_en_reticula_L0": true,
+   "E3_fuera": {},
+   "E4_estados_censo": 9,
+   "E4_estados_de_celdas_distintos": 9,
+   "E4_celdas_en_censo": 9,
+   "E4_celdas_contenidas_en_censo": true,
+   "E4_envolvente_usa_censo": true,
+   "E4_tipo_censo": "vectores_publicados",
+   "contraste_celdas": {
+    "lambda_pi_admisibles": 229,
+    "dentro": 229,
+    "min": 0.635747887307183,
+    "max": 1.5902689173473519
+   },
+   "intervalo_float": [
+    0.635747887307183,
+    1.5902689173473519
+   ]
+  },
+  "CMP-E1.micro|MEX": {
+   "clave": "CMP-E1.micro|MEX",
+   "envolvente": {
+    "fuente": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-LAMBDA/salida/lambda_envolvente.jsonl",
+    "estado": "ok",
+    "lambda_min": "8544397790005/11146913239249",
+    "lambda_max": "389930905061/254968708832",
+    "lambda_min_alcanzado": true,
+    "lambda_max_alcanzado": true,
+    "estados_no_cubiertos": {
+     "max": [],
+     "min": []
+    },
+    "testigo_min": {
+     "eta_w": "1/5",
+     "eta_H": "1/2",
+     "pi_iva": "3/2",
+     "pi_otros_productos": "3/2",
+     "pi_produccion": "3/2",
+     "a": "11/10",
+     "rho": "2/5",
+     "kappa_tilde": "1/200"
+    },
+    "testigo_max": {
+     "eta_w": "1/20",
+     "eta_H": "-1/2",
+     "pi_iva": "1/2",
+     "pi_otros_productos": "1/2",
+     "pi_produccion": "1/2",
+     "a": "5/2",
+     "rho": "1",
+     "kappa_tilde": "1/5"
+    },
+    "testigo_nacional_min": 8,
+    "testigo_nacional_max": 8,
+    "sintetico": false,
+    "validacion": "completa"
+   },
+   "E1_cubierta_y_alcanzada": true,
+   "E2_dominio_igual_a_D7": true,
+   "E2_ejes": [
+    "a",
+    "eta_H",
+    "eta_w",
+    "gain_share",
+    "kappa_tilde",
+    "pi_iva",
+    "pi_otros_productos",
+    "pi_produccion",
+    "rho"
+   ],
+   "E2_diferencias": [],
+   "manifiesto": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/LOTE2_MANIFIESTO.json",
+   "E3_testigos_en_reticula_L0": true,
+   "E3_fuera": {},
+   "E4_estados_censo": 9,
+   "E4_estados_de_celdas_distintos": 8,
+   "E4_celdas_en_censo": 8,
+   "E4_celdas_contenidas_en_censo": true,
+   "E4_envolvente_usa_censo": true,
+   "E4_tipo_censo": "vectores_publicados",
+   "contraste_celdas": {
+    "lambda_pi_admisibles": 137,
+    "dentro": 137,
+    "min": 0.7665259078109288,
+    "max": 1.5293284687648756
+   },
+   "intervalo_float": [
+    0.7665259078109288,
+    1.5293284687648756
+   ]
+  },
+  "CMP-E1.micro|PER": {
+   "clave": "CMP-E1.micro|PER",
+   "envolvente": {
+    "fuente": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-LAMBDA/salida/lambda_envolvente.jsonl",
+    "estado": "ok",
+    "lambda_min": "115844501136875/159091111253808",
+    "lambda_max": "1258613675235/808659448832",
+    "lambda_min_alcanzado": true,
+    "lambda_max_alcanzado": true,
+    "estados_no_cubiertos": {
+     "max": [],
+     "min": []
+    },
+    "testigo_min": {
+     "eta_w": "1/5",
+     "eta_H": "1/2",
+     "pi_iva": "3/2",
+     "pi_otros_productos": "3/2",
+     "pi_produccion": "3/2",
+     "a": "11/10",
+     "rho": "2/5",
+     "kappa_tilde": "1/200"
+    },
+    "testigo_max": {
+     "eta_w": "1/20",
+     "eta_H": "-1/2",
+     "pi_iva": "1/2",
+     "pi_otros_productos": "1/2",
+     "pi_produccion": "1/2",
+     "a": "5/2",
+     "rho": "1",
+     "kappa_tilde": "1/5"
+    },
+    "testigo_nacional_min": 0,
+    "testigo_nacional_max": 0,
+    "sintetico": false,
+    "validacion": "completa"
+   },
+   "E1_cubierta_y_alcanzada": true,
+   "E2_dominio_igual_a_D7": true,
+   "E2_ejes": [
+    "a",
+    "eta_H",
+    "eta_w",
+    "gain_share",
+    "kappa_tilde",
+    "pi_iva",
+    "pi_otros_productos",
+    "pi_produccion",
+    "rho"
+   ],
+   "E2_diferencias": [],
+   "manifiesto": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/LOTE2_MANIFIESTO.json",
+   "E3_testigos_en_reticula_L0": true,
+   "E3_fuera": {},
+   "E4_estados_censo": 9,
+   "E4_estados_de_celdas_distintos": 9,
+   "E4_celdas_en_censo": 9,
+   "E4_celdas_contenidas_en_censo": true,
+   "E4_envolvente_usa_censo": true,
+   "E4_tipo_censo": "vectores_publicados",
+   "contraste_celdas": {
+    "lambda_pi_admisibles": 229,
+    "dentro": 229,
+    "min": 0.7281645104110249,
+    "max": 1.5564199207130993
+   },
+   "intervalo_float": [
+    0.7281645104110249,
+    1.5564199207130993
+   ]
+  },
+  "COL-E2-2023.2023p.macro|COL": {
+   "clave": "COL-E2-2023.2023p.macro|COL",
+   "envolvente": {
+    "fuente": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-LAMBDA/salida/lambda_envolvente.jsonl",
+    "estado": "ok",
+    "lambda_min": "75845600/158343017",
+    "lambda_max": "1985871/1584562",
+    "lambda_min_alcanzado": true,
+    "lambda_max_alcanzado": true,
+    "estados_no_cubiertos": {
+     "max": [],
+     "min": []
+    },
+    "testigo_min": {
+     "eta_w": "1",
+     "eta_H": "-1/2",
+     "pi_iva": "3/2",
+     "pi_otros_productos": "3/2",
+     "pi_produccion": "3/2",
+     "a": "11/10",
+     "rho": "2/5",
+     "kappa_tilde": "1/200"
+    },
+    "testigo_max": {
+     "eta_w": "2/5",
+     "eta_H": "-1/2",
+     "pi_iva": "1/2",
+     "pi_otros_productos": "1/2",
+     "pi_produccion": "1/2",
+     "a": "5/2",
+     "rho": "1",
+     "kappa_tilde": "1/5"
+    },
+    "testigo_nacional_min": 0,
+    "testigo_nacional_max": 0,
+    "sintetico": false,
+    "validacion": "completa"
+   },
+   "E1_cubierta_y_alcanzada": true,
+   "E2_dominio_igual_a_D7": true,
+   "E2_ejes": [
+    "a",
+    "eta_H",
+    "eta_w",
+    "gain_share",
+    "kappa_tilde",
+    "pi_iva",
+    "pi_otros_productos",
+    "pi_produccion",
+    "rho"
+   ],
+   "E2_diferencias": [],
+   "manifiesto": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/LOTE2_MANIFIESTO.json",
+   "E3_testigos_en_reticula_L0": true,
+   "E3_fuera": {},
+   "E4_estados_censo": 1,
+   "E4_estados_de_celdas_distintos": 1,
+   "E4_celdas_en_censo": 1,
+   "E4_celdas_contenidas_en_censo": true,
+   "E4_envolvente_usa_censo": true,
+   "E4_tipo_censo": "vectores_publicados",
+   "contraste_celdas": {
+    "lambda_pi_admisibles": 146,
+    "dentro": 146,
+    "min": 0.4789955467376247,
+    "max": 1.2532617846445895
+   },
+   "intervalo_float": [
+    0.4789955467376247,
+    1.2532617846445895
+   ]
+  },
+  "COL-E2-2023.2023p.micro|COL": {
+   "clave": "COL-E2-2023.2023p.micro|COL",
+   "envolvente": {
+    "fuente": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-LAMBDA/salida/lambda_envolvente.jsonl",
+    "estado": "ok",
+    "lambda_min": "311387840/475029051",
+    "lambda_max": "850237/551152",
+    "lambda_min_alcanzado": true,
+    "lambda_max_alcanzado": true,
+    "estados_no_cubiertos": {
+     "max": [],
+     "min": []
+    },
+    "testigo_min": {
+     "eta_w": "1/5",
+     "eta_H": "1/2",
+     "pi_iva": "3/2",
+     "pi_otros_productos": "3/2",
+     "pi_produccion": "3/2",
+     "a": "11/10",
+     "rho": "2/5",
+     "kappa_tilde": "1/200"
+    },
+    "testigo_max": {
+     "eta_w": "1/20",
+     "eta_H": "-1/2",
+     "pi_iva": "1/2",
+     "pi_otros_productos": "1/2",
+     "pi_produccion": "1/2",
+     "a": "5/2",
+     "rho": "1",
+     "kappa_tilde": "1/5"
+    },
+    "testigo_nacional_min": 0,
+    "testigo_nacional_max": 0,
+    "sintetico": false,
+    "validacion": "completa"
+   },
+   "E1_cubierta_y_alcanzada": true,
+   "E2_dominio_igual_a_D7": true,
+   "E2_ejes": [
+    "a",
+    "eta_H",
+    "eta_w",
+    "gain_share",
+    "kappa_tilde",
+    "pi_iva",
+    "pi_otros_productos",
+    "pi_produccion",
+    "rho"
+   ],
+   "E2_diferencias": [],
+   "manifiesto": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/LOTE2_MANIFIESTO.json",
+   "E3_testigos_en_reticula_L0": true,
+   "E3_fuera": {},
+   "E4_estados_censo": 1,
+   "E4_estados_de_celdas_distintos": 1,
+   "E4_celdas_en_censo": 1,
+   "E4_celdas_contenidas_en_censo": true,
+   "E4_envolvente_usa_censo": true,
+   "E4_tipo_censo": "vectores_publicados",
+   "contraste_celdas": {
+    "lambda_pi_admisibles": 134,
+    "dentro": 134,
+    "min": 0.6555132561776732,
+    "max": 1.542654295003919
+   },
+   "intervalo_float": [
+    0.6555132561776732,
+    1.542654295003919
+   ]
+  },
+  "COL-E2-2023.2024p.macro|COL": {
+   "clave": "COL-E2-2023.2024p.macro|COL",
+   "envolvente": {
+    "fuente": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-LAMBDA/salida/lambda_envolvente.jsonl",
+    "estado": "ok",
+    "lambda_min": "5329331/11102464",
+    "lambda_max": "1591287/1269760",
+    "lambda_min_alcanzado": true,
+    "lambda_max_alcanzado": true,
+    "estados_no_cubiertos": {
+     "max": [],
+     "min": []
+    },
+    "testigo_min": {
+     "eta_w": "1",
+     "eta_H": "-1/2",
+     "pi_iva": "3/2",
+     "pi_otros_productos": "3/2",
+     "pi_produccion": "3/2",
+     "a": "11/10",
+     "rho": "2/5",
+     "kappa_tilde": "1/200"
+    },
+    "testigo_max": {
+     "eta_w": "2/5",
+     "eta_H": "-1/2",
+     "pi_iva": "1/2",
+     "pi_otros_productos": "1/2",
+     "pi_produccion": "1/2",
+     "a": "5/2",
+     "rho": "1",
+     "kappa_tilde": "1/5"
+    },
+    "testigo_nacional_min": 0,
+    "testigo_nacional_max": 0,
+    "sintetico": false,
+    "validacion": "completa"
+   },
+   "E1_cubierta_y_alcanzada": true,
+   "E2_dominio_igual_a_D7": true,
+   "E2_ejes": [
+    "a",
+    "eta_H",
+    "eta_w",
+    "gain_share",
+    "kappa_tilde",
+    "pi_iva",
+    "pi_otros_productos",
+    "pi_produccion",
+    "rho"
+   ],
+   "E2_diferencias": [],
+   "manifiesto": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/LOTE2_MANIFIESTO.json",
+   "E3_testigos_en_reticula_L0": true,
+   "E3_fuera": {},
+   "E4_estados_censo": 1,
+   "E4_estados_de_celdas_distintos": 1,
+   "E4_celdas_en_censo": 1,
+   "E4_celdas_contenidas_en_censo": true,
+   "E4_envolvente_usa_censo": true,
+   "E4_tipo_censo": "vectores_publicados",
+   "contraste_celdas": {
+    "lambda_pi_admisibles": 37,
+    "dentro": 37,
+    "min": 0.4813897379754885,
+    "max": 1.0344506048387097
+   },
+   "intervalo_float": [
+    0.4800133555938574,
+    1.253218718497984
+   ]
+  },
+  "COL-E2-2023.2024p.micro|COL": {
+   "clave": "COL-E2-2023.2024p.micro|COL",
+   "envolvente": {
+    "fuente": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-LAMBDA/salida/lambda_envolvente.jsonl",
+    "estado": "ok",
+    "lambda_min": "7284963/11102464",
+    "lambda_max": "122373/79360",
+    "lambda_min_alcanzado": true,
+    "lambda_max_alcanzado": true,
+    "estados_no_cubiertos": {
+     "max": [],
+     "min": []
+    },
+    "testigo_min": {
+     "eta_w": "1/5",
+     "eta_H": "1/2",
+     "pi_iva": "3/2",
+     "pi_otros_productos": "3/2",
+     "pi_produccion": "3/2",
+     "a": "11/10",
+     "rho": "2/5",
+     "kappa_tilde": "1/200"
+    },
+    "testigo_max": {
+     "eta_w": "1/20",
+     "eta_H": "-1/2",
+     "pi_iva": "1/2",
+     "pi_otros_productos": "1/2",
+     "pi_produccion": "1/2",
+     "a": "5/2",
+     "rho": "1",
+     "kappa_tilde": "1/5"
+    },
+    "testigo_nacional_min": 0,
+    "testigo_nacional_max": 0,
+    "sintetico": false,
+    "validacion": "completa"
+   },
+   "E1_cubierta_y_alcanzada": true,
+   "E2_dominio_igual_a_D7": true,
+   "E2_ejes": [
+    "a",
+    "eta_H",
+    "eta_w",
+    "gain_share",
+    "kappa_tilde",
+    "pi_iva",
+    "pi_otros_productos",
+    "pi_produccion",
+    "rho"
+   ],
+   "E2_diferencias": [],
+   "manifiesto": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/LOTE2_MANIFIESTO.json",
+   "E3_testigos_en_reticula_L0": true,
+   "E3_fuera": {},
+   "E4_estados_censo": 1,
+   "E4_estados_de_celdas_distintos": 1,
+   "E4_celdas_en_censo": 1,
+   "E4_celdas_contenidas_en_censo": true,
+   "E4_envolvente_usa_censo": true,
+   "E4_tipo_censo": "vectores_publicados",
+   "contraste_celdas": {
+    "lambda_pi_admisibles": 39,
+    "dentro": 39,
+    "min": 0.6578815726480742,
+    "max": 1.5008663054435485
+   },
+   "intervalo_float": [
+    0.65615731787106,
+    1.5419984879032258
+   ]
+  },
+  "PER-E0E3.macro|PER": {
+   "clave": "PER-E0E3.macro|PER",
+   "envolvente": {
+    "fuente": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-LAMBDA/salida/lambda_envolvente.jsonl",
+    "estado": "ok",
+    "lambda_min": "1665505100/2807620923",
+    "lambda_max": "20377697/16055016",
+    "lambda_min_alcanzado": true,
+    "lambda_max_alcanzado": true,
+    "estados_no_cubiertos": {
+     "max": [],
+     "min": []
+    },
+    "testigo_min": {
+     "eta_w": "1",
+     "eta_H": "-1/2",
+     "pi_iva": "3/2",
+     "pi_otros_productos": "3/2",
+     "pi_produccion": "3/2",
+     "a": "11/10",
+     "rho": "2/5",
+     "kappa_tilde": "1/200"
+    },
+    "testigo_max": {
+     "eta_w": "2/5",
+     "eta_H": "-1/2",
+     "pi_iva": "1/2",
+     "pi_otros_productos": "1/2",
+     "pi_produccion": "1/2",
+     "a": "5/2",
+     "rho": "1",
+     "kappa_tilde": "1/5"
+    },
+    "testigo_nacional_min": 15,
+    "testigo_nacional_max": 1,
+    "sintetico": false,
+    "validacion": "completa"
+   },
+   "E1_cubierta_y_alcanzada": true,
+   "E2_dominio_igual_a_D7": true,
+   "E2_ejes": [
+    "a",
+    "eta_H",
+    "eta_w",
+    "gain_share",
+    "kappa_tilde",
+    "pi_iva",
+    "pi_otros_productos",
+    "pi_produccion",
+    "rho"
+   ],
+   "E2_diferencias": [],
+   "manifiesto": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/LOTE2_MANIFIESTO.json",
+   "E3_testigos_en_reticula_L0": true,
+   "E3_fuera": {},
+   "E4_estados_censo": 0,
+   "E4_estados_de_celdas_distintos": 11,
+   "E4_celdas_en_censo": 0,
+   "E4_celdas_contenidas_en_censo": false,
+   "E4_envolvente_usa_censo": false,
+   "E4_tipo_censo": "dominio_estricto",
+   "contraste_celdas": {
+    "lambda_pi_admisibles": 134,
+    "dentro": 134,
+    "min": 0.5932086794040464,
+    "max": 1.269241774657839
+   },
+   "intervalo_float": [
+    0.5932086794040464,
+    1.269241774657839
+   ]
+  },
+  "PER-E0E3.micro|PER": {
+   "clave": "PER-E0E3.micro|PER",
+   "envolvente": {
+    "fuente": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-LAMBDA/salida/lambda_envolvente.jsonl",
+    "estado": "ok",
+    "lambda_min": "6270383140/8422862769",
+    "lambda_max": "12179267/8027508",
+    "lambda_min_alcanzado": true,
+    "lambda_max_alcanzado": true,
+    "estados_no_cubiertos": {
+     "max": [],
+     "min": []
+    },
+    "testigo_min": {
+     "eta_w": "1/5",
+     "eta_H": "1/2",
+     "pi_iva": "3/2",
+     "pi_otros_productos": "3/2",
+     "pi_produccion": "3/2",
+     "a": "11/10",
+     "rho": "2/5",
+     "kappa_tilde": "1/200"
+    },
+    "testigo_max": {
+     "eta_w": "1/20",
+     "eta_H": "-1/2",
+     "pi_iva": "1/2",
+     "pi_otros_productos": "1/2",
+     "pi_produccion": "1/2",
+     "a": "5/2",
+     "rho": "1",
+     "kappa_tilde": "1/5"
+    },
+    "testigo_nacional_min": 15,
+    "testigo_nacional_max": 1,
+    "sintetico": false,
+    "validacion": "completa"
+   },
+   "E1_cubierta_y_alcanzada": true,
+   "E2_dominio_igual_a_D7": true,
+   "E2_ejes": [
+    "a",
+    "eta_H",
+    "eta_w",
+    "gain_share",
+    "kappa_tilde",
+    "pi_iva",
+    "pi_otros_productos",
+    "pi_produccion",
+    "rho"
+   ],
+   "E2_diferencias": [],
+   "manifiesto": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/LOTE2_MANIFIESTO.json",
+   "E3_testigos_en_reticula_L0": true,
+   "E3_fuera": {},
+   "E4_estados_censo": 0,
+   "E4_estados_de_celdas_distintos": 11,
+   "E4_celdas_en_censo": 0,
+   "E4_celdas_contenidas_en_censo": false,
+   "E4_envolvente_usa_censo": false,
+   "E4_tipo_censo": "dominio_estricto",
+   "contraste_celdas": {
+    "lambda_pi_admisibles": 134,
+    "dentro": 134,
+    "min": 0.744447975939711,
+    "max": 1.517191511986036
+   },
+   "intervalo_float": [
+    0.744447975939711,
+    1.517191511986036
+   ]
+  },
+  "PER-E1.macro|PER": {
+   "clave": "PER-E1.macro|PER",
+   "envolvente": {
+    "fuente": "tmp/paso4_lote1_desde_rem112/lote1_LOTE1_REM112/L1-LAMBDA/salida/lambda_envolvente.jsonl",
+    "estado": "ok",
+    "lambda_min": "29607630768625/53030370417936",
+    "lambda_max": "1550150402465/1212989173248",
+    "lambda_min_alcanzado": true,
+    "lambda_max_alcanzado": true,
+    "estados_no_cubiertos": {
+     "max": [],
+     "min": []
+    },
+    "testigo_min": {
+     "eta_w": "1",
+     "eta_H": "-1/2",
+     "pi_iva": "3/2",
+     "pi_otros_productos": "3/2",
+     "pi_produccion": "3/2",
+     "a": "11/10",
+     "rho": "2/5",
+     "kappa_tilde": "1/200"
+    },
+    "testigo_max": {
+     "eta_w": "2/5",
+     "eta_H": "-1/2",
+     "pi_iva": "1/2",
+     "pi_otros_productos": "1/2",
+     "pi_produccion": "1/2",
+     "a": "5/2",
+     "rho": "1",
+     "kappa_tilde": "1/5"
+    },
+    "testigo_nacional_min": 0,
+    "testigo_nacional_max": 0,
+    "sintetico": false,
+    "validacion": "completa"
+   },
+   "E1_cubierta_y_alcanzada": true,
+   "E2_dominio_igual_a_D7": true,
+   "E2_ejes": [
+    "a",
+    "eta_H",
+    "eta_w",
+    "gain_share",
+    "kappa_tilde",
+    "pi_iva",
+    "pi_otros_productos",
+    "pi_produccion",
+    "rho"
+   ],
+   "E2_diferencias": [],
+   "manifiesto": "tmp/paso4_conciliacion_portabilidad_desde_rem111/lote/LOTE1_MANIFIESTO.json",
+   "E3_testigos_en_reticula_L0": true,
+   "E3_fuera": {},
+   "E4_estados_censo": 9,
+   "E4_estados_de_celdas_distintos": 9,
+   "E4_celdas_en_censo": 9,
+   "E4_celdas_contenidas_en_censo": true,
+   "E4_envolvente_usa_censo": true,
+   "E4_tipo_censo": "vectores_publicados",
+   "contraste_celdas": {
+    "lambda_pi_admisibles": 229,
+    "dentro": 229,
+    "min": 0.5583146135937808,
+    "max": 1.2779589765951407
+   },
+   "intervalo_float": [
+    0.5583146135937808,
+    1.2779589765951407
+   ]
+  },
+  "PER-E1.micro|PER": {
+   "clave": "PER-E1.micro|PER",
+   "envolvente": {
+    "fuente": "tmp/paso4_lote1_desde_rem112/lote1_LOTE1_REM112/L1-LAMBDA/salida/lambda_envolvente.jsonl",
+    "estado": "ok",
+    "lambda_min": "115844501136875/159091111253808",
+    "lambda_max": "1258613675235/808659448832",
+    "lambda_min_alcanzado": true,
+    "lambda_max_alcanzado": true,
+    "estados_no_cubiertos": {
+     "max": [],
+     "min": []
+    },
+    "testigo_min": {
+     "eta_w": "1/5",
+     "eta_H": "1/2",
+     "pi_iva": "3/2",
+     "pi_otros_productos": "3/2",
+     "pi_produccion": "3/2",
+     "a": "11/10",
+     "rho": "2/5",
+     "kappa_tilde": "1/200"
+    },
+    "testigo_max": {
+     "eta_w": "1/20",
+     "eta_H": "-1/2",
+     "pi_iva": "1/2",
+     "pi_otros_productos": "1/2",
+     "pi_produccion": "1/2",
+     "a": "5/2",
+     "rho": "1",
+     "kappa_tilde": "1/5"
+    },
+    "testigo_nacional_min": 0,
+    "testigo_nacional_max": 0,
+    "sintetico": false,
+    "validacion": "completa"
+   },
+   "E1_cubierta_y_alcanzada": true,
+   "E2_dominio_igual_a_D7": true,
+   "E2_ejes": [
+    "a",
+    "eta_H",
+    "eta_w",
+    "gain_share",
+    "kappa_tilde",
+    "pi_iva",
+    "pi_otros_productos",
+    "pi_produccion",
+    "rho"
+   ],
+   "E2_diferencias": [],
+   "manifiesto": "tmp/paso4_conciliacion_portabilidad_desde_rem111/lote/LOTE1_MANIFIESTO.json",
+   "E3_testigos_en_reticula_L0": true,
+   "E3_fuera": {},
+   "E4_estados_censo": 9,
+   "E4_estados_de_celdas_distintos": 9,
+   "E4_celdas_en_censo": 9,
+   "E4_celdas_contenidas_en_censo": true,
+   "E4_envolvente_usa_censo": true,
+   "E4_tipo_censo": "vectores_publicados",
+   "contraste_celdas": {
+    "lambda_pi_admisibles": 231,
+    "dentro": 231,
+    "min": 0.7281645104110249,
+    "max": 1.5564199207130993
+   },
+   "intervalo_float": [
+    0.7281645104110249,
+    1.5564199207130993
+   ]
+  }
+ },
+ "claves_que_cumplen_E1_E4": [
+  "CMP-E1.macro|COL",
+  "CMP-E1.macro|MEX",
+  "CMP-E1.macro|PER",
+  "CMP-E1.micro|COL",
+  "CMP-E1.micro|MEX",
+  "CMP-E1.micro|PER",
+  "COL-E2-2023.2023p.macro|COL",
+  "COL-E2-2023.2023p.micro|COL",
+  "COL-E2-2023.2024p.macro|COL",
+  "COL-E2-2023.2024p.micro|COL",
+  "PER-E1.macro|PER",
+  "PER-E1.micro|PER"
+ ],
+ "clasificacion_hipotetica_de_las_filas_lambda": {
+  "BRUN-050091213b198d7cd7ba9ea2": {
+   "filas": 11,
+   "outside_support": 11,
+   "computed": 0,
+   "cambian_respecto_al_provisional": 0,
+   "margen_relativo_min": 0.552943023226449
+  },
+  "BRUN-1368187e9a43de0d95926dca": {
+   "filas": 114,
+   "outside_support": 113,
+   "computed": 1,
+   "cambian_respecto_al_provisional": 1,
+   "margen_relativo_min": 0.0886979735178278
+  },
+  "BRUN-47e3d9f48d2b65e9ddeed02f": {
+   "filas": 2,
+   "outside_support": 2,
+   "computed": 0,
+   "cambian_respecto_al_provisional": 0,
+   "margen_relativo_min": 0.9768092987805731
+  },
+  "BRUN-4ef8507fcdefbddc55dbc3b7": {
+   "filas": 169,
+   "outside_support": 168,
+   "computed": 1,
+   "cambian_respecto_al_provisional": 0,
+   "margen_relativo_min": 0.1743983157746663
+  },
+  "BRUN-5b35ba3f51bc08bd48b384bd": {
+   "filas": 575,
+   "outside_support": 555,
+   "computed": 20,
+   "cambian_respecto_al_provisional": 20,
+   "margen_relativo_min": 0.027767262471493647
+  },
+  "BRUN-612818cb081c6797d4923b4d": {
+   "filas": 380,
+   "outside_support": 361,
+   "computed": 19,
+   "cambian_respecto_al_provisional": 19,
+   "margen_relativo_min": 0.025203525657183683
+  },
+  "BRUN-63a9e9ea157b2faaf317ae61": {
+   "filas": 133,
+   "outside_support": 128,
+   "computed": 5,
+   "cambian_respecto_al_provisional": 5,
+   "margen_relativo_min": 0.022142332002624273
+  },
+  "BRUN-7bdfe0a1bee57298e31e1b34": {
+   "filas": 97,
+   "outside_support": 96,
+   "computed": 1,
+   "cambian_respecto_al_provisional": 1,
+   "margen_relativo_min": 0.06218363824191138
+  },
+  "BRUN-991c466a1938ddbf2192eefb": {
+   "filas": 155,
+   "outside_support": 152,
+   "computed": 3,
+   "cambian_respecto_al_provisional": 3,
+   "margen_relativo_min": 0.006195614034750318
+  },
+  "BRUN-9c6c66e7af8b139a613b1c3f": {
+   "filas": 162,
+   "outside_support": 156,
+   "computed": 6,
+   "cambian_respecto_al_provisional": 6,
+   "margen_relativo_min": 0.0005347286067170505
+  },
+  "BRUN-a81e3f45f7111e18b1f39370": {
+   "filas": 22,
+   "outside_support": 22,
+   "computed": 0,
+   "cambian_respecto_al_provisional": 0,
+   "margen_relativo_min": 0.44346083188157187
+  },
+  "BRUN-c5af32a993773f5258ce570f": {
+   "filas": 149,
+   "outside_support": 144,
+   "computed": 5,
+   "cambian_respecto_al_provisional": 5,
+   "margen_relativo_min": 0.025203525657183683
+  },
+  "BRUN-cb33e6b24039acc84fb1a065": {
+   "filas": 141,
+   "outside_support": 133,
+   "computed": 8,
+   "cambian_respecto_al_provisional": 8,
+   "margen_relativo_min": 0.0889107355753481
+  },
+  "BRUN-f5f58960bbf9017776d3d7fc": {
+   "filas": 1,
+   "outside_support": 1,
+   "computed": 0,
+   "cambian_respecto_al_provisional": 0,
+   "margen_relativo_min": 0.3719500353201994
+  }
+ },
+ "residuo": [
+  "E4 prueba contención de los estados OBSERVADOS en las celdas, no la igualdad del conjunto de estados que el proveedor S5 daría al plan completo; el paso mínimo es enumerar esos estados con el proveedor histórico (lectura de datos, sin modelo) y compararlos con el censo",
+  "soporte_global no admite hoy un soporte de solo λ (c2=None se lee como vacío): hace falta un estado explícito de C2 no evaluado",
+  "la identidad de corrida: la envolvente no lleva run_id; aceptar que valga para las 14 corridas es una decisión (mismo D7, contrato, código y plan; difieren run_class y productor)"
+ ]
+}

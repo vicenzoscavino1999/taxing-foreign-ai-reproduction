@@ -1,0 +1,34 @@
+{
+ "nota": "PROD1 y PROD2 recorren rutas distintas (EQ estructural / EQM macro): un piloto por familia",
+ "pilotos": [
+  {
+   "cobertura": "tarea mínima del plan: 1 unidad(es) (1 búsqueda de quiebre)",
+   "familia": "PROD1",
+   "ruta": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres)",
+   "tarea": "PROD1-T001",
+   "unidades": [
+    "PROD1:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:a:inferior"
+   ]
+  },
+  {
+   "cobertura": "tarea mínima del plan: 1 unidad(es) (1 búsqueda de quiebre)",
+   "familia": "PROD2",
+   "ruta": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro)",
+   "tarea": "PROD2-T006",
+   "unidades": [
+    "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:eta_w:superior"
+   ]
+  },
+  {
+   "cobertura": "tarea mínima del plan: 2 unidad(es) (2 salidas Q: global y país)",
+   "familia": "PROD3",
+   "ruta": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q) + mapear_q (decision_q sellada)",
+   "tarea": "PROD3-T121",
+   "unidades": [
+    "PROD3:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:global",
+    "PROD3:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:country-MEX"
+   ]
+  }
+ ],
+ "regla": "primera tarea de cada familia (PROD1, PROD2, PROD3) en el orden del plan de producción (plan_prod.construir, igual al histórico); fijada por identificador antes de calcular, sin mirar resultados"
+}

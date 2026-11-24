@@ -1,0 +1,23 @@
+{
+  "kind": "fe-de-erratas-documental-S1-rem188",
+  "source_path": "@@R_FS@@/tmp/correcciones_limites_numericos_s1_desde_rem187/especificacion/MAPA_COBERTURA_VISTAS_REM187.json",
+  "source_sha256": "062f8d9b1f551369371d3be85b723305da3b1a69708780e6123576c58644ef3c",
+  "verifier_sha256": "234ada7de4aaed330f60c7138ec4f5bf9bb88eecb1ae92887335f4eaae6d5133",
+  "review": "review_20261114_rem188_dictamen.txt",
+  "classification": "errata_descriptiva_no_bloqueante",
+  "pointer": "/version/cambios",
+  "correct_reading": "La comprobación nueva y los casos S42–S73 corresponden a V-SEG-LIMITES-NUMERICOS. V-SEG-GRAMATICA conserva nombre, partes y casos heredados; se adapta la extracción de piezas desde el núcleo del token. También cambian gramatica.variante_admisible y gramatica.atribucion_de_causa, como consta en sus campos y en el diferencial.",
+  "operative_authorities": [
+    "/gramatica/tokens",
+    "/gramatica/variante_admisible",
+    "/gramatica/atribucion_de_causa",
+    "/comprobaciones/V-SEG-GRAMATICA",
+    "/comprobaciones/V-SEG-LIMITES-NUMERICOS",
+    "/casos_sinteticos/limites_numericos_naturaleza",
+    "/casos_sinteticos/limites_numericos"
+  ],
+  "scope": "Aclaración del resumen descriptivo; no cambia reglas, casos, tolerancias, código, artefactos aceptados ni resultados. La huella del mapa sellado permanece vigente.",
+  "source_modified": false,
+  "new_S1_round_required": false,
+  "future_packaging": "Conservar esta fe de erratas junto al mapa original. Si se decide editar una copia futura, usar fecha y versión nuevas, fijar la nueva huella y comprobar lo afectado; no sustituir silenciosamente el original."
+}

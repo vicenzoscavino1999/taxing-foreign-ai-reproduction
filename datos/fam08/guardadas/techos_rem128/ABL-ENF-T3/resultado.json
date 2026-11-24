@@ -1,0 +1,27 @@
+{
+ "tarea": "ABL-ENF-T3",
+ "modo": "produccion",
+ "manifiesto_sha256": "0b27b32abdfb4eaf0db11427a8a8bb93c7d4014c6c7acd1bdbfbe6e32d28b3ad",
+ "tope_efectivo_s": 2280.0,
+ "sintetico": false,
+ "codigo_sha256": {
+  "tarea_lote.py": "1fbe5cbc0525428788ac775f1a2e8c5e55b03079cb37a195b5ad997ed7bc0b40",
+  "conexion_coord_cert.py": "e5776de970b72535ec7b72340604abfd9e8448479ea78dac4b714d870d273d61"
+ },
+ "productos": [
+  {
+   "archivo": "enf_techos.jsonl",
+   "sha256": "7e106a4efa638ba63acfc6c540070a12bea09772f2667dd4bbac8c7a7d92685c",
+   "filas": 2
+  },
+  {
+   "archivo": "enf_comparacion.jsonl",
+   "sha256": "07e1e6a5d2712c9cd85852ebcbba5f56d8fae9cf308485f5c7df9511391585eb",
+   "filas": 7
+  }
+ ],
+ "alcance_sha256": "5c64a6da4d9182f03e1739cf3ff006b14b23787db5b1076cf349df66f1be58cc",
+ "estado": "completa",
+ "motivo": null,
+ "pared_s": 773.08
+}

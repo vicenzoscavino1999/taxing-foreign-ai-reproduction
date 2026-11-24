@@ -1,0 +1,66 @@
+{
+ "tipo": "paquete por procedencia de celdas detalladas (alternativa A; preparación, NO aprobado ni incorporado)",
+ "lote": "S2-G-df-NA",
+ "entrega": "validacion_detallada_d_s1_d_h4_paso4_3_7_2026-10-09_lima2331",
+ "autoridad": {
+  "sha256": "4caedd3bb0901bc678193035422d673bd41be6a8abcba6184a982f8638a1b7f1",
+  "archivo": "audit/entrega.json",
+  "estado": "autenticada por la cadena de custodia"
+ },
+ "productor": {
+  "archivo": "codigo/piloto_detallado.py",
+  "sha256": "4ef36262a032c8edcba33e27e70e0b9dc318cc1a94e585f0cba67ef969beed94"
+ },
+ "contrato": "v2",
+ "run_class": "validacion_detallada_s1d_h4_3_7",
+ "etiqueta": "VALIDACION DETALLADA Y D-S1-d H4 3.7 NO OFICIAL",
+ "carpeta_resultados": "demo/diagnostico_s2gdf",
+ "validacion": {
+  "entrega": "validacion_detallada_d_s1_d_h4_paso4_3_7_2026-10-09_lima2331",
+  "archivo": "demo/validacion_v2/pruebas_no_aplicable.json",
+  "sha256": "40b14545c6cbc15affc24185a9bb971cabb93dc6a0f61ce9d70efcacf8bd3cea",
+  "autoridad": {
+   "sha256": "4caedd3bb0901bc678193035422d673bd41be6a8abcba6184a982f8638a1b7f1",
+   "archivo": "audit/entrega.json",
+   "estado": "autenticada por la cadena de custodia"
+  }
+ },
+ "unidades": [
+  {
+   "unidad": "S2-G-df",
+   "familia": "S2",
+   "clasificacion": "no_aplicable_validada",
+   "numerico": false,
+   "documento_sha256": "165340579f20a8eab2d48ab352d54acaa459b6ee4be2e6adf32e158d21479828",
+   "filas_sha256": "440ccdc31ea4f51d401fce6e6358f4b5bb98ad744e74773d3118be6e822b258b",
+   "cell_id_e12": "CEL:8a5a1bb732ae74366443d69cf11b02f87034e4226fc6",
+   "garantias": "v2: tablas E12 validadas por contenido (techo alcanzado, error <= 1e-7, identidad, macro, inversiones)",
+   "evidencia_ausente": [
+    "sup_witness",
+    "scalar_inversion_roots",
+    "scalar_inversion_intervals",
+    "inversion_targets",
+    "numerical_evidence"
+   ],
+   "huecos_de_identidad": [
+    "registro P1 de pruebas_no_aplicable.json (lima2331, v2): solo la clasificación no_aplicable_validada; sin comprobaciones de identidad por campo, sin campos copiados del documento ni índice encadenado"
+   ],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  }
+ ],
+ "propuesta_registro_consumidor": {
+  "area": "validacion_detallada_d_s1_d_h4_paso4_3_7_2026-10-09_lima2331",
+  "inventario": "4caedd3bb0901bc678193035422d673bd41be6a8abcba6184a982f8638a1b7f1",
+  "codigo": [
+   "codigo/piloto_detallado.py"
+  ],
+  "run_class": "validacion_detallada_s1d_h4_3_7",
+  "etiqueta": "VALIDACION DETALLADA Y D-S1-d H4 3.7 NO OFICIAL",
+  "encargo": "autorizacion/encargo.txt",
+  "contrato": "v2",
+  "productor": "codigo/piloto_detallado.py",
+  "nota": "NO aplicada: el consumidor del candidato solo registra productores de paquetes de selección del paso 4; aceptar celdas detalladas por procedencia es un cambio del candidato"
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "kind": "referencia-adopcion-rem176-publica",
+ "schema_original": "paso4-decision-documental-v1",
+ "naturaleza": "Derivado público de decisiones/REFERENCIA_ADOPCION_REM176.json (rem176). Conserva la decisión documental del autor y las identidades de los documentos que enlaza; omite la ubicación y los identificadores del registro privado de la conversación en que se expresó. No es libro científico ni acto de cálculo.",
+ "deriva_de": {
+  "archivo": "decisiones/REFERENCIA_ADOPCION_REM176.json",
+  "entrega": "paso4_integracion_cierre_global_desde_rem176",
+  "sha256": "a975e3f9c48f3f8de287701b0da16bfd04b69862d30ee76ae53faf5021ad6085",
+  "bytes": 2583,
+  "inventario_entrega_sha256": "250d1411f199d975ddf868d98f99e8627aaef8e20ed09edb3dae2a53a86a8952"
+ },
+ "fecha_de_la_adopcion": "2026-11-09",
+ "texto_del_autor": {
+  "texto": "Adopto las delimitaciones de C3, E4, Exp. 2 y T4 y el tratamiento de §18.7 como limitación documental, conforme al dictamen rem176. Mantengo las tablas del cuerpo como etapa posterior. No activo la asignación a D8 ni una ampliación de cálculos.\n\n",
+  "sha256": "ddbad730eb88e991fc83a48c86165d4dc3328c6c7536230c34ab96ab73a4f2cb",
+  "bytes": 251,
+  "posicion": "prefijo del mensaje, fuera del encargo"
+ },
+ "documento_adoptado": {
+  "nombre": "PROPUESTAS_ALCANCE_LIMITACION_REM175.md",
+  "entrega": "paso4_correcciones_extension_global_desde_rem175",
+  "sha256": "25b27c424c2a06dc8904a3a30018df35603b09db80dd8916f7d7c984d1003218",
+  "bytes": 8260
+ },
+ "dictamen": {
+  "nombre": "review_20261108_rem176_dictamen.txt",
+  "sha256": "01656a399307c427ce11db85fe98ff0a5fab0fd5f6a85a619b2a643e78bea326",
+  "bytes": 10279
+ },
+ "transiciones": {
+  "estado_previo": "pendiente_de_localizacion",
+  "estados": {
+   "C3.supremos_G_N": "satisfecho_en_alcance",
+   "E4.supremos_G_N": "parcial_con_limite_adoptado",
+   "EXP2.supremos_G_N": "parcial_con_limite_adoptado",
+   "T4.valores_supremos": "parcial_con_limite_adoptado",
+   "AUD.double_counting_audit_18_7": "limitacion_adoptada"
+  },
+  "fuente": {
+   "archivo": "construccion/ESQUEMA_INTEGRACION_REM176.json",
+   "entrega": "paso4_integracion_cierre_global_desde_rem176",
+   "sha256": "32f44a1278df65da5ce78c637b580ff82df033d7bf7047bae5724feb9c9a1fe1"
+  },
+  "cotejo": {
+   "archivo": "construccion/salida_2/MATRIZ_PROD4_GLOBAL_REM176.json",
+   "sha256": "4a057da106db0e9f00c025cc3004a78f8678fc7369c28a28a373ed0973c8d8d3",
+   "estados_iguales": true
+  }
+ },
+ "omitido": [
+  "ubicación y nombre del registro privado de la conversación",
+  "identificadores de sesión, mensaje y mensaje padre",
+  "número de línea y su huella",
+  "campos de origen de la aplicación",
+  "hora exacta",
+  "rutas personales",
+  "copias locales del mensaje y de la línea nativa",
+  "huella y tamaño del mensaje completo e identidad del encargo que lo acompañaba (texto privado; el texto del autor es su prefijo)"
+ ]
+}

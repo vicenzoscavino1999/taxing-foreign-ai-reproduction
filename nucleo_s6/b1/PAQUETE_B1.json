@@ -1,0 +1,116 @@
+{
+ "kind": "paquete-b1-rem165",
+ "no_incorpora": true,
+ "naturaleza": "CORRECCION DE INVOCACION EN PROCEDENCIA B1, SOLO ENSAYOS INERTES (derivado del paquete rem164 sellado)",
+ "base_rem164": {
+  "inventario": "f30303a7c18f347349f0db271224705c618f7405f3960f927d5268e3eb7482a4",
+  "indice": "457fd8ed3087bb34ddbd356f500f242fd2d8fb9f8689e11a54d33426ee45937d",
+  "manifiesto": "1194923c273da998db23a83700dac1669693490d01f7fc52668ae39c105fe33e",
+  "hallazgo_cerrado_por_esta_correccion": "P4-B1-CONTINUIDAD-PROCEDENCIA, residuo de invocación (propuesto; lo decide el revisor)"
+ },
+ "base_rem163": {
+  "inventario": "37c0310f533e126d3b641c308e2f24ccc5314fec522d9e400fb1f5d9844609f9",
+  "indice": "9c9994c59827132a2280e60081dc2bd15315c37ad3c65452f0f409d23c4d2f49"
+ },
+ "procedencia": {
+  "funcion_unica": "comun_b1.procedencia",
+  "autoridad_continuacion_productiva": null,
+  "autoridad_sintetica_ruta_fija": "pruebas/autoridad_sintetica/AUTORIDAD_FIXTURE_SINTETICA_B1.json (solo modo sintetico)",
+  "invocacion_admitida": {
+   "comprobacion_unica": "comun_b1._invocacion (trabajo y validacion propia)",
+   "interprete": "@@R_BS2@@\\tmp\\pilotos_b36_b37_2026-10-02\\entorno\\cpython-3.12.4-amd64\\python.exe",
+   "interprete_sha256": "fd5c46d73d29ba21b04c844bbaf9096066136526911230645a2a040d23fb612b",
+   "opciones": [
+    "-B",
+    "-I",
+    "-X",
+    "utf8"
+   ],
+   "programa": "paquete_b1/<script> en la posicion 5",
+   "cwd": "@@R_BS2@@",
+   "normalizacion_rutas": "comun_b1.ruta_windows (declarada, lexica)"
+  }
+ },
+ "piezas": {
+  "comun_b1.py": "25bf92ffcb13efd57af9a80336bf5f3374a823e0c364ef9c8943c774183ad5bf",
+  "puerta_b1.py": "a24bdb76c6af381236af544e2c2a678eddd76ac8abb1ba230b9c5f8fa69ba260",
+  "alcance_b1.py": "9e800a2855e138fe0d868902b931fc7f4f08818d8da8f377ba76c54f5e765e9d",
+  "b1_trabajo.py": "2ddd202c6ef1cee2f15a0bfde4a561730586349f7677bbf423a5c9f4e43c7799",
+  "validar_b1.py": "a43114db4540c2ccf0627878f4d54559e3a97d44df6a9571285073834b10bacd",
+  "conducir_b1.py": "76076cb5d3cdb622892f53fc26644cf3bb0bdcf68cef704ace3ac60f45864e6b",
+  "receta_b1.sh": "5584d0a6238c8a50709f50dc86abf20f5269cc335aa8810e64b40177ab80ee46",
+  "manifiesto_b1.py": "ddb3b2001e3136accd7788f3665c4902ef4488228e653e691c09923768783923"
+ },
+ "herramientas": {
+  "indice_b1.py": "759e877de483d03cfbdafb0fd5a733a2294a695f39e7f1a1267bb659d174149e"
+ },
+ "productos": {
+  "MANIFIESTO_B1.json": "1194923c273da998db23a83700dac1669693490d01f7fc52668ae39c105fe33e"
+ },
+ "ensayos_no_productivos": {
+  "pruebas/doble_b1.py": "0d4a9d7f59b0e8ffe5e48fe5a2cfe7b1199f9bdb63a86cdda595762407db2629",
+  "pruebas/preparar_sinteticos_b1.py": "1be94632605a447d965fdaf6ac836724a2c816bbda64d725f0efc3bb8e3f0cd6",
+  "pruebas/preflight_b1.py": "549dce890e27c6eba85b09fd309d9634673daf396ed3931736bca0df3c8b7cf4",
+  "pruebas/fuente_sintetica_rem165.py": "0dc4bb1fe0ef90a9353c6dd883e0c418671f4c0cb5cea324fee52d07518a281c",
+  "pruebas/ensayos_rem165.py": "ccd7f1d9b112154dc35e5eb019838691525d70e7c1dda37924e877ee3375cd11",
+  "pruebas/sintaxis_rem165.py": "f618662fb90a1e97f0f4c481e14d18b1e84585e62f686fb779d1c78f9385fdad",
+  "sonda/sonda_invocacion_rem165.py": "5da18fb2b5ab1baab6415db2571a137eea59a976101a640c0cd472e250b31402",
+  "sonda/derivar_sondas_rem165.py": "fe7da6805eec958fde6f443a482ab2c89ad72c8ca4bda7d89c2effb59c964142",
+  "sonda/sonda_argv_x_rem165.py": "57c7dba3a5b0f130aa89d02e9d133148c60dfb4c3dbbd53fe97939fa9823c91f",
+  "sonda/sonda_13_y_rem165.py": "1ccba941b863ea6facd3628eab9d79b0d1d81f22d5dace9e9bfc506778e724c8"
+ },
+ "reutilizadas_identicas": {
+  "C0 herramientas/b/aprobacion_alcance.py (verificar_documento, decision_humana, identidad_instalacion)": "631003ca87989ccd0189b33c9bd35e338a6f16fe4a0d50cbc2ccef0ee6f96467",
+  "paquete_cov_i5/referencia_decision.py (referencia a la decisión nativa, receta futura)": "039f6f6b490c81bd553f1a5c07fec848f15a8cdf0f6c70e6782511140abe7446",
+  "codigo/p3ctl.py (directa, vivos, union)": "546271b057a9635ab39ca3f94e0fd79da46cc7091a4bff873ab8c54e6d875841",
+  "cierre C0 de la pieza B1 (11 archivos, cargados desde sus bytes)": {
+   "c2_normalizado.py": "31d247eeb0368a38aa90ea8c262e3ea55cdfa62d312fe68024969b54670ab785",
+   "encierros_modelo.py": "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53",
+   "model.py": "b8541045ce2db793e3acfba5e84053edc185a7f8cdfc5c1b535d1452ebde9b04",
+   "elementales.py": "c71faf35370fa2329db69802f03f52d9bc72566a2d9fa50a9ca8dbea1eb6f82b",
+   "intervalos.py": "2607d0cf3f879316c699ec4cd73021bff9ae8f680f7c7c01facb84dfb65aa891",
+   "supremum.py": "2c246c8be6d4437892cd951cc0acaaac6e5d8ea7a921de2e13f560caf8dfebbb",
+   "numeric.py": "4b19f4cb45a637c3a3370ca95059bc4f94feb71649a9f54fd5ac8c33c941c98e",
+   "modelos.py": "7f0dd31cacf431fb421e2c5047aa5b750cbecfc1064e3374c4247dcd40c93fda",
+   "frontier.py": "709f51b21188ff8d4638d7eadf535dd3f8307f2e1ce995a49539fe7bfcd36ed2",
+   "cobertura.py": "d6be53db849fbfaa1d11c3213cc25a0f86a990ef6b3198e36e6b56607f5d9381",
+   "__init__.py": "89f7210e7c118c83eec9d73323491e0d8c778b76d1297f703dfca2b86069c72a"
+  }
+ },
+ "antecedente": {
+  "paquete_p7_rem153": {
+   "inventario_rem153": "3b594d66fe0ace59e66a940c4e713133b042b0d3f150dedbaaa7c628127bcb3b",
+   "indice_P7": "1743fa37ad1425d445ec2f964c9e8183134a29a29ac8956b653ef59502a34712",
+   "dictamen_paquete_rem154": "b83ddf7c7cc7be7513505cc638071956431f8ced240c2d60a9345c1d1542d38e",
+   "libro_paquete_rem154": "63c15d1b7ebe927355697bc84f25b7734e67057a9f646a4dfba14db8e468851a",
+   "dictamen_produccion_rem155": "6e75b3508beb1eb50ef646ad976c22ff9510e326876bac10d15201ea5c33b539",
+   "libro_produccion_rem155": "ae2c36e5d5c509b879eb9c423e7564e215ee1bf3d85617e4e3cf3039fca6d652",
+   "copias_en_Y": {
+    "alcance_p7.py": "43f4031e36afd192fa66eab0abbd8897824df0f4cf473e8c906313b75d5a6a18",
+    "comun_p7.py": "3702da399cc8370feab8d2ad1bfb738050b47bf7c5e7c7568b962594ff54bfef",
+    "conducir_p7.py": "4fa5fb2100af2b82e627aa716c064b1aceee73a11534d4505276f86e73065c0d",
+    "indice_p7.py": "04d363eb77b60d12f73dbb6983fa971e3d6974bba474452817300f852f4934f0",
+    "k1_p7.py": "0856f7847598e19bbbee83d2ab5381d760e13b865dd9637fa3959e7c9d222dfa",
+    "PAQUETE_P7.json": "1743fa37ad1425d445ec2f964c9e8183134a29a29ac8956b653ef59502a34712",
+    "puerta_p7.py": "a88ea602c85bd884fd22ae10c53a53aa9178655f09ba99126132eedad4c114e7",
+    "receta_p7.sh": "a00911e8244fca39f39b5037992693bdb9ee296c2423d74891dd9ecdbd8a0717",
+    "validar_p7.py": "d7ac73929aefe2ed832a96b892d42838c46976ac808630b89026f7a2a2fbc1d2"
+   }
+  },
+  "conexion_rem162": {
+   "CONEXION_B1.py": "43c1dfceef2910ff72664c0bbd308d1c7215791eee84cc36db8b839db59d882f"
+  }
+ },
+ "derivadas_en_forma": {
+  "puerta_b1.py": "paquete_p7/puerta_p7.py",
+  "alcance_b1.py": "paquete_p7/alcance_p7.py",
+  "conducir_b1.py": "paquete_p7/conducir_p7.py",
+  "validar_b1.py": "paquete_p7/validar_p7.py",
+  "b1_trabajo.py": "paquete_p7/k1_p7.py + X/preparacion/CONEXION_B1.py",
+  "comun_b1.py": "paquete_p7/comun_p7.py (forma)",
+  "receta_b1.sh": "paquete_p7/receta_p7.sh",
+  "indice_b1.py": "paquete_p7/indice_p7.py"
+ },
+ "solicitudes_cientificas_futuras": 1,
+ "techos_nuevos": 0
+}

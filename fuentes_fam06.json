@@ -1,0 +1,171 @@
+{
+ "descripcion": "Relación de piezas de FAM06 (E4: 383 mallas nuevas y su conciliación G/N de 391 pares) y su origen (tmp: = carpeta de entregas históricas del proyecto). Las ubicaciones de origen solo sirven para localizar; ninguna se usa al ejecutar. Todas son copias exactas y ninguna contiene rutas absolutas. Entradas en datos/fam06, productor de la conciliación en nucleo_s6/e4, referencias (solo para comparar, y entradas guardadas de la regeneración documental) en referencias/fam06. El código del lote 2, el núcleo C0, el manifiesto del lote 2 y su producto L1-ELAST aceptado son los de FAM05 (fuentes_fam05.json) y se declaran en «reutilizados_de_fam05».",
+ "herramienta": {
+  "archivo": "extraccion/extraer_fam06.py",
+  "sha256": "68a8f3ad347562991aaf216e86c30e61333df929ee93b4374aaf81920e2cbfc3"
+ },
+ "archivos": [
+  {
+   "archivo": "datos/fam06/LOTE2E4_MANIFIESTO.json",
+   "origen": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/LOTE2E4_MANIFIESTO.json (= objeto del catálogo)",
+   "sha256": "d430b39db2cea7801cdcf8b55f0455063270d58f5aebea57776241fcde04b4af",
+   "papel": "entrada: selección exacta de E4 (manifiesto rem114: 383 mallas nuevas, 4.115 nodos, 8 pares existentes; no se re-ejecuta la selección)"
+  },
+  {
+   "archivo": "datos/fam06/COBERTURA_NACIONAL_LOTE2E4.json",
+   "origen": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/COBERTURA_NACIONAL_LOTE2E4.json",
+   "sha256": "6015226d99b7b2a2b959f3990666142bea16eb1b929eee1923532c7303a8ee80",
+   "papel": "entrada: anexo de cobertura nacional ligado al manifiesto E4 (sin conjuntos λπ; 0 llamadas a macro.bridge); lo fija el alcance (entradas.cobertura_nacional) y se pasa al validador como en la receta"
+  },
+  {
+   "archivo": "datos/fam06/alcance_lote2e4.json",
+   "origen": "tmp/paso4_lote2_e4_desde_rem120/alcance/alcance_lote2e4.json (= objeto del catálogo)",
+   "sha256": "5471d1d3728b84b63b195ae6afe5c70c6ee3bb27a3ebef91c222c967fc3ff067",
+   "papel": "documento de autoridad (solo procedencia: fija manifiesto, código, validador, anexo, D7 e identidad C0; NO es una puerta: la decisión humana no se copia ni se reconstruye)"
+  },
+  {
+   "archivo": "nucleo_s6/e4/conciliacion_e4_rem121.py",
+   "origen": "tmp/paso4_e4_coord_desde_rem121/conciliacion/conciliacion_e4_rem121.py",
+   "sha256": "5ccb9f8fe668e08cf192a82bedf4b5c480147c4a0726da656270d01e03b88721",
+   "papel": "código: productor efectivo de la conciliación G/N (copia exacta; se ejecuta con CONCILIADOR-v1, rutas explícitas)"
+  },
+  {
+   "archivo": "datos/fam06/pilotos.json",
+   "origen": "nuevo: src/fam06.py (fam06-listar; regla_pilotos sobre el manifiesto)",
+   "sha256": "abf204991aca60b33587884a1ff81743406c7a5d801f0226204f351a37f28c81",
+   "papel": "dato nuevo de la base limpia (sin resultados)"
+  },
+  {
+   "archivo": "referencias/fam06/rem121/L1-ELAST/resultado.json",
+   "origen": "tmp/paso4_e4_coord_desde_rem121/lote2e4_REM121_E4/L1-ELAST/resultado.json (= objeto del catálogo objetos/0a788b1f81bd861fd8e03353bc6e3331b37e2e760414939c907a8d0a0a6cce9f/resultado.json)",
+   "sha256": "0a788b1f81bd861fd8e03353bc6e3331b37e2e760414939c907a8d0a0a6cce9f",
+   "papel": "referencia: L1-ELAST/resultado.json de la ejecución aceptada rem121 (solo para comparar; el producto y la conciliación son además las entradas guardadas de la regeneración documental)"
+  },
+  {
+   "archivo": "referencias/fam06/rem121/L1-ELAST/validacion_stdout.txt",
+   "origen": "tmp/paso4_e4_coord_desde_rem121/lote2e4_REM121_E4/L1-ELAST/validacion_stdout.txt",
+   "sha256": "e37790b3c4b41ff7cedae15e91a417f937ddd85a95d073a421442d09a797ae09",
+   "papel": "referencia: L1-ELAST/validacion_stdout.txt de la ejecución aceptada rem121 (solo para comparar; el producto y la conciliación son además las entradas guardadas de la regeneración documental)"
+  },
+  {
+   "archivo": "referencias/fam06/rem121/L1-ELAST/salida/frontier_result.jsonl",
+   "origen": "tmp/paso4_e4_coord_desde_rem121/lote2e4_REM121_E4/L1-ELAST/salida/frontier_result.jsonl (= objeto del catálogo objetos/cf711accc908ffb10e190424e0f207b55b69f719585458b734d711be09142f0d/frontier_result.jsonl)",
+   "sha256": "cf711accc908ffb10e190424e0f207b55b69f719585458b734d711be09142f0d",
+   "papel": "referencia: L1-ELAST/salida/frontier_result.jsonl de la ejecución aceptada rem121 (solo para comparar; el producto y la conciliación son además las entradas guardadas de la regeneración documental)"
+  },
+  {
+   "archivo": "referencias/fam06/rem121/conciliacion/CONCILIACION_E4_REM121.json",
+   "origen": "tmp/paso4_e4_coord_desde_rem121/conciliacion/CONCILIACION_E4_REM121.json (= objeto del catálogo objetos/52a8f9592c8f934e9769ed5788bf8926f7fa4c79fcb95cdcb31559f4cd5cc2eb/CONCILIACION_E4_REM121.json)",
+   "sha256": "52a8f9592c8f934e9769ed5788bf8926f7fa4c79fcb95cdcb31559f4cd5cc2eb",
+   "papel": "referencia: conciliacion/CONCILIACION_E4_REM121.json de la ejecución aceptada rem121 (solo para comparar; el producto y la conciliación son además las entradas guardadas de la regeneración documental)"
+  }
+ ],
+ "reutilizados_de_fam05": [
+  {
+   "archivo": "nucleo_s6/lote2/tarea_lote.py",
+   "sha256": "dca9d79b2d7c89bdd09e4e99293a158cb7fdc4cf8951df51561c68b019386456",
+   "papel": "código U17 (trabajador; mismos bytes que FAM05)",
+   "declarada_en": "fuentes_fam05.json"
+  },
+  {
+   "archivo": "nucleo_s6/lote2/conexion_lambda.py",
+   "sha256": "9dbdc7322e303f11f4b33897dd11de3e7ce8327636637e75bc246222391138b3",
+   "papel": "código U17 (conexión; mismos bytes que FAM05)",
+   "declarada_en": "fuentes_fam05.json"
+  },
+  {
+   "archivo": "nucleo_s6/lote2/conexion_frontera.py",
+   "sha256": "4fb1915d7cf7ca39bf9385f975665a75b32717558096870d7d9213d151be2527",
+   "papel": "código U17 (conexión de frontera; mismos bytes que FAM05)",
+   "declarada_en": "fuentes_fam05.json"
+  },
+  {
+   "archivo": "nucleo_s6/lote2/validar_lote.py",
+   "sha256": "d95e2beb0c0f67a96984d4346fe1c77e5b44539eb97769ba3f09ecbb67ea4f19",
+   "papel": "código U18 (validador; mismos bytes que FAM05)",
+   "declarada_en": "fuentes_fam05.json"
+  },
+  {
+   "archivo": "datos/fam05/LOTE2_MANIFIESTO.json",
+   "sha256": "b1cf8af5eab8aa22c53ec279bd5660dbf57847b6be8f874c56af7d71f9cd4bab",
+   "papel": "entrada de F06-CONCILIACION: manifiesto del lote 2 (mallas de origen y pares existentes; = fuentes.manifiesto_lote2_rem114_sha256 del manifiesto E4)",
+   "declarada_en": "fuentes_fam05.json"
+  },
+  {
+   "archivo": "referencias/fam05/rem120/L1-ELAST/resultado.json",
+   "sha256": "3d8145794c4a96a49c61dead86c9a74cad5856d36e9bf7205b7bdd9bed36faa4",
+   "papel": "entrada guardada de F06-CONCILIACION (lado de origen): declaración de los productos aceptados del lote 2",
+   "declarada_en": "fuentes_fam05.json"
+  },
+  {
+   "archivo": "referencias/fam05/rem120/L1-ELAST/salida/frontier_result.jsonl",
+   "sha256": "007095a94b7d1fce18aea6214c56c45b370e9a6eb5b0e415da6a0cc09a26ea8c",
+   "papel": "entrada guardada de F06-CONCILIACION (lado de origen): producto L1-ELAST aceptado del lote 2 (P_elast_lote2)",
+   "declarada_en": "fuentes_fam05.json"
+  },
+  {
+   "archivo": "referencias/fam05/rem120/L1-ELAST/salida/suplemento_procedencia.jsonl",
+   "sha256": "d6a12af3818993288d8b1f1cbbb87eb7cb64bf2ee25492ae4ff1d95cc2e55b39",
+   "papel": "entrada guardada de F06-CONCILIACION (lado de origen): procedencia de las 6 mallas históricas (origen «histórico lote 1»)",
+   "declarada_en": "fuentes_fam05.json"
+  }
+ ],
+ "nucleo_c0": {
+  "identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+  "archivos_copiados": 37,
+  "declarado_en": "fuentes_fam05.json (nucleo_c0)",
+  "nota": "el mismo núcleo C0 auténtico de FAM05; no se copia otro"
+ },
+ "manifiesto_e4": {
+  "mallas": 383,
+  "nodos": 4115,
+  "pares_existentes": 8,
+  "pares_tras_la_opcion": 391,
+  "manifiesto_lote2_sha256": "b1cf8af5eab8aa22c53ec279bd5660dbf57847b6be8f874c56af7d71f9cd4bab"
+ },
+ "libro_rem122": {
+  "presente": true,
+  "archivo": "review_20261029_rem122_E4_aceptada.json",
+  "sha256": "8b70afc6398664534451f3945fe3b93e9dfdca48190deaf887a70e92eca19608",
+  "kind": "PROD4-E4-aceptada-y-cierre-PROD4.3",
+  "uso": "solo fuente de extracción (recuentos y huellas); nunca dependencia de ejecución; sin rutas, transcripciones ni referencia de la decisión",
+  "tareas_aceptadas": [
+   "E4-L1-ELAST"
+  ],
+  "subpaso_cerrado": "PROD4.3",
+  "productos": {
+   "frontier_result.jsonl": {
+    "sha256": "cf711accc908ffb10e190424e0f207b55b69f719585458b734d711be09142f0d",
+    "filas": 4115
+   }
+  },
+  "E4": {
+   "rows": 4115,
+   "grids": 383,
+   "pairs": 391,
+   "paired_points": 4155,
+   "duplicate_pairs": 0,
+   "duplicate_rows": 0,
+   "pending_pairs": 0,
+   "different_topology_pairs": 17,
+   "different_topology_points": 36,
+   "by_instrument": {
+    "df": 110,
+    "d": 178,
+    "f": 103
+   },
+   "parent_universe": 572,
+   "kink_rows": 0,
+   "new_scientific_calls": 0,
+   "declared_reconciliation_matches": true
+  },
+  "alcance_de_la_decision_sha256": "5471d1d3728b84b63b195ae6afe5c70c6ee3bb27a3ebef91c222c967fc3ff067",
+  "COORD_nuevo_aceptado": 0,
+  "dictamen": {
+   "archivo": "review_20261029_rem122_dictamen.txt",
+   "sha256_en_el_libro": "6ceb265af6e19093dbd207345c414b511b1e9450b2d84dde0c7ea231868b6984",
+   "sha256_del_archivo": "6ceb265af6e19093dbd207345c414b511b1e9450b2d84dde0c7ea231868b6984",
+   "uso": "consultado para confirmar el alcance (E4 y su conciliación aceptadas; PROD4.3); no se copia"
+  }
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "kind": "ensamblado-coord-rec-rem122",
+ "manifiesto_sha256": "108bf2edc0261769e3f8a3d962c12610c9045b5898dfbfe70409607c278979e6",
+ "variante": "B",
+ "sintetico": false,
+ "tareas": {
+  "L1-COORD-R1": {
+   "directorio": "@@R_BS2@@\\tmp\\paso4_coord_b_desde_rem124\\coord_rec_B_REM124_COORD_B\\L1-COORD-R1",
+   "lanzamiento": "@@R_BS2@@\\tmp\\paso4_coord_b_desde_rem124\\coord_rec_B_REM124_COORD_B",
+   "resultado_sha256": "b0985048096b0f8982287fe333ae623e2f91f03b1dae91c85d63d40fc64f0617",
+   "productos": {
+    "coord_techos_rec.jsonl": "fc31df89db2859d284246722641ca608fd23ab7abbdc8b25719aa1b0c2236654",
+    "coord_comparacion_rec.jsonl": "711d6211b4a51d310ab2105bc72a87c408ec3ef1a195153f960353985b66b40a"
+   },
+   "alcance_sha256": "0555825f50439fcf0b7c9cdafe011c2570fe017c23c416576a7ab5052c3af227",
+   "modo": "produccion",
+   "dictamen_tarea": "completa_validada"
+  },
+  "L1-COORD-R2": {
+   "directorio": "@@R_BS2@@\\tmp\\paso4_coord_b_desde_rem124\\coord_rec_B_REM124_COORD_B\\L1-COORD-R2",
+   "lanzamiento": "@@R_BS2@@\\tmp\\paso4_coord_b_desde_rem124\\coord_rec_B_REM124_COORD_B",
+   "resultado_sha256": "d347d884d02452074395b798be3cc9701fa47f716e9d44b29015140c3afedec3",
+   "productos": {
+    "coord_techos_rec.jsonl": "ee736350e0ddb508e15db7d4a7887fbbc7fa30efea34774f79430728488fb395",
+    "coord_comparacion_rec.jsonl": "afaaa73a955e5183b157ce839c3f3b1b38af84af6486be0db574bf1bc2ea214e"
+   },
+   "alcance_sha256": "0555825f50439fcf0b7c9cdafe011c2570fe017c23c416576a7ab5052c3af227",
+   "modo": "produccion",
+   "dictamen_tarea": "completa_validada"
+  },
+  "L1-COORD-R3": {
+   "directorio": "@@R_BS2@@\\tmp\\paso4_coord_b_desde_rem124\\coord_rec_B_REM124_COORD_B\\L1-COORD-R3",
+   "lanzamiento": "@@R_BS2@@\\tmp\\paso4_coord_b_desde_rem124\\coord_rec_B_REM124_COORD_B",
+   "resultado_sha256": "597ea1317497aafb3fd845e1a79e06d748c60d961971e11e9a85ce3e254bdc96",
+   "productos": {
+    "coord_techos_rec.jsonl": "b5ca52f9c765a9b187cbb67fee7987674377d6d77c4431458c1faac8ff9e9afa",
+    "coord_comparacion_rec.jsonl": "5cfa53b9d14888b80aa72848bd52296a6113d315b7dde311f972e94dcab832b8"
+   },
+   "alcance_sha256": "0555825f50439fcf0b7c9cdafe011c2570fe017c23c416576a7ab5052c3af227",
+   "modo": "produccion",
+   "dictamen_tarea": "completa_validada"
+  }
+ },
+ "dictamen": "completa_validada",
+ "aceptada": true,
+ "fallos": [],
+ "ensamblado": {
+  "dictamen": "completa_validada",
+  "filas": 1532,
+  "con_techo_incompleto": 0,
+  "por_origen": {
+   "recalculado": 30,
+   "reutilizado": 1502
+  },
+  "fuera_del_lote": {
+   "COL-E2-2023.2024p.macro.COORD": "pendiente (sin testigos), no NA",
+   "COL-E2-2023.2024p.micro.COORD": "pendiente (sin testigos), no NA"
+  }
+ },
+ "productos": {
+  "coord_techos_ensamblados.jsonl": "f1889ee6d05fd102d3d1995d9e25fc2b7376af83130c252165225d2de42d6568",
+  "coord_comparacion_ensamblada.jsonl": "7e45e7e694255ee7d97491b6a0e06adbf509f18f81c33a0c750b4775616bf2e7"
+ }
+}

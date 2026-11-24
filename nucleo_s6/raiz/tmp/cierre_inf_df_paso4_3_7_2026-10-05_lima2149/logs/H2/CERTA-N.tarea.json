@@ -1,0 +1,28 @@
+{
+ "cpu_usuario_s": 440.421875,
+ "cpu_nucleo_s": 1.21875,
+ "procesos_totales": 6,
+ "procesos_activos": 0,
+ "memoria_pico_job_mb": 199.7,
+ "memoria_pico_proceso_mb": 192.6,
+ "id": "CERTA-N",
+ "comando": [
+  "bash",
+  "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149/../pilotos_b36_b37_2026-10-02/entorno/py_integracion.sh",
+  "-m",
+  "codigo.certificar_puntos",
+  "N",
+  "0.99414",
+  "2.5,2.4,2.3,2.2,2.1,2.0",
+  "demo/hito2/puntos_U_N.json",
+  "75"
+ ],
+ "cwd": "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149",
+ "limite_duro_s": 600.0,
+ "inicio_utc": "2026-10-06T03:20:40Z",
+ "pared_s": 450.5,
+ "codigo_salida": 0,
+ "estado": "TERMINO",
+ "cpu_total_s": 441.6,
+ "cpu_por_pared": 0.98
+}

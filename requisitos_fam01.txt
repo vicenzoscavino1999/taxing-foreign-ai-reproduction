@@ -1,0 +1,10 @@
+# Entorno de FAM01: el perfil «integracion» COMPLETO del lock de origen, incluido pip (10 paquetes con URL y sha256 de archivo):
+#   nucleo_s6/raiz/environment/sucesor_b3/integracion/requirements.lock (942a4138…), copia exacta.
+# Receta recomendada (comprueba el intérprete base, instala solo con hashes y verifica que el conjunto instalado es EXACTAMENTE el lock):
+#   powershell -File nucleo_s6/raiz/environment/sucesor_b3/crear_entorno.ps1 -BasePython <python.exe de CPython 3.12.4 oficial> `
+#       -Perfil integracion -Venv .venv-fam01 [-PipCache <carpeta de caché>]
+# Equivalente con pip (sin la verificación final del conjunto):
+#   <venv>\Scripts\python -m pip install --require-hashes --no-deps --only-binary=:all: -r requisitos_fam01.txt
+# Antes (hasta 2026-11-16, antecedente): solo numpy, PyMuPDF, openpyxl y et_xmlfile; ese entorno no cumple el perfil aprobado
+# (pip 24.0 y faltan pandas, python-dateutil, pytz, six y tzdata). xlrd 2.0.2 sigue vendorizado en nucleo_s6/raiz/herramientas/nacionales/vendor.
+-r nucleo_s6/raiz/environment/sucesor_b3/integracion/requirements.lock

@@ -1,0 +1,210 @@
+{
+ "id": "0de5e0de4d64f58062265176b2203384c7888f04c038053ae5b9e03704d70a45",
+ "familia": "S1",
+ "ruta": "S1-df",
+ "suite": "L4",
+ "trabajador": 0,
+ "estrato": "N-df",
+ "estado_final": "completo",
+ "estado_generador": "ok",
+ "inicio_utc": "2026-10-10T23:09:36Z",
+ "fin_utc": "2026-10-10T23:11:36Z",
+ "pared_s": 120.01,
+ "cpu_s": 118.52,
+ "cache_delta": {},
+ "manifiesto_sha256": "4e728bdba7f460ff4b775b6cea10e5ed01c7786a55ffad51689a3407672b5fe5",
+ "identidad_productor_sha256": "3ae5a90fcb7aaf98ff35417d662e6994b0e78698bb44c5f10fc1c20926c07718",
+ "run_class": "remanente_detallado_h4_3_7",
+ "resultado": {
+  "etiqueta": "0de5e0de4d64f580",
+  "extreme_id": "255c38007f838f70",
+  "claim_id_hoja": "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:df:conditional_full:N:sin_addback:macro:nucleo_contable",
+  "indice_contexto": 23,
+  "precomprobaciones": {
+   "indice_en_universo": true,
+   "contexto_coincide": true,
+   "diseno_instrumento": true,
+   "pais": true,
+   "K1_coincide": true,
+   "omega_exacto": true,
+   "omega_admisible": true
+  },
+  "set_id": "PER-E1.macro",
+  "omega_id": "OMG:fcd56a77dc1e39b3128b76ebddab782374afa9fc4f41ec8daf09f6b3def008c5",
+  "pais": "PER",
+  "diseno": "N",
+  "instrumento": "df",
+  "caso": "conditional_full",
+  "estado_nacional": {
+   "pais": "PER",
+   "preregistro": "PREG-PER-APLICACION-E1",
+   "canal": "conditional",
+   "edicion": "pub",
+   "anio_ancla": 2023,
+   "etiqueta": "published_vector",
+   "dominio_conjunto_sha256": "5e526e5e2a1c2d927626233bb9015250ab6342445ba0e5d5f60e973ef882a8d4"
+  },
+  "macro": {
+   "eta_H": "-0.5",
+   "eta_w": "1",
+   "gain_share": "0.01",
+   "pi_iva": "1.5",
+   "pi_otros_productos": "1.5",
+   "pi_produccion": "1.5"
+  },
+  "celda_externa": {
+   "id": "EXT:PER:PEN:r0:baseline:0.0",
+   "Q": 0.007233234410831278,
+   "capa": "nucleo_contable",
+   "cota": "sin_addback"
+  },
+  "clave_estructural": "3eb7dcff0c8a69915e1cc00a73c687d5ce3f01ed9eddc7067090eb70a4cf2efd",
+  "techo_reutilizado_entre_conjuntos": false,
+  "frontera_reutilizada": true,
+  "frontier_id": "FRN:aab061a4788499c3ed5401dd0ba8fd6b7bcd011e",
+  "macro_reutilizado": true,
+  "estado": "ok",
+  "motivos": [],
+  "completitud": {
+   "estado": "completa",
+   "partes": {
+    "contexto": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "frontera": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "techo": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "confrontacion": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "macro": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "evidencia_G": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "inversion:capture_required": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "inversion:external_factor": {
+     "estado": "no_aplicable_justificada",
+     "motivo": "EXTERNAL_FACTOR_NOT_IDENTIFIED"
+    },
+    "inversion:gain_required": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "inversion:lambda_required": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "inversion:phi_partial": {
+     "estado": "no_aplicable_justificada",
+     "motivo": "TARGETS_NOT_PREDECLARED"
+    },
+    "inversion:phi_total": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "r1": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "r2:paridad": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "r2:tau_d_0": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "r2:tau_d_estatutario": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "r2:tau_f_0": {
+     "estado": "completa",
+     "motivo": null
+    }
+   },
+   "motivos": [],
+   "n_partes": 17
+  },
+  "poscomprobaciones": {
+   "K_comp_1_en_K1": true,
+   "C2_interseca_certificado": true
+  },
+  "cell_id": "CEL:5764c5f81774695a5721854fc9c71d463704df56b5bf",
+  "celda_reutilizada": false,
+  "tiempos_s": {
+   "previas_s": 0.001,
+   "techo_s": 0.0,
+   "macro_s": 0.0,
+   "resto_celda_s": 120.007
+  },
+  "techo": {
+   "C_2": 0.0004951388621674007,
+   "numerical_error": 4.887374635521251e-08,
+   "computation_status": "complete",
+   "reason_code": null,
+   "sup_not_attained": false
+  },
+  "confrontacion": {
+   "G": -1.2153561929266932,
+   "K_comp_1": 1.2158513317888606,
+   "verdict": "infactible",
+   "computation_status": "complete",
+   "reason_code": null
+  },
+  "clave_E12": {
+   "cell_id": "CEL:5764c5f81774695a5721854fc9c71d463704df56b5bf",
+   "frontier_id": "FRN:aab061a4788499c3ed5401dd0ba8fd6b7bcd011e",
+   "instrumento": "df",
+   "barras": [
+    0.6,
+    0.6
+   ],
+   "tasa": 0.295,
+   "run_geometry": true,
+   "con_unidad": true,
+   "omega_id": "OMG:fcd56a77dc1e39b3128b76ebddab782374afa9fc4f41ec8daf09f6b3def008c5"
+  }
+ },
+ "version_trabajador": "c1.1",
+ "contrato_exportado": "v3",
+ "filas": {
+  "archivo": "0de5e0de4d64f58062265176b2203384c7888f04c038053ae5b9e03704d70a45_filas.json",
+  "sha256": "b63722bf5ec765bd11e80a657e3cb8283528afad9ea01092b2f5f472540e98f1",
+  "tablas": {
+   "cell_context": 1,
+   "confrontation_result": 1,
+   "inversion_result": 6,
+   "r1_summary": 1,
+   "r1_components": 0,
+   "r1_vertices": 0,
+   "r1_edges": 0,
+   "r1_rejected_crossings": 0,
+   "r2_sections": 4,
+   "r2_roots": 0,
+   "frontier_context": 1,
+   "capture_ceiling_result": 1,
+   "lambda_pi_envelope": 1,
+   "convergence_result": 4,
+   "sup_witness": 0,
+   "scalar_inversion_roots": 0,
+   "scalar_inversion_intervals": 0,
+   "inversion_targets": 6,
+   "numerical_evidence": 9
+  }
+ }
+}

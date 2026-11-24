@@ -1,0 +1,151 @@
+{
+ "kind": "estado-b2",
+ "inicio_utc": "2026-11-08T06:54:08.035769+00:00",
+ "etapas": {
+  "trabajo_dir": "@@R_BS2@@\\tmp\\paso4_produccion_b2_doce_cov_desde_rem169\\b2_B2PROD169\\TRABAJO",
+  "validacion_dir": "@@R_BS2@@\\tmp\\paso4_produccion_b2_doce_cov_desde_rem169\\b2_B2PROD169\\VALIDACION"
+ },
+ "operaciones": {
+  "trabajo": {
+   "id": "B2PROD169_TRABAJO",
+   "rc_p3ctl": 0,
+   "estado": "complete",
+   "motivo": null,
+   "admision": {
+    "ahora_efectivo_utc": "2026-11-08T06:54:08.239213+00:00",
+    "union_efectiva_s": 2.701,
+    "reserva_s": 1380.0,
+    "holgura_corte_s": 9487.458,
+    "holgura_union_s": 9417.299
+   },
+   "llamadas": {
+    "macro.bridge": 480,
+    "GridCell.Q": 60
+   },
+   "grupos": {
+    "K1": [
+     "0x1.b98c85d42628dp-3",
+     0
+    ],
+    "K2": [
+     "0x1.b8c3b85c299c6p-3",
+     0
+    ],
+    "K3": [
+     "0x1.b5da2b3dba041p-3",
+     0
+    ],
+    "K4": [
+     "0x1.b5130c24fe36ap-3",
+     0
+    ],
+    "K5": [
+     "0x1.b98c85d42628dp-3",
+     0
+    ],
+    "K6": [
+     "0x1.b8c3b85c299c6p-3",
+     0
+    ]
+   },
+   "inicio_registrado": true
+  },
+  "validacion": {
+   "id": "B2PROD169_VALIDACION",
+   "rc_p3ctl": 0,
+   "aceptada": true,
+   "fallos": [],
+   "admision": {
+    "ahora_efectivo_utc": "2026-11-08T06:54:08.987948+00:00",
+    "union_efectiva_s": 3.271,
+    "reserva_s": 690.0,
+    "holgura_corte_s": 10176.709,
+    "holgura_union_s": 10106.729
+   },
+   "evidencia_sha256_validada": "dfbe7e6cb7c1c2c97c408797ddb9634be9704ab91892fb3df349f2cc50b0f56d",
+   "recuentos": {
+    "s_Pi_exacto": 480,
+    "Q_exacto": 60,
+    "Q_float_replica": 60,
+    "k1_intervalar": 1920,
+    "k1_referencia_exacta": 1920,
+    "macro.bridge": 0,
+    "GridCell.Q": 0,
+    "bloqueadas": {}
+   }
+  }
+ },
+ "pendientes": [],
+ "lanzamiento": "B2PROD169",
+ "modo": "produccion",
+ "argumentos": {
+  "--area": "@@R_FS@@/tmp/paso4_produccion_b2_doce_cov_desde_rem169",
+  "--modo": "produccion",
+  "--manifiesto": "@@R_FS@@/tmp/paso4_correcciones_paquete_b2_desde_rem168/paquete_b2/MANIFIESTO_B2.json",
+  "--salida": "@@R_FS@@/tmp/paso4_produccion_b2_doce_cov_desde_rem169/b2_B2PROD169",
+  "--lanzamiento": "B2PROD169",
+  "--alcance": "@@R_FS@@/tmp/paso4_produccion_b2_doce_cov_desde_rem169/alcance/alcance_b2.json",
+  "--decision": "@@R_FS@@/tmp/paso4_produccion_b2_doce_cov_desde_rem169/decisiones/DECISION_REF_B2.json"
+ },
+ "indice_sha256": "5f7ec64bc4027aa9dd2893042622a027a480ba410474d01041938cb56295f9de",
+ "manifiesto_sha256": "0f1582cc3718f2f5545ab4a112d108d7e4d4639505dec4826d21d22045664d7b",
+ "puerta_nativa": {
+  "proveedor": "claude",
+  "transcripcion": "@@TRANSCRIPCION_CLAUDE_BS2@@\\fa99d748-337c-44a7-8d1d-ca7ced1b9871.jsonl",
+  "linea": 34728,
+  "uuid": "2546ac31-92d8-42b6-b7e7-744880bbcf11",
+  "session_id": "fa99d748-337c-44a7-8d1d-ca7ced1b9871",
+  "timestamp": "2026-11-08T06:53:20.223Z",
+  "registro_sha256": "94314daa2f821e72f0878ca040ff2dbb75dbbc602ea373be8f1e66d0b317c4b8",
+  "contenido": "AUTORIZO ALCANCE PASO4 alcance_sha256=848e11532851b2e432557c0560c6514ee116844b9456660185b95d4f16599974",
+  "mensaje_sha256": "94314daa2f821e72f0878ca040ff2dbb75dbbc602ea373be8f1e66d0b317c4b8",
+  "alcance_sha256": "848e11532851b2e432557c0560c6514ee116844b9456660185b95d4f16599974",
+  "modo_arnes": false
+ },
+ "alcance_sha256": "848e11532851b2e432557c0560c6514ee116844b9456660185b95d4f16599974",
+ "reservas": {
+  "trabajo_s": 690.0,
+  "validacion_s": 690.0,
+  "total_s": 1380.0,
+  "margen_s": 90.0,
+  "cierre_s": 60.0,
+  "corte_utc": "2026-11-08T09:55:15.697000+00:00",
+  "calculo_max_s": 10800,
+  "desplazamiento_reloj_s": 0.0,
+  "union_adicional_s": 0.0,
+  "union_adicional_validacion_s": 0.0
+ },
+ "evidencia_sha256": "dfbe7e6cb7c1c2c97c408797ddb9634be9704ab91892fb3df349f2cc50b0f56d",
+ "procedencia": {
+  "tipo": "lanzamiento",
+  "modo": "produccion",
+  "area": "@@R_BS2@@\\tmp\\paso4_produccion_b2_doce_cov_desde_rem169",
+  "lanzamiento": "B2PROD169",
+  "eventos_sha256": "22f43a0ba6ec27cae944ed6f70717fc40a321bd8bcc10eb88f7d6be4c1d3cac4",
+  "evento_inicio_sha256": "b17e9ecd9d21cb86fb8f4bead77192be7155f5211f1399689a7c1f66c4f8c552",
+  "evento_fin_sha256": "1161d40227e4fdc6429356ab967183a678498e6ae1aa039061c11f5098105623",
+  "trabajo_id": "B2PROD169_TRABAJO",
+  "trabajo_dir": "@@R_BS2@@\\tmp\\paso4_produccion_b2_doce_cov_desde_rem169\\b2_B2PROD169\\TRABAJO",
+  "salida_trabajador_sha256": "964747c10f7c8d4108602e9b8790bd14513ad5e2a988a1e8ca9712c59acf9dff",
+  "evidencia_sha256": "dfbe7e6cb7c1c2c97c408797ddb9634be9704ab91892fb3df349f2cc50b0f56d"
+ },
+ "validacion_sha256": "aa30bc5b6e2e17bf346acb360be064b15511d24b764500b46b4a01990849366e",
+ "lectura_sha256": "1fd0e1803a7fa4824b750f89a1a1e489232086e99a3469ba205abded28417638",
+ "estado_final": "completo",
+ "causa": null,
+ "fallo_original": null,
+ "fin_utc": "2026-11-08T06:54:09.933245+00:00",
+ "pared_s": 1.9,
+ "cierre": {
+  "helper": "@@R_BS2@@\\tmp\\paso4_produccion_b2_doce_cov_desde_rem169\\codigo\\p3ctl.py",
+  "helper_presente": true,
+  "rc": 0,
+  "stdout": "{\"identidades\": 9, \"vivos\": []}\n",
+  "vivos": [],
+  "conforme_p3ctl": true,
+  "motivo": null,
+  "conforme": true
+ },
+ "rc": 0,
+ "conjunto_completo": true
+}

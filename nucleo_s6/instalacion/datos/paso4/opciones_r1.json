@@ -1,0 +1,53 @@
+{
+ "kind": "catalogo-opciones-r1-paso4-v1",
+ "nota": "propuesta P1 rem55 (diferencial NO APLICADO): opciones marcadas «aprobada» solo por decisión firmada del autor; el uso productivo exige además la autorización de la corrida que declare opciones_r1 (sha256 del texto y de opciones_p1.py) y su acto dedicado; NO OFICIAL",
+ "opciones": {
+  "A1A2_INTERCAMBIO_DE_TESTIGOS": {
+   "decision": "R1-A1A2",
+   "estado": "aprobada",
+   "nota_observaciones": "códigos de r1_rutas.derivar que la DECISIÓN resuelve; cualquier otro sigue bloqueando la tarea",
+   "observaciones_que_resuelve": [
+    "TESTIGO_C2_DE_PRODUCTOS_DE_OTRAS_RUTAS",
+    "FUENTE_DEL_TESTIGO_DISTINTA_DE_LA_BASE_DEL_PRESUPUESTO",
+    "NUCLEO_HISTORICO_DISTINTO_DE_S6_EN_MODULOS_DE_CALCULO"
+   ],
+   "tareas": [
+    "R1-A1",
+    "R1-A2"
+   ],
+   "texto": "R1-A2 consume del producto ACEPTADO de R1-B3 sus 4 testigos ínfimos d/f y R1-A1 consume de R1-B3 los 4 testigos supremos d/f y produce SRED-G/N para los 2 testigos df, con correspondencia exacta de unidad, fuente, localizador, identidad, contrato y aceptación, y θ estructural separado de las tasas del archivo SRED. SUPC no se ejecuta. Dependencias: R1-A1 y R1-A2 dependen de R1-B3.",
+   "texto_sha256": "60299b029f055166cb2f885b01b80df00f57d2007f71537f5b156d9913a78308"
+  },
+  "A3_CRITERIO_GLOBAL": {
+   "decision": "R1-A3",
+   "estado": "aprobada",
+   "nota_observaciones": "códigos de r1_rutas.derivar que la DECISIÓN resuelve; cualquier otro sigue bloqueando la tarea",
+   "observaciones_que_resuelve": [
+    "PRODUCTOR_NO_DERIVABLE",
+    "REFERENCIA_DEPENDE_DEL_RELOJ",
+    "VALIDACION_POR_IGUALDAD_NO_APLICABLE"
+   ],
+   "tareas": [
+    "R1-A3-G-U",
+    "R1-A3-G-L",
+    "R1-A3-N-U",
+    "R1-A3-N-L"
+   ],
+   "texto": "Para cada diseño, U y L se leen de los productos ACEPTADOS por la ruta común en la corrida (autoridad reconstruida, árbol íntegro, ni bytes ni contenido de un producto histórico). U es el mínimo de las filas válidas del techo v3: punto declarado por el comando, evidencia del techo (U_C2 = U, cajas y vivas, estado convergido o tope_tiempo) y admisibilidad RECALCULADA con paper2b.cobertura.box_admissible y q_pot_exact sobre los fijos del grupo del plan C2 autenticado (ω = su sha256), sin contradicción con lo declarado. L es la cota INFBB5 de la corrida con el mismo problema, dominio y ω, T2 = 1e-4, brecha coherente y un certificado_U cuyo sha256 y punto son los de la U aceptada. El par converge si L <= U y U − L <= 1e-4; si no, queda pendiente (incompatible si L > U). No sustituye el requisito puntual 1e-7; un certificado C2 global solo es semilla.",
+   "texto_sha256": "29edf5ae1afd2e9866d5774acb2147f59eb66865b11b4cbc6cabbb12cd3b21c2"
+  },
+  "B3_VALIDEZ_Y_COMPARACION": {
+   "decision": "R1-B3A2",
+   "estado": "aprobada",
+   "nota_observaciones": "códigos de r1_rutas.derivar que la DECISIÓN resuelve; cualquier otro sigue bloqueando la tarea",
+   "observaciones_que_resuelve": [
+    "NUCLEO_HISTORICO_DISTINTO_DE_S6_EN_MODULOS_DE_CALCULO"
+   ],
+   "tareas": [
+    "R1-B3"
+   ],
+   "texto": "Mantengo el núcleo S6 corregido (umbral N de motor_theta). R1-B3 se acepta por unidad solo si (a) la validación auténtica la emite la entrada de la ruta común b3_clasificar_aceptada: la aceptación de R1-B3 se reconstruye con corrida_paso4.aceptaciones_previas (corrida íntegra del plan, autoridad reconstruida, identidad, árbol aceptado byte a byte y productos aceptables) y se clasifican exactamente los bytes de esos productos, sin documentos ni vínculos aportados por quien llama; (b) la unidad es coherente con el contrato: cotas numéricas finitas con L <= U, estado convergida, brecha numérica, finita, no negativa, igual a U − L y <= T2_G sin cambios; (c) es igual a la fila E13 v4 respaldada. Las 160 unidades d-sup-N (respalda=False) quedan no respaldadas aunque coincidan. Toda divergencia se conserva con su causa y requiere dictamen; ninguna salida nueva sustituye la referencia. La coherencia de campos no es una certificación numérica.",
+   "texto_sha256": "642b5a4f9e1d4e7e842f1400a29a1bef9839d03f97ddfcd135223bab04e6de48"
+  }
+ }
+}

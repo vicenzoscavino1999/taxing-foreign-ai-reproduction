@@ -1,0 +1,233 @@
+{
+ "aceptacion": {
+  "ruta": "@@W_BS2@@\\review_20261104_rem142_testigo_alto_aceptado.json",
+  "sha256": "3c3905a37672162165dbc9062e2c8186b6bb5f76c5d862f2f5e0794e2d027e0b"
+ },
+ "base_vista": {
+  "area": "paso4_emision_captura_correcciones_testigo_desde_rem139",
+  "estado_formal": {
+   "definitivas": 13616,
+   "pendientes": 40
+  },
+  "inventario": {
+   "ruta": "tmp/paso4_emision_captura_correcciones_testigo_desde_rem139/audit/entrega.json",
+   "sha256": "794841511784da49ab9d357db7de4bdbf4ff967ab02570c475d0d182af2ce5fd"
+  },
+  "rel": "captura_vista_CAPTURA_T8/VISTA_T8_CAPTURA.jsonl",
+  "sha256": "66891b45282cae1c08c0a86131d194631e1d9a39351e26cfc137255e6b489992"
+ },
+ "control": {
+  "admision_cierre": {
+   "origen": "tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/admision_integracion.py",
+   "sha256": "7304ac8be5e2d2c33fd16ccf79611285aba2baf4ebd089ba73f33679363603c9"
+  },
+  "p3ctl": "codigo/p3ctl.py",
+  "sha256": "546271b057a9635ab39ca3f94e0fd79da46cc7091a4bff873ab8c54e6d875841"
+ },
+ "corridas": [
+  "BRUN-050091213b198d7cd7ba9ea2",
+  "BRUN-1368187e9a43de0d95926dca",
+  "BRUN-47e3d9f48d2b65e9ddeed02f",
+  "BRUN-4ef8507fcdefbddc55dbc3b7",
+  "BRUN-5b35ba3f51bc08bd48b384bd",
+  "BRUN-612818cb081c6797d4923b4d",
+  "BRUN-63a9e9ea157b2faaf317ae61",
+  "BRUN-7bdfe0a1bee57298e31e1b34",
+  "BRUN-991c466a1938ddbf2192eefb",
+  "BRUN-9c6c66e7af8b139a613b1c3f",
+  "BRUN-a81e3f45f7111e18b1f39370",
+  "BRUN-c5af32a993773f5258ce570f",
+  "BRUN-cb33e6b24039acc84fb1a065",
+  "BRUN-f5f58960bbf9017776d3d7fc"
+ ],
+ "destinos": {
+  "estado": "<area>/t8_testigo_estado_<etiqueta>.json",
+  "vista": "<area>/t8_testigo_vista_<etiqueta>/"
+ },
+ "dictamen": {
+  "ruta": "@@W_BS2@@\\review_20261104_rem142_dictamen.txt",
+  "sha256": "72bf8d72b7fa1233394b652c5ad3dbf81270bfd95cfee7b6177667636f7ce263"
+ },
+ "esperado": {
+  "actualizadas_por_testigo": [
+   6884,
+   6902,
+   6926,
+   7172,
+   7196,
+   7244,
+   7322,
+   7598,
+   7682,
+   7772,
+   7916,
+   7958,
+   7964,
+   8288,
+   8378,
+   8462,
+   8552,
+   8606,
+   8636,
+   8654,
+   8786,
+   8876,
+   8930,
+   9014,
+   9020,
+   9188,
+   9224,
+   9260,
+   9350,
+   9398,
+   9458,
+   9542,
+   9560,
+   9680,
+   9686
+  ],
+  "captura_cambios": 963,
+  "captura_computed": 963,
+  "captura_filas": 2111,
+  "captura_outside_support": 1143,
+  "captura_pendiente": 5,
+  "captura_pendientes_por_causa": {
+   "SIN_PRUEBA_POR_FILA": 5
+  },
+  "captura_por_tipo": {
+   "exclusion_cota_33_10": 264,
+   "exclusion_cota_U": 879,
+   "pertenencia_misma_corrida": 365,
+   "pertenencia_testigo_alto": 35,
+   "pertenencia_transferida": 563
+  },
+  "definitivas_candidatas": 13651,
+  "definitivo_almacenado": 9434,
+  "filas": 13656,
+  "lambda_finalizadas": 2111,
+  "no_captura": 11545,
+  "pendientes": 5,
+  "pendientes_filas": [
+   7028,
+   7208,
+   8144,
+   8186,
+   9578
+  ]
+ },
+ "evidencia_filas_sha256": "c073aef80437e54907ba2cf194b2b2211dfc7cdd0ff5fe110c57dcd1f4005590",
+ "filas_actualizables": [
+  6884,
+  6902,
+  6926,
+  7172,
+  7196,
+  7244,
+  7322,
+  7598,
+  7682,
+  7772,
+  7916,
+  7958,
+  7964,
+  8288,
+  8378,
+  8462,
+  8552,
+  8606,
+  8636,
+  8654,
+  8786,
+  8876,
+  8930,
+  9014,
+  9020,
+  9188,
+  9224,
+  9260,
+  9350,
+  9398,
+  9458,
+  9542,
+  9560,
+  9680,
+  9686
+ ],
+ "filas_pendientes": [
+  7028,
+  7208,
+  8144,
+  8186,
+  9578
+ ],
+ "finalizador": {
+  "ruta": "paso4/instalacion/herramientas/b/unidades.py",
+  "sha256": "a8aded1db50f80feffd62bcb655e62e5f93487364a3c4e625f47dcdbd1f17c86",
+  "sys_path": [
+   "paso4/instalacion/src",
+   "paso4/instalacion"
+  ]
+ },
+ "incorporacion": {
+  "origen_revisor": "@@W_BS2@@\\review_20261104_rem142_INCORPORACION_TESTIGO.json",
+  "ruta": "tmp/paso4_incorporacion_testigo_desde_rem142/incorporacion/INCORPORACION_TESTIGO.json",
+  "sha256": "c54a618bff30dccb257ea6de18c580a360f4360b9bfb00c2b0a9bdb96fd7eca2"
+ },
+ "kind": "manifiesto-t8-testigo-alto-v1",
+ "lector": {
+  "area": "paso4_estado_testigo_lector_desde_rem140",
+  "certificacion_fila_sha256": "4741b4ea3b72fc2f754cc2d8c79dd9dd718f8e37205bf3e4ee5c0c539be60f4b",
+  "congelamiento": {
+   "rel": "testigo_alto_v3/CONGELAMIENTO_TESTIGO_v3.json",
+   "sha256": "66a107d6df08788856306561df58f9350d04a9b1d559074286d8608cbe51622a"
+  },
+  "dir": "testigo_alto_v3",
+  "inventario": {
+   "ruta": "tmp/paso4_estado_testigo_lector_desde_rem140/audit/entrega.json",
+   "sha256": "be0c63bce4ad32d4fabbfa04eea419b5536fa553cfdf41df3a0cbc14a956ddf1"
+  },
+  "modo": "produccion",
+  "piezas": {
+   "adaptador_fila_testigo.py": "7cbebc7691c68d7d902d4c0944f30f8b3b4a1844c409a9f089f88fd7da60b0e2",
+   "lector_fuente_testigo.py": "9e25706026743e1b92221029f0e30faaf3c64df703f8c07451848b9696ad7d7a",
+   "testigo_comun.py": "3f8ec27b92c9e04c6d1b5e688f38fe3663440c1e3aa54a9fd9392e6617f28b52"
+  }
+ },
+ "limites": {
+  "intentos": 1,
+  "procesos": 1,
+  "tope_s": 600.0,
+  "union_s": 10800.0
+ },
+ "nota": "vista de captura T8 que incorpora la fuente aceptada del testigo alto en EXACTAMENTE 35 filas (el resto, bytes de la base aceptada 66891b45…); produccion_habilitada=false: la emisión productiva exige un alcance nuevo y la decisión del autor",
+ "nucleo": {
+  "identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+  "ruta": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion"
+ },
+ "operacion": "CAPTURA_T8_TESTIGO_ALTO",
+ "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+ "plantilla_equivalencia": "BRUN-cb33e6b24039acc84fb1a065",
+ "produccion_habilitada": false,
+ "tareas": [
+  "T8-TESTIGO-MATERIALIZAR",
+  "T8-TESTIGO-VERIFICAR"
+ ],
+ "testigo_inferior": {
+  "ceiling_id": "CEI:dc4e1ba95f168fdd846cb39a44b404f204efbb47",
+  "extremo_exacto": "83037518495931418279937/151115727451828646838272",
+  "prueba_aceptada_fila": 9638,
+  "pruebas_fila_sha256": "690dfef933447410fd9653201ec92631cb7af52a6364db4b70606833e8be5efa",
+  "run_origen": "BRUN-cb33e6b24039acc84fb1a065"
+ },
+ "testigo_superior": {
+  "alcance_origen_sha256": "210015d7b949ba0eff708c082c25536bcabe80ca70a8c5351df701611978895a",
+  "clave": "e8b1f7fdb9c7017605e0a4162fc6688e7b6ed01d2308ff72106ed6cf6834a97b",
+  "decision_origen_uuid": "57f5d10b-896f-44f2-b8df-013abaae1d30",
+  "extremo_exacto": "231254813940860032385023/302231454903657293676544",
+  "fuente_base": "tmp/paso4_testigo_alto_desde_rem141",
+  "fuente_inventario_sha256": "58067a5a95cb8683ba57372957cd87b239e7839fec65ed7728a6f0d72df9f606",
+  "grupo": "EQ-TECHO-T8-1",
+  "resultado_sha256": "981ff0f2121bde1841e3bccfc76f53a3f21d2e60ba95b14ef3b08f0bd812b457",
+  "run_origen": "TRUN-278e8977db98756eaf6313e8"
+ }
+}

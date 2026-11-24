@@ -1,0 +1,212 @@
+{
+ "kind": "lectura-b1-rem163",
+ "modo": "produccion",
+ "manifiesto_sha256": "1194923c273da998db23a83700dac1669693490d01f7fc52668ae39c105fe33e",
+ "alcance_sha256": "150d4b71b6343af63655e239d70f0ee9b920a31edd244c2514096ef18854797e",
+ "evidencia_sha256": "8bb0b86e213f88cd902a9a5f8ad6c4ea2f979ee8d948717362d9dc6c66f808c5",
+ "indice_sha256": "9244a279c4b5ede08b9a48b9f2f0ebe99a22ed91cd137b8ae24aa7ae4aa3f13d",
+ "procedencia": {
+  "tipo": "lanzamiento",
+  "modo": "produccion",
+  "area": "@@R_BS2@@\\tmp\\paso4_produccion_b1_doce_cov_desde_rem166",
+  "lanzamiento": "B1PROD166",
+  "eventos_sha256": "07593b0f17f9c2853bee8a97212933f3df3bb0eeac3a61b1c5f2d3ce7b8b36bc",
+  "evento_inicio_sha256": "45abe1746a68cb99cd7adcf26972607555f9f601a50e7ee1430106860f7be605",
+  "evento_fin_sha256": "130415d5f3c4ec977460c2ae4f47d871d81bdf181b196bd9239f7a52870a1e05",
+  "trabajo_id": "B1PROD166_TRABAJO",
+  "trabajo_dir": "@@R_BS2@@\\tmp\\paso4_produccion_b1_doce_cov_desde_rem166\\b1_B1PROD166\\TRABAJO",
+  "salida_trabajador_sha256": "4871c9916ba65ea8c8ab58e79a5e78e4ff476c0f39b16d52a8f33391dbf4627c",
+  "evidencia_sha256": "8bb0b86e213f88cd902a9a5f8ad6c4ea2f979ee8d948717362d9dc6c66f808c5",
+  "validacion_id": "B1PROD166_VALIDACION"
+ },
+ "datos_validados": {
+  "U_C2": 0.17312398870886692,
+  "U_C2_hex": "0x1.628ed46d42e18p-3",
+  "intervalo": [
+   -2e-323,
+   0.17312398870886692
+  ],
+  "precision_real": 0.17312398870886692,
+  "parada": "tolerancia_o_caja_no_refinable",
+  "cajas": 53,
+  "evaluaciones": 13860,
+  "segundos_encierro": 0.858
+ },
+ "lectura": {
+  "valida": true,
+  "eps": "1/100",
+  "U_C2": 0.17312398870886692,
+  "U_C2_hex": "0x1.628ed46d42e18p-3",
+  "grupos": [
+   {
+    "grupo": "K1",
+    "K1_testigo": 0.21560005716016362,
+    "K1_testigo_hex": "0x1.b98c85d426294p-3",
+    "umbral_exacto": "46297017040693277/225179981368524800",
+    "U_C2": 0.17312398870886692,
+    "U_C2_hex": "0x1.628ed46d42e18p-3",
+    "comparacion": "<=",
+    "lectura": "candidato_B2",
+    "significado": "candidato a B2: todavia falta una cota inferior global K1 valida",
+    "afirmaciones": [
+     "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+     "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+    ]
+   },
+   {
+    "grupo": "K2",
+    "K1_testigo": 0.21521705657251147,
+    "K1_testigo_hex": "0x1.b8c3b85c299cdp-3",
+    "umbral_exacto": "184843091902006533/900719925474099200",
+    "U_C2": 0.17312398870886692,
+    "U_C2_hex": "0x1.628ed46d42e18p-3",
+    "comparacion": "<=",
+    "lectura": "candidato_B2",
+    "significado": "candidato a B2: todavia falta una cota inferior global K1 valida",
+    "afirmaciones": [
+     "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+     "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+    ]
+   },
+   {
+    "grupo": "K3",
+    "K1_testigo": 0.2137950304234002,
+    "K1_testigo_hex": "0x1.b5da2b3dba048p-3",
+    "umbral_exacto": "22945280576869601/112589990684262400",
+    "U_C2": 0.17312398870886692,
+    "U_C2_hex": "0x1.628ed46d42e18p-3",
+    "comparacion": "<=",
+    "lectura": "candidato_B2",
+    "significado": "candidato a B2: todavia falta una cota inferior global K1 valida",
+    "afirmaciones": [
+     "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+     "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+    ]
+   },
+   {
+    "grupo": "K4",
+    "K1_testigo": 0.2134152363576294,
+    "K1_testigo_hex": "0x1.b5130c24fe371p-3",
+    "umbral_exacto": "183220156532340233/900719925474099200",
+    "U_C2": 0.17312398870886692,
+    "U_C2_hex": "0x1.628ed46d42e18p-3",
+    "comparacion": "<=",
+    "lectura": "candidato_B2",
+    "significado": "candidato a B2: todavia falta una cota inferior global K1 valida",
+    "afirmaciones": [
+     "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+     "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+    ]
+   },
+   {
+    "grupo": "K5",
+    "K1_testigo": 0.21560005716016362,
+    "K1_testigo_hex": "0x1.b98c85d426294p-3",
+    "umbral_exacto": "46297017040693277/225179981368524800",
+    "U_C2": 0.17312398870886692,
+    "U_C2_hex": "0x1.628ed46d42e18p-3",
+    "comparacion": "<=",
+    "lectura": "candidato_B2",
+    "significado": "candidato a B2: todavia falta una cota inferior global K1 valida",
+    "afirmaciones": [
+     "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+     "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+    ]
+   },
+   {
+    "grupo": "K6",
+    "K1_testigo": 0.21521705657251147,
+    "K1_testigo_hex": "0x1.b8c3b85c299cdp-3",
+    "umbral_exacto": "184843091902006533/900719925474099200",
+    "U_C2": 0.17312398870886692,
+    "U_C2_hex": "0x1.628ed46d42e18p-3",
+    "comparacion": "<=",
+    "lectura": "candidato_B2",
+    "significado": "candidato a B2: todavia falta una cota inferior global K1 valida",
+    "afirmaciones": [
+     "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+     "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+    ]
+   }
+  ],
+  "afirmaciones": [
+   {
+    "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+    "grupo": "K1",
+    "lectura": "candidato_B2",
+    "estado_cientifico": "desconocida (sin cambio)"
+   },
+   {
+    "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+    "grupo": "K2",
+    "lectura": "candidato_B2",
+    "estado_cientifico": "desconocida (sin cambio)"
+   },
+   {
+    "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+    "grupo": "K1",
+    "lectura": "candidato_B2",
+    "estado_cientifico": "desconocida (sin cambio)"
+   },
+   {
+    "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+    "grupo": "K2",
+    "lectura": "candidato_B2",
+    "estado_cientifico": "desconocida (sin cambio)"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+    "grupo": "K3",
+    "lectura": "candidato_B2",
+    "estado_cientifico": "desconocida (sin cambio)"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+    "grupo": "K4",
+    "lectura": "candidato_B2",
+    "estado_cientifico": "desconocida (sin cambio)"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+    "grupo": "K3",
+    "lectura": "candidato_B2",
+    "estado_cientifico": "desconocida (sin cambio)"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+    "grupo": "K4",
+    "lectura": "candidato_B2",
+    "estado_cientifico": "desconocida (sin cambio)"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+    "grupo": "K5",
+    "lectura": "candidato_B2",
+    "estado_cientifico": "desconocida (sin cambio)"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+    "grupo": "K6",
+    "lectura": "candidato_B2",
+    "estado_cientifico": "desconocida (sin cambio)"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+    "grupo": "K5",
+    "lectura": "candidato_B2",
+    "estado_cientifico": "desconocida (sin cambio)"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+    "grupo": "K6",
+    "lectura": "candidato_B2",
+    "estado_cientifico": "desconocida (sin cambio)"
+   }
+  ],
+  "no_clasifica": true,
+  "no_robustez": true,
+  "no_inconclusion_preservada": true,
+  "N3A_no_adoptada": true,
+  "si_todos_detienen": "se vuelve al autor para decidir el alcance"
+ }
+}

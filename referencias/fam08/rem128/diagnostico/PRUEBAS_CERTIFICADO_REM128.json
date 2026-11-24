@@ -1,0 +1,280 @@
+{
+ "kind": "pruebas-certificado-salto-rem128",
+ "estado": "DIAGNOSTICO_NO_PRODUCTIVO",
+ "certificador_sha256": "a9b4e6ad712845e2452e40c727d31818927c2f5fe5a42c0feb9ade278ab43837",
+ "casos": [
+  {
+   "caso": "S1_dominio_sin_curva",
+   "esperado": [
+    "alcanzado_demostrado",
+    null
+   ],
+   "obtenido": [
+    "alcanzado_demostrado",
+    null
+   ],
+   "ok": true,
+   "hipotesis": {
+    "H0_alcance_del_certificado": {
+     "diseno_G": true,
+     "rho_1": true,
+     "z_m_1": true,
+     "menu_df": true,
+     "caja_cerrada": true,
+     "caja_admisible": true
+    },
+    "H1_previo_F": true,
+    "H2_informal_nunca": true,
+    "H3_F1_sobre_I1": true,
+    "H4_R_mas_creciente": true,
+    "H5_c_decreciente": true,
+    "H6_esquinas": {
+     "c_inferior": [
+      0.7999999999999996,
+      0.8000000000000006
+     ],
+     "c_superior": [
+      0.1573881311636708,
+      0.1573881311636737
+     ],
+     "region_no_vacia": true,
+     "curva_corta_la_caja": false,
+     "sin_curva": true
+    }
+   },
+   "punto": [
+    0.5,
+    0.5
+   ],
+   "testigo_lateral": null
+  },
+  {
+   "caso": "S2_diseno_N",
+   "esperado": [
+    "no_decidido",
+    "FUERA_DEL_ALCANCE_DEL_CERTIFICADO"
+   ],
+   "obtenido": [
+    "no_decidido",
+    "FUERA_DEL_ALCANCE_DEL_CERTIFICADO"
+   ],
+   "ok": true,
+   "hipotesis": {
+    "H0_alcance_del_certificado": {
+     "diseno_G": false,
+     "rho_1": true,
+     "z_m_1": true,
+     "menu_df": true,
+     "caja_cerrada": true,
+     "caja_admisible": true
+    }
+   },
+   "punto": null,
+   "testigo_lateral": null
+  },
+  {
+   "caso": "S3_rho_0_9",
+   "esperado": [
+    "no_decidido",
+    "FUERA_DEL_ALCANCE_DEL_CERTIFICADO"
+   ],
+   "obtenido": [
+    "no_decidido",
+    "FUERA_DEL_ALCANCE_DEL_CERTIFICADO"
+   ],
+   "ok": true,
+   "hipotesis": {
+    "H0_alcance_del_certificado": {
+     "diseno_G": true,
+     "rho_1": false,
+     "z_m_1": true,
+     "menu_df": true,
+     "caja_cerrada": true,
+     "caja_admisible": true
+    }
+   },
+   "punto": null,
+   "testigo_lateral": null
+  },
+  {
+   "caso": "S4_kappa_0_9_H3_falla",
+   "esperado": [
+    "no_decidido",
+    "HIPOTESIS_NO_DEMOSTRADAS"
+   ],
+   "obtenido": [
+    "no_decidido",
+    "HIPOTESIS_NO_DEMOSTRADAS"
+   ],
+   "ok": true,
+   "hipotesis": {
+    "H0_alcance_del_certificado": {
+     "diseno_G": true,
+     "rho_1": true,
+     "z_m_1": true,
+     "menu_df": true,
+     "caja_cerrada": true,
+     "caja_admisible": true
+    },
+    "H1_previo_F": true,
+    "H2_informal_nunca": true,
+    "H3_F1_sobre_I1": false,
+    "H4_R_mas_creciente": true,
+    "H5_c_decreciente": true,
+    "H6_esquinas": {
+     "c_inferior": [
+      0.09999999999999941,
+      0.10000000000000066
+     ],
+     "c_superior": [
+      -1.5052016770151144,
+      -1.5052016770151064
+     ],
+     "region_no_vacia": true,
+     "curva_corta_la_caja": true,
+     "sin_curva": false
+    }
+   },
+   "punto": null,
+   "testigo_lateral": null
+  },
+  {
+   "caso": "S5_cotas_incompatibles",
+   "esperado": [
+    "no_decidido",
+    "COTA_PERSISTIDA_INCOMPATIBLE"
+   ],
+   "obtenido": [
+    "no_decidido",
+    "COTA_PERSISTIDA_INCOMPATIBLE"
+   ],
+   "ok": true,
+   "hipotesis": {
+    "H0_alcance_del_certificado": {
+     "diseno_G": true,
+     "rho_1": true,
+     "z_m_1": true,
+     "menu_df": true,
+     "caja_cerrada": true,
+     "caja_admisible": true
+    },
+    "H1_previo_F": true,
+    "H2_informal_nunca": true,
+    "H3_F1_sobre_I1": true,
+    "H4_R_mas_creciente": true,
+    "H5_c_decreciente": true,
+    "H6_esquinas": {
+     "c_inferior": [
+      0.7999999999999996,
+      0.8000000000000006
+     ],
+     "c_superior": [
+      -0.005712242665002921,
+      -0.005712242664999422
+     ],
+     "region_no_vacia": true,
+     "curva_corta_la_caja": true,
+     "sin_curva": false
+    }
+   },
+   "punto": null,
+   "testigo_lateral": {
+    "tau_d": [
+     0.5937443203343036,
+     0.5937443203343207
+    ],
+    "tau_f": 0.6,
+    "lado": "c > 0 (FF, adopción formal)",
+    "eje": "tau_d desde abajo",
+    "limite_R": [
+     8.780743465609994,
+     8.780743465610234
+    ],
+    "valor_en_la_curva_R": 0.0,
+    "limite_desde_c_negativo_R": 0.0
+   }
+  },
+  {
+   "caso": "S6_menu_d",
+   "esperado": [
+    "no_decidido",
+    "FUERA_DEL_ALCANCE_DEL_CERTIFICADO"
+   ],
+   "obtenido": [
+    "no_decidido",
+    "FUERA_DEL_ALCANCE_DEL_CERTIFICADO"
+   ],
+   "ok": true,
+   "hipotesis": {
+    "H0_alcance_del_certificado": {
+     "diseno_G": true,
+     "rho_1": true,
+     "z_m_1": true,
+     "menu_df": false,
+     "caja_cerrada": true,
+     "caja_admisible": false
+    }
+   },
+   "punto": null,
+   "testigo_lateral": null
+  },
+  {
+   "caso": "S7_clave_real",
+   "esperado": [
+    "no_alcanzado_demostrado",
+    null
+   ],
+   "obtenido": [
+    "no_alcanzado_demostrado",
+    null
+   ],
+   "ok": true,
+   "hipotesis": {
+    "H0_alcance_del_certificado": {
+     "diseno_G": true,
+     "rho_1": true,
+     "z_m_1": true,
+     "menu_df": true,
+     "caja_cerrada": true,
+     "caja_admisible": true
+    },
+    "H1_previo_F": true,
+    "H2_informal_nunca": true,
+    "H3_F1_sobre_I1": true,
+    "H4_R_mas_creciente": true,
+    "H5_c_decreciente": true,
+    "H6_esquinas": {
+     "c_inferior": [
+      0.7999999999999996,
+      0.8000000000000006
+     ],
+     "c_superior": [
+      -0.005712242665002921,
+      -0.005712242664999422
+     ],
+     "region_no_vacia": true,
+     "curva_corta_la_caja": true,
+     "sin_curva": false
+    }
+   },
+   "punto": null,
+   "testigo_lateral": {
+    "tau_d": [
+     0.5937443203343036,
+     0.5937443203343207
+    ],
+    "tau_f": 0.6,
+    "lado": "c > 0 (FF, adopción formal)",
+    "eje": "tau_d desde abajo",
+    "limite_R": [
+     8.780743465609994,
+     8.780743465610234
+    ],
+    "valor_en_la_curva_R": 0.0,
+    "limite_desde_c_negativo_R": 0.0
+   }
+  }
+ ],
+ "aprobadas": 7,
+ "total": 7
+}

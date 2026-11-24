@@ -1,0 +1,47 @@
+{
+ "datos": {
+  "MANIFIESTO_T8_TESTIGO-ENSAYO.json": {
+   "bytes": 6568,
+   "sha256": "c6f82ed25fd4dacd0be1ee42b85e81b35e389df593e58d742fe26354dfa458ed"
+  },
+  "MANIFIESTO_T8_TESTIGO.json": {
+   "bytes": 6672,
+   "sha256": "c07f0c3e4cc11fe803c3f09908ea08a451e66eeccda7bc7e022d01a738c2e9a2"
+  }
+ },
+ "deriva_de": {
+  "admision_integracion": "7304ac8be5e2d2c33fd16ccf79611285aba2baf4ebd089ba73f33679363603c9",
+  "conexion_captura": "f7a8d23f5d2558843f4620052b49d20250cf23c67ac8a02d54ea57db1c05dba7",
+  "entrega_rem137": "59188e65c2d8dd665679f3b47780e2859633505b260127cc435c772431bf92b2",
+  "materializar_captura": "8ef790ffccbc4b8875f29f986fcca36c8d184ef7b1d6066fe696387236786263",
+  "paquete_captura_c2_v3": "7d58938e308fd63536925c6ef8b39fbafb6ab46706d70853e45821466d054ee0",
+  "receta_captura": "5e30fe8ab7a28ce3abdf92926ab0c86993b4c1ea7c880d07a5aada9cafa90894",
+  "verificar_captura": "18d6872a13527aa590406db33d9e6e901fb8e9596b301d1a60f09d14051c6860"
+ },
+ "kind": "paquete-t8-testigo-v1",
+ "nota": "candidato aislado rem142; la puerta autentica las cinco piezas y los dos manifiestos; la autoridad de las fuentes es la constante AUTORIDAD de conexion_testigo.py (igual a la del manifiesto)",
+ "piezas": {
+  "admision_integracion.py": {
+   "bytes": 6979,
+   "sha256": "7304ac8be5e2d2c33fd16ccf79611285aba2baf4ebd089ba73f33679363603c9"
+  },
+  "conexion_testigo.py": {
+   "bytes": 51312,
+   "sha256": "a292a929d1e74178726777d32e103b3897d1e39ad01b7b3ffab324c5c904657c"
+  },
+  "materializar_t8_testigo.py": {
+   "bytes": 2272,
+   "sha256": "c6f0db6b86dd001785dbb6ac0334a46d1903daae76b1304aa38e7cc25bb5361d"
+  },
+  "receta_t8_testigo.sh": {
+   "bytes": 3881,
+   "sha256": "90c1ba0909389af0761f37ffd003926ee0ab3ecfdcc3ab25d52821f791a7f89f"
+  },
+  "verificar_t8_testigo.py": {
+   "bytes": 2345,
+   "sha256": "3e20c16b6e5b50aeed542a9e0c9c09926c45cdecc81b6d2d3e80334a675cbb97"
+  }
+ },
+ "produccion_habilitada": false,
+ "productivo": false
+}

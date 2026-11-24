@@ -1,0 +1,253 @@
+{
+ "aceptacion": {
+  "ruta": "@@W_BS2@@\\review_20261104_rem145_COTA_C5B_ACEPTADA.json",
+  "sha256": "a816420c6a495996959195c238185a9ad90f2e29b3601fb1239b5a16a49badea"
+ },
+ "base_vista": {
+  "area": "paso4_emision_t8_testigo_desde_rem143",
+  "estado_formal": {
+   "definitivas": 13651,
+   "pendientes": 5
+  },
+  "inventario": {
+   "ruta": "tmp/paso4_emision_t8_testigo_desde_rem143/audit/entrega.json",
+   "sha256": "0dd9b3d81e120ad685995ce5ba988ddf356c29bce24e1a88505e258c67e1a8da"
+  },
+  "rel": "t8_testigo_vista_T8_TESTIGO/VISTA_T8_CAPTURA.jsonl",
+  "sha256": "ec6e3929dd6be8dbb56b17493ce51061b95dde7991722832045a1c4411c8fd93"
+ },
+ "certificacion": {
+  "area": "paso4_emision_lambda_conexion_captura_desde_rem137",
+  "certificacion_fila_sha256": "4741b4ea3b72fc2f754cc2d8c79dd9dd718f8e37205bf3e4ee5c0c539be60f4b",
+  "conexion_captura_sha256": "f7a8d23f5d2558843f4620052b49d20250cf23c67ac8a02d54ea57db1c05dba7",
+  "dir": "c2_conexion/candidato_v3",
+  "fuentes_sha256": "77d9a10b409416a0f148ff665584c20e4a8f8d997862e4b79cc7f8b5f1c506e1",
+  "inventario": {
+   "ruta": "tmp/paso4_emision_lambda_conexion_captura_desde_rem137/audit/entrega.json",
+   "sha256": "59188e65c2d8dd665679f3b47780e2859633505b260127cc435c772431bf92b2"
+  },
+  "nota_U_sha256": "cf738de6945a86ffb55ed0994610bc6d8d9d21860a5cd0b7e92a27f0afe0f34a"
+ },
+ "control": {
+  "admision_cierre": {
+   "origen": "tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/admision_integracion.py",
+   "sha256": "7304ac8be5e2d2c33fd16ccf79611285aba2baf4ebd089ba73f33679363603c9"
+  },
+  "p3ctl": "codigo/p3ctl.py",
+  "sha256": "546271b057a9635ab39ca3f94e0fd79da46cc7091a4bff873ab8c54e6d875841"
+ },
+ "corridas": [
+  "BRUN-050091213b198d7cd7ba9ea2",
+  "BRUN-1368187e9a43de0d95926dca",
+  "BRUN-47e3d9f48d2b65e9ddeed02f",
+  "BRUN-4ef8507fcdefbddc55dbc3b7",
+  "BRUN-5b35ba3f51bc08bd48b384bd",
+  "BRUN-612818cb081c6797d4923b4d",
+  "BRUN-63a9e9ea157b2faaf317ae61",
+  "BRUN-7bdfe0a1bee57298e31e1b34",
+  "BRUN-991c466a1938ddbf2192eefb",
+  "BRUN-9c6c66e7af8b139a613b1c3f",
+  "BRUN-a81e3f45f7111e18b1f39370",
+  "BRUN-c5af32a993773f5258ce570f",
+  "BRUN-cb33e6b24039acc84fb1a065",
+  "BRUN-f5f58960bbf9017776d3d7fc"
+ ],
+ "cota": {
+  "U_global_hi": "15432592858721952385078662585664465762806429615972266476412514029254334532321/19815838360430182000000000000000000000000000000000000000000000000000000000000",
+  "banda": "944473296573929/9444732965739290427392",
+  "regla": "Fraction(v) > U_global + banda  =>  outside_support (la igualdad no excluye; nunca prueba pertenencia)",
+  "regla_aceptada": "Fraction(v) > U_global_hi + banda; strict exclusion only; no membership inference",
+  "tipo_prueba": "exclusion_cota_U_global"
+ },
+ "destinos": {
+  "estado": "<area>/t8_c5b_estado_<etiqueta>.json",
+  "vista": "<area>/t8_c5b_vista_<etiqueta>/"
+ },
+ "dictamen": {
+  "ruta": "@@W_BS2@@\\review_20261104_rem145_dictamen.txt",
+  "sha256": "b77f436a8647f82a4c641f0b801970317853d917ebccc40bccce8eb091a7ca51"
+ },
+ "esperado": {
+  "actualizadas_por_c5b": [
+   7028,
+   7208,
+   8144,
+   8186,
+   9578
+  ],
+  "captura_cambios": 963,
+  "captura_computed": 963,
+  "captura_filas": 2111,
+  "captura_outside_support": 1148,
+  "captura_pendiente": 0,
+  "captura_pendientes_por_causa": {},
+  "captura_por_tipo": {
+   "exclusion_cota_33_10": 264,
+   "exclusion_cota_U": 879,
+   "exclusion_cota_U_global": 5,
+   "pertenencia_misma_corrida": 365,
+   "pertenencia_testigo_alto": 35,
+   "pertenencia_transferida": 563
+  },
+  "definitivas_candidatas": 13656,
+  "definitivo_almacenado": 9434,
+  "filas": 13656,
+  "lambda_finalizadas": 2111,
+  "no_captura": 11545,
+  "pendientes": 0,
+  "pendientes_filas": [],
+  "testigo_alto_preservadas": [
+   6884,
+   6902,
+   6926,
+   7172,
+   7196,
+   7244,
+   7322,
+   7598,
+   7682,
+   7772,
+   7916,
+   7958,
+   7964,
+   8288,
+   8378,
+   8462,
+   8552,
+   8606,
+   8636,
+   8654,
+   8786,
+   8876,
+   8930,
+   9014,
+   9020,
+   9188,
+   9224,
+   9260,
+   9350,
+   9398,
+   9458,
+   9542,
+   9560,
+   9680,
+   9686
+  ]
+ },
+ "filas_c5b": [
+  {
+   "clave_fila": "273d71ee0f67962a2f407f0874046e684c599650a1aaac6783996cc481482051",
+   "fila": 7028,
+   "linea_vista_sha256": "26f9150c25f0703c04d55689ed3040b0de45281648a11bde397d3700f0c219fb",
+   "run_destino": "BRUN-9c6c66e7af8b139a613b1c3f",
+   "valor_exacto": "7089940826878089/9007199254740992"
+  },
+  {
+   "clave_fila": "869cc35d96ad584bc0dc9619bda895cc17713bd2c7861a3030ca9c3b68a8aa30",
+   "fila": 7208,
+   "linea_vista_sha256": "21a4f0df4b15ea30f74b24a5062fddb8c616ae0767e3ff4c4d62b66fd5b260d4",
+   "run_destino": "BRUN-63a9e9ea157b2faaf317ae61",
+   "valor_exacto": "3544220821268237/4503599627370496"
+  },
+  {
+   "clave_fila": "314a614e7e163b62587dc10f8a2bcc84ad02c92c38375d5f27e6bc4a1bbc7bed",
+   "fila": 8144,
+   "linea_vista_sha256": "6b5920a24e079790d35dc54eaa636c208bff1fd3eeb10efa9e6194921a85a63d",
+   "run_destino": "BRUN-991c466a1938ddbf2192eefb",
+   "valor_exacto": "3550769140379883/4503599627370496"
+  },
+  {
+   "clave_fila": "9c2782cf675d790889a46f269733c51dc1b62f0b23806f6a14cf04223c73d433",
+   "fila": 8186,
+   "linea_vista_sha256": "93bb989720d2be5047162039b7dc748027af3633f75cb17c7b93ba7712e7f5bb",
+   "run_destino": "BRUN-1368187e9a43de0d95926dca",
+   "valor_exacto": "3537073397432819/4503599627370496"
+  },
+  {
+   "clave_fila": "4a16cc773f46a0424a4c4903de1358cebd501a04715f697c62168698d8b4a012",
+   "fila": 9578,
+   "linea_vista_sha256": "981d500cb3a590fd08c38eada7fd1125923fc060ca7e09cee6fc0114f97f03b3",
+   "run_destino": "BRUN-cb33e6b24039acc84fb1a065",
+   "valor_exacto": "7051605380861609/9007199254740992"
+  }
+ ],
+ "finalizador": {
+  "ruta": "paso4/instalacion/herramientas/b/unidades.py",
+  "sha256": "a8aded1db50f80feffd62bcb655e62e5f93487364a3c4e625f47dcdbd1f17c86",
+  "sys_path": [
+   "paso4/instalacion/src",
+   "paso4/instalacion"
+  ]
+ },
+ "kind": "manifiesto-t8-exclusion-c5b-v1",
+ "ledger": {
+  "ruta": "@@W_BS2@@\\review_20261104_rem144_T8_testigo_aceptado.json",
+  "sha256": "7ed13ccf8123e1bce9e013bdbdce56d5df29de37699a192f1aaa32c55555241c"
+ },
+ "limites": {
+  "intentos": 1,
+  "procesos": 1,
+  "tope_s": 600.0,
+  "union_s": 10800.0
+ },
+ "nota": "vista de captura T8 que aplica la exclusión C5B aceptada (rem145) a EXACTAMENTE las cinco filas pendientes (el resto, bytes de la vista vigente ec6e3929…); produccion_habilitada=false: la emisión productiva exige un alcance nuevo y la decisión del autor",
+ "nota_cota": {
+  "ruta": "@@W_BS2@@\\review_20261104_rem145_cota.txt",
+  "sha256": "893abeeca3baf6bdba3c6fd5069eb80bfd06376a24827706551a8dffa0128da1"
+ },
+ "nucleo": {
+  "identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+  "ruta": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion"
+ },
+ "operacion": "CAPTURA_T8_EXCLUSION_C5B",
+ "plan_config": {
+  "base_sets": [
+   "CMP-E1.macro",
+   "CMP-E1.micro",
+   "COL-E2-2023.2023p.macro",
+   "COL-E2-2023.2023p.micro",
+   "COL-E2-2023.2024p.macro",
+   "COL-E2-2023.2024p.micro",
+   "PER-E0E3.macro",
+   "PER-E0E3.micro",
+   "PER-E1.macro",
+   "PER-E1.micro"
+  ],
+  "derived_suffixes": [],
+  "designs": [
+   "G",
+   "N"
+  ],
+  "level": 0,
+  "max_unit_nodes": 64
+ },
+ "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+ "produccion_habilitada": false,
+ "prueba_c5b": {
+  "area": "paso4_cinco_filas_exp0_desde_rem144",
+  "certificado": {
+   "rel": "cinco_filas/certificado/CERTIFICADO_C5B_CANDIDATO.json",
+   "sha256": "fc403d40b1eb6ba50e5f8dc551ecd301b19b1092e15c5e50ff4e163fc51afa16"
+  },
+  "inventario": {
+   "ruta": "tmp/paso4_cinco_filas_exp0_desde_rem144/audit/entrega.json",
+   "sha256": "f64f14c270940b44ef6db094cd5eb4a5e03e7febd13976c45388e551ce12fddd"
+  },
+  "salida_m2": {
+   "rel": "cinco_filas/salida/C5B_MASA_M2.json",
+   "sha256": "05c10ea6d2e8f87b96704f66d9c1edb6c188a2d6c528b4d086ab3061d9da4691"
+  },
+  "script_certificado": {
+   "rel": "cinco_filas/ejecutado/certificado_c5b.C3.py",
+   "sha256": "cd0bae74e80c66ed1a1268229ad82db14336bba80796a6356987887130bbaf5d"
+  },
+  "script_m2": {
+   "rel": "cinco_filas/ejecutado/cota_masa_c5b.M2.py",
+   "sha256": "f725f028ff1fa63281a69d5ff30fa51df988cb9ac4f9654ab62e9a29355b3a1b"
+  }
+ },
+ "tareas": [
+  "T8-C5B-MATERIALIZAR",
+  "T8-C5B-VERIFICAR"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "cpu_usuario_s": 471.484375,
+ "cpu_nucleo_s": 20.515625,
+ "procesos_totales": 6,
+ "procesos_activos": 0,
+ "memoria_pico_job_mb": 548.6,
+ "memoria_pico_proceso_mb": 541.6,
+ "id": "ENS2-frontera",
+ "comando": [
+  "bash",
+  "tmp/extremos_df_d_3_7_2026-10-05_lima0738/../pilotos_b36_b37_2026-10-02/entorno/py_integracion.sh",
+  "-m",
+  "codigo.ensayo_integracion",
+  "celda",
+  "P1-MEX-N-df-0",
+  "demo/integracion/final_celda_P1-MEX-N-df-0.json"
+ ],
+ "cwd": "tmp/extremos_df_d_3_7_2026-10-05_lima0738",
+ "limite_duro_s": 1200.0,
+ "inicio_utc": "2026-10-05T15:10:31Z",
+ "pared_s": 501.8,
+ "codigo_salida": 0,
+ "estado": "TERMINO",
+ "cpu_total_s": 492.0,
+ "cpu_por_pared": 0.98
+}

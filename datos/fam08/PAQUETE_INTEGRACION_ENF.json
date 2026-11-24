@@ -1,0 +1,199 @@
+{
+ "kind": "paquete-integracion-enf-rem130",
+ "estado": "CANDIDATO_NO_EMITIDO",
+ "piezas": {
+  "validar_integracion.py": {
+   "sha256": "107435df1c35fab654a665a256997dc0d52b22b6138c05d6667ead7398ddd494",
+   "bytes": 20266,
+   "origen": "nueva",
+   "anterior_rem129": {
+    "sha256": "63216161cbfadc3b016f1d37545fe4fd3daeea5584878ba8e591c527925c6ec3",
+    "cambia_en_rem130": true,
+    "diferencial": {
+     "ruta": "DIFERENCIAL_REM130/validar_integracion.py.diff",
+     "sha256": "eaacafe92b3150220e3bfe4acaa9ee78ba8ba182f4af65fdf6441e41220c1dfc",
+     "lineas_cambiadas": 8
+    }
+   }
+  },
+  "recuperar_t1.py": {
+   "sha256": "1a5108b2ed4ff78d5da200b50ccb733f35fdef30626928f14817cfe9af6e15b2",
+   "bytes": 13377,
+   "origen": "copia_con_diferencial",
+   "anterior_rem129": {
+    "sha256": "7523f81c69c17a3e540e05f6e57c57bc51f4e8292d280f20fb757c274f012621",
+    "cambia_en_rem130": true,
+    "diferencial": {
+     "ruta": "DIFERENCIAL_REM130/recuperar_t1.py.diff",
+     "sha256": "d41d6ebff9b447cecd94b33224038188310c5c78ab8eab041f721ce512f75ae8",
+     "lineas_cambiadas": 4
+    }
+   },
+   "fuente": "tmp/paso4_enf_continuacion_salto_desde_rem128/recuperacion/recuperar_t1.py",
+   "fuente_sha256": "33f94a1e62f3b9b28c701d806f21d0fdb441a5afdd91b6b01492105439932ed8",
+   "diferencial": {
+    "ruta": "DIFERENCIAL/recuperar_t1.py.diff",
+    "sha256": "eca4340128de344fd0bf3872e986a34f1f4b2924a81a65d5f90b48fdd847b9ca",
+    "lineas_cambiadas": 13
+   }
+  },
+  "certificado_salto.py": {
+   "sha256": "a9b4e6ad712845e2452e40c727d31818927c2f5fe5a42c0feb9ade278ab43837",
+   "bytes": 15262,
+   "origen": "copia_identica",
+   "anterior_rem129": {
+    "sha256": "a9b4e6ad712845e2452e40c727d31818927c2f5fe5a42c0feb9ade278ab43837",
+    "cambia_en_rem130": false
+   },
+   "fuente": "tmp/paso4_enf_continuacion_salto_desde_rem128/diagnostico/certificado_salto.py",
+   "fuente_sha256": "a9b4e6ad712845e2452e40c727d31818927c2f5fe5a42c0feb9ade278ab43837",
+   "diferencial": {
+    "ruta": "DIFERENCIAL/certificado_salto.py.diff",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "lineas_cambiadas": 0
+   }
+  },
+  "ensamblar_integracion.py": {
+   "sha256": "7f04fafe4110bc22407c0016799b81832a78baa0aa736f60cea80b20e4a95522",
+   "bytes": 5711,
+   "origen": "nueva_derivada_de",
+   "anterior_rem129": {
+    "sha256": "7f04fafe4110bc22407c0016799b81832a78baa0aa736f60cea80b20e4a95522",
+    "cambia_en_rem130": false
+   },
+   "fuente": "tmp/paso4_enforcement_desde_rem125/lote_enf/ensamblar_coord.py",
+   "fuente_sha256": "ac9a5d27d6f5fed0a069c7de664952b5ca774713fe285e0d6124920f0bc747be",
+   "diferencial": {
+    "ruta": "DIFERENCIAL/ensamblar_integracion.py.diff",
+    "sha256": "f21d8fda524ba112bd89ac5ce3a1e10027fdca9bcac7e2d2552f05c35c2ffa5d",
+    "lineas_cambiadas": 126
+   }
+  },
+  "conciliar_integracion.py": {
+   "sha256": "e97edc15bb4e458e5c4cb2f9aa38d2c5fe55fb3d07c2259ea9cb4d0f6cdc221a",
+   "bytes": 17697,
+   "origen": "copia_con_diferencial",
+   "anterior_rem129": {
+    "sha256": "e97edc15bb4e458e5c4cb2f9aa38d2c5fe55fb3d07c2259ea9cb4d0f6cdc221a",
+    "cambia_en_rem130": false
+   },
+   "fuente": "tmp/paso4_mallas_enforcement_desde_rem126/mallas_enf/conciliar_mallas_enf.py",
+   "fuente_sha256": "82d1a20beb01dd239bbe08f49174912c4810f209ea439fd1e1ee40c5e841fda7",
+   "diferencial": {
+    "ruta": "DIFERENCIAL/conciliar_integracion.py.diff",
+    "sha256": "56917ac8c7acf5a5c85bc480aacebf78db22e036cdef714a1e8fdab04205de63",
+    "lineas_cambiadas": 109
+   }
+  },
+  "emitir_alcance_integracion.py": {
+   "sha256": "ba92f263314fa0222fec79fd6e2f1574ca65dbc944bc06efabe95d34f4996dac",
+   "bytes": 4940,
+   "origen": "nueva_derivada_de",
+   "anterior_rem129": {
+    "sha256": "ba92f263314fa0222fec79fd6e2f1574ca65dbc944bc06efabe95d34f4996dac",
+    "cambia_en_rem130": false
+   },
+   "fuente": "tmp/paso4_enforcement_desde_rem125/lote_enf/emitir_alcance_rec.py",
+   "fuente_sha256": "2dafe3736e4f847798243f564bd7d8a3eaad8f0f88aef2e3b3175b9bb7f8d052",
+   "diferencial": {
+    "ruta": "DIFERENCIAL/emitir_alcance_integracion.py.diff",
+    "sha256": "beba6ac8c394204e39a80b0461749019a3accb6bb99b5c0e8b348054537614e9",
+    "lineas_cambiadas": 81
+   }
+  },
+  "admision_integracion.py": {
+   "sha256": "7304ac8be5e2d2c33fd16ccf79611285aba2baf4ebd089ba73f33679363603c9",
+   "bytes": 6979,
+   "origen": "nueva",
+   "anterior_rem129": {
+    "sha256": "8e4f730fadc38382834d525dab07721a2c2f9be100123458d8ec262feda2d49b",
+    "cambia_en_rem130": true,
+    "diferencial": {
+     "ruta": "DIFERENCIAL_REM130/admision_integracion.py.diff",
+     "sha256": "a32908fd0e7c0273c84035c323a5b3f9c76101cec2568f4cdac7ef95ee494c14",
+     "lineas_cambiadas": 79
+    }
+   }
+  },
+  "receta_integracion.sh": {
+   "sha256": "db05d3c276faacaf81c4cc0a96394fc8c28bf8a6acf1ba967dfccb69e641aab0",
+   "bytes": 3330,
+   "origen": "nueva",
+   "anterior_rem129": {
+    "sha256": "86e775f48159e6f3e27dd1a02dde4f18f5033b4052fe114695b45694eefd0188",
+    "cambia_en_rem130": true,
+    "diferencial": {
+     "ruta": "DIFERENCIAL_REM130/receta_integracion.sh.diff",
+     "sha256": "b00395cad459f8a08767418ee3fe132e552f5a51bfaec4b30605c4e6fe8f7583",
+     "lineas_cambiadas": 9
+    }
+   }
+  }
+ },
+ "externas": {
+  "lote_enf (rem125)": {
+   "indice": {
+    "ruta": "tmp/paso4_enforcement_desde_rem125/lote_enf/PAQUETE_ABL_ENF.json",
+    "sha256": "039c85beb88e5912867ef8ebadcf47995cc8f9a99a5fd92e20bc072a7abda57c"
+   },
+   "usadas": {
+    "validar_coord_rec.py": "086ea05688d9eb520982cc3e57a01eb5b45b37f3bb9b77503f3c0a2822ed0864",
+    "tarea_lote.py": "1fbe5cbc0525428788ac775f1a2e8c5e55b03079cb37a195b5ad997ed7bc0b40",
+    "conexion_coord_cert.py": "e5776de970b72535ec7b72340604abfd9e8448479ea78dac4b714d870d273d61",
+    "MANIFIESTO_ABL_ENF.json": "0b27b32abdfb4eaf0db11427a8a8bb93c7d4014c6c7acd1bdbfbe6e32d28b3ad",
+    "COBERTURA_ABL_ENF.json": "b7b2616c4f89f15d5469ad460e71697af910a6a0c2a2a60390b6a0fe367772d9"
+   }
+  },
+  "rem119 lote2": {
+   "indice": {
+    "ruta": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/PAQUETE_LOTE1.json",
+    "sha256": "265c29f43ac4ad9c16dfe70da7c830cd027e0bab6bd9dffa561536b114981f32"
+   },
+   "usadas": {
+    "validar_lote.py": "d95e2beb0c0f67a96984d4346fe1c77e5b44539eb97769ba3f09ecbb67ea4f19",
+    "referencia_decision.py": "039f6f6b490c81bd553f1a5c07fec848f15a8cdf0f6c70e6782511140abe7446"
+   }
+  },
+  "mallas_enf (rem126)": {
+   "indice": {
+    "ruta": "tmp/paso4_mallas_enforcement_desde_rem126/mallas_enf/PAQUETE_MALLAS_ENF.json",
+    "sha256": "c0bfe525f58825d7926b6ef9208ab77407170a0edaf9e0fb7aa43aac0d19b0ad"
+   }
+  },
+  "C0": {
+   "ruta": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion",
+   "identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae"
+  }
+ },
+ "manifiesto_integracion_real": {
+  "ruta": "MANIFIESTO_INTEGRACION_ENF.json",
+  "sha256": "b752249a446ce4f16a4c4d80e6608811787b9b99d0c6fd6aef6480a6ace10b85",
+  "sin_cambios_desde_rem129": true
+ },
+ "paquete_anterior_rem129": {
+  "indice_sha256": "edf28a9ce9aeda4caa9708b720d178d63b822e85678d37f1656d62cf06dbe415",
+  "inventario_entrega": "2e9e765e84ea1cae9ffb3c8fc3b48f752bee23c2d4bdd88ccc2f240931801148"
+ },
+ "correcciones": {
+  "P4-ENF-T1-BYTES": [
+   "recuperar_t1.py",
+   "validar_integracion.py"
+  ],
+  "P4-ENF-CIERRE-RETORNO": [
+   "admision_integracion.py",
+   "receta_integracion.sh"
+  ]
+ },
+ "operacion": "INTEGRACION_ENF",
+ "tareas_del_alcance_futuro": [
+  "ENF-ENSAMBLADO-INTEGRAL",
+  "ENF-CONCILIACION-INTEGRAL"
+ ],
+ "limites": {
+  "procesos": 3,
+  "tope_s": 2400.0,
+  "suite_s": 3600.0,
+  "union_s": 10800.0
+ },
+ "nota": "un alcance v3 de integración fija el sha256 de ESTE índice, cada pieza y el manifiesto; un alcance ligado a bytes anteriores no habilita estos"
+}

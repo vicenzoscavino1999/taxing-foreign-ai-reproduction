@@ -1,0 +1,27 @@
+{
+ "tarea": "L1-ELAST",
+ "modo": "produccion",
+ "manifiesto_sha256": "b1cf8af5eab8aa22c53ec279bd5660dbf57847b6be8f874c56af7d71f9cd4bab",
+ "tope_efectivo_s": 2280.0,
+ "sintetico": false,
+ "codigo_sha256": {
+  "tarea_lote.py": "dca9d79b2d7c89bdd09e4e99293a158cb7fdc4cf8951df51561c68b019386456",
+  "conexion_lambda.py": "9dbdc7322e303f11f4b33897dd11de3e7ce8327636637e75bc246222391138b3",
+  "conexion_frontera.py": "4fb1915d7cf7ca39bf9385f975665a75b32717558096870d7d9213d151be2527"
+ },
+ "productos": [
+  {
+   "archivo": "frontier_result.jsonl",
+   "sha256": "007095a94b7d1fce18aea6214c56c45b370e9a6eb5b0e415da6a0cc09a26ea8c",
+   "filas": 4195
+  },
+  {
+   "archivo": "suplemento_procedencia.jsonl",
+   "sha256": "d6a12af3818993288d8b1f1cbbb87eb7cb64bf2ee25492ae4ff1d95cc2e55b39",
+   "filas": 70
+  }
+ ],
+ "estado": "completa",
+ "motivo": null,
+ "pared_s": 1.45
+}

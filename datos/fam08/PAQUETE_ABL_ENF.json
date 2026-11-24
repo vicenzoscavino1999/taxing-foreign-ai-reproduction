@@ -1,0 +1,96 @@
+{
+ "kind": "paquete-abl-enf-rem125",
+ "estado": "CANDIDATO_NO_EMITIDO",
+ "piezas": {
+  "COBERTURA_ABL_ENF-SINTETICO-FALLO.json": {
+   "sha256": "1cf83f111d83ce159874104ca6acd4159d35f20e325ff0250aeb36e16f879859",
+   "bytes": 302
+  },
+  "COBERTURA_ABL_ENF-SINTETICO.json": {
+   "sha256": "a60dab2665938be506d142198efd83b0c48ea71ffb55afe869829d16eb372bfc",
+   "bytes": 302
+  },
+  "COBERTURA_ABL_ENF.json": {
+   "sha256": "b7b2616c4f89f15d5469ad460e71697af910a6a0c2a2a60390b6a0fe367772d9",
+   "bytes": 302
+  },
+  "COBERTURA_ABL_ENF_FIXTURE-PUERTA.json": {
+   "sha256": "9465894d7d1dcc1bd9cd601b8dcdf651bd21aac1aec7afa09f27abd334cd914c",
+   "bytes": 302
+  },
+  "conducir_lote.py": {
+   "sha256": "f27166e2669e55e7ca5ca37966a5c151f3d240ae3e1b146b116460092c966a14",
+   "bytes": 17860
+  },
+  "conexion_coord_cert.py": {
+   "sha256": "e5776de970b72535ec7b72340604abfd9e8448479ea78dac4b714d870d273d61",
+   "bytes": 5649
+  },
+  "DIFERENCIAS_REM125.json": {
+   "sha256": "dca91cc1c35b659c484caf2662ea0ae2425979fb9163e8013802c13ffedb1d8c",
+   "bytes": 19615
+  },
+  "emitir_alcance_rec.py": {
+   "sha256": "2dafe3736e4f847798243f564bd7d8a3eaad8f0f88aef2e3b3175b9bb7f8d052",
+   "bytes": 6436
+  },
+  "ensamblar_coord.py": {
+   "sha256": "ac9a5d27d6f5fed0a069c7de664952b5ca774713fe285e0d6124920f0bc747be",
+   "bytes": 5339
+  },
+  "MANIFIESTO_ABL_ENF-SINTETICO-FALLO.json": {
+   "sha256": "bbfaca18cc79e3cd892a5bf1db44d790b9c162147feddf729fa11c17d12258e8",
+   "bytes": 1521417
+  },
+  "MANIFIESTO_ABL_ENF-SINTETICO.json": {
+   "sha256": "7e90855f13419bacc20b1eb0220a719af414a5b2fd7a0fc9af320ded837bfde6",
+   "bytes": 1521412
+  },
+  "MANIFIESTO_ABL_ENF.json": {
+   "sha256": "0b27b32abdfb4eaf0db11427a8a8bb93c7d4014c6c7acd1bdbfbe6e32d28b3ad",
+   "bytes": 1496309
+  },
+  "MANIFIESTO_ABL_ENF_FIXTURE-PUERTA.json": {
+   "sha256": "0e07dddfae7ef2816b26255de690d42c108f44957d8365ddb0e657ddb4029368",
+   "bytes": 1519656
+  },
+  "preparar_manifiesto_enf.py": {
+   "sha256": "df6a6ad0746c5ab9333cdd6ba40f6378ba5e48648bf13318fb76b2fffa6b736a",
+   "bytes": 12850
+  },
+  "receta_enf.sh": {
+   "sha256": "f486d10daf401d65c560fb1837db275db8ef3f8c9505fb5d11f9dc50906bfd32",
+   "bytes": 2664
+  },
+  "referencia_decision.py": {
+   "sha256": "039f6f6b490c81bd553f1a5c07fec848f15a8cdf0f6c70e6782511140abe7446",
+   "bytes": 1280
+  },
+  "tarea_lote.py": {
+   "sha256": "1fbe5cbc0525428788ac775f1a2e8c5e55b03079cb37a195b5ad997ed7bc0b40",
+   "bytes": 9917
+  },
+  "validar_coord_rec.py": {
+   "sha256": "086ea05688d9eb520982cc3e57a01eb5b45b37f3bb9b77503f3c0a2822ed0864",
+   "bytes": 20197
+  },
+  "validar_lote.py": {
+   "sha256": "070ae81d15119735369b08bf083e9ff3b7652ca99a2956547b9f290db4022ee4",
+   "bytes": 2494
+  }
+ },
+ "nucleo": {
+  "ruta": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion",
+  "identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae"
+ },
+ "deriva_de": {
+  "paquete": "tmp/paso4_ensamblado_coord_desde_rem123/lote_rec",
+  "indice_sha256": "644876a1aba23e9c5214dc01fccd9b5dc2bf06a699cb058ec7d109f46897f042"
+ },
+ "fuente_celdas": {
+  "ruta": "tmp/paso4_remanente_lotes_desde_rem113/censo/CENSO_REMANENTE.json",
+  "sha256": "78e51627014c11778b5388ee9aaa07074b3a33fbade09b226bd49933aa5d3129",
+  "familia": "ABL-ENF"
+ },
+ "alcance_necesario": "un alcance v3 con las 6 tareas ABL-ENF + una decisión humana nativa dedicada sobre su sha256; no emitido en rem125"
+}

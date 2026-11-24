@@ -1,0 +1,106 @@
+{
+ "kind": "preparacion-b1-b2-rem162",
+ "naturaleza": "PREPARACION PRECISA DOCE COV, ENUMERACION SIN EVALUACION CIENTIFICA; no ejecuta B1 ni B2, no emite alcances",
+ "eps": "1/100",
+ "B1": {
+  "definicion": "exactamente un encierro de C2 en la raiz COV (phi en [0,1/2]); dos si no se acepta compartir G/N en el menu f",
+  "solicitudes": {"min": 1, "max": 2, "planificadas_si_GN_compartido": ["G"], "planificadas_si_no": ["G", "N"]},
+  "una_raiz_para_las_doce": true,
+  "motivo_una_raiz": "los tres conjuntos ABL-COV tienen los mismos 9 ejes estructurales, fijos, cotas y menu (comprobado en CONTEXTO_COL_POR_GRUPO.json y en la prueba inerte raiz_desde_D7_COV)",
+  "pieza": {
+   "funcion": "paper2b.c2_normalizado.c2_normalizado(model, box, design, j, bd, bf, fixed=fixed)",
+   "contrato_de_llamada": "C0 cobertura.c2_encierro (cobertura.py:142-155): d = 'G' si clase_c2(design, j) == 'GN'",
+   "clase_c2": "cobertura.py:136-139: 'GN' si j == 'f' (G y N comparten encierro en f; demostracion del area 3.7)",
+   "c0_src": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src",
+   "c0_inventario": "609c6e4dc98cbb8e900e9fe5441feeaf506e22957947c927fb6073cec1cdba4a",
+   "cierre_importacion_sha256": {
+    "c2_normalizado.py": "31d247eeb0368a38aa90ea8c262e3ea55cdfa62d312fe68024969b54670ab785",
+    "encierros_modelo.py": "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53",
+    "model.py": "b8541045ce2db793e3acfba5e84053edc185a7f8cdfc5c1b535d1452ebde9b04",
+    "elementales.py": "c71faf35370fa2329db69802f03f52d9bc72566a2d9fa50a9ca8dbea1eb6f82b",
+    "intervalos.py": "2607d0cf3f879316c699ec4cd73021bff9ae8f680f7c7c01facb84dfb65aa891",
+    "supremum.py": "2c246c8be6d4437892cd951cc0acaaac6e5d8ea7a921de2e13f560caf8dfebbb",
+    "numeric.py": "4b19f4cb45a637c3a3370ca95059bc4f94feb71649a9f54fd5ac8c33c941c98e",
+    "modelos.py": "7f0dd31cacf431fb421e2c5047aa5b750cbecfc1064e3374c4247dcd40c93fda",
+    "frontier.py": "709f51b21188ff8d4638d7eadf535dd3f8307f2e1ce995a49539fe7bfcd36ed2",
+    "cobertura.py": "d6be53db849fbfaa1d11c3213cc25a0f86a990ef6b3198e36e6b56607f5d9381",
+    "__init__.py": "89f7210e7c118c83eec9d73323491e0d8c778b76d1297f703dfca2b86069c72a"
+   },
+   "nota_cierre": "model.py de C0 (b8541045...) difiere del de la instalacion paso4 (24af1c42...); el cierre se fija en C0"
+  },
+  "nucleo": "MotorNormalizado (integracion contra dF/mu) + EM.sup_bound(eng, j, bd, bf, tol, max_boxes=model.struct_max_boxes, jump_budget=0); devuelve Iv(sb.lower, max(sb.lower, sb.upper))/gamma (c2_normalizado.py:84-104)",
+  "modelo": "ModeloTeorico(param_budget_s=cfg.inversion_budget_seconds) como en run.py:127; struct_tol=1e-4, struct_max_boxes=400 por defecto (modelos.py:87-96); requiere model.certified (garantia 'ieee754_binary64_rn', modelos.py:79-85)",
+  "caja_raiz": {
+   "a": ["1.1", "2.5"], "beta_tilde": ["0.25", "4"], "eta_d": ["0.1", "4"], "eta_f": ["0.1", "8"],
+   "kappa_tilde": ["0.005", "0.2"], "phi": ["0", "0.5"], "rho": ["0.4", "1"], "u_theta": ["0.1", "0.9"], "z_cost": ["1", "100"]
+  },
+  "fijos": {"c_legal": "1", "gamma": "1", "t": "0", "z_m": "1"},
+  "cotas_tasas": {"bar_tau_d": "0.6", "bar_tau_f": "0.6"},
+  "menu": "f",
+  "dominio_tasas": "supremum.axes(j='f', bd, bf): tau_f en [0, bar_tau_f], tau_d = 0",
+  "escala": "normalizada: C2 = sup_tau Rn / gamma (Rn = R/mu); tolerancia de rama y cota max(struct_tol*gamma, ancho(c0)) en unidades de R/mu",
+  "garantia": "sb.upper es cota superior DEMOSTRADA (maximo de encierros de cajas vivas), valida aunque se agote max_boxes; U_C2 = hi del intervalo devuelto",
+  "entradas": "solo la caja raiz, fijos, cotas y menu; ningun estado nacional, contexto externo ni K1",
+  "transferible_de_cobertura5": {
+   "si": ["bytes de c2_normalizado.py (31d247ee... identicos en C0, instalacion y codigo/demo de cobertura5)",
+          "contrato G/N compartido en f (clase_c2)",
+          "justificacion analitica de q_pot_exact (monotonia) para B2"],
+   "no": ["su resultado C2_hi = 0.2737330609666464: caja padre con phi en [0,1], no la raiz COV",
+          "su universo: 16 afirmaciones MEX del registro v3",
+          "la identidad de su cierre de importacion: no esta registrada en su resultado y model.py difiere entre C0 y la instalacion",
+          "su aceptacion: solo consta como base de las 16 robustas en el registro v4; ningun libro la nombra",
+          "su rutina cubrir_m4: sondea el centro, calcula C2(N,f) de equivalencia y rankea hijas antes del bucle de hojas"]
+  },
+  "conexion": {"archivo": "preparacion/CONEXION_B1.py", "prueba_inerte": "preparacion/PRUEBA_INERTE_B1.json", "ejecutada_con_pieza_real": false},
+  "lectura_futura": {
+   "si_U_C2_mayor_que_K1_testigo_menos_eps": "parar ese grupo: la cota separable de raiz no certifica (toda L_K1 valida es <= K1_testigo); no refuta otras vias",
+   "si_U_C2_menor_o_igual": "siguen haciendo falta L_K1 valida (B2) y las ligaduras de soporte",
+   "si_invalido_o_presupuesto_agotado": "incompleto",
+   "K1_testigo_por_grupo": {"K1": 0.21560005716016362, "K2": 0.21521705657251147, "K3": 0.2137950304234002,
+                            "K4": 0.2134152363576294, "K5": 0.21560005716016362, "K6": 0.21521705657251147},
+   "nunca_clasifica_por_si_sola": true
+  }
+ },
+ "B2": {
+  "definicion": "cota inferior valida L_K1 de K1(s,c) sobre todo Omega_COV de cada afirmacion, con el factor estructural y la reduccion de los ejes continuos",
+  "funcion_real": "k1 = n_min / ((s_pi / (1 - q)) * gain) como en cobertura.g_enclosure (cobertura.py:93-97), con q = rango exacto de q_pot en la caja raiz (q_pot_exact, cobertura_compartida.py:47-53, sha 529d69dc...) en lugar de cobertura.q_pot ingenuo",
+  "por_que_no_q_pot_ingenuo": "en la caja raiz cobertura.q_pot da q en [0.000238, 3.0] (a aparece dos veces): q.hi >= 1, box_admissible falso y g_enclosure devuelve None",
+  "rango_q_exacto_decimal": ["1/1400", "1/5"],
+  "contextos_ruta": "run.claim_contexts (run.py:1171-1212): MC.bridge por (vertice, estado) para s_Pi/s_T; GridCell.Q por celda de la capa para n_min = min Q + DME_gAI",
+  "no_se_fuerza_external_K1": "external.K1 (external.py:112) es la forma puntual flotante; B2 usa la forma por intervalos acoplada",
+  "regla_de_reduccion": {
+   "enunciado": "para estado, eta_H y estructura fijos, s_Pi es afin en (eta_w, pi) y s_Pi*gain alcanza max y min en los 32 vertices; K1 = n_min(1-q)/(s_Pi*gain) es monotona en s_Pi*gain para cualquier signo de n_min; luego inf K1 sobre la caja macro = min sobre los 32 vertices; sobre la estructura, inf en q = q_hi si n_min >= 0 y en q = q_lo si n_min < 0, y la forma por intervalos cubre ambos casos",
+   "premisas": {
+    "P1_a_mayor_1": "autenticada (D7 a.lo = 1.1; CON.MOMENTS)",
+    "P2_rho_en_0_1": "autenticada (D7 rho en [0.4,1]; CON.S4)",
+    "P3_kappa_en_0_1_5": "autenticada en decimal (D7 [0.005,0.2]); binario64 0.2 > 1/5: redondeo hacia afuera",
+    "P4_a_mayor_rho": "autenticada (1.1 > 1)",
+    "P5_eta_H_mayor_menos1": "autenticada (nodos {-0.5,0,0.5}; CON.ETAH)",
+    "P6_gain_positivo": "autenticada (D7 [0.01,0.1])",
+    "P7_s_Pi_positivo_en_vertices": "PENDIENTE: CON.SPI es exclude; comprobar en 16 vertices (eta_w,pi) x 3 eta_H x 10 entradas nacionales; si falla alguno, la regla de vertices deja de ser exacta y B2 se detiene en ese estado",
+    "P8_s_T_no_negativo": "autenticada documentalmente (D6 component_sign_status positive_admissible en los tres componentes, pi > 0)",
+    "P9_signo_n_min": "NO autenticado y NO necesario para la forma por intervalos; necesario solo para la forma (4/5) n_min/(s_pi gain)",
+    "P10_afinidad_bridge": "macro.bridge: theta_W = (eta_w+eta_H)/(1+eta_H), s_T = sum pi_j s_bar_j, s_Pi = 1 - s_L_bar theta_W - s_T (exacto, Fraction)"
+   }
+  },
+  "redondeo": "Iv con nextafter hacia afuera (intervalos.py:14-18); las entradas de contexto son flotantes puntuales (bridge exacto -> float al mas cercano; Q en binario64) tratados como exactos por la ruta C0; q_hi se redondea hacia arriba",
+  "conteos": {
+   "contextos_por_afirmacion": {"E2_primary": 192, "E1_historical_anchor": 864, "E1_primary": 96},
+   "contextos_doce_antes_dedup": 4608,
+   "contextos_K1_efectivos_union": 1920,
+   "entradas_nacionales_efectivas": 10,
+   "bridge_entradas_unicas": 480,
+   "bridge_llamadas_en_claim_contexts": "una por (vertice de 32, eta_H, estado) en cada llamada por conjunto; 4608 si se llama por afirmacion y conjunto (deducido del codigo, no medido)",
+   "Q_celdas_capa": 30,
+   "Q_entradas_unicas": 60,
+   "Q_llamadas_en_claim_contexts": "30 por (vertice, estado) dentro del bucle (deducido del codigo, no medido)",
+   "evaluaciones_k1_intervalo_unicas": 1920,
+   "solicitudes_C2": 0,
+   "nota": "no se promete numero de evaluaciones ni duracion; son recuentos de entradas deducidos del codigo"
+  },
+  "s6": "B2 por la ruta run.claim_contexts necesita un contexto S6 de C0 (d7, grid_cells, proveedores de estados) con bloqueadores para modelo, C2 y supremos",
+  "ejecutado": false
+ },
+ "techo_de_celda_vs_supremo": "un techo de celda (capture_ceiling) es C2 en UNA estructura y celda: evidencia de cota inferior del supremo; el supremo sobre el soporte necesita un encierro que cubra toda la caja estructural (cota superior), como U_C2 de B1",
+ "s6_preparado_en_rem162": false
+}

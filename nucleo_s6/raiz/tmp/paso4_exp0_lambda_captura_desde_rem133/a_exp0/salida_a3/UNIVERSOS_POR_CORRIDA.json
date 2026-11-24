@@ -1,0 +1,1767 @@
+{
+ "kind": "universos-exp0-rem133",
+ "corridas": {
+  "BRUN-050091213b198d7cd7ba9ea2": {
+   "entrega": "fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201",
+   "plan_configurado": {
+    "conjuntos": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "unidades_plan": 187500,
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "combinaciones_D7_declaradas_capa_base": 5467500000,
+    "origen": "configuración reconstruida por sha256 en rem132 (RunConfig de la entrega + run_class + sets) y D7 por conjunto",
+    "nota": "combinaciones DECLARADAS en D7 (capa base), no evaluaciones de esta corrida"
+   },
+   "seleccion_registrada": {
+    "registros": 12,
+    "por_estado": {
+     "completo": 11,
+     "error": 1
+    },
+    "duplicados_entre_tramos": 12,
+    "transiciones": {
+     "no_ejecutado->completo": 5,
+     "completo->completo": 6,
+     "error->error": 1
+    },
+    "conjuntos": {
+     "COL-E2-2023.2023p.macro": 3,
+     "CMP-E1.micro": 3,
+     "CMP-E1.macro": 3,
+     "COL-E2-2023.2024p.macro": 1,
+     "COL-E2-2023.2024p.micro": 1,
+     "PER-E0E3.micro": 1
+    },
+    "directorios": [
+     "demo/detallado/resultados_tramo1",
+     "demo/detallado/resultados"
+    ],
+    "origen": "registros de celda con estado_final (autenticados por el inventario de la entrega)"
+   },
+   "seleccion_ejecutada": {
+    "celdas": 12,
+    "por_estado": {
+     "completo": 11,
+     "error": 1
+    },
+    "conjuntos": {
+     "COL-E2-2023.2023p.macro": 3,
+     "CMP-E1.micro": 3,
+     "CMP-E1.macro": 3,
+     "COL-E2-2023.2024p.macro": 1,
+     "COL-E2-2023.2024p.micro": 1,
+     "PER-E0E3.micro": 1
+    },
+    "combinaciones_D7_declaradas_capa_base": 3280500000,
+    "conjuntos_desconocidos": 0
+   },
+   "seleccion_aceptada": {
+    "celdas": 11,
+    "conjuntos": {
+     "COL-E2-2023.2023p.macro": 3,
+     "CMP-E1.micro": 3,
+     "CMP-E1.macro": 2,
+     "COL-E2-2023.2024p.macro": 1,
+     "COL-E2-2023.2024p.micro": 1,
+     "PER-E0E3.micro": 1
+    },
+    "con_registro_completo": 11,
+    "combinaciones_D7_declaradas_capa_base": 3280500000,
+    "origen": "anexo T8 de rem108 (autenticado)"
+   },
+   "seleccion_planificada_completa": {
+    "valor": null,
+    "motivo": "manifiestos/listas de selección con formatos heterogéneos por entrega; no normalizados en esta ronda. Los registros con estado no_ejecutado cubren lo asignado a trabajadores; lo planificado y no asignado no consta en ellos",
+    "archivos": [
+     {
+      "ruta": "demo/detallado/manifiesto_detallado.json",
+      "sha256": "929babe7fdfea4ad87d8f58e84970b93387cc2eee3f2ac7793cc237ae9d3f65c"
+     }
+    ]
+   }
+  },
+  "BRUN-1368187e9a43de0d95926dca": {
+   "entrega": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738",
+   "plan_configurado": {
+    "conjuntos": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "unidades_plan": 187500,
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "combinaciones_D7_declaradas_capa_base": 5467500000,
+    "origen": "configuración reconstruida por sha256 en rem132 (RunConfig de la entrega + run_class + sets) y D7 por conjunto",
+    "nota": "combinaciones DECLARADAS en D7 (capa base), no evaluaciones de esta corrida"
+   },
+   "seleccion_registrada": {
+    "registros": 116,
+    "por_estado": {
+     "completo": 114,
+     "no_ejecutado": 2
+    },
+    "duplicados_entre_tramos": 0,
+    "transiciones": {},
+    "conjuntos": {
+     "COL-E2-2023.2023p.macro": 21,
+     "CMP-E1.macro": 38,
+     "COL-E2-2023.2023p.micro": 13,
+     "CMP-E1.micro": 19,
+     "PER-E1.micro": 6,
+     "PER-E0E3.micro": 2,
+     "COL-E2-2023.2024p.macro": 4,
+     "COL-E2-2023.2024p.micro": 3,
+     "PER-E0E3.macro": 4,
+     "None": 2,
+     "PER-E1.macro": 4
+    },
+    "directorios": [
+     "demo/rem9/resultados"
+    ],
+    "origen": "registros de celda con estado_final (autenticados por el inventario de la entrega)"
+   },
+   "seleccion_ejecutada": {
+    "celdas": 114,
+    "por_estado": {
+     "completo": 114
+    },
+    "conjuntos": {
+     "COL-E2-2023.2023p.macro": 21,
+     "CMP-E1.macro": 38,
+     "COL-E2-2023.2023p.micro": 13,
+     "CMP-E1.micro": 19,
+     "PER-E1.micro": 6,
+     "PER-E0E3.micro": 2,
+     "COL-E2-2023.2024p.macro": 4,
+     "COL-E2-2023.2024p.micro": 3,
+     "PER-E0E3.macro": 4,
+     "PER-E1.macro": 4
+    },
+    "combinaciones_D7_declaradas_capa_base": 5467500000,
+    "conjuntos_desconocidos": 0
+   },
+   "seleccion_aceptada": {
+    "celdas": 114,
+    "conjuntos": {
+     "COL-E2-2023.2023p.macro": 21,
+     "CMP-E1.macro": 38,
+     "COL-E2-2023.2023p.micro": 13,
+     "CMP-E1.micro": 19,
+     "PER-E1.micro": 6,
+     "PER-E0E3.micro": 2,
+     "COL-E2-2023.2024p.macro": 4,
+     "COL-E2-2023.2024p.micro": 3,
+     "PER-E0E3.macro": 4,
+     "PER-E1.macro": 4
+    },
+    "con_registro_completo": 114,
+    "combinaciones_D7_declaradas_capa_base": 5467500000,
+    "origen": "anexo T8 de rem108 (autenticado)"
+   },
+   "seleccion_planificada_completa": {
+    "valor": null,
+    "motivo": "manifiestos/listas de selección con formatos heterogéneos por entrega; no normalizados en esta ronda. Los registros con estado no_ejecutado cubren lo asignado a trabajadores; lo planificado y no asignado no consta en ellos",
+    "archivos": [
+     {
+      "ruta": "demo/rem9/listas/lista_L10.json",
+      "sha256": "75fb9ba6e77f0a807118acf352582a5afd32ef24a1b75afa7a5ff1ffb381996d"
+     },
+     {
+      "ruta": "demo/rem9/listas/lista_L20.json",
+      "sha256": "9c25cb0b32378b271913ba998f130fc475f0c2539b3febd7b1088e1c995d5882"
+     },
+     {
+      "ruta": "demo/rem9/listas/lista_L30.json",
+      "sha256": "906f23994351c57dd41e1933236a4d95f2bec88855a02047e1f17c92d457d602"
+     },
+     {
+      "ruta": "demo/rem9/listas/lista_L40.json",
+      "sha256": "f42b74ba56c3456000321d1da20ee98268e0a3d1a089e126cd12a54668089fcd"
+     },
+     {
+      "ruta": "demo/rem9/listas/lista_L50.json",
+      "sha256": "691080a30addbf153eb7a44de61ea9d4a58b1e911909f21c2e98e69a498c0fe5"
+     },
+     {
+      "ruta": "demo/rem9/listas/lista_L60.json",
+      "sha256": "f425783ec09a43476b13908922b3280ebc42d48f5f2d303078b64a3027b6a5f9"
+     },
+     {
+      "ruta": "demo/rem9/listas/lista_L70.json",
+      "sha256": "8fa40efdd2e5662f41dee9f86772459f1608b5501500ddf914c1c9aa3ac74db5"
+     },
+     {
+      "ruta": "demo/rem9/listas/lista_L80.json",
+      "sha256": "703fe10f6e7ac0fb053754f0bdb188185939cb25a1a57683c3d1f1a12241677c"
+     },
+     {
+      "ruta": "demo/rem9/listas/lista_L90.json",
+      "sha256": "42efc434ce78780f0ce2db0ad6aa8d1505f38c51cae98338626ec39a1a6f6f28"
+     },
+     {
+      "ruta": "demo/rem9/listas/lista_LA0.json",
+      "sha256": "35ee66ccd24a43e6a117c22dfcfa449d72eba85fdcd39953a8c27c6dc8a53db4"
+     },
+     {
+      "ruta": "demo/rem9/listas/lista_LB0.json",
+      "sha256": "453341701fb0ec08259d01e9b5cf494fe3434c978b6400256757dbbc54ebadaa"
+     },
+     {
+      "ruta": "demo/rem9/listas/lista_LC0.json",
+      "sha256": "a8d7745346e8d5e05485e967b75c1b05bd3265680e542564b69f284343c9623e"
+     }
+    ]
+   }
+  },
+  "BRUN-47e3d9f48d2b65e9ddeed02f": {
+   "entrega": "remanente_s2_diagnostico_e6a4_r3_incorporacion_paso4_3_7_2026-10-11_lima2059",
+   "plan_configurado": {
+    "conjuntos": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "unidades_plan": 187500,
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "combinaciones_D7_declaradas_capa_base": 5467500000,
+    "origen": "configuración reconstruida por sha256 en rem132 (RunConfig de la entrega + run_class + sets) y D7 por conjunto",
+    "nota": "combinaciones DECLARADAS en D7 (capa base), no evaluaciones de esta corrida"
+   },
+   "seleccion_registrada": {
+    "registros": 2,
+    "por_estado": {
+     "completo": 2
+    },
+    "duplicados_entre_tramos": 0,
+    "transiciones": {},
+    "conjuntos": {
+     "CMP-E1.macro": 1,
+     "PER-E0E3.micro": 1
+    },
+    "directorios": [
+     "demo/rem10/resultados"
+    ],
+    "origen": "registros de celda con estado_final (autenticados por el inventario de la entrega)"
+   },
+   "seleccion_ejecutada": {
+    "celdas": 2,
+    "por_estado": {
+     "completo": 2
+    },
+    "conjuntos": {
+     "CMP-E1.macro": 1,
+     "PER-E0E3.micro": 1
+    },
+    "combinaciones_D7_declaradas_capa_base": 1093500000,
+    "conjuntos_desconocidos": 0
+   },
+   "seleccion_aceptada": {
+    "celdas": 2,
+    "conjuntos": {
+     "CMP-E1.macro": 1,
+     "PER-E0E3.micro": 1
+    },
+    "con_registro_completo": 2,
+    "combinaciones_D7_declaradas_capa_base": 1093500000,
+    "origen": "anexo T8 de rem108 (autenticado)"
+   },
+   "seleccion_planificada_completa": {
+    "valor": null,
+    "motivo": "manifiestos/listas de selección con formatos heterogéneos por entrega; no normalizados en esta ronda. Los registros con estado no_ejecutado cubren lo asignado a trabajadores; lo planificado y no asignado no consta en ellos",
+    "archivos": [
+     {
+      "ruta": "demo/rem10/diagnostico/listas/lista_D10.json",
+      "sha256": "6169d456f9002a1da40bfd8af1c7c082fdb2387a2c2aeb0a8ea287234991e9b4"
+     },
+     {
+      "ruta": "demo/rem10/listas/lista_L10.json",
+      "sha256": "b1a75393c79bc93ff718ce47ebd0ce8f8e3352ea6890038859b016f2fa2e06f2"
+     },
+     {
+      "ruta": "demo/rem10/listas/lista_L20.json",
+      "sha256": "cef105fc233c96eece4dfb19d7d11c35dc2e4b93f10e5b92847d17c528ec165d"
+     },
+     {
+      "ruta": "demo/rem10/lotes/L1/listas/lista_L10.json",
+      "sha256": "b1a75393c79bc93ff718ce47ebd0ce8f8e3352ea6890038859b016f2fa2e06f2"
+     },
+     {
+      "ruta": "demo/rem10/lotes/L2/listas/lista_L20.json",
+      "sha256": "cef105fc233c96eece4dfb19d7d11c35dc2e4b93f10e5b92847d17c528ec165d"
+     }
+    ]
+   }
+  },
+  "BRUN-4ef8507fcdefbddc55dbc3b7": {
+   "entrega": "remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200",
+   "plan_configurado": {
+    "conjuntos": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "unidades_plan": 187500,
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "combinaciones_D7_declaradas_capa_base": 5467500000,
+    "origen": "configuración reconstruida por sha256 en rem132 (RunConfig de la entrega + run_class + sets) y D7 por conjunto",
+    "nota": "combinaciones DECLARADAS en D7 (capa base), no evaluaciones de esta corrida"
+   },
+   "seleccion_registrada": {
+    "registros": 225,
+    "por_estado": {
+     "completo": 169,
+     "no_ejecutado": 54,
+     "detenido": 1,
+     "error": 1
+    },
+    "duplicados_entre_tramos": 0,
+    "transiciones": {},
+    "conjuntos": {
+     "CMP-E1.macro": 45,
+     "PER-E1.macro": 20,
+     "None": 56,
+     "CMP-E1.micro": 48,
+     "PER-E1.micro": 35,
+     "COL-E2-2023.2023p.micro": 3,
+     "COL-E2-2023.2023p.macro": 3,
+     "COL-E2-2023.2024p.micro": 5,
+     "COL-E2-2023.2024p.macro": 3,
+     "PER-E0E3.macro": 5,
+     "PER-E0E3.micro": 2
+    },
+    "directorios": [
+     "demo/rem5/resultados"
+    ],
+    "origen": "registros de celda con estado_final (autenticados por el inventario de la entrega)"
+   },
+   "seleccion_ejecutada": {
+    "celdas": 171,
+    "por_estado": {
+     "completo": 169,
+     "detenido": 1,
+     "error": 1
+    },
+    "conjuntos": {
+     "CMP-E1.macro": 45,
+     "PER-E1.macro": 20,
+     "CMP-E1.micro": 48,
+     "PER-E1.micro": 35,
+     "COL-E2-2023.2023p.micro": 3,
+     "COL-E2-2023.2023p.macro": 3,
+     "COL-E2-2023.2024p.micro": 5,
+     "COL-E2-2023.2024p.macro": 3,
+     "PER-E0E3.macro": 5,
+     "PER-E0E3.micro": 2,
+     "None": 2
+    },
+    "combinaciones_D7_declaradas_capa_base": null,
+    "conjuntos_desconocidos": 2
+   },
+   "seleccion_aceptada": {
+    "celdas": 169,
+    "conjuntos": {
+     "CMP-E1.macro": 45,
+     "PER-E1.macro": 20,
+     "CMP-E1.micro": 48,
+     "PER-E1.micro": 35,
+     "COL-E2-2023.2023p.micro": 3,
+     "COL-E2-2023.2023p.macro": 3,
+     "COL-E2-2023.2024p.micro": 5,
+     "COL-E2-2023.2024p.macro": 3,
+     "PER-E0E3.macro": 5,
+     "PER-E0E3.micro": 2
+    },
+    "con_registro_completo": 169,
+    "combinaciones_D7_declaradas_capa_base": 5467500000,
+    "origen": "anexo T8 de rem108 (autenticado)"
+   },
+   "seleccion_planificada_completa": {
+    "valor": null,
+    "motivo": "manifiestos/listas de selección con formatos heterogéneos por entrega; no normalizados en esta ronda. Los registros con estado no_ejecutado cubren lo asignado a trabajadores; lo planificado y no asignado no consta en ellos",
+    "archivos": [
+     {
+      "ruta": "demo/rem5/listas/lista_L10.json",
+      "sha256": "c8de498f36981fbd8b26c8f8c6485bb3af7dee37b1a94a609903c17b4e4cbfd9"
+     },
+     {
+      "ruta": "demo/rem5/listas/lista_L11.json",
+      "sha256": "dac371467f9fbc7b0823c879bed95500e1b271914ba03931f6d2c291e746d733"
+     },
+     {
+      "ruta": "demo/rem5/listas/lista_L12.json",
+      "sha256": "17b8fcde2a4fb37a97a7b20c50c4870b2eb12207fe08870a6a14f81ddbf924a1"
+     },
+     {
+      "ruta": "demo/rem5/listas/lista_L20.json",
+      "sha256": "c17ff27454eb0e4c0a797152f047ba2dac1ac1e529ee8410dcb32d7ec093add4"
+     },
+     {
+      "ruta": "demo/rem5/listas/lista_L21.json",
+      "sha256": "c4fbef8f5dce1b1aa97d79aee8ca867f8d650a908827a0c0014b23616adac7d7"
+     },
+     {
+      "ruta": "demo/rem5/listas/lista_L22.json",
+      "sha256": "04534e14181b174023287b295e78a83fee3acbf30e1059fb2cce20c8a16dea80"
+     },
+     {
+      "ruta": "demo/rem5/listas/lista_L2c0.json",
+      "sha256": "b28e0eaaafbc8c86b8d75a8fea434030c531971fbd9f53e283468bf31dbe60fd"
+     },
+     {
+      "ruta": "demo/rem5/listas/lista_L2d0.json",
+      "sha256": "4db7f3e605277a3fba6f5b0eca2fc887a3d9ace8bc602008f1d6dc53545f2436"
+     },
+     {
+      "ruta": "demo/rem5/listas/lista_L30.json",
+      "sha256": "0b3fb20bf08864686769b327f920e6f4d7c044ddd0a29a39ea78e4f70a18206c"
+     },
+     {
+      "ruta": "demo/rem5/listas/lista_L31.json",
+      "sha256": "2c01311eb6c469c7248a5c3f9fa4083e705fdfea4acb78a3e5845eb473461a88"
+     },
+     {
+      "ruta": "demo/rem5/listas/lista_L32.json",
+      "sha256": "e14139db78c2e906285872c2cb2445b8449ef59d8545d4c2308ab1b1dc997eab"
+     },
+     {
+      "ruta": "demo/rem5/listas/lista_L3c0.json",
+      "sha256": "94b2828ea6dc191dce58b111b42a3cad06dee0e885815422378cc90ff02b8a9d"
+     }
+    ]
+   }
+  },
+  "BRUN-5b35ba3f51bc08bd48b384bd": {
+   "entrega": "validacion_detallada_d_s1_d_h4_paso4_3_7_2026-10-09_lima2331",
+   "plan_configurado": {
+    "conjuntos": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "unidades_plan": 187500,
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "combinaciones_D7_declaradas_capa_base": 5467500000,
+    "origen": "configuración reconstruida por sha256 en rem132 (RunConfig de la entrega + run_class + sets) y D7 por conjunto",
+    "nota": "combinaciones DECLARADAS en D7 (capa base), no evaluaciones de esta corrida"
+   },
+   "seleccion_registrada": {
+    "registros": 576,
+    "por_estado": {
+     "completo": 575,
+     "no_aplicable": 1
+    },
+    "duplicados_entre_tramos": 287,
+    "transiciones": {
+     "no_ejecutado->completo": 182,
+     "completo->completo": 104,
+     "rechazado->completo": 1
+    },
+    "conjuntos": {
+     "CMP-E1.macro": 161,
+     "PER-E1.micro": 64,
+     "COL-E2-2023.2023p.macro": 32,
+     "CMP-E1.micro": 159,
+     "PER-E1.macro": 64,
+     "PER-E0E3.macro": 32,
+     "PER-E0E3.micro": 32,
+     "COL-E2-2023.2023p.micro": 32
+    },
+    "directorios": [
+     "demo/d_s1_d/resultados_tramo1",
+     "demo/d_s1_d/resultados",
+     "demo/diagnostico_s2gdf"
+    ],
+    "origen": "registros de celda con estado_final (autenticados por el inventario de la entrega)"
+   },
+   "seleccion_ejecutada": {
+    "celdas": 576,
+    "por_estado": {
+     "completo": 575,
+     "no_aplicable": 1
+    },
+    "conjuntos": {
+     "CMP-E1.macro": 161,
+     "PER-E1.micro": 64,
+     "COL-E2-2023.2023p.macro": 32,
+     "CMP-E1.micro": 159,
+     "PER-E1.macro": 64,
+     "PER-E0E3.macro": 32,
+     "PER-E0E3.micro": 32,
+     "COL-E2-2023.2023p.micro": 32
+    },
+    "combinaciones_D7_declaradas_capa_base": 4374000000,
+    "conjuntos_desconocidos": 0
+   },
+   "seleccion_aceptada": {
+    "celdas": 576,
+    "conjuntos": {
+     "CMP-E1.macro": 161,
+     "PER-E1.micro": 64,
+     "PER-E1.macro": 64,
+     "CMP-E1.micro": 159,
+     "PER-E0E3.macro": 32,
+     "COL-E2-2023.2023p.macro": 32,
+     "PER-E0E3.micro": 32,
+     "COL-E2-2023.2023p.micro": 32
+    },
+    "con_registro_completo": 575,
+    "combinaciones_D7_declaradas_capa_base": 4374000000,
+    "origen": "anexo T8 de rem108 (autenticado)"
+   },
+   "seleccion_planificada_completa": {
+    "valor": null,
+    "motivo": "manifiestos/listas de selección con formatos heterogéneos por entrega; no normalizados en esta ronda. Los registros con estado no_ejecutado cubren lo asignado a trabajadores; lo planificado y no asignado no consta en ellos",
+    "archivos": [
+     {
+      "ruta": "demo/d_s1_d/manifiesto_D_S1_d.json",
+      "sha256": "f008baa0115c5d901a8797dfeb19b6d2d1df44521600466ac4455ef0601b3d46"
+     },
+     {
+      "ruta": "demo/detallado/manifiesto_detallado.json",
+      "sha256": "929babe7fdfea4ad87d8f58e84970b93387cc2eee3f2ac7793cc237ae9d3f65c"
+     },
+     {
+      "ruta": "demo/p1a/manifiesto_p1a.json",
+      "sha256": "d1dcd2a783b7c7da0260ea8ef2db9ab4c8e8bd415ef00a4974c8b8032ab5a0a6"
+     },
+     {
+      "ruta": "demo/p1b/manifiesto_p1b.json",
+      "sha256": "65cc2bd6be1940bbc12dc7470dca32aa92c2232062df6b2f3d240919238ad531"
+     },
+     {
+      "ruta": "demo/siguiente_bloque/manifiesto_D_S1_d.json",
+      "sha256": "4076f12ab623c138b2b6c490c22eabee05ec082a240da73fd81e2bf9efcc4f21"
+     },
+     {
+      "ruta": "demo/validacion_v2/mutaciones/F01_error_techo_2e-7/manifiesto.json",
+      "sha256": "929babe7fdfea4ad87d8f58e84970b93387cc2eee3f2ac7793cc237ae9d3f65c"
+     },
+     {
+      "ruta": "demo/validacion_v2/mutaciones/F02_C2_fuera_del_certificado/manifiesto.json",
+      "sha256": "929babe7fdfea4ad87d8f58e84970b93387cc2eee3f2ac7793cc237ae9d3f65c"
+     },
+     {
+      "ruta": "demo/validacion_v2/mutaciones/F03_celda_externa/manifiesto.json",
+      "sha256": "929babe7fdfea4ad87d8f58e84970b93387cc2eee3f2ac7793cc237ae9d3f65c"
+     },
+     {
+      "ruta": "demo/validacion_v2/mutaciones/F04_caso_D4/manifiesto.json",
+      "sha256": "929babe7fdfea4ad87d8f58e84970b93387cc2eee3f2ac7793cc237ae9d3f65c"
+     },
+     {
+      "ruta": "demo/validacion_v2/mutaciones/F05_omega_id_en_filas/manifiesto.json",
+      "sha256": "929babe7fdfea4ad87d8f58e84970b93387cc2eee3f2ac7793cc237ae9d3f65c"
+     },
+     {
+      "ruta": "demo/validacion_v2/mutaciones/F06_clave_estructural/manifiesto.json",
+      "sha256": "929babe7fdfea4ad87d8f58e84970b93387cc2eee3f2ac7793cc237ae9d3f65c"
+     },
+     {
+      "ruta": "demo/validacion_v2/mutaciones/F07_tabla_ausente/manifiesto.json",
+      "sha256": "929babe7fdfea4ad87d8f58e84970b93387cc2eee3f2ac7793cc237ae9d3f65c"
+     }
+    ]
+   }
+  },
+  "BRUN-612818cb081c6797d4923b4d": {
+   "entrega": "s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800",
+   "plan_configurado": {
+    "conjuntos": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "unidades_plan": 187500,
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "combinaciones_D7_declaradas_capa_base": 5467500000,
+    "origen": "configuración reconstruida por sha256 en rem132 (RunConfig de la entrega + run_class + sets) y D7 por conjunto",
+    "nota": "combinaciones DECLARADAS en D7 (capa base), no evaluaciones de esta corrida"
+   },
+   "seleccion_registrada": {
+    "registros": 575,
+    "por_estado": {
+     "completo": 380,
+     "no_ejecutado": 183,
+     "detenido": 12
+    },
+    "duplicados_entre_tramos": 0,
+    "transiciones": {},
+    "conjuntos": {
+     "CMP-E1.micro": 136,
+     "PER-E0E3.macro": 32,
+     "PER-E1.micro": 45,
+     "None": 195,
+     "CMP-E1.macro": 64,
+     "PER-E1.macro": 32,
+     "COL-E2-2023.2023p.micro": 16,
+     "PER-E0E3.micro": 31,
+     "COL-E2-2023.2023p.macro": 24
+    },
+    "directorios": [
+     "demo/d_s1_f/resultados"
+    ],
+    "origen": "registros de celda con estado_final (autenticados por el inventario de la entrega)"
+   },
+   "seleccion_ejecutada": {
+    "celdas": 392,
+    "por_estado": {
+     "completo": 380,
+     "detenido": 12
+    },
+    "conjuntos": {
+     "CMP-E1.micro": 136,
+     "PER-E0E3.macro": 32,
+     "PER-E1.micro": 45,
+     "CMP-E1.macro": 64,
+     "PER-E1.macro": 32,
+     "COL-E2-2023.2023p.micro": 16,
+     "PER-E0E3.micro": 31,
+     "COL-E2-2023.2023p.macro": 24,
+     "None": 12
+    },
+    "combinaciones_D7_declaradas_capa_base": null,
+    "conjuntos_desconocidos": 12
+   },
+   "seleccion_aceptada": {
+    "celdas": 380,
+    "conjuntos": {
+     "CMP-E1.micro": 136,
+     "PER-E0E3.macro": 32,
+     "PER-E1.micro": 45,
+     "CMP-E1.macro": 64,
+     "PER-E1.macro": 32,
+     "COL-E2-2023.2023p.micro": 16,
+     "PER-E0E3.micro": 31,
+     "COL-E2-2023.2023p.macro": 24
+    },
+    "con_registro_completo": 380,
+    "combinaciones_D7_declaradas_capa_base": 4374000000,
+    "origen": "anexo T8 de rem108 (autenticado)"
+   },
+   "seleccion_planificada_completa": {
+    "valor": null,
+    "motivo": "manifiestos/listas de selección con formatos heterogéneos por entrega; no normalizados en esta ronda. Los registros con estado no_ejecutado cubren lo asignado a trabajadores; lo planificado y no asignado no consta en ellos",
+    "archivos": [
+     {
+      "ruta": "demo/d_s1_f/listas/lista_C0.json",
+      "sha256": "d013277f8639ffc9d32cd12326c8aac94bf949fab86054c324ee67a2ee50b367"
+     },
+     {
+      "ruta": "demo/d_s1_f/listas/lista_C1.json",
+      "sha256": "958403525e2c52d5c70050e9c0c5df70a921aae9a4896ff14547ce4ce8dadb63"
+     },
+     {
+      "ruta": "demo/d_s1_f/listas/lista_C2.json",
+      "sha256": "31876193d77e1b19a5fd7de3bf49346888fd92992963b06b54059765501a28f1"
+     },
+     {
+      "ruta": "demo/d_s1_f/listas/lista_D0.json",
+      "sha256": "369765e096237d7b274c002181589f24c8f3e462a1a346c1a77ae7e380fdb5ff"
+     },
+     {
+      "ruta": "demo/d_s1_f/listas/lista_D1.json",
+      "sha256": "8823df9191d2776d28d4ba4efe0081154580886e4bd286046094bdf6a03e58d2"
+     },
+     {
+      "ruta": "demo/d_s1_f/listas/lista_D2.json",
+      "sha256": "9ed1868bb27d5bf18e65fbfc4b13507750d1820d64562f9348c7f4ef9c75dff3"
+     },
+     {
+      "ruta": "demo/d_s1_f/listas/listas_C.json",
+      "sha256": "d1231fc92df0cebd04202deee6a0c9e5d15482bbf0cbb72fd9f5385936fae8a5"
+     },
+     {
+      "ruta": "demo/d_s1_f/listas/listas_D.json",
+      "sha256": "291d323df751889ac23b5cb5b67e2e62ea68e29cc8b98c0aaeaf5cac1031d14f"
+     },
+     {
+      "ruta": "demo/d_s1_f/manifiesto_D_S1_f.json",
+      "sha256": "60635923db0bf727b5ce1673527e26628b8f229727e5d1ce16272783e65acf1f"
+     }
+    ]
+   }
+  },
+  "BRUN-63a9e9ea157b2faaf317ae61": {
+   "entrega": "remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324",
+   "plan_configurado": {
+    "conjuntos": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "unidades_plan": 187500,
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "combinaciones_D7_declaradas_capa_base": 5467500000,
+    "origen": "configuración reconstruida por sha256 en rem132 (RunConfig de la entrega + run_class + sets) y D7 por conjunto",
+    "nota": "combinaciones DECLARADAS en D7 (capa base), no evaluaciones de esta corrida"
+   },
+   "seleccion_registrada": {
+    "registros": 214,
+    "por_estado": {
+     "no_ejecutado": 80,
+     "completo": 133,
+     "detenido": 1
+    },
+    "duplicados_entre_tramos": 0,
+    "transiciones": {},
+    "conjuntos": {
+     "None": 81,
+     "PER-E0E3.micro": 27,
+     "CMP-E1.micro": 33,
+     "PER-E0E3.macro": 17,
+     "COL-E2-2023.2023p.micro": 17,
+     "CMP-E1.macro": 17,
+     "COL-E2-2023.2023p.macro": 8,
+     "PER-E1.macro": 3,
+     "PER-E1.micro": 3,
+     "COL-E2-2023.2024p.micro": 5,
+     "COL-E2-2023.2024p.macro": 3
+    },
+    "directorios": [
+     "demo/rem8/resultados"
+    ],
+    "origen": "registros de celda con estado_final (autenticados por el inventario de la entrega)"
+   },
+   "seleccion_ejecutada": {
+    "celdas": 134,
+    "por_estado": {
+     "completo": 133,
+     "detenido": 1
+    },
+    "conjuntos": {
+     "PER-E0E3.micro": 27,
+     "CMP-E1.micro": 33,
+     "PER-E0E3.macro": 17,
+     "COL-E2-2023.2023p.micro": 17,
+     "CMP-E1.macro": 17,
+     "COL-E2-2023.2023p.macro": 8,
+     "PER-E1.macro": 3,
+     "PER-E1.micro": 3,
+     "COL-E2-2023.2024p.micro": 5,
+     "COL-E2-2023.2024p.macro": 3,
+     "None": 1
+    },
+    "combinaciones_D7_declaradas_capa_base": null,
+    "conjuntos_desconocidos": 1
+   },
+   "seleccion_aceptada": {
+    "celdas": 133,
+    "conjuntos": {
+     "PER-E0E3.micro": 27,
+     "CMP-E1.micro": 33,
+     "PER-E0E3.macro": 17,
+     "COL-E2-2023.2023p.micro": 17,
+     "CMP-E1.macro": 17,
+     "COL-E2-2023.2023p.macro": 8,
+     "PER-E1.macro": 3,
+     "PER-E1.micro": 3,
+     "COL-E2-2023.2024p.micro": 5,
+     "COL-E2-2023.2024p.macro": 3
+    },
+    "con_registro_completo": 133,
+    "combinaciones_D7_declaradas_capa_base": 5467500000,
+    "origen": "anexo T8 de rem108 (autenticado)"
+   },
+   "seleccion_planificada_completa": {
+    "valor": null,
+    "motivo": "manifiestos/listas de selección con formatos heterogéneos por entrega; no normalizados en esta ronda. Los registros con estado no_ejecutado cubren lo asignado a trabajadores; lo planificado y no asignado no consta en ellos",
+    "archivos": [
+     {
+      "ruta": "demo/rem8/listas/lista_L10.json",
+      "sha256": "9df3925eff6270f539ffc46b1d4787affdc1de34f7caeed204830b448c9e4598"
+     },
+     {
+      "ruta": "demo/rem8/listas/lista_L11.json",
+      "sha256": "9e58e7966ac6d96006c79a66ebe05455e637a7bfa2b4d5fd8fa565d52edaff5e"
+     },
+     {
+      "ruta": "demo/rem8/listas/lista_L12.json",
+      "sha256": "5adb14d20dd5de581ad7e9797a032a686faa52ce83bda2f655f281d167b9d192"
+     },
+     {
+      "ruta": "demo/rem8/listas/lista_L20.json",
+      "sha256": "84ac90f42675d5b5fe2e46cd19b69dd89c866d346065c1c70d006801ca954641"
+     },
+     {
+      "ruta": "demo/rem8/listas/lista_L30.json",
+      "sha256": "297cf33c75c76433a73812a06489ac5d616df653c64bd3e2b69f406e66fda712"
+     },
+     {
+      "ruta": "demo/rem8/listas/lista_L40.json",
+      "sha256": "1a656ce435e23c8d3081e55c0a80a328077fb5761f93e3648717454738bf0d42"
+     },
+     {
+      "ruta": "demo/rem8/listas/lista_L50.json",
+      "sha256": "348aedc14ecd6b07fce36ddc4a9e0153a0db38339ae00d09bcc721cdc802741e"
+     },
+     {
+      "ruta": "demo/rem8/listas/lista_L60.json",
+      "sha256": "54dcea6143afd14747fd7d0c0d09eacd068741c6e2f8a7f5b097add9a3ceec44"
+     },
+     {
+      "ruta": "demo/rem8/listas/lista_L70.json",
+      "sha256": "57a5b6d3882175d5d3d89cb8d97ee49a2f9d7178dd827eb8eb107be60d948d14"
+     },
+     {
+      "ruta": "demo/rem8/listas/lista_L80.json",
+      "sha256": "f36c37adf841b8597a9e7bbd9c679240aae6995da8bfd66ce6bb03ef872d31cb"
+     },
+     {
+      "ruta": "demo/rem8/listas/lista_L90.json",
+      "sha256": "393b92427bd8e0f5ab8c392d1f779490d9ec705f46536c0ace32ddc6e9c8f4c7"
+     },
+     {
+      "ruta": "demo/rem8/listas/lista_LA0.json",
+      "sha256": "19178e17923e5d7f2da0355bac73dbbe9d9bf9b5d27884636799a5443b204b57"
+     }
+    ]
+   }
+  },
+  "BRUN-7bdfe0a1bee57298e31e1b34": {
+   "entrega": "remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533",
+   "plan_configurado": {
+    "conjuntos": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "unidades_plan": 187500,
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "combinaciones_D7_declaradas_capa_base": 5467500000,
+    "origen": "configuración reconstruida por sha256 en rem132 (RunConfig de la entrega + run_class + sets) y D7 por conjunto",
+    "nota": "combinaciones DECLARADAS en D7 (capa base), no evaluaciones de esta corrida"
+   },
+   "seleccion_registrada": {
+    "registros": 161,
+    "por_estado": {
+     "completo": 97,
+     "no_ejecutado": 58,
+     "no_aplicable": 4,
+     "detenido": 2
+    },
+    "duplicados_entre_tramos": 0,
+    "transiciones": {},
+    "conjuntos": {
+     "PER-E1.macro": 33,
+     "COL-E2-2023.2023p.micro": 10,
+     "CMP-E1.micro": 23,
+     "PER-E1.micro": 9,
+     "COL-E2-2023.2023p.macro": 14,
+     "None": 60,
+     "CMP-E1.macro": 6,
+     "PER-E0E3.micro": 2,
+     "COL-E2-2023.2024p.micro": 3,
+     "PER-E0E3.macro": 1
+    },
+    "directorios": [
+     "demo/rem/resultados"
+    ],
+    "origen": "registros de celda con estado_final (autenticados por el inventario de la entrega)"
+   },
+   "seleccion_ejecutada": {
+    "celdas": 103,
+    "por_estado": {
+     "completo": 97,
+     "no_aplicable": 4,
+     "detenido": 2
+    },
+    "conjuntos": {
+     "PER-E1.macro": 33,
+     "COL-E2-2023.2023p.micro": 10,
+     "CMP-E1.micro": 23,
+     "PER-E1.micro": 9,
+     "COL-E2-2023.2023p.macro": 14,
+     "CMP-E1.macro": 6,
+     "PER-E0E3.micro": 2,
+     "COL-E2-2023.2024p.micro": 3,
+     "None": 2,
+     "PER-E0E3.macro": 1
+    },
+    "combinaciones_D7_declaradas_capa_base": null,
+    "conjuntos_desconocidos": 2
+   },
+   "seleccion_aceptada": {
+    "celdas": 101,
+    "conjuntos": {
+     "PER-E1.macro": 33,
+     "COL-E2-2023.2023p.micro": 10,
+     "CMP-E1.micro": 23,
+     "PER-E1.micro": 9,
+     "COL-E2-2023.2023p.macro": 14,
+     "CMP-E1.macro": 6,
+     "PER-E0E3.micro": 2,
+     "COL-E2-2023.2024p.micro": 3,
+     "PER-E0E3.macro": 1
+    },
+    "con_registro_completo": 97,
+    "combinaciones_D7_declaradas_capa_base": 4920750000,
+    "origen": "anexo T8 de rem108 (autenticado)"
+   },
+   "seleccion_planificada_completa": {
+    "valor": null,
+    "motivo": "manifiestos/listas de selección con formatos heterogéneos por entrega; no normalizados en esta ronda. Los registros con estado no_ejecutado cubren lo asignado a trabajadores; lo planificado y no asignado no consta en ellos",
+    "archivos": [
+     {
+      "ruta": "demo/rem/listas/lista_L10.json",
+      "sha256": "ad162456580198e4397710f1f8e96bb27340595a80d70c63e497f58754620ccd"
+     },
+     {
+      "ruta": "demo/rem/listas/lista_L11.json",
+      "sha256": "9c6614aeefb6528a199ed5ae9a365c4d7fbefe40e0f35cad6be5795662bd3c56"
+     },
+     {
+      "ruta": "demo/rem/listas/lista_L12.json",
+      "sha256": "ebef39f8995e07d23880238ffa593fee9386367d9f796e59411a28b7c1db2250"
+     },
+     {
+      "ruta": "demo/rem/listas/lista_L20.json",
+      "sha256": "4f0f0eba0446798d375988045fac704f60d1c3dec750482c24e1ef243ed15faa"
+     },
+     {
+      "ruta": "demo/rem/listas/lista_L21.json",
+      "sha256": "0700acf28d2c64ce6eaa42183892226b4af7067a01de5f508f9e413ebcf2721c"
+     },
+     {
+      "ruta": "demo/rem/listas/lista_L22.json",
+      "sha256": "ba2c08ba430e8f9d3918f8301706362f7cc8e4f07595ffc9418222d966d682d3"
+     },
+     {
+      "ruta": "demo/rem/listas/lista_L30.json",
+      "sha256": "ad3202a3dccbfaac5b9d539992c3f842ff0926ce11f3589c0036571b46c080fe"
+     },
+     {
+      "ruta": "demo/rem/listas/lista_L31.json",
+      "sha256": "9d7cf876c4a0604477ca743f9e517d5cfec70b902b116031335a20705c4cbfe3"
+     },
+     {
+      "ruta": "demo/rem/listas/lista_L32.json",
+      "sha256": "c652639fc666112a44f9733907c7d84e1b9b42ebb3dd05c2d7be4344ccde5e5a"
+     },
+     {
+      "ruta": "demo/rem/listas/lista_L40.json",
+      "sha256": "883af9224307a5b26e6d08b263f613f9eb9de6b084769e85162ad3ea74509476"
+     },
+     {
+      "ruta": "demo/rem/listas/lista_L41.json",
+      "sha256": "6957b711b7b3ee35842bc622b97c13a5c68604c070cf822816ff28b29d4a93e7"
+     },
+     {
+      "ruta": "demo/rem/listas/lista_L42.json",
+      "sha256": "8906080d5898e51575db6563db4a96de2699974c6ffcba9781da8cddcf83c0f9"
+     }
+    ]
+   }
+  },
+  "BRUN-991c466a1938ddbf2192eefb": {
+   "entrega": "remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213",
+   "plan_configurado": {
+    "conjuntos": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "unidades_plan": 187500,
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "combinaciones_D7_declaradas_capa_base": 5467500000,
+    "origen": "configuración reconstruida por sha256 en rem132 (RunConfig de la entrega + run_class + sets) y D7 por conjunto",
+    "nota": "combinaciones DECLARADAS en D7 (capa base), no evaluaciones de esta corrida"
+   },
+   "seleccion_registrada": {
+    "registros": 258,
+    "por_estado": {
+     "no_ejecutado": 69,
+     "completo": 155,
+     "no_aplicable": 33,
+     "detenido": 1
+    },
+    "duplicados_entre_tramos": 0,
+    "transiciones": {},
+    "conjuntos": {
+     "None": 70,
+     "CMP-E1.micro": 70,
+     "PER-E1.micro": 21,
+     "CMP-E1.macro": 40,
+     "PER-E1.macro": 5,
+     "COL-E2-2023.2024p.micro": 8,
+     "COL-E2-2023.2023p.macro": 8,
+     "COL-E2-2023.2023p.micro": 7,
+     "COL-E2-2023.2024p.macro": 6,
+     "PER-E0E3.macro": 15,
+     "PER-E0E3.micro": 8
+    },
+    "directorios": [
+     "demo/rem4/resultados"
+    ],
+    "origen": "registros de celda con estado_final (autenticados por el inventario de la entrega)"
+   },
+   "seleccion_ejecutada": {
+    "celdas": 189,
+    "por_estado": {
+     "completo": 155,
+     "no_aplicable": 33,
+     "detenido": 1
+    },
+    "conjuntos": {
+     "CMP-E1.micro": 70,
+     "PER-E1.micro": 21,
+     "CMP-E1.macro": 40,
+     "PER-E1.macro": 5,
+     "COL-E2-2023.2024p.micro": 8,
+     "COL-E2-2023.2023p.macro": 8,
+     "COL-E2-2023.2023p.micro": 7,
+     "COL-E2-2023.2024p.macro": 6,
+     "PER-E0E3.macro": 15,
+     "PER-E0E3.micro": 8,
+     "None": 1
+    },
+    "combinaciones_D7_declaradas_capa_base": null,
+    "conjuntos_desconocidos": 1
+   },
+   "seleccion_aceptada": {
+    "celdas": 188,
+    "conjuntos": {
+     "CMP-E1.micro": 70,
+     "PER-E1.micro": 21,
+     "CMP-E1.macro": 40,
+     "PER-E1.macro": 5,
+     "COL-E2-2023.2024p.micro": 8,
+     "COL-E2-2023.2023p.macro": 8,
+     "COL-E2-2023.2023p.micro": 7,
+     "COL-E2-2023.2024p.macro": 6,
+     "PER-E0E3.macro": 15,
+     "PER-E0E3.micro": 8
+    },
+    "con_registro_completo": 155,
+    "combinaciones_D7_declaradas_capa_base": 5467500000,
+    "origen": "anexo T8 de rem108 (autenticado)"
+   },
+   "seleccion_planificada_completa": {
+    "valor": null,
+    "motivo": "manifiestos/listas de selección con formatos heterogéneos por entrega; no normalizados en esta ronda. Los registros con estado no_ejecutado cubren lo asignado a trabajadores; lo planificado y no asignado no consta en ellos",
+    "archivos": [
+     {
+      "ruta": "demo/rem4/listas/lista_L10.json",
+      "sha256": "ec76b6842f818c8358a08bd68681c18a0872fd0008d06135c2c6bf13a7b606f0"
+     },
+     {
+      "ruta": "demo/rem4/listas/lista_L11.json",
+      "sha256": "fbcaeb2bd098dbf2ab41ff8ce16cf5036cf90fe8e3b450b0fd3f5e3788ef0519"
+     },
+     {
+      "ruta": "demo/rem4/listas/lista_L12.json",
+      "sha256": "998935d28435e98f48f62ab6605e19ab8ef53666ae23857b2f1a4c921eeca5cf"
+     },
+     {
+      "ruta": "demo/rem4/listas/lista_L21.json",
+      "sha256": "38eafafc3691c7993523258642dffeebb5542a76a4543cc7aeb3723494778a93"
+     },
+     {
+      "ruta": "demo/rem4/listas/lista_L22.json",
+      "sha256": "8dc06ed7ed052e636e48e40170213a5472750ded041ac9526d1dca8f6fcecb7f"
+     },
+     {
+      "ruta": "demo/rem4/listas/lista_L2c0.json",
+      "sha256": "793271068723143d69e116b81a9d6b8c0ad0f5ea79ff4f40d80f769c8e468af7"
+     },
+     {
+      "ruta": "demo/rem4/listas/lista_L31.json",
+      "sha256": "f4389b5a674473430559422790377252b9f8f3d32188f199fa7c72550033322c"
+     },
+     {
+      "ruta": "demo/rem4/listas/lista_L32.json",
+      "sha256": "514dd007c1fc3c5047d52f7a99b9e407668bd8f6df2f59bb8b65e7cd2eb21646"
+     },
+     {
+      "ruta": "demo/rem4/listas/lista_L3c0.json",
+      "sha256": "fb8160a61970817b98eca2cb2c82291995805bed8b8b6d58dc31d09f1434dfde"
+     },
+     {
+      "ruta": "demo/rem4/listas/lista_L41.json",
+      "sha256": "2ed4e64798970a251c11c365f9337b71f217de118159c7bc74b9fe8e0eb0bca4"
+     },
+     {
+      "ruta": "demo/rem4/listas/lista_L42.json",
+      "sha256": "568b6ee9bed91fc72d645d01f05f1ef88f71ae6ea9a9d1a68e51b32819726f1a"
+     },
+     {
+      "ruta": "demo/rem4/listas/lista_L4c0.json",
+      "sha256": "33b10aaab057181ec0498305361dc87eb41f94a39dc69e98737d5eaf2aed3da6"
+     }
+    ]
+   }
+  },
+  "BRUN-9c6c66e7af8b139a613b1c3f": {
+   "entrega": "remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009",
+   "plan_configurado": {
+    "conjuntos": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "unidades_plan": 187500,
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "combinaciones_D7_declaradas_capa_base": 5467500000,
+    "origen": "configuración reconstruida por sha256 en rem132 (RunConfig de la entrega + run_class + sets) y D7 por conjunto",
+    "nota": "combinaciones DECLARADAS en D7 (capa base), no evaluaciones de esta corrida"
+   },
+   "seleccion_registrada": {
+    "registros": 242,
+    "por_estado": {
+     "no_ejecutado": 79,
+     "completo": 162,
+     "detenido": 1
+    },
+    "duplicados_entre_tramos": 0,
+    "transiciones": {},
+    "conjuntos": {
+     "None": 80,
+     "PER-E0E3.macro": 17,
+     "PER-E1.macro": 19,
+     "CMP-E1.micro": 47,
+     "CMP-E1.macro": 39,
+     "COL-E2-2023.2023p.micro": 10,
+     "PER-E0E3.micro": 12,
+     "COL-E2-2023.2023p.macro": 12,
+     "PER-E1.micro": 5,
+     "COL-E2-2023.2024p.macro": 1
+    },
+    "directorios": [
+     "demo/rem7/resultados"
+    ],
+    "origen": "registros de celda con estado_final (autenticados por el inventario de la entrega)"
+   },
+   "seleccion_ejecutada": {
+    "celdas": 163,
+    "por_estado": {
+     "completo": 162,
+     "detenido": 1
+    },
+    "conjuntos": {
+     "PER-E0E3.macro": 17,
+     "PER-E1.macro": 19,
+     "CMP-E1.micro": 47,
+     "CMP-E1.macro": 39,
+     "COL-E2-2023.2023p.micro": 10,
+     "PER-E0E3.micro": 12,
+     "COL-E2-2023.2023p.macro": 12,
+     "PER-E1.micro": 5,
+     "COL-E2-2023.2024p.macro": 1,
+     "None": 1
+    },
+    "combinaciones_D7_declaradas_capa_base": null,
+    "conjuntos_desconocidos": 1
+   },
+   "seleccion_aceptada": {
+    "celdas": 162,
+    "conjuntos": {
+     "PER-E0E3.macro": 17,
+     "PER-E1.macro": 19,
+     "CMP-E1.micro": 47,
+     "CMP-E1.macro": 39,
+     "COL-E2-2023.2023p.micro": 10,
+     "PER-E0E3.micro": 12,
+     "COL-E2-2023.2023p.macro": 12,
+     "PER-E1.micro": 5,
+     "COL-E2-2023.2024p.macro": 1
+    },
+    "con_registro_completo": 162,
+    "combinaciones_D7_declaradas_capa_base": 4920750000,
+    "origen": "anexo T8 de rem108 (autenticado)"
+   },
+   "seleccion_planificada_completa": {
+    "valor": null,
+    "motivo": "manifiestos/listas de selección con formatos heterogéneos por entrega; no normalizados en esta ronda. Los registros con estado no_ejecutado cubren lo asignado a trabajadores; lo planificado y no asignado no consta en ellos",
+    "archivos": [
+     {
+      "ruta": "demo/rem7/listas/lista_L10.json",
+      "sha256": "72c98cfb2e3bdace911b85700c05878ea5ab0be5002cb5613c8a5cf68e86da66"
+     },
+     {
+      "ruta": "demo/rem7/listas/lista_L11.json",
+      "sha256": "7e0ce771f967f616a6781b8b0a1c6511d7c3e7155c43c93a25799cfebd13ba82"
+     },
+     {
+      "ruta": "demo/rem7/listas/lista_L12.json",
+      "sha256": "a9c062c9158d583fe0ae5648fa04a2cc03e433cb12d666caf9148a057c87448e"
+     },
+     {
+      "ruta": "demo/rem7/listas/lista_L20.json",
+      "sha256": "e08bd79678cfb9272c359dc16eac5de01d9758e47bb4306cbb71225ea07b8bc5"
+     },
+     {
+      "ruta": "demo/rem7/listas/lista_L21.json",
+      "sha256": "a9841bae2ad0be73c49a219c0fac52c520bbf1bbb5f9e165497740deaa088266"
+     },
+     {
+      "ruta": "demo/rem7/listas/lista_L22.json",
+      "sha256": "68723a7e8903dd2377360c70802ee1cf81ba4cf61f811d717351fd89b2463db4"
+     },
+     {
+      "ruta": "demo/rem7/listas/lista_L2c0.json",
+      "sha256": "e3ae6fef7b2c88baf788aff1ed463697bb5ea89f26effce0b6b44e206a881f97"
+     },
+     {
+      "ruta": "demo/rem7/listas/lista_L2d0.json",
+      "sha256": "5999630f84917585e84a47b4fa3d8900c48132b4414984e203e2b1e80001c84a"
+     },
+     {
+      "ruta": "demo/rem7/listas/lista_L30.json",
+      "sha256": "9a322ab8194fd6940a72bf61c58e34bc476da8af894531774dcc4a3257239c80"
+     },
+     {
+      "ruta": "demo/rem7/listas/lista_L31.json",
+      "sha256": "45099a29ba62cc0382670b6e447525f4d115ccf8b7b89a7238c519d7d18ea40a"
+     },
+     {
+      "ruta": "demo/rem7/listas/lista_L32.json",
+      "sha256": "d0a02c91304819b06557fcd61a46ee08e876b0f763884b598ddc96159064c8e2"
+     },
+     {
+      "ruta": "demo/rem7/listas/lista_L40.json",
+      "sha256": "419a1d0f4821072c28453b6d2d43be293cee6545e9787fcddc9b6eadfb3341e4"
+     }
+    ]
+   }
+  },
+  "BRUN-a81e3f45f7111e18b1f39370": {
+   "entrega": "remanente_s1df_s2_consumidor_h4_paso4_3_7_2026-10-11_lima0604",
+   "plan_configurado": {
+    "conjuntos": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "unidades_plan": 187500,
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "combinaciones_D7_declaradas_capa_base": 5467500000,
+    "origen": "configuración reconstruida por sha256 en rem132 (RunConfig de la entrega + run_class + sets) y D7 por conjunto",
+    "nota": "combinaciones DECLARADAS en D7 (capa base), no evaluaciones de esta corrida"
+   },
+   "seleccion_registrada": {
+    "registros": 80,
+    "por_estado": {
+     "completo": 22,
+     "no_ejecutado": 57,
+     "detenido": 1
+    },
+    "duplicados_entre_tramos": 0,
+    "transiciones": {},
+    "conjuntos": {
+     "CMP-E1.micro": 6,
+     "None": 58,
+     "CMP-E1.macro": 11,
+     "COL-E2-2023.2024p.macro": 1,
+     "COL-E2-2023.2023p.macro": 2,
+     "PER-E1.macro": 1,
+     "COL-E2-2023.2023p.micro": 1
+    },
+    "directorios": [
+     "demo/rem6/resultados"
+    ],
+    "origen": "registros de celda con estado_final (autenticados por el inventario de la entrega)"
+   },
+   "seleccion_ejecutada": {
+    "celdas": 23,
+    "por_estado": {
+     "completo": 22,
+     "detenido": 1
+    },
+    "conjuntos": {
+     "CMP-E1.micro": 6,
+     "CMP-E1.macro": 11,
+     "COL-E2-2023.2024p.macro": 1,
+     "COL-E2-2023.2023p.macro": 2,
+     "PER-E1.macro": 1,
+     "COL-E2-2023.2023p.micro": 1,
+     "None": 1
+    },
+    "combinaciones_D7_declaradas_capa_base": null,
+    "conjuntos_desconocidos": 1
+   },
+   "seleccion_aceptada": {
+    "celdas": 22,
+    "conjuntos": {
+     "CMP-E1.micro": 6,
+     "CMP-E1.macro": 11,
+     "COL-E2-2023.2024p.macro": 1,
+     "COL-E2-2023.2023p.macro": 2,
+     "PER-E1.macro": 1,
+     "COL-E2-2023.2023p.micro": 1
+    },
+    "con_registro_completo": 22,
+    "combinaciones_D7_declaradas_capa_base": 3280500000,
+    "origen": "anexo T8 de rem108 (autenticado)"
+   },
+   "seleccion_planificada_completa": {
+    "valor": null,
+    "motivo": "manifiestos/listas de selección con formatos heterogéneos por entrega; no normalizados en esta ronda. Los registros con estado no_ejecutado cubren lo asignado a trabajadores; lo planificado y no asignado no consta en ellos",
+    "archivos": [
+     {
+      "ruta": "demo/rem6/listas/lista_L10.json",
+      "sha256": "0414a79c9036f046bee4aef2e07b78017f34e82e76e8c19e67a8ba14fc0d63e4"
+     },
+     {
+      "ruta": "demo/rem6/listas/lista_L11.json",
+      "sha256": "055122e8115cf617c2b204aa49e25784020d38cb8af95441c325b7303a11d06c"
+     },
+     {
+      "ruta": "demo/rem6/listas/lista_L12.json",
+      "sha256": "fa03535c3bcda68d48dc6a55839aaf7d48f6b9d8b4a6f22272541d1a997ce1e0"
+     },
+     {
+      "ruta": "demo/rem6/listas/lista_L20.json",
+      "sha256": "0a787e528739dc45ac5d04b1a27365dcfc5c28bfb714455146a3b152e2fb4bff"
+     },
+     {
+      "ruta": "demo/rem6/listas/lista_L21.json",
+      "sha256": "cc184c24c732e705a3d9d266b9156dd832babb855d1b8d1e0de2d6f21c7daf21"
+     },
+     {
+      "ruta": "demo/rem6/listas/lista_L22.json",
+      "sha256": "0f7e4996bb05d45c5366b5dc6c367cbe4020177ae00cb82c8550abbf9a5d6d50"
+     },
+     {
+      "ruta": "demo/rem6/listas/lista_L2c0.json",
+      "sha256": "12df70b2d912d0001f3eafc3a6f4d53b0025d309d625e5f8f9b9e364259078f3"
+     },
+     {
+      "ruta": "demo/rem6/listas/lista_L2d0.json",
+      "sha256": "4cb7409d4d84a68b37afe115aab802cc1bad57de27b01b51245f8b5d7ea2b388"
+     },
+     {
+      "ruta": "demo/rem6/listas_descartadas/D_REM8_L2c_rechazado_sin_listas.json",
+      "sha256": "3a4dcaed8bb5ce8e3cce6ccb01a874df11b6ff06a6c1353732db28770a2bd6fd"
+     },
+     {
+      "ruta": "demo/rem6/listas_descartadas/D_REM8_L2d_rechazado_sin_listas.json",
+      "sha256": "b1c39dc4bb29c5a10154c26bf36c422739a735e000d694008b8ebd39cd457ced"
+     },
+     {
+      "ruta": "demo/rem6/listas_descartadas/lista_L2c00.json",
+      "sha256": "306c24429249810acef77b4268b7cb54ed40a4c1114896732475db53bab4092e"
+     },
+     {
+      "ruta": "demo/rem6/lotes/L1/listas/lista_L10.json",
+      "sha256": "0414a79c9036f046bee4aef2e07b78017f34e82e76e8c19e67a8ba14fc0d63e4"
+     }
+    ]
+   }
+  },
+  "BRUN-c5af32a993773f5258ce570f": {
+   "entrega": "s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125",
+   "plan_configurado": {
+    "conjuntos": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "unidades_plan": 187500,
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "combinaciones_D7_declaradas_capa_base": 5467500000,
+    "origen": "configuración reconstruida por sha256 en rem132 (RunConfig de la entrega + run_class + sets) y D7 por conjunto",
+    "nota": "combinaciones DECLARADAS en D7 (capa base), no evaluaciones de esta corrida"
+   },
+   "seleccion_registrada": {
+    "registros": 195,
+    "por_estado": {
+     "completo": 149,
+     "no_ejecutado": 46
+    },
+    "duplicados_entre_tramos": 0,
+    "transiciones": {},
+    "conjuntos": {
+     "PER-E1.macro": 16,
+     "CMP-E1.macro": 96,
+     "PER-E1.micro": 12,
+     "None": 46,
+     "COL-E2-2023.2023p.micro": 8,
+     "CMP-E1.micro": 9,
+     "COL-E2-2023.2023p.macro": 7,
+     "PER-E0E3.micro": 1
+    },
+    "directorios": [
+     "demo/d_s1f_r/resultados"
+    ],
+    "origen": "registros de celda con estado_final (autenticados por el inventario de la entrega)"
+   },
+   "seleccion_ejecutada": {
+    "celdas": 149,
+    "por_estado": {
+     "completo": 149
+    },
+    "conjuntos": {
+     "PER-E1.macro": 16,
+     "CMP-E1.macro": 96,
+     "PER-E1.micro": 12,
+     "COL-E2-2023.2023p.micro": 8,
+     "CMP-E1.micro": 9,
+     "COL-E2-2023.2023p.macro": 7,
+     "PER-E0E3.micro": 1
+    },
+    "combinaciones_D7_declaradas_capa_base": 3827250000,
+    "conjuntos_desconocidos": 0
+   },
+   "seleccion_aceptada": {
+    "celdas": 149,
+    "conjuntos": {
+     "PER-E1.macro": 16,
+     "CMP-E1.macro": 96,
+     "PER-E1.micro": 12,
+     "COL-E2-2023.2023p.micro": 8,
+     "CMP-E1.micro": 9,
+     "COL-E2-2023.2023p.macro": 7,
+     "PER-E0E3.micro": 1
+    },
+    "con_registro_completo": 149,
+    "combinaciones_D7_declaradas_capa_base": 3827250000,
+    "origen": "anexo T8 de rem108 (autenticado)"
+   },
+   "seleccion_planificada_completa": {
+    "valor": null,
+    "motivo": "manifiestos/listas de selección con formatos heterogéneos por entrega; no normalizados en esta ronda. Los registros con estado no_ejecutado cubren lo asignado a trabajadores; lo planificado y no asignado no consta en ellos",
+    "archivos": [
+     {
+      "ruta": "demo/d_s1f_r/lista_remanente.json",
+      "sha256": "8032e018aff35a44d3aa49ae0424395217de1e2757ffc6da0e797701e05d24dc"
+     },
+     {
+      "ruta": "demo/d_s1f_r/listas/lista_R10.json",
+      "sha256": "402ea6270af82bdcb7dbc96c6010164a04f6f30a457db3ab98600955c9961c8c"
+     },
+     {
+      "ruta": "demo/d_s1f_r/listas/lista_R11.json",
+      "sha256": "6c1b9b6d0d67f5c34b5d1e5e0adefce262c717e76dab2b9acdfafaeb623550ba"
+     },
+     {
+      "ruta": "demo/d_s1f_r/listas/lista_R12.json",
+      "sha256": "1edc644c7807f8bb6dac027b9f470108a12ffd50b458c05695b551d27ba5025f"
+     },
+     {
+      "ruta": "demo/d_s1f_r/listas/lista_R20.json",
+      "sha256": "9a329a0bd1cbbc983c5326e19ee36c410eb9690bd846fa2564396f86e69d6628"
+     },
+     {
+      "ruta": "demo/d_s1f_r/listas/lista_R21.json",
+      "sha256": "4a855ff0e88ebcde70ff1a8af3816601ceab077aca27b22028354c363ab49d00"
+     },
+     {
+      "ruta": "demo/d_s1f_r/listas/lista_R22.json",
+      "sha256": "b5f1c960d484c2a194806b9bcc3bf5702400498910afd650cd177cf341a89aca"
+     },
+     {
+      "ruta": "demo/d_s1f_r/listas/lista_R30.json",
+      "sha256": "ce88a36f645ecfb3fe958587893fecf15b162dc63654b737cd80118b0078e7d6"
+     },
+     {
+      "ruta": "demo/d_s1f_r/listas/lista_R31.json",
+      "sha256": "55f9ae008239eddc655a10ce9a21a6fa1a6da30addd5ec58462e4e3fb7f2b9a0"
+     },
+     {
+      "ruta": "demo/d_s1f_r/listas/lista_R32.json",
+      "sha256": "c15b0139527e0f0805b53bfb609d29a056ebd3a19e9f0484c8fd6ebb3750e3b9"
+     }
+    ]
+   }
+  },
+  "BRUN-cb33e6b24039acc84fb1a065": {
+   "entrega": "remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855",
+   "plan_configurado": {
+    "conjuntos": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "unidades_plan": 187500,
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "combinaciones_D7_declaradas_capa_base": 5467500000,
+    "origen": "configuración reconstruida por sha256 en rem132 (RunConfig de la entrega + run_class + sets) y D7 por conjunto",
+    "nota": "combinaciones DECLARADAS en D7 (capa base), no evaluaciones de esta corrida"
+   },
+   "seleccion_registrada": {
+    "registros": 306,
+    "por_estado": {
+     "completo": 141,
+     "no_ejecutado": 38,
+     "no_aplicable": 127
+    },
+    "duplicados_entre_tramos": 0,
+    "transiciones": {},
+    "conjuntos": {
+     "PER-E1.micro": 31,
+     "CMP-E1.macro": 77,
+     "None": 38,
+     "PER-E1.macro": 32,
+     "CMP-E1.micro": 42,
+     "COL-E2-2023.2024p.macro": 18,
+     "COL-E2-2023.2023p.micro": 17,
+     "COL-E2-2023.2024p.micro": 14,
+     "PER-E0E3.micro": 15,
+     "COL-E2-2023.2023p.macro": 12,
+     "PER-E0E3.macro": 10
+    },
+    "directorios": [
+     "demo/rem3/resultados"
+    ],
+    "origen": "registros de celda con estado_final (autenticados por el inventario de la entrega)"
+   },
+   "seleccion_ejecutada": {
+    "celdas": 268,
+    "por_estado": {
+     "completo": 141,
+     "no_aplicable": 127
+    },
+    "conjuntos": {
+     "PER-E1.micro": 31,
+     "CMP-E1.macro": 77,
+     "PER-E1.macro": 32,
+     "CMP-E1.micro": 42,
+     "COL-E2-2023.2024p.macro": 18,
+     "COL-E2-2023.2023p.micro": 17,
+     "COL-E2-2023.2024p.micro": 14,
+     "PER-E0E3.micro": 15,
+     "COL-E2-2023.2023p.macro": 12,
+     "PER-E0E3.macro": 10
+    },
+    "combinaciones_D7_declaradas_capa_base": 5467500000,
+    "conjuntos_desconocidos": 0
+   },
+   "seleccion_aceptada": {
+    "celdas": 268,
+    "conjuntos": {
+     "PER-E1.micro": 31,
+     "CMP-E1.macro": 77,
+     "PER-E1.macro": 32,
+     "CMP-E1.micro": 42,
+     "COL-E2-2023.2024p.macro": 18,
+     "COL-E2-2023.2023p.micro": 17,
+     "COL-E2-2023.2024p.micro": 14,
+     "PER-E0E3.micro": 15,
+     "COL-E2-2023.2023p.macro": 12,
+     "PER-E0E3.macro": 10
+    },
+    "con_registro_completo": 141,
+    "combinaciones_D7_declaradas_capa_base": 5467500000,
+    "origen": "anexo T8 de rem108 (autenticado)"
+   },
+   "seleccion_planificada_completa": {
+    "valor": null,
+    "motivo": "manifiestos/listas de selección con formatos heterogéneos por entrega; no normalizados en esta ronda. Los registros con estado no_ejecutado cubren lo asignado a trabajadores; lo planificado y no asignado no consta en ellos",
+    "archivos": [
+     {
+      "ruta": "demo/rem3/listas/lista_L10.json",
+      "sha256": "be32178d8671d023691d5d46f2a62acf4c2e8c5721d2ea2b90db060ee6e93d22"
+     },
+     {
+      "ruta": "demo/rem3/listas/lista_L11.json",
+      "sha256": "b2433f853efaa68120ca7d293f7c1ada28b3cdb8e561ef0354aa5b61edcc05f8"
+     },
+     {
+      "ruta": "demo/rem3/listas/lista_L12.json",
+      "sha256": "79bc2adbff31cdf44fdfa28896bca797fd51827932a0aff62ba53e441d747d81"
+     },
+     {
+      "ruta": "demo/rem3/listas/lista_L1c0.json",
+      "sha256": "70440f0e3be6d0c5e47591f8703eaedf451119ad3c08b031bb68ebc739b2eec0"
+     },
+     {
+      "ruta": "demo/rem3/listas/lista_L20.json",
+      "sha256": "952222a52d92eae292a1693d34c7177b59295398a87fd03dc63e8108e03bb08a"
+     },
+     {
+      "ruta": "demo/rem3/listas/lista_L21.json",
+      "sha256": "94783439b2f9296f9cdfc896406083b99249839a7486946f267a3713c6af69be"
+     },
+     {
+      "ruta": "demo/rem3/listas/lista_L22.json",
+      "sha256": "905e32352f98444abe14070fb7ccccdbfaeb8c11c2dca4a90b45f4032414c2ea"
+     },
+     {
+      "ruta": "demo/rem3/listas/lista_L2c0.json",
+      "sha256": "e261304c8eb5a4105431075d8d9d5af3920f8eb02c4357ba72bce93437ebf02a"
+     },
+     {
+      "ruta": "demo/rem3/listas/lista_L30.json",
+      "sha256": "40699c7f059b1bbe26d60200303fe039f682e9845744bee3428f5f58ffcd5aa6"
+     },
+     {
+      "ruta": "demo/rem3/listas/lista_L31.json",
+      "sha256": "3b94f15b60e9dd6fcf23e4ee05cfcf6c65aa78a6e7fc3587d031b947e8a139d1"
+     },
+     {
+      "ruta": "demo/rem3/listas/lista_L32.json",
+      "sha256": "d52fb859e5c083aed0a07b0918113c9e340705f3dab4f7aef72ecc54bc097573"
+     },
+     {
+      "ruta": "demo/rem3/listas/lista_L3c0.json",
+      "sha256": "baf569c86f0ee2d9c5d380c00f3d4779e11fe23d366879a7c52c4196fc93c353"
+     }
+    ]
+   }
+  },
+  "BRUN-f5f58960bbf9017776d3d7fc": {
+   "entrega": "remanente_e6a4_correccion_cierre_paso4_3_7_2026-10-11_lima2330",
+   "plan_configurado": {
+    "conjuntos": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "unidades_plan": 187500,
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "combinaciones_D7_declaradas_capa_base": 5467500000,
+    "origen": "configuración reconstruida por sha256 en rem132 (RunConfig de la entrega + run_class + sets) y D7 por conjunto",
+    "nota": "combinaciones DECLARADAS en D7 (capa base), no evaluaciones de esta corrida"
+   },
+   "seleccion_registrada": {
+    "registros": 1,
+    "por_estado": {
+     "completo": 1
+    },
+    "duplicados_entre_tramos": 0,
+    "transiciones": {},
+    "conjuntos": {
+     "PER-E0E3.macro": 1
+    },
+    "directorios": [
+     "demo/rem11/resultados"
+    ],
+    "origen": "registros de celda con estado_final (autenticados por el inventario de la entrega)"
+   },
+   "seleccion_ejecutada": {
+    "celdas": 1,
+    "por_estado": {
+     "completo": 1
+    },
+    "conjuntos": {
+     "PER-E0E3.macro": 1
+    },
+    "combinaciones_D7_declaradas_capa_base": 546750000,
+    "conjuntos_desconocidos": 0
+   },
+   "seleccion_aceptada": {
+    "celdas": 1,
+    "conjuntos": {
+     "PER-E0E3.macro": 1
+    },
+    "con_registro_completo": 1,
+    "combinaciones_D7_declaradas_capa_base": 546750000,
+    "origen": "anexo T8 de rem108 (autenticado)"
+   },
+   "seleccion_planificada_completa": {
+    "valor": null,
+    "motivo": "manifiestos/listas de selección con formatos heterogéneos por entrega; no normalizados en esta ronda. Los registros con estado no_ejecutado cubren lo asignado a trabajadores; lo planificado y no asignado no consta en ellos",
+    "archivos": [
+     {
+      "ruta": "demo/rem11/listas/lista_E10.json",
+      "sha256": "afc17f3994be4bccd1d5f4e546462da2f197de5495b084da1126d5c865bcf8da"
+     },
+     {
+      "ruta": "demo/rem11/lotes/E1/listas/lista_E10.json",
+      "sha256": "afc17f3994be4bccd1d5f4e546462da2f197de5495b084da1126d5c865bcf8da"
+     }
+    ]
+   }
+  }
+ }
+}

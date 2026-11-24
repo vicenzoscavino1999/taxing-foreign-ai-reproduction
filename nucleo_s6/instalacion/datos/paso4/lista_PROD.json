@@ -1,0 +1,2601 @@
+{
+ "PROD4": {
+  "calculo": "ninguno",
+  "estados_distintos": [
+   "resultado",
+   "NA",
+   "inconcluso certificado",
+   "incomplete_search"
+  ],
+  "que": "conciliación de productos aceptados con las 16 afirmaciones, C1–C10/T1–T8 y experimentos 0–6, 8 y 9 del diseño (experimento 7 retirado bajo M3)"
+ },
+ "familias": {
+  "PROD1": 40,
+  "PROD2": 80,
+  "PROD3": 32
+ },
+ "fuentes": {
+  "deduplicacion_GN": {
+   "archivo": "demo/paso4/ensayo_quiebres_macro.json",
+   "entrega": "cierre_df_paso4_3_7_2026-10-05_lima1958",
+   "inventario_sha256": "f62789edc1e7f22c307e23cad95d71dcdff07f99715c63d5dbea9f5d0a991f8c",
+   "sha256": "05229f6e7f8d7a4fa131a3042cd254975bbe59a2d1ac223a162fcb383cdacd99"
+  },
+  "ensayo_estructural": {
+   "archivo": "demo/paso4/ensayo_quiebres.json",
+   "entrega": "correccion_cotas_paso4_3_7_2026-10-05_lima1259",
+   "inventario_sha256": "6bc4c909a24596c972ccf8e5140cc893d3ca36ac15f85c112fb7eef9b3643577",
+   "sha256": "aef3714a2652786bdaab50beb5eddf24495988c389b36eaa1060222955bb29a7"
+  },
+  "registro": {
+   "archivo": "demo/registro/registro_candidato_v4.json",
+   "entrega": "resolucion_3_7_2026-10-04_lima1941",
+   "inventario_sha256": "d6fd4e384c5309e3d5720813d4e8770d7b849ad0bd9e90d1a6534af2a7bfa17f",
+   "sha256": "4cf24bc0d9a407db3afa81042419add41256366311d38f36b0a329384ac7ba31"
+  }
+ },
+ "kind": "lista-produccion-paso4-v1",
+ "lineas_del_nucleo": {
+  "breakdown_row": 1414,
+  "claim_holds": 1327,
+  "joint": 1321,
+  "ladder": 1314,
+  "q": 1466,
+  "q_scopes": 1442,
+  "robustness": 1279,
+  "search": 1308
+ },
+ "nota": "candidato rem56; NO OFICIAL; sin resultados",
+ "nucleo_sha256": {
+  "src/paper2b/robustness.py": "587f7fc294655e0bb0759aeae09edf372274da651aa2c463a191c3da22aea2b8",
+  "src/paper2b/run.py": "18abae7000d727c88dc7693db59c75a20ea79db7031b0c2e510d2b3af0058360"
+ },
+ "reglas": {
+  "E16": "incomplete_search con su motivo es resultado declarado; nunca ausencia de quiebre (si se firma QUIEBRES-D4 opción a)",
+  "PROD1": "a inf/sup, rho inf, kappa_tilde inf/sup",
+  "PROD2": "eta_w (micro inferior / macro superior), pi_* inf/sup, pi_joint inf/sup, eta_H escalera",
+  "PROD3": "16 afirmaciones × (global, país MEX)",
+  "afirmaciones": "categoria == robusta_infactible_certificada (16); 8 pares G/N",
+  "dedup_GN": "quiebres solo en G; N hereda por la evidencia de deduplicación (sin recálculo)"
+ },
+ "sin_busqueda": [
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "direccion": "inferior",
+   "estado_por_contrato": "not_applicable_not_identified (MOMENT_NOT_IDENTIFIED)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "chi_r"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "direccion": "superior",
+   "estado_por_contrato": "not_applicable_not_identified (MOMENT_NOT_IDENTIFIED)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "chi_r"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "direccion": "superior",
+   "estado_por_contrato": "frontera teórica (RB.search no evalúa)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "rho"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "direccion": "inferior",
+   "estado_por_contrato": "not_applicable_not_identified (MOMENT_NOT_IDENTIFIED)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "chi_r"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "direccion": "superior",
+   "estado_por_contrato": "not_applicable_not_identified (MOMENT_NOT_IDENTIFIED)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "chi_r"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "direccion": "superior",
+   "estado_por_contrato": "frontera teórica (RB.search no evalúa)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "rho"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "direccion": "inferior",
+   "estado_por_contrato": "not_applicable_not_identified (MOMENT_NOT_IDENTIFIED)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "chi_r"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "direccion": "superior",
+   "estado_por_contrato": "not_applicable_not_identified (MOMENT_NOT_IDENTIFIED)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "chi_r"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "direccion": "superior",
+   "estado_por_contrato": "frontera teórica (RB.search no evalúa)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "rho"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "direccion": "inferior",
+   "estado_por_contrato": "not_applicable_not_identified (MOMENT_NOT_IDENTIFIED)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "chi_r"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "direccion": "superior",
+   "estado_por_contrato": "not_applicable_not_identified (MOMENT_NOT_IDENTIFIED)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "chi_r"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "direccion": "superior",
+   "estado_por_contrato": "frontera teórica (RB.search no evalúa)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "rho"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "direccion": "inferior",
+   "estado_por_contrato": "not_applicable_not_identified (MOMENT_NOT_IDENTIFIED)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "chi_r"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "direccion": "superior",
+   "estado_por_contrato": "not_applicable_not_identified (MOMENT_NOT_IDENTIFIED)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "chi_r"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "direccion": "superior",
+   "estado_por_contrato": "frontera teórica (RB.search no evalúa)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "rho"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "direccion": "inferior",
+   "estado_por_contrato": "not_applicable_not_identified (MOMENT_NOT_IDENTIFIED)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "chi_r"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "direccion": "superior",
+   "estado_por_contrato": "not_applicable_not_identified (MOMENT_NOT_IDENTIFIED)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "chi_r"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "direccion": "superior",
+   "estado_por_contrato": "frontera teórica (RB.search no evalúa)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "rho"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "direccion": "inferior",
+   "estado_por_contrato": "not_applicable_not_identified (MOMENT_NOT_IDENTIFIED)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "chi_r"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "direccion": "superior",
+   "estado_por_contrato": "not_applicable_not_identified (MOMENT_NOT_IDENTIFIED)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "chi_r"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "direccion": "superior",
+   "estado_por_contrato": "frontera teórica (RB.search no evalúa)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "rho"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "direccion": "inferior",
+   "estado_por_contrato": "not_applicable_not_identified (MOMENT_NOT_IDENTIFIED)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "chi_r"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "direccion": "superior",
+   "estado_por_contrato": "not_applicable_not_identified (MOMENT_NOT_IDENTIFIED)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "chi_r"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "direccion": "superior",
+   "estado_por_contrato": "frontera teórica (RB.search no evalúa)",
+   "fuente": "src/paper2b/run.py:1279",
+   "parametro": "rho"
+  }
+ ],
+ "unidades": [
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:a:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "a"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:a:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "a"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:rho:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "rho"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:kappa_tilde:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "kappa_tilde"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:kappa_tilde:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "kappa_tilde"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "incidencia_laboral",
+   "componente": "macro",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:eta_w:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "eta_w"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "iva",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:pi_iva:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_iva"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "iva",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:pi_iva:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_iva"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "otros_productos",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:pi_otros_productos:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_otros_productos"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "otros_productos",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:pi_otros_productos:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_otros_productos"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "produccion",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:pi_produccion:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_produccion"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "produccion",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:pi_produccion:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_produccion"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:pi_joint:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_joint"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:pi_joint:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_joint"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "incidencia_laboral",
+   "componente": null,
+   "direccion": "ladder",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:eta_H:ladder",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.ladder_search",
+   "parametro": "eta_H"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:a:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "a"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:a:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "a"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:rho:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "rho"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:kappa_tilde:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "kappa_tilde"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:kappa_tilde:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "kappa_tilde"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "incidencia_laboral",
+   "componente": "micro",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:eta_w:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "eta_w"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "iva",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:pi_iva:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_iva"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "iva",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:pi_iva:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_iva"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "otros_productos",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:pi_otros_productos:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_otros_productos"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "otros_productos",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:pi_otros_productos:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_otros_productos"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "produccion",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:pi_produccion:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_produccion"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "produccion",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:pi_produccion:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_produccion"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:pi_joint:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_joint"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:pi_joint:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_joint"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "incidencia_laboral",
+   "componente": null,
+   "direccion": "ladder",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:eta_H:ladder",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.ladder_search",
+   "parametro": "eta_H"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:a:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "a"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:a:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "a"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:rho:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "rho"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:kappa_tilde:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "kappa_tilde"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:kappa_tilde:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "kappa_tilde"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "incidencia_laboral",
+   "componente": "macro",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:eta_w:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "eta_w"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "iva",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:pi_iva:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_iva"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "iva",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:pi_iva:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_iva"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "otros_productos",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:pi_otros_productos:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_otros_productos"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "otros_productos",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:pi_otros_productos:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_otros_productos"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "produccion",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:pi_produccion:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_produccion"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "produccion",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:pi_produccion:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_produccion"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:pi_joint:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_joint"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:pi_joint:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_joint"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "incidencia_laboral",
+   "componente": null,
+   "direccion": "ladder",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:eta_H:ladder",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.ladder_search",
+   "parametro": "eta_H"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:a:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "a"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:a:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "a"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:rho:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "rho"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:kappa_tilde:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "kappa_tilde"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:kappa_tilde:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "kappa_tilde"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "incidencia_laboral",
+   "componente": "micro",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:eta_w:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "eta_w"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "iva",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:pi_iva:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_iva"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "iva",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:pi_iva:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_iva"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "otros_productos",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:pi_otros_productos:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_otros_productos"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "otros_productos",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:pi_otros_productos:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_otros_productos"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "produccion",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:pi_produccion:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_produccion"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "produccion",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:pi_produccion:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_produccion"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:pi_joint:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_joint"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:pi_joint:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_joint"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "incidencia_laboral",
+   "componente": null,
+   "direccion": "ladder",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:eta_H:ladder",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.ladder_search",
+   "parametro": "eta_H"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:a:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "a"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:a:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "a"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:rho:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "rho"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:kappa_tilde:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "kappa_tilde"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:kappa_tilde:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "kappa_tilde"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "incidencia_laboral",
+   "componente": "macro",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:eta_w:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "eta_w"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "iva",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:pi_iva:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_iva"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "iva",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:pi_iva:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_iva"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "otros_productos",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:pi_otros_productos:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_otros_productos"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "otros_productos",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:pi_otros_productos:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_otros_productos"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "produccion",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:pi_produccion:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_produccion"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "produccion",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:pi_produccion:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_produccion"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:pi_joint:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_joint"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:pi_joint:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_joint"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "bloque": "incidencia_laboral",
+   "componente": null,
+   "direccion": "ladder",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:eta_H:ladder",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.ladder_search",
+   "parametro": "eta_H"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:a:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "a"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:a:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "a"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:rho:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "rho"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:kappa_tilde:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "kappa_tilde"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:kappa_tilde:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "kappa_tilde"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "incidencia_laboral",
+   "componente": "micro",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:eta_w:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "eta_w"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "iva",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:pi_iva:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_iva"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "iva",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:pi_iva:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_iva"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "otros_productos",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:pi_otros_productos:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_otros_productos"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "otros_productos",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:pi_otros_productos:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_otros_productos"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "produccion",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:pi_produccion:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_produccion"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "produccion",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:pi_produccion:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_produccion"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:pi_joint:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_joint"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:pi_joint:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_joint"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "bloque": "incidencia_laboral",
+   "componente": null,
+   "direccion": "ladder",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:eta_H:ladder",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.ladder_search",
+   "parametro": "eta_H"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:a:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "a"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:a:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "a"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:rho:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "rho"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:kappa_tilde:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "kappa_tilde"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:kappa_tilde:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "kappa_tilde"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "incidencia_laboral",
+   "componente": "macro",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:eta_w:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "eta_w"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "iva",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:pi_iva:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_iva"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "iva",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:pi_iva:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_iva"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "otros_productos",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:pi_otros_productos:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_otros_productos"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "otros_productos",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:pi_otros_productos:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_otros_productos"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "produccion",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:pi_produccion:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_produccion"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "produccion",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:pi_produccion:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_produccion"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:pi_joint:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_joint"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:pi_joint:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_joint"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "bloque": "incidencia_laboral",
+   "componente": null,
+   "direccion": "ladder",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:eta_H:ladder",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.ladder_search",
+   "parametro": "eta_H"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:a:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "a"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:a:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "a"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:rho:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "rho"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:kappa_tilde:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "kappa_tilde"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "tecnologia",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.estructural (cuerpo de codigo.ensayo_quiebres ensayado en i2)",
+   "familia": "PROD1",
+   "fase": "quiebres",
+   "id": "PROD1:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:kappa_tilde:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:estructural",
+   "motor": "RB.search",
+   "parametro": "kappa_tilde"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "incidencia_laboral",
+   "componente": "micro",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:eta_w:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "eta_w"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "iva",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:pi_iva:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_iva"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "iva",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:pi_iva:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_iva"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "otros_productos",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:pi_otros_productos:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_otros_productos"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "otros_productos",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:pi_otros_productos:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_otros_productos"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "produccion",
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:pi_produccion:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_produccion"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": "produccion",
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:pi_produccion:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_produccion"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": null,
+   "direccion": "inferior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:pi_joint:inferior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_joint"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "cuna_tributaria",
+   "componente": null,
+   "direccion": "superior",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:pi_joint:superior",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.search",
+   "parametro": "pi_joint"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "bloque": "incidencia_laboral",
+   "componente": null,
+   "direccion": "ladder",
+   "duplica_a": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+   ],
+   "evaluador": "evaluadores_ra.macro (cuerpo de codigo.ensayo_quiebres_macro ensayado en i2)",
+   "familia": "PROD2",
+   "fase": "quiebres",
+   "id": "PROD2:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:eta_H:ladder",
+   "llamada": "herramientas/b/evaluadores_ra.py:macro",
+   "motor": "RB.ladder_search",
+   "parametro": "eta_H"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "ambito": [
+    "global",
+    null
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:global",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "ambito": [
+    "country",
+    "MEX"
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:country-MEX",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "ambito": [
+    "global",
+    null
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:global",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "ambito": [
+    "country",
+    "MEX"
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:country-MEX",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "ambito": [
+    "global",
+    null
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:global",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "ambito": [
+    "country",
+    "MEX"
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:country-MEX",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "ambito": [
+    "global",
+    null
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:global",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "ambito": [
+    "country",
+    "MEX"
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:country-MEX",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+   "ambito": [
+    "global",
+    null
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda:global",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+   "ambito": [
+    "country",
+    "MEX"
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda:country-MEX",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda",
+   "ambito": [
+    "global",
+    null
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda:global",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda",
+   "ambito": [
+    "country",
+    "MEX"
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda:country-MEX",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+   "ambito": [
+    "global",
+    null
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda:global",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+   "ambito": [
+    "country",
+    "MEX"
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda:country-MEX",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda",
+   "ambito": [
+    "global",
+    null
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda:global",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda",
+   "ambito": [
+    "country",
+    "MEX"
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda:country-MEX",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "ambito": [
+    "global",
+    null
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:global",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "ambito": [
+    "country",
+    "MEX"
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda:country-MEX",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "ambito": [
+    "global",
+    null
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:global",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "ambito": [
+    "country",
+    "MEX"
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda:country-MEX",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "ambito": [
+    "global",
+    null
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:global",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "ambito": [
+    "country",
+    "MEX"
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda:country-MEX",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "ambito": [
+    "global",
+    null
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:global",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "ambito": [
+    "country",
+    "MEX"
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda:country-MEX",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+   "ambito": [
+    "global",
+    null
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda:global",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+   "ambito": [
+    "country",
+    "MEX"
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda:country-MEX",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda",
+   "ambito": [
+    "global",
+    null
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda:global",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda",
+   "ambito": [
+    "country",
+    "MEX"
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda:country-MEX",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+   "ambito": [
+    "global",
+    null
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda:global",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+   "ambito": [
+    "country",
+    "MEX"
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda:country-MEX",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda",
+   "ambito": [
+    "global",
+    null
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda:global",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda",
+   "ambito": [
+    "country",
+    "MEX"
+   ],
+   "duplica_a": [],
+   "evaluador": "evaluadores_ra.q_afirmacion (cuerpo de codigo.sensibilidad_q ensayado en i2); fila contractual pendiente de decision_q",
+   "familia": "PROD3",
+   "fase": "Q",
+   "id": "PROD3:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda:country-MEX",
+   "llamada": "herramientas/b/evaluadores_ra.py:q_afirmacion",
+   "motor": "RB.q_sensitivity_reduced"
+  }
+ ]
+}

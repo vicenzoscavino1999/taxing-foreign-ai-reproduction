@@ -1,0 +1,49 @@
+{
+ "datos": {
+  "MANIFIESTO_T8_C5B-ENSAYO.json": {
+   "bytes": 8293,
+   "sha256": "afcd287b7fc4053cc9c07d841725b7e2c491c15a01e914c7769a60c7d4dd6d5b"
+  },
+  "MANIFIESTO_T8_C5B.json": {
+   "bytes": 8384,
+   "sha256": "dc34c455608490c2fa065e13e5bfd7d9f752613863359f55160a26b604395623"
+  }
+ },
+ "deriva_de": {
+  "admision_integracion.py": "7304ac8be5e2d2c33fd16ccf79611285aba2baf4ebd089ba73f33679363603c9",
+  "certificacion_fila": "4741b4ea3b72fc2f754cc2d8c79dd9dd718f8e37205bf3e4ee5c0c539be60f4b",
+  "conexion_captura": "f7a8d23f5d2558843f4620052b49d20250cf23c67ac8a02d54ea57db1c05dba7",
+  "conexion_testigo.py": "a292a929d1e74178726777d32e103b3897d1e39ad01b7b3ffab324c5c904657c",
+  "entrega_rem142": "3a1c15242b827583c0d44eac31d077fec49b0171ed811b92da9b47d043a7a1ab",
+  "materializar_t8_testigo.py": "c6f0db6b86dd001785dbb6ac0334a46d1903daae76b1304aa38e7cc25bb5361d",
+  "paquete_t8_testigo_rem142": "db64d37ed991da9e35017194fa7fdd82106cae4ff12e20e194a038cb98257868",
+  "receta_t8_testigo.sh": "90c1ba0909389af0761f37ffd003926ee0ab3ecfdcc3ab25d52821f791a7f89f",
+  "verificar_t8_testigo.py": "3e20c16b6e5b50aeed542a9e0c9c09926c45cdecc81b6d2d3e80334a675cbb97"
+ },
+ "kind": "paquete-t8-c5b-v1",
+ "nota": "candidato aislado rem145; la puerta autentica las cinco piezas y los dos manifiestos; la autoridad de las fuentes es la constante AUTORIDAD de conexion_c5b.py (igual a la del manifiesto)",
+ "piezas": {
+  "admision_integracion.py": {
+   "bytes": 6979,
+   "sha256": "7304ac8be5e2d2c33fd16ccf79611285aba2baf4ebd089ba73f33679363603c9"
+  },
+  "conexion_c5b.py": {
+   "bytes": 59439,
+   "sha256": "006ec4fa2a4f5d1d7b60c09f9a226f6b83282cd1b9640dc8cacadaca6ecfb461"
+  },
+  "materializar_t8_c5b.py": {
+   "bytes": 2297,
+   "sha256": "df22d8903e5e7c90547d4e924402892b374550de1df64f6e3e96a9b9c1908d75"
+  },
+  "receta_t8_c5b.sh": {
+   "bytes": 4266,
+   "sha256": "142aab0bb7922b50e9636674227a2b0abe6e4d1b0c0aa09f76ae1a669a35bfd7"
+  },
+  "verificar_t8_c5b.py": {
+   "bytes": 2363,
+   "sha256": "8e78b261ce4b534ab899d365ca22549451e912a182086928f15f8dad8976220d"
+  }
+ },
+ "produccion_habilitada": false,
+ "productivo": false
+}

@@ -1,0 +1,87 @@
+{
+ "segundos": 0.9,
+ "fallos": [],
+ "conforme": true,
+ "H4": {
+  "total": 43,
+  "por_clase": {
+   "comparacion_dominio_o_caso_limite": 39,
+   "asignacion_literal": 1,
+   "argumento_literal": 3
+  },
+  "versiones_unicas": true,
+  "relevantes_no_comparacion": 4
+ },
+ "H30": {
+  "ok": true,
+  "comprobaciones": {
+   "esquema_cerrado": true,
+   "conteo_coherente": true,
+   "entradas_cinco_campos": true,
+   "claves_unicas_y_ordenadas": true,
+   "rutas_relativas_sin_escape": true,
+   "hashes_reproducen": true,
+   "evidencia_sin_manifiesto_no_indexado": true,
+   "fase_una_fila": true,
+   "fase_conteo_igual": true,
+   "fase_bundle_igual_bytes": true,
+   "fase_otros_hashes": {
+    "universe_crosswalk": true,
+    "crosswalk_evidence": true,
+    "firm_universe": true,
+    "size_distribution": true,
+    "d3_gate_report": true
+   },
+   "fase_estado": "complete_with_limitations",
+   "fase_bundle_es_bytes_del_archivo": true
+  },
+  "enlaces": {
+   "d2_version": {
+    "manifiesto": "fase2_datos/d2_cuentas_nacionales/versions/61e68b44bb7e6c535bba4211405f37521b39fc93eaee6094c1c9f9cea0dded2d/d2_manifest.json",
+    "hash_dependencia_ok": true,
+    "archivos": 14,
+    "malos": [],
+    "duplicados": 0,
+    "rutas_absolutas_o_escape": [],
+    "arbol_D7_igual_carpeta": true,
+    "arbol_declarado_en_manifiesto": "61e68b44bb7e6c535bba4211405f37521b39fc93eaee6094c1c9f9cea0dded2d"
+   },
+   "d6_v2_version": {
+    "manifiesto": "fase2_datos/d6_tax_shares_v2/versions/8cea18486cdc83d6a2d25fd7060670cc229b80de2d61de4477ddb57613779441/d6_manifest.json",
+    "hash_dependencia_ok": true,
+    "archivos": 6,
+    "malos": [],
+    "duplicados": 0,
+    "rutas_absolutas_o_escape": [],
+    "arbol_D7_igual_carpeta": true,
+    "arbol_declarado_en_manifiesto": null
+   },
+   "ca2_bundles_index": {
+    "indice": "fase2_datos/ca2_bundles/indice_bundles_s5_d2694d8f76eb26ac.json",
+    "hash_dependencia_ok": true,
+    "referencias": 39,
+    "por_tipo": {
+     "bundle": 4,
+     "componente": 5,
+     "contexto": 30
+    },
+    "n_malas": 0,
+    "rutas_repetidas_mismo_hash": 20,
+    "rutas_con_hash_en_conflicto": [],
+    "nota_repetidas": "un mismo contexto (archivo y hash) compartido por varios países; no es duplicado conflictivo",
+    "evidencia_D7_de_bundles_coincide": true
+   }
+  }
+ },
+ "R1": {
+  "coincide_con_rango_documentado": 2520
+ },
+ "matriz": {
+  "obligacion_fase_posterior": 9,
+  "retrospectiva_comprobada": 19,
+  "contemporanea": 10,
+  "retrospectiva_comprobada_con_hallazgo": 1,
+  "reconstruccion_rem133": 1,
+  "limitacion_no_recuperable": 2
+ }
+}

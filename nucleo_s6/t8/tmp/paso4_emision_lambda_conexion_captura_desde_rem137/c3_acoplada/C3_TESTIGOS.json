@@ -1,0 +1,515 @@
+{
+ "kind": "c3-testigos-identidades-rem137",
+ "experimental": true,
+ "productivo": false,
+ "c3_acoplada_sha256": "4f49820885841da4a3a789bd92a787d5c314ccab1b11fea9d21556f2ff5c9365",
+ "regla_identidad": "structural_key_sha256 = sha256(json.dumps(payload, sort_keys=True, separators=(',', ':'), ensure_ascii=False))",
+ "plantilla": {
+  "ref": "remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S3_P1-PER-G-df-0_filas.json",
+  "ceiling_id": "CEI:25038b0a61bb4d08da69c5751a7bf669216e9a51",
+  "structural_key_sha256": "bd8a89326568c932e019ee62134b2ab54065a3755b864176bf608496e7663570",
+  "technical": {
+   "code_sha256": "037d20d3d02128752e7f2650d9b023fb13de5d205afb506e9f0e832510f172aa",
+   "configuration_sha256": "71e369bba5f05ce6de8a03b933d5929909a964307499884cf23b0330479aa843",
+   "contract_sha256": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+   "environment_sha256": "41b467a1cf2a28b3a3b0dcbacaa3da9e84352d37837d13e2c3aa2638046881c4",
+   "method_sha256": "e6e019c3882b544524b22b106632a7c4e4af0e51790bfe1670dd54b66859519b",
+   "tolerances_sha256": "0fc40e7d83d4ac51828b409b05a582f9bfd93542bde44aeb1e83d404476b4066"
+  },
+  "theory_sha256": "73c1bbd4c0456e3561e7c22d6ca1c5dddea3ac2cac25df0006deb5bd630fe431",
+  "tau_domain": {
+   "tau_d_lower": "0",
+   "tau_d_lower_closed": true,
+   "tau_d_upper": "0.6",
+   "tau_d_upper_closed": true,
+   "tau_f_lower": "0",
+   "tau_f_lower_closed": true,
+   "tau_f_upper": "0.6",
+   "tau_f_upper_closed": true
+  }
+ },
+ "autocomprobacion": {
+  "testigos_df_distintos_con_mismo_dominio_y_tecnica": 10,
+  "reproducidos_desde_plantilla": 10,
+  "testigos_df_con_otro_dominio_o_tecnica": 36
+ },
+ "propuesta_etapa_1_en_orden": [
+  {
+   "structural_key_sha256": "184825802c34f250c175d528a8a1d51fae36f52c645dc8dee320b1c0ecff5e3b",
+   "diseno": "G",
+   "instrumento": "df",
+   "valores_L0": {
+    "a": "1.1",
+    "beta_tilde": "0.25",
+    "eta_d": "0.1",
+    "eta_f": "0.1",
+    "kappa_tilde": "0.2",
+    "phi": "1.0",
+    "rho": "1.0",
+    "u_theta": "0.9",
+    "z_cost": "1.0"
+   },
+   "conjuntos_con_esos_nodos": [
+    "CMP-E1.macro",
+    "CMP-E1.micro",
+    "COL-E2-2023.2023p.macro",
+    "COL-E2-2023.2023p.micro",
+    "COL-E2-2023.2024p.macro",
+    "COL-E2-2023.2024p.micro",
+    "PER-E0E3.macro",
+    "PER-E0E3.micro",
+    "PER-E1.macro",
+    "PER-E1.micro"
+   ],
+   "payload": {
+    "design_v": "G",
+    "instrument_j": "df",
+    "kind": "structural-v2",
+    "tau_domain": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "technical": {
+     "code_sha256": "037d20d3d02128752e7f2650d9b023fb13de5d205afb506e9f0e832510f172aa",
+     "configuration_sha256": "71e369bba5f05ce6de8a03b933d5929909a964307499884cf23b0330479aa843",
+     "contract_sha256": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+     "environment_sha256": "41b467a1cf2a28b3a3b0dcbacaa3da9e84352d37837d13e2c3aa2638046881c4",
+     "method_sha256": "e6e019c3882b544524b22b106632a7c4e4af0e51790bfe1670dd54b66859519b",
+     "tolerances_sha256": "0fc40e7d83d4ac51828b409b05a582f9bfd93542bde44aeb1e83d404476b4066"
+    },
+    "theory_sha256": "73c1bbd4c0456e3561e7c22d6ca1c5dddea3ac2cac25df0006deb5bd630fe431",
+    "values": [
+     {
+      "parameter_id": "a",
+      "value": "1.1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "beta_tilde",
+      "value": "0.25",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "c_legal",
+      "value": "1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "eta_d",
+      "value": "0.1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "eta_f",
+      "value": "0.1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "gamma",
+      "value": "1",
+      "value_unit": "normalization_unit"
+     },
+     {
+      "parameter_id": "kappa_tilde",
+      "value": "0.2",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "phi",
+      "value": "1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "rho",
+      "value": "1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "t",
+      "value": "0",
+      "value_unit": "rate"
+     },
+     {
+      "parameter_id": "u_theta",
+      "value": "0.9",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "z_cost",
+      "value": "1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "z_m",
+      "value": "1",
+      "value_unit": "normalization_unit"
+     }
+    ]
+   }
+  },
+  {
+   "structural_key_sha256": "a7b32a1ef4aa14731514fe58eb2a962310f0f0ab74dec8387e5f826edd5ef59f",
+   "diseno": "G",
+   "instrumento": "df",
+   "valores_L0": {
+    "a": "2.5",
+    "beta_tilde": "0.25",
+    "eta_d": "0.1",
+    "eta_f": "0.1",
+    "kappa_tilde": "0.2",
+    "phi": "1.0",
+    "rho": "1.0",
+    "u_theta": "0.9",
+    "z_cost": "1.0"
+   },
+   "conjuntos_con_esos_nodos": [
+    "CMP-E1.macro",
+    "CMP-E1.micro",
+    "COL-E2-2023.2023p.macro",
+    "COL-E2-2023.2023p.micro",
+    "COL-E2-2023.2024p.macro",
+    "COL-E2-2023.2024p.micro",
+    "PER-E0E3.macro",
+    "PER-E0E3.micro",
+    "PER-E1.macro",
+    "PER-E1.micro"
+   ],
+   "payload": {
+    "design_v": "G",
+    "instrument_j": "df",
+    "kind": "structural-v2",
+    "tau_domain": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "technical": {
+     "code_sha256": "037d20d3d02128752e7f2650d9b023fb13de5d205afb506e9f0e832510f172aa",
+     "configuration_sha256": "71e369bba5f05ce6de8a03b933d5929909a964307499884cf23b0330479aa843",
+     "contract_sha256": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+     "environment_sha256": "41b467a1cf2a28b3a3b0dcbacaa3da9e84352d37837d13e2c3aa2638046881c4",
+     "method_sha256": "e6e019c3882b544524b22b106632a7c4e4af0e51790bfe1670dd54b66859519b",
+     "tolerances_sha256": "0fc40e7d83d4ac51828b409b05a582f9bfd93542bde44aeb1e83d404476b4066"
+    },
+    "theory_sha256": "73c1bbd4c0456e3561e7c22d6ca1c5dddea3ac2cac25df0006deb5bd630fe431",
+    "values": [
+     {
+      "parameter_id": "a",
+      "value": "2.5",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "beta_tilde",
+      "value": "0.25",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "c_legal",
+      "value": "1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "eta_d",
+      "value": "0.1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "eta_f",
+      "value": "0.1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "gamma",
+      "value": "1",
+      "value_unit": "normalization_unit"
+     },
+     {
+      "parameter_id": "kappa_tilde",
+      "value": "0.2",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "phi",
+      "value": "1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "rho",
+      "value": "1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "t",
+      "value": "0",
+      "value_unit": "rate"
+     },
+     {
+      "parameter_id": "u_theta",
+      "value": "0.9",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "z_cost",
+      "value": "1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "z_m",
+      "value": "1",
+      "value_unit": "normalization_unit"
+     }
+    ]
+   }
+  },
+  {
+   "structural_key_sha256": "e8b1f7fdb9c7017605e0a4162fc6688e7b6ed01d2308ff72106ed6cf6834a97b",
+   "diseno": "G",
+   "instrumento": "df",
+   "valores_L0": {
+    "a": "1.1",
+    "beta_tilde": "0.25",
+    "eta_d": "0.1",
+    "eta_f": "0.1",
+    "kappa_tilde": "0.2",
+    "phi": "0.75",
+    "rho": "1.0",
+    "u_theta": "0.9",
+    "z_cost": "1.0"
+   },
+   "conjuntos_con_esos_nodos": [
+    "CMP-E1.macro",
+    "CMP-E1.micro",
+    "COL-E2-2023.2023p.macro",
+    "COL-E2-2023.2023p.micro",
+    "COL-E2-2023.2024p.macro",
+    "COL-E2-2023.2024p.micro",
+    "PER-E0E3.macro",
+    "PER-E0E3.micro",
+    "PER-E1.macro",
+    "PER-E1.micro"
+   ],
+   "payload": {
+    "design_v": "G",
+    "instrument_j": "df",
+    "kind": "structural-v2",
+    "tau_domain": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "technical": {
+     "code_sha256": "037d20d3d02128752e7f2650d9b023fb13de5d205afb506e9f0e832510f172aa",
+     "configuration_sha256": "71e369bba5f05ce6de8a03b933d5929909a964307499884cf23b0330479aa843",
+     "contract_sha256": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+     "environment_sha256": "41b467a1cf2a28b3a3b0dcbacaa3da9e84352d37837d13e2c3aa2638046881c4",
+     "method_sha256": "e6e019c3882b544524b22b106632a7c4e4af0e51790bfe1670dd54b66859519b",
+     "tolerances_sha256": "0fc40e7d83d4ac51828b409b05a582f9bfd93542bde44aeb1e83d404476b4066"
+    },
+    "theory_sha256": "73c1bbd4c0456e3561e7c22d6ca1c5dddea3ac2cac25df0006deb5bd630fe431",
+    "values": [
+     {
+      "parameter_id": "a",
+      "value": "1.1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "beta_tilde",
+      "value": "0.25",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "c_legal",
+      "value": "1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "eta_d",
+      "value": "0.1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "eta_f",
+      "value": "0.1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "gamma",
+      "value": "1",
+      "value_unit": "normalization_unit"
+     },
+     {
+      "parameter_id": "kappa_tilde",
+      "value": "0.2",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "phi",
+      "value": "0.75",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "rho",
+      "value": "1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "t",
+      "value": "0",
+      "value_unit": "rate"
+     },
+     {
+      "parameter_id": "u_theta",
+      "value": "0.9",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "z_cost",
+      "value": "1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "z_m",
+      "value": "1",
+      "value_unit": "normalization_unit"
+     }
+    ]
+   }
+  },
+  {
+   "structural_key_sha256": "702703b75904d420cf4f8aaf7e48fb31883575ffa73b8628b75e25cade678497",
+   "diseno": "G",
+   "instrumento": "df",
+   "valores_L0": {
+    "a": "2.5",
+    "beta_tilde": "0.25",
+    "eta_d": "0.1",
+    "eta_f": "0.1",
+    "kappa_tilde": "0.2",
+    "phi": "0.75",
+    "rho": "1.0",
+    "u_theta": "0.9",
+    "z_cost": "1.0"
+   },
+   "conjuntos_con_esos_nodos": [
+    "CMP-E1.macro",
+    "CMP-E1.micro",
+    "COL-E2-2023.2023p.macro",
+    "COL-E2-2023.2023p.micro",
+    "COL-E2-2023.2024p.macro",
+    "COL-E2-2023.2024p.micro",
+    "PER-E0E3.macro",
+    "PER-E0E3.micro",
+    "PER-E1.macro",
+    "PER-E1.micro"
+   ],
+   "payload": {
+    "design_v": "G",
+    "instrument_j": "df",
+    "kind": "structural-v2",
+    "tau_domain": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "technical": {
+     "code_sha256": "037d20d3d02128752e7f2650d9b023fb13de5d205afb506e9f0e832510f172aa",
+     "configuration_sha256": "71e369bba5f05ce6de8a03b933d5929909a964307499884cf23b0330479aa843",
+     "contract_sha256": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+     "environment_sha256": "41b467a1cf2a28b3a3b0dcbacaa3da9e84352d37837d13e2c3aa2638046881c4",
+     "method_sha256": "e6e019c3882b544524b22b106632a7c4e4af0e51790bfe1670dd54b66859519b",
+     "tolerances_sha256": "0fc40e7d83d4ac51828b409b05a582f9bfd93542bde44aeb1e83d404476b4066"
+    },
+    "theory_sha256": "73c1bbd4c0456e3561e7c22d6ca1c5dddea3ac2cac25df0006deb5bd630fe431",
+    "values": [
+     {
+      "parameter_id": "a",
+      "value": "2.5",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "beta_tilde",
+      "value": "0.25",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "c_legal",
+      "value": "1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "eta_d",
+      "value": "0.1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "eta_f",
+      "value": "0.1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "gamma",
+      "value": "1",
+      "value_unit": "normalization_unit"
+     },
+     {
+      "parameter_id": "kappa_tilde",
+      "value": "0.2",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "phi",
+      "value": "0.75",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "rho",
+      "value": "1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "t",
+      "value": "0",
+      "value_unit": "rate"
+     },
+     {
+      "parameter_id": "u_theta",
+      "value": "0.9",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "z_cost",
+      "value": "1",
+      "value_unit": "dimensionless"
+     },
+     {
+      "parameter_id": "z_m",
+      "value": "1",
+      "value_unit": "normalization_unit"
+     }
+    ]
+   }
+  }
+ ],
+ "nota": "identidades del plan (clave estructural, independiente de país/conjunto); la frontera/techo concretos (FRN/CEI) los asigna el ejecutor del plan por país y caso; ninguna celda se evalúa ni se pide su ejecución"
+}

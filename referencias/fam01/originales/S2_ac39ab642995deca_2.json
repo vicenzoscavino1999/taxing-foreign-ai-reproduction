@@ -1,0 +1,201 @@
+{
+ "id": "S2:ac39ab642995deca:2",
+ "familia": "S2",
+ "ruta": "S2-disp",
+ "suite": "L4",
+ "trabajador": 2,
+ "estrato": [
+  "COL-E2-2023.2023p.macro",
+  "COL",
+  "N",
+  "d",
+  "addback_completo"
+ ],
+ "estado_final": "completo",
+ "estado_generador": "ok",
+ "inicio_utc": "2026-10-11T05:11:16Z",
+ "fin_utc": "2026-10-11T05:11:18Z",
+ "pared_s": 1.71,
+ "cpu_s": 1.7,
+ "cache_delta": {
+  "calculos": 1
+ },
+ "manifiesto_sha256": "e5dca02bdc31fdee8ad70963e321dcfaa58b979e1662259d0e66c3f5bc6ac410",
+ "identidad_productor_sha256": "a760adddeece52de8627deae939435f9454125f2bf94df193942d6d1503cc99d",
+ "run_class": "remanente_s3_ensamblaje_h4_3_7",
+ "resultado": {
+  "etiqueta": "S2:ac39ab642995deca:2",
+  "set_id": "COL-E2-2023.2023p.macro",
+  "omega_id": "OMG:85a5d1d67fcbf90661a623b67d7dd60273f1fc352154c86d27ad3af8c3b68ffd",
+  "n_omegas_del_prefijo": 96,
+  "omega_exacto": true,
+  "pais": "COL",
+  "diseno": "N",
+  "instrumento": "d",
+  "caso": "domestic_unchanged",
+  "prefijo": {
+   "a": 1,
+   "beta_tilde": 1,
+   "eta_d": 0,
+   "eta_f": 1,
+   "kappa_tilde": 1,
+   "phi": 0,
+   "rho": 0,
+   "u_theta": 0,
+   "z_cost": 2
+  },
+  "clave_estructural": "032cc8b2911ad0f3bc566ecb5c00f96488ff6f5148b61fdad2e9115497720e25",
+  "frontier_id": "FRN:760985b44a0171543cf38386d7726f4b23992c23",
+  "techo_reutilizado_entre_conjuntos": false,
+  "n_estados_macro": 1,
+  "macro_id": "MAC:7e8af59ae1c951f45f728bf7b2942f6375949459",
+  "estado_macro": {
+   "pais": "COL",
+   "preregistro": "PREG-COL-E2-2023",
+   "canal": "conditional",
+   "edicion": "2023p",
+   "anio_ancla": 2023,
+   "etiqueta": "published_vector",
+   "dominio_conjunto_sha256": "73cf4e4499eb2e3327a27e01f9e87e1fd6b14a160bee4718fc945636420ae48e"
+  },
+  "celda_externa": "EXT:COL:PBI:r4:baseline:0.0",
+  "estado": "ok",
+  "motivos": [],
+  "completitud": {
+   "estado": "completa",
+   "partes": {
+    "contexto": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "frontera": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "techo": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "confrontacion": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "macro": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "evidencia_G": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "inversion:capture_required": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "inversion:external_factor": {
+     "estado": "no_aplicable_justificada",
+     "motivo": "EXTERNAL_FACTOR_NOT_IDENTIFIED"
+    },
+    "inversion:gain_required": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "inversion:lambda_required": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "inversion:phi_partial": {
+     "estado": "no_aplicable_justificada",
+     "motivo": "TARGETS_NOT_PREDECLARED"
+    },
+    "inversion:phi_total": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "r1": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "r2:paridad": {
+     "estado": "no_aplicable_justificada",
+     "motivo": "SECTION_OUTSIDE_MENU; trayectoria fuera del menú"
+    },
+    "r2:tau_d_0": {
+     "estado": "no_aplicable_justificada",
+     "motivo": "SECTION_OUTSIDE_MENU; trayectoria fuera del menú"
+    },
+    "r2:tau_d_estatutario": {
+     "estado": "no_aplicable_justificada",
+     "motivo": "SECTION_OUTSIDE_MENU; trayectoria fuera del menú"
+    },
+    "r2:tau_f_0": {
+     "estado": "completa",
+     "motivo": null
+    }
+   },
+   "motivos": [],
+   "n_partes": 17
+  },
+  "cell_id": "CEL:4b38f9d3a14e010467849a2df0fad14762b5fb819a4d",
+  "tiempos_s": {
+   "previas_s": 0.067,
+   "techo_s": 1.644,
+   "macro_s": 0.002,
+   "resto_celda_s": 0.0
+  },
+  "techo": {
+   "C_2": 0.5453344886478609,
+   "numerical_error": 2.8129045981373227e-08,
+   "computation_status": "complete",
+   "reason_code": null,
+   "sup_not_attained": false
+  },
+  "confrontacion": {
+   "G": -0.4677931383854129,
+   "K_comp_1": 1.0131276270332739,
+   "verdict": "infactible",
+   "computation_status": "complete",
+   "reason_code": null
+  },
+  "clave_E12": {
+   "cell_id": "CEL:4b38f9d3a14e010467849a2df0fad14762b5fb819a4d",
+   "frontier_id": "FRN:760985b44a0171543cf38386d7726f4b23992c23",
+   "instrumento": "d",
+   "barras": [
+    0.6,
+    0.6
+   ],
+   "tasa": 0.35,
+   "run_geometry": true,
+   "con_unidad": true,
+   "omega_id": "OMG:85a5d1d67fcbf90661a623b67d7dd60273f1fc352154c86d27ad3af8c3b68ffd"
+  }
+ },
+ "version_trabajador": "c1.1",
+ "contrato_exportado": "v3",
+ "filas": {
+  "archivo": "S2_ac39ab642995deca_2_filas.json",
+  "sha256": "4672ea5362925f02ac303b9092b9d01f0482431d0347f972d6785316722c120a",
+  "tablas": {
+   "cell_context": 1,
+   "confrontation_result": 1,
+   "inversion_result": 6,
+   "r1_summary": 1,
+   "r1_components": 0,
+   "r1_vertices": 0,
+   "r1_edges": 0,
+   "r1_rejected_crossings": 0,
+   "r2_sections": 4,
+   "r2_roots": 0,
+   "frontier_context": 1,
+   "capture_ceiling_result": 1,
+   "lambda_pi_envelope": 1,
+   "convergence_result": 4,
+   "sup_witness": 0,
+   "scalar_inversion_roots": 0,
+   "scalar_inversion_intervals": 0,
+   "inversion_targets": 6,
+   "numerical_evidence": 6
+  }
+ }
+}

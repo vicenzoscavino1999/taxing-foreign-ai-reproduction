@@ -1,0 +1,24 @@
+{
+ "kind": "cobertura-nacional-lote1",
+ "origen": "preparacion_hasta_seleccion (censo nacional rem113; enumeración estructural rem114)",
+ "manifiesto_sha256": "d430b39db2cea7801cdcf8b55f0455063270d58f5aebea57776241fcde04b4af",
+ "censo_nacional_sha256": "b353da362916dbbaa682e45bd25acaac8d1d03e02e2ae4e701847f0a6a6a774d",
+ "contexto_identidad": "5273718de5b1b00c986cbb5a9667d78100ce2c48e9a8bd96c2caa92c48853fe6",
+ "contexto_s": 154.0,
+ "llamadas_durante_preparacion": {
+  "macro.bridge": 0,
+  "macro.strict_vertices": 0
+ },
+ "llamadas_durante_la_derivacion": {
+  "macro.bridge": 0,
+  "macro.strict_vertices": 0
+ },
+ "generador_sha256": "44a5c1bf86608c9e6022aad9338ef54788fcdc475259dba1470824d18b623806",
+ "conexion_lambda_sha256": "9dbdc7322e303f11f4b33897dd11de3e7ce8327636637e75bc246222391138b3",
+ "contraste_lote1": {
+  "PER-E1.macro": true,
+  "PER-E1.micro": true
+ },
+ "nota": "anexo derivado de la preparación hasta selección; ningún λπ, malla ni techo evaluado; no es producción",
+ "conjuntos": {}
+}

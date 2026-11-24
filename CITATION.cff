@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite it and the article it reproduces, and cite the data sources as indicated in docs/DATA_SOURCES.md."
+type: software
+title: 'Reproduction package for "Taxing the Gains from Foreign AI: Fiscal Capture Frontiers in Developing Economies"'
+version: 1.0.0
+date-released: 2026-11-24
+authors:
+  - family-names: Scavino Alfaro
+    given-names: Vicenzo
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: >-
+  Code, stored inputs and accepted results that reproduce the capture ceilings, frontier meshes, confrontation with the
+  cost of universal social protection and post-base sensitivities of the article "Taxing the Gains from Foreign AI:
+  Fiscal Capture Frontiers in Developing Economies" and its technical supplement. Single entry point run.ps1 (Windows).
+  The DOI of this package will be added when it is deposited.
+keywords:
+  - artificial intelligence
+  - taxation
+  - withholding tax
+  - fiscal capture
+  - developing economies
+  - reproducibility
+references:
+  - type: software
+    title: "Code and data for: AI, Fiscal Space, and Social Protection in Four Latin American Economies: A Scenario-Based Threshold Framework"
+    authors:
+      - family-names: Scavino
+        given-names: Vicenzo
+    version: 1.1.1
+    date-released: 2026-07-15
+    doi: 10.5281/zenodo.21381145
+    notes: "Companion package; source of the convertible requirement used in the application. This DOI identifies the companion package, not this one."

@@ -1,0 +1,50 @@
+{
+  "contract_version": "CA2-2X-PRECISION-2",
+  "status": "CANDIDATO PARA REVISIÓN, SIN ACTIVACIÓN | revisión candidata r2 de la gramática de selectores (compatible), sin activación",
+  "supersedes": "CA2-2X-PRECISION-1 (candidate of 2026-09-27, never active; see historico/)",
+  "reason_for_version": "review finding R3: v1 checked that shared_denominator was an existing selector whose primitives matched it, but not that it was the PIB member of the authenticated vector; a COE member labelled 'PIB' passed",
+  "extends": "CA2-2 (catalogo_contratos.json), which remains active and unchanged",
+  "scope": "payload of precision_rule inside a CA2 evidence receipt with role 'precision'; the receipt envelope (facts, outcome, precision_rule, common_conflicts) is unchanged",
+  "dispatch": {
+    "no contract_version": "CA2-2 meaning; never re-read per primitive",
+    "CA2-2X-PRECISION-1": "superseded candidate: not accepted, not re-read as v2 (interpret -> superseded_candidate_not_accepted)",
+    "CA2-2X-PRECISION-2": "semantics below",
+    "CA2-2X-PRECISION-2+SYNTHETIC-NOT-EVIDENCE": "test-support output only; rejected by validate() whenever emitted, never evidence"
+  },
+  "rule_fields": [
+    "contract_version",
+    "kind",
+    "primitives",
+    "selector_rules",
+    "shared_denominator",
+    "vector_binding"
+  ],
+  "new_in_v2": {
+    "vector_binding": "{snapshot_sha256, projection_sha256}; projection = [[concept, member_selector], ...] read from the AUTHENTICATED snapshot bytes, in facts.selectors order; projection_sha256 = SHA-256 of its canonical JSON (separators ',' ':', UTF-8)",
+    "consumer_input": "validate(rule, projection, cells=..., snapshot_sha256=..., emitted=True): the consumer derives the projection itself from authenticated bytes; the rule never supplies it",
+    "concept_check": "every selector_rules[].concept equals the projection concept of that selector",
+    "denominator_check": "the projection contains exactly one 'PIB' member; shared_denominator.concept == 'PIB', member_selector == that member, primitives == its parsed terms"
+  },
+  "unchanged_from_v1": {
+    "kind": "rounding | exact | mixed (mixed iff both kinds present)",
+    "primitives": "value, kind, rounding_unit (null for exact), domain [v-u/2, v+u/2] or [0,0], rule_id, evidence_ids, correspondence, basis, status (ok | pending_review)",
+    "selector_rules": "explicit terms equal to the member selector parse; member_domain propagated with shared primitives grouped",
+    "emission": "an emitted PASS rule contains only primitives with status ok"
+  },
+  "consumer_checks": [
+    "version dispatch; synthetic rules never emitted",
+    "exact field sets at every level",
+    "binding to the authenticated projection and snapshot",
+    "primitive domain recomputed from value and unit; stored non-formula cell when cells are given; exact zero only for blank/zero cells",
+    "terms equal the member selector parse; member domain recomputed with shared primitives grouped",
+    "selector concepts equal the authenticated projection; shared denominator is its unique PIB member"
+  ],
+  "reference_implementation": "codigo/ca2x.py (validate, interpret, projection_digest)",
+  "compatibility_tests": "codigo/test_revision_r1_r3.py (R3Denominator, test_versions_not_reinterpreted) and codigo/test_cierre_precision.py (HistoricalReceiptsNotReinterpreted)",
+  "member_selector_grammar": {
+    "part": "'hoja!CELDA:coeficiente' | 'hoja!CELDA:semantic_zero:<sha256>[:coeficiente]' (coeficiente 1 por defecto)",
+    "revision": "r2 candidata (consolidación 1.4, 27-09-2026): el cero semántico documentado puede aparecer dentro de un miembro compuesto (ruta neta PER, D-02)",
+    "compatibility": "superconjunto: todo selector válido antes se interpreta igual; no existía ningún recibo emitido con la forma nueva; una primitiva no puede repetirse dentro de un mismo miembro",
+    "reference": "codigo/ca2x.py parse_member"
+  }
+}

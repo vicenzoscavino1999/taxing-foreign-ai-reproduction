@@ -1,0 +1,66 @@
+{
+ "pilotos": [
+  {
+   "clave": "N|d|FRN-ENF:230651ca1f23127881ca",
+   "clave_enf": "230651ca1f231278",
+   "cobertura": "malla ENF completa (5 nodos, dimensión 1) con su topología; no es un supremo",
+   "dimension_malla": 1,
+   "instrumento": "d",
+   "limite_externo_s": 600.0,
+   "nodos": 5,
+   "operacion": "F08-MALLAS",
+   "reloj_interno_s": 2280.0,
+   "tarea": "L1-ELAST",
+   "unidad": "FRN-ENF:230651ca1f23127881ca"
+  },
+  {
+   "clave": "G|f|FRN-ENF:75a283726bb5e755b89d",
+   "clave_enf": "75a283726bb5e755",
+   "cobertura": "malla ENF completa (5 nodos, dimensión 1) con su topología; no es un supremo",
+   "dimension_malla": 1,
+   "instrumento": "f",
+   "limite_externo_s": 600.0,
+   "nodos": 5,
+   "operacion": "F08-MALLAS",
+   "reloj_interno_s": 2280.0,
+   "tarea": "L1-ELAST",
+   "unidad": "FRN-ENF:75a283726bb5e755b89d"
+  },
+  {
+   "clave": "G|df|FRN-ENF:075cb6d4080fc856e386",
+   "clave_enf": "075cb6d4080fc856",
+   "cobertura": "malla ENF completa (25 nodos, dimensión 2) con su topología; no es un supremo",
+   "dimension_malla": 2,
+   "instrumento": "df",
+   "limite_externo_s": 600.0,
+   "nodos": 25,
+   "operacion": "F08-MALLAS",
+   "reloj_interno_s": 2280.0,
+   "tarea": "L1-ELAST",
+   "unidad": "FRN-ENF:075cb6d4080fc856e386"
+  },
+  {
+   "claves": [
+    {
+     "celdas": 1,
+     "clave": "57e622fb22a3ad95",
+     "diseno": "N",
+     "j": "df"
+    },
+    {
+     "celdas": 6,
+     "clave": "29f1e9137a358a6f",
+     "diseno": "N",
+     "j": "df"
+    }
+   ],
+   "comparaciones": 7,
+   "limite_externo_s": 2400.0,
+   "operacion": "F08-TECHOS",
+   "reloj_interno_s": 2280.0,
+   "tarea": "ABL-ENF-T2",
+   "techos": 2
+  }
+ ],
+ "regla": "fijados por el encargo de FAM08 antes de calcular y sin mirar resultados: la primera frontera de rol ENF de cada instrumento d, f y df en el orden del manifiesto de mallas (cada piloto, la malla entera) y la tarea completa ABL-ENF-T2 (sus dos techos y siete comparaciones, con los presupuestos científicos originales)"
+}

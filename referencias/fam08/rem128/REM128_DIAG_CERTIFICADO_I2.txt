@@ -1,0 +1,182 @@
+{
+ "estado": "no_alcanzado_demostrado",
+ "motivo": null,
+ "hipotesis": {
+  "H0_alcance_del_certificado": {
+   "diseno_G": true,
+   "rho_1": true,
+   "z_m_1": true,
+   "menu_df": true,
+   "caja_cerrada": true,
+   "caja_admisible": true
+  },
+  "H1_previo_F": true,
+  "H2_informal_nunca": true,
+  "H3_F1_sobre_I1": true,
+  "H4_R_mas_creciente": true,
+  "H5_c_decreciente": true,
+  "H6_esquinas": {
+   "c_inferior": [
+    0.7999999999999996,
+    0.8000000000000006
+   ],
+   "c_superior": [
+    -0.005712242665002921,
+    -0.005712242664999422
+   ],
+   "region_no_vacia": true,
+   "curva_corta_la_caja": true,
+   "sin_curva": false
+  }
+ },
+ "curva": {
+  "tau_d_estrella_en_tau_f_sup": [
+   0.5937443203343036,
+   0.5937443203343207
+  ],
+  "ancho": 1.709743457922741e-14,
+  "tau_f_estrella_en_tau_d_sup": [
+   0.5932827690591436,
+   0.593282769059152
+  ],
+  "caja_que_contiene_gamma": [
+   [
+    0.5937443203343036,
+    0.6
+   ],
+   [
+    0.5932827690591436,
+    0.6
+   ]
+  ]
+ },
+ "maximo_en_gamma": {
+  "signo_de_h_prima_B": [
+   0.19212106766189993,
+   0.21846882709171703
+  ],
+  "subdivision": 0,
+  "en": "P1 = (tau_d*, tau_f superior)"
+ },
+ "testigo_lateral": {
+  "tau_d": [
+   0.5937443203343036,
+   0.5937443203343207
+  ],
+  "tau_f": 0.6,
+  "lado": "c > 0 (FF, adopción formal)",
+  "eje": "tau_d desde abajo",
+  "limite_R": [
+   8.780743465609994,
+   8.780743465610234
+  ],
+  "valor_en_la_curva_R": 0.0,
+  "limite_desde_c_negativo_R": 0.0
+ },
+ "compatibilidad": {
+  "interseccion": [
+   8.780743465609994,
+   8.780743465610234
+  ],
+  "compatible": true,
+  "supremo_positivo": true
+ },
+ "laterales": [
+  [
+   "c>0",
+   0.001,
+   8.772156740862204,
+   "FF"
+  ],
+  [
+   "c<0",
+   0.001,
+   0.0,
+   "NF"
+  ],
+  [
+   "c>0",
+   0.0001,
+   8.779885161869393,
+   "FF"
+  ],
+  [
+   "c<0",
+   0.0001,
+   0.0,
+   "NF"
+  ],
+  [
+   "c>0",
+   1e-05,
+   8.780657638928014,
+   "FF"
+  ],
+  [
+   "c<0",
+   1e-05,
+   0.0,
+   "NF"
+  ],
+  [
+   "c>0",
+   1e-06,
+   8.780734882978763,
+   "FF"
+  ],
+  [
+   "c<0",
+   1e-06,
+   0.0,
+   "NF"
+  ],
+  [
+   "c>0",
+   1e-07,
+   8.780742607347284,
+   "FF"
+  ],
+  [
+   "c<0",
+   1e-07,
+   0.0,
+   "NF"
+  ],
+  [
+   "c>0",
+   1e-08,
+   8.780743379783768,
+   "FF"
+  ],
+  [
+   "c<0",
+   1e-08,
+   0.0,
+   "NF"
+  ],
+  [
+   "c>0",
+   1e-09,
+   8.780743457027414,
+   "FF"
+  ],
+  [
+   "c<0",
+   1e-09,
+   0.0,
+   "NF"
+  ],
+  [
+   "c>0",
+   1e-10,
+   8.78074346475178,
+   "FF"
+  ],
+  [
+   "c<0",
+   1e-10,
+   0.0,
+   "NF"
+  ]
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "pilotos": [
+  {
+   "clave": "e8b1f7fdb9c7017605e0a4162fc6688e7b6ed01d2308ff72106ed6cf6834a97b",
+   "configuracion": {
+    "inversion_budget_seconds": 3600.0,
+    "llamada": "model.capture_ceiling(state, 'G', 'df', float(bar_tau_d), float(bar_tau_f), True, RunConfig().sup)",
+    "proveedor": "modelo_teorico_v2_2",
+    "proveedor_init": "ModeloTeorico(param_budget_s=RunConfig().inversion_budget_seconds); sup_max_boxes y jump_budget por defecto",
+    "sup": {
+     "delta_jump": 1e-07,
+     "levels": 3,
+     "n0": 8,
+     "polish_xtol": 1e-11,
+     "richardson_eps": 1e-06,
+     "scout_xtol": 1e-07,
+     "tol_attain": 1e-10,
+     "tol_converge": 1e-07,
+     "top_k": 6
+    }
+   },
+   "duracion_historica": "≈1 s de cálculo según el RESULTADO rem141 (informativa; no es un tope)",
+   "grupo": "EQ-TECHO-T8-1",
+   "limite_externo_s": 600.0,
+   "nucleo": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src",
+   "operacion": "F09-TESTIGO",
+   "procesos": 1,
+   "unidad": "TESTIGO"
+  }
+ ],
+ "regla": "fijado por el encargo de FAM09 antes de calcular y sin mirar resultados: el techo alto del grupo EQ-TECHO-T8-1, clave e8b1f7fd…, UNA vez, con el trabajador auténtico (trabajador_testigo.py fefa171c…), el núcleo histórico lima1855 y la configuración de su manifiesto v2 (3ed91d32…), bajo el supervisor existente, un proceso y límite externo de 600 s. Un vencimiento real se informa y no se relanza. La referencia rem141 solo se lee después del cálculo (fam09-comparar)."
+}

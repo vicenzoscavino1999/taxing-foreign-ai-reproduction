@@ -1,0 +1,1105 @@
+{
+ "kind": "manifiesto-coord-rec-rem122",
+ "estado": "PROPUESTO_NO_EMITIDO",
+ "variante": "B",
+ "b_official_run_authorized": false,
+ "freeze_run_authorized": false,
+ "official_export_authorized": false,
+ "L1-COORD-REC": {
+  "variante": "B",
+  "lote2_manifiesto": {
+   "ruta": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/LOTE2_MANIFIESTO.json",
+   "sha256": "b1cf8af5eab8aa22c53ec279bd5660dbf57847b6be8f874c56af7d71f9cd4bab"
+  },
+  "fuentes": {
+   "rem112_coord_techos": {
+    "ruta": "tmp/paso4_lote1_desde_rem112/lote1_LOTE1_REM112/L1-COORD/salida/coord_techos.jsonl",
+    "sha256": "f3aa14936af061ecb3d924c2085baca5aa993445245661bc0588e7cc5c0faf10"
+   },
+   "rem120_coord_techos": {
+    "ruta": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-COORD/salida/coord_techos.jsonl",
+    "sha256": "f6d24054583baa6919641385527e31ff206c3de20a6469b3d79d763348cde4dd"
+   },
+   "rem120_coord_comparacion": {
+    "ruta": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-COORD/salida/coord_comparacion.jsonl",
+    "sha256": "6b6baca8e8346837b758b713e1fb24e8e1cc1d95511c68da8645455e70c18bad"
+   }
+  },
+  "claves_coord_total": [
+   "0abfd6e52f0f2fba",
+   "0d6e8d99b88056cb",
+   "141cd6fb73fd5f82",
+   "19dabac4b3fe72f8",
+   "290f05fba91231b7",
+   "3b614618733eb5d4",
+   "3bb32b65b550e433",
+   "3f6f9fa2bb45df9c",
+   "417758d2de6c36a4",
+   "444310abef34942d",
+   "450f65a8510f2487",
+   "6f8e6a5a9bb213af",
+   "70319476fc60caab",
+   "75a283726bb5e755",
+   "80da8806d0147799",
+   "85546786e31a1a4b",
+   "8a9fbd6ddd9bf9c4",
+   "8ea5c3c2e761a339",
+   "a78f71124ed232dd",
+   "b3d8f27909f71615",
+   "b7942a4fa1116665",
+   "c58a483e8b99de2d",
+   "def7a30615dd4066",
+   "ee2fad1eefdcb23d",
+   "f8055631a4a348af",
+   "faf90f87a7f2edc0"
+  ],
+  "claves_recalculadas": {
+   "141cd6fb73fd5f82": {
+    "clave": {
+     "a": "2.2",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "4",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.49707",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "diseno": "N",
+    "j": "df",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "motivo_recalculo": "NO_CONVERGIO_EN_REM120 (SUP_NOT_CONVERGED)"
+   },
+   "6f8e6a5a9bb213af": {
+    "clave": {
+     "a": "2.2",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "4",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.495115",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "diseno": "G",
+    "j": "df",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "motivo_recalculo": "NO_CONVERGIO_EN_REM120 (SUP_NOT_CONVERGED)"
+   },
+   "417758d2de6c36a4": {
+    "clave": {
+     "a": "2.3",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "4",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.49707",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "diseno": "N",
+    "j": "df",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "motivo_recalculo": "NO_CONVERGIO_EN_REM120 (SUP_NOT_CONVERGED)"
+   },
+   "b7942a4fa1116665": {
+    "clave": {
+     "a": "2.3",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "4",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.495115",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "diseno": "G",
+    "j": "df",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "motivo_recalculo": "NO_CONVERGIO_EN_REM120 (SUP_NOT_CONVERGED)"
+   },
+   "ee2fad1eefdcb23d": {
+    "clave": {
+     "a": "2.1",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "4",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.49707",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "diseno": "N",
+    "j": "df",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "motivo_recalculo": "GARANTIA_Y_DETALLE (completo rem120 con error 0 de convergence_estimate; no es un fallo)"
+   },
+   "8ea5c3c2e761a339": {
+    "clave": {
+     "a": "2.13",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "4",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.495115",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "diseno": "G",
+    "j": "df",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "motivo_recalculo": "GARANTIA_Y_DETALLE (completo rem120 con error 0 de convergence_estimate; no es un fallo)"
+   }
+  },
+  "claves_reutilizadas": {
+   "0d6e8d99b88056cb": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 0.5644760616763769,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate",
+    "condicion": "ACEPTADO (rem113/rem121); garantía original preservada (rem117 §2.4)"
+   },
+   "19dabac4b3fe72f8": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 0.0003290820325159279,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate",
+    "condicion": "ACEPTADO (rem113/rem121); garantía original preservada (rem117 §2.4)"
+   },
+   "290f05fba91231b7": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 0.18124008197966945,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate",
+    "condicion": "ACEPTADO (rem113/rem121); garantía original preservada (rem117 §2.4)"
+   },
+   "3b614618733eb5d4": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 0.5474661219332885,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate",
+    "condicion": "ACEPTADO (rem113/rem121); garantía original preservada (rem117 §2.4)"
+   },
+   "3f6f9fa2bb45df9c": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 0.718636026171834,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate",
+    "condicion": "ACEPTADO (rem113/rem121); garantía original preservada (rem117 §2.4)"
+   },
+   "70319476fc60caab": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 0.0003289207019029628,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate",
+    "condicion": "ACEPTADO (rem113/rem121); garantía original preservada (rem117 §2.4)"
+   },
+   "75a283726bb5e755": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 5.851428571428577e-05,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate",
+    "condicion": "ACEPTADO (rem113/rem121); garantía original preservada (rem117 §2.4)"
+   },
+   "80da8806d0147799": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 0.18124008197966945,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate",
+    "condicion": "ACEPTADO (rem113/rem121); garantía original preservada (rem117 §2.4)"
+   },
+   "85546786e31a1a4b": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 0.4379728975466308,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate",
+    "condicion": "ACEPTADO (rem113/rem121); garantía original preservada (rem117 §2.4)"
+   },
+   "8a9fbd6ddd9bf9c4": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 5.851428571428577e-05,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate",
+    "condicion": "ACEPTADO (rem113/rem121); garantía original preservada (rem117 §2.4)"
+   },
+   "a78f71124ed232dd": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 0.00039745283924131264,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate",
+    "condicion": "ACEPTADO (rem113/rem121); garantía original preservada (rem117 §2.4)"
+   },
+   "faf90f87a7f2edc0": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 0.0003984793480698084,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate",
+    "condicion": "ACEPTADO (rem113/rem121); garantía original preservada (rem117 §2.4)"
+   },
+   "0abfd6e52f0f2fba": {
+    "fuente": "rem120_coord_techos",
+    "C_2": 0.0009495957168395439,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate",
+    "condicion": "PROPUESTO para reutilización por valor auténtico; no es certificado"
+   },
+   "3bb32b65b550e433": {
+    "fuente": "rem120_coord_techos",
+    "C_2": 0.0012677573387297602,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate",
+    "condicion": "PROPUESTO para reutilización por valor auténtico; no es certificado"
+   },
+   "444310abef34942d": {
+    "fuente": "rem120_coord_techos",
+    "C_2": 0.0007093133120033414,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate",
+    "condicion": "PROPUESTO para reutilización por valor auténtico; no es certificado"
+   },
+   "450f65a8510f2487": {
+    "fuente": "rem120_coord_techos",
+    "C_2": 0.0007110736140261224,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate",
+    "condicion": "PROPUESTO para reutilización por valor auténtico; no es certificado"
+   },
+   "b3d8f27909f71615": {
+    "fuente": "rem120_coord_techos",
+    "C_2": 0.0016879716875601097,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate",
+    "condicion": "PROPUESTO para reutilización por valor auténtico; no es certificado"
+   },
+   "c58a483e8b99de2d": {
+    "fuente": "rem120_coord_techos",
+    "C_2": 0.0009472976408770098,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate",
+    "condicion": "PROPUESTO para reutilización por valor auténtico; no es certificado"
+   },
+   "def7a30615dd4066": {
+    "fuente": "rem120_coord_techos",
+    "C_2": 0.0012647646431561146,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate",
+    "condicion": "PROPUESTO para reutilización por valor auténtico; no es certificado"
+   },
+   "f8055631a4a348af": {
+    "fuente": "rem120_coord_techos",
+    "C_2": 0.0016918576268753435,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate",
+    "condicion": "PROPUESTO para reutilización por valor auténtico; no es certificado"
+   }
+  },
+  "tareas": {
+   "L1-COORD-R1": [
+    "141cd6fb73fd5f82",
+    "6f8e6a5a9bb213af"
+   ],
+   "L1-COORD-R2": [
+    "417758d2de6c36a4",
+    "b7942a4fa1116665"
+   ],
+   "L1-COORD-R3": [
+    "ee2fad1eefdcb23d",
+    "8ea5c3c2e761a339"
+   ]
+  },
+  "celdas_afectadas": [
+   {
+    "unidad": "4c1da6eeab8a93db6e1ba17a6bb5b330c666990b2263c6c236c12615388a2ff2",
+    "cell_id": "CEL:9d9278654b7077ac4298cf19f525116d2b4bc627f0b9",
+    "pais": "COL",
+    "diseno": "G",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "CMP-E1.macro.COORD",
+    "K1_reutilizado": 5.626255464289762,
+    "G_padre": -5.624791439698757,
+    "C2_padre": 0.0014640245910055023,
+    "clave_transformada_sha256": "6f8e6a5a9bb213af",
+    "ref": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/4c1da6eeab8a93db6e1ba17a6bb5b330c666990b2263c6c236c12615388a2ff2_filas.json",
+    "filas_sha256": "847881e8e7b1c8de4051ec3c280059e1bbfdfaff3816bd431056a8c6620d472b"
+   },
+   {
+    "unidad": "619174f4b0d878db73a9eccbda3eba7328e141cac6a041fa2680adc7113cca39",
+    "cell_id": "CEL:5159faa9884e67fabb19dcc4e75709a44ec9654fe331",
+    "pais": "COL",
+    "diseno": "G",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "CMP-E1.macro.COORD",
+    "K1_reutilizado": 6.172004395305173,
+    "G_padre": -6.170540370714168,
+    "C2_padre": 0.0014640245910055023,
+    "clave_transformada_sha256": "6f8e6a5a9bb213af",
+    "ref": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/619174f4b0d878db73a9eccbda3eba7328e141cac6a041fa2680adc7113cca39_filas.json",
+    "filas_sha256": "b97b52631026a85542dc008eb7b42278603df68a36f4290ee5b59522c36cb02b"
+   },
+   {
+    "unidad": "6c595e65e0397e83b8633df7528f9c11c99f52350a938e971b669a8f31a656ef",
+    "cell_id": "CEL:5bcefac985b1217b1b0a11a358ad1debbbf19963cc66",
+    "pais": "COL",
+    "diseno": "N",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "CMP-E1.macro.COORD",
+    "K1_reutilizado": 5.616260758455787,
+    "G_padre": -5.614800244372689,
+    "C2_padre": 0.0014605140830980586,
+    "clave_transformada_sha256": "141cd6fb73fd5f82",
+    "ref": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/6c595e65e0397e83b8633df7528f9c11c99f52350a938e971b669a8f31a656ef_filas.json",
+    "filas_sha256": "11d929a24e8488a7193ce442d984509503ee6df4136d47b9f5584a1ddc712a7c"
+   },
+   {
+    "unidad": "7157afd0e8943f515a4815ccccd3d94b0eaff471345f281bde2096bf3a5b6abd",
+    "cell_id": "CEL:94ae8e3bda6bf796ac2516f6b7379d4a6f599a3b9a5b",
+    "pais": "COL",
+    "diseno": "G",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "CMP-E1.macro.COORD",
+    "K1_reutilizado": 5.616260758455787,
+    "G_padre": -5.6147967338647815,
+    "C2_padre": 0.0014640245910055023,
+    "clave_transformada_sha256": "6f8e6a5a9bb213af",
+    "ref": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/7157afd0e8943f515a4815ccccd3d94b0eaff471345f281bde2096bf3a5b6abd_filas.json",
+    "filas_sha256": "e01b442f15c1f7cd669dc10e0567825d5413def6d0b46d2ecd96d094779d762e"
+   },
+   {
+    "unidad": "82ba9370ece0cd5ae47e90c60129249d8afe347cd6d8455e468005d54028ac6e",
+    "cell_id": "CEL:62417da2022b5dd19085505f5f3001466ede5a6fa871",
+    "pais": "COL",
+    "diseno": "N",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "CMP-E1.macro.COORD",
+    "K1_reutilizado": 5.626255464289762,
+    "G_padre": -5.624794950206664,
+    "C2_padre": 0.0014605140830980586,
+    "clave_transformada_sha256": "141cd6fb73fd5f82",
+    "ref": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/82ba9370ece0cd5ae47e90c60129249d8afe347cd6d8455e468005d54028ac6e_filas.json",
+    "filas_sha256": "95721704cc2077afe32679cf8851e2bf7d0fde4a48b08ce77e09f3cba56e9139"
+   },
+   {
+    "unidad": "a40db813199d0176cf67d3542a6abc8f0a165f868beaa017a79450d7dad94ada",
+    "cell_id": "CEL:506b0a1be4b85b7dc3920245478bf112ac4e83daa447",
+    "pais": "MEX",
+    "diseno": "N",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "CMP-E1.macro.COORD",
+    "K1_reutilizado": 7.541628939301456,
+    "G_padre": -7.539472441293442,
+    "C2_padre": 0.0021564980080148364,
+    "clave_transformada_sha256": "ee2fad1eefdcb23d",
+    "ref": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/a40db813199d0176cf67d3542a6abc8f0a165f868beaa017a79450d7dad94ada_filas.json",
+    "filas_sha256": "f5ebb00caa47702e15c15a027c9160a67fc05c278933539da8c54fb7122960a8"
+   },
+   {
+    "unidad": "c3491d60668cd12a03b6eb92ae13136fe135e5c12aeed4b04f482d8142ad1541",
+    "cell_id": "CEL:26e6539a8ee22d90ba5c4096112a079347ee19f5c570",
+    "pais": "COL",
+    "diseno": "N",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "CMP-E1.macro.COORD",
+    "K1_reutilizado": 6.172004395305173,
+    "G_padre": -6.170543881222075,
+    "C2_padre": 0.0014605140830980586,
+    "clave_transformada_sha256": "141cd6fb73fd5f82",
+    "ref": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/c3491d60668cd12a03b6eb92ae13136fe135e5c12aeed4b04f482d8142ad1541_filas.json",
+    "filas_sha256": "65045957411378fa9cf81c640749e797a16df3fd4769fadbbb98db59e7faca09"
+   },
+   {
+    "unidad": "d2b1adbf46fde7f8fd625f8a8e921aeefcdb3e974e95bbd6e649370204497ee7",
+    "cell_id": "CEL:940e4bd1d648eede0c163177380b0b1de87fa08826a0",
+    "pais": "COL",
+    "diseno": "N",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "CMP-E1.macro.COORD",
+    "K1_reutilizado": 6.161040199184216,
+    "G_padre": -6.159579685101118,
+    "C2_padre": 0.0014605140830980586,
+    "clave_transformada_sha256": "141cd6fb73fd5f82",
+    "ref": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/d2b1adbf46fde7f8fd625f8a8e921aeefcdb3e974e95bbd6e649370204497ee7_filas.json",
+    "filas_sha256": "ed8a88e9070620aa60572abe5a7ed131ec0e53cbe56d1dc1638b3b54229a6029"
+   },
+   {
+    "unidad": "f11a4d77003387337cb7eff2c19fecdb98db67b9d121feee998d59bb53f6a3ae",
+    "cell_id": "CEL:8e4763bb8d00f3755d9f56774765c5f34ffde185ba51",
+    "pais": "MEX",
+    "diseno": "G",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "CMP-E1.macro.COORD",
+    "K1_reutilizado": 7.525154866941936,
+    "G_padre": -7.523233427596272,
+    "C2_padre": 0.0019214393456644019,
+    "clave_transformada_sha256": "8ea5c3c2e761a339",
+    "ref": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/f11a4d77003387337cb7eff2c19fecdb98db67b9d121feee998d59bb53f6a3ae_filas.json",
+    "filas_sha256": "8dc16db8ae9b7ab4477f3530afa01a3e391be63e0562536be463153fab6ad080"
+   },
+   {
+    "unidad": "f2f133d07b4b4e44945ba35f853af4a3deeb9111af53905f4d93bf20a8a5a2c7",
+    "cell_id": "CEL:fc008c3c6ca8ed27b0c03e3d91f2b7bdb01edee8b02a",
+    "pais": "COL",
+    "diseno": "G",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "CMP-E1.macro.COORD",
+    "K1_reutilizado": 6.161040199184216,
+    "G_padre": -6.1595761745932105,
+    "C2_padre": 0.0014640245910055023,
+    "clave_transformada_sha256": "6f8e6a5a9bb213af",
+    "ref": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/f2f133d07b4b4e44945ba35f853af4a3deeb9111af53905f4d93bf20a8a5a2c7_filas.json",
+    "filas_sha256": "4204708ce68f31c67b4ff115bd8a32f2b6aaafe61a581a1bef7f95fe86d6e38c"
+   },
+   {
+    "unidad": "14ec82a1cacfeeb5987db76a76b581a60d8f596e6c77d2a6fb74882d3504f9db",
+    "cell_id": "CEL:54543051d57b5e32aa469a999c84039284587d1f82f0",
+    "pais": "COL",
+    "diseno": "G",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "CMP-E1.micro.COORD",
+    "K1_reutilizado": 4.231122395851,
+    "G_padre": -4.230120155364712,
+    "C2_padre": 0.0010022404862885528,
+    "clave_transformada_sha256": "b7942a4fa1116665",
+    "ref": "remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/14ec82a1cacfeeb5987db76a76b581a60d8f596e6c77d2a6fb74882d3504f9db_filas.json",
+    "filas_sha256": "46a8a3abe0c04d6e55272a4547b9697352df17a0b0894da50a5e96f906e92d67"
+   },
+   {
+    "unidad": "18374566287cebbf8fa75c7d348420611b474a08fb675c145a33afeb32025df9",
+    "cell_id": "CEL:82831c298ebecf4d0c01b92759581f29d9752a996f70",
+    "pais": "MEX",
+    "diseno": "G",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "CMP-E1.micro.COORD",
+    "K1_reutilizado": 6.0283024299569465,
+    "G_padre": -6.026838405365941,
+    "C2_padre": 0.0014640245910055023,
+    "clave_transformada_sha256": "6f8e6a5a9bb213af",
+    "ref": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/18374566287cebbf8fa75c7d348420611b474a08fb675c145a33afeb32025df9_filas.json",
+    "filas_sha256": "116202931dd65a45b6e3b6b5ef2fc9f3b686d3cd299792229d56414a7600c43c"
+   },
+   {
+    "unidad": "255479cab2f5ad0ac45f6de26ef6098817b3028007d27cb232eb6911c39991ef",
+    "cell_id": "CEL:2626b796389bd2169bfb3418ebb62531cf4f8c5ed259",
+    "pais": "MEX",
+    "diseno": "N",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "CMP-E1.micro.COORD",
+    "K1_reutilizado": 6.041314111233885,
+    "G_padre": -6.039853597150787,
+    "C2_padre": 0.0014605140830980586,
+    "clave_transformada_sha256": "141cd6fb73fd5f82",
+    "ref": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/255479cab2f5ad0ac45f6de26ef6098817b3028007d27cb232eb6911c39991ef_filas.json",
+    "filas_sha256": "c793068a048706fb289a0822952228eda72b14b1a751893faebc40bc4f9672b1"
+   },
+   {
+    "unidad": "31aa820eb6379a5a369146a62bf5d66ac941d515074e8c4a17d58bcb3ab41db5",
+    "cell_id": "CEL:f5e72f9825abacb70fa968ecf27090714598d5b6b21e",
+    "pais": "MEX",
+    "diseno": "N",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "CMP-E1.micro.COORD",
+    "K1_reutilizado": 6.0283024299569465,
+    "G_padre": -6.026841915873849,
+    "C2_padre": 0.0014605140830980586,
+    "clave_transformada_sha256": "141cd6fb73fd5f82",
+    "ref": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/31aa820eb6379a5a369146a62bf5d66ac941d515074e8c4a17d58bcb3ab41db5_filas.json",
+    "filas_sha256": "c41b7f9e16fc8679d34c4f224ebfac0cc751be86f7d562c95bab0c48a70297be"
+   },
+   {
+    "unidad": "6ddbd067d11c1658fcfc96e9b28a5d935a7142dc02d7c0f4e71eb368ffae3fc4",
+    "cell_id": "CEL:5e1d463156e6244d2a0fdc3c231b8bf30b9218ec7075",
+    "pais": "COL",
+    "diseno": "N",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "CMP-E1.micro.COORD",
+    "K1_reutilizado": 4.2386521074354215,
+    "G_padre": -4.237652289014053,
+    "C2_padre": 0.0009998184213682502,
+    "clave_transformada_sha256": "417758d2de6c36a4",
+    "ref": "remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/6ddbd067d11c1658fcfc96e9b28a5d935a7142dc02d7c0f4e71eb368ffae3fc4_filas.json",
+    "filas_sha256": "9d8c1291cf744aa9eedd731abfcc81cd253d45ecaf7bb8b6fba50c05ce9b5a9d"
+   },
+   {
+    "unidad": "7fa3170f47322a38e23811e88778fe74fc826ed5bce93e0b4f31943c6198c642",
+    "cell_id": "CEL:12fdbcfa9d25046a93c2cbb10a1f3ba3128cc99b5af0",
+    "pais": "COL",
+    "diseno": "G",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "CMP-E1.micro.COORD",
+    "K1_reutilizado": 4.110846114760828,
+    "G_padre": -4.10984387427454,
+    "C2_padre": 0.0010022404862885528,
+    "clave_transformada_sha256": "b7942a4fa1116665",
+    "ref": "remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/7fa3170f47322a38e23811e88778fe74fc826ed5bce93e0b4f31943c6198c642_filas.json",
+    "filas_sha256": "0c2009c80ffdbf081e84a6cf14870515735f9e4920b3dad70ca1fbf9150ac974"
+   },
+   {
+    "unidad": "8a28e3689c607d8828ff57ec1dbb657b2466df28f18f44874dcc7036f7c7736c",
+    "cell_id": "CEL:c5d370c04e74ac6a7fc39a87a29ba1b5aca5fad8ea25",
+    "pais": "COL",
+    "diseno": "G",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "CMP-E1.micro.COORD",
+    "K1_reutilizado": 4.1035434428671405,
+    "G_padre": -4.102541202380852,
+    "C2_padre": 0.0010022404862885528,
+    "clave_transformada_sha256": "b7942a4fa1116665",
+    "ref": "remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/8a28e3689c607d8828ff57ec1dbb657b2466df28f18f44874dcc7036f7c7736c_filas.json",
+    "filas_sha256": "6b7d2d4241cc65f4f89842cb58e4163de936208dca32a3d4e26d0f5da99895f2"
+   },
+   {
+    "unidad": "9fb9d56b909e47f40d103811356ac1537b6fd5b999e516fffbf446a493aa521b",
+    "cell_id": "CEL:a9e2036741d2fe67d8e0f408188186d022d9824f651e",
+    "pais": "COL",
+    "diseno": "N",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "CMP-E1.micro.COORD",
+    "K1_reutilizado": 4.110846114760828,
+    "G_padre": -4.10984629633946,
+    "C2_padre": 0.0009998184213682502,
+    "clave_transformada_sha256": "417758d2de6c36a4",
+    "ref": "remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/9fb9d56b909e47f40d103811356ac1537b6fd5b999e516fffbf446a493aa521b_filas.json",
+    "filas_sha256": "2d43b1591e0ff59984d37479e6af2e25dc18316f07691d37f64ffa156b35e917"
+   },
+   {
+    "unidad": "b7cb6ef747cb18e1554e8462930426cd2794a16a414ce88192c715680d507e6f",
+    "cell_id": "CEL:a88241e018c550c94459fadba44492af27be21073710",
+    "pais": "COL",
+    "diseno": "N",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "CMP-E1.micro.COORD",
+    "K1_reutilizado": 4.231122395851,
+    "G_padre": -4.230122577429632,
+    "C2_padre": 0.0009998184213682502,
+    "clave_transformada_sha256": "417758d2de6c36a4",
+    "ref": "remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/b7cb6ef747cb18e1554e8462930426cd2794a16a414ce88192c715680d507e6f_filas.json",
+    "filas_sha256": "7d8a2a1cc307ebb29284d83172bda9b67e4dff7914192a024fb93aeb1e7ae6a7"
+   },
+   {
+    "unidad": "c02617adc3c9973d2baf1bd3556cb310c34e73e8a561ded72d2cdebf0913b738",
+    "cell_id": "CEL:6f441fcaa47d07228ad7611a405819e1b0ddaff06357",
+    "pais": "MEX",
+    "diseno": "G",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "CMP-E1.micro.COORD",
+    "K1_reutilizado": 6.041314111233885,
+    "G_padre": -6.03985008664288,
+    "C2_padre": 0.0014640245910055023,
+    "clave_transformada_sha256": "6f8e6a5a9bb213af",
+    "ref": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/c02617adc3c9973d2baf1bd3556cb310c34e73e8a561ded72d2cdebf0913b738_filas.json",
+    "filas_sha256": "429deca9580bc7e3508fc73f92ff6745f96e3d2ccdc9a3becd0b618f1dbfd024"
+   },
+   {
+    "unidad": "cb77bafeab6084aac3c471fd5a277a9b411d4928b96e6a12a48124c866fc479f",
+    "cell_id": "CEL:255955cca606fd5f3a248ce8feb45ecd5d22be92a86b",
+    "pais": "COL",
+    "diseno": "G",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "CMP-E1.micro.COORD",
+    "K1_reutilizado": 4.2386521074354215,
+    "G_padre": -4.237649866949133,
+    "C2_padre": 0.0010022404862885528,
+    "clave_transformada_sha256": "b7942a4fa1116665",
+    "ref": "remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/cb77bafeab6084aac3c471fd5a277a9b411d4928b96e6a12a48124c866fc479f_filas.json",
+    "filas_sha256": "07fc12776fc90caef8dda4ca4109f3d30d025b2dba1b553f022ae842517522a8"
+   },
+   {
+    "unidad": "e0032fc820e4dc94eae6f7fe39343a49e2c8545ad1015dd14b1387d239319c18",
+    "cell_id": "CEL:da55e2d73426389eb82430f1ba2b9b787c79050ccf9d",
+    "pais": "COL",
+    "diseno": "N",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "CMP-E1.micro.COORD",
+    "K1_reutilizado": 4.1035434428671405,
+    "G_padre": -4.102543624445772,
+    "C2_padre": 0.0009998184213682502,
+    "clave_transformada_sha256": "417758d2de6c36a4",
+    "ref": "remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/e0032fc820e4dc94eae6f7fe39343a49e2c8545ad1015dd14b1387d239319c18_filas.json",
+    "filas_sha256": "fd88af4fdc77a97e8a871d711f0c00936eced5307faa00c75bbc53ff87541145"
+   },
+   {
+    "unidad": "51dc3e55a2151d7bd3f4f36f0840da144e72914e50f8ffc2c2396539792d247a",
+    "cell_id": "CEL:05d191da1ac993975c198ab1c7abb2fefa3f00431366",
+    "pais": "COL",
+    "diseno": "N",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "COL-E2-2023.2023p.macro.COORD",
+    "K1_reutilizado": 5.626255464289762,
+    "G_padre": -5.624794950206664,
+    "C2_padre": 0.0014605140830980586,
+    "clave_transformada_sha256": "141cd6fb73fd5f82",
+    "ref": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/51dc3e55a2151d7bd3f4f36f0840da144e72914e50f8ffc2c2396539792d247a_filas.json",
+    "filas_sha256": "88eaea3b1396c48c2d6391bf435272e1823ab74b18dd65321b4509774b045acb"
+   },
+   {
+    "unidad": "783df3d19d6eef7e4168f5ecb7ee3ef0974200df1765aea4d466679a90c86fd6",
+    "cell_id": "CEL:3005a17f09ef20104ef8112d5266547aedc793a7a6db",
+    "pais": "COL",
+    "diseno": "G",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "COL-E2-2023.2023p.macro.COORD",
+    "K1_reutilizado": 5.616260758455787,
+    "G_padre": -5.6147967338647815,
+    "C2_padre": 0.0014640245910055023,
+    "clave_transformada_sha256": "6f8e6a5a9bb213af",
+    "ref": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/783df3d19d6eef7e4168f5ecb7ee3ef0974200df1765aea4d466679a90c86fd6_filas.json",
+    "filas_sha256": "d4b4f2cdd73d41c3d44e09d00eb186103cc43e9f47cdfc0d56fe64e5bc107c93"
+   },
+   {
+    "unidad": "d182c22595bceaf87a4daa3a7ee72dd2a8a7e588be7a32a18a485564808ab9de",
+    "cell_id": "CEL:fbd814c5d05b1a893c368be83c7fa1110c61f08952ae",
+    "pais": "COL",
+    "diseno": "N",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "COL-E2-2023.2023p.macro.COORD",
+    "K1_reutilizado": 5.616260758455787,
+    "G_padre": -5.614800244372689,
+    "C2_padre": 0.0014605140830980586,
+    "clave_transformada_sha256": "141cd6fb73fd5f82",
+    "ref": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/d182c22595bceaf87a4daa3a7ee72dd2a8a7e588be7a32a18a485564808ab9de_filas.json",
+    "filas_sha256": "dffb3d3dea89016141519f4e0562cff41ac7c34d265bb4813778f6f032918cf7"
+   },
+   {
+    "unidad": "f17ab948b00e72a9addbe7b603eee9e457e49801d45f433f16f7cf92bdc8462b",
+    "cell_id": "CEL:d5a8953387810ef8a2a0f34fa4a3a7d397989091039f",
+    "pais": "COL",
+    "diseno": "G",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "COL-E2-2023.2023p.macro.COORD",
+    "K1_reutilizado": 5.626255464289762,
+    "G_padre": -5.624791439698757,
+    "C2_padre": 0.0014640245910055023,
+    "clave_transformada_sha256": "6f8e6a5a9bb213af",
+    "ref": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/f17ab948b00e72a9addbe7b603eee9e457e49801d45f433f16f7cf92bdc8462b_filas.json",
+    "filas_sha256": "0980ff66c49baf92ed0b3a95e714178bf715088c5d4583cae1ba79397842a28c"
+   },
+   {
+    "unidad": "1261a4bd83d748327c21a2cf049faf15abf016bcee897c1e6a3faf75420282c3",
+    "cell_id": "CEL:24e665c0a634ae644608e6c9a63a9019ed3022503bef",
+    "pais": "COL",
+    "diseno": "N",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "COL-E2-2023.2023p.micro.COORD",
+    "K1_reutilizado": 4.1035434428671405,
+    "G_padre": -4.102543624445772,
+    "C2_padre": 0.0009998184213682502,
+    "clave_transformada_sha256": "417758d2de6c36a4",
+    "ref": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/1261a4bd83d748327c21a2cf049faf15abf016bcee897c1e6a3faf75420282c3_filas.json",
+    "filas_sha256": "7af87b0bdd78c5ee51a41f322cab92a629b924e4cc1d2ef503c6f928a0764c8a"
+   },
+   {
+    "unidad": "242b5e3985bc520615cf350a9935900b10046c0297588871aa75c2c6d19dfb06",
+    "cell_id": "CEL:58186950884437f6b10e956ad1f3604136491bb0c337",
+    "pais": "COL",
+    "diseno": "G",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "COL-E2-2023.2023p.micro.COORD",
+    "K1_reutilizado": 4.1035434428671405,
+    "G_padre": -4.102541202380852,
+    "C2_padre": 0.0010022404862885528,
+    "clave_transformada_sha256": "b7942a4fa1116665",
+    "ref": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/242b5e3985bc520615cf350a9935900b10046c0297588871aa75c2c6d19dfb06_filas.json",
+    "filas_sha256": "c0dff0e0ca0e7504c0f6291fa004e08f909c0b7669631287d2ae130b37ee1125"
+   },
+   {
+    "unidad": "6a4bc4d9e6ff4f0bde054657237fcec06733a306707f8babea6c56e79a407171",
+    "cell_id": "CEL:de40d21fe35122f96cdaea4743d038e171b3ef1fff8c",
+    "pais": "COL",
+    "diseno": "G",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "COL-E2-2023.2023p.micro.COORD",
+    "K1_reutilizado": 4.110846114760828,
+    "G_padre": -4.10984387427454,
+    "C2_padre": 0.0010022404862885528,
+    "clave_transformada_sha256": "b7942a4fa1116665",
+    "ref": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/6a4bc4d9e6ff4f0bde054657237fcec06733a306707f8babea6c56e79a407171_filas.json",
+    "filas_sha256": "a6633577485c161ffac229b330082c88fbd02d1b30da360720eb806232c8f8cb"
+   },
+   {
+    "unidad": "c15d197a4e921459b165f33dc0ff94b79cf5fdd7698c5be221f8d308da7e4e3e",
+    "cell_id": "CEL:bf40d6ffea23f4811cdcfb711242c8ed2ce9d6846291",
+    "pais": "COL",
+    "diseno": "N",
+    "j": "df",
+    "menu": "conditional_full",
+    "conjunto_coord": "COL-E2-2023.2023p.micro.COORD",
+    "K1_reutilizado": 4.110846114760828,
+    "G_padre": -4.10984629633946,
+    "C2_padre": 0.0009998184213682502,
+    "clave_transformada_sha256": "417758d2de6c36a4",
+    "ref": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/c15d197a4e921459b165f33dc0ff94b79cf5fdd7698c5be221f8d308da7e4e3e_filas.json",
+    "filas_sha256": "80b5ec5a25b50b50f3f9a3c86b2e34976710b93395e5121b38d2a0838fdca581"
+   }
+  ],
+  "celdas_total": 1532,
+  "comparaciones_previas_aceptadas": {
+   "ruta": "tmp/paso4_lote1_desde_rem112/lote1_LOTE1_REM112/L1-COORD/salida/coord_comparacion.jsonl",
+   "sha256": "9de71ea11467bdedfe9584cc6eaf9bc325500fdb621c4d929d4739bc2820f999",
+   "filas": 192
+  },
+  "motor": {
+   "ruta": "RUN.provider_for(RUN.RunConfig()).capture_ceiling → ModeloTeorico.capture_ceiling → encierros_modelo.sup_bound (rama y cota con encierros)",
+   "configuracion": {
+    "proveedor": "modelo_teorico_v2_2",
+    "sup_max_boxes": 20000,
+    "jump_budget": 600,
+    "sup": {
+     "n0": 8,
+     "levels": 3,
+     "top_k": 6,
+     "polish_xtol": 1e-11,
+     "scout_xtol": 1e-07,
+     "richardson_eps": 1e-06,
+     "delta_jump": 1e-07,
+     "tol_attain": 1e-10,
+     "tol_converge": 1e-07
+    },
+    "tol_rama_y_cota": "0.5*tol_converge*B_pot.lo (unidades de R)",
+    "criterio_cierre": "error_normalizado <= tol_converge y sin caja viva en curva de salto"
+   },
+   "codigo": {
+    "modelos.py": "7f0dd31cacf431fb421e2c5047aa5b750cbecfc1064e3374c4247dcd40c93fda",
+    "encierros_modelo.py": "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53",
+    "supremum.py": "2c246c8be6d4437892cd951cc0acaaac6e5d8ea7a921de2e13f560caf8dfebbb",
+    "elementales.py": "c71faf35370fa2329db69802f03f52d9bc72566a2d9fa50a9ca8dbea1eb6f82b",
+    "intervalos.py": "2607d0cf3f879316c699ec4cd73021bff9ae8f680f7c7c01facb84dfb65aa891",
+    "frontier.py": "709f51b21188ff8d4638d7eadf535dd3f8307f2e1ce995a49539fe7bfcd36ed2",
+    "model.py": "b8541045ce2db793e3acfba5e84053edc185a7f8cdfc5c1b535d1452ebde9b04"
+   },
+   "instalacion_identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+   "certificado_en_esta_plataforma": true,
+   "garantia": "ieee754_binary64_rn",
+   "cierre": "NORMALIZADO: error_normalizado (cota demostrada de |C2 − sup/B_pot|) <= 1e-7 y sin caja viva en curva de salto; el error en R (= error_normalizado·B_pot) se conserva y NO se equipara a 1e-7 en R",
+   "cambio_de_metodo": "de frontier.capture_ceiling (convergence_estimate, |Δ niveles| en R <= 1e-7) a la ruta certificada (certified_bound); el futuro alcance fija método, escala y variante"
+  },
+  "presupuesto": {
+   "limites": {
+    "tope_trabajo_s": 2400.0,
+    "holgura_trabajo_s": 120.0,
+    "tope_efectivo_trabajador_s": 2280.0,
+    "tope_validacion_s": 300.0,
+    "margen_s": 90.0,
+    "cierre_s": 60.0,
+    "reserva_suite_s": 2940.0,
+    "tope_ensamblado_s": 300.0,
+    "reserva_ensamblado_s": 390.0,
+    "suite_max_s": 3600.0,
+    "union_max_s": 10800.0,
+    "procesos_max": 3
+   },
+   "por_tarea": {
+    "L1-COORD-R1": {
+     "claves": [
+      "141cd6fb73fd5f82",
+      "6f8e6a5a9bb213af"
+     ],
+     "antecedentes_padre_s": {
+      "141cd6fb73fd5f82": 420.388,
+      "6f8e6a5a9bb213af": 735.006
+     },
+     "suma_antecedentes_s": 1155.394,
+     "presupuesto": {
+      "tope_efectivo_trabajador_s": 2280.0,
+      "reserva_suite_s": 2940.0
+     }
+    },
+    "L1-COORD-R2": {
+     "claves": [
+      "417758d2de6c36a4",
+      "b7942a4fa1116665"
+     ],
+     "antecedentes_padre_s": {
+      "417758d2de6c36a4": 441.032,
+      "b7942a4fa1116665": 923.727
+     },
+     "suma_antecedentes_s": 1364.759,
+     "presupuesto": {
+      "tope_efectivo_trabajador_s": 2280.0,
+      "reserva_suite_s": 2940.0
+     }
+    },
+    "L1-COORD-R3": {
+     "claves": [
+      "ee2fad1eefdcb23d",
+      "8ea5c3c2e761a339"
+     ],
+     "antecedentes_padre_s": {
+      "ee2fad1eefdcb23d": 328.081,
+      "8ea5c3c2e761a339": 365.267
+     },
+     "suma_antecedentes_s": 693.348,
+     "presupuesto": {
+      "tope_efectivo_trabajador_s": 2280.0,
+      "reserva_suite_s": 2940.0
+     }
+    }
+   },
+   "antecedentes": {
+    "141cd6fb73fd5f82": [
+     {
+      "archivo": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/almacen_techos/b94437320a1091149f315d9eef4527a1caa34f0361483afeb7ef833cd2a12b8f/1809c574563781c8aee3787961e88417e2c97b620e13d24f80fc4af66dbd5bad.json",
+      "contenido_sha256": "6a33a00833879188a4324e8e681f3f9aca6f67103bb5157580ef33e93cf52def",
+      "segundos_calculo": 420.388,
+      "final_n": 4953,
+      "error_normalizado": 4.031587447434274e-08,
+      "error_R": 7.391243653629502e-08,
+      "estado": "complete",
+      "error_kind": "certified_bound"
+     }
+    ],
+    "6f8e6a5a9bb213af": [
+     {
+      "archivo": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/almacen_techos/b94437320a1091149f315d9eef4527a1caa34f0361483afeb7ef833cd2a12b8f/7083c9df75f623f8c40d0c5bc0852c796d2c89a982677026c483c6110060c033.json",
+      "contenido_sha256": "b56c158fb39ccf4dad71ca19300688d3a72c409df279bdf275f1409407e22465",
+      "segundos_calculo": 735.006,
+      "final_n": 4897,
+      "error_normalizado": 4.092046403483298e-08,
+      "error_R": 7.502085073052713e-08,
+      "estado": "complete",
+      "error_kind": "certified_bound"
+     }
+    ],
+    "417758d2de6c36a4": [
+     {
+      "archivo": "tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/almacen_techos/fd18577da384000f1909178061dc3bdea971c248a978fda5bfe2f9bcd5ed6fd4/16558fedceb63bca9165ac1a6fe1648f57b3679c8db7e8c33db3e24f6988a424.json",
+      "contenido_sha256": "cbd21a3f040793a14b6abc8c8ec9d54159d4af24cc202688579fe50c8a4943d3",
+      "segundos_calculo": 441.032,
+      "final_n": 7003,
+      "error_normalizado": 4.9941354310703574e-08,
+      "error_R": 8.835778070355249e-08,
+      "estado": "complete",
+      "error_kind": "certified_bound"
+     },
+     {
+      "archivo": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem8/almacen_techos/fd18577da384000f1909178061dc3bdea971c248a978fda5bfe2f9bcd5ed6fd4/16558fedceb63bca9165ac1a6fe1648f57b3679c8db7e8c33db3e24f6988a424.json",
+      "contenido_sha256": "cbd21a3f040793a14b6abc8c8ec9d54159d4af24cc202688579fe50c8a4943d3",
+      "segundos_calculo": 441.032,
+      "final_n": 7003,
+      "error_normalizado": 4.9941354310703574e-08,
+      "error_R": 8.835778070355249e-08,
+      "estado": "complete",
+      "error_kind": "certified_bound"
+     }
+    ],
+    "b7942a4fa1116665": [
+     {
+      "archivo": "tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/almacen_techos/7d01053599cd540f670d8017e5feb9ac9c27b7bab7f6a881d2ca7359e5214491/7ccb7710b588bdad2ba9377f62873b822d122c4a2ed7e6eea090875b90e24e29.json",
+      "contenido_sha256": "60d3939e6019712595d070d8f4eccf6c7479774ba8bd0387b1195e20113aa94f",
+      "segundos_calculo": 923.727,
+      "final_n": 6993,
+      "error_normalizado": 4.2974935466569976e-08,
+      "error_R": 7.603257813316227e-08,
+      "estado": "complete",
+      "error_kind": "certified_bound"
+     },
+     {
+      "archivo": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem/almacen_techos/7d01053599cd540f670d8017e5feb9ac9c27b7bab7f6a881d2ca7359e5214491/7ccb7710b588bdad2ba9377f62873b822d122c4a2ed7e6eea090875b90e24e29.json",
+      "contenido_sha256": "60d3939e6019712595d070d8f4eccf6c7479774ba8bd0387b1195e20113aa94f",
+      "segundos_calculo": 923.727,
+      "final_n": 6993,
+      "error_normalizado": 4.2974935466569976e-08,
+      "error_R": 7.603257813316227e-08,
+      "estado": "complete",
+      "error_kind": "certified_bound"
+     }
+    ],
+    "ee2fad1eefdcb23d": [
+     {
+      "archivo": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/detallado/almacen_techos/ab3d5497508f866a8543ca5945b23ac82f6e7531a4b654de82bccabbac10c140/fafe7ef24df627f52f847d3c7d3a4791b86ee35739208c3a40e92aa6991dba14.json",
+      "contenido_sha256": "cf93bff6c9a23a70cc1bf7b4e08e1a435a959f2d0789025015af901b57198f88",
+      "segundos_calculo": 328.081,
+      "final_n": 4920,
+      "error_normalizado": 4.872441517356913e-08,
+      "error_R": 9.301933805863197e-08,
+      "estado": "complete",
+      "error_kind": "certified_bound"
+     }
+    ],
+    "8ea5c3c2e761a339": [
+     {
+      "archivo": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/detallado/almacen_techos/ab3d5497508f866a8543ca5945b23ac82f6e7531a4b654de82bccabbac10c140/ae3268f0ecc40ac78cb77cfffa74334cb5f55440642da3c9e9cfc37b1a938bc4.json",
+      "contenido_sha256": "24090a5e1b13ef6cf18b36275ea8dc10bfb80c8ca5bb57f474e501aee7b50759",
+      "segundos_calculo": 365.267,
+      "final_n": 5486,
+      "error_normalizado": 4.9872756738853295e-08,
+      "error_R": 9.400793969359073e-08,
+      "estado": "complete",
+      "error_kind": "certified_bound"
+     }
+    ]
+   },
+   "reserva_total_s": 9210.0,
+   "criterio_de_parada": "rama y cota: upper−lower <= 0,5·1e-7·B_pot.lo (R) o sup_max_boxes; trabajador: no empieza otra clave pasado el tope efectivo; p3ctl: límite duro = tope de trabajo; conductor: admisión por hora/unión antes de cada suite y del ensamblado",
+   "nota": "antecedentes = segundos de las unidades padre en otra corrida y carga; no son duración medida ni garantía para las claves transformadas"
+  },
+  "fuera_del_lote": {
+   "COL-E2-2023.2024p.macro.COORD": {
+    "causa": "SIN_CELDAS_PADRE_TESTIGO: ninguna unidad aceptada de COL-E2-2023.2024p.macro es testigo S1 dentro de sus filas país/menú",
+    "filas_pais_menu": 5,
+    "estado": "pendiente de D-COORD-ALCANCE; no NA"
+   },
+   "COL-E2-2023.2024p.micro.COORD": {
+    "causa": "SIN_CELDAS_PADRE_TESTIGO: ninguna unidad aceptada de COL-E2-2023.2024p.micro es testigo S1 dentro de sus filas país/menú",
+    "filas_pais_menu": 5,
+    "estado": "pendiente de D-COORD-ALCANCE; no NA"
+   }
+  },
+  "separados": [
+   "D-COORD-ALCANCE",
+   "enforcement / D-EXP9i"
+  ],
+  "k1": "K1_reutilizado del manifiesto LOTE2, sin cambio"
+ }
+}

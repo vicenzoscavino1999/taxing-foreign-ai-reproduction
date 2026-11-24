@@ -1,0 +1,404 @@
+{
+ "kind": "certificado-alcance-supremo-salto-rem128",
+ "estado_documento": "DIAGNOSTICO_NO_PRODUCTIVO (candidato para revisión; no incorporado)",
+ "clave": "d59edf8a9d1461d1",
+ "clave_completa_sha256": "d59edf8a9d1461d135ecb84f7cf0fbf1a332ea182ad1acde96113702f4a8d40e",
+ "diseno": "G",
+ "j": "df",
+ "tau": {
+  "tau_d_lower": "0",
+  "tau_d_lower_closed": true,
+  "tau_d_upper": "0.6",
+  "tau_d_upper_closed": true,
+  "tau_f_lower": "0",
+  "tau_f_lower_closed": true,
+  "tau_f_upper": "0.6",
+  "tau_f_upper_closed": true
+ },
+ "primitivas": {
+  "a": "1.1",
+  "beta_tilde": "0.25",
+  "c_legal": "1",
+  "eta_d": "0.10002975463867188",
+  "eta_f": "0.050060272216796875",
+  "gamma": "1",
+  "kappa_tilde": "0.2",
+  "phi": "0.8755340576171875",
+  "rho": "1",
+  "t": "0",
+  "u_theta": "0.5",
+  "z_cost": "1",
+  "z_m": "1"
+ },
+ "fuente_techo": {
+  "ruta": "@@R_BS2@@\\tmp\\paso4_enforcement_completo_desde_rem127\\enf_REM127_ENF_COMPLETO_TECHOS\\ABL-ENF-T1\\salida\\enf_techos.jsonl",
+  "sha256": "ee76629337035a5c9179917b1dc3c076fe1ffb60accb358aa7e3d5393026ee74",
+  "estado": "incomplete",
+  "motivo": "SUP_ATTAINMENT_UNDECIDED_AT_JUMP_CURVE",
+  "attained": false,
+  "lower_R": 8.78074346560998,
+  "upper_R": 8.78074346561024,
+  "C_2": 0.7982494059645469,
+  "error_normalizado": 2.1982415887578103e-14,
+  "error_R": 2.4180657476335894e-13,
+  "testigo": {
+   "tau_d": 0.5937443203343207,
+   "tau_f": 0.599999999999983
+  }
+ },
+ "manifiesto_sha256": "0b27b32abdfb4eaf0db11427a8a8bb93c7d4014c6c7acd1bdbfbe6e32d28b3ad",
+ "codigo_c0_sha256": {
+  "model.py": "b8541045ce2db793e3acfba5e84053edc185a7f8cdfc5c1b535d1452ebde9b04",
+  "encierros_modelo.py": "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53",
+  "elementales.py": "c71faf35370fa2329db69802f03f52d9bc72566a2d9fa50a9ca8dbea1eb6f82b",
+  "intervalos.py": "2607d0cf3f879316c699ec4cd73021bff9ae8f680f7c7c01facb84dfb65aa891"
+ },
+ "certificador_sha256": "a9b4e6ad712845e2452e40c727d31818927c2f5fe5a42c0feb9ade278ab43837",
+ "certificado": {
+  "estado": "no_alcanzado_demostrado",
+  "hipotesis": {
+   "H0_alcance_del_certificado": {
+    "diseno_G": true,
+    "rho_1": true,
+    "z_m_1": true,
+    "menu_df": true,
+    "caja_cerrada": true,
+    "caja_admisible": true
+   },
+   "H1_previo_F": {
+    "delta_menos_tau_d_beta_en_tau_d_sup": [
+     0.8499999999999999,
+     0.8500000000000002
+    ],
+    "theta": [
+     1.05,
+     1.05
+    ],
+    "beta": [
+     0.25,
+     0.25
+    ],
+    "ok": true
+   },
+   "H2_informal_nunca": {
+    "L_I1F0_en_tau_d_sup": [
+     0.9499999999999996,
+     0.9500000000000003
+    ],
+    "delta": [
+     1.0,
+     1.0
+    ],
+    "ok": true
+   },
+   "H3_F1_sobre_I1": {
+    "M_en_la_esquina_superior": [
+     0.9557122426649993,
+     0.955712242665003
+    ],
+    "delta": [
+     1.0,
+     1.0
+    ],
+    "t_d_creciente": true,
+    "t_f_creciente": true,
+    "M_box_AD_informativo": [
+     0.1499999999999999,
+     1.2947162845456166
+    ],
+    "ok": true
+   },
+   "H4_R_mas_creciente": {
+    "factor_d": [
+     0.3399821472167966,
+     1.0000000000000002
+    ],
+    "factor_f": [
+     0.8952842712402341,
+     1.0000000000000002
+    ],
+    "gamma": [
+     1.0,
+     1.0
+    ],
+    "kappa0": [
+     0.2,
+     0.2
+    ],
+    "m1": [
+     10.999999999999984,
+     10.999999999999998
+    ],
+    "grad_AD_informativo": [
+     [
+      8.386114309843308,
+      11.000000000000018
+     ],
+     [
+      1.9361670753019289,
+      11.351803715506685
+     ]
+    ],
+    "ok": true
+   },
+   "H5_c_decreciente": {
+    "x_d_pot_eta_d": [
+     0.9124186601255833,
+     1.0000000000000007
+    ],
+    "x_f_pot_alpha_menos_1": [
+     0.9999999999999992,
+     5.3263420650781885
+    ],
+    "uno_menos_(1-phi)_tau_f": [
+     0.9253204345703123,
+     1.0000000000000002
+    ],
+    "phi": [
+     0.8755340576171875,
+     0.8755340576171875
+    ],
+    "grad_AD_c_informativo": [
+     [
+      -2.5000000000000053,
+      0.6299081577656247
+     ],
+     [
+      -0.8632028010301305,
+      -0.17510681152343724
+     ]
+    ],
+    "ok": true
+   },
+   "H6_esquinas": {
+    "c_inferior": [
+     0.7999999999999996,
+     0.8000000000000006
+    ],
+    "c_superior": [
+     -0.005712242665002921,
+     -0.005712242664999422
+    ],
+    "region_no_vacia": true,
+    "curva_corta_la_caja": true,
+    "sin_curva": false
+   }
+  },
+  "motivo": null,
+  "curva": {
+   "tau_d_estrella_en_tau_f_sup": [
+    0.5937443203343036,
+    0.5937443203343207
+   ],
+   "ancho": 1.709743457922741e-14,
+   "tau_f_estrella_en_tau_d_sup": [
+    0.5932827690591436,
+    0.593282769059152
+   ],
+   "caja_que_contiene_gamma": [
+    [
+     0.5937443203343036,
+     0.6
+    ],
+    [
+     0.5932827690591436,
+     0.6
+    ]
+   ]
+  },
+  "maximo_en_gamma": {
+   "signo_de_h_prima_B": [
+    0.19212106766189993,
+    0.21846882709171703
+   ],
+   "subdivision": 0,
+   "en": "P1 = (tau_d*, tau_f superior)"
+  },
+  "testigo_lateral": {
+   "tau_d": [
+    0.5937443203343036,
+    0.5937443203343207
+   ],
+   "tau_f": 0.6,
+   "lado": "c > 0 (FF, adopción formal)",
+   "eje": "tau_d desde abajo",
+   "limite_R": [
+    8.780743465609994,
+    8.780743465610234
+   ],
+   "valor_en_la_curva_R": 0.0,
+   "limite_desde_c_negativo_R": 0.0
+  },
+  "supremo_R_independiente": [
+   8.780743465609994,
+   8.780743465610234
+  ],
+  "cotas_persistidas_R": [
+   8.78074346560998,
+   8.78074346561024
+  ],
+  "compatibilidad": {
+   "interseccion": [
+    8.780743465609994,
+    8.780743465610234
+   ],
+   "compatible": true,
+   "supremo_positivo": true
+  },
+  "B_pot": [
+   10.99999999999998,
+   11.000000000000002
+  ]
+ },
+ "pruebas_laterales_model_evaluate": [
+  {
+   "lado": "c>0",
+   "paso": 0.001,
+   "tau_d": 0.5927443203343036,
+   "tau_f": 0.6,
+   "R": 8.772156740862204,
+   "CS": 0.7974687946238374,
+   "topologia": "FF"
+  },
+  {
+   "lado": "c<0",
+   "paso": 0.001,
+   "tau_d": 0.5947443203343207,
+   "tau_f": 0.6,
+   "R": 0.0,
+   "CS": 0.0,
+   "topologia": "NF"
+  },
+  {
+   "lado": "c>0",
+   "paso": 0.0001,
+   "tau_d": 0.5936443203343036,
+   "tau_f": 0.6,
+   "R": 8.779885161869393,
+   "CS": 0.7981713783517637,
+   "topologia": "FF"
+  },
+  {
+   "lado": "c<0",
+   "paso": 0.0001,
+   "tau_d": 0.5938443203343207,
+   "tau_f": 0.6,
+   "R": 0.0,
+   "CS": 0.0,
+   "topologia": "NF"
+  },
+  {
+   "lado": "c>0",
+   "paso": 1e-05,
+   "tau_d": 0.5937343203343036,
+   "tau_f": 0.6,
+   "R": 8.780657638928014,
+   "CS": 0.798241603538911,
+   "topologia": "FF"
+  },
+  {
+   "lado": "c<0",
+   "paso": 1e-05,
+   "tau_d": 0.5937543203343206,
+   "tau_f": 0.6,
+   "R": 0.0,
+   "CS": 0.0,
+   "topologia": "NF"
+  },
+  {
+   "lado": "c>0",
+   "paso": 1e-06,
+   "tau_d": 0.5937433203343035,
+   "tau_f": 0.6,
+   "R": 8.780734882978763,
+   "CS": 0.7982486257253427,
+   "topologia": "FF"
+  },
+  {
+   "lado": "c<0",
+   "paso": 1e-06,
+   "tau_d": 0.5937453203343207,
+   "tau_f": 0.6,
+   "R": 0.0,
+   "CS": 0.0,
+   "topologia": "NF"
+  },
+  {
+   "lado": "c>0",
+   "paso": 1e-07,
+   "tau_d": 0.5937442203343036,
+   "tau_f": 0.6,
+   "R": 8.780742607347284,
+   "CS": 0.7982493279406628,
+   "topologia": "FF"
+  },
+  {
+   "lado": "c<0",
+   "paso": 1e-07,
+   "tau_d": 0.5937444203343206,
+   "tau_f": 0.6,
+   "R": 0.0,
+   "CS": 0.0,
+   "topologia": "NF"
+  },
+  {
+   "lado": "c>0",
+   "paso": 1e-08,
+   "tau_d": 0.5937443103343035,
+   "tau_f": 0.6,
+   "R": 8.780743379783768,
+   "CS": 0.7982493981621613,
+   "topologia": "FF"
+  },
+  {
+   "lado": "c<0",
+   "paso": 1e-08,
+   "tau_d": 0.5937443303343207,
+   "tau_f": 0.6,
+   "R": 0.0,
+   "CS": 0.0,
+   "topologia": "NF"
+  },
+  {
+   "lado": "c>0",
+   "paso": 1e-09,
+   "tau_d": 0.5937443193343036,
+   "tau_f": 0.6,
+   "R": 8.780743457027414,
+   "CS": 0.7982494051843111,
+   "topologia": "FF"
+  },
+  {
+   "lado": "c<0",
+   "paso": 1e-09,
+   "tau_d": 0.5937443213343206,
+   "tau_f": 0.6,
+   "R": 0.0,
+   "CS": 0.0,
+   "topologia": "NF"
+  },
+  {
+   "lado": "c>0",
+   "paso": 1e-10,
+   "tau_d": 0.5937443202343036,
+   "tau_f": 0.6,
+   "R": 8.78074346475178,
+   "CS": 0.798249405886526,
+   "topologia": "FF"
+  },
+  {
+   "lado": "c<0",
+   "paso": 1e-10,
+   "tau_d": 0.5937443204343207,
+   "tau_f": 0.6,
+   "R": 0.0,
+   "CS": 0.0,
+   "topologia": "NF"
+  }
+ ],
+ "llamadas": {
+  "capture_ceiling": 0,
+  "sup_bound": 0,
+  "busqueda_global": 0
+ }
+}

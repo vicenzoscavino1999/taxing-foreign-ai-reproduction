@@ -1,0 +1,26 @@
+{
+ "cpu_usuario_s": 13.53125,
+ "cpu_nucleo_s": 0.265625,
+ "procesos_totales": 6,
+ "procesos_activos": 0,
+ "memoria_pico_job_mb": 190.3,
+ "memoria_pico_proceso_mb": 183.1,
+ "id": "SMK3-sonda",
+ "comando": [
+  "bash",
+  "tmp/extremos_df_d_3_7_2026-10-05_lima0738/../pilotos_b36_b37_2026-10-02/entorno/py_integracion.sh",
+  "-m",
+  "codigo.extremos_dfd",
+  "sonda",
+  "demo/validacion/humo_sonda.json",
+  "240"
+ ],
+ "cwd": "tmp/extremos_df_d_3_7_2026-10-05_lima0738",
+ "limite_duro_s": 600.0,
+ "inicio_utc": "2026-10-05T12:53:04Z",
+ "pared_s": 14.0,
+ "codigo_salida": 0,
+ "estado": "TERMINO",
+ "cpu_total_s": 13.8,
+ "cpu_por_pared": 0.99
+}

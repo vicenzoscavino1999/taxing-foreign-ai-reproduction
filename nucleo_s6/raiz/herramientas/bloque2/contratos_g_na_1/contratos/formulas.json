@@ -1,0 +1,1051 @@
+{
+  "status": "BORRADOR NO APROBADO",
+  "parameters": {
+    "a": {
+      "role": "primitive",
+      "unit": "dimensionless",
+      "primary": {
+        "kind": "continuous",
+        "lower": 1.1,
+        "upper": 2.5,
+        "lower_closed": true,
+        "upper_closed": true,
+        "level0_nodes": [
+          1.1,
+          1.3,
+          1.5,
+          2,
+          2.5
+        ],
+        "scale": "arithmetic"
+      },
+      "source": "declared_scenario; A4 no aprobado"
+    },
+    "rho": {
+      "role": "primitive",
+      "unit": "dimensionless",
+      "primary": {
+        "kind": "continuous",
+        "lower": 0.4,
+        "upper": 1,
+        "lower_closed": true,
+        "upper_closed": true,
+        "level0_nodes": [
+          0.4,
+          0.6,
+          0.8,
+          0.9,
+          1
+        ],
+        "scale": "arithmetic"
+      },
+      "source": "declared_scenario; A4 no aprobado"
+    },
+    "kappa_tilde": {
+      "role": "primitive",
+      "unit": "dimensionless",
+      "primary": {
+        "kind": "continuous",
+        "lower": 0.005,
+        "upper": 0.2,
+        "lower_closed": true,
+        "upper_closed": true,
+        "level0_nodes": [
+          0.005,
+          0.01,
+          0.02,
+          0.05,
+          0.1,
+          0.2
+        ],
+        "scale": "logarithmic"
+      },
+      "source": "declared_scenario; A4 no aprobado"
+    },
+    "beta_tilde": {
+      "role": "primitive",
+      "unit": "dimensionless",
+      "primary": {
+        "kind": "continuous",
+        "lower": 0.25,
+        "upper": 4,
+        "lower_closed": true,
+        "upper_closed": true,
+        "level0_nodes": [
+          0.25,
+          0.5,
+          1,
+          2,
+          4
+        ],
+        "scale": "logarithmic"
+      },
+      "source": "declared_scenario; A4 no aprobado"
+    },
+    "u_theta": {
+      "role": "primitive",
+      "unit": "dimensionless",
+      "primary": {
+        "kind": "continuous",
+        "lower": 0.1,
+        "upper": 0.9,
+        "lower_closed": true,
+        "upper_closed": true,
+        "level0_nodes": [
+          0.1,
+          0.5,
+          0.9
+        ],
+        "scale": "arithmetic"
+      },
+      "source": "declared_scenario; A4 no aprobado"
+    },
+    "z_cost": {
+      "role": "primitive",
+      "unit": "dimensionless",
+      "primary": {
+        "kind": "continuous",
+        "lower": 1,
+        "upper": 100,
+        "lower_closed": true,
+        "upper_closed": true,
+        "level0_nodes": [
+          1,
+          10,
+          100
+        ],
+        "scale": "logarithmic"
+      },
+      "source": "declared_scenario; A4 no aprobado"
+    },
+    "eta_d": {
+      "role": "primitive",
+      "unit": "dimensionless",
+      "primary": {
+        "kind": "continuous",
+        "lower": 0.1,
+        "upper": 4,
+        "lower_closed": true,
+        "upper_closed": true,
+        "level0_nodes": [
+          0.1,
+          0.5,
+          1,
+          2,
+          4
+        ],
+        "scale": "logarithmic"
+      },
+      "source": "declared_scenario; A4 no aprobado"
+    },
+    "eta_f": {
+      "role": "primitive",
+      "unit": "dimensionless",
+      "primary": {
+        "kind": "continuous",
+        "lower": 0.1,
+        "upper": 8,
+        "lower_closed": true,
+        "upper_closed": true,
+        "level0_nodes": [
+          0.1,
+          0.8,
+          1.2,
+          4,
+          8
+        ],
+        "scale": "logarithmic"
+      },
+      "source": "declared_scenario; A4 no aprobado"
+    },
+    "phi": {
+      "role": "primitive",
+      "unit": "dimensionless",
+      "primary": {
+        "kind": "continuous",
+        "lower": 0,
+        "upper": 1,
+        "lower_closed": true,
+        "upper_closed": true,
+        "level0_nodes": [
+          0,
+          0.25,
+          0.5,
+          0.75,
+          1
+        ],
+        "scale": "arithmetic"
+      },
+      "source": "declared_scenario; A4 no aprobado"
+    },
+    "gamma": {
+      "role": "fixed",
+      "value": 1,
+      "unit": "normalization_unit",
+      "source": "normalización/alcance; no estimación nacional"
+    },
+    "z_m": {
+      "role": "fixed",
+      "value": 1,
+      "unit": "normalization_unit",
+      "source": "normalización/alcance; no estimación nacional"
+    },
+    "c_legal": {
+      "role": "fixed",
+      "value": 1,
+      "unit": "dimensionless",
+      "source": "normalización/alcance; no estimación nacional"
+    },
+    "pi_iva": {
+      "role": "primitive",
+      "unit": "dimensionless",
+      "primary": {
+        "kind": "continuous",
+        "lower": 0.5,
+        "upper": 1.5,
+        "level0_nodes": [
+          0.5,
+          1,
+          1.5
+        ],
+        "scale": "arithmetic"
+      },
+      "source": "estrés declarado TR-PROP"
+    },
+    "pi_otros_productos": {
+      "role": "primitive",
+      "unit": "dimensionless",
+      "primary": {
+        "kind": "continuous",
+        "lower": 0.5,
+        "upper": 1.5,
+        "level0_nodes": [
+          0.5,
+          1,
+          1.5
+        ],
+        "scale": "arithmetic"
+      },
+      "source": "estrés declarado TR-PROP"
+    },
+    "pi_produccion": {
+      "role": "primitive",
+      "unit": "dimensionless",
+      "primary": {
+        "kind": "continuous",
+        "lower": 0.5,
+        "upper": 1.5,
+        "level0_nodes": [
+          0.5,
+          1,
+          1.5
+        ],
+        "scale": "arithmetic"
+      },
+      "source": "estrés declarado TR-PROP"
+    },
+    "eta_w": {
+      "role": "primitive",
+      "unit": "dimensionless",
+      "primary_blocks": {
+        "micro": [
+          0.05,
+          0.2
+        ],
+        "macro": [
+          0.4,
+          1
+        ]
+      },
+      "source": "bloques separados; no colapsar hueco"
+    },
+    "eta_H": {
+      "role": "primitive",
+      "unit": "dimensionless",
+      "primary_nodes": [
+        -0.5,
+        0,
+        0.5
+      ],
+      "sensitivity_ladders": [
+        [
+          -0.5,
+          0,
+          0.5
+        ],
+        [
+          -0.75,
+          -0.5,
+          0,
+          0.5,
+          0.75
+        ],
+        [
+          -0.9,
+          -0.75,
+          -0.5,
+          0,
+          0.5,
+          0.75,
+          0.9
+        ]
+      ],
+      "source": "escalera epistemológica discreta; no dominio agotado"
+    },
+    "gain_share": {
+      "role": "primitive",
+      "unit": "share_GDP",
+      "primary": {
+        "kind": "continuous",
+        "lower": 0.01,
+        "upper": 0.1,
+        "level0_nodes": [
+          0.01,
+          0.025,
+          0.05,
+          0.1
+        ],
+        "scale": "arithmetic"
+      },
+      "source": "DeltaY_AI_pot/PIB declarado; no predicción nacional"
+    },
+    "tau_d": {
+      "role": "primitive",
+      "unit": "rate",
+      "primary": {
+        "kind": "continuous",
+        "lower": 0,
+        "upper": 0.6
+      },
+      "domain_stress_upper": [
+        0.4,
+        0.8
+      ],
+      "source": "variable de decisión fiscal; menú D4 y tau_domains"
+    },
+    "tau_f": {
+      "role": "primitive",
+      "unit": "rate",
+      "primary": {
+        "kind": "continuous",
+        "lower": 0,
+        "upper": 0.6
+      },
+      "domain_stress_upper": [
+        0.4,
+        0.8
+      ],
+      "source": "variable de decisión fiscal; menú D4 y tau_domains"
+    },
+    "s_L_bar": {
+      "role": "measured",
+      "unit": "share_GDP",
+      "source": "D2/D6 versionados, precisión y denominador común; no valor inventado"
+    },
+    "s_bar_iva": {
+      "role": "measured",
+      "unit": "share_GDP",
+      "source": "D2/D6 versionados, precisión y denominador común; no valor inventado"
+    },
+    "s_bar_otros_productos": {
+      "role": "measured",
+      "unit": "share_GDP",
+      "source": "D2/D6 versionados, precisión y denominador común; no valor inventado"
+    },
+    "s_bar_produccion": {
+      "role": "measured",
+      "unit": "share_GDP",
+      "source": "D2/D6 versionados, precisión y denominador común; no valor inventado"
+    },
+    "Q_perp": {
+      "role": "measured",
+      "unit": "share_GDP",
+      "source": "grilla externa/crosswalk; condicional a cota, capa, caso y celda; no soporte propio nuevo"
+    },
+    "DME_gAI": {
+      "role": "measured",
+      "unit": "share_GDP",
+      "source": "grilla externa/crosswalk; condicional a cota, capa, caso y celda; no soporte propio nuevo"
+    },
+    "supplier_share_target": {
+      "role": "primitive",
+      "unit": "share",
+      "domain": [
+        0,
+        1
+      ],
+      "source": "umbral declarado de inversión parcial, parámetro funcional; A5 propone función sobre todo[0,1], sin titular puntual no predeclarado"
+    },
+    "external_factor": {
+      "role": "primitive",
+      "unit": "share",
+      "domain": [
+        0,
+        1
+      ],
+      "source": "s_AI*s_FN solo como inversión requerida; rama not_identified si falta correspondencia con adopción, no calibración de D5"
+    },
+    "chi_r": {
+      "role": "inactive",
+      "unit": "relative_payment_intensity",
+      "conditional_domain": [
+        0,
+        1
+      ],
+      "source": "intensidad relativa de pagos del residual; NO captura reducida; D5/D19 sin momento admisible mantienen inactiva esta rama"
+    },
+    "P_mapped": {
+      "role": "inactive",
+      "value": null,
+      "source": "requiere universo/crosswalk y evidencia D3/D5 admisibles; no entra a ruta estructural actual"
+    },
+    "residual_share": {
+      "role": "inactive",
+      "value": null,
+      "source": "requiere universo/crosswalk y evidencia D3/D5 admisibles; no entra a ruta estructural actual"
+    },
+    "t": {
+      "role": "fixed",
+      "unit": "rate",
+      "value": 0,
+      "source": "baseline importador; t>0 extensión inactiva"
+    },
+    "bar_tau_d": {
+      "role": "primitive",
+      "unit": "rate",
+      "primary_value": 0.6,
+      "domain_stress_values": [
+        0.4,
+        0.8
+      ],
+      "source": "tope registrado; tau correspondiente en[0,bar_tau]"
+    },
+    "bar_tau_f": {
+      "role": "primitive",
+      "unit": "rate",
+      "primary_value": 0.6,
+      "domain_stress_values": [
+        0.4,
+        0.8
+      ],
+      "source": "tope registrado; tau correspondiente en[0,bar_tau]"
+    },
+    "s_AI": {
+      "role": "inactive",
+      "value": null,
+      "source": "no identificado/no aplicable M3 o extensión fuera de baseline; nunca se consume null numéricamente"
+    },
+    "s_FN": {
+      "role": "inactive",
+      "value": null,
+      "source": "no identificado/no aplicable M3 o extensión fuera de baseline; nunca se consume null numéricamente"
+    },
+    "Ptarget": {
+      "role": "inactive",
+      "value": null,
+      "source": "no identificado/no aplicable M3 o extensión fuera de baseline; nunca se consume null numéricamente"
+    },
+    "omega_tail": {
+      "role": "inactive",
+      "value": null,
+      "source": "no identificado/no aplicable M3 o extensión fuera de baseline; nunca se consume null numéricamente"
+    },
+    "body_dist_id": {
+      "role": "inactive",
+      "value": null,
+      "source": "no identificado/no aplicable M3 o extensión fuera de baseline; nunca se consume null numéricamente"
+    },
+    "M_c": {
+      "role": "inactive",
+      "value": null,
+      "source": "no identificado/no aplicable M3 o extensión fuera de baseline; nunca se consume null numéricamente"
+    },
+    "c_trace": {
+      "role": "inactive",
+      "value": null,
+      "source": "no identificado/no aplicable M3 o extensión fuera de baseline; nunca se consume null numéricamente"
+    },
+    "C_2": {
+      "role": "derived",
+      "unit": "share",
+      "source": "supremum R/B_pot, mismo omega y menú; no cálculo en esta ronda",
+      "formula_id": "C_2",
+      "value_kind": "scalar_result",
+      "declaration_stage": "D7",
+      "evaluation_stage": "B"
+    },
+    "theta": {
+      "role": "derived",
+      "unit": "dimensionless",
+      "formula_id": "theta"
+    },
+    "delta_tilde": {
+      "role": "derived",
+      "unit": "dimensionless",
+      "formula_id": "delta_tilde"
+    },
+    "beta": {
+      "role": "derived",
+      "unit": "flow_per_z",
+      "formula_id": "beta"
+    },
+    "delta": {
+      "role": "derived",
+      "unit": "cost_coefficient_theta",
+      "formula_id": "delta"
+    },
+    "kappa0": {
+      "role": "derived",
+      "unit": "payment_coefficient_rho",
+      "formula_id": "kappa0"
+    },
+    "q_pot": {
+      "role": "derived",
+      "unit": "share",
+      "formula_id": "q_pot"
+    },
+    "theta_W": {
+      "role": "derived",
+      "unit": "dimensionless",
+      "formula_id": "theta_W"
+    },
+    "s_L_marg": {
+      "role": "derived",
+      "unit": "share",
+      "formula_id": "s_L_marg"
+    },
+    "s_T_marg": {
+      "role": "derived",
+      "unit": "share",
+      "formula_id": "s_T_marg"
+    },
+    "s_Pi_marg": {
+      "role": "derived",
+      "unit": "share",
+      "formula_id": "s_Pi_marg"
+    },
+    "lambda_pi": {
+      "role": "derived",
+      "unit": "dimensionless",
+      "formula_id": "lambda_pi"
+    },
+    "B_pot": {
+      "role": "derived",
+      "unit": "flow",
+      "formula_id": "B_pot"
+    },
+    "K_comp_1": {
+      "role": "derived",
+      "unit": "share",
+      "formula_id": "K_comp_1"
+    },
+    "G": {
+      "role": "derived",
+      "unit": "share",
+      "formula_id": "G"
+    },
+    "lambda_pi_required": {
+      "role": "derived",
+      "unit": "dimensionless",
+      "formula_id": "lambda_pi_required"
+    },
+    "delta_y_required": {
+      "role": "derived",
+      "unit": "share_GDP",
+      "formula_id": "delta_y_required"
+    },
+    "C_2_required": {
+      "role": "derived",
+      "unit": "share",
+      "formula_id": "C_2_required"
+    },
+    "P_total": {
+      "role": "inactive",
+      "unit": "source_payment_unit",
+      "formula_id": "P_total",
+      "value": null,
+      "source": "fórmula solo condicional a activación de momento y D19; no entra a omega primario"
+    },
+    "phi_critical_partial": {
+      "role": "derived",
+      "unit": "dimensionless",
+      "formula_id": "phi_critical_partial"
+    },
+    "R": {
+      "role": "derived",
+      "unit": "flow",
+      "formula_id": "R",
+      "value_kind": "numeric_function",
+      "declaration_stage": "D7",
+      "evaluation_stage": "B",
+      "source": "función de recaudación ya exigida por teoría/diseño; no ecuación nueva"
+    }
+  },
+  "formulas": {
+    "theta": {
+      "expression": "1+u_theta*(a-1)",
+      "inputs": [
+        "a",
+        "u_theta"
+      ],
+      "domain": "1<theta<a",
+      "unit": "dimensionless",
+      "definition_kind": "algebraic_expression",
+      "output_parameter_id": "theta",
+      "context_inputs": [],
+      "result_binding": null,
+      "declaration_only_in_D7": true
+    },
+    "delta_tilde": {
+      "expression": "z_cost**(1-theta)",
+      "inputs": [
+        "z_cost",
+        "theta"
+      ],
+      "domain": "z_cost>0",
+      "unit": "dimensionless",
+      "definition_kind": "algebraic_expression",
+      "output_parameter_id": "delta_tilde",
+      "context_inputs": [],
+      "result_binding": null,
+      "declaration_only_in_D7": true
+    },
+    "beta": {
+      "expression": "beta_tilde*gamma",
+      "inputs": [
+        "beta_tilde",
+        "gamma"
+      ],
+      "domain": "gamma>0",
+      "unit": "flow_per_z",
+      "definition_kind": "algebraic_expression",
+      "output_parameter_id": "beta",
+      "context_inputs": [],
+      "result_binding": null,
+      "declaration_only_in_D7": true
+    },
+    "delta": {
+      "expression": "delta_tilde*gamma*z_m**(1-theta)",
+      "inputs": [
+        "delta_tilde",
+        "gamma",
+        "z_m",
+        "theta"
+      ],
+      "domain": "gamma>0 and z_m>0",
+      "unit": "cost_coefficient_theta",
+      "definition_kind": "algebraic_expression",
+      "output_parameter_id": "delta",
+      "context_inputs": [],
+      "result_binding": null,
+      "declaration_only_in_D7": true
+    },
+    "kappa0": {
+      "expression": "kappa_tilde*gamma*z_m**(1-rho)",
+      "inputs": [
+        "kappa_tilde",
+        "gamma",
+        "z_m",
+        "rho"
+      ],
+      "domain": "gamma>0 and z_m>0",
+      "unit": "payment_coefficient_rho",
+      "definition_kind": "algebraic_expression",
+      "output_parameter_id": "kappa0",
+      "context_inputs": [],
+      "result_binding": null,
+      "declaration_only_in_D7": true
+    },
+    "q_pot": {
+      "expression": "kappa_tilde*(a-1)/(a-rho)",
+      "inputs": [
+        "kappa_tilde",
+        "a",
+        "rho"
+      ],
+      "domain": "a>1 and a>rho and 0<=q_pot<1",
+      "unit": "share",
+      "definition_kind": "algebraic_expression",
+      "output_parameter_id": "q_pot",
+      "context_inputs": [],
+      "result_binding": null,
+      "declaration_only_in_D7": true
+    },
+    "theta_W": {
+      "expression": "(eta_w+eta_H)/(1+eta_H)",
+      "inputs": [
+        "eta_w",
+        "eta_H"
+      ],
+      "domain": "eta_H>-1",
+      "unit": "dimensionless",
+      "definition_kind": "algebraic_expression",
+      "output_parameter_id": "theta_W",
+      "context_inputs": [],
+      "result_binding": null,
+      "declaration_only_in_D7": true
+    },
+    "s_L_marg": {
+      "expression": "s_L_bar*theta_W",
+      "inputs": [
+        "s_L_bar",
+        "theta_W"
+      ],
+      "domain": "theta_W negativo permitido y marcado",
+      "unit": "share",
+      "definition_kind": "algebraic_expression",
+      "output_parameter_id": "s_L_marg",
+      "context_inputs": [],
+      "result_binding": null,
+      "declaration_only_in_D7": true
+    },
+    "s_T_marg": {
+      "expression": "pi_iva*s_bar_iva+pi_otros_productos*s_bar_otros_productos+pi_produccion*s_bar_produccion",
+      "inputs": [
+        "pi_iva",
+        "s_bar_iva",
+        "pi_otros_productos",
+        "s_bar_otros_productos",
+        "pi_produccion",
+        "s_bar_produccion"
+      ],
+      "domain": "s_T_marg>=0",
+      "unit": "share",
+      "definition_kind": "algebraic_expression",
+      "output_parameter_id": "s_T_marg",
+      "context_inputs": [],
+      "result_binding": null,
+      "declaration_only_in_D7": true
+    },
+    "s_Pi_marg": {
+      "expression": "1-s_L_marg-s_T_marg",
+      "inputs": [
+        "s_L_marg",
+        "s_T_marg"
+      ],
+      "domain": "s_Pi_marg>0 para lambda>0",
+      "unit": "share",
+      "definition_kind": "algebraic_expression",
+      "output_parameter_id": "s_Pi_marg",
+      "context_inputs": [],
+      "result_binding": null,
+      "declaration_only_in_D7": true
+    },
+    "lambda_pi": {
+      "expression": "s_Pi_marg/(1-q_pot)",
+      "inputs": [
+        "s_Pi_marg",
+        "q_pot"
+      ],
+      "domain": "q_pot<1 and lambda_pi>0",
+      "unit": "dimensionless",
+      "definition_kind": "algebraic_expression",
+      "output_parameter_id": "lambda_pi",
+      "context_inputs": [],
+      "result_binding": null,
+      "declaration_only_in_D7": true
+    },
+    "B_pot": {
+      "expression": "gamma*a*z_m/(a-1)",
+      "inputs": [
+        "gamma",
+        "a",
+        "z_m"
+      ],
+      "domain": "a>1",
+      "unit": "flow",
+      "definition_kind": "algebraic_expression",
+      "output_parameter_id": "B_pot",
+      "context_inputs": [],
+      "result_binding": null,
+      "declaration_only_in_D7": true
+    },
+    "K_comp_1": {
+      "expression": "(Q_perp+DME_gAI)/(lambda_pi*gain_share)",
+      "inputs": [
+        "Q_perp",
+        "DME_gAI",
+        "lambda_pi",
+        "gain_share"
+      ],
+      "domain": "lambda_pi>0 and gain_share>0",
+      "unit": "share",
+      "definition_kind": "algebraic_expression",
+      "output_parameter_id": "K_comp_1",
+      "context_inputs": [],
+      "result_binding": null,
+      "declaration_only_in_D7": true
+    },
+    "G": {
+      "expression": "C_2-K_comp_1",
+      "inputs": [
+        "C_2",
+        "K_comp_1"
+      ],
+      "domain": "mismo omega/caso/país/diseño/instrumento",
+      "unit": "share",
+      "definition_kind": "algebraic_expression",
+      "output_parameter_id": "G",
+      "context_inputs": [],
+      "result_binding": null,
+      "declaration_only_in_D7": true
+    },
+    "lambda_pi_required": {
+      "expression": "(Q_perp+DME_gAI)/(C_2*gain_share)",
+      "inputs": [
+        "Q_perp",
+        "DME_gAI",
+        "C_2",
+        "gain_share"
+      ],
+      "domain": "C_2*gain_share!=0; si no undefined_denominator",
+      "unit": "dimensionless",
+      "definition_kind": "algebraic_expression",
+      "output_parameter_id": "lambda_pi_required",
+      "context_inputs": [],
+      "result_binding": null,
+      "declaration_only_in_D7": true
+    },
+    "delta_y_required": {
+      "expression": "(Q_perp+DME_gAI)/(C_2*lambda_pi)",
+      "inputs": [
+        "Q_perp",
+        "DME_gAI",
+        "C_2",
+        "lambda_pi"
+      ],
+      "domain": "C_2*lambda_pi!=0",
+      "unit": "share_GDP",
+      "definition_kind": "algebraic_expression",
+      "output_parameter_id": "delta_y_required",
+      "context_inputs": [],
+      "result_binding": null,
+      "declaration_only_in_D7": true
+    },
+    "C_2_required": {
+      "expression": "K_comp_1",
+      "inputs": [
+        "K_comp_1"
+      ],
+      "domain": "misma celda",
+      "unit": "share",
+      "definition_kind": "algebraic_expression",
+      "output_parameter_id": "C_2_required",
+      "context_inputs": [],
+      "result_binding": null,
+      "declaration_only_in_D7": true
+    },
+    "P_total": {
+      "expression": "P_mapped*(1+chi_r*residual_share/(1-residual_share))",
+      "inputs": [
+        "P_mapped",
+        "chi_r",
+        "residual_share"
+      ],
+      "domain": "solo rama momento activada, D19 admisible y 0<=residual_share<=.30; r=0 sin corrección",
+      "unit": "source_payment_unit",
+      "definition_kind": "algebraic_expression",
+      "output_parameter_id": "P_total",
+      "context_inputs": [],
+      "result_binding": null,
+      "declaration_only_in_D7": true
+    },
+    "phi_critical_partial": {
+      "expression": "log(tau_f*supplier_share_target+1-tau_f)/log(1-tau_f)",
+      "inputs": [
+        "tau_f",
+        "supplier_share_target"
+      ],
+      "domain": "0<tau_f<1; argumento log>0",
+      "unit": "dimensionless",
+      "definition_kind": "algebraic_expression",
+      "output_parameter_id": "phi_critical_partial",
+      "context_inputs": [],
+      "result_binding": null,
+      "declaration_only_in_D7": true
+    },
+    "R": {
+      "expression": "R^v(tau_d,tau_f; structural_state), función de recaudación de la teoría vigente con sus regímenes y desempates",
+      "inputs": [
+        "a",
+        "rho",
+        "kappa_tilde",
+        "beta_tilde",
+        "u_theta",
+        "z_cost",
+        "eta_d",
+        "eta_f",
+        "phi",
+        "gamma",
+        "z_m",
+        "t",
+        "c_legal",
+        "theta",
+        "delta",
+        "beta",
+        "kappa0",
+        "tau_d",
+        "tau_f"
+      ],
+      "domain": "primitivas admisibles; tasas en dominio fiscal seleccionado; evaluar cada rama/lateral conforme a S13",
+      "unit": "flow",
+      "definition_kind": "numerical_function",
+      "output_parameter_id": "R",
+      "context_inputs": [
+        {
+          "table": "frontier_context",
+          "field": "design_v"
+        },
+        {
+          "table": "frontier_context",
+          "field": "tau_domain_id"
+        }
+      ],
+      "result_binding": {
+        "family": "B",
+        "table": "frontier_result",
+        "value_field": "R",
+        "key_fields": [
+          "frontier_id",
+          "point_id",
+          "side"
+        ],
+        "stored_unit": "normalized_flow",
+        "scale_to_declared_unit": "gamma*z_m"
+      },
+      "declaration_only_in_D7": true
+    },
+    "C_2": {
+      "expression": "sup_{(tau_d,tau_f) in T(country,instrument,availability,tau_domain)} R^v(tau_d,tau_f;omega)/B_pot(omega)",
+      "inputs": [
+        "R",
+        "B_pot",
+        "bar_tau_d",
+        "bar_tau_f"
+      ],
+      "domain": "T admisible por tau_domains y D4; B_pot>0 y fijo dentro del omega; instrumento ausente=>not_applicable, nunca cero; no exigir argmax",
+      "unit": "share",
+      "definition_kind": "numerical_operator",
+      "operator": "supremum",
+      "output_parameter_id": "C_2",
+      "context_inputs": [
+        {
+          "table": "frontier_context",
+          "field": "availability_case_id"
+        },
+        {
+          "table": "frontier_context",
+          "field": "availability_matrix_hash"
+        },
+        {
+          "table": "frontier_context",
+          "field": "design_v"
+        },
+        {
+          "table": "frontier_context",
+          "field": "instrument_j"
+        },
+        {
+          "table": "frontier_context",
+          "field": "omega_id"
+        },
+        {
+          "table": "frontier_context",
+          "field": "tau_domain_id"
+        }
+      ],
+      "result_binding": {
+        "family": "B",
+        "table": "capture_ceiling_result",
+        "value_field": "C_2",
+        "key_fields": [
+          "ceiling_id"
+        ],
+        "stored_unit": "share",
+        "scale_to_declared_unit": "1"
+      },
+      "preserve_fields": [
+        "sup_not_attained",
+        "tau_d_at_sup",
+        "tau_f_at_sup",
+        "sup_lateral_low",
+        "sup_lateral_high",
+        "numerical_error",
+        "instrument_available",
+        "computation_status",
+        "reason_code"
+      ],
+      "child_witness_table": "sup_witness",
+      "method": "supremo por regímenes,fronteras,límites laterales y convergencia ya exigidos; no fórmula algebraica cerrada",
+      "declaration_only_in_D7": true
+    }
+  },
+  "transformations": {
+    "coordination_half": {
+      "eta_f": "parent.eta_f/2",
+      "phi": "parent.phi/2",
+      "other_primitives": "unchanged"
+    },
+    "enforcement_half": {
+      "eta_f": "parent.eta_f/2",
+      "other_primitives": "unchanged"
+    },
+    "coverage_half": {
+      "phi": "parent.phi/2",
+      "other_primitives": "unchanged"
+    },
+    "directional_arithmetic": {
+      "lower": "[c-r*h,U]",
+      "upper": "[L,c+r*h]",
+      "c": "(L+U)/2",
+      "h": "(U-L)/2",
+      "domain": "r>=1; intersect proven theory/admissibility"
+    },
+    "directional_logarithmic": {
+      "definition": "directional_arithmetic on log endpoints, then exp; never evaluate open boundary"
+    },
+    "eta_H_ladder": {
+      "definition": "H0 subset H1 subset H2 from parameter declaration; exhaustion epistemic"
+    },
+    "external_scale": {
+      "definition": "Q_perp_new=m_Q*Q_perp_old; m_Q in[0,1]; global primary, country sensitivity; never cell"
+    },
+    "tax_domain_stress": {
+      "definition": "upper rates .4 or .8 paired; same primitives otherwise"
+    }
+  },
+  "constraints": [
+    {
+      "id": "S4",
+      "predicate": "0<=rho<=1",
+      "interior": "0<rho<=1",
+      "boundary": "rho_upper_S4/rho_zero_limit",
+      "reason": "RHO_UPPER_S4/RHO_ZERO_LIMIT"
+    },
+    {
+      "id": "moments",
+      "predicate": "a>1 and 0<u_theta<1 and theta=1+u_theta*(a-1) and theta<a and rho<a"
+    },
+    {
+      "id": "positive_scales",
+      "predicate": "kappa_tilde>0 and beta_tilde>0 and z_cost>0 and gamma>0 and z_m>0"
+    },
+    {
+      "id": "macro",
+      "predicate": "q_pot<1 and eta_H>-1 and s_T_marg>=0 and s_Pi_marg>0 and lambda_pi>0"
+    }
+  ],
+  "equations_for_numerical_objects": {
+    "external_factor": "C_2(external_factor)-K_comp_1=0 on[0,1], recompute adoption; requires identified mapping",
+    "phi_total": "C_2(phi)-K_comp_1=0 on[0,1], recompute all phi channels",
+    "R1": "R(tau_d,tau_f)-K_comp_1*B_pot=0 on feasible menu, per regime; normalized residual CS-K_comp_1",
+    "R2": "same residual restricted to four named paths"
+  },
+  "notes": [
+    "No modelo evaluado. Expresiones son contrato matemático, no funciones Python.",
+    "B_pot original es nivel; tablas normalizadas dividen TODOS los flujos por gamma*z_m antes de CS, conservan nivel reconstruible.",
+    "A5: umbral parcial se presenta como función sobre supplier_share_target∈[0,1]; selección puntual debe predeclararse, no se fabrica observación nacional.",
+    "C_2 y R tienen definiciones registradas; D7 valida metadatos. B evalúa la función y el supremo después; ninguna salida B calibra su propio input."
+  ],
+  "declaration_graph_rule": "Aristas entre definiciones por inputs; result_binding es metadato de destino, nunca FK a un resultado que deba existir al construir D7. No evaluar operadores al validar registry."
+}

@@ -1,0 +1,1278 @@
+{
+ "kind": "cobertura-nacional-lote1",
+ "origen": "preparacion_hasta_seleccion",
+ "manifiesto_sha256": "19ecd7d3eb0e42a67d46678a6b447f064c8011a27361c8777330ddade9e8ebb9",
+ "contexto_identidad": "5273718de5b1b00c986cbb5a9667d78100ce2c48e9a8bd96c2caa92c48853fe6",
+ "contexto_s": 149.5,
+ "rem109_R1_contexto_identidad": "5273718de5b1b00c986cbb5a9667d78100ce2c48e9a8bd96c2caa92c48853fe6",
+ "instalacion_identidad": "f5726dd6284a88b5a8dfd786e6796dfb9e8c6fcca89d872d2447234c10a48cea",
+ "despliegue_sha256": "f293a0a62d2cb6bf3517e72a0bfc589ee703685d4434c2cdae4b4cd1b5085d6c",
+ "generador_sha256": "362e21f3fd4196c4d47619b870b9a1b17a336721be4662f47810c13b993d4695",
+ "conexion_lambda_sha256": "bc498b810819ae57fbe40c849ad4e9d015650069e7053246304701fa9afb71d6",
+ "llamadas_durante_preparacion": {
+  "macro.bridge": 0,
+  "macro.strict_vertices": 0
+ },
+ "nota": "preparación hasta selección; ningún λπ, malla ni techo evaluado; no es producción",
+ "conjuntos": {
+  "PER-E1.macro": {
+   "pais": "PER",
+   "tipos": [
+    "NationalState"
+   ],
+   "independiente_de_omega": true,
+   "n_estados": 9,
+   "estados": [
+    {
+     "orden": 0,
+     "shares_sha256": "1b1b92c1997145518031aeedc6ae1a463081d1ac4ba78d1e83b9c5ec11a2b893",
+     "estado_sha256": "9b0ac233f82c03bfe8cbd8261d4535b0b2ebdcda51be54615bb29440c4c63d1a",
+     "identidad": {
+      "country_id": "PER",
+      "preregistration_id": "PREG-PER-APLICACION-E1",
+      "channel": "conditional",
+      "edition": "pub",
+      "anchor_year": 2015,
+      "label": "published_vector",
+      "primitive_values": [
+       [
+        "PER_D2_2015_PER_PDF:COE",
+        "192350",
+        "PEN"
+       ],
+       [
+        "PER_D2_2015_PER_PDF:GOS",
+        "221451",
+        "PEN"
+       ],
+       [
+        "PER_D2_2015_PER_PDF:MI",
+        "134913",
+        "PEN"
+       ],
+       [
+        "PER_D2_2015_PER_PDF:PIB",
+        "604416",
+        "PEN"
+       ],
+       [
+        "PER_D2_2015_PER_PDF:TAX_NET",
+        "55702",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:N_PROD",
+        "6997",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:PIB",
+        "1003439",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:P_NET",
+        "75849",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:V",
+        "66351",
+        "PEN"
+       ]
+      ],
+      "shares": {
+       "s_L_bar": "96175/302208",
+       "s_bar_iva": "66351/1003439",
+       "s_bar_otros_productos": "9498/1003439",
+       "s_bar_produccion": "6997/1003439"
+      },
+      "joint_domain_sha256": "5e526e5e2a1c2d927626233bb9015250ab6342445ba0e5d5f60e973ef882a8d4",
+      "dependencies": []
+     }
+    },
+    {
+     "orden": 1,
+     "shares_sha256": "bad6727a018ea7a4fba2d41b56d28d6356daee878b23db6b073a2ef3235506ef",
+     "estado_sha256": "c2879a03a246db9f010564fedc4f29f50252a67c6b2f0151bd35782c333c4eb0",
+     "identidad": {
+      "country_id": "PER",
+      "preregistration_id": "PREG-PER-APLICACION-E1",
+      "channel": "conditional",
+      "edition": "pub",
+      "anchor_year": 2016,
+      "label": "published_vector",
+      "primitive_values": [
+       [
+        "PER_D2_2016_PER_PDF:COE",
+        "204177",
+        "PEN"
+       ],
+       [
+        "PER_D2_2016_PER_PDF:GOS",
+        "238832",
+        "PEN"
+       ],
+       [
+        "PER_D2_2016_PER_PDF:MI",
+        "147017",
+        "PEN"
+       ],
+       [
+        "PER_D2_2016_PER_PDF:PIB",
+        "647668",
+        "PEN"
+       ],
+       [
+        "PER_D2_2016_PER_PDF:TAX_NET",
+        "57642",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:N_PROD",
+        "6997",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:PIB",
+        "1003439",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:P_NET",
+        "75849",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:V",
+        "66351",
+        "PEN"
+       ]
+      ],
+      "shares": {
+       "s_L_bar": "204177/647668",
+       "s_bar_iva": "66351/1003439",
+       "s_bar_otros_productos": "9498/1003439",
+       "s_bar_produccion": "6997/1003439"
+      },
+      "joint_domain_sha256": "5e526e5e2a1c2d927626233bb9015250ab6342445ba0e5d5f60e973ef882a8d4",
+      "dependencies": []
+     }
+    },
+    {
+     "orden": 2,
+     "shares_sha256": "aa6cc1a429b6a7a80f93883d4a1f070dab9da0ae1dbd385b9bf33929a2ad8554",
+     "estado_sha256": "567004bdbb6a4a7f921c203f7f359fcfa54f61438801344aa82116201075c4d2",
+     "identidad": {
+      "country_id": "PER",
+      "preregistration_id": "PREG-PER-APLICACION-E1",
+      "channel": "conditional",
+      "edition": "pub",
+      "anchor_year": 2017,
+      "label": "published_vector",
+      "primitive_values": [
+       [
+        "PER_D2_2017_PER_PDF:COE",
+        "215097",
+        "PEN"
+       ],
+       [
+        "PER_D2_2017_PER_PDF:GOS",
+        "259295",
+        "PEN"
+       ],
+       [
+        "PER_D2_2017_PER_PDF:MI",
+        "153798",
+        "PEN"
+       ],
+       [
+        "PER_D2_2017_PER_PDF:PIB",
+        "687989",
+        "PEN"
+       ],
+       [
+        "PER_D2_2017_PER_PDF:TAX_NET",
+        "59799",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:N_PROD",
+        "6997",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:PIB",
+        "1003439",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:P_NET",
+        "75849",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:V",
+        "66351",
+        "PEN"
+       ]
+      ],
+      "shares": {
+       "s_L_bar": "215097/687989",
+       "s_bar_iva": "66351/1003439",
+       "s_bar_otros_productos": "9498/1003439",
+       "s_bar_produccion": "6997/1003439"
+      },
+      "joint_domain_sha256": "5e526e5e2a1c2d927626233bb9015250ab6342445ba0e5d5f60e973ef882a8d4",
+      "dependencies": []
+     }
+    },
+    {
+     "orden": 3,
+     "shares_sha256": "07db99cb4c0c18eee2ee05a3259c6ba1c2a54b9dab8afe9eea0ed3b9bf141324",
+     "estado_sha256": "cf47569ce8a74acf29e9b74be33e5c36b629a3f4e063ab4f9e0dfa4192c9e09c",
+     "identidad": {
+      "country_id": "PER",
+      "preregistration_id": "PREG-PER-APLICACION-E1",
+      "channel": "conditional",
+      "edition": "pub",
+      "anchor_year": 2018,
+      "label": "published_vector",
+      "primitive_values": [
+       [
+        "PER_D2_2018_PER_PDF:COE",
+        "227599",
+        "PEN"
+       ],
+       [
+        "PER_D2_2018_PER_PDF:GOS",
+        "279268",
+        "PEN"
+       ],
+       [
+        "PER_D2_2018_PER_PDF:MI",
+        "161348",
+        "PEN"
+       ],
+       [
+        "PER_D2_2018_PER_PDF:PIB",
+        "731588",
+        "PEN"
+       ],
+       [
+        "PER_D2_2018_PER_PDF:TAX_NET",
+        "63373",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:N_PROD",
+        "6997",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:PIB",
+        "1003439",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:P_NET",
+        "75849",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:V",
+        "66351",
+        "PEN"
+       ]
+      ],
+      "shares": {
+       "s_L_bar": "227599/731588",
+       "s_bar_iva": "66351/1003439",
+       "s_bar_otros_productos": "9498/1003439",
+       "s_bar_produccion": "6997/1003439"
+      },
+      "joint_domain_sha256": "5e526e5e2a1c2d927626233bb9015250ab6342445ba0e5d5f60e973ef882a8d4",
+      "dependencies": []
+     }
+    },
+    {
+     "orden": 4,
+     "shares_sha256": "c63941f01bc81dedb49f7170fc84136715cd0c6d6b9e19a877dca5e420b91823",
+     "estado_sha256": "2b1d8da66c2e7f983857dc13c65a9e23484988043783515f802d1bbf4ae6161a",
+     "identidad": {
+      "country_id": "PER",
+      "preregistration_id": "PREG-PER-APLICACION-E1",
+      "channel": "conditional",
+      "edition": "pub",
+      "anchor_year": 2019,
+      "label": "published_vector",
+      "primitive_values": [
+       [
+        "PER_D2_2019_PER_PDF:COE",
+        "240913",
+        "PEN"
+       ],
+       [
+        "PER_D2_2019_PER_PDF:GOS",
+        "283474",
+        "PEN"
+       ],
+       [
+        "PER_D2_2019_PER_PDF:MI",
+        "168874",
+        "PEN"
+       ],
+       [
+        "PER_D2_2019_PER_PDF:PIB",
+        "761984",
+        "PEN"
+       ],
+       [
+        "PER_D2_2019_PER_PDF:TAX_NET",
+        "68723",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:N_PROD",
+        "6997",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:PIB",
+        "1003439",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:P_NET",
+        "75849",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:V",
+        "66351",
+        "PEN"
+       ]
+      ],
+      "shares": {
+       "s_L_bar": "240913/761984",
+       "s_bar_iva": "66351/1003439",
+       "s_bar_otros_productos": "9498/1003439",
+       "s_bar_produccion": "6997/1003439"
+      },
+      "joint_domain_sha256": "5e526e5e2a1c2d927626233bb9015250ab6342445ba0e5d5f60e973ef882a8d4",
+      "dependencies": []
+     }
+    },
+    {
+     "orden": 5,
+     "shares_sha256": "0785de3b03852e7bfedf24193e287bc178ce77d76a970507f300aa2aeece19fc",
+     "estado_sha256": "7d6038f0d2e80ef6a8c1105acfeeb11831c53c1a22e2948972dc290154b3779a",
+     "identidad": {
+      "country_id": "PER",
+      "preregistration_id": "PREG-PER-APLICACION-E1",
+      "channel": "conditional",
+      "edition": "pub",
+      "anchor_year": 2020,
+      "label": "published_vector",
+      "primitive_values": [
+       [
+        "PER_D2_2020_PER_PDF:COE",
+        "217550",
+        "PEN"
+       ],
+       [
+        "PER_D2_2020_PER_PDF:GOS",
+        "282343",
+        "PEN"
+       ],
+       [
+        "PER_D2_2020_PER_PDF:MI",
+        "144359",
+        "PEN"
+       ],
+       [
+        "PER_D2_2020_PER_PDF:PIB",
+        "703915",
+        "PEN"
+       ],
+       [
+        "PER_D2_2020_PER_PDF:TAX_NET",
+        "59663",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:N_PROD",
+        "6997",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:PIB",
+        "1003439",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:P_NET",
+        "75849",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:V",
+        "66351",
+        "PEN"
+       ]
+      ],
+      "shares": {
+       "s_L_bar": "43510/140783",
+       "s_bar_iva": "66351/1003439",
+       "s_bar_otros_productos": "9498/1003439",
+       "s_bar_produccion": "6997/1003439"
+      },
+      "joint_domain_sha256": "5e526e5e2a1c2d927626233bb9015250ab6342445ba0e5d5f60e973ef882a8d4",
+      "dependencies": []
+     }
+    },
+    {
+     "orden": 6,
+     "shares_sha256": "0241abc9d4e0292ba1318fe02b82f0d7f7ad323250fbe1a582d52436ee977972",
+     "estado_sha256": "ef72d274cbfd6de24fac1e35c198334c888d7a0ff4c2ac9e808e55d6363d8392",
+     "identidad": {
+      "country_id": "PER",
+      "preregistration_id": "PREG-PER-APLICACION-E1",
+      "channel": "conditional",
+      "edition": "pub",
+      "anchor_year": 2021,
+      "label": "published_vector",
+      "primitive_values": [
+       [
+        "PER_D2_2021_PER_PDF:COE",
+        "248223",
+        "PEN"
+       ],
+       [
+        "PER_D2_2021_PER_PDF:GOS",
+        "380124",
+        "PEN"
+       ],
+       [
+        "PER_D2_2021_PER_PDF:MI",
+        "170118",
+        "PEN"
+       ],
+       [
+        "PER_D2_2021_PER_PDF:PIB",
+        "878581",
+        "PEN"
+       ],
+       [
+        "PER_D2_2021_PER_PDF:TAX_NET",
+        "80116",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:N_PROD",
+        "6997",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:PIB",
+        "1003439",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:P_NET",
+        "75849",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:V",
+        "66351",
+        "PEN"
+       ]
+      ],
+      "shares": {
+       "s_L_bar": "248223/878581",
+       "s_bar_iva": "66351/1003439",
+       "s_bar_otros_productos": "9498/1003439",
+       "s_bar_produccion": "6997/1003439"
+      },
+      "joint_domain_sha256": "5e526e5e2a1c2d927626233bb9015250ab6342445ba0e5d5f60e973ef882a8d4",
+      "dependencies": []
+     }
+    },
+    {
+     "orden": 7,
+     "shares_sha256": "62934db046a91f08aee67c05f75ff11af801228401e055c033005132ce3c2ba5",
+     "estado_sha256": "c964bec476832f6d82871a41c9f72df225d17dd2c58d88950fe1625f7787330d",
+     "identidad": {
+      "country_id": "PER",
+      "preregistration_id": "PREG-PER-APLICACION-E1",
+      "channel": "conditional",
+      "edition": "pub",
+      "anchor_year": 2022,
+      "label": "published_vector",
+      "primitive_values": [
+       [
+        "PER_D2_2022_PER_PDF:COE",
+        "270895",
+        "PEN"
+       ],
+       [
+        "PER_D2_2022_PER_PDF:GOS",
+        "401185",
+        "PEN"
+       ],
+       [
+        "PER_D2_2022_PER_PDF:MI",
+        "188112",
+        "PEN"
+       ],
+       [
+        "PER_D2_2022_PER_PDF:PIB",
+        "944106",
+        "PEN"
+       ],
+       [
+        "PER_D2_2022_PER_PDF:TAX_NET",
+        "83914",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:N_PROD",
+        "6997",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:PIB",
+        "1003439",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:P_NET",
+        "75849",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:V",
+        "66351",
+        "PEN"
+       ]
+      ],
+      "shares": {
+       "s_L_bar": "270895/944106",
+       "s_bar_iva": "66351/1003439",
+       "s_bar_otros_productos": "9498/1003439",
+       "s_bar_produccion": "6997/1003439"
+      },
+      "joint_domain_sha256": "5e526e5e2a1c2d927626233bb9015250ab6342445ba0e5d5f60e973ef882a8d4",
+      "dependencies": []
+     }
+    },
+    {
+     "orden": 8,
+     "shares_sha256": "23b7c68f777db5e9ff29938c16282262fdfe9db30e8b04e73173edd612c4aed1",
+     "estado_sha256": "f516c495eaa5b4091dc5176ed84cc89d00e5303871e2cd35363faa498701eacf",
+     "identidad": {
+      "country_id": "PER",
+      "preregistration_id": "PREG-PER-APLICACION-E1",
+      "channel": "conditional",
+      "edition": "pub",
+      "anchor_year": 2023,
+      "label": "published_vector",
+      "primitive_values": [
+       [
+        "PER_D2_2023_PER_2023:COE",
+        "284345",
+        "PEN"
+       ],
+       [
+        "PER_D2_2023_PER_2023:GOS",
+        "428595",
+        "PEN"
+       ],
+       [
+        "PER_D2_2023_PER_2023:MI",
+        "207653",
+        "PEN"
+       ],
+       [
+        "PER_D2_2023_PER_2023:PIB",
+        "1003439",
+        "PEN"
+       ],
+       [
+        "PER_D2_2023_PER_2023:TAX_NET",
+        "82846",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:N_PROD",
+        "6997",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:PIB",
+        "1003439",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:P_NET",
+        "75849",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:V",
+        "66351",
+        "PEN"
+       ]
+      ],
+      "shares": {
+       "s_L_bar": "284345/1003439",
+       "s_bar_iva": "66351/1003439",
+       "s_bar_otros_productos": "9498/1003439",
+       "s_bar_produccion": "6997/1003439"
+      },
+      "joint_domain_sha256": "5e526e5e2a1c2d927626233bb9015250ab6342445ba0e5d5f60e973ef882a8d4",
+      "dependencies": []
+     }
+    }
+   ],
+   "omegas_del_manifiesto": [
+    "{\"a\":\"11/10\",\"eta_H\":\"-1/2\",\"eta_w\":\"1\",\"kappa_tilde\":\"1/200\",\"pi_iva\":\"3/2\",\"pi_otros_productos\":\"3/2\",\"pi_produccion\":\"3/2\",\"rho\":\"2/5\"}",
+    "{\"a\":\"5/2\",\"eta_H\":\"-1/2\",\"eta_w\":\"1/2\",\"kappa_tilde\":\"1/5\",\"pi_iva\":\"1/2\",\"pi_otros_productos\":\"1/2\",\"pi_produccion\":\"1/2\",\"rho\":\"1\"}",
+    "{\"a\":\"5/2\",\"eta_H\":\"-1/2\",\"eta_w\":\"2/5\",\"kappa_tilde\":\"1/5\",\"pi_iva\":\"1/2\",\"pi_otros_productos\":\"1/2\",\"pi_produccion\":\"1/2\",\"rho\":\"1\"}"
+   ],
+   "rem109_R1_estados_nacionales": 9,
+   "justificacion_omega": "solo NationalState (vectores publicados fijos): Run.states_for devuelve la misma lista para todo ω"
+  },
+  "PER-E1.micro": {
+   "pais": "PER",
+   "tipos": [
+    "NationalState"
+   ],
+   "independiente_de_omega": true,
+   "n_estados": 9,
+   "estados": [
+    {
+     "orden": 0,
+     "shares_sha256": "1b1b92c1997145518031aeedc6ae1a463081d1ac4ba78d1e83b9c5ec11a2b893",
+     "estado_sha256": "9b0ac233f82c03bfe8cbd8261d4535b0b2ebdcda51be54615bb29440c4c63d1a",
+     "identidad": {
+      "country_id": "PER",
+      "preregistration_id": "PREG-PER-APLICACION-E1",
+      "channel": "conditional",
+      "edition": "pub",
+      "anchor_year": 2015,
+      "label": "published_vector",
+      "primitive_values": [
+       [
+        "PER_D2_2015_PER_PDF:COE",
+        "192350",
+        "PEN"
+       ],
+       [
+        "PER_D2_2015_PER_PDF:GOS",
+        "221451",
+        "PEN"
+       ],
+       [
+        "PER_D2_2015_PER_PDF:MI",
+        "134913",
+        "PEN"
+       ],
+       [
+        "PER_D2_2015_PER_PDF:PIB",
+        "604416",
+        "PEN"
+       ],
+       [
+        "PER_D2_2015_PER_PDF:TAX_NET",
+        "55702",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:N_PROD",
+        "6997",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:PIB",
+        "1003439",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:P_NET",
+        "75849",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:V",
+        "66351",
+        "PEN"
+       ]
+      ],
+      "shares": {
+       "s_L_bar": "96175/302208",
+       "s_bar_iva": "66351/1003439",
+       "s_bar_otros_productos": "9498/1003439",
+       "s_bar_produccion": "6997/1003439"
+      },
+      "joint_domain_sha256": "5e526e5e2a1c2d927626233bb9015250ab6342445ba0e5d5f60e973ef882a8d4",
+      "dependencies": []
+     }
+    },
+    {
+     "orden": 1,
+     "shares_sha256": "bad6727a018ea7a4fba2d41b56d28d6356daee878b23db6b073a2ef3235506ef",
+     "estado_sha256": "c2879a03a246db9f010564fedc4f29f50252a67c6b2f0151bd35782c333c4eb0",
+     "identidad": {
+      "country_id": "PER",
+      "preregistration_id": "PREG-PER-APLICACION-E1",
+      "channel": "conditional",
+      "edition": "pub",
+      "anchor_year": 2016,
+      "label": "published_vector",
+      "primitive_values": [
+       [
+        "PER_D2_2016_PER_PDF:COE",
+        "204177",
+        "PEN"
+       ],
+       [
+        "PER_D2_2016_PER_PDF:GOS",
+        "238832",
+        "PEN"
+       ],
+       [
+        "PER_D2_2016_PER_PDF:MI",
+        "147017",
+        "PEN"
+       ],
+       [
+        "PER_D2_2016_PER_PDF:PIB",
+        "647668",
+        "PEN"
+       ],
+       [
+        "PER_D2_2016_PER_PDF:TAX_NET",
+        "57642",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:N_PROD",
+        "6997",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:PIB",
+        "1003439",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:P_NET",
+        "75849",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:V",
+        "66351",
+        "PEN"
+       ]
+      ],
+      "shares": {
+       "s_L_bar": "204177/647668",
+       "s_bar_iva": "66351/1003439",
+       "s_bar_otros_productos": "9498/1003439",
+       "s_bar_produccion": "6997/1003439"
+      },
+      "joint_domain_sha256": "5e526e5e2a1c2d927626233bb9015250ab6342445ba0e5d5f60e973ef882a8d4",
+      "dependencies": []
+     }
+    },
+    {
+     "orden": 2,
+     "shares_sha256": "aa6cc1a429b6a7a80f93883d4a1f070dab9da0ae1dbd385b9bf33929a2ad8554",
+     "estado_sha256": "567004bdbb6a4a7f921c203f7f359fcfa54f61438801344aa82116201075c4d2",
+     "identidad": {
+      "country_id": "PER",
+      "preregistration_id": "PREG-PER-APLICACION-E1",
+      "channel": "conditional",
+      "edition": "pub",
+      "anchor_year": 2017,
+      "label": "published_vector",
+      "primitive_values": [
+       [
+        "PER_D2_2017_PER_PDF:COE",
+        "215097",
+        "PEN"
+       ],
+       [
+        "PER_D2_2017_PER_PDF:GOS",
+        "259295",
+        "PEN"
+       ],
+       [
+        "PER_D2_2017_PER_PDF:MI",
+        "153798",
+        "PEN"
+       ],
+       [
+        "PER_D2_2017_PER_PDF:PIB",
+        "687989",
+        "PEN"
+       ],
+       [
+        "PER_D2_2017_PER_PDF:TAX_NET",
+        "59799",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:N_PROD",
+        "6997",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:PIB",
+        "1003439",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:P_NET",
+        "75849",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:V",
+        "66351",
+        "PEN"
+       ]
+      ],
+      "shares": {
+       "s_L_bar": "215097/687989",
+       "s_bar_iva": "66351/1003439",
+       "s_bar_otros_productos": "9498/1003439",
+       "s_bar_produccion": "6997/1003439"
+      },
+      "joint_domain_sha256": "5e526e5e2a1c2d927626233bb9015250ab6342445ba0e5d5f60e973ef882a8d4",
+      "dependencies": []
+     }
+    },
+    {
+     "orden": 3,
+     "shares_sha256": "07db99cb4c0c18eee2ee05a3259c6ba1c2a54b9dab8afe9eea0ed3b9bf141324",
+     "estado_sha256": "cf47569ce8a74acf29e9b74be33e5c36b629a3f4e063ab4f9e0dfa4192c9e09c",
+     "identidad": {
+      "country_id": "PER",
+      "preregistration_id": "PREG-PER-APLICACION-E1",
+      "channel": "conditional",
+      "edition": "pub",
+      "anchor_year": 2018,
+      "label": "published_vector",
+      "primitive_values": [
+       [
+        "PER_D2_2018_PER_PDF:COE",
+        "227599",
+        "PEN"
+       ],
+       [
+        "PER_D2_2018_PER_PDF:GOS",
+        "279268",
+        "PEN"
+       ],
+       [
+        "PER_D2_2018_PER_PDF:MI",
+        "161348",
+        "PEN"
+       ],
+       [
+        "PER_D2_2018_PER_PDF:PIB",
+        "731588",
+        "PEN"
+       ],
+       [
+        "PER_D2_2018_PER_PDF:TAX_NET",
+        "63373",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:N_PROD",
+        "6997",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:PIB",
+        "1003439",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:P_NET",
+        "75849",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:V",
+        "66351",
+        "PEN"
+       ]
+      ],
+      "shares": {
+       "s_L_bar": "227599/731588",
+       "s_bar_iva": "66351/1003439",
+       "s_bar_otros_productos": "9498/1003439",
+       "s_bar_produccion": "6997/1003439"
+      },
+      "joint_domain_sha256": "5e526e5e2a1c2d927626233bb9015250ab6342445ba0e5d5f60e973ef882a8d4",
+      "dependencies": []
+     }
+    },
+    {
+     "orden": 4,
+     "shares_sha256": "c63941f01bc81dedb49f7170fc84136715cd0c6d6b9e19a877dca5e420b91823",
+     "estado_sha256": "2b1d8da66c2e7f983857dc13c65a9e23484988043783515f802d1bbf4ae6161a",
+     "identidad": {
+      "country_id": "PER",
+      "preregistration_id": "PREG-PER-APLICACION-E1",
+      "channel": "conditional",
+      "edition": "pub",
+      "anchor_year": 2019,
+      "label": "published_vector",
+      "primitive_values": [
+       [
+        "PER_D2_2019_PER_PDF:COE",
+        "240913",
+        "PEN"
+       ],
+       [
+        "PER_D2_2019_PER_PDF:GOS",
+        "283474",
+        "PEN"
+       ],
+       [
+        "PER_D2_2019_PER_PDF:MI",
+        "168874",
+        "PEN"
+       ],
+       [
+        "PER_D2_2019_PER_PDF:PIB",
+        "761984",
+        "PEN"
+       ],
+       [
+        "PER_D2_2019_PER_PDF:TAX_NET",
+        "68723",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:N_PROD",
+        "6997",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:PIB",
+        "1003439",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:P_NET",
+        "75849",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:V",
+        "66351",
+        "PEN"
+       ]
+      ],
+      "shares": {
+       "s_L_bar": "240913/761984",
+       "s_bar_iva": "66351/1003439",
+       "s_bar_otros_productos": "9498/1003439",
+       "s_bar_produccion": "6997/1003439"
+      },
+      "joint_domain_sha256": "5e526e5e2a1c2d927626233bb9015250ab6342445ba0e5d5f60e973ef882a8d4",
+      "dependencies": []
+     }
+    },
+    {
+     "orden": 5,
+     "shares_sha256": "0785de3b03852e7bfedf24193e287bc178ce77d76a970507f300aa2aeece19fc",
+     "estado_sha256": "7d6038f0d2e80ef6a8c1105acfeeb11831c53c1a22e2948972dc290154b3779a",
+     "identidad": {
+      "country_id": "PER",
+      "preregistration_id": "PREG-PER-APLICACION-E1",
+      "channel": "conditional",
+      "edition": "pub",
+      "anchor_year": 2020,
+      "label": "published_vector",
+      "primitive_values": [
+       [
+        "PER_D2_2020_PER_PDF:COE",
+        "217550",
+        "PEN"
+       ],
+       [
+        "PER_D2_2020_PER_PDF:GOS",
+        "282343",
+        "PEN"
+       ],
+       [
+        "PER_D2_2020_PER_PDF:MI",
+        "144359",
+        "PEN"
+       ],
+       [
+        "PER_D2_2020_PER_PDF:PIB",
+        "703915",
+        "PEN"
+       ],
+       [
+        "PER_D2_2020_PER_PDF:TAX_NET",
+        "59663",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:N_PROD",
+        "6997",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:PIB",
+        "1003439",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:P_NET",
+        "75849",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:V",
+        "66351",
+        "PEN"
+       ]
+      ],
+      "shares": {
+       "s_L_bar": "43510/140783",
+       "s_bar_iva": "66351/1003439",
+       "s_bar_otros_productos": "9498/1003439",
+       "s_bar_produccion": "6997/1003439"
+      },
+      "joint_domain_sha256": "5e526e5e2a1c2d927626233bb9015250ab6342445ba0e5d5f60e973ef882a8d4",
+      "dependencies": []
+     }
+    },
+    {
+     "orden": 6,
+     "shares_sha256": "0241abc9d4e0292ba1318fe02b82f0d7f7ad323250fbe1a582d52436ee977972",
+     "estado_sha256": "ef72d274cbfd6de24fac1e35c198334c888d7a0ff4c2ac9e808e55d6363d8392",
+     "identidad": {
+      "country_id": "PER",
+      "preregistration_id": "PREG-PER-APLICACION-E1",
+      "channel": "conditional",
+      "edition": "pub",
+      "anchor_year": 2021,
+      "label": "published_vector",
+      "primitive_values": [
+       [
+        "PER_D2_2021_PER_PDF:COE",
+        "248223",
+        "PEN"
+       ],
+       [
+        "PER_D2_2021_PER_PDF:GOS",
+        "380124",
+        "PEN"
+       ],
+       [
+        "PER_D2_2021_PER_PDF:MI",
+        "170118",
+        "PEN"
+       ],
+       [
+        "PER_D2_2021_PER_PDF:PIB",
+        "878581",
+        "PEN"
+       ],
+       [
+        "PER_D2_2021_PER_PDF:TAX_NET",
+        "80116",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:N_PROD",
+        "6997",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:PIB",
+        "1003439",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:P_NET",
+        "75849",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:V",
+        "66351",
+        "PEN"
+       ]
+      ],
+      "shares": {
+       "s_L_bar": "248223/878581",
+       "s_bar_iva": "66351/1003439",
+       "s_bar_otros_productos": "9498/1003439",
+       "s_bar_produccion": "6997/1003439"
+      },
+      "joint_domain_sha256": "5e526e5e2a1c2d927626233bb9015250ab6342445ba0e5d5f60e973ef882a8d4",
+      "dependencies": []
+     }
+    },
+    {
+     "orden": 7,
+     "shares_sha256": "62934db046a91f08aee67c05f75ff11af801228401e055c033005132ce3c2ba5",
+     "estado_sha256": "c964bec476832f6d82871a41c9f72df225d17dd2c58d88950fe1625f7787330d",
+     "identidad": {
+      "country_id": "PER",
+      "preregistration_id": "PREG-PER-APLICACION-E1",
+      "channel": "conditional",
+      "edition": "pub",
+      "anchor_year": 2022,
+      "label": "published_vector",
+      "primitive_values": [
+       [
+        "PER_D2_2022_PER_PDF:COE",
+        "270895",
+        "PEN"
+       ],
+       [
+        "PER_D2_2022_PER_PDF:GOS",
+        "401185",
+        "PEN"
+       ],
+       [
+        "PER_D2_2022_PER_PDF:MI",
+        "188112",
+        "PEN"
+       ],
+       [
+        "PER_D2_2022_PER_PDF:PIB",
+        "944106",
+        "PEN"
+       ],
+       [
+        "PER_D2_2022_PER_PDF:TAX_NET",
+        "83914",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:N_PROD",
+        "6997",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:PIB",
+        "1003439",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:P_NET",
+        "75849",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:V",
+        "66351",
+        "PEN"
+       ]
+      ],
+      "shares": {
+       "s_L_bar": "270895/944106",
+       "s_bar_iva": "66351/1003439",
+       "s_bar_otros_productos": "9498/1003439",
+       "s_bar_produccion": "6997/1003439"
+      },
+      "joint_domain_sha256": "5e526e5e2a1c2d927626233bb9015250ab6342445ba0e5d5f60e973ef882a8d4",
+      "dependencies": []
+     }
+    },
+    {
+     "orden": 8,
+     "shares_sha256": "23b7c68f777db5e9ff29938c16282262fdfe9db30e8b04e73173edd612c4aed1",
+     "estado_sha256": "f516c495eaa5b4091dc5176ed84cc89d00e5303871e2cd35363faa498701eacf",
+     "identidad": {
+      "country_id": "PER",
+      "preregistration_id": "PREG-PER-APLICACION-E1",
+      "channel": "conditional",
+      "edition": "pub",
+      "anchor_year": 2023,
+      "label": "published_vector",
+      "primitive_values": [
+       [
+        "PER_D2_2023_PER_2023:COE",
+        "284345",
+        "PEN"
+       ],
+       [
+        "PER_D2_2023_PER_2023:GOS",
+        "428595",
+        "PEN"
+       ],
+       [
+        "PER_D2_2023_PER_2023:MI",
+        "207653",
+        "PEN"
+       ],
+       [
+        "PER_D2_2023_PER_2023:PIB",
+        "1003439",
+        "PEN"
+       ],
+       [
+        "PER_D2_2023_PER_2023:TAX_NET",
+        "82846",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:N_PROD",
+        "6997",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:PIB",
+        "1003439",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:P_NET",
+        "75849",
+        "PEN"
+       ],
+       [
+        "PER_D6_2023_PER_2023:V",
+        "66351",
+        "PEN"
+       ]
+      ],
+      "shares": {
+       "s_L_bar": "284345/1003439",
+       "s_bar_iva": "66351/1003439",
+       "s_bar_otros_productos": "9498/1003439",
+       "s_bar_produccion": "6997/1003439"
+      },
+      "joint_domain_sha256": "5e526e5e2a1c2d927626233bb9015250ab6342445ba0e5d5f60e973ef882a8d4",
+      "dependencies": []
+     }
+    }
+   ],
+   "omegas_del_manifiesto": [
+    "{\"a\":\"11/10\",\"eta_H\":\"1/2\",\"eta_w\":\"1/5\",\"kappa_tilde\":\"1/200\",\"pi_iva\":\"3/2\",\"pi_otros_productos\":\"3/2\",\"pi_produccion\":\"3/2\",\"rho\":\"2/5\"}",
+    "{\"a\":\"5/2\",\"eta_H\":\"-1/2\",\"eta_w\":\"1/20\",\"kappa_tilde\":\"1/5\",\"pi_iva\":\"1/2\",\"pi_otros_productos\":\"1/2\",\"pi_produccion\":\"1/2\",\"rho\":\"1\"}",
+    "{\"a\":\"5/2\",\"eta_H\":\"0\",\"eta_w\":\"1/20\",\"kappa_tilde\":\"1/5\",\"pi_iva\":\"1/2\",\"pi_otros_productos\":\"1/2\",\"pi_produccion\":\"1/2\",\"rho\":\"1\"}"
+   ],
+   "rem109_R1_estados_nacionales": 9,
+   "justificacion_omega": "solo NationalState (vectores publicados fijos): Run.states_for devuelve la misma lista para todo ω"
+  }
+ },
+ "coincide_con_rem109_R1": true
+}

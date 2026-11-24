@@ -1,0 +1,212 @@
+{
+ "anexo_t8": {
+  "area": "paso4_conciliacion_portabilidad_desde_rem108",
+  "inventario": {
+   "ruta": "tmp/paso4_conciliacion_portabilidad_desde_rem108/audit/entrega.json",
+   "sha256": "b6ccab3ded6e957df5ebfd585a5402b5a10948aaa3e0bfa52192165fb6022cf4"
+  },
+  "origen": "equivalencia.fuentes.anexo_T8",
+  "rel": "conciliacion/ensamblajes/T8_anexo.json",
+  "sha256": "e63ae329777ca04342a2d86c439b70008e52965adf801b23b3339bd657074bc9"
+ },
+ "banda_tol_converge": 1e-07,
+ "cota_U": {
+  "K_binary64_0.2": "3602879701896397/18014398509481984",
+  "QD_(2/5)^(1/10)": "73/80",
+  "QF_(5/2)^(9/10)": "5703/2500",
+  "U": "184927708619012784273/225179981368524800000",
+  "banda": "944473296573929/9444732965739290427392",
+  "magnitud": {
+   "escala": "C_2_share",
+   "k": "C2",
+   "normalizacion": "gamma = z_m = 1 en los diez conjuntos base"
+  },
+  "regla": "Fraction(v) > U + banda  =>  outside_support (la igualdad no excluye; nunca prueba pertenencia)"
+ },
+ "d7": {
+  "arbol": "10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739",
+  "archivos": {
+   "support_set.csv": {
+    "bytes": 945322,
+    "ruta": "fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739/support_set.csv",
+    "sha256": "91716f572a85dae4e57290efb3dad03ada588d7a6cfe037fd2e1ae5d40bd61c6"
+   },
+   "support_sets.csv": {
+    "bytes": 18627,
+    "ruta": "fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739/support_sets.csv",
+    "sha256": "ab74aafd22193c31e642f7238e379f65bfe2147ce7edb6a7a82970c19ca046c9"
+   },
+   "tau_domains.csv": {
+    "bytes": 49948,
+    "ruta": "fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739/tau_domains.csv",
+    "sha256": "c39aa30fc0fdb44fb9d0c32d66bc001d901fdeae9fb6f3c27874c21a1d0b0e6f"
+   }
+  },
+  "autoridad": {
+   "area": "paso4_produccion_q_desde_rem104",
+   "inventario": {
+    "ruta": "tmp/paso4_produccion_q_desde_rem104/audit/entrega.json",
+    "sha256": "847a07198346142ce58b2a4ba9dd49d6ebbbf33ff9cd2a160a4accd113a3118d"
+   },
+   "origen": "línea base aceptada del original (rem104), la de la custodia",
+   "rel": "audit/linea_base_original_inicio.json",
+   "sha256": "aa2cd074beeb0a28e28f992175ebcfcddfcc6b504c994c13e4c3d57aa10a0d0f"
+  }
+ },
+ "deriva_de": {
+  "entrega": {
+   "ruta": "tmp/paso4_procedencia_cota_desde_rem136/audit/entrega.json",
+   "sha256": "16a2e53e21ba1d3615616bc598ea281ec078f55a5bd97b96a4ae9746934a4087"
+  },
+  "fuentes_v2_sha256": "d9572f12f6aa6e2c66e4c999c03ba4186c6a764cd11e72357296986dfd4b7426",
+  "nota": "claves de la v2 sin cambios; se añaden nota_U, dictamen_rem137, cota_U, modelo, pruebas_aceptadas y derivado_c3",
+  "paquete_c2_v2_sha256": "63d65d73f2cb444d4071e21a46607cf65662a0b50c7a2176d438f89459382e21"
+ },
+ "derivado_c3": {
+  "area": "paso4_procedencia_cota_desde_rem136",
+  "inventario": {
+   "ruta": "tmp/paso4_procedencia_cota_desde_rem136/audit/entrega.json",
+   "sha256": "16a2e53e21ba1d3615616bc598ea281ec078f55a5bd97b96a4ae9746934a4087"
+  },
+  "rel": "c_cota/DERIVADO_C3_v2.json",
+  "sha256": "f7692406c189e1293548caff84be6f10cb9d4ababd147dedf6798361abf68c90",
+  "uso": "solo cotejo del constructor (879 filas); no es autoridad de validar"
+ },
+ "dictamen_rem137": {
+  "ruta": "@@W_BS2@@\\review_20261101_rem137_dictamen.txt",
+  "sha256": "008e15b95c7a2f4ba8b140bd69fd0b80e521390b7f5dc2925ed03d08f67fb62d"
+ },
+ "equivalencia": {
+  "area": "paso4_emision_lambda_captura_desde_rem135",
+  "inventario": {
+   "ruta": "tmp/paso4_emision_lambda_captura_desde_rem135/audit/entrega.json",
+   "sha256": "313719680b730727b64d3260359030486c2b8449b68632b32805d4b19051bdd3"
+  },
+  "origen": "dictamen rem136 §C1 (aceptada) y encargo rem136",
+  "rel": "c_captura/salida_c1b/EQUIVALENCIA_EFECTIVA_TECHO.json",
+  "sha256": "e4b4c411ba78bbe8938586e3a704dd83bc10397d82248078f5ee3af94434978c"
+ },
+ "garantia_plataforma": "ieee754_binary64_rn",
+ "inventarios_testigo": {
+  "fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201": {
+   "origen": "equivalencia.nucleo_por_corrida[BRUN-050091213b198d7cd7ba9ea2]",
+   "run": "BRUN-050091213b198d7cd7ba9ea2",
+   "ruta": "tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/audit/entrega.json",
+   "sha256": "1f81beca84009c710fe23a427644f4c15260475fb70052862a89613596ebf3a8"
+  },
+  "remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533": {
+   "origen": "equivalencia.nucleo_por_corrida[BRUN-7bdfe0a1bee57298e31e1b34]",
+   "run": "BRUN-7bdfe0a1bee57298e31e1b34",
+   "ruta": "tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/audit/entrega.json",
+   "sha256": "aefcf73f21948fcfa1a07b9860d2d8f3a810859a9621d426ad580a646ce3aadd"
+  },
+  "remanente_e6a4_correccion_cierre_paso4_3_7_2026-10-11_lima2330": {
+   "origen": "equivalencia.nucleo_por_corrida[BRUN-f5f58960bbf9017776d3d7fc]",
+   "run": "BRUN-f5f58960bbf9017776d3d7fc",
+   "ruta": "tmp/remanente_e6a4_correccion_cierre_paso4_3_7_2026-10-11_lima2330/audit/entrega.json",
+   "sha256": "25099490133103e56dc50129985fa0025ec32001e7703f11f7f6e65dd1057630"
+  },
+  "remanente_s1df_s2_consumidor_h4_paso4_3_7_2026-10-11_lima0604": {
+   "origen": "equivalencia.nucleo_por_corrida[BRUN-a81e3f45f7111e18b1f39370]",
+   "run": "BRUN-a81e3f45f7111e18b1f39370",
+   "ruta": "tmp/remanente_s1df_s2_consumidor_h4_paso4_3_7_2026-10-11_lima0604/audit/entrega.json",
+   "sha256": "5bd46fafb7c73bf046dd3f7262465274e3a7b8191e2cd4b3feaca3c935ce011a"
+  },
+  "remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200": {
+   "origen": "equivalencia.nucleo_por_corrida[BRUN-4ef8507fcdefbddc55dbc3b7]",
+   "run": "BRUN-4ef8507fcdefbddc55dbc3b7",
+   "ruta": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/audit/entrega.json",
+   "sha256": "ca6ab27856f36418d1d3bbfb7e30e89abeb13e66ff31925b1e61060ffdf64715"
+  },
+  "remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009": {
+   "origen": "equivalencia.nucleo_por_corrida[BRUN-9c6c66e7af8b139a613b1c3f]",
+   "run": "BRUN-9c6c66e7af8b139a613b1c3f",
+   "ruta": "tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/audit/entrega.json",
+   "sha256": "a1af40e6fdd1a20dc78dab7d817f82bed718d39a7d50f90424ac47f3c970cc1d"
+  },
+  "remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324": {
+   "origen": "equivalencia.nucleo_por_corrida[BRUN-63a9e9ea157b2faaf317ae61]",
+   "run": "BRUN-63a9e9ea157b2faaf317ae61",
+   "ruta": "tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/audit/entrega.json",
+   "sha256": "e2772375180cfa6faf39e152c5a802b97724a5cdfc19dcfc86d28747e9ebcc86"
+  },
+  "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738": {
+   "origen": "equivalencia.nucleo_por_corrida[BRUN-1368187e9a43de0d95926dca]",
+   "run": "BRUN-1368187e9a43de0d95926dca",
+   "ruta": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/audit/entrega.json",
+   "sha256": "ceb85c096307abd68d4e138baa1f6da54457d7548d825cbcd6ec89c217a91a51"
+  },
+  "remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855": {
+   "origen": "equivalencia.nucleo_por_corrida[BRUN-cb33e6b24039acc84fb1a065]",
+   "run": "BRUN-cb33e6b24039acc84fb1a065",
+   "ruta": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/audit/entrega.json",
+   "sha256": "1bb94b75d57c4b97e9ebf662bc6cc6117e3b8b30792e46d6d1e5ef1a36ea8cdd"
+  },
+  "remanente_s2_diagnostico_e6a4_r3_incorporacion_paso4_3_7_2026-10-11_lima2059": {
+   "origen": "equivalencia.nucleo_por_corrida[BRUN-47e3d9f48d2b65e9ddeed02f]",
+   "run": "BRUN-47e3d9f48d2b65e9ddeed02f",
+   "ruta": "tmp/remanente_s2_diagnostico_e6a4_r3_incorporacion_paso4_3_7_2026-10-11_lima2059/audit/entrega.json",
+   "sha256": "29dae035ec937447cab69645b2319f211acf040c3d50506e8137f569d41a2b12"
+  },
+  "remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213": {
+   "origen": "equivalencia.nucleo_por_corrida[BRUN-991c466a1938ddbf2192eefb]",
+   "run": "BRUN-991c466a1938ddbf2192eefb",
+   "ruta": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/audit/entrega.json",
+   "sha256": "30474cee53e48bdcde9592aa7cc299e71cdf50e624a2f78692d323ca75864bed"
+  },
+  "s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125": {
+   "origen": "equivalencia.nucleo_por_corrida[BRUN-c5af32a993773f5258ce570f]",
+   "run": "BRUN-c5af32a993773f5258ce570f",
+   "ruta": "tmp/s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125/audit/entrega.json",
+   "sha256": "3f62b34c51e82dafb77b199c9ea3f99177b46535d782c869eed9ead80be910cc"
+  },
+  "s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800": {
+   "origen": "equivalencia.nucleo_por_corrida[BRUN-612818cb081c6797d4923b4d]",
+   "run": "BRUN-612818cb081c6797d4923b4d",
+   "ruta": "tmp/s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800/audit/entrega.json",
+   "sha256": "d22952fad5782ff67c0c514a5b2c8d613c089f8cdfb241ebad133fb8903d7dc1"
+  },
+  "validacion_detallada_d_s1_d_h4_paso4_3_7_2026-10-09_lima2331": {
+   "origen": "equivalencia.nucleo_por_corrida[BRUN-5b35ba3f51bc08bd48b384bd]",
+   "run": "BRUN-5b35ba3f51bc08bd48b384bd",
+   "ruta": "tmp/validacion_detallada_d_s1_d_h4_paso4_3_7_2026-10-09_lima2331/audit/entrega.json",
+   "sha256": "4caedd3bb0901bc678193035422d673bd41be6a8abcba6184a982f8638a1b7f1"
+  }
+ },
+ "kind": "fuentes-captura-c2-v3",
+ "mapa_corridas": {
+  "area": "paso4_conciliacion_portabilidad_desde_rem109",
+  "inventario": {
+   "ruta": "tmp/paso4_conciliacion_portabilidad_desde_rem109/audit/entrega.json",
+   "sha256": "ff9cf76030f8648586576ff6ef5bd803c8ab1ab9b7c60bff3ebd3237d2ba0789"
+  },
+  "origen": "equivalencia.fuentes.mapa",
+  "rel": "conciliacion/corridas_t8_mapa.json",
+  "sha256": "c53db4e42d73aaf80b2bb2428a5547c8651c2bdf4f495b1e67ff37a64034db86"
+ },
+ "modelo": {
+  "ruta": "paso4/instalacion/src/paper2b/model.py",
+  "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+  "uso": "fórmulas citadas por la nota (no se ejecuta)"
+ },
+ "nota": {
+  "ruta": "@@W_BS2@@\\review_20261101_rem135_cota.txt",
+  "sha256": "7a9769896d533cb793254e09ef5a36f0205b02d2ad92a4c1c01bbee932f6fada"
+ },
+ "nota_U": {
+  "origen": "nota del revisor rem137: acepta E0<=0 y U con la corrección del cuantificador",
+  "ruta": "@@W_BS2@@\\review_20261101_rem137_cota.txt",
+  "sha256": "cf738de6945a86ffb55ed0994610bc6d8d9d21860a5cd0b7e92a27f0afe0f34a"
+ },
+ "nota_de_uso": "entrada fijada con independencia de las pruebas: el validador toma de aquí TODA autoridad (nunca de la prueba) y lee, autentica y parsea los mismos bytes; el código que valida se fija en el índice del paquete candidato; v3: exclusión por U con nota rem137 y premisas U sobre los mismos bytes de D7",
+ "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+ "pruebas_aceptadas": {
+  "area": "paso4_procedencia_cota_desde_rem136",
+  "inventario": {
+   "ruta": "tmp/paso4_procedencia_cota_desde_rem136/audit/entrega.json",
+   "sha256": "16a2e53e21ba1d3615616bc598ea281ec078f55a5bd97b96a4ae9746934a4087"
+  },
+  "rel": "c_procedencia/salida_c2_v2b/PRUEBAS_FILA.json",
+  "sha256": "4bea8db2c2af9f3be6b8452dcc571ffcb8ab601e55266787400dcfb49046caef"
+ }
+}

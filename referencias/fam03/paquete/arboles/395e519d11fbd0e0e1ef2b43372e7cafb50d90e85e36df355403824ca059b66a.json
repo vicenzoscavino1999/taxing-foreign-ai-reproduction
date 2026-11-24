@@ -1,0 +1,34 @@
+{
+ "kind": "manifiesto-arbol-rem191",
+ "tarea": "PROD1-T019",
+ "familia": "PROD1",
+ "tree_sha256": "395e519d11fbd0e0e1ef2b43372e7cafb50d90e85e36df355403824ca059b66a",
+ "formula": "sha256(canon({rel: sha256}))",
+ "aceptacion": "libro rem105 (accepted_review review_20261028_rem101_dictamen.txt)",
+ "archivos": {
+  "dictamen_validacion.json": {
+   "sha256": "925400210e03cba9faf67b84940d1ae2248d0dc2d9ab1ef6df9f808e904800d7",
+   "bytes": 484,
+   "objeto": "objetos/925400210e03cba9faf67b84940d1ae2248d0dc2d9ab1ef6df9f808e904800d7/dictamen_validacion.json",
+   "tipo": "copia_exacta"
+  },
+  "registro_productivo.json": {
+   "sha256": "3fbdd0c2bb3f77327581751f18d22636407c1609e01522bb48394807b1389a89",
+   "bytes": 1977,
+   "objeto": "proyecciones/293445dffba8e49c5eb222f01ad2ca192ed1724d44ca78115975f42fd10b5040/registro_productivo.json",
+   "tipo": "proyeccion"
+  },
+  "unidades/PROD1_PREG-COMPARACION-E1_historical_anchor_ci_MEX_f_conditional_full_G_addback_completo_micro_guardrail_deuda_kappa_tilde_inferior.json": {
+   "sha256": "6796efb3c6ab61e219dc24b4e60e7e30a9dfa2381b620db4b8fb8460a45dc03f",
+   "bytes": 3921,
+   "objeto": "objetos/6796efb3c6ab61e219dc24b4e60e7e30a9dfa2381b620db4b8fb8460a45dc03f/PROD1_PREG-COMPARACION-E1_historical_anchor_ci_MEX_f_conditional_full_G_addback_completo_micro_guardrail_deuda_kappa_tilde_inferior.json",
+   "tipo": "copia_exacta"
+  },
+  "unidades/PROD1_PREG-COMPARACION-E1_historical_anchor_ci_MEX_f_conditional_full_G_addback_completo_micro_guardrail_deuda_kappa_tilde_inferior_filas.json": {
+   "sha256": "0f279e94e3c314bfd8ee54597ecabe53237c255f42bff92b454455c57922b2f7",
+   "bytes": 2334,
+   "objeto": "objetos/0f279e94e3c314bfd8ee54597ecabe53237c255f42bff92b454455c57922b2f7/PROD1_PREG-COMPARACION-E1_historical_anchor_ci_MEX_f_conditional_full_G_addback_completo_micro_guardrail_deuda_kappa_tilde_inferior_filas.json",
+   "tipo": "copia_exacta"
+  }
+ }
+}

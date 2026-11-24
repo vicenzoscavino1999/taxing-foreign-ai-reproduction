@@ -1,0 +1,923 @@
+{
+ "descripcion": "Relación de piezas de FAM05 (lote 2: L1-ELAST con suplemento histórico, L1-LAMBDA) y su origen (tmp: = carpeta de entregas históricas del proyecto). Las ubicaciones de origen solo sirven para localizar; ninguna se usa al ejecutar. Todas son copias exactas y ninguna contiene rutas absolutas. Código en nucleo_s6/lote2, núcleo C0 en nucleo_s6/c0, entradas en datos/fam05 (incluida la fuente aceptada del suplemento), referencias (solo para comparar) en referencias/fam05. El D7, los contratos y los datos nacionales del contexto son los de FAM01 (fuentes_fam01.json).",
+ "herramienta": {
+  "archivo": "extraccion/extraer_fam05.py",
+  "sha256": "b63930126f8aa03c16f2de4a9dba226d76181e0a97dfd0cd485105e39089e8b2"
+ },
+ "archivos": [
+  {
+   "archivo": "nucleo_s6/lote2/tarea_lote.py",
+   "origen": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/tarea_lote.py (= objeto del catálogo objetos/dca9d79b2d7c89bdd09e4e99293a158cb7fdc4cf8951df51561c68b019386456/tarea_lote.py)",
+   "sha256": "dca9d79b2d7c89bdd09e4e99293a158cb7fdc4cf8951df51561c68b019386456",
+   "papel": "código del lote 2 (U14 trabajador/conexión, copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/lote2/conexion_lambda.py",
+   "origen": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/conexion_lambda.py (= objeto del catálogo objetos/9dbdc7322e303f11f4b33897dd11de3e7ce8327636637e75bc246222391138b3/conexion_lambda.py)",
+   "sha256": "9dbdc7322e303f11f4b33897dd11de3e7ce8327636637e75bc246222391138b3",
+   "papel": "código del lote 2 (U14 trabajador/conexión, copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/lote2/conexion_frontera.py",
+   "origen": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/conexion_frontera.py (= objeto del catálogo objetos/4fb1915d7cf7ca39bf9385f975665a75b32717558096870d7d9213d151be2527/conexion_frontera.py)",
+   "sha256": "4fb1915d7cf7ca39bf9385f975665a75b32717558096870d7d9213d151be2527",
+   "papel": "código del lote 2 (U14 trabajador/conexión, copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/lote2/validar_lote.py",
+   "origen": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/validar_lote.py (= objeto del catálogo objetos/d95e2beb0c0f67a96984d4346fe1c77e5b44539eb97769ba3f09ecbb67ea4f19/validar_lote.py)",
+   "sha256": "d95e2beb0c0f67a96984d4346fe1c77e5b44539eb97769ba3f09ecbb67ea4f19",
+   "papel": "código del lote 2 (U15 validador, copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/__init__.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/__init__.py",
+   "sha256": "89f7210e7c118c83eec9d73323491e0d8c778b76d1297f703dfca2b86069c72a",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/aplicabilidad.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/aplicabilidad.py",
+   "sha256": "71f452c7c0eea7b47ffb2985d0add1041780ecdaa19a4e24ed0ede7a1997a6cf",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/c2_normalizado.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/c2_normalizado.py",
+   "sha256": "31d247eeb0368a38aa90ea8c262e3ea55cdfa62d312fe68024969b54670ab785",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/claims.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/claims.py",
+   "sha256": "24438732d316f299379a40a2476971dddacf59f338c1a36c1a4757f17f0254a0",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/claves_condicionales.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/claves_condicionales.py",
+   "sha256": "a6826bcddf9d413f5a2438703dc202b3096fbfcb9edb63f035963b8d8485e6e3",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/cobertura.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/cobertura.py",
+   "sha256": "d6be53db849fbfaa1d11c3213cc25a0f86a990ef6b3198e36e6b56607f5d9381",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/contexto.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/contexto.py",
+   "sha256": "035d51c3fcb48dd68d8b73f26ba436a7ff9a7a36e34cc89d9432cc76be673b9e",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/contour.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/contour.py",
+   "sha256": "d826dd8f57ca5d26a6feca2d44ebc9babda6179419f5f58391bb09f6e7907a69",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/contrato_paquete.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/contrato_paquete.py",
+   "sha256": "6705b2467fce21dc5517b2648f80fa6857423f7239222bd224a112f2294c4538",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/convergencia.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/convergencia.py",
+   "sha256": "b7d41d81e5e29626f52634b5ef8de8cf5abc54e00688c7b4d4a255294b369b98",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/cota_fiscal.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/cota_fiscal.py",
+   "sha256": "46b2d1617cfcca45be696e844a807baca866842d6ccd17363fb1f1978b0f0dca",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/d7build.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/d7build.py",
+   "sha256": "e0dbe9562617642a08dcfd4dae5afafaef5b13df9a45f4c66e68967f6654013b",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/d7view.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/d7view.py",
+   "sha256": "74f4b60a602ac951d5871c11e43e6a29efb6c3ffc5fb218135724ccea5671660",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/elementales.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/elementales.py",
+   "sha256": "c71faf35370fa2329db69802f03f52d9bc72566a2d9fa50a9ca8dbea1eb6f82b",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/encierros_modelo.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/encierros_modelo.py",
+   "sha256": "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/external.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/external.py",
+   "sha256": "0b14fc0ee0fe4b0bc6d28aebad717dc0e02af03d8b53007be00d7295b72c4a6b",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/frontier.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/frontier.py",
+   "sha256": "709f51b21188ff8d4638d7eadf535dd3f8307f2e1ce995a49539fe7bfcd36ed2",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/intervalos.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/intervalos.py",
+   "sha256": "2607d0cf3f879316c699ec4cd73021bff9ae8f680f7c7c01facb84dfb65aa891",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/inversion.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/inversion.py",
+   "sha256": "60fced8313fb90f1e69531d0a15f193dbeb94c369b2b3a7a7b939077d340685a",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/keys.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/keys.py",
+   "sha256": "fbcbc899f267cf2a367ce3cf6d46e0479869bd681d5a248ee5d49574660ac530",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/macro.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/macro.py",
+   "sha256": "4a94661d1cd0f3fe654f2cf7ecaa740b860e1c735b1585d51fda8f56dd068b98",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/model.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/model.py",
+   "sha256": "b8541045ce2db793e3acfba5e84053edc185a7f8cdfc5c1b535d1452ebde9b04",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/modelos.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/modelos.py",
+   "sha256": "7f0dd31cacf431fb421e2c5047aa5b750cbecfc1064e3374c4247dcd40c93fda",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/motor_theta.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/motor_theta.py",
+   "sha256": "a5ab3b74321e35fdf59afcbeb992b9053acf7d7b9742f2ff4c14ff70cab27a42",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/niveles.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/niveles.py",
+   "sha256": "5e686f31a60d473a8e12282cc8bb7d615fe94226a0f388b1627c9c09b1a9ce7a",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/numeric.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/numeric.py",
+   "sha256": "4b19f4cb45a637c3a3370ca95059bc4f94feb71649a9f54fd5ac8c33c941c98e",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/r1_local.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/r1_local.py",
+   "sha256": "47790d95ef8c882305629484f1d215480eb859b1dbde8b3d7b28c6fcf438ca06",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/r1_reanudable.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/r1_reanudable.py",
+   "sha256": "a73d83f99c10ded9ddff4e081a0c5ddf3c225b824055bc552c0f4e21d17a52c1",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/raices.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/raices.py",
+   "sha256": "1db76cf7129558f5d95d5f49ddbbb1110a30e753124cee152100f16f3313de22",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/robustness.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/robustness.py",
+   "sha256": "587f7fc294655e0bb0759aeae09edf372274da651aa2c463a191c3da22aea2b8",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/rules.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/rules.py",
+   "sha256": "12c59cd46a8e4865a378dfbf3d7e3f9dc00bd4ee9e28addc7252e7b21b7c9fda",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/run.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/run.py",
+   "sha256": "18abae7000d727c88dc7693db59c75a20ea79db7031b0c2e510d2b3af0058360",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/sections.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/sections.py",
+   "sha256": "0505b0df978fa31719332359b73bfb81d5413ad71b2331b247290ca2c481bd61",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/seleccion_valores.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/seleccion_valores.py",
+   "sha256": "b5eaf6ea348c243ce13658b484b9e650d255317e43f4df70d2b492c6ec3cf65e",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/supports.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/supports.py",
+   "sha256": "8051efef6ae2819f864ec1e516b09ac7f03e421b74478454b57391c6529fa752",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/supremum.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/supremum.py",
+   "sha256": "2c246c8be6d4437892cd951cc0acaaac6e5d8ea7a921de2e13f560caf8dfebbb",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "nucleo_s6/c0/src/paper2b/tables.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/src/paper2b/tables.py",
+   "sha256": "10450098e68b929e3522d789acee57cdebb532c646abd85ddf788b58e228f6fe",
+   "papel": "núcleo C0 del lote 2 (src/paper2b, copia exacta; inventario e identidad en nucleo_c0)"
+  },
+  {
+   "archivo": "datos/fam05/LOTE2_MANIFIESTO.json",
+   "origen": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/LOTE2_MANIFIESTO.json (= objeto del catálogo)",
+   "sha256": "b1cf8af5eab8aa22c53ec279bd5660dbf57847b6be8f874c56af7d71f9cd4bab",
+   "papel": "entrada: selección exacta del lote 2 (manifiesto rem114; no se re-ejecuta la selección)"
+  },
+  {
+   "archivo": "datos/fam05/COBERTURA_NACIONAL_LOTE2.json",
+   "origen": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/COBERTURA_NACIONAL_LOTE2.json",
+   "sha256": "5bea51535665167e1d22ecf0c8c2a54289233a7871faeae13dacc31a13a1600c",
+   "papel": "entrada: anexo de cobertura nacional ligado al manifiesto (9, 1 o 32 estados según el par; dominios estrictos con su definición; 0 llamadas a macro.bridge); lo exige validar_lote.py en L1-LAMBDA"
+  },
+  {
+   "archivo": "datos/fam05/PAQUETE_LOTE1.json",
+   "origen": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/PAQUETE_LOTE1.json",
+   "sha256": "265c29f43ac4ad9c16dfe70da7c830cd027e0bab6bd9dffa561536b114981f32",
+   "papel": "documento de autoridad (solo procedencia: índice del paquete rem119 del lote 2, huellas de piezas; no se ejecuta)"
+  },
+  {
+   "archivo": "datos/fam05/alcance_lote2.json",
+   "origen": "tmp/paso4_lote2_e4_desde_rem120/alcance/alcance_lote2.json (= objeto del catálogo)",
+   "sha256": "ca5afe75c034aa13abe7e616f559a8e61061e0c4501677e15887bd6b0d6d9a2e",
+   "papel": "documento de autoridad (solo procedencia: fija manifiesto, código, validador, anexo, D7 e identidad C0; NO es una puerta: la decisión humana no se copia ni se reconstruye)"
+  },
+  {
+   "archivo": "datos/fam05/fuente_suplemento/tmp/paso4_lote1_desde_rem112/lote1_LOTE1_REM112/L1-ELAST/salida/frontier_result.jsonl",
+   "origen": "tmp/paso4_lote1_desde_rem112/lote1_LOTE1_REM112/L1-ELAST/salida/frontier_result.jsonl (suplemento_fuente del manifiesto; = objeto del catálogo P_elast_lote1 objetos/dba33b473db7e6f82b56e30d5086c84298bff48ee1427dfbdfffb98fdf97997b/frontier_result.jsonl)",
+   "sha256": "dba33b473db7e6f82b56e30d5086c84298bff48ee1427dfbdfffb98fdf97997b",
+   "papel": "entrada: fuente aceptada de las 70 filas históricas del suplemento (lote 1, rem112); se reutiliza sin recalcular; mismos bytes que la referencia de FAM04 referencias/fam04/rem112/L1-ELAST/salida/frontier_result.jsonl: True"
+  },
+  {
+   "archivo": "datos/fam05/pilotos.json",
+   "origen": "nuevo: src/fam05.py (fam05-listar; regla_pilotos sobre el manifiesto)",
+   "sha256": "2b666bda5c7c5b0329426515dc918f735e1e443fb0594f4648f8e7ef87ae7e97",
+   "papel": "dato nuevo de la base limpia (sin resultados)"
+  },
+  {
+   "archivo": "referencias/fam05/rem120/L1-ELAST/resultado.json",
+   "origen": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-ELAST/resultado.json",
+   "sha256": "3d8145794c4a96a49c61dead86c9a74cad5856d36e9bf7205b7bdd9bed36faa4",
+   "papel": "referencia: resultado.json de la ejecución aceptada del lote 2 (rem120; solo para comparar)"
+  },
+  {
+   "archivo": "referencias/fam05/rem120/L1-ELAST/validacion_stdout.txt",
+   "origen": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-ELAST/validacion_stdout.txt",
+   "sha256": "e37790b3c4b41ff7cedae15e91a417f937ddd85a95d073a421442d09a797ae09",
+   "papel": "referencia: validacion_stdout.txt de la ejecución aceptada del lote 2 (rem120; solo para comparar)"
+  },
+  {
+   "archivo": "referencias/fam05/rem120/L1-ELAST/salida/frontier_result.jsonl",
+   "origen": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-ELAST/salida/frontier_result.jsonl (= objeto del catálogo objetos/007095a94b7d1fce18aea6214c56c45b370e9a6eb5b0e415da6a0cc09a26ea8c/frontier_result.jsonl)",
+   "sha256": "007095a94b7d1fce18aea6214c56c45b370e9a6eb5b0e415da6a0cc09a26ea8c",
+   "papel": "referencia: producto aceptado del catálogo FAM05 (solo para comparar)"
+  },
+  {
+   "archivo": "referencias/fam05/rem120/L1-ELAST/salida/suplemento_procedencia.jsonl",
+   "origen": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-ELAST/salida/suplemento_procedencia.jsonl (= objeto del catálogo objetos/d6a12af3818993288d8b1f1cbbb87eb7cb64bf2ee25492ae4ff1d95cc2e55b39/suplemento_procedencia.jsonl)",
+   "sha256": "d6a12af3818993288d8b1f1cbbb87eb7cb64bf2ee25492ae4ff1d95cc2e55b39",
+   "papel": "referencia: producto aceptado del catálogo FAM05 (solo para comparar)"
+  },
+  {
+   "archivo": "referencias/fam05/rem120/L1-LAMBDA/resultado.json",
+   "origen": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-LAMBDA/resultado.json",
+   "sha256": "1c2892c4c5b6089444209e24019139e0832ff707d5cf49c8eb10298409f10e13",
+   "papel": "referencia: resultado.json de la ejecución aceptada del lote 2 (rem120; solo para comparar)"
+  },
+  {
+   "archivo": "referencias/fam05/rem120/L1-LAMBDA/validacion_stdout.txt",
+   "origen": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-LAMBDA/validacion_stdout.txt",
+   "sha256": "b008351b15a2fdf97adaed2137822b9dd2895c9f4aac96f4f3964313c8325141",
+   "papel": "referencia: validacion_stdout.txt de la ejecución aceptada del lote 2 (rem120; solo para comparar)"
+  },
+  {
+   "archivo": "referencias/fam05/rem120/L1-LAMBDA/salida/lambda_envolvente.jsonl",
+   "origen": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-LAMBDA/salida/lambda_envolvente.jsonl (= objeto del catálogo objetos/c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3/lambda_envolvente.jsonl)",
+   "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+   "papel": "referencia: producto aceptado del catálogo FAM05 (solo para comparar)"
+  }
+ ],
+ "nucleo_c0": {
+  "descripcion": "instalación C0 del lote 2 (rem116, núcleo corregido de trinomial_roots): inventario completo con la fórmula de aprobacion_alcance.identidad_instalacion; solo src/paper2b está copiado (lo que importan trabajador y validador). La identidad se recalcula desde este inventario después de comprobar que cada archivo copiado coincide con su entrada (NUCLEO-C0-v1)",
+  "identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+  "identidad_recalculada_del_original": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+  "archivos": 121,
+  "copiados": 37,
+  "no_copiados": 84,
+  "no_copiados_con_ruta_personal": [
+   "datos/paso4/almacenes_decision.json",
+   "herramientas/b/corrida_paso4.py",
+   "herramientas/s3/validadores/aceptaciones/procedencia_aceptaciones.json",
+   "herramientas/s3/validadores/aceptaciones/review_20261012_rem11_dictamen.txt",
+   "ra/R_A_dependencias.json"
+  ],
+  "iguales_a_nucleo_s6_instalacion (FAM04)": {
+   "src/paper2b": "36/37",
+   "distintos_en_src": [
+    "src/paper2b/model.py"
+   ],
+   "resto": "68/84"
+  },
+  "inventario": {
+   "datos/paso4/almacenes_decision.json": {
+    "sha256": "1e96a4d7258316e5b13053a1068a682076d8723b85eefde1b784444a01b60807",
+    "bytes": 550
+   },
+   "datos/paso4/calendario_v1.json": {
+    "sha256": "afa05f835f4b6ab78a044dc217fd94ae9b475c8768fbaca6f96a67902a71eeb6",
+    "bytes": 202041
+   },
+   "datos/paso4/calendario_v2.json": {
+    "sha256": "d21b962a7cd2543b3e5468f8631786becdffc6ed9ef9a0c7f3fcedbfe507dfb2",
+    "bytes": 207200
+   },
+   "datos/paso4/dr1_tecnicas_admitidas.json": {
+    "sha256": "3be9730ff25053fb45d2c7c739de899b61c8aac846bbe5b263289f3489da42b3",
+    "bytes": 8661
+   },
+   "datos/paso4/lista_PROD.json": {
+    "sha256": "42fe89148b4346e3b9defe6f91ff7920823570afe77a932ffdc690373c33bf8b",
+    "bytes": 119409
+   },
+   "datos/paso4/lista_R2_testigos.json": {
+    "sha256": "519ec91924cad7ce8b8cf29c407894926c912c9cb9196de3c626514303ae066f",
+    "bytes": 1977856
+   },
+   "datos/paso4/lista_R3_candidata_B_NA.json": {
+    "sha256": "7f8fed89a8d678fc18ec629b1e9326c8c776d03c566533f7b4a2a2c2a94853b2",
+    "bytes": 21606
+   },
+   "datos/paso4/opciones_r1.json": {
+    "sha256": "00c27b5976adf5074a2448a12d401786a4d9770405ffeb7b47342d5b510db24f",
+    "bytes": 4133
+   },
+   "datos/paso4/rebalanceo_v1.json": {
+    "sha256": "8e15ac607d3a011b8c6ff7a6b34a3c0db8981dcf13585a87974d4f9de887358b",
+    "bytes": 211189
+   },
+   "datos/paso4/reglas_selladas_lote1_R2.json": {
+    "sha256": "d37338d7a68e5a2a4eb8952e76207e545a2fcfcc983e705a10e6578c3c07be1f",
+    "bytes": 2300
+   },
+   "datos/paso4/reglas_selladas_R3.json": {
+    "sha256": "bc4b8407a0c05ea57fdd1fb2a70f54463e83eae55b3b9444d333d25cb3fd2ca0",
+    "bytes": 3494
+   },
+   "herramientas/b/aprobacion_alcance.py": {
+    "sha256": "631003ca87989ccd0189b33c9bd35e338a6f16fe4a0d50cbc2ccef0ee6f96467",
+    "bytes": 9170
+   },
+   "herramientas/b/calendario_paso4.py": {
+    "sha256": "66aa570048af88c8d8a02cca1194988edd7f97a6367df098297a6e5786015ffc",
+    "bytes": 20382
+   },
+   "herramientas/b/captura_ra.py": {
+    "sha256": "2accf7299f9d01d011a71e5b7f59f9228922271b8bac8c698cc68d76606040f9",
+    "bytes": 11127
+   },
+   "herramientas/b/comparar_reproduccion.py": {
+    "sha256": "c90fd2206af5d2d698c8a89522cd6b59959370c592ce89fcd3816bc3a7774737",
+    "bytes": 71935
+   },
+   "herramientas/b/comparar_tarea.py": {
+    "sha256": "6cb512a1b58ae66b054a4c30edd6d34981b6bf9fc85e8fcd80cfffa8c4489e3f",
+    "bytes": 15915
+   },
+   "herramientas/b/contexto_s5.py": {
+    "sha256": "346916c6a96742a53a271e3efeb4f9bf887429970fc3ab37d573f712a9ccb58c",
+    "bytes": 8700
+   },
+   "herramientas/b/contexto_s6.py": {
+    "sha256": "618463864db1268678bdfd2d018aded56358411cda80f103dafc7cf1a648e107",
+    "bytes": 9839
+   },
+   "herramientas/b/continuidad.py": {
+    "sha256": "cfe02dbe5a2ba32a752a3f8262f71cae1ed38ac376569520aa9330f47aa65ae2",
+    "bytes": 21764
+   },
+   "herramientas/b/corrida_paso4.py": {
+    "sha256": "02d455f9d8d80d994c22cdc3f93744931dff770fa6c20eaa75c6f69d9b5823c9",
+    "bytes": 87438
+   },
+   "herramientas/b/decision_d4.py": {
+    "sha256": "dd78998bcc89c01069c224251a664d61936e1f65ce8e47fe94fe44c83d92a705",
+    "bytes": 2865
+   },
+   "herramientas/b/ejecutor_supervisado.py": {
+    "sha256": "3b6480bd663b3d95340922262d983304bdb962803581587ee23cfb4adf45b3e4",
+    "bytes": 6412
+   },
+   "herramientas/b/evaluadores_ra.py": {
+    "sha256": "db962e34b3e0df756f75617b60a6d984a9eebedc223060f36e0fec057d0fb152",
+    "bytes": 42873
+   },
+   "herramientas/b/generador_seleccion.py": {
+    "sha256": "92898e1ee72e6187d7670c74b85a70ba89ad44c83be33efdf7ee06fa31e4488a",
+    "bytes": 16524
+   },
+   "herramientas/b/opciones_p1.py": {
+    "sha256": "0c940eca74e84bba0191a66498263941e93e3647987f25ee3f6fe23be754b6bb",
+    "bytes": 59726
+   },
+   "herramientas/b/plan_prod.py": {
+    "sha256": "18c32fbaa3770d92674e2363ddf3bf2949cfeb7a7d700b78e160c0ceb4cee39c",
+    "bytes": 9289
+   },
+   "herramientas/b/productor_r3.py": {
+    "sha256": "12bf425b5d10ee4a249de5e5e1c577191683f19f8ca8d8eb4596d9745f55a816",
+    "bytes": 9592
+   },
+   "herramientas/b/r1_rutas.py": {
+    "sha256": "e6f922fb78d4d5a54b3fadad555d290bb481740ed17f3dcd901e41c5db125f55",
+    "bytes": 28450
+   },
+   "herramientas/b/r1_s6.py": {
+    "sha256": "31faa40de838c840a3133d8e74e2594737d89e37c0abeed36e2af5809ff2ac54",
+    "bytes": 29259
+   },
+   "herramientas/b/rebalanceo_paso4.py": {
+    "sha256": "c9575cfb8bee384282eefff0f0e307e1f8f1ae1c37ab734c9e882eab82a885ad",
+    "bytes": 11510
+   },
+   "herramientas/b/registro_productivo.py": {
+    "sha256": "d9addec6bb5caf5292a973f5f2742c7801656ee97cc67f859ac828f4da958253",
+    "bytes": 34633
+   },
+   "herramientas/b/regla_dr1.py": {
+    "sha256": "95c8cdca9cc5066eb3c705dff542a2e2162bc22e2a94fc6534ab9c7d38b30284",
+    "bytes": 9100
+   },
+   "herramientas/b/seleccion_paso4.py": {
+    "sha256": "ae10124df9d2c333471a8d9ee71eade2a4fc010cfbcd51a96c0aee23e1818d8d",
+    "bytes": 18029
+   },
+   "herramientas/b/soporte_global.py": {
+    "sha256": "fa379d35c3f825f91c10c642c472d94ab25d07517f4ee85df8077066adf84374",
+    "bytes": 12513
+   },
+   "herramientas/b/tarea_paso4.py": {
+    "sha256": "5b476dc6c0d77f3a2af9cb39eb18ea4af515750e554485af517eb7e02b1db304",
+    "bytes": 9805
+   },
+   "herramientas/b/tarea_prod.py": {
+    "sha256": "2e6c16991e7ebccb614d62a1be0d4d708e8adab52533d72e0f2ca55b15e2c26a",
+    "bytes": 24706
+   },
+   "herramientas/b/tarea_r1.py": {
+    "sha256": "fdf4ba1e67709f315c197733fa1778af9d00572b5a48185857a618e117ec248d",
+    "bytes": 31355
+   },
+   "herramientas/b/techos_persistentes.py": {
+    "sha256": "8e349de642df5d4c56647ac0c44969df367d487ca68dbd9099dde887e2eabc22",
+    "bytes": 30377
+   },
+   "herramientas/b/unidades.py": {
+    "sha256": "a8aded1db50f80feffd62bcb655e62e5f93487364a3c4e625f47dcdbd1f17c86",
+    "bytes": 37463
+   },
+   "herramientas/b/validador_prod.py": {
+    "sha256": "8891819114c9571e0fe4fac193d6ae9e4c1f8b589711459f4cd46862e5cd5f13",
+    "bytes": 17390
+   },
+   "herramientas/b/validador_r3.py": {
+    "sha256": "d2a5cbb6be9146434fa5455cfd47647e67e470411ebb975f12a4a8dce5a04125",
+    "bytes": 4252
+   },
+   "herramientas/b/validar_detallado_lima1533.py": {
+    "sha256": "871b1d7f2923c2aa7ca2dbe9dfaf3b9eeb36debad02ee3c40fceee10bb840c2c",
+    "bytes": 50130
+   },
+   "herramientas/b/vinculo_paso4.py": {
+    "sha256": "75b20ee0911547a4f836152168f34f28011c9916c4ef50431768afae40885df7",
+    "bytes": 19066
+   },
+   "herramientas/s3/validadores/aceptaciones/procedencia_aceptaciones.json": {
+    "sha256": "40eb4d92ff71f1bc023a70cb2e9741602737a7581cc4866766fa80ca8a38fc0a",
+    "bytes": 1631
+   },
+   "herramientas/s3/validadores/aceptaciones/review_20261012_rem11_dictamen.txt": {
+    "sha256": "7d1e8a7a5bf7a738344c47672e63cdabfcb80aeba28c1672347e0ee20e811910",
+    "bytes": 8973
+   },
+   "herramientas/s3/validadores/e13_referencia.py": {
+    "sha256": "7870b5ad2827fde4ae978f35b5b24cf071e949a87dcd9e43511e9b76ba5b66d6",
+    "bytes": 57303
+   },
+   "herramientas/s3/validadores/e13_v4.py": {
+    "sha256": "f1772b27b61fc2dc6f9e8c45fc17aa298ff5503112b708780e7265e19eadcf48",
+    "bytes": 13851
+   },
+   "herramientas/s3/validadores/paquete_seleccion.py": {
+    "sha256": "a70cf9042e93458d2df49fb1ac7b1ceb5a27b1e6697575cf0ce532b8e4924f35",
+    "bytes": 110623
+   },
+   "ra/historico/codigo/__init__.py": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+   },
+   "ra/historico/codigo/cobertura_dificiles.py": {
+    "sha256": "fdb5e3909ba793bbb98c100c49d4b34e801e920c749d648deaac7db7b95610db",
+    "bytes": 18456
+   },
+   "ra/historico/codigo/cobertura_m4.py": {
+    "sha256": "99f3e07c0ba1d024cb90f11be804a199af2b6838a0acba0ac309bdcd7f85fd8f",
+    "bytes": 23036
+   },
+   "ra/historico/codigo/demo/__init__.py": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+   },
+   "ra/historico/codigo/demo/c2_normalizado.py": {
+    "sha256": "31d247eeb0368a38aa90ea8c262e3ea55cdfa62d312fe68024969b54670ab785",
+    "bytes": 6223
+   },
+   "ra/historico/codigo/demo/cobertura_compartida.py": {
+    "sha256": "529d69dc5a878b8a74d78fbcf7716b065fa2dd391ed0fe08bc2e8459a5580a6f",
+    "bytes": 13315
+   },
+   "ra/historico/codigo/demo/cobertura_mejorada.py": {
+    "sha256": "4254e7a34b334edebde3a56e87ec4c0cc3080ca715d44489cbd8de90258477c6",
+    "bytes": 15081
+   },
+   "ra/historico/codigo/demo/init_autenticada.py": {
+    "sha256": "ce57ff15d128a08aee9bc9ffde8119283b85a5d14d4cb427774e7426357a06b8",
+    "bytes": 10566
+   },
+   "ra/historico/codigo/demo/memo_c2.py": {
+    "sha256": "dc40b2330b52e85bc19cac086f83f2d259ec0a7e2f150e4c8edf64f955084b9a",
+    "bytes": 2594
+   },
+   "ra/historico/codigo/demo/nucleo_v.py": {
+    "sha256": "0071c7470ee242ba3838997d8108c6db34c3daa6a2ee239f2f71edac3ab570eb",
+    "bytes": 11306
+   },
+   "ra/historico/codigo/demo/universo.py": {
+    "sha256": "60a1a71af6c11f78373a49e3a57206768ab86e128605f4bbc34845b168489a8c",
+    "bytes": 4996
+   },
+   "ra/historico/codigo/demo/verificador_v2.py": {
+    "sha256": "3c28797f952aa6edf2989eeedd10a6ef897278c420e5bf5db4876b53360ea4f8",
+    "bytes": 18325
+   },
+   "ra/historico/codigo/ensayo_quiebres.py": {
+    "sha256": "4fdc0853db79216ace6120122394ef8295f4079ad80210f420e0e7256f07318f",
+    "bytes": 9918
+   },
+   "ra/historico/codigo/ensayo_quiebres_macro.py": {
+    "sha256": "08bf879636123da44037763a0ced67b45a1114b384d367d4aaf67e2f75fa89f2",
+    "bytes": 14589
+   },
+   "ra/historico/codigo/muestra_costo.py": {
+    "sha256": "52532a33dd0625072f17b32a3a0870cb35d2efbbd5a713596549006d43daea53",
+    "bytes": 18614
+   },
+   "ra/historico/codigo/sensibilidad_q.py": {
+    "sha256": "5b1716149926964a38f917f3b917eebdf5e0edc1a367e457223d82375e03e417",
+    "bytes": 11852
+   },
+   "ra/historico/codigo/testigos.py": {
+    "sha256": "2ef80687d8483c203ba79e5e893e0144f18cc435058c31e0db3d2040a9a6dc8c",
+    "bytes": 15528
+   },
+   "ra/puerto/codigo/__init__.py": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+   },
+   "ra/puerto/codigo/cobertura_dificiles.py": {
+    "sha256": "fdb5e3909ba793bbb98c100c49d4b34e801e920c749d648deaac7db7b95610db",
+    "bytes": 18456
+   },
+   "ra/puerto/codigo/cobertura_m4.py": {
+    "sha256": "99f3e07c0ba1d024cb90f11be804a199af2b6838a0acba0ac309bdcd7f85fd8f",
+    "bytes": 23036
+   },
+   "ra/puerto/codigo/demo/__init__.py": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+   },
+   "ra/puerto/codigo/demo/c2_normalizado.py": {
+    "sha256": "31d247eeb0368a38aa90ea8c262e3ea55cdfa62d312fe68024969b54670ab785",
+    "bytes": 6223
+   },
+   "ra/puerto/codigo/demo/cobertura_compartida.py": {
+    "sha256": "d8b71f183e5f15de503c8539ea1b09db08e6bac264e818e5a0e567840bcead98",
+    "bytes": 13058
+   },
+   "ra/puerto/codigo/demo/cobertura_mejorada.py": {
+    "sha256": "78140f33fa5499918dd36468788380e0daec51dfc913f03e0c2a145033dc0541",
+    "bytes": 14801
+   },
+   "ra/puerto/codigo/demo/init_autenticada.py": {
+    "sha256": "ce57ff15d128a08aee9bc9ffde8119283b85a5d14d4cb427774e7426357a06b8",
+    "bytes": 10566
+   },
+   "ra/puerto/codigo/demo/memo_c2.py": {
+    "sha256": "dc40b2330b52e85bc19cac086f83f2d259ec0a7e2f150e4c8edf64f955084b9a",
+    "bytes": 2594
+   },
+   "ra/puerto/codigo/demo/nucleo_v.py": {
+    "sha256": "bd0f0b954926bcb20d77834e24f3506ab236903ac0c47e2ae96bad2d8fbc8520",
+    "bytes": 11335
+   },
+   "ra/puerto/codigo/demo/universo.py": {
+    "sha256": "60a1a71af6c11f78373a49e3a57206768ab86e128605f4bbc34845b168489a8c",
+    "bytes": 4996
+   },
+   "ra/puerto/codigo/demo/verificador_v2.py": {
+    "sha256": "3527ba17e2a877da22c7af35d9a678012f1edc874d5a3b6d4737770bbb5c4ecd",
+    "bytes": 17991
+   },
+   "ra/puerto/codigo/ensayo_quiebres.py": {
+    "sha256": "4fdc0853db79216ace6120122394ef8295f4079ad80210f420e0e7256f07318f",
+    "bytes": 9918
+   },
+   "ra/puerto/codigo/ensayo_quiebres_macro.py": {
+    "sha256": "08bf879636123da44037763a0ced67b45a1114b384d367d4aaf67e2f75fa89f2",
+    "bytes": 14589
+   },
+   "ra/puerto/codigo/muestra_costo.py": {
+    "sha256": "52532a33dd0625072f17b32a3a0870cb35d2efbbd5a713596549006d43daea53",
+    "bytes": 18614
+   },
+   "ra/puerto/codigo/sensibilidad_q.py": {
+    "sha256": "5b1716149926964a38f917f3b917eebdf5e0edc1a367e457223d82375e03e417",
+    "bytes": 11852
+   },
+   "ra/puerto/codigo/testigos.py": {
+    "sha256": "2ef80687d8483c203ba79e5e893e0144f18cc435058c31e0db3d2040a9a6dc8c",
+    "bytes": 15528
+   },
+   "ra/puerto_ra.py": {
+    "sha256": "455af684db345a48923ee85a1383507d0c2abfdf184e2f2434b72d21da8023ef",
+    "bytes": 4881
+   },
+   "ra/R_A_dependencias.json": {
+    "sha256": "70dcf6d5bc9df5be5a132c55dc7f314a10859fec1250dd54126619ef4fbae0c7",
+    "bytes": 16887
+   },
+   "src/paper2b/__init__.py": {
+    "sha256": "89f7210e7c118c83eec9d73323491e0d8c778b76d1297f703dfca2b86069c72a",
+    "bytes": 407
+   },
+   "src/paper2b/aplicabilidad.py": {
+    "sha256": "71f452c7c0eea7b47ffb2985d0add1041780ecdaa19a4e24ed0ede7a1997a6cf",
+    "bytes": 6110
+   },
+   "src/paper2b/c2_normalizado.py": {
+    "sha256": "31d247eeb0368a38aa90ea8c262e3ea55cdfa62d312fe68024969b54670ab785",
+    "bytes": 6223
+   },
+   "src/paper2b/claims.py": {
+    "sha256": "24438732d316f299379a40a2476971dddacf59f338c1a36c1a4757f17f0254a0",
+    "bytes": 9674
+   },
+   "src/paper2b/claves_condicionales.py": {
+    "sha256": "a6826bcddf9d413f5a2438703dc202b3096fbfcb9edb63f035963b8d8485e6e3",
+    "bytes": 8951
+   },
+   "src/paper2b/cobertura.py": {
+    "sha256": "d6be53db849fbfaa1d11c3213cc25a0f86a990ef6b3198e36e6b56607f5d9381",
+    "bytes": 13330
+   },
+   "src/paper2b/contexto.py": {
+    "sha256": "035d51c3fcb48dd68d8b73f26ba436a7ff9a7a36e34cc89d9432cc76be673b9e",
+    "bytes": 5798
+   },
+   "src/paper2b/contour.py": {
+    "sha256": "d826dd8f57ca5d26a6feca2d44ebc9babda6179419f5f58391bb09f6e7907a69",
+    "bytes": 24570
+   },
+   "src/paper2b/contrato_paquete.py": {
+    "sha256": "6705b2467fce21dc5517b2648f80fa6857423f7239222bd224a112f2294c4538",
+    "bytes": 59272
+   },
+   "src/paper2b/convergencia.py": {
+    "sha256": "b7d41d81e5e29626f52634b5ef8de8cf5abc54e00688c7b4d4a255294b369b98",
+    "bytes": 11968
+   },
+   "src/paper2b/cota_fiscal.py": {
+    "sha256": "46b2d1617cfcca45be696e844a807baca866842d6ccd17363fb1f1978b0f0dca",
+    "bytes": 11833
+   },
+   "src/paper2b/d7build.py": {
+    "sha256": "e0dbe9562617642a08dcfd4dae5afafaef5b13df9a45f4c66e68967f6654013b",
+    "bytes": 30804
+   },
+   "src/paper2b/d7view.py": {
+    "sha256": "74f4b60a602ac951d5871c11e43e6a29efb6c3ffc5fb218135724ccea5671660",
+    "bytes": 3843
+   },
+   "src/paper2b/elementales.py": {
+    "sha256": "c71faf35370fa2329db69802f03f52d9bc72566a2d9fa50a9ca8dbea1eb6f82b",
+    "bytes": 16623
+   },
+   "src/paper2b/encierros_modelo.py": {
+    "sha256": "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53",
+    "bytes": 62827
+   },
+   "src/paper2b/external.py": {
+    "sha256": "0b14fc0ee0fe4b0bc6d28aebad717dc0e02af03d8b53007be00d7295b72c4a6b",
+    "bytes": 4662
+   },
+   "src/paper2b/frontier.py": {
+    "sha256": "709f51b21188ff8d4638d7eadf535dd3f8307f2e1ce995a49539fe7bfcd36ed2",
+    "bytes": 6392
+   },
+   "src/paper2b/intervalos.py": {
+    "sha256": "2607d0cf3f879316c699ec4cd73021bff9ae8f680f7c7c01facb84dfb65aa891",
+    "bytes": 3856
+   },
+   "src/paper2b/inversion.py": {
+    "sha256": "60fced8313fb90f1e69531d0a15f193dbeb94c369b2b3a7a7b939077d340685a",
+    "bytes": 11701
+   },
+   "src/paper2b/keys.py": {
+    "sha256": "fbcbc899f267cf2a367ce3cf6d46e0479869bd681d5a248ee5d49574660ac530",
+    "bytes": 5935
+   },
+   "src/paper2b/macro.py": {
+    "sha256": "4a94661d1cd0f3fe654f2cf7ecaa740b860e1c735b1585d51fda8f56dd068b98",
+    "bytes": 5494
+   },
+   "src/paper2b/model.py": {
+    "sha256": "b8541045ce2db793e3acfba5e84053edc185a7f8cdfc5c1b535d1452ebde9b04",
+    "bytes": 17238
+   },
+   "src/paper2b/modelos.py": {
+    "sha256": "7f0dd31cacf431fb421e2c5047aa5b750cbecfc1064e3374c4247dcd40c93fda",
+    "bytes": 34103
+   },
+   "src/paper2b/motor_theta.py": {
+    "sha256": "a5ab3b74321e35fdf59afcbeb992b9053acf7d7b9742f2ff4c14ff70cab27a42",
+    "bytes": 25471
+   },
+   "src/paper2b/niveles.py": {
+    "sha256": "5e686f31a60d473a8e12282cc8bb7d615fe94226a0f388b1627c9c09b1a9ce7a",
+    "bytes": 5108
+   },
+   "src/paper2b/numeric.py": {
+    "sha256": "4b19f4cb45a637c3a3370ca95059bc4f94feb71649a9f54fd5ac8c33c941c98e",
+    "bytes": 5695
+   },
+   "src/paper2b/r1_local.py": {
+    "sha256": "47790d95ef8c882305629484f1d215480eb859b1dbde8b3d7b28c6fcf438ca06",
+    "bytes": 13228
+   },
+   "src/paper2b/r1_reanudable.py": {
+    "sha256": "a73d83f99c10ded9ddff4e081a0c5ddf3c225b824055bc552c0f4e21d17a52c1",
+    "bytes": 24477
+   },
+   "src/paper2b/raices.py": {
+    "sha256": "1db76cf7129558f5d95d5f49ddbbb1110a30e753124cee152100f16f3313de22",
+    "bytes": 26744
+   },
+   "src/paper2b/robustness.py": {
+    "sha256": "587f7fc294655e0bb0759aeae09edf372274da651aa2c463a191c3da22aea2b8",
+    "bytes": 18046
+   },
+   "src/paper2b/rules.py": {
+    "sha256": "12c59cd46a8e4865a378dfbf3d7e3f9dc00bd4ee9e28addc7252e7b21b7c9fda",
+    "bytes": 58052
+   },
+   "src/paper2b/run.py": {
+    "sha256": "18abae7000d727c88dc7693db59c75a20ea79db7031b0c2e510d2b3af0058360",
+    "bytes": 103551
+   },
+   "src/paper2b/sections.py": {
+    "sha256": "0505b0df978fa31719332359b73bfb81d5413ad71b2331b247290ca2c481bd61",
+    "bytes": 5224
+   },
+   "src/paper2b/seleccion_valores.py": {
+    "sha256": "b5eaf6ea348c243ce13658b484b9e650d255317e43f4df70d2b492c6ec3cf65e",
+    "bytes": 9286
+   },
+   "src/paper2b/supports.py": {
+    "sha256": "8051efef6ae2819f864ec1e516b09ac7f03e421b74478454b57391c6529fa752",
+    "bytes": 2232
+   },
+   "src/paper2b/supremum.py": {
+    "sha256": "2c246c8be6d4437892cd951cc0acaaac6e5d8ea7a921de2e13f560caf8dfebbb",
+    "bytes": 19690
+   },
+   "src/paper2b/tables.py": {
+    "sha256": "10450098e68b929e3522d789acee57cdebb532c646abd85ddf788b58e228f6fe",
+    "bytes": 7042
+   }
+  }
+ },
+ "suplemento": {
+  "fuente": {
+   "ruta": "tmp/paso4_lote1_desde_rem112/lote1_LOTE1_REM112/L1-ELAST/salida/frontier_result.jsonl",
+   "sha256": "dba33b473db7e6f82b56e30d5086c84298bff48ee1427dfbdfffb98fdf97997b",
+   "filas": 70,
+   "uso": "valores ACEPTADOS (no se sustituyen); del suplemento solo se toma la topología de adopción"
+  },
+  "mallas": 6,
+  "puntos_de_malla": 70
+ },
+ "libro_rem121": {
+  "presente": true,
+  "archivo": "review_20261029_rem121_lote2_parcial_aceptado.json",
+  "sha256": "a33c00297d96f599589a4da35a2ca218e9c0483529cc9688b6143cbdc408d14d",
+  "kind": "produccion-PROD4-lote2-aceptacion-parcial",
+  "uso": "solo fuente de extracción (recuentos y huellas); nunca dependencia de ejecución; sin rutas ni referencia de la decisión",
+  "tareas_aceptadas": [
+   "L1-ELAST",
+   "L1-LAMBDA"
+  ],
+  "productos": {
+   "frontier_result.jsonl": {
+    "sha256": "007095a94b7d1fce18aea6214c56c45b370e9a6eb5b0e415da6a0cc09a26ea8c",
+    "filas": 4195
+   },
+   "suplemento_procedencia.jsonl": {
+    "sha256": "d6a12af3818993288d8b1f1cbbb87eb7cb64bf2ee25492ae4ff1d95cc2e55b39",
+    "filas": 70
+   },
+   "lambda_envolvente.jsonl": {
+    "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+    "filas": 24
+   }
+  },
+  "ELAST": {
+   "rows": 4195,
+   "grids": 399,
+   "historical_rows_exact": 70,
+   "new_rows": 4125,
+   "parent_frontiers_covered_total": 572,
+   "equivalences_already_accepted": 39,
+   "new_grids": 393,
+   "null_rules_and_arithmetic": true,
+   "origin_files_authenticated": 399
+  },
+  "ELAST_alias": {
+   "n": 572,
+   "sha256": "76cb8c342225123037a02da948af453f063450be2d98fbe5aba9265390cc5d53",
+   "derivados_del_manifiesto": 572,
+   "iguales_a_los_del_manifiesto": true
+  },
+  "LAMBDA": {
+   "rows": 24,
+   "pairs": 12,
+   "exact_arithmetic_checks": 488,
+   "all_extrema_admissible": true,
+   "new_scientific_calls": 0,
+   "coverage_counts": {
+    "CMP-E1.macro|COL": 9,
+    "CMP-E1.macro|MEX": 9,
+    "CMP-E1.macro|PER": 9,
+    "CMP-E1.micro|COL": 9,
+    "CMP-E1.micro|MEX": 9,
+    "CMP-E1.micro|PER": 9,
+    "COL-E2-2023.2023p.macro|COL": 1,
+    "COL-E2-2023.2023p.micro|COL": 1,
+    "COL-E2-2023.2024p.macro|COL": 1,
+    "COL-E2-2023.2024p.micro|COL": 1,
+    "PER-E0E3.macro|PER": 32,
+    "PER-E0E3.micro|PER": 32
+   }
+  },
+  "otros": {
+   "cumulative_lambda_pairs": 14,
+   "cumulative_lambda_envelopes": 28,
+   "COORD_new_accepted": 0,
+   "E4_executed": false,
+   "historical_values_preserved": true,
+   "new_core_values_not_equated_to_historical_bits": true
+  },
+  "alcance_de_la_decision_sha256": "ca5afe75c034aa13abe7e616f559a8e61061e0c4501677e15887bd6b0d6d9a2e"
+ }
+}

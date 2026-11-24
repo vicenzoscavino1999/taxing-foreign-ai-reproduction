@@ -1,0 +1,117 @@
+{
+ "aceptacion": {
+  "alcance": "equivalencia del intervalo lambda aceptada para estas 14 claves, datos y plan",
+  "dictamen": "review_20261101_rem134_dictamen.txt",
+  "sha256": "a7b0dfd75eabb8d7a4e050d01d8ae6e7ac3b65be08ddd0140df8d0d598d95275"
+ },
+ "c2_estado": "no_evaluado",
+ "claves": [
+  "CMP-E1.macro|COL",
+  "CMP-E1.macro|MEX",
+  "CMP-E1.macro|PER",
+  "CMP-E1.micro|COL",
+  "CMP-E1.micro|MEX",
+  "CMP-E1.micro|PER",
+  "COL-E2-2023.2023p.macro|COL",
+  "COL-E2-2023.2023p.micro|COL",
+  "COL-E2-2023.2024p.macro|COL",
+  "COL-E2-2023.2024p.micro|COL",
+  "PER-E0E3.macro|PER",
+  "PER-E0E3.micro|PER",
+  "PER-E1.macro|PER",
+  "PER-E1.micro|PER"
+ ],
+ "corridas": [
+  "BRUN-050091213b198d7cd7ba9ea2",
+  "BRUN-1368187e9a43de0d95926dca",
+  "BRUN-47e3d9f48d2b65e9ddeed02f",
+  "BRUN-4ef8507fcdefbddc55dbc3b7",
+  "BRUN-5b35ba3f51bc08bd48b384bd",
+  "BRUN-612818cb081c6797d4923b4d",
+  "BRUN-63a9e9ea157b2faaf317ae61",
+  "BRUN-7bdfe0a1bee57298e31e1b34",
+  "BRUN-991c466a1938ddbf2192eefb",
+  "BRUN-9c6c66e7af8b139a613b1c3f",
+  "BRUN-a81e3f45f7111e18b1f39370",
+  "BRUN-c5af32a993773f5258ce570f",
+  "BRUN-cb33e6b24039acc84fb1a065",
+  "BRUN-f5f58960bbf9017776d3d7fc"
+ ],
+ "esquema": "manifiesto-entrada-lambda-v1",
+ "fuentes": {
+  "anexo_t8": {
+   "inventario": {
+    "ruta": "tmp/paso4_conciliacion_portabilidad_desde_rem108/audit/entrega.json",
+    "sha256": "b6ccab3ded6e957df5ebfd585a5402b5a10948aaa3e0bfa52192165fb6022cf4"
+   },
+   "ruta": "tmp/paso4_conciliacion_portabilidad_desde_rem108/conciliacion/ensamblajes/T8_anexo.json",
+   "sha256": "e63ae329777ca04342a2d86c439b70008e52965adf801b23b3339bd657074bc9"
+  },
+  "envolventes_lote1": {
+   "inventario": {
+    "ruta": "tmp/paso4_lote1_desde_rem112/audit/entrega.json",
+    "sha256": "c241ddfd7cd55227e989cb33b693e65a07822476c231c831df3400af795e8545"
+   },
+   "ruta": "tmp/paso4_lote1_desde_rem112/lote1_LOTE1_REM112/L1-LAMBDA/salida/lambda_envolvente.jsonl",
+   "sha256": "b1ca755c6af02c185565c8be371ffb2ff069e5a5b2dbe407a99be98dceb3b1ef"
+  },
+  "envolventes_lote2": {
+   "inventario": {
+    "ruta": "tmp/paso4_lote2_e4_desde_rem120/audit/entrega.json",
+    "sha256": "394aee940aa18b86e0f3e0056cab7d927ba177371d733913b42e7a3f0a92117c"
+   },
+   "ruta": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-LAMBDA/salida/lambda_envolvente.jsonl",
+   "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3"
+  },
+  "equivalencia_rem132": {
+   "inventario": {
+    "ruta": "tmp/paso4_exp0_t8_desde_rem132/audit/entrega.json",
+    "sha256": "542036fdd1be7f38e56c7c9f39320f40da644477ea3072d1dc1c198d683b39f9"
+   },
+   "ruta": "tmp/paso4_exp0_t8_desde_rem132/derivados/salida_d2/t8/EQUIVALENCIA_LAMBDA.json",
+   "sha256": "437b2b1672bce3fae55d81aa8466298ff8b682862daab688fa42607cc32d0891"
+  },
+  "helper_rem133": {
+   "inventario": {
+    "ruta": "tmp/paso4_exp0_lambda_captura_desde_rem133/audit/entrega.json",
+    "sha256": "b635d0b31662f6947e8358b10a2fb53885d9a97f9dd66113766462e2ecbb2642"
+   },
+   "ruta": "tmp/paso4_exp0_lambda_captura_desde_rem133/b_lambda/candidato/soporte_lambda_demostrado.py",
+   "sha256": "4fd3a4163dc609f6de92e144e158b78e35323655e5a16904d7830c6d2c2ae2af"
+  },
+  "identidad_plan_rem132": {
+   "inventario": {
+    "ruta": "tmp/paso4_exp0_t8_desde_rem132/audit/entrega.json",
+    "sha256": "542036fdd1be7f38e56c7c9f39320f40da644477ea3072d1dc1c198d683b39f9"
+   },
+   "ruta": "tmp/paso4_exp0_t8_desde_rem132/derivados/salida_d2/t8/IDENTIDAD_Y_PLAN_POR_CORRIDA.json",
+   "sha256": "0c87a0188277125c7fa31ee93067cbc56509c4ec56065654a5234849ae222bf2"
+  },
+  "mapa_corridas": {
+   "inventario": {
+    "ruta": "tmp/paso4_conciliacion_portabilidad_desde_rem109/audit/entrega.json",
+    "sha256": "ff9cf76030f8648586576ff6ef5bd803c8ab1ab9b7c60bff3ebd3237d2ba0789"
+   },
+   "ruta": "tmp/paso4_conciliacion_portabilidad_desde_rem109/conciliacion/corridas_t8_mapa.json",
+   "sha256": "c53db4e42d73aaf80b2bb2428a5547c8651c2bdf4f495b1e67ff37a64034db86"
+  },
+  "universo_nacional_b1": {
+   "inventario": {
+    "ruta": "tmp/paso4_exp0_lambda_captura_desde_rem133/audit/entrega.json",
+    "sha256": "b635d0b31662f6947e8358b10a2fb53885d9a97f9dd66113766462e2ecbb2642"
+   },
+   "ruta": "tmp/paso4_exp0_lambda_captura_desde_rem133/b_lambda/salida_b1/UNIVERSO_NACIONAL_B1.json",
+   "sha256": "3871187065ab02b30d6c649eef1b8b03b1400ece43033402e1792edf0bd81095"
+  },
+  "vista_b2_rem133": {
+   "inventario": {
+    "ruta": "tmp/paso4_exp0_lambda_captura_desde_rem133/audit/entrega.json",
+    "sha256": "b635d0b31662f6947e8358b10a2fb53885d9a97f9dd66113766462e2ecbb2642"
+   },
+   "ruta": "tmp/paso4_exp0_lambda_captura_desde_rem133/b_lambda/salida_b2/VISTA_CANDIDATA_T8.json",
+   "sha256": "0f8439fe7274292af210d402ed9c7dd28af713583ddee4c0ee99aae708048625"
+  }
+ },
+ "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+ "produccion_habilitada": false
+}

@@ -1,0 +1,236 @@
+{
+ "a": [
+  2.11,
+  2.12,
+  2.13,
+  2.14,
+  2.15,
+  2.16
+ ],
+ "diseno": "G",
+ "etiqueta": "CIERRE G DF 3.7 NO OFICIAL",
+ "filas": [
+  {
+   "L_punto": 0.0020782301913017174,
+   "U": 0.00208024411030386,
+   "admisible": true,
+   "diseno": "G",
+   "holgura_punto": 2.0139190021425425e-06,
+   "incompatible": false,
+   "tau_L_punto": [
+    0.001944333143229695,
+    0.086663818359375
+   ],
+   "techo": {
+    "U_C2": 0.00208024411030386,
+    "cajas": 6680,
+    "estado": "convergido",
+    "evaluaciones": 40672,
+    "segundos": 57.03,
+    "sup_puntos_U": 0.002078244178203246,
+    "tau_sup_puntos": [
+     0.001944333143229695,
+     0.086663818359375
+    ],
+    "vivas": 3435
+   },
+   "theta": {
+    "a": 2.11,
+    "beta_tilde": 4.0,
+    "eta_d": 4.0,
+    "eta_f": 8.0,
+    "kappa_tilde": 0.005,
+    "phi": 0.99023,
+    "rho": 0.4,
+    "u_theta": 0.9,
+    "z_cost": 100.0
+   }
+  },
+  {
+   "L_punto": 0.00199817922773549,
+   "U": 0.0020002541987615787,
+   "admisible": true,
+   "diseno": "G",
+   "holgura_punto": 2.074971026088876e-06,
+   "incompatible": false,
+   "tau_L_punto": [
+    0.0018621466543769002,
+    0.087542724609375
+   ],
+   "techo": {
+    "U_C2": 0.0020002541987615787,
+    "cajas": 6044,
+    "estado": "convergido",
+    "evaluaciones": 36856,
+    "segundos": 44.43,
+    "sup_puntos_U": 0.001998254973840496,
+    "tau_sup_puntos": [
+     0.0018621466543769002,
+     0.087542724609375
+    ],
+    "vivas": 3073
+   },
+   "theta": {
+    "a": 2.12,
+    "beta_tilde": 4.0,
+    "eta_d": 4.0,
+    "eta_f": 8.0,
+    "kappa_tilde": 0.005,
+    "phi": 0.99023,
+    "rho": 0.4,
+    "u_theta": 0.9,
+    "z_cost": 100.0
+   }
+  },
+  {
+   "L_punto": 0.0019214424878971823,
+   "U": 0.0019234796598854651,
+   "admisible": true,
+   "diseno": "G",
+   "holgura_punto": 2.0371719882828626e-06,
+   "incompatible": false,
+   "tau_L_punto": [
+    0.0017833652057834568,
+    0.088238525390625
+   ],
+   "techo": {
+    "U_C2": 0.0019234796598854651,
+    "cajas": 6657,
+    "estado": "convergido",
+    "evaluaciones": 40534,
+    "segundos": 44.12,
+    "sup_puntos_U": 0.0019214796779964008,
+    "tau_sup_puntos": [
+     0.0017833652057834568,
+     0.088238525390625
+    ],
+    "vivas": 2882
+   },
+   "theta": {
+    "a": 2.13,
+    "beta_tilde": 4.0,
+    "eta_d": 4.0,
+    "eta_f": 8.0,
+    "kappa_tilde": 0.005,
+    "phi": 0.99023,
+    "rho": 0.4,
+    "u_theta": 0.9,
+    "z_cost": 100.0
+   }
+  },
+  {
+   "L_punto": 0.0018477990621480337,
+   "U": 0.0018499560886889854,
+   "admisible": true,
+   "diseno": "G",
+   "holgura_punto": 2.157026540951755e-06,
+   "incompatible": false,
+   "tau_L_punto": [
+    0.0017082911194767638,
+    0.08801879882812501
+   ],
+   "techo": {
+    "U_C2": 0.0018499560886889854,
+    "cajas": 6698,
+    "estado": "tope_tiempo",
+    "evaluaciones": 40780,
+    "segundos": 60.02,
+    "sup_puntos_U": 0.001847799062148042,
+    "tau_sup_puntos": [
+     0.0017082911194767638,
+     0.08801879882812501
+    ],
+    "vivas": 3269
+   },
+   "theta": {
+    "a": 2.14,
+    "beta_tilde": 4.0,
+    "eta_d": 4.0,
+    "eta_f": 8.0,
+    "kappa_tilde": 0.005,
+    "phi": 0.99023,
+    "rho": 0.4,
+    "u_theta": 0.9,
+    "z_cost": 100.0
+   }
+  },
+  {
+   "L_punto": 0.0017769580220023588,
+   "U": 0.0017827291556429719,
+   "admisible": true,
+   "diseno": "G",
+   "holgura_punto": 5.771133640613017e-06,
+   "incompatible": false,
+   "tau_L_punto": [
+    0.0016378512360285084,
+    0.085107421875
+   ],
+   "techo": {
+    "U_C2": 0.0017827291556429719,
+    "cajas": 4114,
+    "estado": "tope_tiempo",
+    "evaluaciones": 25276,
+    "segundos": 60.01,
+    "sup_puntos_U": 0.0017770300284114025,
+    "tau_sup_puntos": [
+     0.0016378512360285084,
+     0.085107421875
+    ],
+    "vivas": 2342
+   },
+   "theta": {
+    "a": 2.15,
+    "beta_tilde": 4.0,
+    "eta_d": 4.0,
+    "eta_f": 8.0,
+    "kappa_tilde": 0.005,
+    "phi": 0.99023,
+    "rho": 0.4,
+    "u_theta": 0.9,
+    "z_cost": 100.0
+   }
+  },
+  {
+   "L_punto": 0.0017089175598753849,
+   "U": 0.001715456949695063,
+   "admisible": true,
+   "diseno": "G",
+   "holgura_punto": 6.539389819678124e-06,
+   "incompatible": false,
+   "tau_L_punto": [
+    0.0015637039902935035,
+    0.09385986328125001
+   ],
+   "techo": {
+    "U_C2": 0.001715456949695063,
+    "cajas": 4115,
+    "estado": "tope_tiempo",
+    "evaluaciones": 25282,
+    "segundos": 60.01,
+    "sup_puntos_U": 0.0017089434353630192,
+    "tau_sup_puntos": [
+     0.0015637039902935035,
+     0.09385986328125001
+    ],
+    "vivas": 2343
+   },
+   "theta": {
+    "a": 2.16,
+    "beta_tilde": 4.0,
+    "eta_d": 4.0,
+    "eta_f": 8.0,
+    "kappa_tilde": 0.005,
+    "phi": 0.99023,
+    "rho": 0.4,
+    "u_theta": 0.9,
+    "z_cost": 100.0
+   }
+  }
+ ],
+ "incompatibles": 0,
+ "no_exportable": true,
+ "objeto": "techo v3 certificado en la familia de puntos de la esquina con a variable",
+ "phi": 0.99023,
+ "plan_sha256": "cbe40f29bdb7de5818231aa094c34e0be9400f0d063b1ef1daaafe9ecf983164",
+ "segundos": 325.7
+}

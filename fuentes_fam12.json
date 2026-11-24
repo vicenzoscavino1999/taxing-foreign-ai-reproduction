@@ -1,0 +1,88 @@
+{
+  "descripcion": "Extensión de fuentes_p7.json para FAM12 (cuatro K1 de P7, suplemento P7 y Q local m=1/2). fuentes_p7.json no cambia: conserva la identidad de external.py, macro.py, p7_calculo.py y de los dos casos ya comprobados (S1-N-df, S1-G-df). Las ubicaciones históricas son relativas a la raíz del proyecto original y sirven solo para localizar; ninguna se usa al ejecutar.",
+  "archivos_locales": {
+    "src/conciliar_cov.py": "fef92f1c34b314021f0ecc3ff7f4a990686ff2f2c318c233968bc9dbe4ef7161",
+    "src/p7_suplemento.py": "6fe1c24b18b1698015c68bf3c7d3f2e92a105fabd2425be3435f4f784fe4348f",
+    "src/q_local.py": "e4feb69265b43d13513c80fa1e948edfd7c4b732593863b73f2a9dc67924f460",
+    "datos/p7_k1_reutilizados.json": "33481531bc430e7edddca06685c2cfcfb5b2a4bad157d3262648f96a64376e48",
+    "datos/p7_suplemento.json": "ba934b84f991abafd1b81365f836366dc111e5c54f853260cd9d813ed78eab0a",
+    "datos/q_local.jsonl": "0326ac2d4e34a8976dd6175ef621457d280087365314ecf587c6c6633e450470",
+    "referencias/p7_k1_reutilizados.json": "e7c7b3a27e7d2101f7d79353b8aaf36f17498cc41c703264fb8b4c275a32eb2a",
+    "referencias/p7_suplemento.jsonl": "a450014b1b431b8099586360e877647650a9ced27ab6b40a1d8b997a861344bc",
+    "referencias/q_local_contrato.jsonl": "da5a67101a80357f2d2db59c1b67303ff9ac82277ee3432ec931e9f9a1741f0c",
+    "referencias/q_local_conservadora.jsonl": "9d6bf19ae0e78d8679992d78cf102ef0cda1b8b4daa1c42dd77ae90b825578c8",
+    "referencias/q_local_conciliacion.json": "88142d906c531987fc95eb9bfac31c91ffbf26b8ecd9afc469f03ba2d2b40a45"
+  },
+  "codigo": [
+    {
+      "archivo": "src/conciliar_cov.py",
+      "fuente": "tmp/paso4_puerta_continuidad_cov_desde_rem150/paquete_cov_i5/conciliar_cov.py",
+      "fuente_sha256": "fef92f1c34b314021f0ecc3ff7f4a990686ff2f2c318c233968bc9dbe4ef7161",
+      "transformacion": "copia exacta; se usan cotas_G, lado, canal_phi, signo y EPS = 1/100; importarlo no ejecuta nada"
+    },
+    {
+      "archivo": "src/p7_suplemento.py",
+      "fuente": "tmp/paso4_correcciones_entradas_p7_desde_rem153/paquete_p7/conciliar_p7.py",
+      "fuente_sha256": "6c9fb4a509e5e395678781c4dbfeca774dbd9f755bf4b1c862210140d1329901",
+      "transformacion": "bucle por afirmación y canal copiado sin cambio de fórmula; adaptación de interfaz: entradas como datos y K1 como argumento (c['K1']['tipo'] -> c['K1_tipo'], c['unidad'] -> clave de la unidad); sin puerta nativa ni escritura del arnés"
+    },
+    {
+      "archivo": "src/q_local.py",
+      "fuente": "tmp/paso4_correcciones_paquete_q_desde_rem157/paquete_q_local/comun_q.py",
+      "fuente_sha256": "a63cb2a7cefcb0e3885133798a073b3ca76bf6ac6bdc59ca659711a602b471ed",
+      "transformacion": "cotas, lado_m, afirmaciones, evaluar y contar copiados sin cambios; diferencias_entre_versiones y categorias_intactas son adaptación de interfaz de las dos comprobaciones de conciliar_q.py (c5193b48e7e85174…)"
+    }
+  ],
+  "entradas": [
+    {
+      "archivo": "datos/p7_k1_reutilizados.json",
+      "unidades": ["S1-N-f", "S1-G-d"],
+      "transformacion": "grid, bound, omega, shares y dme_gai ligados con el método rem153 (ligar_entradas_p7.py 4b4e5d405e5d59cb) para el conjunto CMP-E1.micro y COL: omega por omega_id (96 puntos), estado nacional por national_state_sha256 (9 estados), rejilla efectiva b94b9eed…, dme_gai = 0 del binding D7; cero llamadas a K1, supremos o techos; no se leyó ni ajustó el K1 esperado",
+      "fuentes_sha256": {
+        "MANIFIESTO_P7.json": "f3d4a848f1ba88f30462877f130275ae3f2eb7d4587055d171277515decfaeeb",
+        "CUATRO_CELDAS_REM149_I2.json": "1ac4ac8aaac2bd4b169e5c065a38e07a1ea4b7619e336a01c3b7ced71ba3f768",
+        "contrato_s6": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+        "d7_manifest": "9faf63c3ce96ec0e18b7cbf6235bdf21fc6e8bd18ce2ed054e3eb7f7b3a04ff9",
+        "rejilla": "b94b9eedeea87d08071366e2bd8a5b7cd9662ce6f9fd9d7bee42848d6c4c5f90"
+      },
+      "limitacion": "la tabla CAPA de entradas_p7.py solo conoce guardrail_deuda y nucleo_contable; para estas celdas la capa se comprobó contra la capa declarada en la rejilla (sensibilidad)"
+    },
+    {
+      "archivo": "datos/p7_suplemento.json",
+      "transformacion": "afirmaciones, lado presente (COV aceptado, techo ENF o resolución ENF aceptada rem148) y techos COV/ENF/padre de las cuatro celdas tomados del manifiesto P7 aceptado, sin claves de ruta; los techos no se recalculan",
+      "fuentes_sha256": {"MANIFIESTO_P7.json": "f3d4a848f1ba88f30462877f130275ae3f2eb7d4587055d171277515decfaeeb"}
+    },
+    {
+      "archivo": "datos/q_local.jsonl",
+      "transformacion": "3.456 posiciones guardadas (C_2, e_C2, e_G, K1, categoría original, conjunto, origen) del manifiesto Q de producción rem158; incluye una sola vez las 7 posiciones P7 (origen suplemento_P7_lado_padre_faltante)",
+      "fuentes_sha256": {"manifiesto_q.json": "22346317c068f3658dd6ff66ea74e26f2ced8d310abf6976bdd5429a767e3bfb"}
+    }
+  ],
+  "referencias": [
+    {
+      "archivo": "referencias/p7_k1_reutilizados.json",
+      "transformacion": "K1 aceptados de rem154 (P7-K1-S1-N-f 5e5732d3…, P7-K1-S1-G-d ade869e0…); Q, lambda_pi y gain_share de la equivalencia guardada en MANIFIESTO_P7; sin referencia de dme_gai porque no está guardada"
+    },
+    {
+      "archivo": "referencias/p7_suplemento.jsonl",
+      "transformacion": "copia exacta de SUPLEMENTO_P7.jsonl de producción rem154 (a450014b…); solo se usa para comparar"
+    },
+    {
+      "archivo": "referencias/q_local_contrato.jsonl",
+      "transformacion": "campos científicos de posiciones y afirmaciones de Q-MAT-CONTRATO rem158 (95cfa83d…), sin puerta nativa ni rutas"
+    },
+    {
+      "archivo": "referencias/q_local_conservadora.jsonl",
+      "transformacion": "campos científicos de posiciones y afirmaciones de Q-MAT-CONSERVADORA rem158 (248193c2…), sin puerta nativa ni rutas"
+    },
+    {
+      "archivo": "referencias/q_local_conciliacion.json",
+      "transformacion": "conteos, diferencias y dictamen de CONCILIACION_Q rem158 (38f99a45…)"
+    }
+  ],
+  "herramientas_de_extraccion": {
+    "nota": "Herramientas de desarrollo; leen el árbol original y no forman parte de la ejecución pública.",
+    "extraccion/ligar_k1_reutilizados.py": "f4f0de5ffd9d5d4f534c3a940aa4561e9e47d2892772912291eaaa34402dac3a",
+    "extraccion/extraer_fam12.py": "48a6d99e8c85ce793c535519852128dd0227b104a17b1225d504ddbb8b3bc59f"
+  }
+}

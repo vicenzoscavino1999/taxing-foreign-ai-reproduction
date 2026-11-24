@@ -1,0 +1,2281 @@
+{
+ "descripcion": "Relación de piezas de FAM09 (T8: 9.434 filas históricas, emisión λ, captura por fila, testigo alto e incorporación de 35 filas, exclusión C5B de las cinco restantes) y su origen (tmp: = carpeta de entregas históricas del proyecto). Las ubicaciones de origen solo sirven para localizar; ninguna se usa al ejecutar. Raíz T8 en nucleo_s6/t8 (espejo de tmp/<área>/<rel>); datos nuevos en datos/fam09; referencias en referencias/fam09. Copias exactas salvo PROYECCIONES saneadas que restituyen el original.",
+ "herramienta": {
+  "archivo": "extraccion/extraer_fam09.py",
+  "sha256": "31575bbcc067a2cac1ed658d791ac1ef2dfd634edb7d806569f3423d46357800"
+ },
+ "raiz_t8": "nucleo_s6/t8",
+ "archivos": [
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_procedencia_cota_desde_rem136/lote_emision_lambda/materializar_lambda.py",
+   "origen": "tmp/paso4_procedencia_cota_desde_rem136/lote_emision_lambda/materializar_lambda.py (fijado por PAQUETE_EMISION_LAMBDA.json); = objeto del catálogo",
+   "sha256": "6beb73b45fa49d7acbd35ddfd857dd9c80fa65999e53065d3ed1af623b43d5e9",
+   "papel": "F09-LAMBDA: materializador (U29) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_procedencia_cota_desde_rem136/lote_emision_lambda/validar_emision_lambda.py",
+   "origen": "tmp/paso4_procedencia_cota_desde_rem136/lote_emision_lambda/validar_emision_lambda.py (fijado por PAQUETE_EMISION_LAMBDA.json); = objeto del catálogo",
+   "sha256": "4fd9d680247c6d9d464698e78c545580f357623a3c0ee88ada69f875682cffdb",
+   "papel": "F09-LAMBDA: validación única del producto λ (puerta, carga, construcción, verificación) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_procedencia_cota_desde_rem136/lote_emision_lambda/verificar_producto_lambda.py",
+   "origen": "tmp/paso4_procedencia_cota_desde_rem136/lote_emision_lambda/verificar_producto_lambda.py (fijado por PAQUETE_EMISION_LAMBDA.json); = objeto del catálogo",
+   "sha256": "ef459e8d5fe0c8697a10aa5879ef3e0a3e4d129d6638cf4a396de8ce6ab27ef5",
+   "papel": "F09-LAMBDA: verificador (U30) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_procedencia_cota_desde_rem136/lote_emision_lambda/MANIFIESTO_EMISION_LAMBDA.json",
+   "origen": "tmp/paso4_procedencia_cota_desde_rem136/lote_emision_lambda/MANIFIESTO_EMISION_LAMBDA.json (fijado por PAQUETE_EMISION_LAMBDA.json)",
+   "sha256": "e6207fa8ec6a9402c2b86d67ea0d91a7b2eff9c010e2f34139e00a3f44875474",
+   "papel": "F09-LAMBDA: manifiesto de emisión (entrada, finalizador, núcleo, plan, esperados) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_procedencia_cota_desde_rem136/lote_emision_lambda/PAQUETE_EMISION_LAMBDA.json",
+   "origen": "tmp/paso4_procedencia_cota_desde_rem136/lote_emision_lambda/PAQUETE_EMISION_LAMBDA.json (fijado por libro rem138)",
+   "sha256": "0810343938e877d92872aca7e46005c7d84ffe3270b323553d1204d20bd6b073",
+   "papel": "F09-LAMBDA: índice del paquete de emisión λ (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_exp0_lambda_autenticada_desde_rem134/b_lambda/entrada/entrada_lambda_autenticada.py",
+   "origen": "tmp/paso4_exp0_lambda_autenticada_desde_rem134/b_lambda/entrada/entrada_lambda_autenticada.py (fijado por MANIFIESTO_EMISION_LAMBDA.json)",
+   "sha256": "295b13b5d8d156385d759c4afc7b92c3d1d18de8d14770e52163f55d049707d8",
+   "papel": "F09-LAMBDA: entrada λ autenticada (lee el manifiesto de fuentes y construye la vista) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_exp0_lambda_autenticada_desde_rem134/b_lambda/entrada/MANIFIESTO_ENTRADA_LAMBDA.json",
+   "origen": "tmp/paso4_exp0_lambda_autenticada_desde_rem134/b_lambda/entrada/MANIFIESTO_ENTRADA_LAMBDA.json (fijado por MANIFIESTO_EMISION_LAMBDA.json)",
+   "sha256": "647744d0ffd26284bf2008d4c1b7bbccabaa5471bbb16a1e039a6321e282e9a1",
+   "papel": "F09-LAMBDA: manifiesto de las nueve fuentes λ (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/conexion_captura.py",
+   "origen": "tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/conexion_captura.py (fijado por PAQUETE_CAPTURA_C2_v3.json); = objeto del catálogo",
+   "sha256": "f7a8d23f5d2558843f4620052b49d20250cf23c67ac8a02d54ea57db1c05dba7",
+   "papel": "F09-CAPTURA: conexión (puerta, carga, vista, validación única) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/certificacion_fila.py",
+   "origen": "tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/certificacion_fila.py (fijado por MANIFIESTO_CAPTURA.json); = objeto del catálogo",
+   "sha256": "4741b4ea3b72fc2f754cc2d8c79dd9dd718f8e37205bf3e4ee5c0c539be60f4b",
+   "papel": "F09-CAPTURA: certificación por fila (Contexto, validar; tres tipos de prueba) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/materializar_captura.py",
+   "origen": "tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/materializar_captura.py (fijado por PAQUETE_CAPTURA_C2_v3.json); = objeto del catálogo",
+   "sha256": "8ef790ffccbc4b8875f29f986fcca36c8d184ef7b1d6066fe696387236786263",
+   "papel": "F09-CAPTURA: materializador (U32) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/verificar_captura.py",
+   "origen": "tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/verificar_captura.py (fijado por PAQUETE_CAPTURA_C2_v3.json); = objeto del catálogo",
+   "sha256": "18d6872a13527aa590406db33d9e6e901fb8e9596b301d1a60f09d14051c6860",
+   "papel": "F09-CAPTURA: verificador (U33) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/MANIFIESTO_CAPTURA.json",
+   "origen": "tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/MANIFIESTO_CAPTURA.json (fijado por PAQUETE_CAPTURA_C2_v3.json)",
+   "sha256": "952c6512db0bcf81cca0c53a15342f444262405cb66cfad8f85a5c898d77aba7",
+   "papel": "F09-CAPTURA: manifiesto (certificación, finalizador, base λ, pruebas, esperados) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/PAQUETE_CAPTURA_C2_v3.json",
+   "origen": "tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/PAQUETE_CAPTURA_C2_v3.json (fijado por libro rem140)",
+   "sha256": "7d58938e308fd63536925c6ef8b39fbafb6ab46706d70853e45821466d054ee0",
+   "papel": "F09-CAPTURA: índice del paquete de captura (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/PRUEBAS_FILA_v3.json",
+   "origen": "tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/PRUEBAS_FILA_v3.json (fijado por MANIFIESTO_CAPTURA.json)",
+   "sha256": "690dfef933447410fd9653201ec92631cb7af52a6364db4b70606833e8be5efa",
+   "papel": "F09-CAPTURA: pruebas por fila (2.071 pruebas; las 40 filas sin prueba quedan pendientes) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/testigo_comun.py",
+   "origen": "tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/testigo_comun.py (fijado por CONGELAMIENTO_TESTIGO_v3.json); = objeto del catálogo",
+   "sha256": "3f8ec27b92c9e04c6d1b5e688f38fe3663440c1e3aa54a9fd9392e6617f28b52",
+   "papel": "F09-TESTIGO: pieza común v3 (manifiesto, puerta, clasificación, validación) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/trabajador_testigo.py",
+   "origen": "tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/trabajador_testigo.py (fijado por CONGELAMIENTO_TESTIGO_v3.json)",
+   "sha256": "fefa171c21f74248860a7ac984d562d21ee74a0f7b5d47a3058c40554a4741fa",
+   "papel": "F09-TESTIGO: trabajador auténtico (una clave; la llamada de run.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/validar_testigo.py",
+   "origen": "tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/validar_testigo.py (fijado por CONGELAMIENTO_TESTIGO_v3.json)",
+   "sha256": "69989e41136706f995d4e24b33fbde0c8e63d98440b61d7cdc9b5b7fe5fb80fe",
+   "papel": "F09-TESTIGO: validador (U36; el que registra la validación real rem141) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/adaptador_fila_testigo.py",
+   "origen": "tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/adaptador_fila_testigo.py (fijado por MANIFIESTO_T8_TESTIGO.json); = objeto del catálogo",
+   "sha256": "7cbebc7691c68d7d902d4c0944f30f8b3b4a1844c409a9f089f88fd7da60b0e2",
+   "papel": "F09-TESTIGO: adaptador de la prueba por fila (incorporación) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/construir_incorporacion.py",
+   "origen": "tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/construir_incorporacion.py (fijado por CONGELAMIENTO_TESTIGO_v3.json)",
+   "sha256": "bfa2d5ba3f41b4f8aa4ade3c4243c4d045388a008e24e3b7f5fff8262fe4d775",
+   "papel": "F09-TESTIGO: constructor del documento de incorporación de una entrega nueva (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_incorporacion_testigo_desde_rem142/conexion_testigo/paquete/materializar_t8_testigo.py",
+   "origen": "tmp/paso4_incorporacion_testigo_desde_rem142/conexion_testigo/paquete/materializar_t8_testigo.py (fijado por PAQUETE_T8_TESTIGO.json)",
+   "sha256": "c6f0db6b86dd001785dbb6ac0334a46d1903daae76b1304aa38e7cc25bb5361d",
+   "papel": "F09-TESTIGO: materializador de la emisión de las 35 filas (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_incorporacion_testigo_desde_rem142/conexion_testigo/paquete/verificar_t8_testigo.py",
+   "origen": "tmp/paso4_incorporacion_testigo_desde_rem142/conexion_testigo/paquete/verificar_t8_testigo.py (fijado por PAQUETE_T8_TESTIGO.json)",
+   "sha256": "3e20c16b6e5b50aeed542a9e0c9c09926c45cdecc81b6d2d3e80334a675cbb97",
+   "papel": "F09-TESTIGO: verificador de la emisión (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_incorporacion_testigo_desde_rem142/conexion_testigo/paquete/PAQUETE_T8_TESTIGO.json",
+   "origen": "tmp/paso4_incorporacion_testigo_desde_rem142/conexion_testigo/paquete/PAQUETE_T8_TESTIGO.json (fijado por libro rem144)",
+   "sha256": "db64d37ed991da9e35017194fa7fdd82106cae4ff12e20e194a038cb98257868",
+   "papel": "F09-TESTIGO: índice del paquete de emisión del testigo (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_conexion_cinco_filas_t8_desde_rem145/conexion_c5b/paquete/materializar_t8_c5b.py",
+   "origen": "tmp/paso4_conexion_cinco_filas_t8_desde_rem145/conexion_c5b/paquete/materializar_t8_c5b.py (fijado por PAQUETE_T8_C5B.json)",
+   "sha256": "df22d8903e5e7c90547d4e924402892b374550de1df64f6e3e96a9b9c1908d75",
+   "papel": "F09-C5B: materializador (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_conexion_cinco_filas_t8_desde_rem145/conexion_c5b/paquete/verificar_t8_c5b.py",
+   "origen": "tmp/paso4_conexion_cinco_filas_t8_desde_rem145/conexion_c5b/paquete/verificar_t8_c5b.py (fijado por PAQUETE_T8_C5B.json)",
+   "sha256": "8e78b261ce4b534ab899d365ca22549451e912a182086928f15f8dad8976220d",
+   "papel": "F09-C5B: verificador (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_conexion_cinco_filas_t8_desde_rem145/conexion_c5b/paquete/PAQUETE_T8_C5B.json",
+   "origen": "tmp/paso4_conexion_cinco_filas_t8_desde_rem145/conexion_c5b/paquete/PAQUETE_T8_C5B.json (fijado por libro rem147)",
+   "sha256": "200d49ad6eb31fae786826acb1c2cb1065ea4a889f4886e13c52af154c67094e",
+   "papel": "F09-C5B: índice del paquete C5B (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_cinco_filas_exp0_desde_rem144/cinco_filas/certificado/CERTIFICADO_C5B_CANDIDATO.json",
+   "origen": "tmp/paso4_cinco_filas_exp0_desde_rem144/cinco_filas/certificado/CERTIFICADO_C5B_CANDIDATO.json (fijado por MANIFIESTO_T8_C5B.json)",
+   "sha256": "fc403d40b1eb6ba50e5f8dc551ecd301b19b1092e15c5e50ff4e163fc51afa16",
+   "papel": "F09-C5B: certificado C5B (U_global_hi exacta; reutilizado, su derivación no se regenera) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_cinco_filas_exp0_desde_rem144/cinco_filas/salida/C5B_MASA_M2.json",
+   "origen": "tmp/paso4_cinco_filas_exp0_desde_rem144/cinco_filas/salida/C5B_MASA_M2.json (fijado por MANIFIESTO_T8_C5B.json)",
+   "sha256": "05c10ea6d2e8f87b96704f66d9c1edb6c188a2d6c528b4d086ab3061d9da4691",
+   "papel": "F09-C5B: salida M2 aceptada (cotas por bloque, decisión por fila) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/FUENTES_CAPTURA.json",
+   "origen": "tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/FUENTES_CAPTURA.json (proyección propia con la regla del catálogo; original sha256 77d9a10b409416a0f148ff665584c20e4a8f8d997862e4b79cc7f8b5f1c506e1; marcadores {'@@W_BS2@@': 3})",
+   "sha256": "51dbdda0528e0d4132b2ae96fcfc718936ac25a62c56d6e8cfcccc48c7fdb0bd",
+   "papel": "F09-CAPTURA: fuentes autenticadas de la certificación (notas por huella) (proyección saneada)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/CONGELAMIENTO_TESTIGO_v3.json",
+   "origen": "tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/CONGELAMIENTO_TESTIGO_v3.json (proyección propia con la regla del catálogo; original sha256 66a107d6df08788856306561df58f9350d04a9b1d559074286d8608cbe51622a; marcadores {'@@W_BS2@@': 1})",
+   "sha256": "56610677edbc515c0b49ee10ee82a236232c184e8109b0dd63c304edc23785ea",
+   "papel": "F09-TESTIGO: congelamiento v3 (índice de piezas del lector) (proyección saneada)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/lector_fuente_testigo.py",
+   "origen": "tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/lector_fuente_testigo.py (proyección del catálogo (REGLA-PROYECCION-1); original sha256 9e25706026743e1b92221029f0e30faaf3c64df703f8c07451848b9696ad7d7a; marcadores {'@@W_BS1@@': 1})",
+   "sha256": "a1a63ad97cd538c78fe41af16b753b5ef1e4cad9feb918be68e7ed29dc75a06c",
+   "papel": "F09-TESTIGO: lector de la fuente nueva (U35) (proyección saneada)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_preparacion_captura_testigo_desde_rem138/testigo_alto/CARGA_NUCLEO.json",
+   "origen": "tmp/paso4_preparacion_captura_testigo_desde_rem138/testigo_alto/CARGA_NUCLEO.json (proyección propia con la regla del catálogo; original sha256 7796672be7c1fa2152ed31b22a62d74ff871fb17b780ebeab26aeae9373b7318; marcadores {'@@R_BS2@@': 1})",
+   "sha256": "ba18c94a3f9734ea728f16528810a22904eae69d91b0a7bc6e24a95d4016a3cb",
+   "papel": "fuente del manifiesto del testigo (carga del núcleo rem138; solo huella) (proyección saneada)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_incorporacion_testigo_desde_rem142/conexion_testigo/paquete/conexion_testigo.py",
+   "origen": "tmp/paso4_incorporacion_testigo_desde_rem142/conexion_testigo/paquete/conexion_testigo.py (proyección propia con la regla del catálogo; original sha256 a292a929d1e74178726777d32e103b3897d1e39ad01b7b3ffab324c5c904657c; marcadores {'@@W_WIN@@': 1})",
+   "sha256": "8c3bbfc1bc25b2f34b1f6e6427039a043aec0bd62dce382e48efe1d092052e25",
+   "papel": "F09-TESTIGO: conexión del testigo alto a la captura (35 filas) (proyección saneada)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_incorporacion_testigo_desde_rem142/conexion_testigo/paquete/MANIFIESTO_T8_TESTIGO.json",
+   "origen": "tmp/paso4_incorporacion_testigo_desde_rem142/conexion_testigo/paquete/MANIFIESTO_T8_TESTIGO.json (proyección propia con la regla del catálogo; original sha256 c07f0c3e4cc11fe803c3f09908ea08a451e66eeccda7bc7e022d01a738c2e9a2; marcadores {'@@W_BS2@@': 3})",
+   "sha256": "ff140ab4a60a0179a4a7cf7c260b13ce27dc948451c228f3ac19dc3c5c019403",
+   "papel": "F09-TESTIGO: manifiesto aceptado (base del manifiesto enlazado) (proyección saneada)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_conexion_cinco_filas_t8_desde_rem145/conexion_c5b/paquete/conexion_c5b.py",
+   "origen": "tmp/paso4_conexion_cinco_filas_t8_desde_rem145/conexion_c5b/paquete/conexion_c5b.py (proyección propia con la regla del catálogo; original sha256 006ec4fa2a4f5d1d7b60c09f9a226f6b83282cd1b9640dc8cacadaca6ecfb461; marcadores {'@@W_WIN@@': 1})",
+   "sha256": "91ff9c71b3713c362e9459064adb79e9a068f858d53e2c61ce08563decccdde1",
+   "papel": "F09-C5B: conexión de la prueba C5B a las cinco filas (proyección saneada)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_conexion_cinco_filas_t8_desde_rem145/conexion_c5b/paquete/MANIFIESTO_T8_C5B.json",
+   "origen": "tmp/paso4_conexion_cinco_filas_t8_desde_rem145/conexion_c5b/paquete/MANIFIESTO_T8_C5B.json (proyección propia con la regla del catálogo; original sha256 dc34c455608490c2fa065e13e5bfd7d9f752613863359f55160a26b604395623; marcadores {'@@W_BS2@@': 4})",
+   "sha256": "716385209809fa15ed089834848d25bc0675eb365137f0288fc86a11f62fbd92",
+   "papel": "F09-C5B: manifiesto aceptado (base del manifiesto enlazado) (proyección saneada)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_cinco_filas_exp0_desde_rem144/cinco_filas/ejecutado/certificado_c5b.C3.py",
+   "origen": "tmp/paso4_cinco_filas_exp0_desde_rem144/cinco_filas/ejecutado/certificado_c5b.C3.py (proyección propia con la regla del catálogo; original sha256 cd0bae74e80c66ed1a1268229ad82db14336bba80796a6356987887130bbaf5d; marcadores {'@@W_FS@@': 1})",
+   "sha256": "c57dc24078548e6594dc343818f4fc98414e56ac43ca4a2b1234db616f85799f",
+   "papel": "F09-C5B: guion del certificado (U39; solo huella: no se ejecuta) (proyección saneada)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_cinco_filas_exp0_desde_rem144/cinco_filas/ejecutado/cota_masa_c5b.M2.py",
+   "origen": "tmp/paso4_cinco_filas_exp0_desde_rem144/cinco_filas/ejecutado/cota_masa_c5b.M2.py (proyección propia con la regla del catálogo; original sha256 f725f028ff1fa63281a69d5ff30fa51df988cb9ac4f9654ab62e9a29355b3a1b; marcadores {'@@W_FS@@': 1})",
+   "sha256": "e083e4bf767c2b0e522b243502eba4aee0430012cdf64fe1b4415c5583ecfcc9",
+   "papel": "F09-C5B: guion M2 (U38; solo huella: no se ejecuta) (proyección saneada)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_conciliacion_portabilidad_desde_rem108/conciliacion/ensamblajes/T8_anexo.json",
+   "origen": "tmp/paso4_conciliacion_portabilidad_desde_rem108/conciliacion/ensamblajes/T8_anexo.json (fijado por MANIFIESTO_ENTRADA_LAMBDA.json)",
+   "sha256": "e63ae329777ca04342a2d86c439b70008e52965adf801b23b3339bd657074bc9",
+   "papel": "F09-LAMBDA: fuente anexo_t8 de la entrada λ (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_lote1_desde_rem112/lote1_LOTE1_REM112/L1-LAMBDA/salida/lambda_envolvente.jsonl",
+   "origen": "tmp/paso4_lote1_desde_rem112/lote1_LOTE1_REM112/L1-LAMBDA/salida/lambda_envolvente.jsonl (fijado por MANIFIESTO_ENTRADA_LAMBDA.json); = objeto del catálogo",
+   "sha256": "b1ca755c6af02c185565c8be371ffb2ff069e5a5b2dbe407a99be98dceb3b1ef",
+   "papel": "F09-LAMBDA: fuente envolventes_lote1 de la entrada λ (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-LAMBDA/salida/lambda_envolvente.jsonl",
+   "origen": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-LAMBDA/salida/lambda_envolvente.jsonl (fijado por MANIFIESTO_ENTRADA_LAMBDA.json); = objeto del catálogo",
+   "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+   "papel": "F09-LAMBDA: fuente envolventes_lote2 de la entrada λ (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_exp0_t8_desde_rem132/derivados/salida_d2/t8/EQUIVALENCIA_LAMBDA.json",
+   "origen": "tmp/paso4_exp0_t8_desde_rem132/derivados/salida_d2/t8/EQUIVALENCIA_LAMBDA.json (fijado por MANIFIESTO_ENTRADA_LAMBDA.json)",
+   "sha256": "437b2b1672bce3fae55d81aa8466298ff8b682862daab688fa42607cc32d0891",
+   "papel": "F09-LAMBDA: fuente equivalencia_rem132 de la entrada λ (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_exp0_lambda_captura_desde_rem133/b_lambda/candidato/soporte_lambda_demostrado.py",
+   "origen": "tmp/paso4_exp0_lambda_captura_desde_rem133/b_lambda/candidato/soporte_lambda_demostrado.py (fijado por MANIFIESTO_ENTRADA_LAMBDA.json)",
+   "sha256": "4fd3a4163dc609f6de92e144e158b78e35323655e5a16904d7830c6d2c2ae2af",
+   "papel": "F09-LAMBDA: fuente helper_rem133 de la entrada λ (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_exp0_t8_desde_rem132/derivados/salida_d2/t8/IDENTIDAD_Y_PLAN_POR_CORRIDA.json",
+   "origen": "tmp/paso4_exp0_t8_desde_rem132/derivados/salida_d2/t8/IDENTIDAD_Y_PLAN_POR_CORRIDA.json (fijado por MANIFIESTO_ENTRADA_LAMBDA.json)",
+   "sha256": "0c87a0188277125c7fa31ee93067cbc56509c4ec56065654a5234849ae222bf2",
+   "papel": "F09-LAMBDA: fuente identidad_plan_rem132 de la entrada λ (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_conciliacion_portabilidad_desde_rem109/conciliacion/corridas_t8_mapa.json",
+   "origen": "tmp/paso4_conciliacion_portabilidad_desde_rem109/conciliacion/corridas_t8_mapa.json (fijado por MANIFIESTO_ENTRADA_LAMBDA.json)",
+   "sha256": "c53db4e42d73aaf80b2bb2428a5547c8651c2bdf4f495b1e67ff37a64034db86",
+   "papel": "F09-LAMBDA: fuente mapa_corridas de la entrada λ (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_exp0_lambda_captura_desde_rem133/b_lambda/salida_b1/UNIVERSO_NACIONAL_B1.json",
+   "origen": "tmp/paso4_exp0_lambda_captura_desde_rem133/b_lambda/salida_b1/UNIVERSO_NACIONAL_B1.json (fijado por MANIFIESTO_ENTRADA_LAMBDA.json)",
+   "sha256": "3871187065ab02b30d6c649eef1b8b03b1400ece43033402e1792edf0bd81095",
+   "papel": "F09-LAMBDA: fuente universo_nacional_b1 de la entrada λ (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_exp0_lambda_captura_desde_rem133/b_lambda/salida_b2/VISTA_CANDIDATA_T8.json",
+   "origen": "tmp/paso4_exp0_lambda_captura_desde_rem133/b_lambda/salida_b2/VISTA_CANDIDATA_T8.json (fijado por MANIFIESTO_ENTRADA_LAMBDA.json)",
+   "sha256": "0f8439fe7274292af210d402ed9c7dd28af713583ddee4c0ee99aae708048625",
+   "papel": "F09-LAMBDA: fuente vista_b2_rem133 de la entrada λ (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_emision_lambda_captura_desde_rem135/c_captura/salida_c1b/EQUIVALENCIA_EFECTIVA_TECHO.json",
+   "origen": "tmp/paso4_emision_lambda_captura_desde_rem135/c_captura/salida_c1b/EQUIVALENCIA_EFECTIVA_TECHO.json (fijado por FUENTES_CAPTURA.json)",
+   "sha256": "e4b4c411ba78bbe8938586e3a704dd83bc10397d82248078f5ee3af94434978c",
+   "papel": "F09-CAPTURA: fuente equivalencia de FUENTES_CAPTURA (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_produccion_q_desde_rem104/audit/linea_base_original_inicio.json",
+   "origen": "tmp/paso4_produccion_q_desde_rem104/audit/linea_base_original_inicio.json (fijado por FUENTES_CAPTURA.json)",
+   "sha256": "aa2cd074beeb0a28e28f992175ebcfcddfcc6b504c994c13e4c3d57aa10a0d0f",
+   "papel": "F09-CAPTURA: autoridad D7 (línea base rem104 de los archivos D7) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/audit/entrega.json",
+   "origen": "tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/audit/entrega.json (fijado por FUENTES_CAPTURA.json)",
+   "sha256": "1f81beca84009c710fe23a427644f4c15260475fb70052862a89613596ebf3a8",
+   "papel": "F09-CAPTURA: inventario de la entrega de testigos fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201 (BRUN-050091213b198d7cd7ba9ea2) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/audit/entrega.json",
+   "origen": "tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/audit/entrega.json (fijado por FUENTES_CAPTURA.json)",
+   "sha256": "aefcf73f21948fcfa1a07b9860d2d8f3a810859a9621d426ad580a646ce3aadd",
+   "papel": "F09-CAPTURA: inventario de la entrega de testigos remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533 (BRUN-7bdfe0a1bee57298e31e1b34) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_e6a4_correccion_cierre_paso4_3_7_2026-10-11_lima2330/audit/entrega.json",
+   "origen": "tmp/remanente_e6a4_correccion_cierre_paso4_3_7_2026-10-11_lima2330/audit/entrega.json (fijado por FUENTES_CAPTURA.json)",
+   "sha256": "25099490133103e56dc50129985fa0025ec32001e7703f11f7f6e65dd1057630",
+   "papel": "F09-CAPTURA: inventario de la entrega de testigos remanente_e6a4_correccion_cierre_paso4_3_7_2026-10-11_lima2330 (BRUN-f5f58960bbf9017776d3d7fc) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_consumidor_h4_paso4_3_7_2026-10-11_lima0604/audit/entrega.json",
+   "origen": "tmp/remanente_s1df_s2_consumidor_h4_paso4_3_7_2026-10-11_lima0604/audit/entrega.json (fijado por FUENTES_CAPTURA.json)",
+   "sha256": "5bd46fafb7c73bf046dd3f7262465274e3a7b8191e2cd4b3feaca3c935ce011a",
+   "papel": "F09-CAPTURA: inventario de la entrega de testigos remanente_s1df_s2_consumidor_h4_paso4_3_7_2026-10-11_lima0604 (BRUN-a81e3f45f7111e18b1f39370) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/audit/entrega.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/audit/entrega.json (fijado por FUENTES_CAPTURA.json)",
+   "sha256": "ca6ab27856f36418d1d3bbfb7e30e89abeb13e66ff31925b1e61060ffdf64715",
+   "papel": "F09-CAPTURA: inventario de la entrega de testigos remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200 (BRUN-4ef8507fcdefbddc55dbc3b7) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/audit/entrega.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/audit/entrega.json (fijado por FUENTES_CAPTURA.json)",
+   "sha256": "a1af40e6fdd1a20dc78dab7d817f82bed718d39a7d50f90424ac47f3c970cc1d",
+   "papel": "F09-CAPTURA: inventario de la entrega de testigos remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009 (BRUN-9c6c66e7af8b139a613b1c3f) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/audit/entrega.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/audit/entrega.json (fijado por FUENTES_CAPTURA.json)",
+   "sha256": "e2772375180cfa6faf39e152c5a802b97724a5cdfc19dcfc86d28747e9ebcc86",
+   "papel": "F09-CAPTURA: inventario de la entrega de testigos remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324 (BRUN-63a9e9ea157b2faaf317ae61) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/audit/entrega.json",
+   "origen": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/audit/entrega.json (fijado por FUENTES_CAPTURA.json)",
+   "sha256": "ceb85c096307abd68d4e138baa1f6da54457d7548d825cbcd6ec89c217a91a51",
+   "papel": "F09-CAPTURA: inventario de la entrega de testigos remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738 (BRUN-1368187e9a43de0d95926dca) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/audit/entrega.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/audit/entrega.json (fijado por FUENTES_CAPTURA.json)",
+   "sha256": "1bb94b75d57c4b97e9ebf662bc6cc6117e3b8b30792e46d6d1e5ef1a36ea8cdd",
+   "papel": "F09-CAPTURA: inventario de la entrega de testigos remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855 (BRUN-cb33e6b24039acc84fb1a065) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s2_diagnostico_e6a4_r3_incorporacion_paso4_3_7_2026-10-11_lima2059/audit/entrega.json",
+   "origen": "tmp/remanente_s2_diagnostico_e6a4_r3_incorporacion_paso4_3_7_2026-10-11_lima2059/audit/entrega.json (fijado por FUENTES_CAPTURA.json)",
+   "sha256": "29dae035ec937447cab69645b2319f211acf040c3d50506e8137f569d41a2b12",
+   "papel": "F09-CAPTURA: inventario de la entrega de testigos remanente_s2_diagnostico_e6a4_r3_incorporacion_paso4_3_7_2026-10-11_lima2059 (BRUN-47e3d9f48d2b65e9ddeed02f) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/audit/entrega.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/audit/entrega.json (fijado por FUENTES_CAPTURA.json)",
+   "sha256": "30474cee53e48bdcde9592aa7cc299e71cdf50e624a2f78692d323ca75864bed",
+   "papel": "F09-CAPTURA: inventario de la entrega de testigos remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213 (BRUN-991c466a1938ddbf2192eefb) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125/audit/entrega.json",
+   "origen": "tmp/s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125/audit/entrega.json (fijado por FUENTES_CAPTURA.json)",
+   "sha256": "3f62b34c51e82dafb77b199c9ea3f99177b46535d782c869eed9ead80be910cc",
+   "papel": "F09-CAPTURA: inventario de la entrega de testigos s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125 (BRUN-c5af32a993773f5258ce570f) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800/audit/entrega.json",
+   "origen": "tmp/s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800/audit/entrega.json (fijado por FUENTES_CAPTURA.json)",
+   "sha256": "d22952fad5782ff67c0c514a5b2c8d613c089f8cdfb241ebad133fb8903d7dc1",
+   "papel": "F09-CAPTURA: inventario de la entrega de testigos s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800 (BRUN-612818cb081c6797d4923b4d) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/validacion_detallada_d_s1_d_h4_paso4_3_7_2026-10-09_lima2331/audit/entrega.json",
+   "origen": "tmp/validacion_detallada_d_s1_d_h4_paso4_3_7_2026-10-09_lima2331/audit/entrega.json (fijado por FUENTES_CAPTURA.json)",
+   "sha256": "4caedd3bb0901bc678193035422d673bd41be6a8abcba6184a982f8638a1b7f1",
+   "papel": "F09-CAPTURA: inventario de la entrega de testigos validacion_detallada_d_s1_d_h4_paso4_3_7_2026-10-09_lima2331 (BRUN-5b35ba3f51bc08bd48b384bd) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/demo/detallado/resultados/S3-P1_filas.json",
+   "origen": "tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/demo/detallado/resultados/S3-P1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "38f205014b83197314eb50acf404b359f0dba7a30ac40cd5e3d7b85084ee713e",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/demo/detallado/resultados_tramo1/S2-N-d_filas.json",
+   "origen": "tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/demo/detallado/resultados_tramo1/S2-N-d_filas.json (fijado por inventario de su entrega)",
+   "sha256": "fdd8e82ed4ee476745aeeab8463bada1c67cc16fe5221ad64ed05f7fcfc33336",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/S2_0afdcf0a2591723b_0_filas.json",
+   "origen": "tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/S2_0afdcf0a2591723b_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "da6f6064f9b6e3119be9fb5d4f659fff5e32f8491673c07260581923cc49a765",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/S2_2a0155e91acd1a51_2_filas.json",
+   "origen": "tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/S2_2a0155e91acd1a51_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "7680f39ca699ff038aea0cddd5adad8ad7b4ba60eb179ba5de4e23619857e12f",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/S2_58332f136bc0621e_2_filas.json",
+   "origen": "tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/S2_58332f136bc0621e_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "16a47ae5ee38bbe003df93d4143fa807f4e3b0a8fedd2f78e8f6ed6f6a16f764",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/S2_9c895f823e249533_2_filas.json",
+   "origen": "tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/S2_9c895f823e249533_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "068f24713b27571625a64ddecb187c78d1ef43c1c44e8c4d346d17cb1d874b33",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/S3_P1-COL-N-df-1_filas.json",
+   "origen": "tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/S3_P1-COL-N-df-1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "16e18eabd0f624241bceb3da1ae0cc926094c44f23b5ee55b68a0e408f3a1231",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/S3_P1-MEX-N-df-1_filas.json",
+   "origen": "tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/S3_P1-MEX-N-df-1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "bc47ce567194f054e409f9488e4c4e64122628d3381c48674dcac77f29ab94a3",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/S3_P1-MEX-N-f-1_filas.json",
+   "origen": "tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/S3_P1-MEX-N-f-1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "4d81c22b4fb5ebbbec34d18f6cd4932f9cbcb165307d9095cf80be6668f4f458",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/S3_P1-PER-N-df-0_filas.json",
+   "origen": "tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/S3_P1-PER-N-df-0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "8d2c490bab27b98cb436bddf771dddb5c2c1eb289fdc37fa0731081c95704090",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/S3_P1-PER-N-f-1_filas.json",
+   "origen": "tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/S3_P1-PER-N-f-1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "b26ef05542411d3ecdb01ee142dc9e3d8eba784920649eae04c7eb8075e496a8",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/S3_P2-G-df-COL-2_filas.json",
+   "origen": "tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/demo/rem/resultados/S3_P2-G-df-COL-2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "eec1fba66f6fd33b53965a2fce6367d3dccaf88d29118a01748afd4d833829c9",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_consumidor_h4_paso4_3_7_2026-10-11_lima0604/demo/rem6/resultados/S2_5922ed7cc796bacc_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_consumidor_h4_paso4_3_7_2026-10-11_lima0604/demo/rem6/resultados/S2_5922ed7cc796bacc_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "31020b97f3b577dc9a082cd2748f4b1a180b30297419b91a17218c4c808bd587",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_consumidor_h4_paso4_3_7_2026-10-11_lima0604/demo/rem6/resultados/S2_b4feb61316b94160_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_consumidor_h4_paso4_3_7_2026-10-11_lima0604/demo/rem6/resultados/S2_b4feb61316b94160_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "ee2b9e122b1a1d9ca68c8607d3aaa766fd2d642a2cbe42c18169f029c8bfc792",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_consumidor_h4_paso4_3_7_2026-10-11_lima0604/demo/rem6/resultados/S2_cffd0c01d35ffc04_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_consumidor_h4_paso4_3_7_2026-10-11_lima0604/demo/rem6/resultados/S2_cffd0c01d35ffc04_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "cc90ce2eec17f2d02ff5baf8f47d17741b359dda72cf3da5e79f57eb74552837",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_02193cdff172d31c_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_02193cdff172d31c_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "06d81a2196c8a4834fc8b82c041e876ca8b4d663c5d4a6c45ecdd7aaf7f8c6b3",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_0e169c9185fd6155_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_0e169c9185fd6155_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "93282e4e3ed2c16b98874e73b6571fdcd92467b837030fccd09323b70fecb488",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_1f976136204af860_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_1f976136204af860_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "2961441e03a8cfae746273cb9e0ff4bb188db31af66169e2803583a5e2f8316b",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_2e1895fed9d83180_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_2e1895fed9d83180_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "48b743d8c21b0a4631bba07c1988061464ed12637af75c727d17310d1722f03b",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_306ff8f9bf7434da_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_306ff8f9bf7434da_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "bda14eaae8c193cd40fc6fbf0e73a2db6e8e4dc656c1951eef59e558fbea1c09",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_40b50e2be9c62702_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_40b50e2be9c62702_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "996d0c7d9ba31fd205429138d6bb7ce2af13aaf1a26748699e145485bc0de550",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_57fbf4daac6cf5cd_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_57fbf4daac6cf5cd_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "6d0245cb6fcfeb82de0cd15f0501560d1a37e224eebcb8d9dbca0d88bc0372ed",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_61848836758cc95f_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_61848836758cc95f_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "ab5e6412aac06711f691ac0ca24700f4a2da32dfe993a56753b77484c5fe4a92",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_74702d7f42f6e1f4_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_74702d7f42f6e1f4_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "9b211f4d231aaeeffbea6e08371f587354bad676709d305274d1278c4e49abec",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_752f40b5e9effe46_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_752f40b5e9effe46_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "3655765ee10cf80bd752534d848e03c7dd62aae556d68fbe8bfcbb3f6a2ec22d",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_800cc95239532b15_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_800cc95239532b15_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "d3b3b11639ffafc8bdb19a7d340d540f35ba2acc8d14dd5b096326cde3a4ad0a",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_891a51c0692a38c9_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_891a51c0692a38c9_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "b2a440db4afe342d65cd3195cc6185256941167561c41be7b9e298a633707a00",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_a6f47afd48e49627_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_a6f47afd48e49627_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "4cb778a7413bd230584b02e81c44097fafb76423f891049ad6726f4e1fbe4473",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_b2d8e8f073d25669_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_b2d8e8f073d25669_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "ec9838245cab417ab90ff3617418166a70e7ef829569039e47adc9113860b65d",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_b4d451bdd4411c0f_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_b4d451bdd4411c0f_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "19da5f09689e39fc91d70cf57ac0ea3a0bdec2aebe1bfe96a70602d4ac967a6c",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_c313d02cfa96b9dc_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_c313d02cfa96b9dc_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "2b9cab94ee408daa224ecc2fc5238c3acad68b14479e22024f036acf4ddfaaf4",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_c313d02cfa96b9dc_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_c313d02cfa96b9dc_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "72dd076438ae4c530ade0e87ea4398e155a4017306b914684a8414915e41d554",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_c6e62ab2de67153a_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_c6e62ab2de67153a_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "6cac250dffd5cfe263beee2f7cba470f7ad63620b39dfa586c848badd6fb2d3a",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_c962c62d5675aa98_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_c962c62d5675aa98_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "782060e610f5d9e1a02ebc713b743657a8462efb358382aa6581861e39877416",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_d58dd6814da8454e_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_d58dd6814da8454e_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "6fb64a923c60dd3eb6459e26364221e8b9e6a805a34af41c6e0e5b9c26eefe3c",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_de3d3107db2f9fc0_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_de3d3107db2f9fc0_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "ab20479d1b0870fa6677c2fd9de7573f8db357bfb77b4cae9dc5176d1c4b24df",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_f500e03d0e229342_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200/demo/rem5/resultados/S2_f500e03d0e229342_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "3a1bd966874e23fbec0535532f86b2a4ea9bf8b026a831e7fed5e6a1b7d0ba5d",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_02193cdff172d31c_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_02193cdff172d31c_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "2237e98ae63142a1c2007a7f0a2d6aad04005d922ba1ec43260acd1971d47851",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_0e169c9185fd6155_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_0e169c9185fd6155_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "1d824accdf86c6aaf87c90ec620e456db41e0e219321360b27bd067523326597",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_1089187ba19942ae_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_1089187ba19942ae_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "96da644e28ce124f1923724088d6d02226e664aafb46a82da4a5701a8151f850",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_146da731083841eb_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_146da731083841eb_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "4aa32600b4064d3deafe69cb0778d2a7975c71667550c13892b4753c49719365",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_2a0155e91acd1a51_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_2a0155e91acd1a51_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "178d18ab2b9cbbccbafcdd13fe4b4122c51531ece22024b44ade58b06a6dd65e",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_40b50e2be9c62702_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_40b50e2be9c62702_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "4749c983aa9e1cdb55171097362753d543e315507fe9581c2f294bc3885cc305",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_475e6de668c2db29_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_475e6de668c2db29_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "a7bd3f6491d2a67fdb2c614d76028b7acd64b9847e15c8e263ecfdd76f441d17",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_73abf591ad1508a1_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_73abf591ad1508a1_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "aade3557e5b8942fd040ec70403cbe05984269da406b8ca0e5f18c3505c3e3c9",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_7aea9e7c9ae1ce70_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_7aea9e7c9ae1ce70_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "5edb04cdde0877f9155f2fe1729f768d8bcecc1b0daeba34e07a0315a1076268",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_80825b9ad8148987_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_80825b9ad8148987_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "d6791e12549f45b34fbb735f0e761e20150e3fcf7f21aefbb3eb746013f0c642",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_9c7bc9c01995926a_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_9c7bc9c01995926a_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "fb8d42e7f8ccdb2d0de1e7534a8371a7f43694ea0d3af86c8049292d085ff26e",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_9c895f823e249533_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_9c895f823e249533_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "853823b480f22ffe4f7dececd696450c6b38462edbabc4604ccf1cdd18cddb1e",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_a1b5b3bb5b982f7e_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_a1b5b3bb5b982f7e_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "ca0972a5b2f3a474b6861f9f1ef74a8cd2ebf7cf5b148ea279c37e716922e289",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_c962c62d5675aa98_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_c962c62d5675aa98_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "daff204869312a1f4b1d86621d8a87e346b5f8ed5c14e1f04244cda86a686eca",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_e3f331ec38ede11f_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_e3f331ec38ede11f_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "e301f8c077ae7a21e85e119d50601878575648feffe128591ce098428ec538bb",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_edcf058bf828f412_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_edcf058bf828f412_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "4b5d3b358cf017840ca7e905fa4d0eb07ca553e6594899bc1f08b65cba8269bf",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_ee37f12f3c713a9c_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_ee37f12f3c713a9c_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "c0dc2ae216a1bb8bebf12b1d13c651a62d7d9df6f17934e68f6b69fd78f424aa",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_fc7179c8c9376ea3_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009/demo/rem7/resultados/S2_fc7179c8c9376ea3_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "ce5ce608c392b7a757d292d6850ef8d11ebe075fbc5e1c85785f20356ea87fbc",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_2eef760928a96691_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_2eef760928a96691_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "5379a1b94aab3f2606a8c582a9571baec8e00d441e18e96a7b3c75d85992476c",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_30b3a02a26bb31b4_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_30b3a02a26bb31b4_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "c2dfc7e43e43f1911caa08631a56d1c2b901941687d296d1d0e6601878a6260b",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_3b315a6eebdbfe51_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_3b315a6eebdbfe51_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "ee2ab81d73da1065a134a2f510146748760993bc74700f807aec56f9d10f75ec",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_3cbd7407a88a5808_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_3cbd7407a88a5808_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "5b55f9e51073be5109c1f73cedf95b000b27c5d87f08275a7e15d68835279a1e",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_40993509d519401f_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_40993509d519401f_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "492fcf5b6cfe2051cfced2d294ddb8e9a21925b42a542496bef56c8bb6389982",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_4839a35d6657f991_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_4839a35d6657f991_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "c5b88061f86009d6f911d3c629cf5dde19348113b2fef0d71031e95ef280bcbd",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_60d2cabc333d28e0_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_60d2cabc333d28e0_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "00cbec3044da84c53cb55e2a194bb154c41ac470a83a087d311faceddb9c5174",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_926ff8a56729ceeb_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_926ff8a56729ceeb_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "fd449239e0c0df8cd11910f39230c24552470d104dc461ef8571e2d490e174aa",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_9ff6c3f8aebca437_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_9ff6c3f8aebca437_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "c9b9394af09a2ba2d6c13f4ffdb51612287da3e2171c66e7de0538ae3fb2bc89",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_a6f47afd48e49627_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_a6f47afd48e49627_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "20cbcf791e60bd14dc0baef9c9f98a22afa67a3a288c0241a6701666cbe20f08",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_c3f8c99dad294e4f_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_c3f8c99dad294e4f_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "ed5f659e7ab2b740219ce1f8b2deaf8ed2c99da7150fc75de8f7b8ec901a8c8b",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_c7e80942cfd4687e_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_c7e80942cfd4687e_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "6b83179af6cd434106e9debd3a25a25ac24cf629afc174c9ed85f92dd34a4acd",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_d280bec8b75b0ee3_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_d280bec8b75b0ee3_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "0adf12275125307f4b7e025a6296ad69016a153befa826e9748bdc59f8f30ac9",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_df14f1b2204b8564_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_df14f1b2204b8564_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "f1455827e33da584fc5e543461080602690a3dccea69ccd2a5034ed37815860a",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_ebc4c5fae882f736_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_ebc4c5fae882f736_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "b8fa151e41b202bcbc08f5dba59f5252e7e62b5837c147f73dd054fe1bb990c9",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_f55078d9bc0a4585_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_f55078d9bc0a4585_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "1d5f9855bc8ed3f411d22c00b473f8e294462043339a225a5114ebe85907f743",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_f55078d9bc0a4585_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324/demo/rem8/resultados/S2_f55078d9bc0a4585_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "951f93847ce4f460fdc1fb27bb6c3e301f04dd60c2b1a712bc08fe5ec7295240",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_0f6a805bec7e595c_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_0f6a805bec7e595c_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "072096d2f1398d003ae0858bdce39f64014b7877f2fbf4502adabd5efa1fe1e2",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_0f6a805bec7e595c_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_0f6a805bec7e595c_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "62e799f05bee1580232432e86620a54a0d7038dbbaada9c4ec823d18635d0f7c",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_1f00df9cafe2dc9b_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_1f00df9cafe2dc9b_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "c6ef7c994c1ce029df39b509e52d6323d0d834d3236fdb0a8cacb4950869a7b9",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_2e1895fed9d83180_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_2e1895fed9d83180_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "d9ed4a184dd14409e6f0bf04166ca45416925bf9d0e63974d6287b918a6f4b0d",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_37b2f936dfbb4aa6_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_37b2f936dfbb4aa6_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "13953f927ac0349ba48c61f31c3fa6fd1c5d24c879043f1cee5b9ffb46da6f73",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_3c17f67dbe9eeacc_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_3c17f67dbe9eeacc_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "3f1dcce37d66dbae95f9898f20550ad988d564fb349f3f12f35aac4c45f9e00e",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_5e3f3898fabdf513_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_5e3f3898fabdf513_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "b9362772a4dfb798366339121234df679d0f9270f9e6465d769c4f44cd5e9b69",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_6559e286451019fc_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_6559e286451019fc_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "41366e834279a578d829664c6f3be331ea41f87ecc4fc8db9b74c05a6eef8cf5",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_752f40b5e9effe46_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_752f40b5e9effe46_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "76780711d4e20142b15cc044088b735cb69533d1c21fc1d8558f0313859875f2",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_a64da5262b0582b8_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_a64da5262b0582b8_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "b43714be6e9a5e0c1a9139a90230664eb3635f1c84c8f209190e8a8b7545383b",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_a7c4ecf57e571a3a_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_a7c4ecf57e571a3a_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "a5b4087c5b2101fc820896e6c176e53af061bd0e60198451479b86dec9e5c224",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_d58dd6814da8454e_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_d58dd6814da8454e_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "c58f200a3aead15b84723385039a7daeb9c1d19f11e73a400a1a4c6ad16c94a9",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_d9560a4b001728b8_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_d9560a4b001728b8_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "c0f5f671444dc67f790b78cf89fd878884c6abbb1e02ec2122948005ef5b6687",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_da547abd9c57c49d_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_da547abd9c57c49d_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "37ad8259237e73e9d9afc1992fe3d8ec79f86146b32602632dffdcc293bfee02",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_dbfb882bda737a2d_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_dbfb882bda737a2d_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "003075fc491386af3f41eb135a803fb116cc322deda7e25641051d61835418d2",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_ebc4c5fae882f736_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738/demo/rem9/resultados/S2_ebc4c5fae882f736_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "815a086f3b376a8c71d262a247210452bdc6785dace80b2c686163c2cfeb9fcb",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_01e60f27ae0a8696_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_01e60f27ae0a8696_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "8315a44cb82bfc44b87bb0c965479235b033a726b64507216f9b0f41503ac28d",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_0394254d3169c7e3_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_0394254d3169c7e3_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "b01d58d7f587c680f5a4f9b0f9dcf19b3cd8e17d60b243c76a7ce02f37ba196c",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_2a0155e91acd1a51_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_2a0155e91acd1a51_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "b622300829417bfe2029a949d44addf881e75870258f30fcb78a54aede09121c",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_2cd75842a83ec38a_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_2cd75842a83ec38a_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "35dce0135dc794c2bac6f6c041c2638a0d5f627815bca16e3a4f9228f0991dc0",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_2cd75842a83ec38a_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_2cd75842a83ec38a_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "443d0870abcc190377a6da480cda8abdd238659c9fee8f9491db4aca9a89807c",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_30c4012d8bec9fcf_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_30c4012d8bec9fcf_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "87f899059d949a71ee5c9a8354978aab9b9ea26f9258a51be08314480d977f75",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_3c17f67dbe9eeacc_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_3c17f67dbe9eeacc_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "7d5f7ee592a9ae9e90425a1d7d93df765ff3ff09a151dd727e4a74aef6f89f8d",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_6a31a773bf1bae3f_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_6a31a773bf1bae3f_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "a73e833a8e3e014cadd42458407549fa3c04e0db9943e63f62c28474ed321715",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_80825b9ad8148987_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_80825b9ad8148987_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "f393cd3aa7edbf3628e960e99f37df99fb66830b46f1a0344e111c89eb425c1c",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_80825b9ad8148987_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_80825b9ad8148987_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "2a51215da2b41d4331895b2fa33052b8ad21780bf0f2afef0694718ddffb5751",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_891a51c0692a38c9_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_891a51c0692a38c9_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "089813d87866a8a61247407c138958ea56b1a70cbac676333add4613cb0c634a",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_a5d1035f1b379bb2_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_a5d1035f1b379bb2_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "0a85fac238f874b100d4ef1d911d036ed3a3227fcfdb294c00bdde8ca74d79d1",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_b95ea21836b172bf_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_b95ea21836b172bf_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "00e41c8699b04dd9c3ea093844e62e86960e0bc7088bb641765ce3344246540f",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_c3f8c99dad294e4f_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_c3f8c99dad294e4f_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "68e9f2fa48fb51997d29fb292c880e60dc466d427817c399f111b8a0848ffff5",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_e281ddebc06ba375_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_e281ddebc06ba375_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "3b1dcb5337471caad7e4af6216a6de592c97b8db93135e90ce953f465b3856e4",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_e3f331ec38ede11f_0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_e3f331ec38ede11f_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "2673a15399289d7c5d6cf2a42e49b067c2ec4246cfbbfa239e83df21b5fb1c79",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_e3f331ec38ede11f_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_e3f331ec38ede11f_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "6601a59fef3e2661aaeaa8298d6b5aa8a663901cd78e3bdcfef868a62eb27bba",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_e50267b1ee959009_2_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_e50267b1ee959009_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "5550799ad2daa0c59a43bac53a8f8d240f013effb1f4eea1c81e916989c1f466",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_edcf058bf828f412_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_edcf058bf828f412_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "f69a51025959a883156b355f4faf4fb8c59f75a1be929a1a7df0e678179ac940",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_f096426af50081c1_1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S2_f096426af50081c1_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "ffde15718f9996736448955a544ffd8c3ca2872b423d0fa9fbf6151353c9a3cc",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S3_P1-MEX-G-df-0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S3_P1-MEX-G-df-0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "6b728cd2db93c49cd4fa9043238ed1f19b1e6a80fad3a7b1dde8887f2b144197",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S3_P1-MEX-G-df-1_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S3_P1-MEX-G-df-1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "45c616f7dbf1d4c2fc379a045f61e1a8eab9a6d0f368fab74c63ef6e5e4f68b6",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S3_P1-PER-G-df-0_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S3_P1-PER-G-df-0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "5bb32b00f533775445b7bad08329a30c0425fe55cbe4a20abf1917e8920822b9",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S3_P2-N-d-COL-3_filas.json",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S3_P2-N-d-COL-3_filas.json (fijado por inventario de su entrega)",
+   "sha256": "bf791e123bc0c657fc3eb92aa49b9f439ceef4a3bb424891d0b1880ebfbee978",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_02193cdff172d31c_0_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_02193cdff172d31c_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "dfebc1e4437c28e70ac4c6213eb58a6eb08d5b721dd5c399682d96f28f325355",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_05209e9ea4b15e8d_0_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_05209e9ea4b15e8d_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "18140656cd5178c5d6558a8ba1f18a1b2dbd7ff1c5bddf04ff196871a1aeb853",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_0f6a805bec7e595c_0_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_0f6a805bec7e595c_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "f9fb9fb22e9f9c6c479288d2168bb4e011991f6d080dd566c277cb75defdaaa6",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_1e9f041774c40505_1_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_1e9f041774c40505_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "568f0e7577bbb6a9d6ffb2dd9be2633a6b260efad61c3db650a7e535c6a21b01",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_2e04bf3e0c3979c3_0_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_2e04bf3e0c3979c3_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "87139da0a8a587d86f1ee9279e4cde9145697b1fa6aaad480b41a5a81526aaf6",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_2e04bf3e0c3979c3_2_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_2e04bf3e0c3979c3_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "4c693ee7cdfffe51f66e8c040700b8d040bdac868b455c632ad0e641c58ef74e",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_2eef760928a96691_1_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_2eef760928a96691_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "73930ebf3fc5e41f9bb612dc9d6acfb12b7c1e62982124d1b73a995134b994c0",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_44d5c880060fac21_1_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_44d5c880060fac21_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "43c9e679906c13ca04d55263c5127a579ed66392d6de9001241fc2456bd8f9bb",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_475e6de668c2db29_1_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_475e6de668c2db29_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "2bf9ae29589d9003f84f9ff594d33de715edcb1e8f3c83ba66f6291ce225d623",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_4c769e3662b60007_0_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_4c769e3662b60007_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "c70f468e6aa4df3c6df9c98b043095433f34ff2c1a3df4d7cb2644c457c10d62",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_61848836758cc95f_2_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_61848836758cc95f_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "b9b9b7cf04dc878e2db588416595e2b3589b3b9b8530f75392d6547c8b395f9b",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_73abf591ad1508a1_0_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_73abf591ad1508a1_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "55cf5c9bc860fc14b181ef1f55bf9664d5e6a34269ae51952843503ab54fc55c",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_7aea9e7c9ae1ce70_2_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_7aea9e7c9ae1ce70_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "975c69153858eb881bf09c1b30e7fc89ec0db8dcd10f60ee53560e12c29a9213",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_955483acb4c5626b_1_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_955483acb4c5626b_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "0b96a017a2ec7d41296305e852c74e3e0369fcea1357fada80a5387a6efed24a",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_955483acb4c5626b_2_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_955483acb4c5626b_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "de3d602cdec7ce3af8da93fc2466458cbc56daac5b9b965400e7c7626105a808",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_99fa8b045e0a1d81_0_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_99fa8b045e0a1d81_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "8063898f145bf526288f2618b807295ee4f5e4fd515f2935906cc599aea974ce",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_a1b5b3bb5b982f7e_1_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_a1b5b3bb5b982f7e_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "c3845d4c92637a73e3006975859e6662a91f1a31447732e725dd02e5ec43e8e1",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_a6f47afd48e49627_0_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_a6f47afd48e49627_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "afb33ff49a5fa98779b35d77ba60038d23b6b1709c8e6a8ff87273b3f560cf46",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_ac39ab642995deca_2_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_ac39ab642995deca_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "4672ea5362925f02ac303b9092b9d01f0482431d0347f972d6785316722c120a",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_c6e62ab2de67153a_0_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_c6e62ab2de67153a_0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "26221f90cf07e91f2df5349b1c4ed80471516b8420532d42700381838f012abf",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_c962c62d5675aa98_2_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_c962c62d5675aa98_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "1b532ea412d9f978daf25446990510e5b10fe4f6fd1ae2f23af762927f01894b",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_d58dd6814da8454e_2_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_d58dd6814da8454e_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "ce5c7febde6401b8192e530b14062f115216c61f8780d912f5491cf94420f147",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_d67a652770b50143_2_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_d67a652770b50143_2_filas.json (fijado por inventario de su entrega)",
+   "sha256": "7619f3d02d0bfa056a994bb599f501ea6120c7167a6c4b06884d624ff595fe92",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_df14f1b2204b8564_1_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_df14f1b2204b8564_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "0e769a30a87a8768c810dbb8a950ca066162a5813279d2f75520962e925417c0",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_eb50fac5feba2c25_1_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S2_eb50fac5feba2c25_1_filas.json (fijado por inventario de su entrega)",
+   "sha256": "915032d994318ee8d89564f3ce2825aac00ec4a5d80961b5e1d4b8c37d64c493",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S3_P1-MEX-N-df-0_filas.json",
+   "origen": "tmp/remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213/demo/rem4/resultados/S3_P1-MEX-N-df-0_filas.json (fijado por inventario de su entrega)",
+   "sha256": "df8df578101685aab1af4118ac6bc1a1602f2b22a9113263cc3253a768e658e5",
+   "papel": "F09-CAPTURA: unidad testigo citada por PRUEBAS_FILA_v3 (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_emision_captura_correcciones_testigo_desde_rem139/testigo_alto_corregido/MANIFIESTO_TESTIGO_v2.json",
+   "origen": "tmp/paso4_emision_captura_correcciones_testigo_desde_rem139/testigo_alto_corregido/MANIFIESTO_TESTIGO_v2.json (fijado por CONGELAMIENTO_TESTIGO_v3.json)",
+   "sha256": "3ed91d323c7f0f0e56eb31b01b41ef864c68bea029936afd4d090f36c9939ad4",
+   "papel": "F09-TESTIGO: manifiesto v2 de una clave (e8b1f7fd…) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/herramientas/b/aprobacion_alcance.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/herramientas/b/aprobacion_alcance.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "631003ca87989ccd0189b33c9bd35e338a6f16fe4a0d50cbc2ccef0ee6f96467",
+   "papel": "F09-TESTIGO: fuente aprobacion_alcance_C0 del manifiesto del testigo (solo huella salvo controles y equivalencia) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c3_acoplada/C3_TESTIGOS.json",
+   "origen": "tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c3_acoplada/C3_TESTIGOS.json (fijado por MANIFIESTO_TESTIGO_v2.json)",
+   "sha256": "b9b426f70a86306895fc1c54aae615684c11d356837cf7d4c1db86c93784968a",
+   "papel": "F09-TESTIGO: fuente c3_testigos_rem137 del manifiesto del testigo (solo huella salvo controles y equivalencia) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_preparacion_captura_testigo_desde_rem138/testigo_alto/controles_T2/CONTROLES_TESTIGO.json",
+   "origen": "tmp/paso4_preparacion_captura_testigo_desde_rem138/testigo_alto/controles_T2/CONTROLES_TESTIGO.json (fijado por MANIFIESTO_TESTIGO_v2.json)",
+   "sha256": "706ead3f40069c5b9919edd6ec1d5a1caf58c4820977880bb245681c6e5408c0",
+   "papel": "F09-TESTIGO: fuente controles del manifiesto del testigo (solo huella salvo controles y equivalencia) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_preparacion_captura_testigo_desde_rem138/testigo_alto/controles_testigo.py",
+   "origen": "tmp/paso4_preparacion_captura_testigo_desde_rem138/testigo_alto/controles_testigo.py (fijado por MANIFIESTO_TESTIGO_v2.json)",
+   "sha256": "d51c7c2d726e5cb0d8217a254271f9316dcea92aa38e30db383e3a556bbd3cfa",
+   "papel": "F09-TESTIGO: fuente controles_script del manifiesto del testigo (solo huella salvo controles y equivalencia) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_preparacion_captura_testigo_desde_rem138/testigo_alto/MANIFIESTO_TESTIGO.json",
+   "origen": "tmp/paso4_preparacion_captura_testigo_desde_rem138/testigo_alto/MANIFIESTO_TESTIGO.json (fijado por MANIFIESTO_TESTIGO_v2.json)",
+   "sha256": "cdc03225c630e21ac54ba5a201992723adcb612805e4c137f3306dd1d721b017",
+   "papel": "F09-TESTIGO: fuente manifiesto_v1 del manifiesto del testigo (solo huella salvo controles y equivalencia) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_emision_captura_correcciones_testigo_desde_rem139/testigo_alto_corregido/puente/PUENTE_DECIMAL_BINARY64.json",
+   "origen": "tmp/paso4_emision_captura_correcciones_testigo_desde_rem139/testigo_alto_corregido/puente/PUENTE_DECIMAL_BINARY64.json (fijado por MANIFIESTO_TESTIGO_v2.json)",
+   "sha256": "32750ce609ea043a04b6feb7fd7a1a218f5f32bc5f6b60cfa8d1f94a9086c400",
+   "papel": "F09-TESTIGO: fuente puente del manifiesto del testigo (solo huella salvo controles y equivalencia) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_emision_captura_correcciones_testigo_desde_rem139/testigo_alto_corregido/puente_decimal_binary64.py",
+   "origen": "tmp/paso4_emision_captura_correcciones_testigo_desde_rem139/testigo_alto_corregido/puente_decimal_binary64.py (fijado por MANIFIESTO_TESTIGO_v2.json)",
+   "sha256": "601a1598c90be964bdd71be0d6d216bafc89922977a162622e762d1038935a8f",
+   "papel": "F09-TESTIGO: fuente puente_script del manifiesto del testigo (solo huella salvo controles y equivalencia) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/__init__.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/__init__.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "89f7210e7c118c83eec9d73323491e0d8c778b76d1297f703dfca2b86069c72a",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/__init__.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/c2_normalizado.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/c2_normalizado.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "31d247eeb0368a38aa90ea8c262e3ea55cdfa62d312fe68024969b54670ab785",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/c2_normalizado.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/claims.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/claims.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "24438732d316f299379a40a2476971dddacf59f338c1a36c1a4757f17f0254a0",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/claims.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/claves_condicionales.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/claves_condicionales.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "a6826bcddf9d413f5a2438703dc202b3096fbfcb9edb63f035963b8d8485e6e3",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/claves_condicionales.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/cobertura.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/cobertura.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "d6be53db849fbfaa1d11c3213cc25a0f86a990ef6b3198e36e6b56607f5d9381",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/cobertura.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/contexto.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/contexto.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "035d51c3fcb48dd68d8b73f26ba436a7ff9a7a36e34cc89d9432cc76be673b9e",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/contexto.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/contour.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/contour.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "d826dd8f57ca5d26a6feca2d44ebc9babda6179419f5f58391bb09f6e7907a69",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/contour.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/contrato_paquete.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/contrato_paquete.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "6705b2467fce21dc5517b2648f80fa6857423f7239222bd224a112f2294c4538",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/contrato_paquete.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/convergencia.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/convergencia.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "b7d41d81e5e29626f52634b5ef8de8cf5abc54e00688c7b4d4a255294b369b98",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/convergencia.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/cota_fiscal.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/cota_fiscal.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "46b2d1617cfcca45be696e844a807baca866842d6ccd17363fb1f1978b0f0dca",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/cota_fiscal.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/d7build.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/d7build.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "e0dbe9562617642a08dcfd4dae5afafaef5b13df9a45f4c66e68967f6654013b",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/d7build.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/d7view.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/d7view.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "74f4b60a602ac951d5871c11e43e6a29efb6c3ffc5fb218135724ccea5671660",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/d7view.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/elementales.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/elementales.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "c71faf35370fa2329db69802f03f52d9bc72566a2d9fa50a9ca8dbea1eb6f82b",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/elementales.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/encierros_modelo.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/encierros_modelo.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/encierros_modelo.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/external.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/external.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "0b14fc0ee0fe4b0bc6d28aebad717dc0e02af03d8b53007be00d7295b72c4a6b",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/external.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/frontier.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/frontier.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "709f51b21188ff8d4638d7eadf535dd3f8307f2e1ce995a49539fe7bfcd36ed2",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/frontier.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/intervalos.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/intervalos.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "2607d0cf3f879316c699ec4cd73021bff9ae8f680f7c7c01facb84dfb65aa891",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/intervalos.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/inversion.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/inversion.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "60fced8313fb90f1e69531d0a15f193dbeb94c369b2b3a7a7b939077d340685a",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/inversion.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/keys.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/keys.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "fbcbc899f267cf2a367ce3cf6d46e0479869bd681d5a248ee5d49574660ac530",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/keys.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/macro.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/macro.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "4a94661d1cd0f3fe654f2cf7ecaa740b860e1c735b1585d51fda8f56dd068b98",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/macro.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/model.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/model.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/model.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/modelos.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/modelos.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "7f0dd31cacf431fb421e2c5047aa5b750cbecfc1064e3374c4247dcd40c93fda",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/modelos.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/motor_theta.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/motor_theta.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "a5ab3b74321e35fdf59afcbeb992b9053acf7d7b9742f2ff4c14ff70cab27a42",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/motor_theta.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/niveles.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/niveles.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "5e686f31a60d473a8e12282cc8bb7d615fe94226a0f388b1627c9c09b1a9ce7a",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/niveles.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/numeric.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/numeric.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "4b19f4cb45a637c3a3370ca95059bc4f94feb71649a9f54fd5ac8c33c941c98e",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/numeric.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/r1_local.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/r1_local.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "47790d95ef8c882305629484f1d215480eb859b1dbde8b3d7b28c6fcf438ca06",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/r1_local.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/r1_reanudable.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/r1_reanudable.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "a73d83f99c10ded9ddff4e081a0c5ddf3c225b824055bc552c0f4e21d17a52c1",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/r1_reanudable.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/raices.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/raices.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "1db76cf7129558f5d95d5f49ddbbb1110a30e753124cee152100f16f3313de22",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/raices.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/robustness.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/robustness.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "587f7fc294655e0bb0759aeae09edf372274da651aa2c463a191c3da22aea2b8",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/robustness.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/rules.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/rules.py (fijado por MANIFIESTO_TESTIGO_v2.json)",
+   "sha256": "fcce1f42415272577cea93185a2e6961954b5c1de016f6c6c5c9b8cac5fa3905",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/rules.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/run.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/run.py (fijado por MANIFIESTO_TESTIGO_v2.json)",
+   "sha256": "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/run.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/sections.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/sections.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "0505b0df978fa31719332359b73bfb81d5413ad71b2331b247290ca2c481bd61",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/sections.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/seleccion_valores.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/seleccion_valores.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "b5eaf6ea348c243ce13658b484b9e650d255317e43f4df70d2b492c6ec3cf65e",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/seleccion_valores.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/supports.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/supports.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "8051efef6ae2819f864ec1e516b09ac7f03e421b74478454b57391c6529fa752",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/supports.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/supremum.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/supremum.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "2c246c8be6d4437892cd951cc0acaaac6e5d8ea7a921de2e13f560caf8dfebbb",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/supremum.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/tables.py",
+   "origen": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/src/paper2b/tables.py (fijado por MANIFIESTO_TESTIGO_v2.json); = objeto del catálogo",
+   "sha256": "10450098e68b929e3522d789acee57cdebb532c646abd85ddf788b58e228f6fe",
+   "papel": "F09-TESTIGO: núcleo histórico lima1855 (paper2b/tables.py) (copia exacta)",
+   "en_inventario_de_su_area": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_cinco_filas_exp0_desde_rem144/audit/entrega.json",
+   "origen": "tmp/paso4_cinco_filas_exp0_desde_rem144/audit/entrega.json",
+   "sha256": "f64f14c270940b44ef6db094cd5eb4a5e03e7febd13976c45388e551ce12fddd",
+   "papel": "inventario de entrega del área paso4_cinco_filas_exp0_desde_rem144 (autenticación de sus archivos) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_conciliacion_portabilidad_desde_rem108/audit/entrega.json",
+   "origen": "tmp/paso4_conciliacion_portabilidad_desde_rem108/audit/entrega.json",
+   "sha256": "b6ccab3ded6e957df5ebfd585a5402b5a10948aaa3e0bfa52192165fb6022cf4",
+   "papel": "inventario de entrega del área paso4_conciliacion_portabilidad_desde_rem108 (autenticación de sus archivos) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_conciliacion_portabilidad_desde_rem109/audit/entrega.json",
+   "origen": "tmp/paso4_conciliacion_portabilidad_desde_rem109/audit/entrega.json",
+   "sha256": "ff9cf76030f8648586576ff6ef5bd803c8ab1ab9b7c60bff3ebd3237d2ba0789",
+   "papel": "inventario de entrega del área paso4_conciliacion_portabilidad_desde_rem109 (autenticación de sus archivos) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_conexion_cinco_filas_t8_desde_rem145/audit/entrega.json",
+   "origen": "tmp/paso4_conexion_cinco_filas_t8_desde_rem145/audit/entrega.json",
+   "sha256": "c5f31b215ba6be4104a68fa2723bb84c3565212ee488d224bb6ff9c94d09c7dc",
+   "papel": "inventario de entrega del área paso4_conexion_cinco_filas_t8_desde_rem145 (autenticación de sus archivos) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_emision_captura_correcciones_testigo_desde_rem139/audit/entrega.json",
+   "origen": "tmp/paso4_emision_captura_correcciones_testigo_desde_rem139/audit/entrega.json",
+   "sha256": "794841511784da49ab9d357db7de4bdbf4ff967ab02570c475d0d182af2ce5fd",
+   "papel": "inventario de entrega del área paso4_emision_captura_correcciones_testigo_desde_rem139 (autenticación de sus archivos) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_emision_lambda_captura_desde_rem135/audit/entrega.json",
+   "origen": "tmp/paso4_emision_lambda_captura_desde_rem135/audit/entrega.json",
+   "sha256": "313719680b730727b64d3260359030486c2b8449b68632b32805d4b19051bdd3",
+   "papel": "inventario de entrega del área paso4_emision_lambda_captura_desde_rem135 (autenticación de sus archivos) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_emision_lambda_conexion_captura_desde_rem137/audit/entrega.json",
+   "origen": "tmp/paso4_emision_lambda_conexion_captura_desde_rem137/audit/entrega.json",
+   "sha256": "59188e65c2d8dd665679f3b47780e2859633505b260127cc435c772431bf92b2",
+   "papel": "inventario de entrega del área paso4_emision_lambda_conexion_captura_desde_rem137 (autenticación de sus archivos) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_estado_testigo_lector_desde_rem140/audit/entrega.json",
+   "origen": "tmp/paso4_estado_testigo_lector_desde_rem140/audit/entrega.json",
+   "sha256": "be0c63bce4ad32d4fabbfa04eea419b5536fa553cfdf41df3a0cbc14a956ddf1",
+   "papel": "inventario de entrega del área paso4_estado_testigo_lector_desde_rem140 (autenticación de sus archivos) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_exp0_lambda_autenticada_desde_rem134/audit/entrega.json",
+   "origen": "tmp/paso4_exp0_lambda_autenticada_desde_rem134/audit/entrega.json",
+   "sha256": "ba6c922eb5b60a1e138803e36279060bedfb59d92699827de6ec8149d8688fce",
+   "papel": "inventario de entrega del área paso4_exp0_lambda_autenticada_desde_rem134 (autenticación de sus archivos) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_exp0_lambda_captura_desde_rem133/audit/entrega.json",
+   "origen": "tmp/paso4_exp0_lambda_captura_desde_rem133/audit/entrega.json",
+   "sha256": "b635d0b31662f6947e8358b10a2fb53885d9a97f9dd66113766462e2ecbb2642",
+   "papel": "inventario de entrega del área paso4_exp0_lambda_captura_desde_rem133 (autenticación de sus archivos) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_exp0_t8_desde_rem132/audit/entrega.json",
+   "origen": "tmp/paso4_exp0_t8_desde_rem132/audit/entrega.json",
+   "sha256": "542036fdd1be7f38e56c7c9f39320f40da644477ea3072d1dc1c198d683b39f9",
+   "papel": "inventario de entrega del área paso4_exp0_t8_desde_rem132 (autenticación de sus archivos) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_incorporacion_testigo_desde_rem142/audit/entrega.json",
+   "origen": "tmp/paso4_incorporacion_testigo_desde_rem142/audit/entrega.json",
+   "sha256": "3a1c15242b827583c0d44eac31d077fec49b0171ed811b92da9b47d043a7a1ab",
+   "papel": "inventario de entrega del área paso4_incorporacion_testigo_desde_rem142 (autenticación de sus archivos) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_lote1_desde_rem112/audit/entrega.json",
+   "origen": "tmp/paso4_lote1_desde_rem112/audit/entrega.json",
+   "sha256": "c241ddfd7cd55227e989cb33b693e65a07822476c231c831df3400af795e8545",
+   "papel": "inventario de entrega del área paso4_lote1_desde_rem112 (autenticación de sus archivos) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_lote2_e4_desde_rem120/audit/entrega.json",
+   "origen": "tmp/paso4_lote2_e4_desde_rem120/audit/entrega.json",
+   "sha256": "394aee940aa18b86e0f3e0056cab7d927ba177371d733913b42e7a3f0a92117c",
+   "papel": "inventario de entrega del área paso4_lote2_e4_desde_rem120 (autenticación de sus archivos) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_preparacion_captura_testigo_desde_rem138/audit/entrega.json",
+   "origen": "tmp/paso4_preparacion_captura_testigo_desde_rem138/audit/entrega.json",
+   "sha256": "364bf4725adf4ffffc187cf3950724d1d92f8f63e38b75c556b03de64100220c",
+   "papel": "inventario de entrega del área paso4_preparacion_captura_testigo_desde_rem138 (autenticación de sus archivos) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_procedencia_cota_desde_rem136/audit/entrega.json",
+   "origen": "tmp/paso4_procedencia_cota_desde_rem136/audit/entrega.json",
+   "sha256": "16a2e53e21ba1d3615616bc598ea281ec078f55a5bd97b96a4ae9746934a4087",
+   "papel": "inventario de entrega del área paso4_procedencia_cota_desde_rem136 (autenticación de sus archivos) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_produccion_q_desde_rem104/audit/entrega.json",
+   "origen": "tmp/paso4_produccion_q_desde_rem104/audit/entrega.json",
+   "sha256": "847a07198346142ce58b2a4ba9dd49d6ebbbf33ff9cd2a160a4accd113a3118d",
+   "papel": "inventario de entrega del área paso4_produccion_q_desde_rem104 (autenticación de sus archivos) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_raices_impacto_desde_rem116/audit/entrega.json",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/audit/entrega.json",
+   "sha256": "609c6e4dc98cbb8e900e9fe5441feeaf506e22957947c927fb6073cec1cdba4a",
+   "papel": "inventario de entrega del área paso4_raices_impacto_desde_rem116 (autenticación de sus archivos) (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam09/autoridad/ACEPTACION_C5B_REM145.resumen.json",
+   "origen": "derivado de <directorio de los libros>/review_20261104_rem145_COTA_C5B_ACEPTADA.json (sha256 a816420c6a495996959195c238185a9ad90f2e29b3601fb1239b5a16a49badea)",
+   "sha256": "ca769bae750353b47401baa6ac6aadca8661abe164309fc0fd0279f4afbdbdc5",
+   "papel": "F09-C5B: resumen de la aceptación técnica rem145 (regla adoptada, certificado, cinco filas y fijaciones)"
+  },
+  {
+   "archivo": "referencias/fam09/rem141/testigo_salida_TESTIGO_ALTO/RESULTADO.json",
+   "origen": "tmp/paso4_testigo_alto_desde_rem141/testigo_salida_TESTIGO_ALTO/RESULTADO.json (proyección del catálogo; original sha256 981ff0f2121bde1841e3bccfc76f53a3f21d2e60ba95b14ef3b08f0bd812b457; marcadores {'@@R_BS2@@': 1})",
+   "sha256": "bbb9c7883c591485636ef30193bfd768ec5e80530603ccaa18f18e1425797808",
+   "papel": "referencia (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam09/rem141/testigo_salida_TESTIGO_ALTO/VALIDACION.json",
+   "origen": "tmp/paso4_testigo_alto_desde_rem141/testigo_salida_TESTIGO_ALTO/VALIDACION.json; = objeto del catálogo",
+   "sha256": "6ad9953af245a5cc2293cec910cb288def7c3ab374ebb9dadec4950fc7aa62c9",
+   "papel": "referencia (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam09/rem141/testigo_salida_TESTIGO_ALTO/INICIO.json",
+   "origen": "tmp/paso4_testigo_alto_desde_rem141/testigo_salida_TESTIGO_ALTO/INICIO.json (proyección propia; original sha256 9c2f8bb7b50520897ab14d126987266b91846ec53895be92ce8d26a4e2754b82; marcadores {'@@TRANSCRIPCION_CLAUDE_BS2@@': 1})",
+   "sha256": "ec6c02695e747d1c6519fda7618f57883d04b2d1e72210bcb81eba0f366424d6",
+   "papel": "referencia (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam09/rem141/testigo_salida_TESTIGO_ALTO/RESULTADO.json.sha256",
+   "origen": "tmp/paso4_testigo_alto_desde_rem141/testigo_salida_TESTIGO_ALTO/RESULTADO.json.sha256",
+   "sha256": "679eeb7ebacd231a6ac396eb3fa9bd705807abd855aa5c5d10fa1d1d3839d0eb",
+   "papel": "referencia (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam09/rem147/VISTA_T8_CAPTURA.jsonl",
+   "origen": "tmp/paso4_emision_cinco_filas_t8_desde_rem146/t8_c5b_vista_T8_C5B/VISTA_T8_CAPTURA.jsonl; = objeto del catálogo",
+   "sha256": "12826a0518b4a7479f135d47b4e387cf73e43d73744d576e53b375f969a199a2",
+   "papel": "referencia (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam09/rem138/VERIFICACION.proyeccion.json",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/proyecciones/fecafb260e1ee2df05bc3fd94c0efd2fdd5d7369f4289b87fd6078e0416ac127/VERIFICACION.json (proyección del catálogo; original sha256 779d24fccbb8776c9a42ecacc0d1e2692e5a254395f39b3270dd2394d3d2ec4c)",
+   "sha256": "fecafb260e1ee2df05bc3fd94c0efd2fdd5d7369f4289b87fd6078e0416ac127",
+   "papel": "referencia: verificación aceptada rem138 (proyección del catálogo; solo para comparar)"
+  },
+  {
+   "archivo": "referencias/fam09/rem140/VERIFICACION.proyeccion.json",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/proyecciones/97f61b55d9d1516bb714f8506860f41460c7546fe5b8e5395159e86bba93a4cc/VERIFICACION.json (proyección del catálogo; original sha256 69ef0ed13dffa11f5cc27601299fe7dd91eaeee99f9660cb17b727dc8dc06922)",
+   "sha256": "97f61b55d9d1516bb714f8506860f41460c7546fe5b8e5395159e86bba93a4cc",
+   "papel": "referencia: verificación aceptada rem140 (proyección del catálogo; solo para comparar)"
+  },
+  {
+   "archivo": "referencias/fam09/rem144/VERIFICACION.proyeccion.json",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/proyecciones/cff79b7dfcb1cdb349da23c013e8d562f97ee500b6051f3fc7caf0eb2b92c6ee/VERIFICACION.json (proyección del catálogo; original sha256 64898ff73a3ae9b9b6f03213304eeb35b934ae5a6aa65b0c474743b5b92e7854)",
+   "sha256": "cff79b7dfcb1cdb349da23c013e8d562f97ee500b6051f3fc7caf0eb2b92c6ee",
+   "papel": "referencia: verificación aceptada rem144 (proyección del catálogo; solo para comparar)"
+  },
+  {
+   "archivo": "referencias/fam09/rem147/VERIFICACION.proyeccion.json",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/proyecciones/9b8ac4268525ff5a261d623ab6656e555fb251567cb944fda9d08b78c63264f7/VERIFICACION.json (proyección del catálogo; original sha256 756c4092080d752b25fc37f80110e8909227893422c830b2eb64b4f167470ab9)",
+   "sha256": "9b8ac4268525ff5a261d623ab6656e555fb251567cb944fda9d08b78c63264f7",
+   "papel": "referencia: verificación aceptada rem147 (proyección del catálogo; solo para comparar)"
+  },
+  {
+   "archivo": "datos/fam09/pilotos.json",
+   "origen": "nuevo: src/fam09.py (fam09-listar)",
+   "sha256": "290be1f03e2242b09163de33c2e319dfe0dcfe668559f5e825124e1ebb462fac",
+   "papel": "dato nuevo de la base limpia (selección fijada antes de calcular; sin resultados)"
+  },
+  {
+   "archivo": "datos/fam09/ejecucion_limpia.json",
+   "origen": "nuevo: src/fam09.py (fam09-listar)",
+   "sha256": "fc484fd6d71651a54db3093935af03c4c8029d639e0e2e0436368e4fb9254c30",
+   "papel": "dato nuevo de la base limpia: declaración de ejecución limpia NO OFICIAL (PUERTA-v1); su sha256 ocupa alcance_sha256 del testigo"
+  }
+ ],
+ "reutilizados": [
+  {
+   "archivo": "nucleo_s6/instalacion/herramientas/b/unidades.py",
+   "ruta_historica": "paso4/instalacion/herramientas/b/unidades.py",
+   "sha256": "a8aded1db50f80feffd62bcb655e62e5f93487364a3c4e625f47dcdbd1f17c86",
+   "papel": "finalizador _finalize (F09-LAMBDA/CAPTURA/TESTIGO/C5B); importa paper2b de la instalación",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/instalacion/src/paper2b/model.py",
+   "ruta_historica": "paso4/instalacion/src/paper2b/model.py",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+   "papel": "fuente «modelo» de FUENTES_CAPTURA (solo huella) y núcleo paper2b del finalizador (instalación)",
+   "declarada_en": "fuentes_fam02.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739",
+   "ruta_historica": "fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739",
+   "sha256": "42fc2b0c454371a45ab10ccbda37a1154e77282dd06df7a880560966242e074a",
+   "papel": "D7 10a0bd5b… (manifiesto y sus 18 archivos; certificación por fila y valores del testigo)",
+   "declarada_en": "fuentes_fam01.json"
+  }
+ ],
+ "saneado": [
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/FUENTES_CAPTURA.json",
+   "sha256": "51dbdda0528e0d4132b2ae96fcfc718936ac25a62c56d6e8cfcccc48c7fdb0bd",
+   "sha256_original": "77d9a10b409416a0f148ff665584c20e4a8f8d997862e4b79cc7f8b5f1c506e1",
+   "regla": "proyección propia con la regla del catálogo",
+   "marcadores": {
+    "@@W_BS2@@": 3
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/CONGELAMIENTO_TESTIGO_v3.json",
+   "sha256": "56610677edbc515c0b49ee10ee82a236232c184e8109b0dd63c304edc23785ea",
+   "sha256_original": "66a107d6df08788856306561df58f9350d04a9b1d559074286d8608cbe51622a",
+   "regla": "proyección propia con la regla del catálogo",
+   "marcadores": {
+    "@@W_BS2@@": 1
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/lector_fuente_testigo.py",
+   "sha256": "a1a63ad97cd538c78fe41af16b753b5ef1e4cad9feb918be68e7ed29dc75a06c",
+   "sha256_original": "9e25706026743e1b92221029f0e30faaf3c64df703f8c07451848b9696ad7d7a",
+   "regla": "proyección del catálogo (REGLA-PROYECCION-1)",
+   "marcadores": {
+    "@@W_BS1@@": 1
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_preparacion_captura_testigo_desde_rem138/testigo_alto/CARGA_NUCLEO.json",
+   "sha256": "ba18c94a3f9734ea728f16528810a22904eae69d91b0a7bc6e24a95d4016a3cb",
+   "sha256_original": "7796672be7c1fa2152ed31b22a62d74ff871fb17b780ebeab26aeae9373b7318",
+   "regla": "proyección propia con la regla del catálogo",
+   "marcadores": {
+    "@@R_BS2@@": 1
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_incorporacion_testigo_desde_rem142/conexion_testigo/paquete/conexion_testigo.py",
+   "sha256": "8c3bbfc1bc25b2f34b1f6e6427039a043aec0bd62dce382e48efe1d092052e25",
+   "sha256_original": "a292a929d1e74178726777d32e103b3897d1e39ad01b7b3ffab324c5c904657c",
+   "regla": "proyección propia con la regla del catálogo",
+   "marcadores": {
+    "@@W_WIN@@": 1
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_incorporacion_testigo_desde_rem142/conexion_testigo/paquete/MANIFIESTO_T8_TESTIGO.json",
+   "sha256": "ff140ab4a60a0179a4a7cf7c260b13ce27dc948451c228f3ac19dc3c5c019403",
+   "sha256_original": "c07f0c3e4cc11fe803c3f09908ea08a451e66eeccda7bc7e022d01a738c2e9a2",
+   "regla": "proyección propia con la regla del catálogo",
+   "marcadores": {
+    "@@W_BS2@@": 3
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_conexion_cinco_filas_t8_desde_rem145/conexion_c5b/paquete/conexion_c5b.py",
+   "sha256": "91ff9c71b3713c362e9459064adb79e9a068f858d53e2c61ce08563decccdde1",
+   "sha256_original": "006ec4fa2a4f5d1d7b60c09f9a226f6b83282cd1b9640dc8cacadaca6ecfb461",
+   "regla": "proyección propia con la regla del catálogo",
+   "marcadores": {
+    "@@W_WIN@@": 1
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_conexion_cinco_filas_t8_desde_rem145/conexion_c5b/paquete/MANIFIESTO_T8_C5B.json",
+   "sha256": "716385209809fa15ed089834848d25bc0675eb365137f0288fc86a11f62fbd92",
+   "sha256_original": "dc34c455608490c2fa065e13e5bfd7d9f752613863359f55160a26b604395623",
+   "regla": "proyección propia con la regla del catálogo",
+   "marcadores": {
+    "@@W_BS2@@": 4
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_cinco_filas_exp0_desde_rem144/cinco_filas/ejecutado/certificado_c5b.C3.py",
+   "sha256": "c57dc24078548e6594dc343818f4fc98414e56ac43ca4a2b1234db616f85799f",
+   "sha256_original": "cd0bae74e80c66ed1a1268229ad82db14336bba80796a6356987887130bbaf5d",
+   "regla": "proyección propia con la regla del catálogo",
+   "marcadores": {
+    "@@W_FS@@": 1
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "nucleo_s6/t8/tmp/paso4_cinco_filas_exp0_desde_rem144/cinco_filas/ejecutado/cota_masa_c5b.M2.py",
+   "sha256": "e083e4bf767c2b0e522b243502eba4aee0430012cdf64fe1b4415c5583ecfcc9",
+   "sha256_original": "f725f028ff1fa63281a69d5ff30fa51df988cb9ac4f9654ab62e9a29355b3a1b",
+   "regla": "proyección propia con la regla del catálogo",
+   "marcadores": {
+    "@@W_FS@@": 1
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "referencias/fam09/rem141/testigo_salida_TESTIGO_ALTO/RESULTADO.json",
+   "sha256": "bbb9c7883c591485636ef30193bfd768ec5e80530603ccaa18f18e1425797808",
+   "sha256_original": "981ff0f2121bde1841e3bccfc76f53a3f21d2e60ba95b14ef3b08f0bd812b457",
+   "regla": "proyección del catálogo",
+   "marcadores": {
+    "@@R_BS2@@": 1
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "referencias/fam09/rem141/testigo_salida_TESTIGO_ALTO/INICIO.json",
+   "sha256": "ec6c02695e747d1c6519fda7618f57883d04b2d1e72210bcb81eba0f366424d6",
+   "sha256_original": "9c2f8bb7b50520897ab14d126987266b91846ec53895be92ce8d26a4e2754b82",
+   "regla": "proyección propia",
+   "marcadores": {
+    "@@TRANSCRIPCION_CLAUDE_BS2@@": 1
+   },
+   "restituye_el_original": true
+  }
+ ],
+ "solo_procedencia": {
+  "nota_rem135_cota": {
+   "origen": "<directorio de los libros>/review_20261101_rem135_cota.txt",
+   "sha256": "7a9769896d533cb793254e09ef5a36f0205b02d2ad92a4c1c01bbee932f6fada",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "nota_U_rem137": {
+   "origen": "<directorio de los libros>/review_20261101_rem137_cota.txt",
+   "sha256": "cf738de6945a86ffb55ed0994610bc6d8d9d21860a5cd0b7e92a27f0afe0f34a",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "dictamen_rem137": {
+   "origen": "<directorio de los libros>/review_20261101_rem137_dictamen.txt",
+   "sha256": "008e15b95c7a2f4ba8b140bd69fd0b80e521390b7f5dc2925ed03d08f67fb62d",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "despliegue_p3": {
+   "origen": "tmp/paso4_continuacion_p3_desde_rem89/p3/despliegue_operativo.json",
+   "sha256": "f293a0a62d2cb6bf3517e72a0bfc589ee703685d4434c2cdae4b4cd1b5085d6c",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "acta_p3": {
+   "origen": "tmp/paso4_continuacion_p3_desde_rem89/p3/acta_p3.json",
+   "sha256": "8e59ea4870c987ecca4ea1e5a8cb3f95581fcc1a64b3e7aa61c035a9b8e0dcfc",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "aceptacion_rem142": {
+   "origen": "<directorio de los libros>/review_20261104_rem142_testigo_alto_aceptado.json",
+   "sha256": "3c3905a37672162165dbc9062e2c8186b6bb5f76c5d862f2f5e0794e2d027e0b",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "dictamen_rem142": {
+   "origen": "<directorio de los libros>/review_20261104_rem142_dictamen.txt",
+   "sha256": "72bf8d72b7fa1233394b652c5ad3dbf81270bfd95cfee7b6177667636f7ce263",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "incorporacion_rem142": {
+   "origen": "tmp/paso4_incorporacion_testigo_desde_rem142/incorporacion/INCORPORACION_TESTIGO.json",
+   "sha256": "c54a618bff30dccb257ea6de18c580a360f4360b9bfb00c2b0a9bdb96fd7eca2",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "ledger_rem144": {
+   "origen": "<directorio de los libros>/review_20261104_rem144_T8_testigo_aceptado.json",
+   "sha256": "7ed13ccf8123e1bce9e013bdbdce56d5df29de37699a192f1aaa32c55555241c",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "aceptacion_rem145": {
+   "origen": "<directorio de los libros>/review_20261104_rem145_COTA_C5B_ACEPTADA.json",
+   "sha256": "a816420c6a495996959195c238185a9ad90f2e29b3601fb1239b5a16a49badea",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "dictamen_rem145": {
+   "origen": "<directorio de los libros>/review_20261104_rem145_dictamen.txt",
+   "sha256": "b77f436a8647f82a4c641f0b801970317853d917ebccc40bccce8eb091a7ca51",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "nota_cota_rem145": {
+   "origen": "<directorio de los libros>/review_20261104_rem145_cota.txt",
+   "sha256": "893abeeca3baf6bdba3c6fd5069eb80bfd06376a24827706551a8dffa0128da1",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  }
+ },
+ "fuera_del_inventario_de_su_area": [],
+ "bytes_copiados": 111831082,
+ "libros": {
+  "rem138": {
+   "presente": true,
+   "archivo": "review_20261101_rem138_T8_lambda_aceptada.json",
+   "sha256": "faf65417f15f191b4a108c63d0e062aaa622973477e04810f2fa96614985b4c5",
+   "kind": "accepted-T8-lambda-emission-rem138",
+   "uso": "solo fuente de extracción (recuentos y huellas); nunca dependencia de ejecución",
+   "review_sha256": "84ba70eeb452223179fd86af155badd2b7ffcdf05121c4d83a3c0d6897b7984d",
+   "inventory_sha256": "59188e65c2d8dd665679f3b47780e2859633505b260127cc435c772431bf92b2",
+   "scope_sha256": "d3076d0d501e76f716eb1ef7afe4d2a88b1023acab05fd9418cdd509e670d379",
+   "product_sha256": "1b4881c3211263909e5aafedef7b5a56b2147143853c43a1e38e12dd772e6996",
+   "summary_sha256": "3eaefd3fa46b0257435aa6ee3912ed82f4053c324f9c19ed1d03c2eddf59f881",
+   "verification_sha256": "779d24fccbb8776c9a42ecacc0d1e2692e5a254395f39b3270dd2394d3d2ec4c",
+   "accepted_counts": {
+    "total_rows": 13656,
+    "previous_definitive_preserved": 9434,
+    "new_lambda_finalized": 2111,
+    "lambda_outside_support": 2042,
+    "lambda_computed": 69,
+    "changed_classifications": 68,
+    "definitive_total": 11545,
+    "capture_pending": 2111
+   }
+  },
+  "rem140": {
+   "presente": true,
+   "archivo": "review_20261102_rem140_T8_captura_aceptada.json",
+   "sha256": "d29fdeaf169da2b255f5300756c2a62199e3dd09cc36916171b90483e5ebea74",
+   "kind": "accepted-T8-capture-emission-rem140",
+   "uso": "solo fuente de extracción (recuentos y huellas); nunca dependencia de ejecución",
+   "review_sha256": "c1ba8187ef9e79d2f8f88d9ec5f550308637a3a70ff537fecbd0d6e1b160fa9c",
+   "inventory_sha256": "794841511784da49ab9d357db7de4bdbf4ff967ab02570c475d0d182af2ce5fd",
+   "scope_sha256": "01b9633aa382b49dce7af78a8af8ec939c88aaffb0175ab91b8edec94991e4bd",
+   "product_sha256": "66891b45282cae1c08c0a86131d194631e1d9a39351e26cfc137255e6b489992",
+   "summary_sha256": "fa7e5fa38181d5938b4d64a1570d34eca48547159f480a83b0f7bf3bc33d527e",
+   "verification_sha256": "69ef0ed13dffa11f5cc27601299fe7dd91eaeee99f9660cb17b727dc8dc06922",
+   "accepted_counts": {
+    "total_rows": 13656,
+    "previous_definitive_preserved": 11545,
+    "new_capture_finalized": 2071,
+    "capture_computed": 928,
+    "computed_same_run": 365,
+    "computed_transferred": 563,
+    "capture_outside_support": 1143,
+    "outside_33_10": 264,
+    "outside_U": 879,
+    "definitive_total": 13616,
+    "capture_pending": 40
+   }
+  },
+  "rem142": {
+   "presente": true,
+   "archivo": "review_20261104_rem142_testigo_alto_aceptado.json",
+   "sha256": "3c3905a37672162165dbc9062e2c8186b6bb5f76c5d862f2f5e0794e2d027e0b",
+   "kind": "accepted-high-witness-source-rem142-not-T8-finalization",
+   "uso": "solo fuente de extracción (recuentos y huellas); nunca dependencia de ejecución",
+   "review_sha256": "72bf8d72b7fa1233394b652c5ad3dbf81270bfd95cfee7b6177667636f7ce263",
+   "inventory_sha256": "58067a5a95cb8683ba57372957cd87b239e7839fec65ed7728a6f0d72df9f606",
+   "result_sha256": "981ff0f2121bde1841e3bccfc76f53a3f21d2e60ba95b14ef3b08f0bd812b457",
+   "scope_sha256": "210015d7b949ba0eff708c082c25536bcabe80ca70a8c5351df701611978895a",
+   "validation_sha256": "6ad9953af245a5cc2293cec910cb288def7c3ab374ebb9dadec4950fc7aa62c9",
+   "attained": true,
+   "sup_not_attained": false,
+   "key": "e8b1f7fdb9c7017605e0a4162fc6688e7b6ed01d2308ff72106ed6cf6834a97b",
+   "review_incorporation_document_sha256": "c54a618bff30dccb257ea6de18c580a360f4360b9bfb00c2b0a9bdb96fd7eca2",
+   "real_source_reader_check_sha256": "481816568732eac115ab9a58b7b7e6a6b8d5c91583ad55b0d2e67e0d3a802f3b",
+   "reader_evidence_sha256": "c073aef80437e54907ba2cf194b2b2211dfc7cdd0ff5fe110c57dcd1f4005590",
+   "T8_new_finalized": 0,
+   "T8_definitive": 13616,
+   "T8_formal_pending": 40,
+   "after_future_conforming_emission_only": {
+    "definitive": 13651,
+    "pending": 5
+   }
+  },
+  "rem144": {
+   "presente": true,
+   "archivo": "review_20261104_rem144_T8_testigo_aceptado.json",
+   "sha256": "7ed13ccf8123e1bce9e013bdbdce56d5df29de37699a192f1aaa32c55555241c",
+   "kind": "accepted-T8-high-witness-emission-rem144",
+   "uso": "solo fuente de extracción (recuentos y huellas); nunca dependencia de ejecución",
+   "review_sha256": "5e0a131a15bc945d9259b78d14735667a5c52a552b5726aa4a7111298240a689",
+   "inventory_sha256": "0dd9b3d81e120ad685995ce5ba988ddf356c29bce24e1a88505e258c67e1a8da",
+   "scope_sha256": "b5565c3fab41967d6c99f5b6ae3c9c7e79c0a58268660520f91f72303fb913b1",
+   "decision_reference_sha256": "9093e427faa81d355dc80d919aa2c95ccc1a348178bb497953a286dd705228d4",
+   "scope_consumed": true,
+   "further_execution_authorized": false,
+   "product_sha256": "ec6e3929dd6be8dbb56b17493ce51061b95dde7991722832045a1c4411c8fd93",
+   "summary_sha256": "8b4aee41fda67f201afea0b688e49e4444f1a50a4a13660feab8f606692df5fc",
+   "verification_sha256": "64898ff73a3ae9b9b6f03213304eeb35b934ae5a6aa65b0c474743b5b92e7854",
+   "accepted_counts": {
+    "total_rows": 13656,
+    "previous_definitive_preserved": 13616,
+    "new_capture_finalized": 35,
+    "capture_total": 2111,
+    "capture_finalized_total": 2106,
+    "capture_computed": 963,
+    "computed_same_run": 365,
+    "computed_transferred": 563,
+    "computed_high_witness": 35,
+    "capture_outside_support": 1143,
+    "outside_33_10": 264,
+    "outside_U": 879,
+    "definitive_total": 13651,
+    "capture_pending": 5
+   },
+   "preserved_byte_identical_rows": 13621,
+   "audit_sha256": "4628e1180b47b32194cd92be676bccb8f179722b4e4ba1715c11228163e7d9d2",
+   "recipe_return": 0,
+   "closure_conforme": true,
+   "D_EXP0_adopted": false,
+   "Gate0_global_PASS": false,
+   "PROD4_1_closed": false
+  },
+  "rem145": {
+   "presente": true,
+   "archivo": "review_20261104_rem145_COTA_C5B_ACEPTADA.json",
+   "sha256": "a816420c6a495996959195c238185a9ad90f2e29b3601fb1239b5a16a49badea",
+   "kind": "aceptacion_tecnica_de_demostracion_no_emision",
+   "uso": "solo fuente de extracción (recuentos y huellas); nunca dependencia de ejecución",
+   "review_sha256": "b77f436a8647f82a4c641f0b801970317853d917ebccc40bccce8eb091a7ca51",
+   "note_sha256": "893abeeca3baf6bdba3c6fd5069eb80bfd06376a24827706551a8dffa0128da1",
+   "inventory_sha256": "f64f14c270940b44ef6db094cd5eb4a5e03e7febd13976c45388e551ce12fddd",
+   "analysis_sha256": "f725f028ff1fa63281a69d5ff30fa51df988cb9ac4f9654ab62e9a29355b3a1b",
+   "M2_sha256": "05c10ea6d2e8f87b96704f66d9c1edb6c188a2d6c528b4d086ab3061d9da4691",
+   "certificate_script_sha256": "cd0bae74e80c66ed1a1268229ad82db14336bba80796a6356987887130bbaf5d",
+   "certificate_sha256": "fc403d40b1eb6ba50e5f8dc551ecd301b19b1092e15c5e50ff4e163fc51afa16",
+   "review_checks": {
+    "audit": 27,
+    "independent_math": 17,
+    "mass_nodes": 20,
+    "independent_leaf_bounds": 74
+   },
+   "independent_math_sha256": "70b782d11821fceb7aadf4cd40dedc0b6b47998e102bd817f816bad906aac814",
+   "audit_sha256": "69951a1ff41199674121ddd501c1cc29216080b6d26ace2adbaf31bd292420bf",
+   "current_T8_product_sha256": "ec6e3929dd6be8dbb56b17493ce51061b95dde7991722832045a1c4411c8fd93",
+   "preserve_other_lines_byte_exact": 13651,
+   "technical_proof_accepted": true,
+   "production_package_accepted": false,
+   "production_emitted": false,
+   "production_authorized": false,
+   "official_flags_enabled": false,
+   "D_EXP0_adopted": false,
+   "T8_formal_definitive": 13651,
+   "T8_formal_pending": 5,
+   "new_finalized": 0
+  },
+  "rem147": {
+   "presente": true,
+   "archivo": "review_20261105_rem147_T8_c5b_aceptada.json",
+   "sha256": "afac7ba68e58c999d03d43c731296606e68575c63a959acfe138943af6d1cbe5",
+   "kind": "accepted-T8-C5B-emission-and-PROD4.1-closure-rem147",
+   "uso": "solo fuente de extracción (recuentos y huellas); nunca dependencia de ejecución",
+   "review_sha256": "d08c78c3a4196222aafa28c7df3a06859e39bf155d1365690ee3f750313b8d26",
+   "inventory_sha256": "540ba55f8fe896b77db4e59b88dceea1e39ef0fb12ac4f22e443d7a934fda365",
+   "scope_sha256": "8f2ac08b91c8ace969ee856461974945146e0fc12c297c147c8a005584a5dc9c",
+   "decision_reference_sha256": "c5ab2ef9000f29124a08fa0aed0667b919f0d88357a1538dfd611de4a64976ff",
+   "scope_consumed": true,
+   "further_execution_authorized": false,
+   "product_sha256": "12826a0518b4a7479f135d47b4e387cf73e43d73744d576e53b375f969a199a2",
+   "summary_sha256": "bf8829b73253666aa29a9dc92fdb429c194f1bff257bb1d48af837d407d6b6df",
+   "verification_sha256": "756c4092080d752b25fc37f80110e8909227893422c830b2eb64b4f167470ab9",
+   "accepted_counts": {
+    "total_rows": 13656,
+    "previous_definitive_preserved": 13651,
+    "new_capture_finalized": 5,
+    "capture_total": 2111,
+    "capture_finalized_total": 2111,
+    "capture_computed": 963,
+    "computed_same_run": 365,
+    "computed_transferred": 563,
+    "computed_high_witness": 35,
+    "capture_outside_support": 1148,
+    "outside_33_10": 264,
+    "outside_U": 879,
+    "outside_C5B": 5,
+    "definitive_total": 13656,
+    "capture_pending": 0
+   },
+   "preserved_byte_identical_rows": 13651,
+   "audit_sha256": "b6298b7be1ee0317afb7d3ff1020d31fa8f2ccab0edd099d61b2fa6a7e30e4a5",
+   "recipe_return": 0,
+   "closure_conforme": true,
+   "D_EXP0_adopted": true,
+   "Gate0_global_PASS": false,
+   "PROD4_1_closed": true
+  }
+ }
+}

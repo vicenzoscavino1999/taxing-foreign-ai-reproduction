@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "authority_id": "PER_INEI_ORIENTATION_2023_CANDIDATE_V1",
+  "status": "candidate_unapproved",
+  "author": null,
+  "approved_at": null,
+  "country_id": "PER",
+  "year": 2023,
+  "snapshot_sha256": "dca6ebf37c2c0865a7d579cf73ade2358a459ea51441e2a2ee9d6b4412f158e3",
+  "unit": "PEN",
+  "multiplier": "1000000",
+  "operations": [
+    {
+      "concept": "D31",
+      "selector": "COU_2023!J376",
+      "operation": "multiply",
+      "multiplier": -1
+    },
+    {
+      "concept": "D39",
+      "selector": "COU_2023!DL390",
+      "operation": "semantic_exact_zero",
+      "value": "0",
+      "source_sha256": "90994661e8f21fbaa189067472fc8b3b23be5f79540fb8057476ea38775a0137"
+    }
+  ],
+  "raw_rewrite_authorized": false,
+  "quantitative_eligibility_authorized": false,
+  "activation": false
+}

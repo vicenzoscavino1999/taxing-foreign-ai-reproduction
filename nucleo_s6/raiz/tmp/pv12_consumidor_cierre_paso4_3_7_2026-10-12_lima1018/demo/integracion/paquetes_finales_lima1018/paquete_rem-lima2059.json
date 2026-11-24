@@ -1,0 +1,69 @@
+{
+ "tipo": "paquete por procedencia de celdas detalladas (alternativa A; preparación, NO aprobado ni incorporado)",
+ "lote": "rem-lima2059",
+ "entrega": "remanente_s2_diagnostico_e6a4_r3_incorporacion_paso4_3_7_2026-10-11_lima2059",
+ "autoridad": {
+  "sha256": "29dae035ec937447cab69645b2319f211acf040c3d50506e8137f569d41a2b12",
+  "archivo": "audit/entrega.json",
+  "estado": "autenticada por la cadena de custodia"
+ },
+ "productor": {
+  "archivo": "codigo/bloque_s1.py",
+  "sha256": "df33175fdd226cd2a94e57f8f4809adcd2ce6f3905d64f8cc4b841a11b504167"
+ },
+ "contrato": "v3",
+ "run_class": "remanente_s2_diagnostico_e6a4_r3_incorporacion_3_7",
+ "etiqueta": "REMANENTE S2 DIAGNOSTICO e6a4 R3 INCORPORACION 3.7 NO OFICIAL",
+ "carpeta_resultados": "demo/rem10/resultados",
+ "validacion": {
+  "entrega": "remanente_s2_diagnostico_e6a4_r3_incorporacion_paso4_3_7_2026-10-11_lima2059",
+  "archivo": "demo/rem10/validacion_final_REM10.json",
+  "sha256": "4b099417f0ed639fbb505088c844f10f8174f04dca2f07906f315b756bb82b73",
+  "autoridad": {
+   "sha256": "29dae035ec937447cab69645b2319f211acf040c3d50506e8137f569d41a2b12",
+   "archivo": "audit/entrega.json",
+   "estado": "autenticada por la cadena de custodia"
+  }
+ },
+ "unidades": [
+  {
+   "unidad": "S2:73abf591ad1508a1:1",
+   "familia": "S2",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "6b1573bac77d253d192da74655b08f9224c39c1380c2d7b7df93705273f33f57",
+   "filas_sha256": "df5fdce1bec188ac64a5a1a2678dfdac52ba9664dbad1bf23edaa913250c8ca2",
+   "cell_id_e12": "CEL:7e4af994ac6bcbdf5363b23e218282cf2f287300d0cc",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": []
+  },
+  {
+   "unidad": "S2:f55078d9bc0a4585:1",
+   "familia": "S2",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "5c00f08e8c2d77e9d04fe5ec0843f1e4a7c7d890f7d81e3941ce10c8f2fb5c7b",
+   "filas_sha256": "207f834f17778d9818e0b3a8b9f63339c549944695e435b06ed6f51c42e8cb9e",
+   "cell_id_e12": "CEL:7dcf2ca70db77acd161f2ec0667dc68529a6b014be27",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": []
+  }
+ ],
+ "propuesta_registro_consumidor": {
+  "area": "remanente_s2_diagnostico_e6a4_r3_incorporacion_paso4_3_7_2026-10-11_lima2059",
+  "inventario": "29dae035ec937447cab69645b2319f211acf040c3d50506e8137f569d41a2b12",
+  "codigo": [
+   "codigo/bloque_s1.py"
+  ],
+  "run_class": "remanente_s2_diagnostico_e6a4_r3_incorporacion_3_7",
+  "etiqueta": "REMANENTE S2 DIAGNOSTICO e6a4 R3 INCORPORACION 3.7 NO OFICIAL",
+  "encargo": "autorizacion/encargo.txt",
+  "contrato": "v3",
+  "productor": "codigo/bloque_s1.py",
+  "nota": "NO aplicada: el consumidor del candidato solo registra productores de paquetes de selección del paso 4; aceptar celdas detalladas por procedencia es un cambio del candidato"
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "T7": {
+  "fuente": 1728,
+  "anexo": 1728,
+  "unicas": 1728,
+  "omitidas": [],
+  "ajenas": [],
+  "por_familia": {
+   "c": 640,
+   "ci": 960,
+   "g": 128
+  },
+  "categorias": {
+   "cambio_de_signo_certificado": 1524,
+   "inconclusa_por_testigos_en_tolerancia": 188,
+   "robusta_infactible_certificada": 16
+  },
+  "testigos_con_filas": 3449,
+  "testigos_sin_filas": 7
+ },
+ "T8": {
+  "filas_fuente": 13656,
+  "unidades": 2276,
+  "filas_unicas": 13656,
+  "duplicados_identicos_fusionados": 0,
+  "celdas": 2276,
+  "cell_inversion_con_valores_distintos": 0,
+  "por_inversion": {
+   "lambda_required": 2276,
+   "gain_required": 2276,
+   "capture_required": 2276,
+   "phi_partial": 2276,
+   "external_factor": 2276,
+   "phi_total": 2276
+  },
+  "estado_por_unidad_con_fin": 4222,
+  "control_revisor": [
+   {
+    "inversion_id": "lambda_required",
+    "lambda_pi_required": 0.14726748242505988,
+    "delta_y_required": null,
+    "result_status": "outside_support"
+   },
+   {
+    "inversion_id": "gain_required",
+    "lambda_pi_required": null,
+    "delta_y_required": 0.011750735898072824,
+    "result_status": "computed"
+   }
+  ],
+  "regla_de_deduplicacion": "solo filas IDÉNTICAS byte a byte (JSON canónico) de la misma celda e inversión repetidas en varias unidades; se conservan todas las unidades fuente; valores distintos nunca se fusionan"
+ },
+ "corridas": 14,
+ "razon_SPI_QPOT_explicada": true
+}

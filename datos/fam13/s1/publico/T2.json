@@ -1,0 +1,208 @@
+{
+ "kind": "tabla-T2-rem183",
+ "objeto": "T2",
+ "titulo_diseno": "Ecuaciones de observación con su estado asignado",
+ "cita_diseno": {
+  "documento": "PLAN_DISENO_v2_2_30.md",
+  "sha256": "08fc62957ca33f413cb0c82760426b4d57b7d37f24421d6c35d5670a23e47c9a",
+  "linea": 2689
+ },
+ "estado": "candidato de preparación editorial S1 (rem183); fuera del manuscrito; no aceptado; no es exportación oficial",
+ "obligacion_posterior": "T2.tabla_cuerpo",
+ "estado_obligacion_posterior": "etapa_posterior",
+ "fuentes": [
+  {
+   "id": "P_t2",
+   "ruta": "tmp/paso4_conciliacion_portabilidad_desde_rem107/conciliacion/ensamblajes/T2.csv",
+   "sha256": "bce470b6bebcaaa5c5e8f46110972417a34b9889292c3b0a8a03704e0b9bce2d",
+   "bytes": 946,
+   "autoridad": [
+    "D_rem108"
+   ]
+  }
+ ],
+ "controles_selector": [
+  {
+   "selector": "S_T2",
+   "producto": "P_t2",
+   "filas": 8,
+   "cardinalidad": 8,
+   "duplicados": 0,
+   "huella_claves": "9d80eb996b377a94101c0732971597ee3f0d6d984468ecec6602705366d15940",
+   "huella_mapa": "9d80eb996b377a94101c0732971597ee3f0d6d984468ecec6602705366d15940",
+   "filas_mapa": 8,
+   "igual_al_mapa": true
+  }
+ ],
+ "limites_mapa": [
+  "los estados son los asignados por §6.3; no se reinterpretan"
+ ],
+ "notas_de_garantia": "evidencia_documental (D_rem108)",
+ "transformaciones_mapa": {
+  "evaluacion_cientifica": "ninguna: el ensamblado solo selecciona, une, agrupa por claves declaradas y da formato a valores aceptados; no recalcula, no reclasifica, no promedia (H12) y no elige celda de referencia",
+  "seleccion": "las 8 filas de S_T2 (clave fila)",
+  "union": "ninguna",
+  "agregacion": "ninguna",
+  "redondeo": "ninguno (texto)",
+  "formato": "una fila por ecuación"
+ },
+ "condicion_firewall": "Insertar la tabla en main.tex (secciones Quantitative Results/Discussion, marcadas FROZEN en l.720 y l.723) exige la condición del firewall: diseño §8.4, §12.5 (Gate 5), §12.6 (Gate 6), §12.7 (Fase 7, Gate 7) y H11 (l.2090). La preparación fuera del .tex no lo levanta.",
+ "notas": [
+  "extracción documentada de valores existentes (D_rem108 l.54)"
+ ],
+ "cuerpo": {
+  "filas": 8,
+  "columnas": [
+   "ecuacion",
+   "estado_asignado",
+   "fila",
+   "objeto"
+  ]
+ },
+ "filas": [
+  {
+   "ecuacion": "s_Π/(1−q_{pot})",
+   "estado_asignado": "ESCENARIO — cota estructural ejecutable",
+   "fila": "a",
+   "objeto": "λ_π",
+   "_traza": {
+    "producto": "P_t2",
+    "sha256": "bce470b6bebcaaa5c5e8f46110972417a34b9889292c3b0a8a03704e0b9bce2d",
+    "fila": 2,
+    "clave": [
+     "a"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "fila T2",
+    "clase_garantia": "evidencia_documental",
+    "fila_csv_nota": "fila = línea del CSV (cabecera = 1)"
+   }
+  },
+  {
+   "ecuacion": "Pagos_IA = Pagos_{digitales}·s_AI",
+   "estado_asignado": "ESCENARIO",
+   "fila": "b",
+   "objeto": "s_AI",
+   "_traza": {
+    "producto": "P_t2",
+    "sha256": "bce470b6bebcaaa5c5e8f46110972417a34b9889292c3b0a8a03704e0b9bce2d",
+    "fila": 3,
+    "clave": [
+     "b"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "fila T2",
+    "clase_garantia": "evidencia_documental",
+    "fila_csv_nota": "fila = línea del CSV (cabecera = 1)"
+   }
+  },
+  {
+   "ecuacion": "Pagos_{IA,no-nexus} = Pagos_IA·s_FN",
+   "estado_asignado": "ESCENARIO",
+   "fila": "c",
+   "objeto": "s_FN",
+   "_traza": {
+    "producto": "P_t2",
+    "sha256": "bce470b6bebcaaa5c5e8f46110972417a34b9889292c3b0a8a03704e0b9bce2d",
+    "fila": 4,
+    "clave": [
+     "c"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "fila T2",
+    "clase_garantia": "evidencia_documental",
+    "fila_csv_nota": "fila = línea del CSV (cabecera = 1)"
+   }
+  },
+  {
+   "ecuacion": "¿Está disponible la retención para ese par fuente–residencia? → determina si j=f y j=df entran en \\mathcal T_{c,j}",
+   "estado_asignado": "OBJETIVO DE MEDICIÓN, con fallback en §6.3.1",
+   "fila": "d",
+   "objeto": "Disponibilidad institucional del instrumento — y nada más",
+   "_traza": {
+    "producto": "P_t2",
+    "sha256": "bce470b6bebcaaa5c5e8f46110972417a34b9889292c3b0a8a03704e0b9bce2d",
+    "fila": 5,
+    "clave": [
+     "d"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "fila T2",
+    "clase_garantia": "evidencia_documental",
+    "fila_csv_nota": "fila = línea del CSV (cabecera = 1)"
+   }
+  },
+  {
+   "ecuacion": "φ_c = Σ_{p,h}ω_{cph}φ_{cph}",
+   "estado_asignado": "ESCENARIO",
+   "fila": "e",
+   "objeto": "φ",
+   "_traza": {
+    "producto": "P_t2",
+    "sha256": "bce470b6bebcaaa5c5e8f46110972417a34b9889292c3b0a8a03704e0b9bce2d",
+    "fila": 6,
+    "clave": [
+     "e"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "fila T2",
+    "clase_garantia": "evidencia_documental",
+    "fila_csv_nota": "fila = línea del CSV (cabecera = 1)"
+   }
+  },
+  {
+   "ecuacion": "Pagos/B_{pot} = κ̃_0E[ζ^ρ1\\{adopta\\}]/E[ζ]",
+   "estado_asignado": "LIMITACIÓN con la evidencia vigente; ESCENARIO conjunto restringido solo si en una sucesión futura el crosswalk y D19 son admisibles",
+   "fila": "f",
+   "objeto": "(κ̃_0,ρ,adopción)",
+   "_traza": {
+    "producto": "P_t2",
+    "sha256": "bce470b6bebcaaa5c5e8f46110972417a34b9889292c3b0a8a03704e0b9bce2d",
+    "fila": 7,
+    "clave": [
+     "f"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "fila T2",
+    "clase_garantia": "evidencia_documental",
+    "fila_csv_nota": "fila = línea del CSV (cabecera = 1)"
+   }
+  },
+  {
+   "ecuacion": "F(z)=1-(z_m/z)^a, a_structural_support=[1.1,2.5]",
+   "estado_asignado": "ESCENARIO estructural (pass_scenario)",
+   "fila": "g",
+   "objeto": "Pareto global",
+   "_traza": {
+    "producto": "P_t2",
+    "sha256": "bce470b6bebcaaa5c5e8f46110972417a34b9889292c3b0a8a03704e0b9bce2d",
+    "fila": 8,
+    "clave": [
+     "g"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "fila T2",
+    "clase_garantia": "evidencia_documental",
+    "fila_csv_nota": "fila = línea del CSV (cabecera = 1)"
+   }
+  },
+  {
+   "ecuacion": "M_c = Σ_h w_{ch}M_{ch}",
+   "estado_asignado": "LIMITACIÓN mientras no exista mapeo documentado establecimiento→empresa legal",
+   "fila": "h",
+   "objeto": "Universo y pesos",
+   "_traza": {
+    "producto": "P_t2",
+    "sha256": "bce470b6bebcaaa5c5e8f46110972417a34b9889292c3b0a8a03704e0b9bce2d",
+    "fila": 9,
+    "clave": [
+     "h"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "fila T2",
+    "clase_garantia": "evidencia_documental",
+    "fila_csv_nota": "fila = línea del CSV (cabecera = 1)"
+   }
+  }
+ ]
+}

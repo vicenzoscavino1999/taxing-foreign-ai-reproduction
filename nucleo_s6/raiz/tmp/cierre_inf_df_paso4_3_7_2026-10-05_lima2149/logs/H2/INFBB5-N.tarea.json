@@ -1,0 +1,28 @@
+{
+ "cpu_usuario_s": 383.859375,
+ "cpu_nucleo_s": 0.625,
+ "procesos_totales": 6,
+ "procesos_activos": 0,
+ "memoria_pico_job_mb": 91.5,
+ "memoria_pico_proceso_mb": 84.4,
+ "id": "INFBB5-N",
+ "comando": [
+  "bash",
+  "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149/../pilotos_b36_b37_2026-10-02/entorno/py_integracion.sh",
+  "-m",
+  "codigo.inf_df_bb_v5",
+  "N",
+  "demo/hito2/certificar_U_N_instantanea.json",
+  "demo/hito2/infbb5_N_df.json",
+  "420",
+  "3e-5"
+ ],
+ "cwd": "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149",
+ "limite_duro_s": 500.0,
+ "inicio_utc": "2026-10-06T03:43:22Z",
+ "pared_s": 420.7,
+ "codigo_salida": 0,
+ "estado": "TERMINO",
+ "cpu_total_s": 384.5,
+ "cpu_por_pared": 0.91
+}

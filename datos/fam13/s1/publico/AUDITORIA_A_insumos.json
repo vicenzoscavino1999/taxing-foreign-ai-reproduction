@@ -1,0 +1,3986 @@
+{
+ "kind": "auditoria-insumos-rem183",
+ "objeto": "A. Auditoría de insumos (§22.7)",
+ "estado": "candidato de preparación editorial S1 (rem183); fuera del manuscrito; no aceptado; no es exportación oficial",
+ "alcance": "reporte de las entradas (Exp0) de las 14 corridas T8 y de los 120 conjuntos D7 según D-EXP0 adoptada; ensamblado documental, no ejecución nueva ni certificación retrospectiva",
+ "nivel_evidencia": "evidencia_documental (clases separadas de la matriz v4)",
+ "fuentes": [
+  {
+   "id": "P_ficha_dexp0",
+   "ruta": "tmp/paso4_conexion_cinco_filas_t8_desde_rem145/decisiones/FICHA_D_EXP0_REM145.md",
+   "sha256": "f72ff8dbd605f677ea6de540fcbd441d787c84062579620846ff01fb5ea8f000",
+   "bytes": 4830,
+   "autoridad": [
+    "L_rem147"
+   ]
+  },
+  {
+   "id": "P_aut_dexp0",
+   "ruta": "tmp/paso4_cinco_filas_exp0_desde_rem144/decisiones/AUTENTICACION_FUENTES_D_EXP0.json",
+   "sha256": "7a91ffeb69aea428c6c51cc9916b13236447026f16ae8340b0163b78568dd381",
+   "bytes": 2208,
+   "autoridad": [
+    "L_rem147"
+   ]
+  },
+  {
+   "id": "P_matriz_v4",
+   "ruta": "tmp/paso4_exp0_lambda_autenticada_desde_rem134/a_exp0/salida_a2/MATRIZ_REVISADA_v4.json",
+   "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+   "bytes": 20031,
+   "autoridad": [
+    "L_rem147"
+   ]
+  },
+  {
+   "id": "P_input_audit_v4",
+   "ruta": "tmp/paso4_exp0_lambda_autenticada_desde_rem134/a_exp0/salida_a2/input_audit_report_v4.json",
+   "sha256": "fd02e9a589d6043b77efd4009c4c01abecfe1b7b44f888d92236887068568bf2",
+   "bytes": 338025,
+   "autoridad": [
+    "L_rem147"
+   ]
+  },
+  {
+   "id": "P_admisibilidad",
+   "ruta": "tmp/paso4_conciliacion_portabilidad_desde_rem107/conciliacion/ensamblajes/admissibility_report.csv",
+   "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+   "bytes": 33430,
+   "autoridad": [
+    "D_rem108"
+   ]
+  },
+  {
+   "id": "P_registro_18_7",
+   "ruta": "tmp/paso4_supremos_gn_auditoria_desde_rem174/bloque_b/salida_1/REGISTRO_LOCALIZACION_18_7_REM174.json",
+   "sha256": "429dd087bd80cadbf33cd5c9c75ad13f5e54a26d7852330d73a78945a6eb07b1",
+   "bytes": 50433,
+   "autoridad": [
+    "D_rem174",
+    "D_rem176",
+    "A_rem177_cierre"
+   ]
+  },
+  {
+   "id": "P_t8_vista_C5B",
+   "ruta": "tmp/paso4_emision_cinco_filas_t8_desde_rem146/t8_c5b_vista_T8_C5B/VISTA_T8_CAPTURA.jsonl",
+   "sha256": "12826a0518b4a7479f135d47b4e387cf73e43d73744d576e53b375f969a199a2",
+   "bytes": 25325993,
+   "autoridad": [
+    "L_rem147"
+   ]
+  }
+ ],
+ "D_EXP0": {
+  "adopted": true,
+  "adopted_text": "Adoptar D-EXP0 para reportar las entradas de las catorce corridas T8 mediante las clases separadas de la matriz v4: evidencia contemporánea, incluida H30 complete_with_limitations; evidencia retrospectiva comprobada R1/H4; reconstrucción de circularidad; y documentos contemporáneos no localizados en el corpus revisado. R1 no valida empíricamente los escenarios. La excepción formal H4 de eta_w=0,3 se declara sin efecto en los 120 conjuntos D7 comprobados y sin afirmar ausencia universal de calibración oculta. La selección planificada completa sigue desconocida y Gate 0 no recibe un PASS global. No se retrofechan auditorías ni se alteran resultados o código histórico.",
+  "Gate0_global_PASS": false,
+  "Gate0_global_PASS_libro": false,
+  "ficha_sha256": "f72ff8dbd605f677ea6de540fcbd441d787c84062579620846ff01fb5ea8f000"
+ },
+ "recuentos": {
+  "conjuntos": 120,
+  "corridas": 14,
+  "requisitos": 42,
+  "requisitos_por_clase": {
+   "obligacion_fase_posterior": 9,
+   "retrospectiva_comprobada": 19,
+   "contemporanea": 10,
+   "retrospectiva_comprobada_con_hallazgo": 1,
+   "reconstruccion_rem133": 1,
+   "limitacion_no_recuperable": 2
+  },
+  "corridas_en_T8": 14,
+  "corridas_en_input_audit_report_v4": 14
+ },
+ "clases_D_EXP0": {
+  "contemporanea": [
+   "H3",
+   "H9",
+   "H13",
+   "H27",
+   "H30",
+   "G0-REGISTRO",
+   "G0-SOPORTES",
+   "G0-ADMISIBILIDAD",
+   "G0-HARD_FAIL",
+   "G0-INADMISIBLES"
+  ],
+  "retrospectiva_comprobada": [
+   "H2",
+   "H4",
+   "H5",
+   "H6",
+   "H7",
+   "H8",
+   "H10",
+   "H14",
+   "H15",
+   "H16",
+   "H17",
+   "H19",
+   "H20",
+   "H21",
+   "H22",
+   "H23",
+   "H26",
+   "R1",
+   "R3",
+   "R4"
+  ],
+  "reconstruccion_circularidad": [
+   "G0-CIRCULARIDAD"
+  ],
+  "documentos_contemporaneos_no_localizados": [
+   "E-INPUT_AUDIT",
+   "E-RUN_MANIFEST"
+  ],
+  "obligacion_fase_posterior": [
+   "H1",
+   "H11",
+   "H12",
+   "H18",
+   "H24",
+   "H25",
+   "H28",
+   "H28-bis",
+   "H29"
+  ]
+ },
+ "hallazgos": [
+  "H30 es contemporánea con limitaciones (fase_estado complete_with_limitations en su evidencia almacenada)",
+  "R1: 2.520 vinculaciones coinciden con el rango documentado; R1 no valida empíricamente los escenarios",
+  "H4: excepción formal η_w = 0,3 sin efecto en los 120 conjuntos D7 comprobados (L_rem147 l.565); no se afirma ausencia universal de calibración oculta",
+  "E-INPUT_AUDIT y E-RUN_MANIFEST: no localizados en el corpus revisado (la matriz almacena «no_existio»; D-EXP0 no afirma que nunca existieran)"
+ ],
+ "limitaciones_adoptadas": [
+  "Adoptar D-EXP0 para reportar las entradas de las catorce corridas T8 mediante las clases separadas de la matriz v4: evidencia contemporánea, incluida H30 complete_with_limitations; evidencia retrospectiva comprobada R1/H4; reconstrucción de circularidad; y documentos contemporáneos no localizados en el corpus revisado. R1 no valida empíricamente los escenarios. La excepción formal H4 de eta_w=0,3 se declara sin efecto en los 120 conjuntos D7 comprobados y sin afirmar ausencia universal de calibración oculta. La selección planificada completa sigue desconocida y Gate 0 no recibe un PASS global. No se retrofechan auditorías ni se alteran resultados o código histórico.",
+  "Gate 0 sin PASS global (L_rem147 /Gate0_global_PASS = false)",
+  "la selección planificada completa sigue desconocida",
+  "no localizado en el corpus revisado"
+ ],
+ "requisitos": [
+  {
+   "requisito": "H1",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "`δ̃` reportado sin `δ`, o al revés",
+   "linea_diseno": 2080,
+   "clase_evidencia": "obligacion_fase_posterior",
+   "resultado": "asignada_a_presentacion_o_exportacion",
+   "evidencia": "exportación: toda tabla que publique δ̃ debe publicar δ (y al revés) — comprobación de esquema de exportación",
+   "accion_minima": "comprobar en la fase de manuscrito/exportación con ese criterio",
+   "clase_D_EXP0": "obligación de fase posterior",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/0",
+    "clave": [
+     "H1"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H2",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "Combinación con `q_{pot}≥1` o `1+η_H≤0`",
+   "linea_diseno": 2081,
+   "clase_evidencia": "retrospectiva_comprobada",
+   "resultado": "comprobada",
+   "evidencia": "filas lambda_pi_envelope (q_pot, η_H) de las 2.276 celdas: 0 afectadas (rem132)",
+   "accion_minima": null,
+   "clase_D_EXP0": "retrospectiva comprobada",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/1",
+    "clave": [
+     "H2"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H3",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "Parámetro calibrado ausente del registro",
+   "linea_diseno": 2082,
+   "clase_evidencia": "contemporanea",
+   "resultado": "satisfecha",
+   "evidencia": "G14 (construir_d7.py (toolchain S5, 5f15b2193f3caff1) líneas [466]): used − registered = ∅ y sin primitivas sin vincular; corresponde a «parámetro ausente del registro»; hidden [464]",
+   "accion_minima": null,
+   "clase_D_EXP0": "contemporánea",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/2",
+    "clave": [
+     "H3"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H4",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "Literal numérico en código de un objeto de §9.3",
+   "linea_diseno": 2083,
+   "clase_evidencia": "retrospectiva_comprobada_con_hallazgo",
+   "resultado": "sin_calibracion_oculta; hallazgo_formal_sin_impacto_numerico",
+   "evidencia": "43 literales de objetos §9.3 en el núcleo histórico (una versión): 38 comparaciones de dominio/caso límite y 5 anotados como no calibración (c_legal por defecto = constante fija; φ de relleno para B_pot; intercepto de un sustituto sintético). Hallazgo formal: umbrales literales de bloque de η_w en run.py (0.4/1 registrados; 0.3 no registrado, en el hueco sin soporte) y BLOCKS del productor D7 que duplica primary_blocks de formulas.json. ε_num/ε_econ no se identifican por nombre: las tolerancias se fijan por la identidad técnica (tolerances_sha256)",
+   "accion_minima": "decisión del revisor: si los literales de bloque/tolerancia, coincidentes con el registro y fijados por hash, satisfacen §9.3 o exigen leerlos del registro en una sucesión de código",
+   "clase_D_EXP0": "retrospectiva comprobada (con hallazgo formal)",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/3",
+    "clave": [
+     "H4"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H5",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "`circularity_check = FAIL`",
+   "linea_diseno": 2084,
+   "clase_evidencia": "retrospectiva_comprobada",
+   "resultado": "comprobada_con_reconstruccion",
+   "evidencia": "G11 (construir_d7.py (toolchain S5, 5f15b2193f3caff1) líneas [452]) cubre escenarios/c_legal/c_trace; circularity_audit RECONSTRUIDO en rem133: {'PASS': 44, 'DERIVADO_DEL_REQUERIMIENTO_EXTERNO': 5, 'REQUERIMIENTO_EXTERNO_DEL_COMPANERO': 2, 'INACTIVO': 11}",
+   "accion_minima": "el revisor debe aceptar la reconstrucción y la frontera «compañero» = fase5_cuantificacion/ (Q/DME son requerimiento externo por diseño)",
+   "clase_D_EXP0": "retrospectiva comprobada",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/4",
+    "clave": [
+     "H5"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H6",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "Mezcla de rutas efectiva y estatutaria en `s_T^{marg}`",
+   "linea_diseno": 2085,
+   "clase_evidencia": "retrospectiva_comprobada",
+   "resultado": "comprobada",
+   "evidencia": "macro.bridge: s_T_marg = Σ π_j·s̄_j con s̄_j de las cuentas (D6 efectivo) y sin tasas en macro.py; la tasa estatutaria solo entra en la sección R2 «tau_d_estatutario»",
+   "accion_minima": null,
+   "clase_D_EXP0": "retrospectiva comprobada",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/5",
+    "clave": [
+     "H6"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H7",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "`F^{fix}` sumado fuera de `𝒬`",
+   "linea_diseno": 2086,
+   "clase_evidencia": "retrospectiva_comprobada",
+   "resultado": "comprobada",
+   "evidencia": "F_fix solo existe en external.py dentro de Q (cotas sin_addback/addback_completo) con identities() T1=1e-12; ningún otro módulo lo suma",
+   "accion_minima": null,
+   "clase_D_EXP0": "retrospectiva comprobada",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/6",
+    "clave": [
+     "H7"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H8",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "Uso de `1−φ` como participación del proveedor a `τ_f` finito",
+   "linea_diseno": 2087,
+   "clase_evidencia": "retrospectiva_comprobada",
+   "resultado": "comprobada",
+   "evidencia": "provider_share: fórmula exacta (1.50); 1−φ solo en τ_f=0 y los llamadores registran s_P=None en τ_f=0",
+   "accion_minima": null,
+   "clase_D_EXP0": "retrospectiva comprobada",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/7",
+    "clave": [
+     "H8"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H9",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "Consumo de un `central` cuando `has_central = FALSE`",
+   "linea_diseno": 2088,
+   "clase_evidencia": "contemporanea",
+   "resultado": "satisfecha",
+   "evidencia": "G05 (construir_d7.py (toolchain S5, 5f15b2193f3caff1) líneas [433]): no_center = ningún soporte con central (línea [427]); no hay central que consumir",
+   "accion_minima": null,
+   "clase_D_EXP0": "contemporánea",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/8",
+    "clave": [
+     "H9"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H10",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "Hash de la grilla externa distinto del registrado",
+   "linea_diseno": 2089,
+   "clase_evidencia": "retrospectiva_comprobada",
+   "resultado": "comprobada",
+   "evidencia": "contexto_s5: need GRID_HASH contra la dependencia D7; la grilla vigente conserva el sha256 de D7",
+   "accion_minima": null,
+   "clase_D_EXP0": "retrospectiva comprobada",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/9",
+    "clave": [
+     "H10"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H11",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "Cifra de resultado en el `.tex` antes del congelamiento",
+   "linea_diseno": 2090,
+   "clase_evidencia": "obligacion_fase_posterior",
+   "resultado": "asignada_a_presentacion_o_exportacion",
+   "evidencia": "manuscrito: ninguna cifra de resultado en el .tex antes del congelamiento (control del firewall)",
+   "accion_minima": "comprobar en la fase de manuscrito/exportación con ese criterio",
+   "clase_D_EXP0": "obligación de fase posterior",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/10",
+    "clave": [
+     "H11"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H12",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "Promedio sobre países o sobre la grilla de escenarios",
+   "linea_diseno": 2091,
+   "clase_evidencia": "obligacion_fase_posterior",
+   "resultado": "asignada_a_presentacion_o_exportacion",
+   "evidencia": "presentación: ningún promedio sobre países ni sobre la grilla de escenarios",
+   "accion_minima": "comprobar en la fase de manuscrito/exportación con ese criterio",
+   "clase_D_EXP0": "obligación de fase posterior",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/11",
+    "clave": [
+     "H12"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H13",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "`c_{trace}` usado como factor multiplicativo de `B_f`",
+   "linea_diseno": 2092,
+   "clase_evidencia": "contemporanea",
+   "resultado": "satisfecha",
+   "evidencia": "parameter_registry c_trace inactive_reason=H13_NO_TRACE_FACTOR; G11 trace_inactive [450]",
+   "accion_minima": null,
+   "clase_D_EXP0": "contemporánea",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/12",
+    "clave": [
+     "H13"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H14",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "`s_T^{marg}<0`, `s_Π^{marg}<0` o `λ_π≤0`",
+   "linea_diseno": 2093,
+   "clase_evidencia": "retrospectiva_comprobada",
+   "resultado": "comprobada",
+   "evidencia": "filas lambda_pi_envelope (s_T_marg, λ_π): 0 afectadas (rem132)",
+   "accion_minima": null,
+   "clase_D_EXP0": "retrospectiva comprobada",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/13",
+    "clave": [
+     "H14"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H15",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "`B_d` calculado sin el término `E_0^v`, o con `E_0^v` multiplicado por `r^*`",
+   "linea_diseno": 2094,
+   "clase_evidencia": "retrospectiva_comprobada",
+   "resultado": "comprobada",
+   "evidencia": "evaluate: B_d = E0 + td_r * A (E0 sin r*)",
+   "accion_minima": null,
+   "clase_D_EXP0": "retrospectiva comprobada",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/14",
+    "clave": [
+     "H15"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H16",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "`B_f` integrado sobre todos los adoptantes en vez de `D_F^v`",
+   "linea_diseno": 2095,
+   "clase_evidencia": "retrospectiva_comprobada",
+   "resultado": "comprobada",
+   "evidencia": "evaluate: W acumula solo en intervalos con etiqueta F del diseño (D_F^v); B_f = q κ0 g W",
+   "accion_minima": null,
+   "clase_D_EXP0": "retrospectiva comprobada",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/15",
+    "clave": [
+     "H16"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H17",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "Detector de régimen basado en derivadas",
+   "linea_diseno": 2096,
+   "clase_evidencia": "retrospectiva_comprobada",
+   "resultado": "comprobada_estatica",
+   "evidencia": "contour.py: régimen por etiqueta de topología en nodos y punto medio (_level/_Edge1D, sin derivadas); run.py pasa reg = cs(td, tf)[1]; las derivadas del archivo son de la certificación de cruces tangentes; prueba discriminante con fixture",
+   "accion_minima": null,
+   "clase_D_EXP0": "retrospectiva comprobada",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/16",
+    "clave": [
+     "H17"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H18",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "Reporte de \"el par `(\\tau_d,\\tau_f)`\" en singular",
+   "linea_diseno": 2097,
+   "clase_evidencia": "obligacion_fase_posterior",
+   "resultado": "asignada_a_presentacion_o_exportacion",
+   "evidencia": "presentación: la solución se reporta como curva R1 o raíz de sección R2, nunca «el par»",
+   "accion_minima": "comprobar en la fase de manuscrito/exportación con ese criterio",
+   "clase_D_EXP0": "obligación de fase posterior",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/17",
+    "clave": [
+     "H18"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H19",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "Uso de un método unidimensional de raíces para resolver `R^v=R^{req}` en las dos tasas",
+   "linea_diseno": 2098,
+   "clase_evidencia": "retrospectiva_comprobada",
+   "resultado": "comprobada_estatica",
+   "evidencia": "R1 por marching squares (contour.py) y R2 por sección (sections.py); ninguna raíz 1-D en dos tasas",
+   "accion_minima": null,
+   "clase_D_EXP0": "retrospectiva comprobada",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/18",
+    "clave": [
+     "H19"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H20",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "**Solo si `extension_legal_enabled=TRUE`:** `c_{legal}` aplicado a `R` pero no a las ganancias",
+   "linea_diseno": 2099,
+   "clase_evidencia": "retrospectiva_comprobada",
+   "resultado": "comprobada_inactiva",
+   "evidencia": "c_legal = 1 en todas las celdas y en D7 (CON.CLEGAL)",
+   "accion_minima": null,
+   "clase_D_EXP0": "retrospectiva comprobada",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/19",
+    "clave": [
+     "H20"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H21",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "`κ_0` distinto entre las corridas de G y de N",
+   "linea_diseno": 2100,
+   "clase_evidencia": "retrospectiva_comprobada",
+   "resultado": "comprobada",
+   "evidencia": "omega_id común a G y N fija κ̃; 58 pares omega/país con G y N, 0 con κ̃ distinto",
+   "accion_minima": null,
+   "clase_D_EXP0": "retrospectiva comprobada",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/20",
+    "clave": [
+     "H21"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H22",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "`c_{legal}\\neq1` en **cualquier** corrida, incluidas las de robustez",
+   "linea_diseno": 2101,
+   "clase_evidencia": "retrospectiva_comprobada",
+   "resultado": "comprobada",
+   "evidencia": "c_legal = 1 en todas las celdas; D7 CON.CLEGAL hard_fail (d7build, nota «H22»)",
+   "accion_minima": null,
+   "clase_D_EXP0": "retrospectiva comprobada",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/21",
+    "clave": [
+     "H22"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H23",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "Contorno de R1 trazado a través de una discontinuidad de régimen",
+   "linea_diseno": 2110,
+   "clase_evidencia": "retrospectiva_comprobada",
+   "resultado": "comprobada",
+   "evidencia": "contour.py rechaza cruces por salto (nota H23); 0 cruces rechazados en las celdas",
+   "accion_minima": null,
+   "clase_D_EXP0": "retrospectiva comprobada",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/22",
+    "clave": [
+     "H23"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H24",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "Salida o texto que presente la **cobertura jurídica efectiva** como medida",
+   "linea_diseno": 2102,
+   "clase_evidencia": "obligacion_fase_posterior",
+   "resultado": "asignada_a_presentacion_o_exportacion",
+   "evidencia": "presentación: no presentar cobertura jurídica efectiva como medida",
+   "accion_minima": "comprobar en la fase de manuscrito/exportación con ese criterio",
+   "clase_D_EXP0": "obligación de fase posterior",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/23",
+    "clave": [
+     "H24"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H25",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "Titular de **factibilidad** o lectura de política por país en una celda con `availability_assumed = TRUE`",
+   "linea_diseno": 2103,
+   "clase_evidencia": "obligacion_fase_posterior",
+   "resultado": "asignada_a_presentacion_o_exportacion",
+   "evidencia": "presentación: sin titular de factibilidad en celdas availability_assumed (alcance por corrida derivado)",
+   "accion_minima": "comprobar en la fase de manuscrito/exportación con ese criterio",
+   "clase_D_EXP0": "obligación de fase posterior",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/24",
+    "clave": [
+     "H25"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H26",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "`C_2 = 0` en una celda con `instrument_available = FALSE`",
+   "linea_diseno": 2108,
+   "clase_evidencia": "retrospectiva_comprobada",
+   "resultado": "comprobada",
+   "evidencia": "capture_ceiling_result + instrument_available: 0 afectadas (rem132)",
+   "accion_minima": null,
+   "clase_D_EXP0": "retrospectiva comprobada",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/25",
+    "clave": [
+     "H26"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H27",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "Escenario de coordinación elegido o modificado después de ver resultados",
+   "linea_diseno": 2109,
+   "clase_evidencia": "contemporanea",
+   "resultado": "satisfecha",
+   "evidencia": "scenario_map (coordination_scenario_id) versionado en D7 creado 2026-10-02T05:44:03.732376+00:00, antes de la primera ejecución 2026-10-10T03:11:04Z",
+   "accion_minima": null,
+   "clase_D_EXP0": "contemporánea",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/26",
+    "clave": [
+     "H27"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H28",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "Presentar `conditional_full` y `conditional_none` como **cotas**, como **ordenamiento**, o como base de cualquier inferencia sobre el caso MIXED real",
+   "linea_diseno": 2104,
+   "clase_evidencia": "obligacion_fase_posterior",
+   "resultado": "asignada_a_presentacion_o_exportacion",
+   "evidencia": "presentación: conditional_full/none no son cotas ni ordenamiento",
+   "accion_minima": "comprobar en la fase de manuscrito/exportación con ese criterio",
+   "clase_D_EXP0": "obligación de fase posterior",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/27",
+    "clave": [
+     "H28"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H28-bis",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "**Cualquier** titular sobre la situación real del país en una celda MIXED/UNKNOWN, de factibilidad o de infactibilidad",
+   "linea_diseno": 2105,
+   "clase_evidencia": "obligacion_fase_posterior",
+   "resultado": "asignada_a_presentacion_o_exportacion",
+   "evidencia": "presentación: sin titular sobre el caso real en celdas MIXED/UNKNOWN (alcance derivado)",
+   "accion_minima": "comprobar en la fase de manuscrito/exportación con ese criterio",
+   "clase_D_EXP0": "obligación de fase posterior",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/28",
+    "clave": [
+     "H28-bis"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H29",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "Celda MIXED/UNKNOWN **agregada** a un único estado de disponibilidad",
+   "linea_diseno": 2106,
+   "clase_evidencia": "obligacion_fase_posterior",
+   "resultado": "asignada_a_presentacion_o_exportacion",
+   "evidencia": "presentación: no agregar MIXED/UNKNOWN a un único estado (alcance derivado)",
+   "accion_minima": "comprobar en la fase de manuscrito/exportación con ese criterio",
+   "clase_D_EXP0": "obligación de fase posterior",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/29",
+    "clave": [
+     "H29"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H30",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "Índice canónico de manifiestos de derivación duplicado, incompleto, con ruta absoluta o que escapa mediante `..`, hash falso, conteo incoherente, manifiesto no referenciado o bundle hash que no reproduce",
+   "linea_diseno": 2107,
+   "clase_evidencia": "contemporanea",
+   "resultado": "comprobada",
+   "evidencia": "índice D-3 6e2ac8eb42f8: {'esquema_cerrado': True, 'conteo_coherente': True, 'entradas_cinco_campos': True, 'claves_unicas_y_ordenadas': True, 'rutas_relativas_sin_escape': True, 'hashes_reproducen': True, 'evidencia_sin_manifiesto_no_indexado': True, 'fase_una_fila': True, 'fase_conteo_igual': True, 'fase_bundle_igual_bytes': True, 'fase_estado': 'complete_with_limitations', 'fase_bundle_es_bytes_del_archivo': True}; enlaces D2/D6/bundles {'d2_version': (True, 14), 'd6_v2_version': (True, 6), 'ca2_bundles_index': (True, 39)}",
+   "accion_minima": null,
+   "clase_D_EXP0": "contemporánea",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/30",
+    "clave": [
+     "H30"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "R1",
+   "tipo": "compuerta",
+   "nivel": "robustness_only",
+   "texto_diseno": "Fila de observación en estado ESCENARIO sin rango defendible documentado",
+   "linea_diseno": 2116,
+   "clase_evidencia": "retrospectiva_comprobada",
+   "resultado": "comprobada",
+   "evidencia": "2520 vinculaciones declared_scenario: {'coincide_con_rango_documentado': 2520} (rango documentado = formulas.json + transformación declarada del conjunto)",
+   "accion_minima": null,
+   "clase_D_EXP0": "retrospectiva comprobada",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/31",
+    "clave": [
+     "R1"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "R3",
+   "tipo": "compuerta",
+   "nivel": "robustness_only",
+   "texto_diseno": "Uso de la ruta estatutaria de `s_T^{marg}`",
+   "linea_diseno": 2117,
+   "clase_evidencia": "retrospectiva_comprobada",
+   "resultado": "comprobada_no_usada",
+   "evidencia": "la ruta estatutaria no interviene en s_T_marg (misma prueba que H6); ninguna celda la usa",
+   "accion_minima": null,
+   "clase_D_EXP0": "retrospectiva comprobada",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/32",
+    "clave": [
+     "R3"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "R4",
+   "tipo": "compuerta",
+   "nivel": "robustness_only",
+   "texto_diseno": "Celda con `outside_support = TRUE` en la inversión",
+   "linea_diseno": 2118,
+   "clase_evidencia": "retrospectiva_comprobada",
+   "resultado": "comprobada_definitivas",
+   "evidencia": "outside_support definitivo por celda; cotas mientras T8 siga pendiente",
+   "accion_minima": "cerrar T8 (λ en B; captura en C)",
+   "clase_D_EXP0": "retrospectiva comprobada",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/33",
+    "clave": [
+     "R4"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "G0-REGISTRO",
+   "tipo": "objeto_gate0",
+   "nivel": null,
+   "texto_diseno": "registro de parámetros calibrados (calibrated_parameter_registry)",
+   "linea_diseno": null,
+   "clase_evidencia": "contemporanea",
+   "resultado": "satisfecha_parcial",
+   "evidencia": "parameter_registry.csv versionado; sin columnas circularity_check/audit_status del §9 (reconstruidas en A4)",
+   "accion_minima": null,
+   "clase_D_EXP0": "contemporánea",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/34",
+    "clave": [
+     "G0-REGISTRO"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "G0-SOPORTES",
+   "tipo": "objeto_gate0",
+   "nivel": null,
+   "texto_diseno": "conjunto de soportes (support_set)",
+   "linea_diseno": null,
+   "clase_evidencia": "contemporanea",
+   "resultado": "satisfecha",
+   "evidencia": "support_set(s).csv versionados con hash",
+   "accion_minima": null,
+   "clase_D_EXP0": "contemporánea",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/35",
+    "clave": [
+     "G0-SOPORTES"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "G0-ADMISIBILIDAD",
+   "tipo": "objeto_gate0",
+   "nivel": null,
+   "texto_diseno": "reporte de admisibilidad con conteo de descartadas",
+   "linea_diseno": null,
+   "clase_evidencia": "contemporanea",
+   "resultado": "satisfecha_datos",
+   "evidencia": "d7_admissibility_report.csv: 1.080 filas, rechazos contados (0)",
+   "accion_minima": null,
+   "clase_D_EXP0": "contemporánea",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/36",
+    "clave": [
+     "G0-ADMISIBILIDAD"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "G0-CIRCULARIDAD",
+   "tipo": "objeto_gate0",
+   "nivel": null,
+   "texto_diseno": "auditoría de circularidad (circularity_audit)",
+   "linea_diseno": null,
+   "clase_evidencia": "reconstruccion_rem133",
+   "resultado": "reconstruida_hoy",
+   "evidencia": "no existía como objeto; reconstruida en A4 con {'PASS': 44, 'DERIVADO_DEL_REQUERIMIENTO_EXTERNO': 5, 'REQUERIMIENTO_EXTERNO_DEL_COMPANERO': 2, 'INACTIVO': 11}",
+   "accion_minima": "aceptación del revisor de la reconstrucción",
+   "clase_D_EXP0": "reconstrucción (circularidad)",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/37",
+    "clave": [
+     "G0-CIRCULARIDAD"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "G0-HARD_FAIL",
+   "tipo": "objeto_gate0",
+   "nivel": null,
+   "texto_diseno": "cero hard_fail",
+   "linea_diseno": null,
+   "clase_evidencia": "contemporanea",
+   "resultado": "satisfecha_en_D7",
+   "evidencia": "hard_fail_count 0 en las compuertas IMPLEMENTADAS en D7; no certifica todo §11",
+   "accion_minima": null,
+   "clase_D_EXP0": "contemporánea",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/38",
+    "clave": [
+     "G0-HARD_FAIL"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "G0-INADMISIBLES",
+   "tipo": "objeto_gate0",
+   "nivel": null,
+   "texto_diseno": "conteo de inadmisibles reportado",
+   "linea_diseno": null,
+   "clase_evidencia": "contemporanea",
+   "resultado": "satisfecha",
+   "evidencia": "rechazos contados por conjunto, capa y restricción",
+   "accion_minima": null,
+   "clase_D_EXP0": "contemporánea",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/39",
+    "clave": [
+     "G0-INADMISIBLES"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "E-INPUT_AUDIT",
+   "tipo": "objeto_exp0",
+   "nivel": null,
+   "texto_diseno": "input_audit_report por run_id (§10.14, §11.4, §18.6)",
+   "linea_diseno": null,
+   "clase_evidencia": "limitacion_no_recuperable",
+   "resultado": "no_existio",
+   "evidencia": "ninguna corrida emitió input_audit_report; este derivado es reconstrucción",
+   "accion_minima": "D-EXP0: aceptar la reconstrucción declarada",
+   "clase_D_EXP0": "documento contemporáneo no localizado en el corpus revisado",
+   "nota_D_EXP0": "la matriz v4 almacena «no_existio»; D-EXP0 adoptada (ficha rem145 §3b) lo reporta como no localizado: no prueba que nunca existiera",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/40",
+    "clave": [
+     "E-INPUT_AUDIT"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "E-RUN_MANIFEST",
+   "tipo": "objeto_exp0",
+   "nivel": null,
+   "texto_diseno": "run_manifest: n_inadmissible y run_readiness_flag (§18.1, §8.3)",
+   "linea_diseno": null,
+   "clase_evidencia": "limitacion_no_recuperable",
+   "resultado": "no_existio",
+   "evidencia": "sin run_manifest por corrida; run_readiness_flag=False por CONTRATO de la ruta no oficial (run.py fija False; rules.py lo exige sin D8_pre PASS), no por fallo de las celdas",
+   "accion_minima": "D-EXP0",
+   "clase_D_EXP0": "documento contemporáneo no localizado en el corpus revisado",
+   "nota_D_EXP0": "la matriz v4 almacena «no_existio»; D-EXP0 adoptada (ficha rem145 §3b) lo reporta como no localizado: no prueba que nunca existiera",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/41",
+    "clave": [
+     "E-RUN_MANIFEST"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  }
+ ],
+ "corridas": [
+  {
+   "run_id": "BRUN-050091213b198d7cd7ba9ea2",
+   "entrega": "PRIV-e0d9520ea94836bc",
+   "filas_T8": 66,
+   "input_audit_report_v4_por_clase": {
+    "obligacion_fase_posterior": 9,
+    "retrospectiva_comprobada": 18,
+    "contemporanea": 4,
+    "pendiente_tecnica": 3
+   },
+   "filas_input_audit_report_v4": 34,
+   "registro_18_7": "no localizado en el corpus revisado",
+   "_traza": {
+    "producto": "P_registro_18_7",
+    "sha256": "429dd087bd80cadbf33cd5c9c75ad13f5e54a26d7852330d73a78945a6eb07b1",
+    "fila": "/corridas/0",
+    "clave": [
+     "BRUN-050091213b198d7cd7ba9ea2"
+    ]
+   }
+  },
+  {
+   "run_id": "BRUN-1368187e9a43de0d95926dca",
+   "entrega": "PRIV-2305a8b97732707d",
+   "filas_T8": 684,
+   "input_audit_report_v4_por_clase": {
+    "obligacion_fase_posterior": 9,
+    "retrospectiva_comprobada": 18,
+    "contemporanea": 4,
+    "pendiente_tecnica": 3
+   },
+   "filas_input_audit_report_v4": 34,
+   "registro_18_7": "no localizado en el corpus revisado",
+   "_traza": {
+    "producto": "P_registro_18_7",
+    "sha256": "429dd087bd80cadbf33cd5c9c75ad13f5e54a26d7852330d73a78945a6eb07b1",
+    "fila": "/corridas/1",
+    "clave": [
+     "BRUN-1368187e9a43de0d95926dca"
+    ]
+   }
+  },
+  {
+   "run_id": "BRUN-47e3d9f48d2b65e9ddeed02f",
+   "entrega": "PRIV-5fa75f5a41e0f7bf",
+   "filas_T8": 12,
+   "input_audit_report_v4_por_clase": {
+    "obligacion_fase_posterior": 9,
+    "retrospectiva_comprobada": 18,
+    "contemporanea": 4,
+    "pendiente_tecnica": 3
+   },
+   "filas_input_audit_report_v4": 34,
+   "registro_18_7": "no localizado en el corpus revisado",
+   "_traza": {
+    "producto": "P_registro_18_7",
+    "sha256": "429dd087bd80cadbf33cd5c9c75ad13f5e54a26d7852330d73a78945a6eb07b1",
+    "fila": "/corridas/2",
+    "clave": [
+     "BRUN-47e3d9f48d2b65e9ddeed02f"
+    ]
+   }
+  },
+  {
+   "run_id": "BRUN-4ef8507fcdefbddc55dbc3b7",
+   "entrega": "PRIV-b29481d6bdc2724f",
+   "filas_T8": 1014,
+   "input_audit_report_v4_por_clase": {
+    "obligacion_fase_posterior": 9,
+    "retrospectiva_comprobada": 18,
+    "contemporanea": 4,
+    "pendiente_tecnica": 3
+   },
+   "filas_input_audit_report_v4": 34,
+   "registro_18_7": "no localizado en el corpus revisado",
+   "_traza": {
+    "producto": "P_registro_18_7",
+    "sha256": "429dd087bd80cadbf33cd5c9c75ad13f5e54a26d7852330d73a78945a6eb07b1",
+    "fila": "/corridas/3",
+    "clave": [
+     "BRUN-4ef8507fcdefbddc55dbc3b7"
+    ]
+   }
+  },
+  {
+   "run_id": "BRUN-5b35ba3f51bc08bd48b384bd",
+   "entrega": "PRIV-3f0dc579a8229f90",
+   "filas_T8": 3456,
+   "input_audit_report_v4_por_clase": {
+    "obligacion_fase_posterior": 9,
+    "retrospectiva_comprobada": 18,
+    "contemporanea": 4,
+    "pendiente_tecnica": 3
+   },
+   "filas_input_audit_report_v4": 34,
+   "registro_18_7": "no localizado en el corpus revisado",
+   "_traza": {
+    "producto": "P_registro_18_7",
+    "sha256": "429dd087bd80cadbf33cd5c9c75ad13f5e54a26d7852330d73a78945a6eb07b1",
+    "fila": "/corridas/4",
+    "clave": [
+     "BRUN-5b35ba3f51bc08bd48b384bd"
+    ]
+   }
+  },
+  {
+   "run_id": "BRUN-612818cb081c6797d4923b4d",
+   "entrega": "PRIV-5f4f1376e446e66d",
+   "filas_T8": 2280,
+   "input_audit_report_v4_por_clase": {
+    "obligacion_fase_posterior": 9,
+    "retrospectiva_comprobada": 18,
+    "contemporanea": 4,
+    "pendiente_tecnica": 3
+   },
+   "filas_input_audit_report_v4": 34,
+   "registro_18_7": "no localizado en el corpus revisado",
+   "_traza": {
+    "producto": "P_registro_18_7",
+    "sha256": "429dd087bd80cadbf33cd5c9c75ad13f5e54a26d7852330d73a78945a6eb07b1",
+    "fila": "/corridas/5",
+    "clave": [
+     "BRUN-612818cb081c6797d4923b4d"
+    ]
+   }
+  },
+  {
+   "run_id": "BRUN-63a9e9ea157b2faaf317ae61",
+   "entrega": "PRIV-81b14948c08a0578",
+   "filas_T8": 798,
+   "input_audit_report_v4_por_clase": {
+    "obligacion_fase_posterior": 9,
+    "retrospectiva_comprobada": 18,
+    "contemporanea": 4,
+    "pendiente_tecnica": 3
+   },
+   "filas_input_audit_report_v4": 34,
+   "registro_18_7": "no localizado en el corpus revisado",
+   "_traza": {
+    "producto": "P_registro_18_7",
+    "sha256": "429dd087bd80cadbf33cd5c9c75ad13f5e54a26d7852330d73a78945a6eb07b1",
+    "fila": "/corridas/6",
+    "clave": [
+     "BRUN-63a9e9ea157b2faaf317ae61"
+    ]
+   }
+  },
+  {
+   "run_id": "BRUN-7bdfe0a1bee57298e31e1b34",
+   "entrega": "PRIV-6a906043e947a85a",
+   "filas_T8": 606,
+   "input_audit_report_v4_por_clase": {
+    "obligacion_fase_posterior": 9,
+    "retrospectiva_comprobada": 18,
+    "contemporanea": 4,
+    "pendiente_tecnica": 3
+   },
+   "filas_input_audit_report_v4": 34,
+   "registro_18_7": "no localizado en el corpus revisado",
+   "_traza": {
+    "producto": "P_registro_18_7",
+    "sha256": "429dd087bd80cadbf33cd5c9c75ad13f5e54a26d7852330d73a78945a6eb07b1",
+    "fila": "/corridas/7",
+    "clave": [
+     "BRUN-7bdfe0a1bee57298e31e1b34"
+    ]
+   }
+  },
+  {
+   "run_id": "BRUN-991c466a1938ddbf2192eefb",
+   "entrega": "PRIV-5dc13bff815c0803",
+   "filas_T8": 1128,
+   "input_audit_report_v4_por_clase": {
+    "obligacion_fase_posterior": 9,
+    "retrospectiva_comprobada": 18,
+    "contemporanea": 4,
+    "pendiente_tecnica": 3
+   },
+   "filas_input_audit_report_v4": 34,
+   "registro_18_7": "no localizado en el corpus revisado",
+   "_traza": {
+    "producto": "P_registro_18_7",
+    "sha256": "429dd087bd80cadbf33cd5c9c75ad13f5e54a26d7852330d73a78945a6eb07b1",
+    "fila": "/corridas/8",
+    "clave": [
+     "BRUN-991c466a1938ddbf2192eefb"
+    ]
+   }
+  },
+  {
+   "run_id": "BRUN-9c6c66e7af8b139a613b1c3f",
+   "entrega": "PRIV-305f4e4a4e12a7b9",
+   "filas_T8": 972,
+   "input_audit_report_v4_por_clase": {
+    "obligacion_fase_posterior": 9,
+    "retrospectiva_comprobada": 18,
+    "contemporanea": 4,
+    "pendiente_tecnica": 3
+   },
+   "filas_input_audit_report_v4": 34,
+   "registro_18_7": "no localizado en el corpus revisado",
+   "_traza": {
+    "producto": "P_registro_18_7",
+    "sha256": "429dd087bd80cadbf33cd5c9c75ad13f5e54a26d7852330d73a78945a6eb07b1",
+    "fila": "/corridas/9",
+    "clave": [
+     "BRUN-9c6c66e7af8b139a613b1c3f"
+    ]
+   }
+  },
+  {
+   "run_id": "BRUN-a81e3f45f7111e18b1f39370",
+   "entrega": "PRIV-4ce918ee5d358adc",
+   "filas_T8": 132,
+   "input_audit_report_v4_por_clase": {
+    "obligacion_fase_posterior": 9,
+    "retrospectiva_comprobada": 18,
+    "contemporanea": 4,
+    "pendiente_tecnica": 3
+   },
+   "filas_input_audit_report_v4": 34,
+   "registro_18_7": "no localizado en el corpus revisado",
+   "_traza": {
+    "producto": "P_registro_18_7",
+    "sha256": "429dd087bd80cadbf33cd5c9c75ad13f5e54a26d7852330d73a78945a6eb07b1",
+    "fila": "/corridas/10",
+    "clave": [
+     "BRUN-a81e3f45f7111e18b1f39370"
+    ]
+   }
+  },
+  {
+   "run_id": "BRUN-c5af32a993773f5258ce570f",
+   "entrega": "PRIV-cad73f3c6d57303d",
+   "filas_T8": 894,
+   "input_audit_report_v4_por_clase": {
+    "obligacion_fase_posterior": 9,
+    "retrospectiva_comprobada": 18,
+    "contemporanea": 4,
+    "pendiente_tecnica": 3
+   },
+   "filas_input_audit_report_v4": 34,
+   "registro_18_7": "no localizado en el corpus revisado",
+   "_traza": {
+    "producto": "P_registro_18_7",
+    "sha256": "429dd087bd80cadbf33cd5c9c75ad13f5e54a26d7852330d73a78945a6eb07b1",
+    "fila": "/corridas/11",
+    "clave": [
+     "BRUN-c5af32a993773f5258ce570f"
+    ]
+   }
+  },
+  {
+   "run_id": "BRUN-cb33e6b24039acc84fb1a065",
+   "entrega": "PRIV-d527e684f6bcfda3",
+   "filas_T8": 1608,
+   "input_audit_report_v4_por_clase": {
+    "obligacion_fase_posterior": 9,
+    "retrospectiva_comprobada": 18,
+    "contemporanea": 4,
+    "pendiente_tecnica": 3
+   },
+   "filas_input_audit_report_v4": 34,
+   "registro_18_7": "no localizado en el corpus revisado",
+   "_traza": {
+    "producto": "P_registro_18_7",
+    "sha256": "429dd087bd80cadbf33cd5c9c75ad13f5e54a26d7852330d73a78945a6eb07b1",
+    "fila": "/corridas/12",
+    "clave": [
+     "BRUN-cb33e6b24039acc84fb1a065"
+    ]
+   }
+  },
+  {
+   "run_id": "BRUN-f5f58960bbf9017776d3d7fc",
+   "entrega": "PRIV-da59a94b81b53901",
+   "filas_T8": 6,
+   "input_audit_report_v4_por_clase": {
+    "obligacion_fase_posterior": 9,
+    "retrospectiva_comprobada": 18,
+    "contemporanea": 4,
+    "pendiente_tecnica": 3
+   },
+   "filas_input_audit_report_v4": 34,
+   "registro_18_7": "no localizado en el corpus revisado",
+   "_traza": {
+    "producto": "P_registro_18_7",
+    "sha256": "429dd087bd80cadbf33cd5c9c75ad13f5e54a26d7852330d73a78945a6eb07b1",
+    "fila": "/corridas/13",
+    "clave": [
+     "BRUN-f5f58960bbf9017776d3d7fc"
+    ]
+   }
+  }
+ ],
+ "conjuntos": [
+  {
+   "capa": "base",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.macro",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 2,
+    "clave": [
+     "CMP-E1.macro"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.macro.ABL-COV",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 3,
+    "clave": [
+     "CMP-E1.macro.ABL-COV"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.macro.ABL-ENF",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 4,
+    "clave": [
+     "CMP-E1.macro.ABL-ENF"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.macro.COORD",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 5,
+    "clave": [
+     "CMP-E1.macro.COORD"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "external_sensitivity",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.macro.EXT-Q",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 6,
+    "clave": [
+     "CMP-E1.macro.EXT-Q"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.macro.ROB-LABH",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 7,
+    "clave": [
+     "CMP-E1.macro.ROB-LABH"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.macro.ROB-LABW",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 8,
+    "clave": [
+     "CMP-E1.macro.ROB-LABW"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.macro.ROB-RES",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 9,
+    "clave": [
+     "CMP-E1.macro.ROB-RES"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.macro.ROB-TAX",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 10,
+    "clave": [
+     "CMP-E1.macro.ROB-TAX"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.macro.ROB-TEC",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 11,
+    "clave": [
+     "CMP-E1.macro.ROB-TEC"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "domain_stress",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.macro.STR-040",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 12,
+    "clave": [
+     "CMP-E1.macro.STR-040"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "domain_stress",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.macro.STR-080",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 13,
+    "clave": [
+     "CMP-E1.macro.STR-080"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "base",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.micro",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 14,
+    "clave": [
+     "CMP-E1.micro"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.micro.ABL-COV",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 15,
+    "clave": [
+     "CMP-E1.micro.ABL-COV"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.micro.ABL-ENF",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 16,
+    "clave": [
+     "CMP-E1.micro.ABL-ENF"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.micro.COORD",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 17,
+    "clave": [
+     "CMP-E1.micro.COORD"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "external_sensitivity",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.micro.EXT-Q",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 18,
+    "clave": [
+     "CMP-E1.micro.EXT-Q"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.micro.ROB-LABH",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 19,
+    "clave": [
+     "CMP-E1.micro.ROB-LABH"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.micro.ROB-LABW",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 20,
+    "clave": [
+     "CMP-E1.micro.ROB-LABW"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.micro.ROB-RES",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 21,
+    "clave": [
+     "CMP-E1.micro.ROB-RES"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.micro.ROB-TAX",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 22,
+    "clave": [
+     "CMP-E1.micro.ROB-TAX"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.micro.ROB-TEC",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 23,
+    "clave": [
+     "CMP-E1.micro.ROB-TEC"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "domain_stress",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.micro.STR-040",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 24,
+    "clave": [
+     "CMP-E1.micro.STR-040"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "domain_stress",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "CMP-E1.micro.STR-080",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 25,
+    "clave": [
+     "CMP-E1.micro.STR-080"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "base",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.macro",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 26,
+    "clave": [
+     "COL-E2-2023.2023p.macro"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.macro.ABL-COV",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 27,
+    "clave": [
+     "COL-E2-2023.2023p.macro.ABL-COV"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.macro.ABL-ENF",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 28,
+    "clave": [
+     "COL-E2-2023.2023p.macro.ABL-ENF"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.macro.COORD",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 29,
+    "clave": [
+     "COL-E2-2023.2023p.macro.COORD"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "external_sensitivity",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.macro.EXT-Q",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 30,
+    "clave": [
+     "COL-E2-2023.2023p.macro.EXT-Q"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.macro.ROB-LABH",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 31,
+    "clave": [
+     "COL-E2-2023.2023p.macro.ROB-LABH"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.macro.ROB-LABW",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 32,
+    "clave": [
+     "COL-E2-2023.2023p.macro.ROB-LABW"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.macro.ROB-RES",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 33,
+    "clave": [
+     "COL-E2-2023.2023p.macro.ROB-RES"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.macro.ROB-TAX",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 34,
+    "clave": [
+     "COL-E2-2023.2023p.macro.ROB-TAX"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.macro.ROB-TEC",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 35,
+    "clave": [
+     "COL-E2-2023.2023p.macro.ROB-TEC"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "domain_stress",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.macro.STR-040",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 36,
+    "clave": [
+     "COL-E2-2023.2023p.macro.STR-040"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "domain_stress",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.macro.STR-080",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 37,
+    "clave": [
+     "COL-E2-2023.2023p.macro.STR-080"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "base",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.micro",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 38,
+    "clave": [
+     "COL-E2-2023.2023p.micro"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.micro.ABL-COV",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 39,
+    "clave": [
+     "COL-E2-2023.2023p.micro.ABL-COV"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.micro.ABL-ENF",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 40,
+    "clave": [
+     "COL-E2-2023.2023p.micro.ABL-ENF"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.micro.COORD",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 41,
+    "clave": [
+     "COL-E2-2023.2023p.micro.COORD"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "external_sensitivity",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.micro.EXT-Q",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 42,
+    "clave": [
+     "COL-E2-2023.2023p.micro.EXT-Q"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.micro.ROB-LABH",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 43,
+    "clave": [
+     "COL-E2-2023.2023p.micro.ROB-LABH"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.micro.ROB-LABW",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 44,
+    "clave": [
+     "COL-E2-2023.2023p.micro.ROB-LABW"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.micro.ROB-RES",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 45,
+    "clave": [
+     "COL-E2-2023.2023p.micro.ROB-RES"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.micro.ROB-TAX",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 46,
+    "clave": [
+     "COL-E2-2023.2023p.micro.ROB-TAX"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.micro.ROB-TEC",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 47,
+    "clave": [
+     "COL-E2-2023.2023p.micro.ROB-TEC"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "domain_stress",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.micro.STR-040",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 48,
+    "clave": [
+     "COL-E2-2023.2023p.micro.STR-040"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "domain_stress",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2023p.micro.STR-080",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 49,
+    "clave": [
+     "COL-E2-2023.2023p.micro.STR-080"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "base",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.macro",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 50,
+    "clave": [
+     "COL-E2-2023.2024p.macro"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.macro.ABL-COV",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 51,
+    "clave": [
+     "COL-E2-2023.2024p.macro.ABL-COV"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.macro.ABL-ENF",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 52,
+    "clave": [
+     "COL-E2-2023.2024p.macro.ABL-ENF"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.macro.COORD",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 53,
+    "clave": [
+     "COL-E2-2023.2024p.macro.COORD"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "external_sensitivity",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.macro.EXT-Q",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 54,
+    "clave": [
+     "COL-E2-2023.2024p.macro.EXT-Q"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.macro.ROB-LABH",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 55,
+    "clave": [
+     "COL-E2-2023.2024p.macro.ROB-LABH"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.macro.ROB-LABW",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 56,
+    "clave": [
+     "COL-E2-2023.2024p.macro.ROB-LABW"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.macro.ROB-RES",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 57,
+    "clave": [
+     "COL-E2-2023.2024p.macro.ROB-RES"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.macro.ROB-TAX",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 58,
+    "clave": [
+     "COL-E2-2023.2024p.macro.ROB-TAX"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.macro.ROB-TEC",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 59,
+    "clave": [
+     "COL-E2-2023.2024p.macro.ROB-TEC"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "domain_stress",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.macro.STR-040",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 60,
+    "clave": [
+     "COL-E2-2023.2024p.macro.STR-040"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "domain_stress",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.macro.STR-080",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 61,
+    "clave": [
+     "COL-E2-2023.2024p.macro.STR-080"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "base",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.micro",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 62,
+    "clave": [
+     "COL-E2-2023.2024p.micro"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.micro.ABL-COV",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 63,
+    "clave": [
+     "COL-E2-2023.2024p.micro.ABL-COV"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.micro.ABL-ENF",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 64,
+    "clave": [
+     "COL-E2-2023.2024p.micro.ABL-ENF"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.micro.COORD",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 65,
+    "clave": [
+     "COL-E2-2023.2024p.micro.COORD"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "external_sensitivity",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.micro.EXT-Q",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 66,
+    "clave": [
+     "COL-E2-2023.2024p.micro.EXT-Q"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.micro.ROB-LABH",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 67,
+    "clave": [
+     "COL-E2-2023.2024p.micro.ROB-LABH"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.micro.ROB-LABW",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 68,
+    "clave": [
+     "COL-E2-2023.2024p.micro.ROB-LABW"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.micro.ROB-RES",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 69,
+    "clave": [
+     "COL-E2-2023.2024p.micro.ROB-RES"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.micro.ROB-TAX",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 70,
+    "clave": [
+     "COL-E2-2023.2024p.micro.ROB-TAX"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.micro.ROB-TEC",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 71,
+    "clave": [
+     "COL-E2-2023.2024p.micro.ROB-TEC"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "domain_stress",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.micro.STR-040",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 72,
+    "clave": [
+     "COL-E2-2023.2024p.micro.STR-040"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "domain_stress",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "COL-E2-2023.2024p.micro.STR-080",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 73,
+    "clave": [
+     "COL-E2-2023.2024p.micro.STR-080"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "base",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.macro",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 74,
+    "clave": [
+     "PER-E0E3.macro"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.macro.ABL-COV",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 75,
+    "clave": [
+     "PER-E0E3.macro.ABL-COV"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.macro.ABL-ENF",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 76,
+    "clave": [
+     "PER-E0E3.macro.ABL-ENF"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.macro.COORD",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 77,
+    "clave": [
+     "PER-E0E3.macro.COORD"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "external_sensitivity",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.macro.EXT-Q",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 78,
+    "clave": [
+     "PER-E0E3.macro.EXT-Q"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.macro.ROB-LABH",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 79,
+    "clave": [
+     "PER-E0E3.macro.ROB-LABH"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.macro.ROB-LABW",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 80,
+    "clave": [
+     "PER-E0E3.macro.ROB-LABW"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.macro.ROB-RES",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 81,
+    "clave": [
+     "PER-E0E3.macro.ROB-RES"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.macro.ROB-TAX",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 82,
+    "clave": [
+     "PER-E0E3.macro.ROB-TAX"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.macro.ROB-TEC",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 83,
+    "clave": [
+     "PER-E0E3.macro.ROB-TEC"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "domain_stress",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.macro.STR-040",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 84,
+    "clave": [
+     "PER-E0E3.macro.STR-040"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "domain_stress",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.macro.STR-080",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 85,
+    "clave": [
+     "PER-E0E3.macro.STR-080"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "base",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.micro",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 86,
+    "clave": [
+     "PER-E0E3.micro"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.micro.ABL-COV",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 87,
+    "clave": [
+     "PER-E0E3.micro.ABL-COV"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.micro.ABL-ENF",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 88,
+    "clave": [
+     "PER-E0E3.micro.ABL-ENF"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.micro.COORD",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 89,
+    "clave": [
+     "PER-E0E3.micro.COORD"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "external_sensitivity",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.micro.EXT-Q",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 90,
+    "clave": [
+     "PER-E0E3.micro.EXT-Q"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.micro.ROB-LABH",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 91,
+    "clave": [
+     "PER-E0E3.micro.ROB-LABH"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.micro.ROB-LABW",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 92,
+    "clave": [
+     "PER-E0E3.micro.ROB-LABW"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.micro.ROB-RES",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 93,
+    "clave": [
+     "PER-E0E3.micro.ROB-RES"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.micro.ROB-TAX",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 94,
+    "clave": [
+     "PER-E0E3.micro.ROB-TAX"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.micro.ROB-TEC",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 95,
+    "clave": [
+     "PER-E0E3.micro.ROB-TEC"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "domain_stress",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.micro.STR-040",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 96,
+    "clave": [
+     "PER-E0E3.micro.STR-040"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "domain_stress",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E0E3.micro.STR-080",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 97,
+    "clave": [
+     "PER-E0E3.micro.STR-080"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "base",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.macro",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 98,
+    "clave": [
+     "PER-E1.macro"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.macro.ABL-COV",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 99,
+    "clave": [
+     "PER-E1.macro.ABL-COV"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.macro.ABL-ENF",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 100,
+    "clave": [
+     "PER-E1.macro.ABL-ENF"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.macro.COORD",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 101,
+    "clave": [
+     "PER-E1.macro.COORD"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "external_sensitivity",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.macro.EXT-Q",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 102,
+    "clave": [
+     "PER-E1.macro.EXT-Q"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.macro.ROB-LABH",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 103,
+    "clave": [
+     "PER-E1.macro.ROB-LABH"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.macro.ROB-LABW",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 104,
+    "clave": [
+     "PER-E1.macro.ROB-LABW"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.macro.ROB-RES",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 105,
+    "clave": [
+     "PER-E1.macro.ROB-RES"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.macro.ROB-TAX",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 106,
+    "clave": [
+     "PER-E1.macro.ROB-TAX"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.macro.ROB-TEC",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 107,
+    "clave": [
+     "PER-E1.macro.ROB-TEC"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "domain_stress",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.macro.STR-040",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 108,
+    "clave": [
+     "PER-E1.macro.STR-040"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "domain_stress",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.macro.STR-080",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 109,
+    "clave": [
+     "PER-E1.macro.STR-080"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "base",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.micro",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 110,
+    "clave": [
+     "PER-E1.micro"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.micro.ABL-COV",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 111,
+    "clave": [
+     "PER-E1.micro.ABL-COV"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.micro.ABL-ENF",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 112,
+    "clave": [
+     "PER-E1.micro.ABL-ENF"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "coordination",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.micro.COORD",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 113,
+    "clave": [
+     "PER-E1.micro.COORD"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "external_sensitivity",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.micro.EXT-Q",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 114,
+    "clave": [
+     "PER-E1.micro.EXT-Q"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.micro.ROB-LABH",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 115,
+    "clave": [
+     "PER-E1.micro.ROB-LABH"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.micro.ROB-LABW",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 116,
+    "clave": [
+     "PER-E1.micro.ROB-LABW"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.micro.ROB-RES",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 117,
+    "clave": [
+     "PER-E1.micro.ROB-RES"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.micro.ROB-TAX",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 118,
+    "clave": [
+     "PER-E1.micro.ROB-TAX"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "robustness",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.micro.ROB-TEC",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 119,
+    "clave": [
+     "PER-E1.micro.ROB-TEC"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "domain_stress",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.micro.STR-040",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 120,
+    "clave": [
+     "PER-E1.micro.STR-040"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "capa": "domain_stress",
+   "n_admissible": "546750000",
+   "n_declared": "546750000",
+   "n_violates_eta_H": "0",
+   "n_violates_q_pot": "0",
+   "n_violates_shares": "0",
+   "run_id": "",
+   "share_discarded": "0.0",
+   "support_set_id": "PER-E1.micro.STR-080",
+   "nota": "n_declared = combinaciones evaluadas por CON.QPOT; n_admissible exacto solo si ninguna restricción rechaza (sin solapes que estimar)",
+   "otras_restricciones_rechazos": "{\"CLEGAL\": 0, \"MOMENTS\": 0, \"S4\": 0, \"SCALES\": 0, \"TBASE\": 0}",
+   "_traza": {
+    "producto": "P_admisibilidad",
+    "sha256": "d35ccaac6f6ab8c49e2b7302882359f5433f8de8adac8cfce4e265a7570f41e0",
+    "fila": 121,
+    "clave": [
+     "PER-E1.micro.STR-080"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  }
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "kind": "paquete-lote2-rem119",
+ "estado": "PROPUESTA para revisión: no autorizada ni ejecutada sobre soportes reales; ningún alcance emitido ni acto pedido",
+ "nombre_del_archivo": "PAQUETE_LOTE1.json lo fija conducir_lote.py (sin cambios); este índice es del LOTE 2 con el suplemento corregido (rem119)",
+ "piezas": {
+  "conducir_lote.py": {
+   "sha256": "26e293e7231fff1e7099ce8384adaa3fabbca7e82296598af625aaac1a6a63b4",
+   "bytes": 14513,
+   "funcion": "conductor revisado (mismos bytes que rem111 y rem113)",
+   "respecto_de_rem116": "igual",
+   "sha256_rem116": "26e293e7231fff1e7099ce8384adaa3fabbca7e82296598af625aaac1a6a63b4"
+  },
+  "receta_lote2.sh": {
+   "sha256": "e2ad528d9abdd71bfbe8891a56c2c0f8514b6f018a448284b0ca0b8c973b9356",
+   "bytes": 2595,
+   "funcion": "receta del lote 2: misma invocación del conductor con el paquete rem119 y C0",
+   "respecto_de_rem116": "modificado",
+   "sha256_rem116": "b3571fc0ea6723345d231469148fa3320b1ec7164711590f08dca539785705a9"
+  },
+  "receta_lote2e4.sh": {
+   "sha256": "052a6227117fea473eda0dddd1e794ec49d5301dcf361ee70299b92e917b4cff",
+   "bytes": 2793,
+   "funcion": "receta de la opción D-E4: misma invocación (solo L1-ELAST) con el paquete rem119 y C0",
+   "respecto_de_rem116": "modificado",
+   "sha256_rem116": "382f6c5306ad38dae6f90bde3f87979f8d61cd447e10cce9caa45268581cd392"
+  },
+  "tarea_lote.py": {
+   "sha256": "dca9d79b2d7c89bdd09e4e99293a158cb7fdc4cf8951df51561c68b019386456",
+   "bytes": 23162,
+   "funcion": "trabajador: las mallas suplemento_topologia NO se recalculan: filas ACEPTADAS del lote 1 (bytes autenticados por el manifiesto, una lectura) + topología del núcleo; incompatibilidad ⇒ incompleta; producto suplemento_procedencia.jsonl",
+   "respecto_de_rem116": "modificado",
+   "sha256_rem116": "e01cefab947c3f88a5d6fb451c32a9d9d163575be091e7d06a411be1eb273c63"
+  },
+  "conexion_lambda.py": {
+   "sha256": "9dbdc7322e303f11f4b33897dd11de3e7ce8327636637e75bc246222391138b3",
+   "bytes": 23162,
+   "funcion": "envolvente λπ sin cambios; añade definicion_sha256 y vertices_estrictos (enumeración sin bridge)",
+   "respecto_de_rem116": "igual",
+   "sha256_rem116": "9dbdc7322e303f11f4b33897dd11de3e7ce8327636637e75bc246222391138b3"
+  },
+  "conexion_frontera.py": {
+   "sha256": "4fb1915d7cf7ca39bf9385f975665a75b32717558096870d7d9213d151be2527",
+   "bytes": 9089,
+   "funcion": "malla nueva por la ruta del núcleo (sin cambios) + enriquecer_suplemento/estructura_c0/compatible (solo topologías)",
+   "respecto_de_rem116": "modificado",
+   "sha256_rem116": "b920cceaa5ed183ea64dfe2990c1b491c99db8027d280ed86cb619d38482585b"
+  },
+  "validar_lote.py": {
+   "sha256": "d95e2beb0c0f67a96984d4346fe1c77e5b44539eb97769ba3f09ecbb67ea4f19",
+   "bytes": 34703,
+   "funcion": "validador: suplemento con campos históricos EXACTOS, topología y estructura del núcleo, procedencia ligada; núcleo C0 en su ubicación sellada de rem116 (d0bf5cd6…)",
+   "respecto_de_rem116": "modificado",
+   "sha256_rem116": "5e343fb7e9eede997a2172d1e350e8a8a890273dd2b8824b35abd5e741931b41"
+  },
+  "cobertura_nacional_lote2.py": {
+   "sha256": "44a5c1bf86608c9e6022aad9338ef54788fcdc475259dba1470824d18b623806",
+   "bytes": 9442,
+   "funcion": "anexo del lote 2: publicados como rem113; estrictos por enumeración; modo sintético",
+   "respecto_de_rem116": "igual",
+   "sha256_rem116": "44a5c1bf86608c9e6022aad9338ef54788fcdc475259dba1470824d18b623806"
+  },
+  "COBERTURA_NACIONAL_LOTE2.json": {
+   "sha256": "5bea51535665167e1d22ecf0c8c2a54289233a7871faeae13dacc31a13a1600c",
+   "bytes": 244270,
+   "funcion": "anexo del lote 2: 58 estados publicados + 2×32 candidatos estrictos",
+   "respecto_de_rem116": "igual",
+   "sha256_rem116": "5bea51535665167e1d22ecf0c8c2a54289233a7871faeae13dacc31a13a1600c"
+  },
+  "COBERTURA_NACIONAL_LOTE2E4.json": {
+   "sha256": "6015226d99b7b2a2b959f3990666142bea16eb1b929eee1923532c7303a8ee80",
+   "bytes": 1036,
+   "funcion": "anexo de la opción D-E4 (sin conjuntos λπ)",
+   "respecto_de_rem116": "igual",
+   "sha256_rem116": "6015226d99b7b2a2b959f3990666142bea16eb1b929eee1923532c7303a8ee80"
+  },
+  "seleccion_lote2.py": {
+   "sha256": "ec53c0557aaaeba4fc9b9470aa87ad34860d5d0e148931599cd6f1dcedf85766",
+   "bytes": 13436,
+   "funcion": "selección rem113 que produjo las secciones copiadas (no se re-ejecuta)",
+   "respecto_de_rem116": "igual",
+   "sha256_rem116": "ec53c0557aaaeba4fc9b9470aa87ad34860d5d0e148931599cd6f1dcedf85766"
+  },
+  "seleccion_lote2_rem114.py": {
+   "sha256": "0df88a876b64b8df417dbf7ec096dc45a23364a338e508f02e7288c366e2ed98",
+   "bytes": 11326,
+   "funcion": "selección consolidada: copia exacta de rem113 + 2 pares estrictos; opción D-E4",
+   "respecto_de_rem116": "igual",
+   "sha256_rem116": "0df88a876b64b8df417dbf7ec096dc45a23364a338e508f02e7288c366e2ed98"
+  },
+  "LOTE2_MANIFIESTO.json": {
+   "sha256": "b1cf8af5eab8aa22c53ec279bd5660dbf57847b6be8f874c56af7d71f9cd4bab",
+   "bytes": 1888423,
+   "funcion": "selección consolidada del lote 2",
+   "respecto_de_rem116": "igual",
+   "sha256_rem116": "b1cf8af5eab8aa22c53ec279bd5660dbf57847b6be8f874c56af7d71f9cd4bab"
+  },
+  "LOTE2E4_MANIFIESTO.json": {
+   "sha256": "d430b39db2cea7801cdcf8b55f0455063270d58f5aebea57776241fcde04b4af",
+   "bytes": 539529,
+   "funcion": "selección de la opción D-E4 (383 contrapartes G/N)",
+   "respecto_de_rem116": "igual",
+   "sha256_rem116": "d430b39db2cea7801cdcf8b55f0455063270d58f5aebea57776241fcde04b4af"
+  },
+  "emitir_alcance_lote.py": {
+   "sha256": "96d4c6fa293446831c687ff5033c97e53cd2e7c0851fa9bb6229e478f4edda71",
+   "bytes": 5028,
+   "funcion": "materializador del alcance v3 (mismos bytes que rem111 y rem113)",
+   "respecto_de_rem116": "igual",
+   "sha256_rem116": "96d4c6fa293446831c687ff5033c97e53cd2e7c0851fa9bb6229e478f4edda71"
+  },
+  "referencia_decision.py": {
+   "sha256": "039f6f6b490c81bd553f1a5c07fec848f15a8cdf0f6c70e6782511140abe7446",
+   "bytes": 1280,
+   "funcion": "referencia a la decisión humana nativa (mismos bytes que rem111 y rem113)",
+   "respecto_de_rem116": "igual",
+   "sha256_rem116": "039f6f6b490c81bd553f1a5c07fec848f15a8cdf0f6c70e6782511140abe7446"
+  }
+ },
+ "indice_de_partida": {
+  "ruta": "tmp/paso4_raices_impacto_desde_rem116/lote2/PAQUETE_LOTE1.json",
+  "sha256": "b5c9ef8aea36b5e09d290735b3e2bd8d358fdfd320d067c79833b15a1f74359e"
+ },
+ "nucleo": {
+  "instalacion": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion",
+  "identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae"
+ },
+ "suplemento": {
+  "fuente": "tmp/paso4_lote1_desde_rem112/lote1_LOTE1_REM112/L1-ELAST/salida/frontier_result.jsonl",
+  "sha256": "dba33b473db7e6f82b56e30d5086c84298bff48ee1427dfbdfffb98fdf97997b",
+  "filas": 70,
+  "mallas": 6,
+  "regla": "filas ACEPTADAS copiadas sin cambios + topología del núcleo; procedencia en suplemento_procedencia.jsonl"
+ },
+ "alcance_necesario": {
+  "nota": "lo que tendría que fijar un alcance v3 NUEVO (no se emite aquí)",
+  "lote_manifiesto": {
+   "LOTE2": "b1cf8af5eab8aa22c53ec279bd5660dbf57847b6be8f874c56af7d71f9cd4bab",
+   "LOTE2E4": "d430b39db2cea7801cdcf8b55f0455063270d58f5aebea57776241fcde04b4af"
+  },
+  "codigo_lote": {
+   "tarea_lote.py": "dca9d79b2d7c89bdd09e4e99293a158cb7fdc4cf8951df51561c68b019386456",
+   "conexion_lambda.py": "9dbdc7322e303f11f4b33897dd11de3e7ce8327636637e75bc246222391138b3",
+   "conexion_frontera.py": "4fb1915d7cf7ca39bf9385f975665a75b32717558096870d7d9213d151be2527"
+  },
+  "validador_lote": "d95e2beb0c0f67a96984d4346fe1c77e5b44539eb97769ba3f09ecbb67ea4f19",
+  "cobertura_nacional": {
+   "LOTE2": "5bea51535665167e1d22ecf0c8c2a54289233a7871faeae13dacc31a13a1600c",
+   "LOTE2E4": "6015226d99b7b2a2b959f3990666142bea16eb1b929eee1923532c7303a8ee80"
+  },
+  "instalacion_identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+  "alcances_anteriores_no_habilitan": [
+   "A rem115 d3e6d89d…",
+   "B rem115 bfb0cf8f…",
+   "A rem118 b7619512…",
+   "B rem118 96f7fb86… (válido, no consumido)"
+  ]
+ },
+ "dependencias_externas": {
+  "instalacion_candidata": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion (d0bf5cd6…)",
+  "contencion": "codigo/p3ctl.py del área autorizada (546271b0…)",
+  "censo_nacional": "tmp/paso4_remanente_lotes_desde_rem113/censo/CENSO_NACIONAL.json (sellado rem113)"
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "tarea": "L1-LAMBDA",
+ "modo": "produccion",
+ "manifiesto_sha256": "b1cf8af5eab8aa22c53ec279bd5660dbf57847b6be8f874c56af7d71f9cd4bab",
+ "tope_efectivo_s": 2280.0,
+ "sintetico": false,
+ "codigo_sha256": {
+  "tarea_lote.py": "dca9d79b2d7c89bdd09e4e99293a158cb7fdc4cf8951df51561c68b019386456",
+  "conexion_lambda.py": "9dbdc7322e303f11f4b33897dd11de3e7ce8327636637e75bc246222391138b3",
+  "conexion_frontera.py": "4fb1915d7cf7ca39bf9385f975665a75b32717558096870d7d9213d151be2527"
+ },
+ "productos": [
+  {
+   "archivo": "lambda_envolvente.jsonl",
+   "sha256": "c3ba21a308cfcccdec22dd6f4920ef05e2019b20ac9666003e283520ea5401c3",
+   "filas": 24
+  }
+ ],
+ "llamadas_bridge": 488,
+ "estado": "completa",
+ "motivo": null,
+ "pared_s": 149.75
+}

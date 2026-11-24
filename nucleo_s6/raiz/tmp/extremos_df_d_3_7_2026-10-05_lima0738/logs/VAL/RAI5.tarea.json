@@ -1,0 +1,24 @@
+{
+ "cpu_usuario_s": 184.5,
+ "cpu_nucleo_s": 7.140625,
+ "procesos_totales": 6,
+ "procesos_activos": 0,
+ "memoria_pico_job_mb": 322.6,
+ "memoria_pico_proceso_mb": 315.4,
+ "id": "RAI5",
+ "comando": [
+  "bash",
+  "tmp/extremos_df_d_3_7_2026-10-05_lima0738/../pilotos_b36_b37_2026-10-02/entorno/py_integracion.sh",
+  "-m",
+  "codigo.prueba_raices_integrada",
+  "demo/validacion/raices_integradas.json"
+ ],
+ "cwd": "tmp/extremos_df_d_3_7_2026-10-05_lima0738",
+ "limite_duro_s": 1200.0,
+ "inicio_utc": "2026-10-05T15:02:53Z",
+ "pared_s": 196.2,
+ "codigo_salida": 0,
+ "estado": "TERMINO",
+ "cpu_total_s": 191.6,
+ "cpu_por_pared": 0.98
+}

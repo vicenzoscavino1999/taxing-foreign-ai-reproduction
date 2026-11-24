@@ -1,0 +1,384 @@
+{
+  "artifacts": {
+    "AUDITORIA_D2.md": {
+      "sha256": "a2fd6bbccd3fc8a133d4de19dd3b0500e0cdcfe4d4873811534923282b6be6e0",
+      "size_bytes": 5302
+    },
+    "d2_gate_report.json": {
+      "sha256": "398b9d373b4a63bcd4203a87eafa333fa2a7a26476fc3da9275fbd19d586795c",
+      "size_bytes": 1905
+    },
+    "labor_income_shares.csv": {
+      "sha256": "466318e02070759d6bd273c4038fb164f0c65690ddd24dd0b3d7a93169dfdd5f",
+      "size_bytes": 1718
+    },
+    "labor_income_shares_sensitivity.csv": {
+      "sha256": "47a20d55317f5f4a764a940b8302f0d889c970d7cddb86146a522a9e554160a8",
+      "size_bytes": 13221
+    }
+  },
+  "authenticated_bundle_members": {
+    "ama_gdp_current_ncu.xls": {
+      "sha256": "2434ffdbcfc527314cf5bae6e3530cc8be8138cfeae96c1aea6a979a213ee29f",
+      "size_bytes": 2255482
+    },
+    "chl_gdp_footnote.html": {
+      "sha256": "00aacc739384e665b9f23ead747bd969369c646a540405d87a2fa41deb67cb52",
+      "size_bytes": 109927
+    },
+    "chl_gos_footnote.html": {
+      "sha256": "e80f6755f8d4d94544ea7730e9a766c7f93b2c86514e2ca0bb5517bb2fac2d82",
+      "size_bytes": 109904
+    },
+    "table401_CHL.zip": {
+      "sha256": "b23a2b4f530cdc15797c00b148afa23feb27edea35b07f66c734060e8d488ed4",
+      "size_bytes": 36483
+    },
+    "table401_COL.zip": {
+      "sha256": "7ca3768c4ca49d190597afde2541773c150d99090ac3d9154ab6ccc3540be25d",
+      "size_bytes": 26985
+    },
+    "table401_MEX.zip": {
+      "sha256": "e7d26430ad401bf169fff57f03d4e73ff0639b4a0e68fc22cb1d986bf7a97c7d",
+      "size_bytes": 42902
+    },
+    "table401_PER.zip": {
+      "sha256": "68fa021932e451fc509ff67f2f547ac3ce7acc69bbaa45fb85f24bae52d9609d",
+      "size_bytes": 7732
+    }
+  },
+  "authoritative_primary_table": {
+    "col_0_339_status": "2024_diagnostic_not_primary_common_year",
+    "documents": "quantification_protocol,design_plan",
+    "status": "PASS",
+    "values": {
+      "CHL": "0.407086050629136",
+      "COL": "0.330734297553520",
+      "MEX": "0.284922512889532",
+      "PER": "0.283345690166662"
+    }
+  },
+  "builder_sha256": "e5d7304fefb50d19cc8ad95774d9a7e29ce20ad65a8ba6e3147355c23dd902c1",
+  "common_year_rule": "max(intersection(complete_observed_years_by_country))",
+  "complete_years_by_country": {
+    "CHL": [
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "COL": [
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "MEX": [
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "PER": [
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ]
+  },
+  "downstream_outputs_created": [],
+  "identity": {
+    "countries": {
+      "CHL": {
+        "method": "chile_basic_to_market_crosswalk",
+        "precision_basis": "exact_identity_no_tolerance_needed",
+        "precision_quanta": {
+          "coe": "1000000",
+          "d29": "1000000",
+          "gdp_basic": "1000",
+          "gdp_market": "1"
+        },
+        "precision_source_id": "not_applicable",
+        "residual_level": "0",
+        "rounding_consistency_status": "PASS",
+        "tolerance_level": "0"
+      },
+      "COL": {
+        "method": "ordinary_income_account_market_prices",
+        "precision_basis": "exact_identity_no_tolerance_needed",
+        "precision_quanta": {
+          "coe": "1000000000",
+          "gdp_market": "10",
+          "gos": "1000000000",
+          "mi": "1000000000",
+          "taxes_net": "1000000000"
+        },
+        "precision_source_id": "not_applicable",
+        "residual_level": "0",
+        "rounding_consistency_status": "PASS",
+        "tolerance_level": "0"
+      },
+      "MEX": {
+        "method": "ordinary_income_account_market_prices",
+        "precision_basis": "source_declared_rounding_interval",
+        "precision_quanta": {
+          "coe": "1000000",
+          "gdp_market": "1000",
+          "gos": "1000000",
+          "mi": "1000000",
+          "taxes_net": "1000"
+        },
+        "precision_source_id": "INEGI_CSI_2023_D2_PRECISION",
+        "residual_level": "1134000",
+        "rounding_consistency_status": "PASS",
+        "tolerance_level": "2500000"
+      },
+      "PER": {
+        "method": "ordinary_income_account_market_prices",
+        "precision_basis": "exact_identity_no_tolerance_needed",
+        "precision_quanta": {
+          "coe": "1000000",
+          "gdp_market": "1000000",
+          "gos": "1000000",
+          "mi": "1000000",
+          "taxes_net": "1000000"
+        },
+        "precision_source_id": "not_applicable",
+        "residual_level": "0",
+        "rounding_consistency_status": "PASS",
+        "tolerance_level": "0"
+      }
+    },
+    "mcd_role": "diagnostic_only_not_a_precision_gate",
+    "mexico_inegi_binding": {
+      "component_half_width_millions": "0.5",
+      "residual_level_ncu": "1134000",
+      "table_gdp_minus_inegi_millions": "0.301",
+      "tolerance_level_ncu": "2500000",
+      "un_minus_inegi_millions": {
+        "compensation": "0",
+        "gdp": "0.301",
+        "gross_mixed_income": "0",
+        "gross_operating_surplus": "0",
+        "net_taxes_production_imports": "0.435"
+      },
+      "unit": "millions_of_current_pesos"
+    },
+    "primary_mexico_tolerance_formula": "5 * 0.5 * 1,000,000 NCU",
+    "primary_mexico_tolerance_logic": "triangle_inequality_five_separately_published_terms_no_statistical_independence_assumed",
+    "residual_formula": "(COE + GOS + MI + T_net - GDP_market)/GDP_market",
+    "residual_is_overwritten": false,
+    "sensitivity_mexico_2015_2022": "diagnostic_precision_not_validated"
+  },
+  "implementation": {
+    "openpyxl": "3.1.5",
+    "python": "3.12.4",
+    "xlsx_mode": "read_only=True,data_only=True"
+  },
+  "input_payloads": {
+    "CHL": {
+      "dataset_id": "UN_SNA_MAIN",
+      "raw_path": "fase2_datos/raw/UN_SNA_MAIN/_bundle/03e965f45a01f0fc4eb5ab8629a65ea3837784c1c50d898696dcb823866c044b/payload.tar",
+      "retrieved_at": "2026-07-29T10:53:15.962912-05:00",
+      "sha256": "03e965f45a01f0fc4eb5ab8629a65ea3837784c1c50d898696dcb823866c044b",
+      "source_snapshot_id": "52b4854f296289f0811643e8a6cfc7dabd67eb3f2bf4a8cc6d3f3bf6b36fbea9",
+      "source_vintage": "Table 4.1 panel 1996-2024; AMA GDP panel 1970-2024; no model vintage selected"
+    },
+    "COL": {
+      "dataset_id": "UN_SNA_MAIN",
+      "raw_path": "fase2_datos/raw/UN_SNA_MAIN/_global/bf38dd4171c8ac5d2a4d11a45316186052f05607cf813600509692db39c50162/payload.zip",
+      "retrieved_at": "2026-07-29T00:18:44.5994348-05:00",
+      "sha256": "bf38dd4171c8ac5d2a4d11a45316186052f05607cf813600509692db39c50162",
+      "source_snapshot_id": "359cb49571e4f56feb47edb96a9f3340d44dda0e9d89fb2966376efa53b73b10",
+      "source_vintage": "2023"
+    },
+    "MEX": {
+      "dataset_id": "UN_SNA_MAIN",
+      "raw_path": "fase2_datos/raw/UN_SNA_MAIN/_bundle/03e965f45a01f0fc4eb5ab8629a65ea3837784c1c50d898696dcb823866c044b/payload.tar",
+      "retrieved_at": "2026-07-29T10:53:15.962912-05:00",
+      "sha256": "03e965f45a01f0fc4eb5ab8629a65ea3837784c1c50d898696dcb823866c044b",
+      "source_snapshot_id": "57b6be6013b31294d5c679cc5720a3db872926e029a4e6cdaea22e57dae21438",
+      "source_vintage": "Table 4.1 panel 1970-2023; AMA GDP panel 1970-2024; no model vintage selected"
+    },
+    "PER": {
+      "dataset_id": "UN_SNA_MAIN",
+      "raw_path": "fase2_datos/raw/UN_SNA_MAIN/_bundle/03e965f45a01f0fc4eb5ab8629a65ea3837784c1c50d898696dcb823866c044b/payload.tar",
+      "retrieved_at": "2026-07-29T10:53:15.962912-05:00",
+      "sha256": "03e965f45a01f0fc4eb5ab8629a65ea3837784c1c50d898696dcb823866c044b",
+      "source_snapshot_id": "ea6de58551185e410449a9051496e83e02084ef69903200ffe36d012459e2051",
+      "source_vintage": "Table 4.1 panel 2007-2024; AMA GDP panel 1970-2024; no model vintage selected"
+    }
+  },
+  "input_surface_hashes": {
+    "fase2_datos/acquisition_manifest.csv": "b2caad587d20d86893a951622543f58c85ddecc759bd3ee30be143ac1d9da3fb",
+    "fase2_datos/adquisicion/bitacora_adquisicion.jsonl": "d443c86677e6dad4b0b7af7ef3fe3d6f81b46dda50ac8e7b824972e8af7e3b5c",
+    "fase2_datos/adquisicion/bitacora_ancla.json": "21c7df0e3385db38de1dd87500484292249b71d1050b638ca1e14b4a0c6ceaaf",
+    "fase2_datos/adquisicion/matriz_trabajo.csv": "6f626a039b9f7ee824a6da949dab2804f9d6fc5f6c8681326aa0622dd8fc9339",
+    "fase2_datos/data_decision_manifest.md": "3488304e401b31b43f23468ecf35073390c49ec020c2d107b3cdfbe52360f1b1",
+    "fase2_datos/source_catalog/source_catalog.csv": "aebcc1562ad7029db010be65136b584f816a6210c9fa66566587c7d24137b6dd"
+  },
+  "labor_income_shares_schema_version": "13.1/2.0.0",
+  "metadata_contract": {
+    "denominator": "PIB a precios de mercado",
+    "horizon": "anual",
+    "precision_country": "MEX",
+    "precision_source_id": "INEGI_CSI_2023_D2_PRECISION",
+    "unit": "moneda nacional corriente",
+    "universe": "economia total"
+  },
+  "mi_partition": {
+    "is_economic_scenario": false,
+    "labor_allocation_fraction": null,
+    "mi_partition_status": "D2_NO_PARTITION",
+    "status": "D2_NO_PARTITION"
+  },
+  "phase": "D-2",
+  "precision_source": {
+    "dataset_id": "INEGI_CSI_2023_D2_PRECISION",
+    "raw_path": "fase2_datos/raw/INEGI_CSI_2023_D2_PRECISION/MEX/ae6b7cce33b20e03505ab4b0640e869b0ff451ed2a1731440ec48984302f58ea/payload.pdf",
+    "retrieved_at": "2026-08-01T11:48:38-05:00",
+    "sha256": "ae6b7cce33b20e03505ab4b0640e869b0ff451ed2a1731440ec48984302f58ea",
+    "values_millions": {
+      "compensation": "9076368",
+      "gdp": "31855566",
+      "gross_mixed_income": "7020820",
+      "gross_operating_surplus": "13618795",
+      "net_taxes_production_imports": "2139584"
+    }
+  },
+  "primary_common_year": 2023,
+  "primary_rows": 4,
+  "schema_version": "d2_manifest/2.0.0",
+  "scientific_payload_sha256": "13965246ca941781ccb28f1c842b7a20a22efd3736f572327cdc9954c7982817",
+  "sensitivity_rows": 36,
+  "sensitivity_start_year": 2015,
+  "source_id": "UN_SNA_MAIN",
+  "source_snapshot_artifacts": {
+    "CHL": [
+      {
+        "role": "sna_bundle",
+        "sha256": "03e965f45a01f0fc4eb5ab8629a65ea3837784c1c50d898696dcb823866c044b"
+      },
+      {
+        "role": "table_4_1_member",
+        "sha256": "b23a2b4f530cdc15797c00b148afa23feb27edea35b07f66c734060e8d488ed4"
+      },
+      {
+        "role": "ama_gdp_member",
+        "sha256": "2434ffdbcfc527314cf5bae6e3530cc8be8138cfeae96c1aea6a979a213ee29f"
+      }
+    ],
+    "COL": [
+      {
+        "role": "table_4_1_payload_zip",
+        "sha256": "bf38dd4171c8ac5d2a4d11a45316186052f05607cf813600509692db39c50162"
+      },
+      {
+        "role": "ama_gdp_member",
+        "sha256": "2434ffdbcfc527314cf5bae6e3530cc8be8138cfeae96c1aea6a979a213ee29f"
+      }
+    ],
+    "MEX": [
+      {
+        "role": "sna_bundle",
+        "sha256": "03e965f45a01f0fc4eb5ab8629a65ea3837784c1c50d898696dcb823866c044b"
+      },
+      {
+        "role": "table_4_1_member",
+        "sha256": "e7d26430ad401bf169fff57f03d4e73ff0639b4a0e68fc22cb1d986bf7a97c7d"
+      },
+      {
+        "role": "ama_gdp_member",
+        "sha256": "2434ffdbcfc527314cf5bae6e3530cc8be8138cfeae96c1aea6a979a213ee29f"
+      },
+      {
+        "role": "inegi_precision_pdf",
+        "sha256": "ae6b7cce33b20e03505ab4b0640e869b0ff451ed2a1731440ec48984302f58ea"
+      }
+    ],
+    "PER": [
+      {
+        "role": "sna_bundle",
+        "sha256": "03e965f45a01f0fc4eb5ab8629a65ea3837784c1c50d898696dcb823866c044b"
+      },
+      {
+        "role": "table_4_1_member",
+        "sha256": "68fa021932e451fc509ff67f2f547ac3ce7acc69bbaa45fb85f24bae52d9609d"
+      },
+      {
+        "role": "ama_gdp_member",
+        "sha256": "2434ffdbcfc527314cf5bae6e3530cc8be8138cfeae96c1aea6a979a213ee29f"
+      }
+    ]
+  },
+  "temporal_semantics": {
+    "observation_year": "economic period observed",
+    "reference_year": "omitted: no distinct object; the common-year rule selects observation_year directly",
+    "source_snapshot_id": "sha256 of exact payload/member roles used",
+    "source_vintage": "release metadata; not copied from observation_year"
+  },
+  "tests_sha256": "6afc9ac36c6261f9b477aec0422eb3185cee4db159328341f416953f47a9f9a1"
+}

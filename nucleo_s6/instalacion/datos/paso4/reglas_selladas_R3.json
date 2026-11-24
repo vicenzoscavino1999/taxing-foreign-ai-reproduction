@@ -1,0 +1,24 @@
+{
+ "alcance": "comparaciones R3 (candidata 27 del marco 536, 5 NA) de unidades ORIGINALES con su reproducción bajo S6",
+ "estado": "propuesta: solo activa si una autorización ADMITIDA declara el sha256 de este archivo",
+ "fases": [
+  "R3"
+ ],
+ "kind": "reglas-selladas-paso4-v1",
+ "reglas": [
+  {
+   "datos": {
+    "archivo": "datos/paso4/dr1_tecnicas_admitidas.json",
+    "sha256": "3be9730ff25053fb45d2c7c739de899b61c8aac846bbe5b263289f3489da42b3"
+   },
+   "id": "R-SUCESION-S6",
+   "sha256": "11529eb60a173323cff6ba03771f30bd5750a88c49062979435e155f36cdad5d",
+   "texto": "R-SUCESION-S6 v2 (DR-1; propuesta rem41, DESACTIVADA salvo sellado por el sha256 de este texto). Datos fijados: datos/paso4/dr1_tecnicas_admitidas.json sha256 3be9730ff25053fb45d2c7c739de899b61c8aac846bbe5b263289f3489da42b3 (12 tuplas técnicas originales por procedencia y las tuplas S6 admitidas por run_class). En la comparación R2/R3 de una unidad ORIGINAL (autoridad histórica, su contrato y su D7 S5) con su reproducción bajo S6 pueden diferir SOLO: (1) technical.code_sha256, configuration_sha256, contract_sha256 y method_sha256 dentro de frontier_context.structural_key_payload y lambda_pi_envelope.macro_key_payload, si la técnica del original es EXACTAMENTE una tupla original admitida, la nueva EXACTAMENTE una tupla S6 admitida, environment_sha256 y tolerances_sha256 son idénticos y la técnica de ambas cargas de cada lado coincide; (2) national_dependencies[*].manifest_path y manifest_sha256 con artifact_path y artifact_sha256 idénticos; (3) structural_key_sha256, resultado.clave_estructural, macro_key_sha256 y expected_macro_key_sha256, solo si en CADA lado son el hash de SU carga; (4) numerical_evidence.definition solo por las sustituciones E1 (prefijo de la evidencia de G: «G = C2 - K1 en el mismo omega: cota = error certificado de C2 +» -> «G: NA autenticada o C2 - K1 en el mismo omega; cota numérica si aplica = error certificado de C2 +»), E2 (sufijo de R1 certificado «; nivel configurado=6, efectivo=k», 0<=k<=6) y E3 (R1 incompleto: «al nivel máximo 6» -> «; nivel configurado=6, efectivo=k»). Todo lo demás de las cargas, de las tablas y del documento debe ser idéntico o cubierto por otra regla vigente. Nunca cubre valores calculados, estados, veredictos, evidencia numérica distinta de su texto descriptivo, ni amplía tolerancias."
+  },
+  {
+   "id": "R-NA-GNA1",
+   "sha256": "471ed2bc5dbc7f2e34c335d9b69fb07868035046564d4123213ed5ba8a904e96",
+   "texto": "DR-2 (rem40; propuesta, desactivada salvo sellado): solo en unidades NA (original CA2-4 por su autoridad, nueva G-NA-1), la fila de convergence_result con quantity_id G:<cell_id> puede diferir SOLO en status (incomplete -> not_applicable) y method_id (certified_bound_C2_closed_form_K1 -> instrument_unavailable_authenticated), y la fila de numerical_evidence que cita SOLO en method_id y definition, si y solo si: en ambas corridas la confrontación y el techo son not_applicable con reason_code INSTRUMENT_NOT_AVAILABLE e instrument_available=false (misma causa de no disponibilidad); en ambas filas G coverage_complete=false, verdict_changes=0, value_before, value_after, change_bound y topologías nulos y tolerance idéntica; la evidencia es kind=convergence, status=limitation, error_bound nulo y result_table/record_pk idénticos; todo lo demás (tablas, filas, documento) idéntico sin otra regla. No cubre unidades numéricas ni filas G con valores; no cambia ninguna tolerancia."
+  }
+ ]
+}

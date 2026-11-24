@@ -1,0 +1,45 @@
+{
+ "kind": "autorizacion-alcance-paso4-v3",
+ "etiqueta": "ALCANCE v3 E4 rem120 C0 — NO OFICIAL",
+ "plan_sha256": "18b2647b07fc54b3bac88ffa2808c40de4df30682934abc48e7e22b61350495d",
+ "operaciones": [
+  "LOTE1"
+ ],
+ "tareas": [
+  "L1-ELAST"
+ ],
+ "asignaciones": {
+  "L1-ELAST": "3cc338388bbdb123a99b2220f7bee6ab7b805bd332e3b4352c5fb7640547a960"
+ },
+ "despliegue_sha256": "f293a0a62d2cb6bf3517e72a0bfc589ee703685d4434c2cdae4b4cd1b5085d6c",
+ "entradas": {
+  "lote_manifiesto": "d430b39db2cea7801cdcf8b55f0455063270d58f5aebea57776241fcde04b4af",
+  "codigo_lote": {
+   "tarea_lote.py": "dca9d79b2d7c89bdd09e4e99293a158cb7fdc4cf8951df51561c68b019386456",
+   "conexion_lambda.py": "9dbdc7322e303f11f4b33897dd11de3e7ce8327636637e75bc246222391138b3",
+   "conexion_frontera.py": "4fb1915d7cf7ca39bf9385f975665a75b32717558096870d7d9213d151be2527"
+  },
+  "validador_lote": "d95e2beb0c0f67a96984d4346fe1c77e5b44539eb97769ba3f09ecbb67ea4f19",
+  "d7_sha256": {
+   "support_set.csv": "91716f572a85dae4e57290efb3dad03ada588d7a6cfe037fd2e1ae5d40bd61c6",
+   "scenario_map.csv": "da5c9247903e4bd053d088c8c9db435128b33f47cf479496273a0331358aebce"
+  },
+  "cobertura_nacional": "6015226d99b7b2a2b959f3990666142bea16eb1b929eee1923532c7303a8ee80"
+ },
+ "limites": {
+  "procesos": 3,
+  "tope_s": 2400.0,
+  "suite_s": 3600.0,
+  "union_s": 10800.0
+ },
+ "repetir": [],
+ "excepciones": [],
+ "instalacion_identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+ "congelamiento_p3_sha256": "8e59ea4870c987ecca4ea1e5a8cb3f95581fcc1a64b3e7aa61c035a9b8e0dcfc",
+ "emitida_utc": "2026-10-30T01:58:18.583589+00:00",
+ "continua_alcance": null,
+ "lote_manifiesto_sha256": "d430b39db2cea7801cdcf8b55f0455063270d58f5aebea57776241fcde04b4af",
+ "b_official_run_authorized": false,
+ "freeze_run_authorized": false,
+ "official_export_authorized": false
+}

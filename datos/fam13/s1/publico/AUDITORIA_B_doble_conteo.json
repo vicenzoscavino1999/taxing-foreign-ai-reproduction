@@ -1,0 +1,148 @@
+{
+ "kind": "auditoria-doble-conteo-rem183",
+ "objeto": "B. Auditoría de doble conteo (§22.7)",
+ "estado": "candidato de preparación editorial S1 (rem183); fuera del manuscrito; no aceptado; no es exportación oficial",
+ "alcance": "compuertas H7/H13 por sus clases auténticas y, por separado, §18.7 (double_counting_audit) como limitación documental adoptada",
+ "nivel_evidencia": "evidencia_documental",
+ "fuentes": [
+  {
+   "id": "P_matriz_v4",
+   "ruta": "tmp/paso4_exp0_lambda_autenticada_desde_rem134/a_exp0/salida_a2/MATRIZ_REVISADA_v4.json",
+   "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+   "bytes": 20031,
+   "autoridad": [
+    "L_rem147"
+   ]
+  },
+  {
+   "id": "P_registro_18_7",
+   "ruta": "tmp/paso4_supremos_gn_auditoria_desde_rem174/bloque_b/salida_1/REGISTRO_LOCALIZACION_18_7_REM174.json",
+   "sha256": "429dd087bd80cadbf33cd5c9c75ad13f5e54a26d7852330d73a78945a6eb07b1",
+   "bytes": 50433,
+   "autoridad": [
+    "D_rem174",
+    "D_rem176",
+    "A_rem177_cierre"
+   ]
+  },
+  {
+   "id": "P_limites_rem175",
+   "ruta": "tmp/paso4_correcciones_extension_global_desde_rem175/PROPUESTAS_ALCANCE_LIMITACION_REM175.md",
+   "sha256": "25b27c424c2a06dc8904a3a30018df35603b09db80dd8916f7d7c984d1003218",
+   "bytes": 8260,
+   "autoridad": [
+    "D_rem176",
+    "ADOPCION_AUTOR_rem176",
+    "A_rem177_cierre"
+   ]
+  },
+  {
+   "id": "P_adopcion_rem176",
+   "ruta": "tmp/paso4_integracion_cierre_global_desde_rem176/decisiones/REFERENCIA_ADOPCION_REM176.json",
+   "sha256": "a975e3f9c48f3f8de287701b0da16bfd04b69862d30ee76ae53faf5021ad6085",
+   "bytes": 2583,
+   "autoridad": [
+    "D_rem176",
+    "ADOPCION_AUTOR_rem176"
+   ]
+  }
+ ],
+ "compuertas_H7_H13": [
+  {
+   "requisito": "H7",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "`F^{fix}` sumado fuera de `𝒬`",
+   "linea_diseno": 2086,
+   "clase_evidencia": "retrospectiva_comprobada",
+   "resultado": "comprobada",
+   "evidencia": "F_fix solo existe en external.py dentro de Q (cotas sin_addback/addback_completo) con identities() T1=1e-12; ningún otro módulo lo suma",
+   "accion_minima": null,
+   "clase_D_EXP0": "retrospectiva comprobada",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/6",
+    "clave": [
+     "H7"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  },
+  {
+   "requisito": "H13",
+   "tipo": "compuerta",
+   "nivel": "hard_fail",
+   "texto_diseno": "`c_{trace}` usado como factor multiplicativo de `B_f`",
+   "linea_diseno": 2092,
+   "clase_evidencia": "contemporanea",
+   "resultado": "satisfecha",
+   "evidencia": "parameter_registry c_trace inactive_reason=H13_NO_TRACE_FACTOR; G11 trace_inactive [450]",
+   "accion_minima": null,
+   "clase_D_EXP0": "contemporánea",
+   "_traza": {
+    "producto": "P_matriz_v4",
+    "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+    "fila": "/filas/12",
+    "clave": [
+     "H13"
+    ],
+    "clase_garantia": "evidencia_documental"
+   }
+  }
+ ],
+ "seccion_18_7": {
+  "tratamiento": "limitacion_adoptada",
+  "texto_adoptado": "En las 14 corridas T8 no se recuperó un double_counting_audit contemporáneo dentro del corpus examinado y delimitado en rem174. Se conserva como limitación documental la falta de ese registro recuperado; este resultado no acredita que el auditor nunca se ejecutara. El generador D8 localizado no sustituye una salida ligada a cada corrida. H7/H13 y D-EXP0 conservan su alcance y no satisfacen por sí solos §18.7. No se afirma una auditoría contemporánea ni un PASS no documentados. Cualquier revisión retrospectiva o auditoría futura deberá identificar fecha, fuentes, alcance y limitaciones propios, sin retrofechar ni alterar las salidas históricas.",
+  "texto_adoptado_linea": 89,
+  "adopcion_autor": "Adopto las delimitaciones de C3, E4, Exp. 2 y T4 y el tratamiento de §18.7 como limitación documental, conforme al dictamen rem176. Mantengo las tablas del cuerpo como etapa posterior. No activo la asignación a D8 ni una ampliación de cálculos.",
+  "objeto_buscado": {
+   "diseno": "fase6_planes/PLAN_DISENO_v2_2_30.md §18.7 (l.2458–2460)",
+   "campos_de_diseno": [
+    "run_id",
+    "mechanism",
+    "where_counted",
+    "where_not_counted",
+    "verified_by",
+    "status"
+   ]
+  },
+  "resumen_localizacion": {
+   "corridas": 14,
+   "localizadas": 0,
+   "no_localizadas": 14,
+   "artefactos_texto_leidos": 6302,
+   "codigo_py_leido": 9444,
+   "nombres_examinados": 239103,
+   "coincidencias_contenido_artefactos": 6,
+   "coincidencias_contenido_codigo": 41,
+   "coincidencias_nombre": 0,
+   "copias_auditor_d8": 0
+  },
+  "corridas_consultadas": 14,
+  "resultado_por_corrida": {
+   "no localizado en el corpus revisado": 14
+  },
+  "campos_del_registro": {
+   "mechanism": "no_localizado",
+   "where_counted": "no_localizado",
+   "where_not_counted": "no_localizado",
+   "verified_by": "no_localizado",
+   "status": "no_localizado"
+  },
+  "no_se_deduce": "nada sobre si el auditor se ejecutó; no se asigna D8; H7/H13 no equivalen al registro §18.7"
+ },
+ "recuentos": {
+  "requisitos": 2,
+  "corridas_consultadas": 14,
+  "conjuntos": "no aplica"
+ },
+ "hallazgos": [
+  "H7: retrospectiva comprobada (F_fix solo dentro de Q)",
+  "H13: contemporánea (c_trace inactivo, H13_NO_TRACE_FACTOR)",
+  "§18.7: registro no localizado en las 14 corridas consultadas"
+ ],
+ "limitaciones_adoptadas": [
+  "En las 14 corridas T8 no se recuperó un double_counting_audit contemporáneo dentro del corpus examinado y delimitado en rem174. Se conserva como limitación documental la falta de ese registro recuperado; este resultado no acredita que el auditor nunca se ejecutara. El generador D8 localizado no sustituye una salida ligada a cada corrida. H7/H13 y D-EXP0 conservan su alcance y no satisfacen por sí solos §18.7. No se afirma una auditoría contemporánea ni un PASS no documentados. Cualquier revisión retrospectiva o auditoría futura deberá identificar fecha, fuentes, alcance y limitaciones propios, sin retrofechar ni alterar las salidas históricas."
+ ]
+}

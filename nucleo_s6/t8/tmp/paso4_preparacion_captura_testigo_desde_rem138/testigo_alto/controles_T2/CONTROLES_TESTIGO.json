@@ -1,0 +1,3500 @@
+{
+ "kind": "controles-testigo-alto-rem138",
+ "experimental": true,
+ "productivo": false,
+ "clave": "e8b1f7fdb9c7017605e0a4162fc6688e7b6ed01d2308ff72106ed6cf6834a97b",
+ "plan": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+ "fuentes_autenticadas": {
+  "paso4_emision_lambda_conexion_captura_desde_rem137": {
+   "c3_acoplada/C3_TESTIGOS.json": "b9b426f70a86306895fc1c54aae615684c11d356837cf7d4c1db86c93784968a",
+   "c3_acoplada/C3_COTA_INFERIOR.json": "287750a51c05d5128cda7f7797ccab2371828bfd32e2140fa6eb027b23ad774f",
+   "c3_acoplada/C3_ACOPLADA.md": "ece22a38ed3e0981dc32c049cf4e32c8f4df315898ecdf0c5009dd52f77a99ef",
+   "c3_acoplada/C3_ACOPLADA.json": "4f49820885841da4a3a789bd92a787d5c314ccab1b11fea9d21556f2ff5c9365",
+   "c3_acoplada/c3_cota_inferior.py": "d3181068aa7937c825665533280e5619dd0a9b32ad6a9940822c29e7a261d0de"
+  },
+  "paso4_procedencia_cota_desde_rem136": {
+   "c_cota/RESTO_C3.json": "202a0861faad36ce9a7a1441985b56172e93eca53f4f8127fd8bcacd3c6ab18f"
+  },
+  "paso4_emision_lambda_captura_desde_rem135": {
+   "c_captura/salida_c1b/EQUIVALENCIA_EFECTIVA_TECHO.json": "e4b4c411ba78bbe8938586e3a704dd83bc10397d82248078f5ee3af94434978c"
+  },
+  "paso4_exp0_t8_desde_rem132": {
+   "derivados/salida_d2/t8/IDENTIDAD_Y_PLAN_POR_CORRIDA.json": "0c87a0188277125c7fa31ee93067cbc56509c4ec56065654a5234849ae222bf2",
+   "derivados/salida_d2/t8/plan_unidades.json": "881b36970d4f43041f38fddac3ff6cddb081836a64866d6622e8fcbb4e4fdf65",
+   "derivados/derivar_exp0_t8.py": "2e2f4f50186c7a97dd2e69cb263906959afb3808c78cfc37266b6536ae816934"
+  },
+  "remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855": {
+   "demo/rem3/resultados/S3_P1-PER-G-df-0_filas.json": "5bb32b00f533775445b7bad08329a30c0425fe55cbe4a20abf1917e8920822b9",
+   "candidato/herramientas/b/unidades.py": "f8044ed07992bd4ae9e58dfc5a18c50a4ff414250df162b754fa997ee7d6b432",
+   "candidato/src/paper2b/run.py": "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1",
+   "candidato/src/paper2b/keys.py": "fbcbc899f267cf2a367ce3cf6d46e0479869bd681d5a248ee5d49574660ac530",
+   "candidato/src/paper2b/numeric.py": "4b19f4cb45a637c3a3370ca95059bc4f94feb71649a9f54fd5ac8c33c941c98e",
+   "candidato/src/paper2b/supports.py": "8051efef6ae2819f864ec1e516b09ac7f03e421b74478454b57391c6529fa752",
+   "candidato/src/paper2b/d7view.py": "74f4b60a602ac951d5871c11e43e6a29efb6c3ffc5fb218135724ccea5671660",
+   "candidato/herramientas/b/ejecutar_b.py": "39d6a7c08d01429e6eb7f34f521055662e79aa7a39ca380dc97bcdc0720349a0"
+  }
+ },
+ "sellos": {
+  "paso4_emision_lambda_conexion_captura_desde_rem137": "59188e65c2d8dd665679f3b47780e2859633505b260127cc435c772431bf92b2",
+  "paso4_procedencia_cota_desde_rem136": "16a2e53e21ba1d3615616bc598ea281ec078f55a5bd97b96a4ae9746934a4087",
+  "paso4_emision_lambda_captura_desde_rem135": "313719680b730727b64d3260359030486c2b8449b68632b32805d4b19051bdd3",
+  "paso4_exp0_t8_desde_rem132": "542036fdd1be7f38e56c7c9f39320f40da644477ea3072d1dc1c198d683b39f9",
+  "remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855": "1bb94b75d57c4b97e9ebf662bc6cc6117e3b8b30792e46d6d1e5ef1a36ea8cdd"
+ },
+ "d7": {
+  "arbol": "10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739",
+  "manifiesto_sha256": "42fc2b0c454371a45ab10ccbda37a1154e77282dd06df7a880560966242e074a"
+ },
+ "a_pertenencia": {
+  "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+  "plan_regenerado_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+  "unidades": 187500,
+  "por_set": {
+   "CMP-E1.macro": {
+    "nodos_por_eje": {
+     "a": 5,
+     "beta_tilde": 5,
+     "eta_d": 5,
+     "eta_f": 5,
+     "kappa_tilde": 6,
+     "phi": 5,
+     "rho": 5,
+     "u_theta": 3,
+     "z_cost": 3
+    },
+    "k_prefijo": 6,
+    "puntos_por_unidad": 45,
+    "unidades": 18750
+   },
+   "CMP-E1.micro": {
+    "nodos_por_eje": {
+     "a": 5,
+     "beta_tilde": 5,
+     "eta_d": 5,
+     "eta_f": 5,
+     "kappa_tilde": 6,
+     "phi": 5,
+     "rho": 5,
+     "u_theta": 3,
+     "z_cost": 3
+    },
+    "k_prefijo": 6,
+    "puntos_por_unidad": 45,
+    "unidades": 18750
+   },
+   "COL-E2-2023.2023p.macro": {
+    "nodos_por_eje": {
+     "a": 5,
+     "beta_tilde": 5,
+     "eta_d": 5,
+     "eta_f": 5,
+     "kappa_tilde": 6,
+     "phi": 5,
+     "rho": 5,
+     "u_theta": 3,
+     "z_cost": 3
+    },
+    "k_prefijo": 6,
+    "puntos_por_unidad": 45,
+    "unidades": 18750
+   },
+   "COL-E2-2023.2023p.micro": {
+    "nodos_por_eje": {
+     "a": 5,
+     "beta_tilde": 5,
+     "eta_d": 5,
+     "eta_f": 5,
+     "kappa_tilde": 6,
+     "phi": 5,
+     "rho": 5,
+     "u_theta": 3,
+     "z_cost": 3
+    },
+    "k_prefijo": 6,
+    "puntos_por_unidad": 45,
+    "unidades": 18750
+   },
+   "COL-E2-2023.2024p.macro": {
+    "nodos_por_eje": {
+     "a": 5,
+     "beta_tilde": 5,
+     "eta_d": 5,
+     "eta_f": 5,
+     "kappa_tilde": 6,
+     "phi": 5,
+     "rho": 5,
+     "u_theta": 3,
+     "z_cost": 3
+    },
+    "k_prefijo": 6,
+    "puntos_por_unidad": 45,
+    "unidades": 18750
+   },
+   "COL-E2-2023.2024p.micro": {
+    "nodos_por_eje": {
+     "a": 5,
+     "beta_tilde": 5,
+     "eta_d": 5,
+     "eta_f": 5,
+     "kappa_tilde": 6,
+     "phi": 5,
+     "rho": 5,
+     "u_theta": 3,
+     "z_cost": 3
+    },
+    "k_prefijo": 6,
+    "puntos_por_unidad": 45,
+    "unidades": 18750
+   },
+   "PER-E0E3.macro": {
+    "nodos_por_eje": {
+     "a": 5,
+     "beta_tilde": 5,
+     "eta_d": 5,
+     "eta_f": 5,
+     "kappa_tilde": 6,
+     "phi": 5,
+     "rho": 5,
+     "u_theta": 3,
+     "z_cost": 3
+    },
+    "k_prefijo": 6,
+    "puntos_por_unidad": 45,
+    "unidades": 18750
+   },
+   "PER-E0E3.micro": {
+    "nodos_por_eje": {
+     "a": 5,
+     "beta_tilde": 5,
+     "eta_d": 5,
+     "eta_f": 5,
+     "kappa_tilde": 6,
+     "phi": 5,
+     "rho": 5,
+     "u_theta": 3,
+     "z_cost": 3
+    },
+    "k_prefijo": 6,
+    "puntos_por_unidad": 45,
+    "unidades": 18750
+   },
+   "PER-E1.macro": {
+    "nodos_por_eje": {
+     "a": 5,
+     "beta_tilde": 5,
+     "eta_d": 5,
+     "eta_f": 5,
+     "kappa_tilde": 6,
+     "phi": 5,
+     "rho": 5,
+     "u_theta": 3,
+     "z_cost": 3
+    },
+    "k_prefijo": 6,
+    "puntos_por_unidad": 45,
+    "unidades": 18750
+   },
+   "PER-E1.micro": {
+    "nodos_por_eje": {
+     "a": 5,
+     "beta_tilde": 5,
+     "eta_d": 5,
+     "eta_f": 5,
+     "kappa_tilde": 6,
+     "phi": 5,
+     "rho": 5,
+     "u_theta": 3,
+     "z_cost": 3
+    },
+    "k_prefijo": 6,
+    "puntos_por_unidad": 45,
+    "unidades": 18750
+   }
+  },
+  "igual_al_plan_rem132": true,
+  "generador": {
+   "funcion": "plan_units",
+   "historico": {
+    "ruta": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/candidato/herramientas/b/unidades.py",
+    "sha256": "f8044ed07992bd4ae9e58dfc5a18c50a4ff414250df162b754fa997ee7d6b432"
+   },
+   "instalacion": {
+    "ruta": "paso4/instalacion/herramientas/b/unidades.py",
+    "sha256": "a8aded1db50f80feffd62bcb655e62e5f93487364a3c4e625f47dcdbd1f17c86"
+   },
+   "texto_de_la_funcion_identico": true,
+   "texto_sha256": "f43d94c9ed2ce1371b912d67f405a22d18257bb19bb4018f0d3b737ef11af8f1"
+  },
+  "evaluated_sets_texto_sha256": "e5f3d9454391cc539e09119c440f6a110f85abc808567aa71249dc90d003b66d",
+  "level_nodes_texto_sha256": "0ca6cf279b4d404803100300233e3470d4792216e9705dbabacb497c41b9447a",
+  "STRUCT": [
+   "a",
+   "beta_tilde",
+   "eta_d",
+   "eta_f",
+   "kappa_tilde",
+   "phi",
+   "rho",
+   "u_theta",
+   "z_cost"
+  ],
+  "FIXED": [
+   "c_legal",
+   "gamma",
+   "t",
+   "z_m"
+  ],
+  "BARS": [
+   "bar_tau_d",
+   "bar_tau_f"
+  ],
+  "configuracion_plan": {
+   "base_sets": [
+    "CMP-E1.macro",
+    "CMP-E1.micro",
+    "COL-E2-2023.2023p.macro",
+    "COL-E2-2023.2023p.micro",
+    "COL-E2-2023.2024p.macro",
+    "COL-E2-2023.2024p.micro",
+    "PER-E0E3.macro",
+    "PER-E0E3.micro",
+    "PER-E1.macro",
+    "PER-E1.micro"
+   ],
+   "derived_suffixes": [],
+   "level": 0,
+   "max_unit_nodes": 64,
+   "designs": [
+    "G",
+    "N"
+   ]
+  },
+  "seleccion": "la corrida monolítica evalúa cada omega = producto de nudos L0 por eje STRUCT x vértices macro x fijos; una unidad fija los índices de los k primeros ejes (run.py omegas: axes[pid] = [axes[pid][prefix[pid]]]); el techo se pide por (omega, diseño en designs, instrumento con dominio tau_domains) y se cachea por la clave estructural, que solo depende de STRUCT+FIXED, diseño, instrumento, barras, teoría y técnica",
+  "celda": {
+   "a": "1.1",
+   "beta_tilde": "0.25",
+   "eta_d": "0.1",
+   "eta_f": "0.1",
+   "kappa_tilde": "0.2",
+   "phi": "0.75",
+   "rho": "1",
+   "u_theta": "0.9",
+   "z_cost": "1"
+  },
+  "diseno": "G",
+  "instrumento": "df",
+  "por_conjunto": {
+   "CMP-E1.macro": {
+    "indices": {
+     "a": 0,
+     "beta_tilde": 0,
+     "eta_d": 0,
+     "eta_f": 0,
+     "kappa_tilde": 5,
+     "phi": 3,
+     "rho": 4,
+     "u_theta": 2,
+     "z_cost": 0
+    },
+    "dominios": {
+     "a": {
+      "support_id": "SUP:CMP-E1.macro:a:primary",
+      "nodos_L0": [
+       "1.1",
+       "1.3",
+       "1.5",
+       "2.0",
+       "2.5"
+      ],
+      "indice": 0,
+      "lower": "1.1",
+      "upper": "2.5",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "beta_tilde": {
+      "support_id": "SUP:CMP-E1.macro:beta_tilde:primary",
+      "nodos_L0": [
+       "0.25",
+       "0.5",
+       "1.0",
+       "2.0",
+       "4.0"
+      ],
+      "indice": 0,
+      "lower": "0.25",
+      "upper": "4",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "eta_d": {
+      "support_id": "SUP:CMP-E1.macro:eta_d:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.5",
+       "1.0",
+       "2.0",
+       "4.0"
+      ],
+      "indice": 0,
+      "lower": "0.1",
+      "upper": "4",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "eta_f": {
+      "support_id": "SUP:CMP-E1.macro:eta_f:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.8",
+       "1.2",
+       "4.0",
+       "8.0"
+      ],
+      "indice": 0,
+      "lower": "0.1",
+      "upper": "8",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "kappa_tilde": {
+      "support_id": "SUP:CMP-E1.macro:kappa_tilde:primary",
+      "nodos_L0": [
+       "0.005",
+       "0.01",
+       "0.02",
+       "0.05",
+       "0.1",
+       "0.2"
+      ],
+      "indice": 5,
+      "lower": "0.005",
+      "upper": "0.2",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "phi": {
+      "support_id": "SUP:CMP-E1.macro:phi:primary",
+      "nodos_L0": [
+       "0.0",
+       "0.25",
+       "0.5",
+       "0.75",
+       "1.0"
+      ],
+      "indice": 3,
+      "lower": "0",
+      "upper": "1",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "rho": {
+      "support_id": "SUP:CMP-E1.macro:rho:primary",
+      "nodos_L0": [
+       "0.4",
+       "0.6",
+       "0.8",
+       "0.9",
+       "1.0"
+      ],
+      "indice": 4,
+      "lower": "0.4",
+      "upper": "1",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "u_theta": {
+      "support_id": "SUP:CMP-E1.macro:u_theta:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.5",
+       "0.9"
+      ],
+      "indice": 2,
+      "lower": "0.1",
+      "upper": "0.9",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "z_cost": {
+      "support_id": "SUP:CMP-E1.macro:z_cost:primary",
+      "nodos_L0": [
+       "1.0",
+       "10.0",
+       "100.0"
+      ],
+      "indice": 0,
+      "lower": "1",
+      "upper": "100",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     }
+    },
+    "k_prefijo": 6,
+    "unit_id": "Ua4effe41b37f6dd24176eb77",
+    "unidad_en_plan": true,
+    "prefijo": {
+     "a": 0,
+     "beta_tilde": 0,
+     "eta_d": 0,
+     "eta_f": 0,
+     "kappa_tilde": 5,
+     "phi": 3
+    },
+    "resto_en_la_unidad": {
+     "rho": 4,
+     "u_theta": 2,
+     "z_cost": 0
+    },
+    "fijos_y_barras_D7": {
+     "c_legal": [
+      "1.0"
+     ],
+     "gamma": [
+      "1.0"
+     ],
+     "t": [
+      "0.0"
+     ],
+     "z_m": [
+      "1.0"
+     ],
+     "bar_tau_d": [
+      "0.6"
+     ],
+     "bar_tau_f": [
+      "0.6"
+     ]
+    },
+    "tau_df": {
+     "tau_domain_id": "TAU:CMP-E1.macro:df",
+     "tau_d": [
+      "0",
+      "0.6",
+      "true",
+      "true"
+     ],
+     "tau_f": [
+      "0",
+      "0.6",
+      "true",
+      "true"
+     ]
+    }
+   },
+   "CMP-E1.micro": {
+    "indices": {
+     "a": 0,
+     "beta_tilde": 0,
+     "eta_d": 0,
+     "eta_f": 0,
+     "kappa_tilde": 5,
+     "phi": 3,
+     "rho": 4,
+     "u_theta": 2,
+     "z_cost": 0
+    },
+    "dominios": {
+     "a": {
+      "support_id": "SUP:CMP-E1.micro:a:primary",
+      "nodos_L0": [
+       "1.1",
+       "1.3",
+       "1.5",
+       "2.0",
+       "2.5"
+      ],
+      "indice": 0,
+      "lower": "1.1",
+      "upper": "2.5",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "beta_tilde": {
+      "support_id": "SUP:CMP-E1.micro:beta_tilde:primary",
+      "nodos_L0": [
+       "0.25",
+       "0.5",
+       "1.0",
+       "2.0",
+       "4.0"
+      ],
+      "indice": 0,
+      "lower": "0.25",
+      "upper": "4",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "eta_d": {
+      "support_id": "SUP:CMP-E1.micro:eta_d:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.5",
+       "1.0",
+       "2.0",
+       "4.0"
+      ],
+      "indice": 0,
+      "lower": "0.1",
+      "upper": "4",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "eta_f": {
+      "support_id": "SUP:CMP-E1.micro:eta_f:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.8",
+       "1.2",
+       "4.0",
+       "8.0"
+      ],
+      "indice": 0,
+      "lower": "0.1",
+      "upper": "8",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "kappa_tilde": {
+      "support_id": "SUP:CMP-E1.micro:kappa_tilde:primary",
+      "nodos_L0": [
+       "0.005",
+       "0.01",
+       "0.02",
+       "0.05",
+       "0.1",
+       "0.2"
+      ],
+      "indice": 5,
+      "lower": "0.005",
+      "upper": "0.2",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "phi": {
+      "support_id": "SUP:CMP-E1.micro:phi:primary",
+      "nodos_L0": [
+       "0.0",
+       "0.25",
+       "0.5",
+       "0.75",
+       "1.0"
+      ],
+      "indice": 3,
+      "lower": "0",
+      "upper": "1",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "rho": {
+      "support_id": "SUP:CMP-E1.micro:rho:primary",
+      "nodos_L0": [
+       "0.4",
+       "0.6",
+       "0.8",
+       "0.9",
+       "1.0"
+      ],
+      "indice": 4,
+      "lower": "0.4",
+      "upper": "1",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "u_theta": {
+      "support_id": "SUP:CMP-E1.micro:u_theta:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.5",
+       "0.9"
+      ],
+      "indice": 2,
+      "lower": "0.1",
+      "upper": "0.9",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "z_cost": {
+      "support_id": "SUP:CMP-E1.micro:z_cost:primary",
+      "nodos_L0": [
+       "1.0",
+       "10.0",
+       "100.0"
+      ],
+      "indice": 0,
+      "lower": "1",
+      "upper": "100",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     }
+    },
+    "k_prefijo": 6,
+    "unit_id": "U85e36fc627d1793f1cc63a50",
+    "unidad_en_plan": true,
+    "prefijo": {
+     "a": 0,
+     "beta_tilde": 0,
+     "eta_d": 0,
+     "eta_f": 0,
+     "kappa_tilde": 5,
+     "phi": 3
+    },
+    "resto_en_la_unidad": {
+     "rho": 4,
+     "u_theta": 2,
+     "z_cost": 0
+    },
+    "fijos_y_barras_D7": {
+     "c_legal": [
+      "1.0"
+     ],
+     "gamma": [
+      "1.0"
+     ],
+     "t": [
+      "0.0"
+     ],
+     "z_m": [
+      "1.0"
+     ],
+     "bar_tau_d": [
+      "0.6"
+     ],
+     "bar_tau_f": [
+      "0.6"
+     ]
+    },
+    "tau_df": {
+     "tau_domain_id": "TAU:CMP-E1.micro:df",
+     "tau_d": [
+      "0",
+      "0.6",
+      "true",
+      "true"
+     ],
+     "tau_f": [
+      "0",
+      "0.6",
+      "true",
+      "true"
+     ]
+    }
+   },
+   "COL-E2-2023.2023p.macro": {
+    "indices": {
+     "a": 0,
+     "beta_tilde": 0,
+     "eta_d": 0,
+     "eta_f": 0,
+     "kappa_tilde": 5,
+     "phi": 3,
+     "rho": 4,
+     "u_theta": 2,
+     "z_cost": 0
+    },
+    "dominios": {
+     "a": {
+      "support_id": "SUP:COL-E2-2023.2023p.macro:a:primary",
+      "nodos_L0": [
+       "1.1",
+       "1.3",
+       "1.5",
+       "2.0",
+       "2.5"
+      ],
+      "indice": 0,
+      "lower": "1.1",
+      "upper": "2.5",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "beta_tilde": {
+      "support_id": "SUP:COL-E2-2023.2023p.macro:beta_tilde:primary",
+      "nodos_L0": [
+       "0.25",
+       "0.5",
+       "1.0",
+       "2.0",
+       "4.0"
+      ],
+      "indice": 0,
+      "lower": "0.25",
+      "upper": "4",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "eta_d": {
+      "support_id": "SUP:COL-E2-2023.2023p.macro:eta_d:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.5",
+       "1.0",
+       "2.0",
+       "4.0"
+      ],
+      "indice": 0,
+      "lower": "0.1",
+      "upper": "4",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "eta_f": {
+      "support_id": "SUP:COL-E2-2023.2023p.macro:eta_f:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.8",
+       "1.2",
+       "4.0",
+       "8.0"
+      ],
+      "indice": 0,
+      "lower": "0.1",
+      "upper": "8",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "kappa_tilde": {
+      "support_id": "SUP:COL-E2-2023.2023p.macro:kappa_tilde:primary",
+      "nodos_L0": [
+       "0.005",
+       "0.01",
+       "0.02",
+       "0.05",
+       "0.1",
+       "0.2"
+      ],
+      "indice": 5,
+      "lower": "0.005",
+      "upper": "0.2",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "phi": {
+      "support_id": "SUP:COL-E2-2023.2023p.macro:phi:primary",
+      "nodos_L0": [
+       "0.0",
+       "0.25",
+       "0.5",
+       "0.75",
+       "1.0"
+      ],
+      "indice": 3,
+      "lower": "0",
+      "upper": "1",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "rho": {
+      "support_id": "SUP:COL-E2-2023.2023p.macro:rho:primary",
+      "nodos_L0": [
+       "0.4",
+       "0.6",
+       "0.8",
+       "0.9",
+       "1.0"
+      ],
+      "indice": 4,
+      "lower": "0.4",
+      "upper": "1",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "u_theta": {
+      "support_id": "SUP:COL-E2-2023.2023p.macro:u_theta:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.5",
+       "0.9"
+      ],
+      "indice": 2,
+      "lower": "0.1",
+      "upper": "0.9",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "z_cost": {
+      "support_id": "SUP:COL-E2-2023.2023p.macro:z_cost:primary",
+      "nodos_L0": [
+       "1.0",
+       "10.0",
+       "100.0"
+      ],
+      "indice": 0,
+      "lower": "1",
+      "upper": "100",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     }
+    },
+    "k_prefijo": 6,
+    "unit_id": "U71c977bdd63d7f808f987d1b",
+    "unidad_en_plan": true,
+    "prefijo": {
+     "a": 0,
+     "beta_tilde": 0,
+     "eta_d": 0,
+     "eta_f": 0,
+     "kappa_tilde": 5,
+     "phi": 3
+    },
+    "resto_en_la_unidad": {
+     "rho": 4,
+     "u_theta": 2,
+     "z_cost": 0
+    },
+    "fijos_y_barras_D7": {
+     "c_legal": [
+      "1.0"
+     ],
+     "gamma": [
+      "1.0"
+     ],
+     "t": [
+      "0.0"
+     ],
+     "z_m": [
+      "1.0"
+     ],
+     "bar_tau_d": [
+      "0.6"
+     ],
+     "bar_tau_f": [
+      "0.6"
+     ]
+    },
+    "tau_df": {
+     "tau_domain_id": "TAU:COL-E2-2023.2023p.macro:df",
+     "tau_d": [
+      "0",
+      "0.6",
+      "true",
+      "true"
+     ],
+     "tau_f": [
+      "0",
+      "0.6",
+      "true",
+      "true"
+     ]
+    }
+   },
+   "COL-E2-2023.2023p.micro": {
+    "indices": {
+     "a": 0,
+     "beta_tilde": 0,
+     "eta_d": 0,
+     "eta_f": 0,
+     "kappa_tilde": 5,
+     "phi": 3,
+     "rho": 4,
+     "u_theta": 2,
+     "z_cost": 0
+    },
+    "dominios": {
+     "a": {
+      "support_id": "SUP:COL-E2-2023.2023p.micro:a:primary",
+      "nodos_L0": [
+       "1.1",
+       "1.3",
+       "1.5",
+       "2.0",
+       "2.5"
+      ],
+      "indice": 0,
+      "lower": "1.1",
+      "upper": "2.5",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "beta_tilde": {
+      "support_id": "SUP:COL-E2-2023.2023p.micro:beta_tilde:primary",
+      "nodos_L0": [
+       "0.25",
+       "0.5",
+       "1.0",
+       "2.0",
+       "4.0"
+      ],
+      "indice": 0,
+      "lower": "0.25",
+      "upper": "4",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "eta_d": {
+      "support_id": "SUP:COL-E2-2023.2023p.micro:eta_d:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.5",
+       "1.0",
+       "2.0",
+       "4.0"
+      ],
+      "indice": 0,
+      "lower": "0.1",
+      "upper": "4",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "eta_f": {
+      "support_id": "SUP:COL-E2-2023.2023p.micro:eta_f:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.8",
+       "1.2",
+       "4.0",
+       "8.0"
+      ],
+      "indice": 0,
+      "lower": "0.1",
+      "upper": "8",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "kappa_tilde": {
+      "support_id": "SUP:COL-E2-2023.2023p.micro:kappa_tilde:primary",
+      "nodos_L0": [
+       "0.005",
+       "0.01",
+       "0.02",
+       "0.05",
+       "0.1",
+       "0.2"
+      ],
+      "indice": 5,
+      "lower": "0.005",
+      "upper": "0.2",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "phi": {
+      "support_id": "SUP:COL-E2-2023.2023p.micro:phi:primary",
+      "nodos_L0": [
+       "0.0",
+       "0.25",
+       "0.5",
+       "0.75",
+       "1.0"
+      ],
+      "indice": 3,
+      "lower": "0",
+      "upper": "1",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "rho": {
+      "support_id": "SUP:COL-E2-2023.2023p.micro:rho:primary",
+      "nodos_L0": [
+       "0.4",
+       "0.6",
+       "0.8",
+       "0.9",
+       "1.0"
+      ],
+      "indice": 4,
+      "lower": "0.4",
+      "upper": "1",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "u_theta": {
+      "support_id": "SUP:COL-E2-2023.2023p.micro:u_theta:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.5",
+       "0.9"
+      ],
+      "indice": 2,
+      "lower": "0.1",
+      "upper": "0.9",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "z_cost": {
+      "support_id": "SUP:COL-E2-2023.2023p.micro:z_cost:primary",
+      "nodos_L0": [
+       "1.0",
+       "10.0",
+       "100.0"
+      ],
+      "indice": 0,
+      "lower": "1",
+      "upper": "100",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     }
+    },
+    "k_prefijo": 6,
+    "unit_id": "U1745071edb2d00d1e60ef472",
+    "unidad_en_plan": true,
+    "prefijo": {
+     "a": 0,
+     "beta_tilde": 0,
+     "eta_d": 0,
+     "eta_f": 0,
+     "kappa_tilde": 5,
+     "phi": 3
+    },
+    "resto_en_la_unidad": {
+     "rho": 4,
+     "u_theta": 2,
+     "z_cost": 0
+    },
+    "fijos_y_barras_D7": {
+     "c_legal": [
+      "1.0"
+     ],
+     "gamma": [
+      "1.0"
+     ],
+     "t": [
+      "0.0"
+     ],
+     "z_m": [
+      "1.0"
+     ],
+     "bar_tau_d": [
+      "0.6"
+     ],
+     "bar_tau_f": [
+      "0.6"
+     ]
+    },
+    "tau_df": {
+     "tau_domain_id": "TAU:COL-E2-2023.2023p.micro:df",
+     "tau_d": [
+      "0",
+      "0.6",
+      "true",
+      "true"
+     ],
+     "tau_f": [
+      "0",
+      "0.6",
+      "true",
+      "true"
+     ]
+    }
+   },
+   "COL-E2-2023.2024p.macro": {
+    "indices": {
+     "a": 0,
+     "beta_tilde": 0,
+     "eta_d": 0,
+     "eta_f": 0,
+     "kappa_tilde": 5,
+     "phi": 3,
+     "rho": 4,
+     "u_theta": 2,
+     "z_cost": 0
+    },
+    "dominios": {
+     "a": {
+      "support_id": "SUP:COL-E2-2023.2024p.macro:a:primary",
+      "nodos_L0": [
+       "1.1",
+       "1.3",
+       "1.5",
+       "2.0",
+       "2.5"
+      ],
+      "indice": 0,
+      "lower": "1.1",
+      "upper": "2.5",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "beta_tilde": {
+      "support_id": "SUP:COL-E2-2023.2024p.macro:beta_tilde:primary",
+      "nodos_L0": [
+       "0.25",
+       "0.5",
+       "1.0",
+       "2.0",
+       "4.0"
+      ],
+      "indice": 0,
+      "lower": "0.25",
+      "upper": "4",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "eta_d": {
+      "support_id": "SUP:COL-E2-2023.2024p.macro:eta_d:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.5",
+       "1.0",
+       "2.0",
+       "4.0"
+      ],
+      "indice": 0,
+      "lower": "0.1",
+      "upper": "4",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "eta_f": {
+      "support_id": "SUP:COL-E2-2023.2024p.macro:eta_f:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.8",
+       "1.2",
+       "4.0",
+       "8.0"
+      ],
+      "indice": 0,
+      "lower": "0.1",
+      "upper": "8",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "kappa_tilde": {
+      "support_id": "SUP:COL-E2-2023.2024p.macro:kappa_tilde:primary",
+      "nodos_L0": [
+       "0.005",
+       "0.01",
+       "0.02",
+       "0.05",
+       "0.1",
+       "0.2"
+      ],
+      "indice": 5,
+      "lower": "0.005",
+      "upper": "0.2",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "phi": {
+      "support_id": "SUP:COL-E2-2023.2024p.macro:phi:primary",
+      "nodos_L0": [
+       "0.0",
+       "0.25",
+       "0.5",
+       "0.75",
+       "1.0"
+      ],
+      "indice": 3,
+      "lower": "0",
+      "upper": "1",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "rho": {
+      "support_id": "SUP:COL-E2-2023.2024p.macro:rho:primary",
+      "nodos_L0": [
+       "0.4",
+       "0.6",
+       "0.8",
+       "0.9",
+       "1.0"
+      ],
+      "indice": 4,
+      "lower": "0.4",
+      "upper": "1",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "u_theta": {
+      "support_id": "SUP:COL-E2-2023.2024p.macro:u_theta:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.5",
+       "0.9"
+      ],
+      "indice": 2,
+      "lower": "0.1",
+      "upper": "0.9",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "z_cost": {
+      "support_id": "SUP:COL-E2-2023.2024p.macro:z_cost:primary",
+      "nodos_L0": [
+       "1.0",
+       "10.0",
+       "100.0"
+      ],
+      "indice": 0,
+      "lower": "1",
+      "upper": "100",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     }
+    },
+    "k_prefijo": 6,
+    "unit_id": "Uab245a30f6b00c2d146e37a4",
+    "unidad_en_plan": true,
+    "prefijo": {
+     "a": 0,
+     "beta_tilde": 0,
+     "eta_d": 0,
+     "eta_f": 0,
+     "kappa_tilde": 5,
+     "phi": 3
+    },
+    "resto_en_la_unidad": {
+     "rho": 4,
+     "u_theta": 2,
+     "z_cost": 0
+    },
+    "fijos_y_barras_D7": {
+     "c_legal": [
+      "1.0"
+     ],
+     "gamma": [
+      "1.0"
+     ],
+     "t": [
+      "0.0"
+     ],
+     "z_m": [
+      "1.0"
+     ],
+     "bar_tau_d": [
+      "0.6"
+     ],
+     "bar_tau_f": [
+      "0.6"
+     ]
+    },
+    "tau_df": {
+     "tau_domain_id": "TAU:COL-E2-2023.2024p.macro:df",
+     "tau_d": [
+      "0",
+      "0.6",
+      "true",
+      "true"
+     ],
+     "tau_f": [
+      "0",
+      "0.6",
+      "true",
+      "true"
+     ]
+    }
+   },
+   "COL-E2-2023.2024p.micro": {
+    "indices": {
+     "a": 0,
+     "beta_tilde": 0,
+     "eta_d": 0,
+     "eta_f": 0,
+     "kappa_tilde": 5,
+     "phi": 3,
+     "rho": 4,
+     "u_theta": 2,
+     "z_cost": 0
+    },
+    "dominios": {
+     "a": {
+      "support_id": "SUP:COL-E2-2023.2024p.micro:a:primary",
+      "nodos_L0": [
+       "1.1",
+       "1.3",
+       "1.5",
+       "2.0",
+       "2.5"
+      ],
+      "indice": 0,
+      "lower": "1.1",
+      "upper": "2.5",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "beta_tilde": {
+      "support_id": "SUP:COL-E2-2023.2024p.micro:beta_tilde:primary",
+      "nodos_L0": [
+       "0.25",
+       "0.5",
+       "1.0",
+       "2.0",
+       "4.0"
+      ],
+      "indice": 0,
+      "lower": "0.25",
+      "upper": "4",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "eta_d": {
+      "support_id": "SUP:COL-E2-2023.2024p.micro:eta_d:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.5",
+       "1.0",
+       "2.0",
+       "4.0"
+      ],
+      "indice": 0,
+      "lower": "0.1",
+      "upper": "4",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "eta_f": {
+      "support_id": "SUP:COL-E2-2023.2024p.micro:eta_f:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.8",
+       "1.2",
+       "4.0",
+       "8.0"
+      ],
+      "indice": 0,
+      "lower": "0.1",
+      "upper": "8",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "kappa_tilde": {
+      "support_id": "SUP:COL-E2-2023.2024p.micro:kappa_tilde:primary",
+      "nodos_L0": [
+       "0.005",
+       "0.01",
+       "0.02",
+       "0.05",
+       "0.1",
+       "0.2"
+      ],
+      "indice": 5,
+      "lower": "0.005",
+      "upper": "0.2",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "phi": {
+      "support_id": "SUP:COL-E2-2023.2024p.micro:phi:primary",
+      "nodos_L0": [
+       "0.0",
+       "0.25",
+       "0.5",
+       "0.75",
+       "1.0"
+      ],
+      "indice": 3,
+      "lower": "0",
+      "upper": "1",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "rho": {
+      "support_id": "SUP:COL-E2-2023.2024p.micro:rho:primary",
+      "nodos_L0": [
+       "0.4",
+       "0.6",
+       "0.8",
+       "0.9",
+       "1.0"
+      ],
+      "indice": 4,
+      "lower": "0.4",
+      "upper": "1",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "u_theta": {
+      "support_id": "SUP:COL-E2-2023.2024p.micro:u_theta:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.5",
+       "0.9"
+      ],
+      "indice": 2,
+      "lower": "0.1",
+      "upper": "0.9",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "z_cost": {
+      "support_id": "SUP:COL-E2-2023.2024p.micro:z_cost:primary",
+      "nodos_L0": [
+       "1.0",
+       "10.0",
+       "100.0"
+      ],
+      "indice": 0,
+      "lower": "1",
+      "upper": "100",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     }
+    },
+    "k_prefijo": 6,
+    "unit_id": "U8b1185ded12d1ef13555cd1a",
+    "unidad_en_plan": true,
+    "prefijo": {
+     "a": 0,
+     "beta_tilde": 0,
+     "eta_d": 0,
+     "eta_f": 0,
+     "kappa_tilde": 5,
+     "phi": 3
+    },
+    "resto_en_la_unidad": {
+     "rho": 4,
+     "u_theta": 2,
+     "z_cost": 0
+    },
+    "fijos_y_barras_D7": {
+     "c_legal": [
+      "1.0"
+     ],
+     "gamma": [
+      "1.0"
+     ],
+     "t": [
+      "0.0"
+     ],
+     "z_m": [
+      "1.0"
+     ],
+     "bar_tau_d": [
+      "0.6"
+     ],
+     "bar_tau_f": [
+      "0.6"
+     ]
+    },
+    "tau_df": {
+     "tau_domain_id": "TAU:COL-E2-2023.2024p.micro:df",
+     "tau_d": [
+      "0",
+      "0.6",
+      "true",
+      "true"
+     ],
+     "tau_f": [
+      "0",
+      "0.6",
+      "true",
+      "true"
+     ]
+    }
+   },
+   "PER-E0E3.macro": {
+    "indices": {
+     "a": 0,
+     "beta_tilde": 0,
+     "eta_d": 0,
+     "eta_f": 0,
+     "kappa_tilde": 5,
+     "phi": 3,
+     "rho": 4,
+     "u_theta": 2,
+     "z_cost": 0
+    },
+    "dominios": {
+     "a": {
+      "support_id": "SUP:PER-E0E3.macro:a:primary",
+      "nodos_L0": [
+       "1.1",
+       "1.3",
+       "1.5",
+       "2.0",
+       "2.5"
+      ],
+      "indice": 0,
+      "lower": "1.1",
+      "upper": "2.5",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "beta_tilde": {
+      "support_id": "SUP:PER-E0E3.macro:beta_tilde:primary",
+      "nodos_L0": [
+       "0.25",
+       "0.5",
+       "1.0",
+       "2.0",
+       "4.0"
+      ],
+      "indice": 0,
+      "lower": "0.25",
+      "upper": "4",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "eta_d": {
+      "support_id": "SUP:PER-E0E3.macro:eta_d:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.5",
+       "1.0",
+       "2.0",
+       "4.0"
+      ],
+      "indice": 0,
+      "lower": "0.1",
+      "upper": "4",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "eta_f": {
+      "support_id": "SUP:PER-E0E3.macro:eta_f:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.8",
+       "1.2",
+       "4.0",
+       "8.0"
+      ],
+      "indice": 0,
+      "lower": "0.1",
+      "upper": "8",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "kappa_tilde": {
+      "support_id": "SUP:PER-E0E3.macro:kappa_tilde:primary",
+      "nodos_L0": [
+       "0.005",
+       "0.01",
+       "0.02",
+       "0.05",
+       "0.1",
+       "0.2"
+      ],
+      "indice": 5,
+      "lower": "0.005",
+      "upper": "0.2",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "phi": {
+      "support_id": "SUP:PER-E0E3.macro:phi:primary",
+      "nodos_L0": [
+       "0.0",
+       "0.25",
+       "0.5",
+       "0.75",
+       "1.0"
+      ],
+      "indice": 3,
+      "lower": "0",
+      "upper": "1",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "rho": {
+      "support_id": "SUP:PER-E0E3.macro:rho:primary",
+      "nodos_L0": [
+       "0.4",
+       "0.6",
+       "0.8",
+       "0.9",
+       "1.0"
+      ],
+      "indice": 4,
+      "lower": "0.4",
+      "upper": "1",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "u_theta": {
+      "support_id": "SUP:PER-E0E3.macro:u_theta:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.5",
+       "0.9"
+      ],
+      "indice": 2,
+      "lower": "0.1",
+      "upper": "0.9",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "z_cost": {
+      "support_id": "SUP:PER-E0E3.macro:z_cost:primary",
+      "nodos_L0": [
+       "1.0",
+       "10.0",
+       "100.0"
+      ],
+      "indice": 0,
+      "lower": "1",
+      "upper": "100",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     }
+    },
+    "k_prefijo": 6,
+    "unit_id": "U0c6d39be92fc913e154a6e33",
+    "unidad_en_plan": true,
+    "prefijo": {
+     "a": 0,
+     "beta_tilde": 0,
+     "eta_d": 0,
+     "eta_f": 0,
+     "kappa_tilde": 5,
+     "phi": 3
+    },
+    "resto_en_la_unidad": {
+     "rho": 4,
+     "u_theta": 2,
+     "z_cost": 0
+    },
+    "fijos_y_barras_D7": {
+     "c_legal": [
+      "1.0"
+     ],
+     "gamma": [
+      "1.0"
+     ],
+     "t": [
+      "0.0"
+     ],
+     "z_m": [
+      "1.0"
+     ],
+     "bar_tau_d": [
+      "0.6"
+     ],
+     "bar_tau_f": [
+      "0.6"
+     ]
+    },
+    "tau_df": {
+     "tau_domain_id": "TAU:PER-E0E3.macro:df",
+     "tau_d": [
+      "0",
+      "0.6",
+      "true",
+      "true"
+     ],
+     "tau_f": [
+      "0",
+      "0.6",
+      "true",
+      "true"
+     ]
+    }
+   },
+   "PER-E0E3.micro": {
+    "indices": {
+     "a": 0,
+     "beta_tilde": 0,
+     "eta_d": 0,
+     "eta_f": 0,
+     "kappa_tilde": 5,
+     "phi": 3,
+     "rho": 4,
+     "u_theta": 2,
+     "z_cost": 0
+    },
+    "dominios": {
+     "a": {
+      "support_id": "SUP:PER-E0E3.micro:a:primary",
+      "nodos_L0": [
+       "1.1",
+       "1.3",
+       "1.5",
+       "2.0",
+       "2.5"
+      ],
+      "indice": 0,
+      "lower": "1.1",
+      "upper": "2.5",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "beta_tilde": {
+      "support_id": "SUP:PER-E0E3.micro:beta_tilde:primary",
+      "nodos_L0": [
+       "0.25",
+       "0.5",
+       "1.0",
+       "2.0",
+       "4.0"
+      ],
+      "indice": 0,
+      "lower": "0.25",
+      "upper": "4",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "eta_d": {
+      "support_id": "SUP:PER-E0E3.micro:eta_d:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.5",
+       "1.0",
+       "2.0",
+       "4.0"
+      ],
+      "indice": 0,
+      "lower": "0.1",
+      "upper": "4",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "eta_f": {
+      "support_id": "SUP:PER-E0E3.micro:eta_f:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.8",
+       "1.2",
+       "4.0",
+       "8.0"
+      ],
+      "indice": 0,
+      "lower": "0.1",
+      "upper": "8",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "kappa_tilde": {
+      "support_id": "SUP:PER-E0E3.micro:kappa_tilde:primary",
+      "nodos_L0": [
+       "0.005",
+       "0.01",
+       "0.02",
+       "0.05",
+       "0.1",
+       "0.2"
+      ],
+      "indice": 5,
+      "lower": "0.005",
+      "upper": "0.2",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "phi": {
+      "support_id": "SUP:PER-E0E3.micro:phi:primary",
+      "nodos_L0": [
+       "0.0",
+       "0.25",
+       "0.5",
+       "0.75",
+       "1.0"
+      ],
+      "indice": 3,
+      "lower": "0",
+      "upper": "1",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "rho": {
+      "support_id": "SUP:PER-E0E3.micro:rho:primary",
+      "nodos_L0": [
+       "0.4",
+       "0.6",
+       "0.8",
+       "0.9",
+       "1.0"
+      ],
+      "indice": 4,
+      "lower": "0.4",
+      "upper": "1",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "u_theta": {
+      "support_id": "SUP:PER-E0E3.micro:u_theta:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.5",
+       "0.9"
+      ],
+      "indice": 2,
+      "lower": "0.1",
+      "upper": "0.9",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "z_cost": {
+      "support_id": "SUP:PER-E0E3.micro:z_cost:primary",
+      "nodos_L0": [
+       "1.0",
+       "10.0",
+       "100.0"
+      ],
+      "indice": 0,
+      "lower": "1",
+      "upper": "100",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     }
+    },
+    "k_prefijo": 6,
+    "unit_id": "U18445b875e619a3b35810e09",
+    "unidad_en_plan": true,
+    "prefijo": {
+     "a": 0,
+     "beta_tilde": 0,
+     "eta_d": 0,
+     "eta_f": 0,
+     "kappa_tilde": 5,
+     "phi": 3
+    },
+    "resto_en_la_unidad": {
+     "rho": 4,
+     "u_theta": 2,
+     "z_cost": 0
+    },
+    "fijos_y_barras_D7": {
+     "c_legal": [
+      "1.0"
+     ],
+     "gamma": [
+      "1.0"
+     ],
+     "t": [
+      "0.0"
+     ],
+     "z_m": [
+      "1.0"
+     ],
+     "bar_tau_d": [
+      "0.6"
+     ],
+     "bar_tau_f": [
+      "0.6"
+     ]
+    },
+    "tau_df": {
+     "tau_domain_id": "TAU:PER-E0E3.micro:df",
+     "tau_d": [
+      "0",
+      "0.6",
+      "true",
+      "true"
+     ],
+     "tau_f": [
+      "0",
+      "0.6",
+      "true",
+      "true"
+     ]
+    }
+   },
+   "PER-E1.macro": {
+    "indices": {
+     "a": 0,
+     "beta_tilde": 0,
+     "eta_d": 0,
+     "eta_f": 0,
+     "kappa_tilde": 5,
+     "phi": 3,
+     "rho": 4,
+     "u_theta": 2,
+     "z_cost": 0
+    },
+    "dominios": {
+     "a": {
+      "support_id": "SUP:PER-E1.macro:a:primary",
+      "nodos_L0": [
+       "1.1",
+       "1.3",
+       "1.5",
+       "2.0",
+       "2.5"
+      ],
+      "indice": 0,
+      "lower": "1.1",
+      "upper": "2.5",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "beta_tilde": {
+      "support_id": "SUP:PER-E1.macro:beta_tilde:primary",
+      "nodos_L0": [
+       "0.25",
+       "0.5",
+       "1.0",
+       "2.0",
+       "4.0"
+      ],
+      "indice": 0,
+      "lower": "0.25",
+      "upper": "4",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "eta_d": {
+      "support_id": "SUP:PER-E1.macro:eta_d:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.5",
+       "1.0",
+       "2.0",
+       "4.0"
+      ],
+      "indice": 0,
+      "lower": "0.1",
+      "upper": "4",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "eta_f": {
+      "support_id": "SUP:PER-E1.macro:eta_f:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.8",
+       "1.2",
+       "4.0",
+       "8.0"
+      ],
+      "indice": 0,
+      "lower": "0.1",
+      "upper": "8",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "kappa_tilde": {
+      "support_id": "SUP:PER-E1.macro:kappa_tilde:primary",
+      "nodos_L0": [
+       "0.005",
+       "0.01",
+       "0.02",
+       "0.05",
+       "0.1",
+       "0.2"
+      ],
+      "indice": 5,
+      "lower": "0.005",
+      "upper": "0.2",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "phi": {
+      "support_id": "SUP:PER-E1.macro:phi:primary",
+      "nodos_L0": [
+       "0.0",
+       "0.25",
+       "0.5",
+       "0.75",
+       "1.0"
+      ],
+      "indice": 3,
+      "lower": "0",
+      "upper": "1",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "rho": {
+      "support_id": "SUP:PER-E1.macro:rho:primary",
+      "nodos_L0": [
+       "0.4",
+       "0.6",
+       "0.8",
+       "0.9",
+       "1.0"
+      ],
+      "indice": 4,
+      "lower": "0.4",
+      "upper": "1",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "u_theta": {
+      "support_id": "SUP:PER-E1.macro:u_theta:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.5",
+       "0.9"
+      ],
+      "indice": 2,
+      "lower": "0.1",
+      "upper": "0.9",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "z_cost": {
+      "support_id": "SUP:PER-E1.macro:z_cost:primary",
+      "nodos_L0": [
+       "1.0",
+       "10.0",
+       "100.0"
+      ],
+      "indice": 0,
+      "lower": "1",
+      "upper": "100",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     }
+    },
+    "k_prefijo": 6,
+    "unit_id": "U920b1238508291588d6460cc",
+    "unidad_en_plan": true,
+    "prefijo": {
+     "a": 0,
+     "beta_tilde": 0,
+     "eta_d": 0,
+     "eta_f": 0,
+     "kappa_tilde": 5,
+     "phi": 3
+    },
+    "resto_en_la_unidad": {
+     "rho": 4,
+     "u_theta": 2,
+     "z_cost": 0
+    },
+    "fijos_y_barras_D7": {
+     "c_legal": [
+      "1.0"
+     ],
+     "gamma": [
+      "1.0"
+     ],
+     "t": [
+      "0.0"
+     ],
+     "z_m": [
+      "1.0"
+     ],
+     "bar_tau_d": [
+      "0.6"
+     ],
+     "bar_tau_f": [
+      "0.6"
+     ]
+    },
+    "tau_df": {
+     "tau_domain_id": "TAU:PER-E1.macro:df",
+     "tau_d": [
+      "0",
+      "0.6",
+      "true",
+      "true"
+     ],
+     "tau_f": [
+      "0",
+      "0.6",
+      "true",
+      "true"
+     ]
+    }
+   },
+   "PER-E1.micro": {
+    "indices": {
+     "a": 0,
+     "beta_tilde": 0,
+     "eta_d": 0,
+     "eta_f": 0,
+     "kappa_tilde": 5,
+     "phi": 3,
+     "rho": 4,
+     "u_theta": 2,
+     "z_cost": 0
+    },
+    "dominios": {
+     "a": {
+      "support_id": "SUP:PER-E1.micro:a:primary",
+      "nodos_L0": [
+       "1.1",
+       "1.3",
+       "1.5",
+       "2.0",
+       "2.5"
+      ],
+      "indice": 0,
+      "lower": "1.1",
+      "upper": "2.5",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "beta_tilde": {
+      "support_id": "SUP:PER-E1.micro:beta_tilde:primary",
+      "nodos_L0": [
+       "0.25",
+       "0.5",
+       "1.0",
+       "2.0",
+       "4.0"
+      ],
+      "indice": 0,
+      "lower": "0.25",
+      "upper": "4",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "eta_d": {
+      "support_id": "SUP:PER-E1.micro:eta_d:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.5",
+       "1.0",
+       "2.0",
+       "4.0"
+      ],
+      "indice": 0,
+      "lower": "0.1",
+      "upper": "4",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "eta_f": {
+      "support_id": "SUP:PER-E1.micro:eta_f:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.8",
+       "1.2",
+       "4.0",
+       "8.0"
+      ],
+      "indice": 0,
+      "lower": "0.1",
+      "upper": "8",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "kappa_tilde": {
+      "support_id": "SUP:PER-E1.micro:kappa_tilde:primary",
+      "nodos_L0": [
+       "0.005",
+       "0.01",
+       "0.02",
+       "0.05",
+       "0.1",
+       "0.2"
+      ],
+      "indice": 5,
+      "lower": "0.005",
+      "upper": "0.2",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "phi": {
+      "support_id": "SUP:PER-E1.micro:phi:primary",
+      "nodos_L0": [
+       "0.0",
+       "0.25",
+       "0.5",
+       "0.75",
+       "1.0"
+      ],
+      "indice": 3,
+      "lower": "0",
+      "upper": "1",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "rho": {
+      "support_id": "SUP:PER-E1.micro:rho:primary",
+      "nodos_L0": [
+       "0.4",
+       "0.6",
+       "0.8",
+       "0.9",
+       "1.0"
+      ],
+      "indice": 4,
+      "lower": "0.4",
+      "upper": "1",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "u_theta": {
+      "support_id": "SUP:PER-E1.micro:u_theta:primary",
+      "nodos_L0": [
+       "0.1",
+       "0.5",
+       "0.9"
+      ],
+      "indice": 2,
+      "lower": "0.1",
+      "upper": "0.9",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     },
+     "z_cost": {
+      "support_id": "SUP:PER-E1.micro:z_cost:primary",
+      "nodos_L0": [
+       "1.0",
+       "10.0",
+       "100.0"
+      ],
+      "indice": 0,
+      "lower": "1",
+      "upper": "100",
+      "cerrado": [
+       "true",
+       "true"
+      ],
+      "dentro": true
+     }
+    },
+    "k_prefijo": 6,
+    "unit_id": "U8bc3a05f87a1628eb497ad35",
+    "unidad_en_plan": true,
+    "prefijo": {
+     "a": 0,
+     "beta_tilde": 0,
+     "eta_d": 0,
+     "eta_f": 0,
+     "kappa_tilde": 5,
+     "phi": 3
+    },
+    "resto_en_la_unidad": {
+     "rho": 4,
+     "u_theta": 2,
+     "z_cost": 0
+    },
+    "fijos_y_barras_D7": {
+     "c_legal": [
+      "1.0"
+     ],
+     "gamma": [
+      "1.0"
+     ],
+     "t": [
+      "0.0"
+     ],
+     "z_m": [
+      "1.0"
+     ],
+     "bar_tau_d": [
+      "0.6"
+     ],
+     "bar_tau_f": [
+      "0.6"
+     ]
+    },
+    "tau_df": {
+     "tau_domain_id": "TAU:PER-E1.micro:df",
+     "tau_d": [
+      "0",
+      "0.6",
+      "true",
+      "true"
+     ],
+     "tau_f": [
+      "0",
+      "0.6",
+      "true",
+      "true"
+     ]
+    }
+   }
+  },
+  "unit_ids": [
+   "U0c6d39be92fc913e154a6e33",
+   "U1745071edb2d00d1e60ef472",
+   "U18445b875e619a3b35810e09",
+   "U71c977bdd63d7f808f987d1b",
+   "U85e36fc627d1793f1cc63a50",
+   "U8b1185ded12d1ef13555cd1a",
+   "U8bc3a05f87a1628eb497ad35",
+   "U920b1238508291588d6460cc",
+   "Ua4effe41b37f6dd24176eb77",
+   "Uab245a30f6b00c2d146e37a4"
+  ]
+ },
+ "b_identidad": {
+  "plantilla": {
+   "fuente": "tmp/remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855/demo/rem3/resultados/S3_P1-PER-G-df-0_filas.json",
+   "fila_frontier_context": {
+    "frontier_id": "FRN:25038b0a61bb4d08da69c5751a7bf669216e9a51",
+    "run_id": "BRUN-cb33e6b24039acc84fb1a065",
+    "omega_id": "OMG:d5e8b5fb6739e9b7dd1b248a32b47348f3f78b44695e5a8cb9b8611cd1dbfddb",
+    "tau_domain_id": "TAU:CMP-E1.macro:df",
+    "design_v": "G",
+    "instrument_j": "df",
+    "availability_matrix_hash": "cd478ad637830d32e6c2b9d5f66dbb2ecbf7e6cc37e52051d999e022bdcae026"
+   },
+   "clave_plantilla_recalculada": "bd8a89326568c932e019ee62134b2ab54065a3755b864176bf608496e7663570",
+   "techo_plantilla": {
+    "C_2": 0.5595656707428929,
+    "availability_assumed": true,
+    "availability_source": "conditional_scenario_foreign_leg_enabled",
+    "availability_status": "UNKNOWN",
+    "ceiling_id": "CEI:25038b0a61bb4d08da69c5751a7bf669216e9a51",
+    "computation_status": "complete",
+    "coordination_scenario_id": null,
+    "frontier_id": "FRN:25038b0a61bb4d08da69c5751a7bf669216e9a51",
+    "instrument_available": true,
+    "monotonicity_check": "not_applicable",
+    "numerical_error": 4.7381880419195006e-08,
+    "reason_code": null,
+    "sup_lateral_high": null,
+    "sup_lateral_low": null,
+    "sup_not_attained": false,
+    "tau_d_at_sup": 0.5999999642372131,
+    "tau_f_at_sup": 0.5557617187499999
+   }
+  },
+  "clave_propuesta_recalculada": "e8b1f7fdb9c7017605e0a4162fc6688e7b6ed01d2308ff72106ed6cf6834a97b",
+  "clave_desde_nodos_D7": "e8b1f7fdb9c7017605e0a4162fc6688e7b6ed01d2308ff72106ed6cf6834a97b",
+  "tecnica_historica_de_la_clave": {
+   "code_sha256": "037d20d3d02128752e7f2650d9b023fb13de5d205afb506e9f0e832510f172aa",
+   "configuration_sha256": "71e369bba5f05ce6de8a03b933d5929909a964307499884cf23b0330479aa843",
+   "contract_sha256": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+   "environment_sha256": "41b467a1cf2a28b3a3b0dcbacaa3da9e84352d37837d13e2c3aa2638046881c4",
+   "method_sha256": "e6e019c3882b544524b22b106632a7c4e4af0e51790bfe1670dd54b66859519b",
+   "tolerances_sha256": "0fc40e7d83d4ac51828b409b05a582f9bfd93542bde44aeb1e83d404476b4066"
+  },
+  "corrida": "BRUN-cb33e6b24039acc84fb1a065",
+  "run_class": "remanente_s1df_s2_s3_h4_3_7",
+  "grupo": "EQ-TECHO-T8-1",
+  "corridas_del_grupo": 14,
+  "iguales_en_las_14": {
+   "code_sha256": true,
+   "config_sin_run_class_sha256": true,
+   "contract_sha256": true,
+   "d7_tree": true,
+   "environment_sha256": true,
+   "metodo_sin_run_class_sha256": true,
+   "model_provider": true,
+   "plan_sha256": true,
+   "tolerances_sha256": true
+  },
+  "config_sup": {
+   "delta_jump": 1e-07,
+   "levels": 3,
+   "n0": 8,
+   "polish_xtol": 1e-11,
+   "richardson_eps": 1e-06,
+   "scout_xtol": 1e-07,
+   "tol_attain": 1e-10,
+   "tol_converge": 1e-07,
+   "top_k": 6
+  },
+  "inversion_budget_seconds": 3600.0,
+  "proveedor": "modelo_teorico_v2_2",
+  "garantia_plataforma": "ieee754_binary64_rn",
+  "tolerancias": {
+   "literal": {
+    "T1_accounting": "1e-12",
+    "T2_target_capture_share": "1e-4",
+    "epsilon_econ": "0.01",
+    "T_root_residual": "1e-9",
+    "note": "T2 se mide por familia de algoritmo sobre problemas con solución conocida (diseño §19.4); no por decreto. T_root_residual: residuo máximo |C2 - K1| (o |f|) de una raíz publicada; un cambio de signo sin residuo bajo esta tolerancia es un salto, no una raíz"
+   },
+   "sha256_recalculado": "0fc40e7d83d4ac51828b409b05a582f9bfd93542bde44aeb1e83d404476b4066"
+  },
+  "bytes_reales_del_techo": {
+   "d7view.py": {
+    "historico_lima1855": "74f4b60a602ac951d5871c11e43e6a29efb6c3ffc5fb218135724ccea5671660",
+    "inventario_lima1855": "74f4b60a602ac951d5871c11e43e6a29efb6c3ffc5fb218135724ccea5671660",
+    "eq_techo": [
+     "74f4b60a602ac951d5871c11e43e6a29efb6c3ffc5fb218135724ccea5671660"
+    ],
+    "instalacion_actual": "74f4b60a602ac951d5871c11e43e6a29efb6c3ffc5fb218135724ccea5671660",
+    "historico_igual_eq": true,
+    "instalacion_igual": true
+   },
+   "elementales.py": {
+    "historico_lima1855": "c71faf35370fa2329db69802f03f52d9bc72566a2d9fa50a9ca8dbea1eb6f82b",
+    "inventario_lima1855": "c71faf35370fa2329db69802f03f52d9bc72566a2d9fa50a9ca8dbea1eb6f82b",
+    "eq_techo": [
+     "c71faf35370fa2329db69802f03f52d9bc72566a2d9fa50a9ca8dbea1eb6f82b"
+    ],
+    "instalacion_actual": "c71faf35370fa2329db69802f03f52d9bc72566a2d9fa50a9ca8dbea1eb6f82b",
+    "historico_igual_eq": true,
+    "instalacion_igual": true
+   },
+   "encierros_modelo.py": {
+    "historico_lima1855": "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53",
+    "inventario_lima1855": "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53",
+    "eq_techo": [
+     "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53"
+    ],
+    "instalacion_actual": "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53",
+    "historico_igual_eq": true,
+    "instalacion_igual": true
+   },
+   "frontier.py": {
+    "historico_lima1855": "709f51b21188ff8d4638d7eadf535dd3f8307f2e1ce995a49539fe7bfcd36ed2",
+    "inventario_lima1855": "709f51b21188ff8d4638d7eadf535dd3f8307f2e1ce995a49539fe7bfcd36ed2",
+    "eq_techo": [
+     "709f51b21188ff8d4638d7eadf535dd3f8307f2e1ce995a49539fe7bfcd36ed2"
+    ],
+    "instalacion_actual": "709f51b21188ff8d4638d7eadf535dd3f8307f2e1ce995a49539fe7bfcd36ed2",
+    "historico_igual_eq": true,
+    "instalacion_igual": true
+   },
+   "intervalos.py": {
+    "historico_lima1855": "2607d0cf3f879316c699ec4cd73021bff9ae8f680f7c7c01facb84dfb65aa891",
+    "inventario_lima1855": "2607d0cf3f879316c699ec4cd73021bff9ae8f680f7c7c01facb84dfb65aa891",
+    "eq_techo": [
+     "2607d0cf3f879316c699ec4cd73021bff9ae8f680f7c7c01facb84dfb65aa891"
+    ],
+    "instalacion_actual": "2607d0cf3f879316c699ec4cd73021bff9ae8f680f7c7c01facb84dfb65aa891",
+    "historico_igual_eq": true,
+    "instalacion_igual": true
+   },
+   "keys.py": {
+    "historico_lima1855": "fbcbc899f267cf2a367ce3cf6d46e0479869bd681d5a248ee5d49574660ac530",
+    "inventario_lima1855": "fbcbc899f267cf2a367ce3cf6d46e0479869bd681d5a248ee5d49574660ac530",
+    "eq_techo": [
+     "fbcbc899f267cf2a367ce3cf6d46e0479869bd681d5a248ee5d49574660ac530"
+    ],
+    "instalacion_actual": "fbcbc899f267cf2a367ce3cf6d46e0479869bd681d5a248ee5d49574660ac530",
+    "historico_igual_eq": true,
+    "instalacion_igual": true
+   },
+   "model.py": {
+    "historico_lima1855": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+    "inventario_lima1855": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+    "eq_techo": [
+     "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9"
+    ],
+    "instalacion_actual": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+    "historico_igual_eq": true,
+    "instalacion_igual": true
+   },
+   "modelos.py": {
+    "historico_lima1855": "7f0dd31cacf431fb421e2c5047aa5b750cbecfc1064e3374c4247dcd40c93fda",
+    "inventario_lima1855": "7f0dd31cacf431fb421e2c5047aa5b750cbecfc1064e3374c4247dcd40c93fda",
+    "eq_techo": [
+     "7f0dd31cacf431fb421e2c5047aa5b750cbecfc1064e3374c4247dcd40c93fda"
+    ],
+    "instalacion_actual": "7f0dd31cacf431fb421e2c5047aa5b750cbecfc1064e3374c4247dcd40c93fda",
+    "historico_igual_eq": true,
+    "instalacion_igual": true
+   },
+   "numeric.py": {
+    "historico_lima1855": "4b19f4cb45a637c3a3370ca95059bc4f94feb71649a9f54fd5ac8c33c941c98e",
+    "inventario_lima1855": "4b19f4cb45a637c3a3370ca95059bc4f94feb71649a9f54fd5ac8c33c941c98e",
+    "eq_techo": [
+     "4b19f4cb45a637c3a3370ca95059bc4f94feb71649a9f54fd5ac8c33c941c98e"
+    ],
+    "instalacion_actual": "4b19f4cb45a637c3a3370ca95059bc4f94feb71649a9f54fd5ac8c33c941c98e",
+    "historico_igual_eq": true,
+    "instalacion_igual": true
+   },
+   "raices.py": {
+    "historico_lima1855": "1db76cf7129558f5d95d5f49ddbbb1110a30e753124cee152100f16f3313de22",
+    "inventario_lima1855": "1db76cf7129558f5d95d5f49ddbbb1110a30e753124cee152100f16f3313de22",
+    "eq_techo": [
+     "1db76cf7129558f5d95d5f49ddbbb1110a30e753124cee152100f16f3313de22"
+    ],
+    "instalacion_actual": "1db76cf7129558f5d95d5f49ddbbb1110a30e753124cee152100f16f3313de22",
+    "historico_igual_eq": true,
+    "instalacion_igual": true
+   },
+   "run.py": {
+    "historico_lima1855": "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1",
+    "inventario_lima1855": "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1",
+    "eq_techo": [
+     "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1"
+    ],
+    "instalacion_actual": "18abae7000d727c88dc7693db59c75a20ea79db7031b0c2e510d2b3af0058360",
+    "historico_igual_eq": true,
+    "instalacion_igual": false
+   },
+   "supports.py": {
+    "historico_lima1855": "8051efef6ae2819f864ec1e516b09ac7f03e421b74478454b57391c6529fa752",
+    "inventario_lima1855": "8051efef6ae2819f864ec1e516b09ac7f03e421b74478454b57391c6529fa752",
+    "eq_techo": [
+     "8051efef6ae2819f864ec1e516b09ac7f03e421b74478454b57391c6529fa752"
+    ],
+    "instalacion_actual": "8051efef6ae2819f864ec1e516b09ac7f03e421b74478454b57391c6529fa752",
+    "historico_igual_eq": true,
+    "instalacion_igual": true
+   },
+   "supremum.py": {
+    "historico_lima1855": "2c246c8be6d4437892cd951cc0acaaac6e5d8ea7a921de2e13f560caf8dfebbb",
+    "inventario_lima1855": "2c246c8be6d4437892cd951cc0acaaac6e5d8ea7a921de2e13f560caf8dfebbb",
+    "eq_techo": [
+     "2c246c8be6d4437892cd951cc0acaaac6e5d8ea7a921de2e13f560caf8dfebbb"
+    ],
+    "instalacion_actual": "2c246c8be6d4437892cd951cc0acaaac6e5d8ea7a921de2e13f560caf8dfebbb",
+    "historico_igual_eq": true,
+    "instalacion_igual": true
+   }
+  },
+  "instalacion_difiere_en": [
+   "run.py"
+  ],
+  "identidad_declarada_vs_derivada": "La clave e8b1f7fd… lleva la técnica HISTÓRICA de BRUN-cb33e6b2 (código 037d20d3, configuración 71e369bb, método e6e019c3, contrato 4d7e676a, entorno 41b467a1, tolerancias 0fc40e7d). configuración y método están recalculados por rem135 (EQ-TECHO-T8-1); las tolerancias se recalculan aquí desde el literal; los 13 archivos del techo se fijan por bytes reales del núcleo histórico. code_sha256 y environment_sha256 son huellas registradas de documentos (manifiesto de código CODE_GLOBS, perfil RE-03) que no se conservan como archivo: la ejecución futura registra la huella DERIVADA de lo que realmente carga y la conserva junto a la declarada; si difieren, no se reescribe la declarada ni se atribuye el hash histórico a código nuevo. La instalación actual difiere en run.py (y lo que se liste), por eso el trabajador usa los bytes del núcleo histórico de lima1855."
+ },
+ "c_dominio": {
+  "clave": {
+   "tau_d_upper": "0.6",
+   "tau_f_upper": "0.6",
+   "cerrado": true,
+   "lectura": "Decimal 0.6 = 3/5 en el payload (canon_dec)"
+  },
+  "motor": {
+   "bd_bf": "float(v['bar_tau_d']) = binary64(0.6) = 5404319552844595/9007199254740992",
+   "diferencia_3_5_menos_b64": "1/45035996273704960",
+   "diferencia_float": 2.2204460492503132e-17,
+   "axes_df": "supremum.axes('df', bd, bf) = ((0, bd), (0, bf))",
+   "consecuencia": "3/5 NO pertenece al dominio que recorre el motor; todo punto del motor (incluido el de su testigo) está en [0, b64(0.6)]² ⊂ [0, 3/5]²"
+  },
+  "theta": "109/100",
+  "theta_mayor_que_1": true,
+  "delta": "1 (z_cost = 1)",
+  "gamma_z_m": "1",
+  "derivacion": "reutiliza la derivación simbólica de rem137 (c3_cota_inferior.py, todo F con prior F para z >= 1 con z^θ >= z); aquí solo cambian el punto y la aritmética (encierro verificado en vez de Decimal a 60 dígitos)",
+  "puntos": {
+   "rem137_3_5_racional": {
+    "todo_F_demostrado": true,
+    "margen_F0_I0": {
+     "lo": "0.8500000000000000000000000000000000000000",
+     "hi": "0.8500000000000000000000000000000000000000",
+     "ancho": 0.0
+    },
+    "margen_F1_F0": {
+     "lo": "0.0524092216133805514945609410257886921583",
+     "hi": "0.0524092216133805514945609410257886921583",
+     "ancho": 2.1300499500499502e-60
+    },
+    "margen_F1_I1": {
+     "lo": "0.1024092216133805514945609410257886921583",
+     "hi": "0.1024092216133805514945609410257886921583",
+     "ancho": 2.1300499500499502e-60
+    },
+    "Q": {
+     "lo": "1.0884594544128934489380815272875392532511",
+     "hi": "1.0884594544128934489380815272875392532511",
+     "ancho": 1.2e-60
+    },
+    "t_tilde_d": {
+     "lo": "0.5772932594343705955765697165134541622184",
+     "hi": "0.5772932594343705955765697165134541622184",
+     "ancho": 1.8181818181818183e-60
+    },
+    "t_tilde_f": {
+     "lo": "1.1353167930149923528591289497383809708212",
+     "hi": "1.1353167930149923528591289497383809708212",
+     "ancho": 2.079120879120879e-60
+    },
+    "k_F": {
+     "lo": "0.3702975189522488529288693424607571456231",
+     "hi": "0.3702975189522488529288693424607571456231",
+     "ancho": 3.118681318681319e-61
+    },
+    "R_sobre_Bpot": {
+     "lo": "0.7651580128158672070862762732103084829897",
+     "hi": "0.7651580128158672070862762732103084829897",
+     "ancho": 1.44e-60
+    },
+    "tau_d": "3/5",
+    "tau_f": "3/5",
+    "tau_decimal": "0.600000000000000000000000000000000000000000000000000000000000",
+    "en_dominio_del_motor": false,
+    "en_dominio_de_la_clave": true,
+    "holgura_inferior": "3/5",
+    "holgura_superior_motor": "-1/45035996273704960",
+    "holgura_superior_motor_float": -2.2204460492503132e-17
+   },
+   "esquina_binary64_0_6": {
+    "todo_F_demostrado": true,
+    "margen_F0_I0": {
+     "lo": "0.8500000000000000055511151231257827021181",
+     "hi": "0.8500000000000000055511151231257827021181",
+     "ancho": 0.0
+    },
+    "margen_F1_F0": {
+     "lo": "0.0524092216133805845944753440006832005903",
+     "hi": "0.0524092216133805845944753440006832005903",
+     "ancho": 2.1300499500499502e-60
+    },
+    "margen_F1_I1": {
+     "lo": "0.1024092216133805901455904671264659027084",
+     "hi": "0.1024092216133805901455904671264659027084",
+     "ancho": 2.1300499500499502e-60
+    },
+    "Q": {
+     "lo": "1.0884594544128933693829256396623006268253",
+     "hi": "1.0884594544128933693829256396623006268253",
+     "ancho": 1.1999999999999999e-60
+    },
+    "t_tilde_d": {
+     "lo": "0.5772932594343705753162532574274430817597",
+     "hi": "0.5772932594343705753162532574274430817597",
+     "ancho": 1.8181818181818183e-60
+    },
+    "t_tilde_f": {
+     "lo": "1.1353167930149922672618093238124914509992",
+     "hi": "1.1353167930149922672618093238124914509992",
+     "ancho": 2.079120879120879e-60
+    },
+    "k_F": {
+     "lo": "0.3702975189522488400892713985718737176498",
+     "hi": "0.3702975189522488400892713985718737176498",
+     "ancho": 3.118681318681318e-61
+    },
+    "R_sobre_Bpot": {
+     "lo": "0.7651580128158671739539761054621511987304",
+     "hi": "0.7651580128158671739539761054621511987304",
+     "ancho": 1.44e-60
+    },
+    "tau_d": "5404319552844595/9007199254740992",
+    "tau_f": "5404319552844595/9007199254740992",
+    "tau_decimal": "0.599999999999999977795539507496869191527366638183593750000000",
+    "en_dominio_del_motor": true,
+    "en_dominio_de_la_clave": true,
+    "holgura_inferior": "5404319552844595/9007199254740992",
+    "holgura_superior_motor": "0",
+    "holgura_superior_motor_float": 0.0
+   },
+   "interior_19_32": {
+    "todo_F_demostrado": true,
+    "margen_F0_I0": {
+     "lo": "0.8515625000000000000000000000000000000000",
+     "hi": "0.8515625000000000000000000000000000000000",
+     "ancho": 0.0
+    },
+    "margen_F1_F0": {
+     "lo": "0.0616877662190798899816326384174687150503",
+     "hi": "0.0616877662190798899816326384174687150503",
+     "ancho": 2.1281749500499502e-60
+    },
+    "margen_F1_I1": {
+     "lo": "0.1132502662190798899816326384174687150503",
+     "hi": "0.1132502662190798899816326384174687150503",
+     "ancho": 2.1281749500499502e-60
+    },
+    "Q": {
+     "lo": "1.0663209197258277572980204212753715243199",
+     "hi": "1.0663209197258277572980204212753715243199",
+     "ancho": 1.1875e-60
+    },
+    "t_tilde_d": {
+     "lo": "0.5715860527707590218514048376229396669336",
+     "hi": "0.5715860527707590218514048376229396669336",
+     "ancho": 1.8181818181818183e-60
+    },
+    "t_tilde_f": {
+     "lo": "1.1115078734010739211130834930639441201067",
+     "hi": "1.1115078734010739211130834930639441201067",
+     "ancho": 2.0666208791208792e-60
+    },
+    "k_F": {
+     "lo": "0.3667261810101610881669625239595916180160",
+     "hi": "0.3667261810101610881669625239595916180160",
+     "ancho": 3.0999313186813187e-61
+    },
+    "R_sobre_Bpot": {
+     "lo": "0.7558681452598683547908070760766559172552",
+     "hi": "0.7558681452598683547908070760766559172552",
+     "ancho": 1.425e-60
+    },
+    "tau_d": "19/32",
+    "tau_f": "19/32",
+    "tau_decimal": "0.593750000000000000000000000000000000000000000000000000000000",
+    "en_dominio_del_motor": true,
+    "en_dominio_de_la_clave": true,
+    "holgura_inferior": "19/32",
+    "holgura_superior_motor": "56294995342131/9007199254740992",
+    "holgura_superior_motor_float": 0.006249999999999978
+   }
+  },
+  "punto_elegido": "interior_19_32",
+  "cota_inferior_verificada_interior": "0.7558681452598683547908070760766559172552",
+  "cota_inferior_verificada_esquina": "0.7651580128158671739539761054621511987304"
+ },
+ "d_cobertura": {
+  "criterio_futuro": "fila cubierta si v <= C2 - err del techo certificado de la clave (complete, sup_not_attained=false, err <= 1e-7) y la fila es del grupo EQ-TECHO-T8-1 con la autoridad de fuentes extendida; el testigo inferior compatible es el punto τ* del propio techo (lo_s) o el punto interior verificado aquí",
+  "argumento_minimo": "sup >= L (punto interior verificado) y C2 - err >= sup - 2 err >= L - 2e-7 si err <= 1e-7: toda fila con v <= L - 2e-7 quedaría cubierta por un techo que cumpla la garantía; las demás dependen del C2 real",
+  "cota_L_interior": "0.7558681452598683547908070760766559172552",
+  "banda": "1e-7",
+  "filas": [
+   {
+    "fila": 9224,
+    "run": "BRUN-991c466a1938ddbf2192eefb",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "COL",
+    "v": 0.5700537275304639,
+    "v_exacto": "5134587509774719/9007199254740992",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 7958,
+    "run": "BRUN-cb33e6b24039acc84fb1a065",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "PER",
+    "v": 0.5746010226424272,
+    "v_exacto": "2587772951459141/4503599627370496",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 9680,
+    "run": "BRUN-7bdfe0a1bee57298e31e1b34",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "COL",
+    "v": 0.5780318737881482,
+    "v_exacto": "1301612065700287/2251799813685248",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 7772,
+    "run": "BRUN-cb33e6b24039acc84fb1a065",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "PER",
+    "v": 0.5937110800322307,
+    "v_exacto": "2673836998798889/4503599627370496",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 8786,
+    "run": "BRUN-a81e3f45f7111e18b1f39370",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "PER",
+    "v": 0.6042186173799367,
+    "v_exacto": "2721158740082599/4503599627370496",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 9542,
+    "run": "BRUN-7bdfe0a1bee57298e31e1b34",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "COL",
+    "v": 0.6058202939575992,
+    "v_exacto": "85261626566279/140737488355328",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 8462,
+    "run": "BRUN-991c466a1938ddbf2192eefb",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "MEX",
+    "v": 0.6065453070675519,
+    "v_exacto": "1365818609446375/2251799813685248",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 7964,
+    "run": "BRUN-9c6c66e7af8b139a613b1c3f",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "PER",
+    "v": 0.6121492606827654,
+    "v_exacto": "2756875182306027/4503599627370496",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 7244,
+    "run": "BRUN-9c6c66e7af8b139a613b1c3f",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "PER",
+    "v": 0.6202131607081744,
+    "v_exacto": "698297939863903/1125899906842624",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 9188,
+    "run": "BRUN-f5f58960bbf9017776d3d7fc",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "PER",
+    "v": 0.6258760384246201,
+    "v_exacto": "5637390186858483/9007199254740992",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 8654,
+    "run": "BRUN-63a9e9ea157b2faaf317ae61",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "COL",
+    "v": 0.6275743277470086,
+    "v_exacto": "5652687017177435/9007199254740992",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 9260,
+    "run": "BRUN-cb33e6b24039acc84fb1a065",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "COL",
+    "v": 0.638183951964173,
+    "v_exacto": "89816406508115/140737488355328",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 7682,
+    "run": "BRUN-4ef8507fcdefbddc55dbc3b7",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "PER",
+    "v": 0.6384772315785602,
+    "v_exacto": "5750891644443499/9007199254740992",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 8636,
+    "run": "BRUN-4ef8507fcdefbddc55dbc3b7",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "COL",
+    "v": 0.6400940669151435,
+    "v_exacto": "5765454802482211/9007199254740992",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 9560,
+    "run": "BRUN-7bdfe0a1bee57298e31e1b34",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "COL",
+    "v": 0.6425237525989143,
+    "v_exacto": "2893669732781163/4503599627370496",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 6884,
+    "run": "BRUN-4ef8507fcdefbddc55dbc3b7",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "COL",
+    "v": 0.6450722310822088,
+    "v_exacto": "1452573529764445/2251799813685248",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 7322,
+    "run": "BRUN-991c466a1938ddbf2192eefb",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "PER",
+    "v": 0.6481499377358884,
+    "v_exacto": "2919007818067557/4503599627370496",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 9350,
+    "run": "BRUN-4ef8507fcdefbddc55dbc3b7",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "MEX",
+    "v": 0.6518079977095128,
+    "v_exacto": "2935482255601671/4503599627370496",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 7916,
+    "run": "BRUN-4ef8507fcdefbddc55dbc3b7",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "COL",
+    "v": 0.6642323869077869,
+    "v_exacto": "747859182541331/1125899906842624",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 9686,
+    "run": "BRUN-cb33e6b24039acc84fb1a065",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "MEX",
+    "v": 0.6679443314379275,
+    "v_exacto": "6016307684336171/9007199254740992",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 8930,
+    "run": "BRUN-1368187e9a43de0d95926dca",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "MEX",
+    "v": 0.6682977875944378,
+    "v_exacto": "3009745667182837/4503599627370496",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 8606,
+    "run": "BRUN-a81e3f45f7111e18b1f39370",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "COL",
+    "v": 0.6705505834454093,
+    "v_exacto": "1509945678868907/2251799813685248",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 8378,
+    "run": "BRUN-1368187e9a43de0d95926dca",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "PER",
+    "v": 0.7002768563556107,
+    "v_exacto": "6307533178678621/9007199254740992",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 8288,
+    "run": "BRUN-4ef8507fcdefbddc55dbc3b7",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "MEX",
+    "v": 0.70514946499475,
+    "v_exacto": "6351421735581721/9007199254740992",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 7196,
+    "run": "BRUN-1368187e9a43de0d95926dca",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "COL",
+    "v": 0.7077812781119586,
+    "v_exacto": "1593781750182415/2251799813685248",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 8552,
+    "run": "BRUN-cb33e6b24039acc84fb1a065",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "PER",
+    "v": 0.7117473745436621,
+    "v_exacto": "6410850421553531/9007199254740992",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 7598,
+    "run": "BRUN-991c466a1938ddbf2192eefb",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "COL",
+    "v": 0.7186372857264745,
+    "v_exacto": "3236454612212295/4503599627370496",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 9014,
+    "run": "BRUN-991c466a1938ddbf2192eefb",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "MEX",
+    "v": 0.7192515573758934,
+    "v_exacto": "6478442091567445/9007199254740992",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 9020,
+    "run": "BRUN-4ef8507fcdefbddc55dbc3b7",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "MEX",
+    "v": 0.7420338228861378,
+    "v_exacto": "3341823248246315/4503599627370496",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 7172,
+    "run": "BRUN-991c466a1938ddbf2192eefb",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "COL",
+    "v": 0.7431603583627722,
+    "v_exacto": "3346896712999105/4503599627370496",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 9458,
+    "run": "BRUN-cb33e6b24039acc84fb1a065",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "PER",
+    "v": 0.7456156147870845,
+    "v_exacto": "3357954204916737/4503599627370496",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 6902,
+    "run": "BRUN-1368187e9a43de0d95926dca",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "COL",
+    "v": 0.7458046721356483,
+    "v_exacto": "6717611287042561/9007199254740992",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 9398,
+    "run": "BRUN-7bdfe0a1bee57298e31e1b34",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "COL",
+    "v": 0.7458521580743434,
+    "v_exacto": "3359019501177093/4503599627370496",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 8876,
+    "run": "BRUN-63a9e9ea157b2faaf317ae61",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "COL",
+    "v": 0.7473714061035065,
+    "v_exacto": "6731723172070231/9007199254740992",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 6926,
+    "run": "BRUN-4ef8507fcdefbddc55dbc3b7",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "MEX",
+    "v": 0.748332732004803,
+    "v_exacto": "421273876625747/562949953421312",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": true,
+    "v_menor_o_igual_cota_interior": true,
+    "v_menor_o_igual_cota_esquina": true
+   },
+   {
+    "fila": 9578,
+    "run": "BRUN-cb33e6b24039acc84fb1a065",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "MEX",
+    "v": 0.7828854654403204,
+    "v_exacto": "7051605380861609/9007199254740992",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": false,
+    "v_menor_o_igual_cota_interior": false,
+    "v_menor_o_igual_cota_esquina": false
+   },
+   {
+    "fila": 8186,
+    "run": "BRUN-1368187e9a43de0d95926dca",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "PER",
+    "v": 0.7853880651238085,
+    "v_exacto": "3537073397432819/4503599627370496",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": false,
+    "v_menor_o_igual_cota_interior": false,
+    "v_menor_o_igual_cota_esquina": false
+   },
+   {
+    "fila": 7208,
+    "run": "BRUN-63a9e9ea157b2faaf317ae61",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "PER",
+    "v": 0.7869751120255757,
+    "v_exacto": "3544220821268237/4503599627370496",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": false,
+    "v_menor_o_igual_cota_interior": false,
+    "v_menor_o_igual_cota_esquina": false
+   },
+   {
+    "fila": 7028,
+    "run": "BRUN-9c6c66e7af8b139a613b1c3f",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "PER",
+    "v": 0.7871415549229975,
+    "v_exacto": "7089940826878089/9007199254740992",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": false,
+    "v_menor_o_igual_cota_interior": false,
+    "v_menor_o_igual_cota_esquina": false
+   },
+   {
+    "fila": 8144,
+    "run": "BRUN-991c466a1938ddbf2192eefb",
+    "grupo": "EQ-TECHO-T8-1",
+    "pais": "MEX",
+    "v": 0.7884291309556442,
+    "v_exacto": "3550769140379883/4503599627370496",
+    "grupo_compatible": true,
+    "garantizada_si_testigo_cumple": false,
+    "v_menor_o_igual_cota_interior": false,
+    "v_menor_o_igual_cota_esquina": false
+   }
+  ],
+  "garantizadas_si_cumple": 35,
+  "garantizadas_lista": [
+   9224,
+   7958,
+   9680,
+   7772,
+   8786,
+   9542,
+   8462,
+   7964,
+   7244,
+   9188,
+   8654,
+   9260,
+   7682,
+   8636,
+   9560,
+   6884,
+   7322,
+   9350,
+   7916,
+   9686,
+   8930,
+   8606,
+   8378,
+   8288,
+   7196,
+   8552,
+   7598,
+   9014,
+   9020,
+   7172,
+   9458,
+   6902,
+   9398,
+   8876,
+   6926
+  ],
+  "no_cubribles_por_esta_clave": [
+   9578,
+   8186,
+   7208,
+   7028,
+   8144
+  ],
+  "paises_de_los_conjuntos_de_la_celda": [
+   "CMP",
+   "COL",
+   "PER"
+  ],
+  "paises_de_las_filas": {
+   "COL": 16,
+   "PER": 14,
+   "MEX": 10
+  },
+  "nota": "las cifras son PREVISIÓN; ninguna fila se suma a producción ni a C2 en rem138"
+ },
+ "no_hace": [
+  "importar o ejecutar model/modelos/supremum/encierros",
+  "capture_ceiling, sup_bound, evaluate, bridge, mallas",
+  "enumerar Omega"
+ ],
+ "fallos": [],
+ "conforme": true,
+ "segundos": 1.91
+}

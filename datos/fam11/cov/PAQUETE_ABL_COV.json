@@ -1,0 +1,129 @@
+{
+ "kind": "paquete-abl-cov-rem150-i5",
+ "estado": "CANDIDATO_NO_EMITIDO",
+ "piezas": {
+  "COBERTURA_ABL_COV-SINTETICO-FALLO.json": {
+   "sha256": "94e294e3c061cf0bd3c0ae804741b470b7b4951307df4e3f539d331f395671aa",
+   "bytes": 302
+  },
+  "COBERTURA_ABL_COV-SINTETICO.json": {
+   "sha256": "5a43d8f9fca9e9a2d0b83bdac3550911c3215318fb9995970795117868306bd9",
+   "bytes": 302
+  },
+  "COBERTURA_ABL_COV.json": {
+   "sha256": "510201a8e593aa5a8f9fbf9592e376b4f5b975658d508b7e414625ecc7c6f5f5",
+   "bytes": 302
+  },
+  "COBERTURA_ABL_COV_FIXTURE-PUERTA.json": {
+   "sha256": "60e26a52c620c9bbf3766e8580cdaee9d4bd03d9be3730373c8869dc880be124",
+   "bytes": 302
+  },
+  "conciliar_cov.py": {
+   "sha256": "fef92f1c34b314021f0ecc3ff7f4a990686ff2f2c318c233968bc9dbe4ef7161",
+   "bytes": 13543
+  },
+  "conducir_lote.py": {
+   "sha256": "259227b6e0fb15c11fc78883857648222c1b296ea068212f5edebfedff1c930e",
+   "bytes": 40293
+  },
+  "conexion_coord_cert.py": {
+   "sha256": "e5776de970b72535ec7b72340604abfd9e8448479ea78dac4b714d870d273d61",
+   "bytes": 5649
+  },
+  "DIFERENCIAS_REM148.json": {
+   "sha256": "de4323b339d6bb34c8aed9f52f21803571a9910b85fcef3a870c84c1a723486b",
+   "bytes": 42518
+  },
+  "DIFERENCIAS_REM149.json": {
+   "sha256": "fc1a4551da12bfe469819c59edad02f7e4fef1176c3cd3157b8d2774d4ccedce",
+   "bytes": 84465
+  },
+  "DIFERENCIAS_REM150.json": {
+   "sha256": "cf686f31b2eb1bf9c4959f8cc13f17868a410047785625bb237a7ea8eb717580",
+   "bytes": 10735
+  },
+  "emitir_alcance_rec.py": {
+   "sha256": "7fa395f993672c9a446a9caf531c4d3d066853c179fcaaa2926b5321da515ce4",
+   "bytes": 6510
+  },
+  "ensamblar_coord.py": {
+   "sha256": "5115ba4eb430a0b09c65d7a6b9375a156e15aa376863c782e11648233d1e0c93",
+   "bytes": 5512
+  },
+  "MANIFIESTO_ABL_COV-SINTETICO-FALLO.json": {
+   "sha256": "14d1f2b31131e2008571ecb3bfa0877fc616bca0003a48d3620dfdc1c1d89dd6",
+   "bytes": 1530744
+  },
+  "MANIFIESTO_ABL_COV-SINTETICO.json": {
+   "sha256": "a0816e5f054bcad13a6c3f3399dd99ed95de4ac42df08ca0f234b0f35fffdd93",
+   "bytes": 1530739
+  },
+  "MANIFIESTO_ABL_COV.json": {
+   "sha256": "a38f9e95b83af3fd921f240f26fd1d8a242f46009c770c5123a8b7c72932c9c3",
+   "bytes": 1505636
+  },
+  "MANIFIESTO_ABL_COV_FIXTURE-PUERTA.json": {
+   "sha256": "db7e009d5c13c00550f76725eba98780ac6e99739f830072a2377b0c29baf1c4",
+   "bytes": 1528964
+  },
+  "preparar_manifiesto_cov.py": {
+   "sha256": "185ec1b26459dfa37d4bcc6dfb48b796824e2fe0db528e8913550d0d1d6d0681",
+   "bytes": 16773
+  },
+  "receta_cov.sh": {
+   "sha256": "4e97d270669f2c8e4b121058f03d3303ed3f97d3b68b669ac4eb3327410a9e13",
+   "bytes": 4293
+  },
+  "referencia_decision.py": {
+   "sha256": "039f6f6b490c81bd553f1a5c07fec848f15a8cdf0f6c70e6782511140abe7446",
+   "bytes": 1280
+  },
+  "tarea_lote.py": {
+   "sha256": "9ba4ce357423167dc34a2ae1c15517b053fd3e33f7fef3720d14f9941bd8d1b1",
+   "bytes": 10095
+  },
+  "validar_coord_rec.py": {
+   "sha256": "be36386430764fd9c1b487f0485e3c4fa3a0282edd7f4f18baa27e18a3a7bbe3",
+   "bytes": 22007
+  },
+  "validar_lote.py": {
+   "sha256": "070ae81d15119735369b08bf083e9ff3b7652ca99a2956547b9f290db4022ee4",
+   "bytes": 2494
+  }
+ },
+ "nucleo": {
+  "ruta": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion",
+  "identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae"
+ },
+ "deriva_de": {
+  "paquete": "tmp/paso4_cov_remanente_desde_rem148/paquete_cov_i2",
+  "indice_sha256": "203c54cafb251b158c07d1fa243e5a14b9a2d44fa88347995db66990f8e9cda7"
+ },
+ "fuente_celdas": {
+  "ruta": "tmp/paso4_remanente_lotes_desde_rem113/censo/CENSO_REMANENTE.json",
+  "sha256": "78e51627014c11778b5388ee9aaa07074b3a33fbade09b226bd49933aa5d3129",
+  "familia": "ABL-COV"
+ },
+ "censo": {
+  "ruta": "tmp/paso4_ablaciones_exp8_desde_rem147/paquete_ablaciones/censo/CENSO_COV_REM147.json",
+  "sha256": "264aafd9ba21ebf3944b4d52922d749aa62d26f463ca672bdb6983a60086c92a"
+ },
+ "fuente_enf": {
+  "ruta": "tmp/paso4_ablaciones_exp8_desde_rem147/exp8/ENF_POR_AFIRMACION.jsonl",
+  "sha256": "e0670acc74ac1aaf92686b4fd207c11da1aa8636833b140e40c0a08ddc30ac3c"
+ },
+ "ruta": {
+  "receta": "receta_cov.sh inicio|continuacion",
+  "conductor": "conducir_lote.py",
+  "ensamblador": "ensamblar_coord.py",
+  "conciliador": "conciliar_cov.py",
+  "validador_comun": "validar_lote.py + validar_coord_rec.validar_tarea",
+  "emisor": "emitir_alcance_rec.py",
+  "referencia_decision": "referencia_decision.py"
+ },
+ "alcance_necesario": "un alcance v3 emitido por emitir_alcance_rec.py de ESTE paquete (paquete_cov_i5; seis tareas; fija conciliador, ENF, conductor, receta e índice) + una decisión humana nativa dedicada sobre su sha256, que el conductor verifica con el lector de C0 antes de toda directa; no emitido en rem150; ningún acto anterior habilita estos bytes",
+ "partida": {
+  "paquete": "tmp/paso4_cierre_continuidad_cov_desde_rem149/paquete_cov_i4",
+  "indice_sha256": "3cd23293cbe65ea5879ae10b153ff2df3c19ab995e71a30a911e9abb1335642c"
+ }
+}

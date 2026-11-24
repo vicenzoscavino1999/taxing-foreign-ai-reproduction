@@ -1,0 +1,14 @@
+requirement_id,plan_clause,validator,test_or_probe,evidence,limit
+S2-01,RE-02,s2_compat.inspect_candidate,test_actual_s1_and_integrity,s1/cierre.json,no publication
+S2-02,RE-02,s2_compat.approved_receipt,test_missing_or_wrong_approval,s2/compatibilidad_s2.json,new consent required
+S2-03,RE-02,s2_compat.validate_proposal,test_proposal_mutations,s1/emitido,prospective only
+S2-04,DB-03.2,institucional.source_claims,probe_per_claims,PER EML SHA90994661,partial concepts only
+S2-05,DB-05,institucional.affine_domain,test_shared_primitive_cancellation,PER formulas,no independent error on sum
+S2-06,DB-03.2,institucional.inspect_per_authority,probe_per_authority,contratos/AUTORIDAD_PER_CANDIDATA.json,unapproved
+S2-07,DB-03.3,institucional.InstitutionalSnapshot,probe_mex_d2_d6,MEX payload SHA077a64fe,no admission
+S2-08,DB-03.4,institucional.InstitutionalSnapshot,probe_col_d2_d6,COL payload SHAfa799bfe,domestic COE A36
+S2-09,DB-03.5,institucional.InstitutionalSnapshot,probe_chl_d2_d6,CHL COU and CEI snapshots,no gross split
+S2-10,DB-03.5,institucional.source_claims,probe_chl_claims,CHL EML SHA6412f38a,no rounding inferred
+S2-11,DB-12,ca2_key.conditional_key,test_conditional_key_context,CA2 isolated fixtures,no numerical consumer
+S2-12,DI-07/core,core and ca2,104 preserved contract tests,base manifest f2047662,scientific formulas and keys unchanged
+S2-13,RE-02,s2_compat.consume_v2_candidate,test_candidate_consumer_specific_approval,S1 real plus explicit fixture-only S2 consent,no implicit S1 authority

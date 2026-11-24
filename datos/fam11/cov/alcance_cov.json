@@ -1,0 +1,58 @@
+{
+ "kind": "autorizacion-alcance-paso4-v3",
+ "etiqueta": "ALCANCE v3 COV i5 rem150, ejecucion rem151: phi/2, eta_f y resto fijos; seis tareas, continuidad, revalidacion, ensamblado, conciliacion y cierre; ModeloTeorico certificado, cierre normalizado 1e-7, error en R conservado; NO OFICIAL",
+ "plan_sha256": "18b2647b07fc54b3bac88ffa2808c40de4df30682934abc48e7e22b61350495d",
+ "operaciones": [
+  "LOTE4"
+ ],
+ "tareas": [
+  "ABL-COV-T1",
+  "ABL-COV-T2",
+  "ABL-COV-T3",
+  "ABL-COV-T4",
+  "ABL-COV-T5",
+  "ABL-COV-T6"
+ ],
+ "asignaciones": {
+  "ABL-COV-T1": "251b23a924e19eb6988832f0fc6236f09a3846e3aaf30017eb1972da564fd0f1",
+  "ABL-COV-T2": "4f6831490257df7d9fc7de10308a5f4c2c23ce55f646cbf3b40adf12094e1cef",
+  "ABL-COV-T3": "14f8b6331e414f47be2acd3e8511dd30e2d81c61bfa52737b7cb243f90cd2163",
+  "ABL-COV-T4": "7d9606bf2b7563637e1257a565d999ad5a2f28f5700b8d1579c3eb294c8a4552",
+  "ABL-COV-T5": "4f2130773168631bb1082e8330c838d7c99b1234eb4c70427c1b6ce795ed7dbe",
+  "ABL-COV-T6": "81376614ce8704256230b32f93042555abab005f2e7bab9180b0e032eb8abe98"
+ },
+ "despliegue_sha256": "f293a0a62d2cb6bf3517e72a0bfc589ee703685d4434c2cdae4b4cd1b5085d6c",
+ "entradas": {
+  "lote_manifiesto": "a38f9e95b83af3fd921f240f26fd1d8a242f46009c770c5123a8b7c72932c9c3",
+  "codigo_lote": {
+   "tarea_lote.py": "9ba4ce357423167dc34a2ae1c15517b053fd3e33f7fef3720d14f9941bd8d1b1",
+   "conexion_coord_cert.py": "e5776de970b72535ec7b72340604abfd9e8448479ea78dac4b714d870d273d61"
+  },
+  "validador_lote": "070ae81d15119735369b08bf083e9ff3b7652ca99a2956547b9f290db4022ee4",
+  "d7_sha256": null,
+  "cobertura_nacional": "510201a8e593aa5a8f9fbf9592e376b4f5b975658d508b7e414625ecc7c6f5f5",
+  "validador_coord_rec": "be36386430764fd9c1b487f0485e3c4fa3a0282edd7f4f18baa27e18a3a7bbe3",
+  "ensamblador": "5115ba4eb430a0b09c65d7a6b9375a156e15aa376863c782e11648233d1e0c93",
+  "conciliador": "fef92f1c34b314021f0ecc3ff7f4a990686ff2f2c318c233968bc9dbe4ef7161",
+  "enf_por_afirmacion": "e0670acc74ac1aaf92686b4fd207c11da1aa8636833b140e40c0a08ddc30ac3c",
+  "conductor": "259227b6e0fb15c11fc78883857648222c1b296ea068212f5edebfedff1c930e",
+  "receta": "4e97d270669f2c8e4b121058f03d3303ed3f97d3b68b669ac4eb3327410a9e13",
+  "paquete_indice": "cd197300152b73d391b2b9a223bd9585425618ae2a383df7004804a232e94ec1"
+ },
+ "limites": {
+  "procesos": 3,
+  "tope_s": 2400.0,
+  "suite_s": 3600.0,
+  "union_s": 10800.0
+ },
+ "repetir": [],
+ "excepciones": [],
+ "instalacion_identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+ "congelamiento_p3_sha256": "8e59ea4870c987ecca4ea1e5a8cb3f95581fcc1a64b3e7aa61c035a9b8e0dcfc",
+ "emitida_utc": "2026-11-05T22:14:41.288295+00:00",
+ "continua_alcance": null,
+ "lote_manifiesto_sha256": "a38f9e95b83af3fd921f240f26fd1d8a242f46009c770c5123a8b7c72932c9c3",
+ "b_official_run_authorized": false,
+ "freeze_run_authorized": false,
+ "official_export_authorized": false
+}

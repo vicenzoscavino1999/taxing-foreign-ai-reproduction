@@ -1,0 +1,49 @@
+{
+ "kind": "autorizacion-alcance-paso4-v3",
+ "etiqueta": "ALCANCE v3 DEL LOTE 1 (rem111) — NO OFICIAL; aprobación solo por decisión humana nativa sobre su sha256",
+ "plan_sha256": "18b2647b07fc54b3bac88ffa2808c40de4df30682934abc48e7e22b61350495d",
+ "operaciones": [
+  "LOTE1"
+ ],
+ "tareas": [
+  "L1-ELAST",
+  "L1-LAMBDA",
+  "L1-COORD"
+ ],
+ "asignaciones": {
+  "L1-ELAST": "022dfa60f882c24b2b316b2f9a6f47018eec89d4f87c80fe8618884d77358b7a",
+  "L1-LAMBDA": "bd10fee310f08e6bb8077667d3f09bbd2039fde1ef27cc5af53ecdb0f1af6dd2",
+  "L1-COORD": "4d91ad914fde996d7827dcfbd616c89d818bfa8eea53b2e03c1b68f917f0ca6f"
+ },
+ "despliegue_sha256": "f293a0a62d2cb6bf3517e72a0bfc589ee703685d4434c2cdae4b4cd1b5085d6c",
+ "entradas": {
+  "lote_manifiesto": "19ecd7d3eb0e42a67d46678a6b447f064c8011a27361c8777330ddade9e8ebb9",
+  "codigo_lote": {
+   "tarea_lote.py": "331a23c9b79cc7f00a697c5cc4c26b14204b37a8824ec8ffc368f57098009356",
+   "conexion_lambda.py": "bc498b810819ae57fbe40c849ad4e9d015650069e7053246304701fa9afb71d6",
+   "conexion_frontera.py": "cac8b7ec3214ea37ffb985079fde972b682af4ebb8e5c64361d933a7b346147c"
+  },
+  "validador_lote": "d12d3e7607cc39f99bb623263b67c14fdb449923d1e3cda43df6d361431f5b34",
+  "d7_sha256": {
+   "support_set.csv": "91716f572a85dae4e57290efb3dad03ada588d7a6cfe037fd2e1ae5d40bd61c6",
+   "scenario_map.csv": "da5c9247903e4bd053d088c8c9db435128b33f47cf479496273a0331358aebce"
+  },
+  "cobertura_nacional": "268a63d592905dd0add16d968e253b08bc737212ca4fa7c7adead1730263b50e"
+ },
+ "limites": {
+  "procesos": 3,
+  "tope_s": 2400.0,
+  "suite_s": 3600.0,
+  "union_s": 10800.0
+ },
+ "repetir": [],
+ "excepciones": [],
+ "instalacion_identidad": "f5726dd6284a88b5a8dfd786e6796dfb9e8c6fcca89d872d2447234c10a48cea",
+ "congelamiento_p3_sha256": "8e59ea4870c987ecca4ea1e5a8cb3f95581fcc1a64b3e7aa61c035a9b8e0dcfc",
+ "emitida_utc": "2026-10-29T13:36:55.218926+00:00",
+ "continua_alcance": null,
+ "lote_manifiesto_sha256": "19ecd7d3eb0e42a67d46678a6b447f064c8011a27361c8777330ddade9e8ebb9",
+ "b_official_run_authorized": false,
+ "freeze_run_authorized": false,
+ "official_export_authorized": false
+}

@@ -1,0 +1,27 @@
+{
+ "tarea": "ABL-COV-T5",
+ "modo": "produccion",
+ "manifiesto_sha256": "a38f9e95b83af3fd921f240f26fd1d8a242f46009c770c5123a8b7c72932c9c3",
+ "tope_efectivo_s": 2280.0,
+ "sintetico": false,
+ "codigo_sha256": {
+  "tarea_lote.py": "9ba4ce357423167dc34a2ae1c15517b053fd3e33f7fef3720d14f9941bd8d1b1",
+  "conexion_coord_cert.py": "e5776de970b72535ec7b72340604abfd9e8448479ea78dac4b714d870d273d61"
+ },
+ "productos": [
+  {
+   "archivo": "cov_techos.jsonl",
+   "sha256": "d42da22401f56dc5e9de6d2914792239f70c3c33ebbd9edd98d0b5da772584fd",
+   "filas": 1
+  },
+  {
+   "archivo": "cov_comparacion.jsonl",
+   "sha256": "c1511453a57995d2a124a56d7a58a404ff05dd838ecbf1469624cd5f1cea1f84",
+   "filas": 128
+  }
+ ],
+ "alcance_sha256": "69900e10f8e7b1ff9bb947fd1f8e54d53f1399d6344803e48b97d2bc997f0f89",
+ "estado": "completa",
+ "motivo": null,
+ "pared_s": 1209.8
+}

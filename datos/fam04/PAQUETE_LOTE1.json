@@ -1,0 +1,197 @@
+{
+ "kind": "paquete-lote1-rem111",
+ "estado": "PROPUESTA para revisión: no autorizado ni ejecutado sobre soportes reales",
+ "piezas": {
+  "conducir_lote.py": {
+   "sha256": "26e293e7231fff1e7099ce8384adaa3fabbca7e82296598af625aaac1a6a63b4",
+   "funcion": "conductor (receta ejecutable): suites trabajo+validación contenidas en p3ctl, admisión por suite, estado final y código de salida"
+  },
+  "receta_lote1.sh": {
+   "sha256": "e1c0ca4f3d71b416174cf4aad6126c8b3a5ca8a4995f528305873108c7fb4328",
+   "funcion": "receta final: una invocación del conductor en producción con las entradas fijadas del paquete"
+  },
+  "tarea_lote.py": {
+   "sha256": "331a23c9b79cc7f00a697c5cc4c26b14204b37a8824ec8ffc368f57098009356",
+   "funcion": "trabajador contenido (sin cambios desde rem110): lista cerrada, puerta única de producción, cierre por estado"
+  },
+  "conexion_lambda.py": {
+   "sha256": "bc498b810819ae57fbe40c849ad4e9d015650069e7053246304701fa9afb71d6",
+   "funcion": "envolvente λπ con cobertura por estado; rem111: evidencia con huella shares_sha256 de cada estado evaluado"
+  },
+  "conexion_frontera.py": {
+   "sha256": "cac8b7ec3214ea37ffb985079fde972b682af4ebb8e5c64361d933a7b346147c",
+   "funcion": "malla frontier_result por Run.frontier_rows (sin cambios desde rem108)"
+  },
+  "validar_lote.py": {
+   "sha256": "d12d3e7607cc39f99bb623263b67c14fdb449923d1e3cda43df6d361431f5b34",
+   "funcion": "validador; rem111: cobertura nacional exacta contra el anexo (sin anexo ⇒ fallo en L1-LAMBDA)"
+  },
+  "cobertura_nacional.py": {
+   "sha256": "362e21f3fd4196c4d47619b870b9a1b17a336721be4662f47810c13b993d4695",
+   "funcion": "generador del anexo de cobertura nacional (preparación hasta selección, sin bridge) y de anexos sintéticos de prueba"
+  },
+  "COBERTURA_NACIONAL_LOTE1.json": {
+   "sha256": "268a63d592905dd0add16d968e253b08bc737212ca4fa7c7adead1730263b50e",
+   "funcion": "anexo de cobertura nacional ligado al manifiesto: 9 estados PER por conjunto con identidad completa y huella"
+  },
+  "seleccion_lote.py": {
+   "sha256": "f07ba499839b40fdd819f983c343170fb493f32da20ebb3af2b61a871592af37",
+   "funcion": "selección que generó el manifiesto (rem109, sin cambios; no se re-ejecuta)"
+  },
+  "LOTE1_MANIFIESTO.json": {
+   "sha256": "19ecd7d3eb0e42a67d46678a6b447f064c8011a27361c8777330ddade9e8ebb9",
+   "funcion": "selección exacta del lote 1 (mismos bytes que rem109 lote/seleccion_i2)"
+  },
+  "emitir_alcance_lote.py": {
+   "sha256": "96d4c6fa293446831c687ff5033c97e53cd2e7c0851fa9bb6229e478f4edda71",
+   "funcion": "materialización del documento de alcance v3; rem111: fija también entradas.cobertura_nacional"
+  },
+  "referencia_decision.py": {
+   "sha256": "039f6f6b490c81bd553f1a5c07fec848f15a8cdf0f6c70e6782511140abe7446",
+   "funcion": "materialización de la referencia {transcripcion, linea, uuid} a la decisión humana nativa (sin cambios)"
+  }
+ },
+ "leeme": "LEEME_LOTE1.md (sha256 en el sello de rem111)",
+ "dependencias_externas": {
+  "instalacion_candidata": {
+   "ruta": "tmp/paso4_conciliacion_portabilidad_desde_rem107/portabilidad/candidato/instalacion",
+   "identidad": "identidad canónica",
+   "valor": "f5726dd6284a88b5a8dfd786e6796dfb9e8c6fcca89d872d2447234c10a48cea"
+  },
+  "despliegue": {
+   "ruta": "tmp/paso4_continuacion_p3_desde_rem89/p3/despliegue_operativo.json",
+   "identidad": "sha256",
+   "valor": "f293a0a62d2cb6bf3517e72a0bfc589ee703685d4434c2cdae4b4cd1b5085d6c"
+  },
+  "plan_prod_sucesor": {
+   "ruta": "tmp/paso4_conciliacion_portabilidad_desde_rem107/portabilidad/preparacion_i2/plan_prod_sucesor.json",
+   "identidad": "sha256 del archivo (plan_sha256 18b2647b…)",
+   "valor": "4fd484fe3b84b1033d7a5602e8374f211953a9b3835471ac5d54e4ca22ce8941"
+  },
+  "acta_p3_vigente": {
+   "ruta": "tmp/paso4_continuacion_p3_desde_rem89/p3/acta_p3.json",
+   "identidad": "sha256 (congelamiento por defecto del alcance)",
+   "valor": "8e59ea4870c987ecca4ea1e5a8cb3f95581fcc1a64b3e7aa61c035a9b8e0dcfc"
+  },
+  "interprete_integracion": {
+   "ruta": "tmp/pilotos_b36_b37_2026-10-02/entorno/py_integracion.sh",
+   "identidad": "sha256",
+   "valor": "22d46c69162a7a4fbd9724ab7e67376a2c7ec58dd33bd0957d2c679d7367f4cf"
+  },
+  "contencion_p3ctl": {
+   "ruta": "<área de la ronda>/codigo/p3ctl.py (copia de rem111 codigo/, sin cambios)",
+   "identidad": "sha256",
+   "valor": "546271b057a9635ab39ca3f94e0fd79da46cc7091a4bff873ab8c54e6d875841"
+  },
+  "contencion_supervisar": {
+   "ruta": "<área de la ronda>/codigo/recursos/supervisar.py",
+   "identidad": "sha256",
+   "valor": "beec8d3c5a3fa9cdc21482b5f96c5e35e4d0b48994b6935a500a08fe3b678b15"
+  }
+ },
+ "reutilizado_por_ruta_sin_regenerar": {
+  "propuesta_incorporacion": "tmp/paso4_conciliacion_portabilidad_desde_rem109/PAQUETE_PORTABILIDAD/incorporacion/p2/propuesta_incorporacion_candidato.json (a7a7b4be…): acción SEPARADA; el lote no la requiere",
+  "puerta_y_materializadores_revisados": "tarea_lote.py y referencia_decision.py con los mismos bytes que rem110"
+ },
+ "cobertura_nacional": {
+  "origen": "preparacion_hasta_seleccion",
+  "contexto_identidad": "5273718de5b1b00c986cbb5a9667d78100ce2c48e9a8bd96c2caa92c48853fe6",
+  "llamadas_durante_preparacion": {
+   "macro.bridge": 0,
+   "macro.strict_vertices": 0
+  },
+  "estados_por_conjunto": {
+   "PER-E1.macro": 9,
+   "PER-E1.micro": 9
+  }
+ },
+ "tareas": {
+  "L1-LAMBDA": {
+   "conjuntos": [
+    "PER-E1.macro",
+    "PER-E1.micro"
+   ],
+   "llamadas_bridge_por_conjunto": 36,
+   "llamadas_bridge_total": 72,
+   "pares_unicos_omega_estado": 54,
+   "techos": 0
+  },
+  "L1-ELAST": {
+   "fronteras": 6,
+   "puntos": 70,
+   "techos": 0
+  },
+  "L1-COORD": {
+   "celdas_padre": 192,
+   "techos_nuevos": 12,
+   "k1_reutilizados": 192
+  }
+ },
+ "esquema": {
+  "lambda_envolvente.jsonl": {
+   "una_fila_por": "conjunto × variante (con, sin)",
+   "evidencia_por_estado": "{max|min: [{estado_nacional, shares_sha256, admisible, motivos, lambda}]}",
+   "pendiente": "estado=pendiente_no_cubierto: lambda_*_parcial_cubiertos, sin K1/Q; nunca envolvente"
+  },
+  "frontier_result.jsonl": "sin cambios (rem110)",
+  "coord_techos.jsonl": "sin cambios (rem110)",
+  "coord_comparacion.jsonl": "sin cambios (rem110)",
+  "resultado.json": "sin cambios (rem110); llamadas_bridge en L1-LAMBDA",
+  "estado_lote.json": {
+   "campos": [
+    "lanzamiento",
+    "modo",
+    "tareas_solicitadas",
+    "parametros",
+    "suite",
+    "registros (admision, trabajo, validacion, suite_s)",
+    "validadas",
+    "pendientes",
+    "estado_final",
+    "causa",
+    "fallo_original",
+    "cierre",
+    "rc"
+   ],
+   "estados_finales": {
+    "completo": 0,
+    "rechazado": 3,
+    "incompleto": 4,
+    "detenido_por_presupuesto": 5
+   }
+  }
+ },
+ "criterios_aceptacion": {
+  "L1-LAMBDA (añadido rem111)": [
+   "anexo de cobertura del MISMO manifiesto y conjuntos; huellas únicas por conjunto",
+   "en cada fila ok y extremo: secuencia de shares_sha256 = la del anexo e índices 0..n−1 (sin omisiones, ajenos, sustituciones ni duplicados)",
+   "testigo nacional dentro de esa secuencia y con λ = extremo",
+   "sin anexo ⇒ COBERTURA_NACIONAL_SIN_ANEXO"
+  ],
+  "resto": "sin cambios desde rem110 (ver LEEME_LOTE1.md §5)"
+ },
+ "suites": {
+  "definicion": "una suite por tarea = trabajo (p3ctl directa, tope 2400) + validación (p3ctl directa, tope 300)",
+  "reserva_s": 2940,
+  "formula": "tope_trabajo + tope_validacion + 2·margen(90) + cierre(60) = 2940 ≤ 3600",
+  "orden": [
+   "L1-ELAST",
+   "L1-LAMBDA",
+   "L1-COORD"
+  ],
+  "admision_antes_de_cada_suite": [
+   "SUITE_EXCEDE_3600",
+   "NO_CABE_ANTES_DEL_CORTE",
+   "NO_CABE_EN_LA_UNION"
+  ],
+  "una_tarea_activa": true,
+  "reintentos": 0
+ },
+ "parada": [
+  "fallo del trabajador o del validador ⇒ la siguiente tarea no se lanza",
+  "presupuesto insuficiente ⇒ detenido_por_presupuesto, lo validado se conserva",
+  "límite duro de p3ctl ⇒ sin resultado ⇒ incompleto",
+  "cierre con identidades vivas ⇒ nunca completo",
+  "sin reinicio automático"
+ ]
+}

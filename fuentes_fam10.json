@@ -1,0 +1,543 @@
+{
+ "descripcion": "Relación de piezas de FAM10 (tabla final de Exp8: ENF por afirmación, síntesis e integración B1+B2) y su origen (tmp: = carpeta de entregas históricas del proyecto; <directorio de los libros> = directorio de los libros de revisión). Las ubicaciones de origen solo sirven para localizar; ninguna se usa al ejecutar. Raíz Exp8 en nucleo_s6/exp8 (espejo de tmp/<área>/<rel>); resúmenes de libros en datos/fam10/autoridad; referencias en referencias/fam10. Copias exactas salvo PROYECCIONES saneadas que restituyen el original.",
+ "herramienta": {
+  "archivo": "extraccion/extraer_fam10.py",
+  "sha256": "557531c14f2523e67e9118276b417600601c0594187b464230772260e0fd0945"
+ },
+ "raiz_exp8": "nucleo_s6/exp8",
+ "archivos": [
+  {
+   "archivo": "nucleo_s6/exp8/tmp/paso4_ablaciones_exp8_desde_rem147/exp8/conciliar_exp8_rem147.py",
+   "origen": "tmp/paso4_ablaciones_exp8_desde_rem147/exp8/conciliar_exp8_rem147.py (fijado por catálogo (U41) e inventario rem147)",
+   "sha256": "8e9d207c96fa3d1f6c7a816b29fe4f7c6c0d6aedaa228a2009fcaa286da937d3",
+   "papel": "F10-ENF-AFIRMACION: conciliador Exp8 × ENF por afirmación (U41) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/paso4_integracion_final_exp8_desde_rem170/construccion/ESQUEMA_DECLARADO_REM170.json",
+   "origen": "tmp/paso4_integracion_final_exp8_desde_rem170/construccion/ESQUEMA_DECLARADO_REM170.json (fijado por construir_integracion_rem170.py (AUT))",
+   "sha256": "f4e474457cf0e70135f02da7cb0333ec8be6f7334452969c9a1ffb7bb33dd443",
+   "papel": "F10-INTEGRACION: rutas de campo que la integración puede cambiar (declaradas antes) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/paso4_conciliacion_portabilidad_desde_rem108/conciliacion/ensamblajes/T7_anexo.json",
+   "origen": "tmp/paso4_conciliacion_portabilidad_desde_rem108/conciliacion/ensamblajes/T7_anexo.json (fijado por autenticación rem147)",
+   "sha256": "070f3c8e01f245897985c1bd3ee9b0094f3feb388c6c8390a7b1a41ef4f023ec",
+   "papel": "F10-ENF-AFIRMACION: universo T7 (1.728 afirmaciones, testigos y G padre; insumo histórico rem108) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/paso4_conciliacion_portabilidad_desde_rem108/conciliacion/EXP8_TABLA.json",
+   "origen": "tmp/paso4_conciliacion_portabilidad_desde_rem108/conciliacion/EXP8_TABLA.json (fijado por autenticación rem147)",
+   "sha256": "8e43185e1b46954a8a9484e7dc385ace0f8eea008b2438cd8ddfa4c673489a5f",
+   "papel": "F10-ENF-AFIRMACION: descomposición rem108 (1.705 + 7 sin descomposición; insumo histórico) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/paso4_correcciones_sintesis_exp8_desde_rem160/sintesis/construir_sintesis_rem160.py",
+   "origen": "tmp/paso4_correcciones_sintesis_exp8_desde_rem160/sintesis/construir_sintesis_rem160.py (proyección del catálogo c32b83d8; original sha256 e96814df3ae17c4c24463958b7839491ade01e5c1b3e1614cc510d6cbaf84966; marcadores {'@@W_BS1@@': 1})",
+   "sha256": "c32b83d88084ae7e840bcb191dbf7ee83278abb667449898140f98abe5fd7e99",
+   "papel": "F10-SINTESIS: constructor de la síntesis (U44) (proyección saneada)"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/paso4_integracion_final_exp8_desde_rem170/construccion/construir_integracion_rem170.py",
+   "origen": "tmp/paso4_integracion_final_exp8_desde_rem170/construccion/construir_integracion_rem170.py (proyección del catálogo cc9f79d2; original sha256 95493c614aa367c2ad97913387aa56ee7e532e44eb1775a5227143d7063593a6; marcadores {'@@W_BS1@@': 1})",
+   "sha256": "cc9f79d21c47152c5309cf8c70f83a799661b7c9d96867677968f9b08f980538",
+   "papel": "F10-INTEGRACION: constructor de la integración (U47) (proyección saneada)"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125/demo/d_s1f_r/resultados/418a40b8edb52910d2c84eb3f7b1afae16b04c5a1cd8c51ec6632e988c988df3_filas.json",
+   "origen": "tmp/s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125/demo/d_s1f_r/resultados/418a40b8edb52910d2c84eb3f7b1afae16b04c5a1cd8c51ec6632e988c988df3_filas.json (fijado por T7_anexo)",
+   "sha256": "657a29c716c1bf643e1013eab4a85d9dbd7c8da8dacd0a42b66f9b8c24d00afe",
+   "papel": "F10-ENF-AFIRMACION: fila padre de una robusta (cell_id del testigo; U41 y la auditoría la leen por su huella del T7) (copia exacta)",
+   "mismos_bytes_que": "referencias/fam01/originales/418a40b8edb52910d2c84eb3f7b1afae16b04c5a1cd8c51ec6632e988c988df3_filas.json"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125/demo/d_s1f_r/resultados/47fa456e54f2122a79f585c268c472275dea736be90427d87d394b0fe310f197_filas.json",
+   "origen": "tmp/s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125/demo/d_s1f_r/resultados/47fa456e54f2122a79f585c268c472275dea736be90427d87d394b0fe310f197_filas.json (fijado por T7_anexo)",
+   "sha256": "84a841686dfef92ae21ebfe4d009fff35242106261f39c5662cbc2e9aa019d0d",
+   "papel": "F10-ENF-AFIRMACION: fila padre de una robusta (cell_id del testigo; U41 y la auditoría la leen por su huella del T7) (copia exacta)",
+   "mismos_bytes_que": "referencias/fam01/originales/47fa456e54f2122a79f585c268c472275dea736be90427d87d394b0fe310f197_filas.json"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125/demo/d_s1f_r/resultados/77a99aa5db524249f4fe755f1a24cef7721d04a44ba847fbf34cad95c3671c2f_filas.json",
+   "origen": "tmp/s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125/demo/d_s1f_r/resultados/77a99aa5db524249f4fe755f1a24cef7721d04a44ba847fbf34cad95c3671c2f_filas.json (fijado por T7_anexo)",
+   "sha256": "556840544e8631a49116e15911abf8b9168d5074dfcfd0ff19bc0b56821f66a7",
+   "papel": "F10-ENF-AFIRMACION: fila padre de una robusta (cell_id del testigo; U41 y la auditoría la leen por su huella del T7) (copia exacta)",
+   "mismos_bytes_que": "referencias/fam01/originales/77a99aa5db524249f4fe755f1a24cef7721d04a44ba847fbf34cad95c3671c2f_filas.json"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125/demo/d_s1f_r/resultados/d1789ac766a36b85d297a10196541da87389a882d7ed9322d07561427ce522f2_filas.json",
+   "origen": "tmp/s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125/demo/d_s1f_r/resultados/d1789ac766a36b85d297a10196541da87389a882d7ed9322d07561427ce522f2_filas.json (fijado por T7_anexo)",
+   "sha256": "0ab0090e4a61ae42f62b7e09522761ea55765d01a7cf4a56e32d11fdf701a928",
+   "papel": "F10-ENF-AFIRMACION: fila padre de una robusta (cell_id del testigo; U41 y la auditoría la leen por su huella del T7) (copia exacta)",
+   "mismos_bytes_que": "referencias/fam01/originales/d1789ac766a36b85d297a10196541da87389a882d7ed9322d07561427ce522f2_filas.json"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125/demo/d_s1f_r/resultados/d838cba00f091c691553afc135dc22324133575657884f3035b77d3e7b679b01_filas.json",
+   "origen": "tmp/s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125/demo/d_s1f_r/resultados/d838cba00f091c691553afc135dc22324133575657884f3035b77d3e7b679b01_filas.json (fijado por T7_anexo)",
+   "sha256": "d56c86646892a2948b66b03170f75449a58726d0be56381561ae63ad421c6370",
+   "papel": "F10-ENF-AFIRMACION: fila padre de una robusta (cell_id del testigo; U41 y la auditoría la leen por su huella del T7) (copia exacta)",
+   "mismos_bytes_que": "referencias/fam01/originales/d838cba00f091c691553afc135dc22324133575657884f3035b77d3e7b679b01_filas.json"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125/demo/d_s1f_r/resultados/d8c53036140e5cb168ea934d15c3f9c519cc8b5f379e8ecc79ec1bbad94d1c52_filas.json",
+   "origen": "tmp/s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125/demo/d_s1f_r/resultados/d8c53036140e5cb168ea934d15c3f9c519cc8b5f379e8ecc79ec1bbad94d1c52_filas.json (fijado por T7_anexo)",
+   "sha256": "2960833f95e3c4885d0225af0421cf8ffb5fb4c080ad2a936c9f48e7e3652b7c",
+   "papel": "F10-ENF-AFIRMACION: fila padre de una robusta (cell_id del testigo; U41 y la auditoría la leen por su huella del T7) (copia exacta)",
+   "mismos_bytes_que": "referencias/fam01/originales/d8c53036140e5cb168ea934d15c3f9c519cc8b5f379e8ecc79ec1bbad94d1c52_filas.json"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125/demo/d_s1f_r/resultados/e23ab352d2116fd4780819cfbd744038218ffdadbed2af3d0accc1c743fae9e2_filas.json",
+   "origen": "tmp/s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125/demo/d_s1f_r/resultados/e23ab352d2116fd4780819cfbd744038218ffdadbed2af3d0accc1c743fae9e2_filas.json (fijado por T7_anexo)",
+   "sha256": "fed415a58d109862ddebf1effeb751e720c2c5ccdcaa0b81f206d0a62e8ae4ef",
+   "papel": "F10-ENF-AFIRMACION: fila padre de una robusta (cell_id del testigo; U41 y la auditoría la leen por su huella del T7) (copia exacta)",
+   "mismos_bytes_que": "referencias/fam01/originales/e23ab352d2116fd4780819cfbd744038218ffdadbed2af3d0accc1c743fae9e2_filas.json"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800/demo/d_s1_f/resultados/70679834ef3ecd7c805d4d7f304cea8abc2819b8e996900932ad1a4d3245e17f_filas.json",
+   "origen": "tmp/s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800/demo/d_s1_f/resultados/70679834ef3ecd7c805d4d7f304cea8abc2819b8e996900932ad1a4d3245e17f_filas.json (fijado por T7_anexo)",
+   "sha256": "34d026f98a2e56e2e7c00c1e71deb6971baa751675077351005ed2fbad77b61a",
+   "papel": "F10-ENF-AFIRMACION: fila padre de una robusta (cell_id del testigo; U41 y la auditoría la leen por su huella del T7) (copia exacta)",
+   "mismos_bytes_que": "referencias/fam01/originales/70679834ef3ecd7c805d4d7f304cea8abc2819b8e996900932ad1a4d3245e17f_filas.json"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800/demo/d_s1_f/resultados/7ac5174654d3fb5c8638f79410bad4308c73867ba5c94452101d90174c4c28d9_filas.json",
+   "origen": "tmp/s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800/demo/d_s1_f/resultados/7ac5174654d3fb5c8638f79410bad4308c73867ba5c94452101d90174c4c28d9_filas.json (fijado por T7_anexo)",
+   "sha256": "c4df4feedadb45354ab3cfdc2f40ae76d122ca8fd6e6509dcc5aeeb9832a4bb7",
+   "papel": "F10-ENF-AFIRMACION: fila padre de una robusta (cell_id del testigo; U41 y la auditoría la leen por su huella del T7) (copia exacta)",
+   "mismos_bytes_que": "referencias/fam01/originales/7ac5174654d3fb5c8638f79410bad4308c73867ba5c94452101d90174c4c28d9_filas.json"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800/demo/d_s1_f/resultados/939b5860afc37ad9f105229ece41be8fd6f9966747f5a6c75ec04207fd70c3e1_filas.json",
+   "origen": "tmp/s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800/demo/d_s1_f/resultados/939b5860afc37ad9f105229ece41be8fd6f9966747f5a6c75ec04207fd70c3e1_filas.json (fijado por T7_anexo)",
+   "sha256": "a0bddde0d6a9c50ba19d73ccf4e9b7cf6974a56d451d739a6170ebca46dbbf9a",
+   "papel": "F10-ENF-AFIRMACION: fila padre de una robusta (cell_id del testigo; U41 y la auditoría la leen por su huella del T7) (copia exacta)",
+   "mismos_bytes_que": "referencias/fam01/originales/939b5860afc37ad9f105229ece41be8fd6f9966747f5a6c75ec04207fd70c3e1_filas.json"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800/demo/d_s1_f/resultados/96803d2f59d17c40c1b33b8f0a151519c24ecee42c37e734661ee8d48b635578_filas.json",
+   "origen": "tmp/s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800/demo/d_s1_f/resultados/96803d2f59d17c40c1b33b8f0a151519c24ecee42c37e734661ee8d48b635578_filas.json (fijado por T7_anexo)",
+   "sha256": "303e0401a8a9d13010791ccc357f0e3ea22d809950c8793e1b421de491de2fa1",
+   "papel": "F10-ENF-AFIRMACION: fila padre de una robusta (cell_id del testigo; U41 y la auditoría la leen por su huella del T7) (copia exacta)",
+   "mismos_bytes_que": "referencias/fam01/originales/96803d2f59d17c40c1b33b8f0a151519c24ecee42c37e734661ee8d48b635578_filas.json"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800/demo/d_s1_f/resultados/a9302108d33c149d5da458f1c21aec518930d7e1ebe0472de6776843359316d3_filas.json",
+   "origen": "tmp/s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800/demo/d_s1_f/resultados/a9302108d33c149d5da458f1c21aec518930d7e1ebe0472de6776843359316d3_filas.json (fijado por T7_anexo)",
+   "sha256": "0f776462c04d8617a547a02928574d8ff0126dc0099a65e88a7c36841942fcf1",
+   "papel": "F10-ENF-AFIRMACION: fila padre de una robusta (cell_id del testigo; U41 y la auditoría la leen por su huella del T7) (copia exacta)",
+   "mismos_bytes_que": "referencias/fam01/originales/a9302108d33c149d5da458f1c21aec518930d7e1ebe0472de6776843359316d3_filas.json"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800/demo/d_s1_f/resultados/adff067667c38db00caca7f5469206f83ed6b661cc3599a9d9d95291269b7916_filas.json",
+   "origen": "tmp/s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800/demo/d_s1_f/resultados/adff067667c38db00caca7f5469206f83ed6b661cc3599a9d9d95291269b7916_filas.json (fijado por T7_anexo)",
+   "sha256": "2b2a9a222e28614e9984e8516524e45464f34c00f2aae2a9c114957f04a720dc",
+   "papel": "F10-ENF-AFIRMACION: fila padre de una robusta (cell_id del testigo; U41 y la auditoría la leen por su huella del T7) (copia exacta)",
+   "mismos_bytes_que": "referencias/fam01/originales/adff067667c38db00caca7f5469206f83ed6b661cc3599a9d9d95291269b7916_filas.json"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800/demo/d_s1_f/resultados/ccf14700ef3fdc4a3d17c13f4def2b58344f156d70b1f8777c35b9f6e5d0756b_filas.json",
+   "origen": "tmp/s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800/demo/d_s1_f/resultados/ccf14700ef3fdc4a3d17c13f4def2b58344f156d70b1f8777c35b9f6e5d0756b_filas.json (fijado por T7_anexo)",
+   "sha256": "136990ce0aed485dbdbb5359585a43edd333401ef49c12b75892f49cc9e370f3",
+   "papel": "F10-ENF-AFIRMACION: fila padre de una robusta (cell_id del testigo; U41 y la auditoría la leen por su huella del T7) (copia exacta)",
+   "mismos_bytes_que": "referencias/fam01/originales/ccf14700ef3fdc4a3d17c13f4def2b58344f156d70b1f8777c35b9f6e5d0756b_filas.json"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800/demo/d_s1_f/resultados/ef85ae7035abc367553c04de330983568a78580394d2911cffc370eab1cd7ce9_filas.json",
+   "origen": "tmp/s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800/demo/d_s1_f/resultados/ef85ae7035abc367553c04de330983568a78580394d2911cffc370eab1cd7ce9_filas.json (fijado por T7_anexo)",
+   "sha256": "4db1c22430a825e11af7b36f2202b3df31b844279994fa0d97c14a3539630f48",
+   "papel": "F10-ENF-AFIRMACION: fila padre de una robusta (cell_id del testigo; U41 y la auditoría la leen por su huella del T7) (copia exacta)",
+   "mismos_bytes_que": "referencias/fam01/originales/ef85ae7035abc367553c04de330983568a78580394d2911cffc370eab1cd7ce9_filas.json"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800/demo/d_s1_f/resultados/f061536505b3b723b0c59b84dea41bcf2176c58462267d0bd80ba1be42d133d7_filas.json",
+   "origen": "tmp/s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800/demo/d_s1_f/resultados/f061536505b3b723b0c59b84dea41bcf2176c58462267d0bd80ba1be42d133d7_filas.json (fijado por T7_anexo)",
+   "sha256": "0cc4eecec86f4f6e096af68ac4726bfc92a2d01882527c707c3887bdeca363dd",
+   "papel": "F10-ENF-AFIRMACION: fila padre de una robusta (cell_id del testigo; U41 y la auditoría la leen por su huella del T7) (copia exacta)",
+   "mismos_bytes_que": "referencias/fam01/originales/f061536505b3b723b0c59b84dea41bcf2176c58462267d0bd80ba1be42d133d7_filas.json"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/auditoria/review_20261105_rem148_audit.lineas_049_116.py",
+   "origen": "<directorio de los libros>/review_20261105_rem148_audit.py líneas 49–116 (original sha256 d226ad700c3bac784bb7b2ae0bb55abb6badfe81e937011b2fbde63ca8241a30)",
+   "sha256": "693070a7b4f978942bf31461a798bfb361570b3753a4d86197c695caa50a4daf",
+   "papel": "F10-ENF-AFIRMACION: parte científica de la auditoría rem148 (enlaces, G padre y cotas certificadas con fracciones); sustituye a U42, no localizado, solo como comprobación independiente (copia exacta de esas líneas)"
+  },
+  {
+   "archivo": "datos/fam10/autoridad/ENF.resumen.json",
+   "origen": "derivado de <directorio de los libros>/review_20261105_rem148_EXP8_ENF_aceptada.json (sha256 74342fd08788103af28fcba180e864a91a6c02cd7737d67bb5e94e6123ead571)",
+   "sha256": "a0c6b1069af747adc141101fb721a48569b73e68b29d8241a26669f44235cb8a",
+   "papel": "resumen del libro ENF (campos que lee el código: product, product_sha256, area, original_inventory_conforme, observed_integrity_sha256)"
+  },
+  {
+   "archivo": "datos/fam10/autoridad/COV.resumen.json",
+   "origen": "derivado de <directorio de los libros>/review_20261105_rem152_COV_aceptada.json (sha256 accdf8abd212e41ea34719853ec36ba09f3a0f1e54b3309ec6925a018eb1490c)",
+   "sha256": "863a968584b36d980d694eb4199dc096159c4f6a503db605b513875349f42583",
+   "papel": "resumen del libro COV (campos que lee el código: products)"
+  },
+  {
+   "archivo": "datos/fam10/autoridad/P7.resumen.json",
+   "origen": "derivado de <directorio de los libros>/review_20261105_rem155_P7_aceptado.json (sha256 ae2c36e5d5c509b879eb9c423e7564e215ee1bf3d85617e4e3cf3039fca6d652)",
+   "sha256": "d7a2f97d1d4f15d46255f14f95e6eb2439919a849f9e098e329152bed6ce9745",
+   "papel": "resumen del libro P7 (campos que lee el código: products, summary.producto_sha256, overlay_rule, nonattained_ENF_claims_preserved)"
+  },
+  {
+   "archivo": "datos/fam10/autoridad/Q.resumen.json",
+   "origen": "derivado de <directorio de los libros>/review_20261106_rem159_Q_local_aceptada.json (sha256 a6946c0e8fbe06db29f9f9fef9afdf91621ff2354d6eacbb169ac6a751c8db5e)",
+   "sha256": "7f79d03be06f97a342224da0723a9408b1860822b0d58a3d5a832e83b63aaa8f",
+   "papel": "resumen del libro Q (campos que lee el código: products, general_diagnostic_separate)"
+  },
+  {
+   "archivo": "datos/fam10/autoridad/Q_DIAG.resumen.json",
+   "origen": "derivado de <directorio de los libros>/review_20261106_rem156_Q_diagnostico.json (sha256 7609b7bdfb0bc66305100d3b2967e7612e5430d36f1d653c54f25ba49d4f1301)",
+   "sha256": "3f9921c3b2526ff93ad4c999e4c9a84fc3e974109530d7bc622203e17941717e",
+   "papel": "resumen del libro Q_DIAG (campos que lee el código: margins, domain)"
+  },
+  {
+   "archivo": "datos/fam10/autoridad/ENF_ORIGEN.resumen.json",
+   "origen": "derivado de <directorio de los libros>/review_20261101_rem132_ENF_integral_aceptado.json (sha256 500537615c2c0deebebec90165f6aae5fe2e7272b8fe1976ca00376a8c34debf)",
+   "sha256": "1678e1e180886bf5a27868fc501a4a4c3c5f60173f92a638604d784f9a92071d",
+   "papel": "resumen del libro ENF_ORIGEN (campos que lee el código: ninguno)"
+  },
+  {
+   "archivo": "datos/fam10/autoridad/eleccion_m_Q.resumen.json",
+   "origen": "derivado de <directorio de los libros>/review_20261106_rem158_eleccion_m_Q.json (sha256 1b95216b1785d4b9284a23297bf4ebc1f84a28768b011c53018251a59cec7643)",
+   "sha256": "e3744ac19a43219cb5dcc4ef368de5984a6a0c58b1c1cabf9f813fead5d32e63",
+   "papel": "resumen del libro eleccion_m_Q (campos que lee el código: ninguno)"
+  },
+  {
+   "archivo": "referencias/fam10/rem147/COBERTURA_EXP8.json",
+   "origen": "tmp/paso4_ablaciones_exp8_desde_rem147/exp8/COBERTURA_EXP8.json",
+   "sha256": "ca8ce15153ae5e855afee955e60918ae1ac0a7acc2e28e1b4f0abe60b48b2b9b",
+   "papel": "referencia (solo para comparar; nunca se lee para producir; copia exacta)"
+  },
+  {
+   "archivo": "referencias/fam10/rem147/COBERTURA_EXP8.md",
+   "origen": "tmp/paso4_ablaciones_exp8_desde_rem147/exp8/COBERTURA_EXP8.md",
+   "sha256": "32d709263170fd6ff452df285436c88fdbdfcbcee053972df1d8850447a3aa00",
+   "papel": "referencia (solo para comparar; nunca se lee para producir; copia exacta)"
+  },
+  {
+   "archivo": "referencias/fam10/rem147/RESUMEN_POR_PAIS.json",
+   "origen": "tmp/paso4_ablaciones_exp8_desde_rem147/exp8/RESUMEN_POR_PAIS.json",
+   "sha256": "29c6b74e2fed39ff8166629198373811af30c604211fd8648a5f2c635c0b83b1",
+   "papel": "referencia (solo para comparar; nunca se lee para producir; copia exacta)"
+  },
+  {
+   "archivo": "referencias/fam10/rem160/EXP8_POR_AFIRMACION.jsonl",
+   "origen": "tmp/paso4_correcciones_sintesis_exp8_desde_rem160/sintesis/EXP8_POR_AFIRMACION.jsonl (proyección del catálogo a43756e1; original sha256 816209e40007471265f0a06e529d1d30ed60ca80d445594ce43b57bbdede113f; marcadores {'@@R_BS2@@': 6933})",
+   "sha256": "a43756e105ceb82a28552e335189a84755d0f36ffa086a625a9a2eeaeb99d5c7",
+   "papel": "referencia (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam10/rem160/RESUMEN_EXP8.json",
+   "origen": "tmp/paso4_correcciones_sintesis_exp8_desde_rem160/sintesis/RESUMEN_EXP8.json",
+   "sha256": "1dc9d778b6dcaec13d5f19c8cf9fb8e447e15dc65a1752e13f912da892ea2751",
+   "papel": "referencia (solo para comparar; nunca se lee para producir; copia exacta)"
+  },
+  {
+   "archivo": "referencias/fam10/rem160/MANIFIESTO_SINTESIS.json",
+   "origen": "tmp/paso4_correcciones_sintesis_exp8_desde_rem160/fuentes/MANIFIESTO_SINTESIS.json (proyección del catálogo 228cd2df; original sha256 9adbcc842ff82d8c8487f550a2d9da7eca354da2f8dc761f413e367c19b83389; marcadores {'@@W_BS2@@': 13, '@@R_BS2@@': 7})",
+   "sha256": "228cd2df91bf663df70704e10cb8b8e32e643103463fb9f1a7283ec5e406a46e",
+   "papel": "referencia (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam10/rem171/EXP8_POR_AFIRMACION.jsonl",
+   "origen": "tmp/paso4_integracion_final_exp8_desde_rem170/sintesis/EXP8_POR_AFIRMACION.jsonl (proyección del catálogo 55157838; original sha256 b4abf72c532431b6f2d221d2f354e5f0f34de04fc75e3d9b6e7f255e47bb6276; marcadores {'@@R_BS2@@': 6933})",
+   "sha256": "55157838cd588b2d60cd30561dffbed5cba3dfbd094e3e9d26fb6d51e2358a58",
+   "papel": "referencia (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam10/rem171/RESUMEN_EXP8.json",
+   "origen": "tmp/paso4_integracion_final_exp8_desde_rem170/sintesis/RESUMEN_EXP8.json (proyección del catálogo d24da6c2; original sha256 e9a8b9e6bb75817bea0e86f7883ca14400a17d768e249015212fd4aa8545324c; marcadores {'@@R_BS2@@': 1})",
+   "sha256": "d24da6c2d8d58e06b38f7e4def40832f0edca00c2a785c29a61ea8b44f502d2f",
+   "papel": "referencia (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam10/rem171/MANIFIESTO_SINTESIS.json",
+   "origen": "tmp/paso4_integracion_final_exp8_desde_rem170/fuentes/MANIFIESTO_SINTESIS.json (proyección del catálogo 549e3ac3; original sha256 8b9d57ff228f291a25d44ba665ac4c7b2f726363ad3866a9e6550415a55819c4; marcadores {'@@W_BS2@@': 19, '@@R_BS2@@': 17})",
+   "sha256": "549e3ac31ee8c8689fae5a1299040d90f3f91e1a990ec9ae64ac6b9a4b032182",
+   "papel": "referencia (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam10/rem148/LIBRO_ENF.resumen.json",
+   "origen": "derivado de <directorio de los libros>/review_20261105_rem148_EXP8_ENF_aceptada.json (sha256 74342fd08788103af28fcba180e864a91a6c02cd7737d67bb5e94e6123ead571)",
+   "sha256": "8ac705663f5baa263bea32720c0cd93220d0de5e6ddf468dfa42c069c6a26ea7",
+   "papel": "referencia: resumen del libro review_20261105_rem148_EXP8_ENF_aceptada.json (solo para comparar)"
+  },
+  {
+   "archivo": "referencias/fam10/rem161/LIBRO_SINTESIS.resumen.json",
+   "origen": "derivado de <directorio de los libros>/review_20261106_rem161_EXP8_sintesis_aceptada.json (sha256 0d84eb80d10ad530f222ca4b38c5e5ef86be1fcf7afde604243012a3cdd7e707)",
+   "sha256": "dcdc51c3ad59981cec2257bf6f23147738ae3ac2ef3ec38c4b035139d077cb7b",
+   "papel": "referencia: resumen del libro review_20261106_rem161_EXP8_sintesis_aceptada.json (solo para comparar)"
+  },
+  {
+   "archivo": "referencias/fam10/rem171/LIBRO_INTEGRACION.resumen.json",
+   "origen": "derivado de <directorio de los libros>/review_20261108_rem171_EXP8_integracion_aceptada.json (sha256 ef558e84860258d6d8ff560fa34860649ba688883b1a55d3b7311107761776d5)",
+   "sha256": "9288986c2c3deb80d4b7aa601e7c957128ed3a6b553f6acb5cad17baa59e216c",
+   "papel": "referencia: resumen del libro review_20261108_rem171_EXP8_integracion_aceptada.json (solo para comparar)"
+  }
+ ],
+ "reutilizados": [
+  {
+   "archivo": "datos/fam11/cov/ENF_POR_AFIRMACION.jsonl",
+   "sha256": "e0670acc74ac1aaf92686b4fd207c11da1aa8636833b140e40c0a08ddc30ac3c",
+   "papel": "referencia de F10-ENF-AFIRMACION (producto rem147 aceptado en rem148; solo para comparar)",
+   "declarada_en": "fuentes_fam11.json"
+  },
+  {
+   "archivo": "referencias/fam11/rem170/COV12_RESOLUCION_GLOBAL.jsonl",
+   "sha256": "ac18226808b7e0124140043347e853a6581097e4433798932083f4ed9b02fd7f",
+   "papel": "referencia de F10-INTEGRACION (resolución de las doce, rem171; solo para comparar)",
+   "declarada_en": "fuentes_fam11.json"
+  },
+  {
+   "archivo": "datos/fam11/fuentes/CONTEXTO_COL_POR_GRUPO.json",
+   "sha256": "5821bb3dae7d4c4dc93e8e956da8984dfeec931587b16b8e7329231c8819d810",
+   "papel": "F10-INTEGRACION: soporte rem162 de los seis grupos (papel soporte_rem162 de U47)",
+   "declarada_en": "fuentes_fam11.json"
+  }
+ ],
+ "saneado": [
+  {
+   "archivo": "nucleo_s6/exp8/tmp/paso4_correcciones_sintesis_exp8_desde_rem160/sintesis/construir_sintesis_rem160.py",
+   "sha256": "c32b83d88084ae7e840bcb191dbf7ee83278abb667449898140f98abe5fd7e99",
+   "sha256_original": "e96814df3ae17c4c24463958b7839491ade01e5c1b3e1614cc510d6cbaf84966",
+   "regla": "proyección del catálogo",
+   "marcadores": {
+    "@@W_BS1@@": 1
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/paso4_integracion_final_exp8_desde_rem170/construccion/construir_integracion_rem170.py",
+   "sha256": "cc9f79d21c47152c5309cf8c70f83a799661b7c9d96867677968f9b08f980538",
+   "sha256_original": "95493c614aa367c2ad97913387aa56ee7e532e44eb1775a5227143d7063593a6",
+   "regla": "proyección del catálogo",
+   "marcadores": {
+    "@@W_BS1@@": 1
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "referencias/fam10/rem160/EXP8_POR_AFIRMACION.jsonl",
+   "sha256": "a43756e105ceb82a28552e335189a84755d0f36ffa086a625a9a2eeaeb99d5c7",
+   "sha256_original": "816209e40007471265f0a06e529d1d30ed60ca80d445594ce43b57bbdede113f",
+   "regla": "proyección del catálogo",
+   "marcadores": {
+    "@@R_BS2@@": 6933
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "referencias/fam10/rem160/MANIFIESTO_SINTESIS.json",
+   "sha256": "228cd2df91bf663df70704e10cb8b8e32e643103463fb9f1a7283ec5e406a46e",
+   "sha256_original": "9adbcc842ff82d8c8487f550a2d9da7eca354da2f8dc761f413e367c19b83389",
+   "regla": "proyección del catálogo",
+   "marcadores": {
+    "@@W_BS2@@": 13,
+    "@@R_BS2@@": 7
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "referencias/fam10/rem171/EXP8_POR_AFIRMACION.jsonl",
+   "sha256": "55157838cd588b2d60cd30561dffbed5cba3dfbd094e3e9d26fb6d51e2358a58",
+   "sha256_original": "b4abf72c532431b6f2d221d2f354e5f0f34de04fc75e3d9b6e7f255e47bb6276",
+   "regla": "proyección del catálogo",
+   "marcadores": {
+    "@@R_BS2@@": 6933
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "referencias/fam10/rem171/RESUMEN_EXP8.json",
+   "sha256": "d24da6c2d8d58e06b38f7e4def40832f0edca00c2a785c29a61ea8b44f502d2f",
+   "sha256_original": "e9a8b9e6bb75817bea0e86f7883ca14400a17d768e249015212fd4aa8545324c",
+   "regla": "proyección del catálogo",
+   "marcadores": {
+    "@@R_BS2@@": 1
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "referencias/fam10/rem171/MANIFIESTO_SINTESIS.json",
+   "sha256": "549e3ac31ee8c8689fae5a1299040d90f3f91e1a990ec9ae64ac6b9a4b032182",
+   "sha256_original": "8b9d57ff228f291a25d44ba665ac4c7b2f726363ad3866a9e6550415a55819c4",
+   "regla": "proyección del catálogo",
+   "marcadores": {
+    "@@W_BS2@@": 19,
+    "@@R_BS2@@": 17
+   },
+   "restituye_el_original": true
+  }
+ ],
+ "auditoria_rem148": {
+  "archivo": "nucleo_s6/exp8/auditoria/review_20261105_rem148_audit.lineas_049_116.py",
+  "sha256": "693070a7b4f978942bf31461a798bfb361570b3753a4d86197c695caa50a4daf",
+  "original": "<directorio de los libros>/review_20261105_rem148_audit.py",
+  "sha256_original": "d226ad700c3bac784bb7b2ae0bb55abb6badfe81e937011b2fbde63ca8241a30",
+  "lineas": [
+   49,
+   116
+  ]
+ },
+ "autoridad": {
+  "ENF": {
+   "archivo": "datos/fam10/autoridad/ENF.resumen.json",
+   "libro": "review_20261105_rem148_EXP8_ENF_aceptada.json",
+   "original_sha256": "74342fd08788103af28fcba180e864a91a6c02cd7737d67bb5e94e6123ead571"
+  },
+  "COV": {
+   "archivo": "datos/fam10/autoridad/COV.resumen.json",
+   "libro": "review_20261105_rem152_COV_aceptada.json",
+   "original_sha256": "accdf8abd212e41ea34719853ec36ba09f3a0f1e54b3309ec6925a018eb1490c"
+  },
+  "P7": {
+   "archivo": "datos/fam10/autoridad/P7.resumen.json",
+   "libro": "review_20261105_rem155_P7_aceptado.json",
+   "original_sha256": "ae2c36e5d5c509b879eb9c423e7564e215ee1bf3d85617e4e3cf3039fca6d652"
+  },
+  "Q": {
+   "archivo": "datos/fam10/autoridad/Q.resumen.json",
+   "libro": "review_20261106_rem159_Q_local_aceptada.json",
+   "original_sha256": "a6946c0e8fbe06db29f9f9fef9afdf91621ff2354d6eacbb169ac6a751c8db5e"
+  },
+  "Q_DIAG": {
+   "archivo": "datos/fam10/autoridad/Q_DIAG.resumen.json",
+   "libro": "review_20261106_rem156_Q_diagnostico.json",
+   "original_sha256": "7609b7bdfb0bc66305100d3b2967e7612e5430d36f1d653c54f25ba49d4f1301"
+  },
+  "ENF_ORIGEN": {
+   "archivo": "datos/fam10/autoridad/ENF_ORIGEN.resumen.json",
+   "libro": "review_20261101_rem132_ENF_integral_aceptado.json",
+   "original_sha256": "500537615c2c0deebebec90165f6aae5fe2e7272b8fe1976ca00376a8c34debf"
+  },
+  "eleccion_m_Q": {
+   "archivo": "datos/fam10/autoridad/eleccion_m_Q.resumen.json",
+   "libro": "review_20261106_rem158_eleccion_m_Q.json",
+   "original_sha256": "1b95216b1785d4b9284a23297bf4ebc1f84a28768b011c53018251a59cec7643"
+  }
+ },
+ "solo_procedencia": {
+  "dictamen_rem148": {
+   "origen": "<directorio de los libros>/review_20261105_rem148_dictamen.txt",
+   "sha256": "3e7977c33dd5a4b74870c8efb4959b66cbaedcd1028fad544d92c45aaaea42d1",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "auditoria_rem148_json": {
+   "origen": "<directorio de los libros>/review_20261105_rem148_audit.json",
+   "sha256": "6aa49afd837711f32e2cf4f5f6365f1f1db3d2577db23063942cfcd33ea39027",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "auditoria_rem148_guion": {
+   "origen": "<directorio de los libros>/review_20261105_rem148_audit.py",
+   "sha256": "d226ad700c3bac784bb7b2ae0bb55abb6badfe81e937011b2fbde63ca8241a30",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "dictamen_rem149": {
+   "origen": "<directorio de los libros>/review_20261105_rem149_dictamen.txt",
+   "sha256": "669af810c99a8a1c24b52a589f53996de7d89a775b52a51c40e005049d2b72b5",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "dictamen_rem157": {
+   "origen": "<directorio de los libros>/review_20261106_rem157_dictamen.txt",
+   "sha256": "65e4ccba0ef8ed89e0b0e5908cce2f4f66bc026fbc6f85bcbc959c0be6040c52",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "dictamen_rem158": {
+   "origen": "<directorio de los libros>/review_20261106_rem158_dictamen.txt",
+   "sha256": "6a9173e21d10f29e68359a11f2a269a458273d3dd1654aae49067c2cfb09e51b",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "dictamen_rem159": {
+   "origen": "<directorio de los libros>/review_20261106_rem159_dictamen.txt",
+   "sha256": "58998d564ae69d8a7348447309c4faedf8c911f88d68c6fa2361b55db848714b",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "libro_sintesis_rem161": {
+   "origen": "<directorio de los libros>/review_20261106_rem161_EXP8_sintesis_aceptada.json",
+   "sha256": "0d84eb80d10ad530f222ca4b38c5e5ef86be1fcf7afde604243012a3cdd7e707",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "dictamen_rem161": {
+   "origen": "<directorio de los libros>/review_20261106_rem161_dictamen.txt",
+   "sha256": "c219a3ad489bc23ad802aebbb2a726a4df4974ce5d36f64db281ab550c72d87b",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "libro_B1_rem167": {
+   "origen": "<directorio de los libros>/review_20261108_rem167_B1_aceptada.json",
+   "sha256": "649457712e6f3d33ca596021e5c4878782558579971c4f60a5048455cb1b4535",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "libro_B2_rem170": {
+   "origen": "<directorio de los libros>/review_20261108_rem170_B2_COV12_aceptada.json",
+   "sha256": "d53bbe822a4df76f57e2826da6786914338dff15671a72d73521f2ee848c80cd",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "dictamen_rem170": {
+   "origen": "<directorio de los libros>/review_20261108_rem170_dictamen.txt",
+   "sha256": "b17fa026d53aa9e839b619d4dcb81de8d925712692e8c0fc47ef453b2c4cbd80",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "auditoria_rem170": {
+   "origen": "<directorio de los libros>/review_20261108_rem170_audit_final.json",
+   "sha256": "aeda909d888709379dc90e4179afbd0f1704e8a3375f1221078e1d2b079b4026",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "enlace_rem170": {
+   "origen": "<directorio de los libros>/review_20261108_rem170_claims_join.json",
+   "sha256": "232fb614d698b9ca5176d9d3b67bd6294485b94267e75a76974b03dd86574117",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "hallazgos_rem170": {
+   "origen": "<directorio de los libros>/review_20261108_rem170_findings.json",
+   "sha256": "698f4af398f564b36f36e735f2b699a575e331d021e3eb566c4f664b62df5275",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "libro_integracion_rem171": {
+   "origen": "<directorio de los libros>/review_20261108_rem171_EXP8_integracion_aceptada.json",
+   "sha256": "ef558e84860258d6d8ff560fa34860649ba688883b1a55d3b7311107761776d5",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "dictamen_rem171": {
+   "origen": "<directorio de los libros>/review_20261108_rem171_dictamen.txt",
+   "sha256": "9bfbd17f38439f6b81bf19202937bdd83f12590e7f5627f10059a4d3f49c0a18",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "libro_ENF": {
+   "origen": "<directorio de los libros>/review_20261105_rem148_EXP8_ENF_aceptada.json",
+   "sha256": "74342fd08788103af28fcba180e864a91a6c02cd7737d67bb5e94e6123ead571",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "libro_COV": {
+   "origen": "<directorio de los libros>/review_20261105_rem152_COV_aceptada.json",
+   "sha256": "accdf8abd212e41ea34719853ec36ba09f3a0f1e54b3309ec6925a018eb1490c",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "libro_P7": {
+   "origen": "<directorio de los libros>/review_20261105_rem155_P7_aceptado.json",
+   "sha256": "ae2c36e5d5c509b879eb9c423e7564e215ee1bf3d85617e4e3cf3039fca6d652",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "libro_Q": {
+   "origen": "<directorio de los libros>/review_20261106_rem159_Q_local_aceptada.json",
+   "sha256": "a6946c0e8fbe06db29f9f9fef9afdf91621ff2354d6eacbb169ac6a751c8db5e",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "libro_Q_DIAG": {
+   "origen": "<directorio de los libros>/review_20261106_rem156_Q_diagnostico.json",
+   "sha256": "7609b7bdfb0bc66305100d3b2967e7612e5430d36f1d653c54f25ba49d4f1301",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "libro_ENF_ORIGEN": {
+   "origen": "<directorio de los libros>/review_20261101_rem132_ENF_integral_aceptado.json",
+   "sha256": "500537615c2c0deebebec90165f6aae5fe2e7272b8fe1976ca00376a8c34debf",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "libro_eleccion_m_Q": {
+   "origen": "<directorio de los libros>/review_20261106_rem158_eleccion_m_Q.json",
+   "sha256": "1b95216b1785d4b9284a23297bf4ebc1f84a28768b011c53018251a59cec7643",
+   "uso": "solo procedencia (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  }
+ },
+ "filas_padre": 16,
+ "bytes_copiados": 38817851
+}

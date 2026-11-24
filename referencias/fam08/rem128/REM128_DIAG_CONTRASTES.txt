@@ -1,0 +1,62 @@
+{
+ "aprobadas": 7,
+ "total": 7,
+ "casos": [
+  [
+   "S1_dominio_sin_curva",
+   true,
+   [
+    "alcanzado_demostrado",
+    null
+   ]
+  ],
+  [
+   "S2_diseno_N",
+   true,
+   [
+    "no_decidido",
+    "FUERA_DEL_ALCANCE_DEL_CERTIFICADO"
+   ]
+  ],
+  [
+   "S3_rho_0_9",
+   true,
+   [
+    "no_decidido",
+    "FUERA_DEL_ALCANCE_DEL_CERTIFICADO"
+   ]
+  ],
+  [
+   "S4_kappa_0_9_H3_falla",
+   true,
+   [
+    "no_decidido",
+    "HIPOTESIS_NO_DEMOSTRADAS"
+   ]
+  ],
+  [
+   "S5_cotas_incompatibles",
+   true,
+   [
+    "no_decidido",
+    "COTA_PERSISTIDA_INCOMPATIBLE"
+   ]
+  ],
+  [
+   "S6_menu_d",
+   true,
+   [
+    "no_decidido",
+    "FUERA_DEL_ALCANCE_DEL_CERTIFICADO"
+   ]
+  ],
+  [
+   "S7_clave_real",
+   true,
+   [
+    "no_alcanzado_demostrado",
+    null
+   ]
+  ]
+ ]
+}

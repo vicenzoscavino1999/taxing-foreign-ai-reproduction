@@ -1,0 +1,1517 @@
+{
+ "descripcion": "Relación de piezas de FAM11 (COV phi/2: 26 techos T1–T6, ensamblado de 1.724 celdas y conciliación de 1.728 afirmaciones; B1: encierro de C2 sobre la raíz COV; B2: cota global acoplada de los seis grupos K1–K6) y su origen (tmp: = carpeta de entregas históricas del proyecto). Las ubicaciones de origen solo sirven para localizar; ninguna se usa al ejecutar. Copias exactas salvo PROYECCIONES saneadas que restituyen el original. Código en nucleo_s6/cov, nucleo_s6/b1 y nucleo_s6/b2; entradas en datos/fam11 (salidas guardadas en datos/fam11/guardadas); referencias en referencias/fam11. El núcleo C0, el conciliador COV, el censo remanente y las fuentes D7/grilla/CA2/D6 son los de FAM01, FAM05, FAM08 y FAM12.",
+ "herramienta": {
+  "archivo": "extraccion/extraer_fam11.py",
+  "sha256": "603071287aa001634ad549c316570a2b5dd859efc17673f15f4a0d55d59d9f16"
+ },
+ "archivos": [
+  {
+   "archivo": "nucleo_s6/cov/tarea_lote.py",
+   "origen": "tmp/paso4_puerta_continuidad_cov_desde_rem150/paquete_cov_i5/tarea_lote.py (fijado por PAQUETE_ABL_COV.json; = objeto del catálogo)",
+   "sha256": "9ba4ce357423167dc34a2ae1c15517b053fd3e33f7fef3720d14f9941bd8d1b1",
+   "papel": "código F11-COV26: trabajador ABL-COV (techos certificados de phi/2 y comparaciones) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/cov/conexion_coord_cert.py",
+   "origen": "tmp/paso4_puerta_continuidad_cov_desde_rem150/paquete_cov_i5/conexion_coord_cert.py (fijado por PAQUETE_ABL_COV.json; = objeto del catálogo)",
+   "sha256": "e5776de970b72535ec7b72340604abfd9e8448479ea78dac4b714d870d273d61",
+   "papel": "código F11-COV26: conexión certificada (mismos bytes que nucleo_s6/coord; el trabajador la exige a su lado) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/cov/validar_lote.py",
+   "origen": "tmp/paso4_puerta_continuidad_cov_desde_rem150/paquete_cov_i5/validar_lote.py (fijado por PAQUETE_ABL_COV.json; = objeto del catálogo)",
+   "sha256": "070ae81d15119735369b08bf083e9ff3b7652ca99a2956547b9f290db4022ee4",
+   "papel": "código F11-COV26: validador de tarea (mismos bytes que nucleo_s6/coord) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/cov/validar_coord_rec.py",
+   "origen": "tmp/paso4_puerta_continuidad_cov_desde_rem150/paquete_cov_i5/validar_coord_rec.py (fijado por PAQUETE_ABL_COV.json; = objeto del catálogo)",
+   "sha256": "be36386430764fd9c1b487f0485e3c4fa3a0282edd7f4f18baa27e18a3a7bbe3",
+   "papel": "código F11-COV26: validación común ABL-COV (tarea, ensamblado y transformación phi <- phi/2) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/cov/ensamblar_coord.py",
+   "origen": "tmp/paso4_puerta_continuidad_cov_desde_rem150/paquete_cov_i5/ensamblar_coord.py (fijado por PAQUETE_ABL_COV.json; = objeto del catálogo)",
+   "sha256": "5115ba4eb430a0b09c65d7a6b9375a156e15aa376863c782e11648233d1e0c93",
+   "papel": "código F11-COV26: ensamblado ABL-COV (1.724 celdas) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/b1/b1_trabajo.py",
+   "origen": "tmp/paso4_invocacion_procedencia_b1_desde_rem165/paquete_b1/b1_trabajo.py (fijado por PAQUETE_B1.json)",
+   "sha256": "2ddd202c6ef1cee2f15a0bfde4a561730586349f7677bbf423a5c9f4e43c7799",
+   "papel": "código F11-B1: trabajador B1 (una solicitud c2_normalizado sobre la raíz D7 ABL-COV) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/b1/validar_b1.py",
+   "origen": "tmp/paso4_invocacion_procedencia_b1_desde_rem165/paquete_b1/validar_b1.py (fijado por PAQUETE_B1.json)",
+   "sha256": "a43114db4540c2ccf0627878f4d54559e3a97d44df6a9571285073834b10bacd",
+   "papel": "código F11-B1: validación y lectura B1 (eps = 1/100, seis grupos) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/b1/puerta_b1.py",
+   "origen": "tmp/paso4_invocacion_procedencia_b1_desde_rem165/paquete_b1/puerta_b1.py (fijado por PAQUETE_B1.json)",
+   "sha256": "a24bdb76c6af381236af544e2c2a678eddd76ac8abb1ba230b9c5f8fa69ba260",
+   "papel": "código F11-B1: puerta común (su función se sustituye en la ejecución limpia; el resto del archivo no cambia) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/b2/b2_trabajo.py",
+   "origen": "tmp/paso4_correcciones_paquete_b2_desde_rem168/paquete_b2/b2_trabajo.py (fijado por PAQUETE_B2.json)",
+   "sha256": "3b9cb6c7c1c73f7a59fd4f5da0b5833bf5db2eef8e95bdbb70c51691398e00a1",
+   "papel": "código F11-B2: trabajador B2 (forma acoplada; 480 puentes y 60 Q) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/b2/validar_b2.py",
+   "origen": "tmp/paso4_correcciones_paquete_b2_desde_rem168/paquete_b2/validar_b2.py (fijado por PAQUETE_B2.json)",
+   "sha256": "de51d0cf2f0ad7c8bf2a9cd855ccf568ff2c24c8a1ba77c5b4f2dc2add629be9",
+   "papel": "código F11-B2: validación, lectura y conciliación B2 (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/b2/puerta_b2.py",
+   "origen": "tmp/paso4_correcciones_paquete_b2_desde_rem168/paquete_b2/puerta_b2.py (fijado por PAQUETE_B2.json)",
+   "sha256": "1e43464b30fd0d79f91c02096f86b91e9ad3864c7f7ee7de575ec7244c6e2300",
+   "papel": "código F11-B2: puerta común (su función se sustituye en la ejecución limpia) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/b1/comun_b1.py",
+   "origen": "tmp/paso4_invocacion_procedencia_b1_desde_rem165/paquete_b1/comun_b1.py (fijado por PAQUETE_B1.json; proyección propia: rutas privadas por marcadores; original sha256 25bf92ffcb13efd57af9a80336bf5f3374a823e0c364ef9c8943c774183ad5bf; marcadores {'@@W_WIN@@': 1, '@@R_WIN@@': 1})",
+   "sha256": "076dbc26ef0546044f4d048b281bda466c9f2faca4d01799126b156423bb7f2c",
+   "papel": "código F11-B1: pieza común (manifiesto desde fuentes, cierre C0, espías, validación única, lectura) (proyección saneada)"
+  },
+  {
+   "archivo": "nucleo_s6/b2/comun_b2.py",
+   "origen": "tmp/paso4_correcciones_paquete_b2_desde_rem168/paquete_b2/comun_b2.py (fijado por PAQUETE_B2.json; proyección propia: rutas privadas por marcadores; original sha256 9035e3b19c152c2e68f8e0b65146187b964a1b37d9351ed06c4b64a7737da1a5; marcadores {'@@W_WIN@@': 1, '@@R_WIN@@': 1})",
+   "sha256": "105172d887de5b8d8f20963dd75fb32f9865b71170db635f11f6c62c966fce1d",
+   "papel": "código F11-B2: pieza común (manifiesto desde fuentes, cobertura, q exterior, k1 intervalar, validación, lectura) (proyección saneada)"
+  },
+  {
+   "archivo": "datos/fam11/fuentes/contexto_s6.py",
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion/herramientas/b/contexto_s6.py (cierre del inventario rem116 del C0; B2 la fija por huella)",
+   "sha256": "618463864db1268678bdfd2d018aded56358411cda80f103dafc7cf1a648e107",
+   "papel": "fuente B2: herramientas/b/contexto_s6.py del C0 (B2 cita su línea 127, DME_gAI; no se ejecuta; fuera de nucleo_s6/c0 para no alterar la identidad de su inventario)"
+  },
+  {
+   "archivo": "datos/fam11/cov/MANIFIESTO_ABL_COV.json",
+   "origen": "tmp/paso4_puerta_continuidad_cov_desde_rem150/paquete_cov_i5/MANIFIESTO_ABL_COV.json (fijado por catálogo + índice COV; = objeto del catálogo)",
+   "sha256": "a38f9e95b83af3fd921f240f26fd1d8a242f46009c770c5123a8b7c72932c9c3",
+   "papel": "entrada: manifiesto ABL-COV (26 claves phi/2, partición T1–T6, 1.724 celdas, motor y presupuestos)"
+  },
+  {
+   "archivo": "datos/fam11/cov/COBERTURA_ABL_COV.json",
+   "origen": "tmp/paso4_puerta_continuidad_cov_desde_rem150/paquete_cov_i5/COBERTURA_ABL_COV.json (fijado por índice COV)",
+   "sha256": "510201a8e593aa5a8f9fbf9592e376b4f5b975658d508b7e414625ecc7c6f5f5",
+   "papel": "entrada: anexo ligado al manifiesto (lo exige validar_lote.py)"
+  },
+  {
+   "archivo": "datos/fam11/cov/PAQUETE_ABL_COV.json",
+   "origen": "tmp/paso4_puerta_continuidad_cov_desde_rem150/paquete_cov_i5/PAQUETE_ABL_COV.json (fijado por catálogo; = objeto del catálogo)",
+   "sha256": "cd197300152b73d391b2b9a223bd9585425618ae2a383df7004804a232e94ec1",
+   "papel": "documento: índice del paquete COV i5 (piezas, núcleo, censos y conciliación ENF)"
+  },
+  {
+   "archivo": "datos/fam11/cov/CENSO_COV_REM147.json",
+   "origen": "tmp/paso4_ablaciones_exp8_desde_rem147/paquete_ablaciones/censo/CENSO_COV_REM147.json (fijado por índice COV (censo))",
+   "sha256": "264aafd9ba21ebf3944b4d52922d749aa62d26f463ca672bdb6983a60086c92a",
+   "papel": "entrada: censo COV rem147 (fuente autenticada del manifiesto)"
+  },
+  {
+   "archivo": "datos/fam11/cov/ENF_POR_AFIRMACION.jsonl",
+   "origen": "tmp/paso4_ablaciones_exp8_desde_rem147/exp8/ENF_POR_AFIRMACION.jsonl (fijado por índice COV (fuente_enf) + conciliador; = objeto del catálogo)",
+   "sha256": "e0670acc74ac1aaf92686b4fd207c11da1aa8636833b140e40c0a08ddc30ac3c",
+   "papel": "entrada: conciliación ENF aceptada (universo de 1.728 afirmaciones, testigos, K1 y canal eta_f; no se recalcula)"
+  },
+  {
+   "archivo": "datos/fam11/cov/alcance_cov.json",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/alcance/alcance_cov.json (fijado por catálogo; = objeto del catálogo)",
+   "sha256": "69900e10f8e7b1ff9bb947fd1f8e54d53f1399d6344803e48b97d2bc997f0f89",
+   "papel": "documento de autoridad (solo procedencia: su sha256 es el alcance_sha256 de T1–T6 guardadas; NO es una puerta)"
+  },
+  {
+   "archivo": "datos/fam11/fuentes/CONTEXTO_COL_POR_GRUPO.json",
+   "origen": "tmp/paso4_preparacion_precisa_doce_cov_desde_rem162/soporte/CONTEXTO_COL_POR_GRUPO.json (fijado por manifiestos B1 y B2)",
+   "sha256": "5821bb3dae7d4c4dc93e8e956da8984dfeec931587b16b8e7329231c8819d810",
+   "papel": "entrada: censo de contexto COL por grupo (rem162): afirmaciones, conjuntos, estados, ejes, nodos y celdas"
+  },
+  {
+   "archivo": "datos/fam11/fuentes/PLAN_MINIMO_PROPUESTO.json",
+   "origen": "tmp/paso4_dimensionamiento_doce_cov_desde_rem161/dimensionamiento/PLAN_MINIMO_PROPUESTO.json (fijado por manifiesto B1)",
+   "sha256": "233053d01c7a262a9d326a014b45477f2be345916c2b02899e4561b32fe2cf1c",
+   "papel": "entrada: grupos K1–K6 y K1_testigo (plan rem161)"
+  },
+  {
+   "archivo": "datos/fam11/fuentes/PREPARACION_B1_B2.json",
+   "origen": "tmp/paso4_preparacion_precisa_doce_cov_desde_rem162/preparacion/PREPARACION_B1_B2.json (fijado por manifiesto B1)",
+   "sha256": "cc73465290d490f14a2b896ad89f6e4e42ca24480c182ea25958d4a2db0dd416",
+   "papel": "entrada: K1_testigo por grupo de la preparación rem162 (cotejo)"
+  },
+  {
+   "archivo": "datos/fam11/fuentes/preparar_manifiesto_cov.py",
+   "origen": "tmp/paso4_puerta_continuidad_cov_desde_rem150/paquete_cov_i5/preparar_manifiesto_cov.py (fijado por índice COV + manifiesto B1)",
+   "sha256": "185ec1b26459dfa37d4bcc6dfb48b796824e2fe0db528e8913550d0d1d6d0681",
+   "papel": "evidencia de configuración (líneas 48–49 citadas por B1; no se ejecuta)"
+  },
+  {
+   "archivo": "datos/fam11/fuentes/CONCILIACION_COV.jsonl",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/CONCILIACION/CONCILIACION_COV.jsonl (fijado por catálogo + manifiesto B1; = objeto del catálogo)",
+   "sha256": "5ba0142304deb949777ad3ae3443556250f2237d214cb4e4fb0d427aa5ea049f",
+   "papel": "entrada histórica reutilizada: conciliación COV aceptada (K1_testigo de B1 y categorías padre de las doce)"
+  },
+  {
+   "archivo": "datos/fam11/pilotos.json",
+   "origen": "nuevo: src/fam11.py (fam11-listar)",
+   "sha256": "8a12e93cfd1c1eee7ca885a6c9b13fee9d128285940ba21321a278b664e12fa8",
+   "papel": "dato nuevo de la base limpia (selección fijada antes de calcular; sin resultados)"
+  },
+  {
+   "archivo": "datos/fam11/ejecucion_limpia.json",
+   "origen": "nuevo: src/fam11.py (fam11-listar)",
+   "sha256": "1a3ee737e73e1cc026dce8677e1c5057b3e9dd6f3831f7af0a82e8933a03fc44",
+   "papel": "dato nuevo de la base limpia: declaración de ejecución limpia NO OFICIAL (PUERTA-v1); su sha256 ocupa alcance_sha256"
+  },
+  {
+   "archivo": "nucleo_s6/b1/PAQUETE_B1.json",
+   "origen": "tmp/paso4_invocacion_procedencia_b1_desde_rem165/paquete_b1/PAQUETE_B1.json (proyección del catálogo (REGLA-PROYECCION-1); original sha256 9244a279c4b5ede08b9a48b9f2f0ebe99a22ed91cd137b8ae24aa7ae4aa3f13d; marcadores {'@@R_BS2@@': 2})",
+   "sha256": "9ad7e49232de6528681a365ec6473b0d565494c480353b22ff93bc5d3c87e5dd",
+   "papel": "documento: índice del paquete B1 (proyección del catálogo)"
+  },
+  {
+   "archivo": "datos/fam11/b1/MANIFIESTO_B1.json",
+   "origen": "tmp/paso4_invocacion_procedencia_b1_desde_rem165/paquete_b1/MANIFIESTO_B1.json (proyección del catálogo (REGLA-PROYECCION-1); original sha256 1194923c273da998db23a83700dac1669693490d01f7fc52668ae39c105fe33e; marcadores {'@@W_BS2@@': 4, '@@R_BS2@@': 16})",
+   "sha256": "b064ca43668a9012af30da0c5eaf57f3bf2388e11856ad1c8d94ef9b853b464a",
+   "papel": "entrada: manifiesto B1 (doce afirmaciones, seis grupos, raíz D7 decimal y binaria, C0, configuración)"
+  },
+  {
+   "archivo": "nucleo_s6/b2/PAQUETE_B2.json",
+   "origen": "tmp/paso4_correcciones_paquete_b2_desde_rem168/paquete_b2/PAQUETE_B2.json (proyección del catálogo (REGLA-PROYECCION-1); original sha256 5f7ec64bc4027aa9dd2893042622a027a480ba410474d01041938cb56295f9de; marcadores {'@@R_BS2@@': 2})",
+   "sha256": "0113dfc6c65a019c187aea65f84ba6d162df41bd24e6c9e348d5b7adf7234203",
+   "papel": "documento: índice del paquete B2 (proyección del catálogo)"
+  },
+  {
+   "archivo": "datos/fam11/b2/MANIFIESTO_B2.json",
+   "origen": "tmp/paso4_correcciones_paquete_b2_desde_rem168/paquete_b2/MANIFIESTO_B2.json (proyección del catálogo (REGLA-PROYECCION-1); original sha256 0f1582cc3718f2f5545ab4a112d108d7e4d4639505dec4826d21d22045664d7b; marcadores {'@@R_BS2@@': 28, '@@TRANSCRIPCION_CLAUDE_BS2@@': 1, '@@W_BS2@@': 3})",
+   "sha256": "af2679ee6ff828bfc3d2f04d8771b93cb577679f004c23a0d06da6584d7f9926",
+   "papel": "entrada: manifiesto B2 aceptado (su bloque b1 es el enlace histórico; la ejecución limpia lo enlaza a B1 nuevo)"
+  },
+  {
+   "archivo": "datos/fam11/fuentes/MAPA_SOPORTE_REUTILIZACION.derivado.jsonl",
+   "origen": "tmp/paso4_preparacion_precisa_doce_cov_desde_rem162/correcciones/MAPA_SOPORTE_REUTILIZACION.derivado.jsonl (proyección propia con la regla del catálogo; original sha256 92d5e082aa6d28e113fc16748998146bf999f3dcf07bf2a1184d6f68041eb502; marcadores {'@@W_BS2@@': 36, '@@R_BS2@@': 168})",
+   "sha256": "624d8fc665d225f9d62fe33ce86bf0cca4646b054999e32a7fc00cf2e81fa421",
+   "papel": "entrada: mapa de soporte rem162 (17 filas celda_estado_nacional_no_ligado; proyección propia)"
+  },
+  {
+   "archivo": "referencias/fam11/rem151/ENSAMBLADO/ENSAMBLADO.json",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ENSAMBLADO/ENSAMBLADO.json (proyección del catálogo (REGLA-PROYECCION-1); original sha256 1f0eb893ab4184ed9cf597fe5cec0f68b51a5a9f11f8dcdae84978caa4ae11f4; marcadores {'@@R_BS2@@': 12})",
+   "sha256": "cdd71ebc22f340a87da177a92dac718993230d5f6c2334314df017275276b336",
+   "papel": "referencia F11-COV26: ENSAMBLADO.json aceptado (proyección del catálogo)"
+  },
+  {
+   "archivo": "referencias/fam11/rem166/estado_b1.json",
+   "origen": "tmp/paso4_produccion_b1_doce_cov_desde_rem166/b1_B1PROD166/estado_b1.json (proyección del catálogo (REGLA-PROYECCION-1); original sha256 e01f4cf096d105728c67cd04db2bde6ae340aa5379b65a2e58dd4929311f81c6; marcadores {'@@TRANSCRIPCION_CLAUDE_BS2@@': 1, '@@R_FS@@': 5, '@@R_BS2@@': 5})",
+   "sha256": "31fd9937fa9dabee6babce84a318d0227bd764bbfc600047e6742b4ee3d674fd",
+   "papel": "referencia F11-B1: estado del conductor B1"
+  },
+  {
+   "archivo": "referencias/fam11/rem166/TRABAJO/EVIDENCIA_B1.json",
+   "origen": "tmp/paso4_produccion_b1_doce_cov_desde_rem166/b1_B1PROD166/TRABAJO/EVIDENCIA_B1.json (proyección del catálogo (REGLA-PROYECCION-1); original sha256 8bb0b86e213f88cd902a9a5f8ad6c4ea2f979ee8d948717362d9dc6c66f808c5; marcadores {'@@R_BS2@@': 1, '@@TRANSCRIPCION_CLAUDE_BS2@@': 1})",
+   "sha256": "27119660540226dcab1f258ebd5a57e3285beeec207f17e152ed85cf0e072cc3",
+   "papel": "referencia F11-B1: evidencia aceptada"
+  },
+  {
+   "archivo": "referencias/fam11/rem166/VALIDACION/VALIDACION_B1.json",
+   "origen": "tmp/paso4_produccion_b1_doce_cov_desde_rem166/b1_B1PROD166/VALIDACION/VALIDACION_B1.json (proyección del catálogo (REGLA-PROYECCION-1); original sha256 a6806885bfcd47d399564080efe230269f04fd8ca485aa574f4d7b4fdc8d3540; marcadores {'@@R_BS2@@': 2, '@@TRANSCRIPCION_CLAUDE_BS2@@': 1})",
+   "sha256": "8fca3b63800024c8db1e417d404c6fbe317de563f161bda0669cd40a7e652772",
+   "papel": "referencia F11-B1: validación aceptada"
+  },
+  {
+   "archivo": "referencias/fam11/rem166/VALIDACION/LECTURA_B1.json",
+   "origen": "tmp/paso4_produccion_b1_doce_cov_desde_rem166/b1_B1PROD166/VALIDACION/LECTURA_B1.json (proyección del catálogo (REGLA-PROYECCION-1); original sha256 ec3db4e494caeb413407157ae0027c39da5e49f712bf83468d63c5c7e35df960; marcadores {'@@R_BS2@@': 2})",
+   "sha256": "32e905931e7ce3776bd6f34c6fd0c070edfc340a1b5a65798442e19229218fca",
+   "papel": "referencia F11-B1: lectura aceptada"
+  },
+  {
+   "archivo": "referencias/fam11/rem169/estado_b2.json",
+   "origen": "tmp/paso4_produccion_b2_doce_cov_desde_rem169/b2_B2PROD169/estado_b2.json (proyección del catálogo (REGLA-PROYECCION-1); original sha256 a4ccbd1c87db5a9376c39817ee84d92bfc9c336a5fc7e872a2d7ea1998a3c40f; marcadores {'@@TRANSCRIPCION_CLAUDE_BS2@@': 1, '@@R_FS@@': 5, '@@R_BS2@@': 5})",
+   "sha256": "4d7588a676062285f65e060256942c95b227211cbb2f7f7b082a6a0d46d69289",
+   "papel": "referencia F11-B2: estado del conductor B2"
+  },
+  {
+   "archivo": "referencias/fam11/rem169/TRABAJO/EVIDENCIA_B2.json",
+   "origen": "tmp/paso4_produccion_b2_doce_cov_desde_rem169/b2_B2PROD169/TRABAJO/EVIDENCIA_B2.json (proyección del catálogo (REGLA-PROYECCION-1); original sha256 dfbe7e6cb7c1c2c97c408797ddb9634be9704ab91892fb3df349f2cc50b0f56d; marcadores {'@@R_BS2@@': 1, '@@TRANSCRIPCION_CLAUDE_BS2@@': 2})",
+   "sha256": "c7147276f78d7d0538b4b653fe5d23a48a907a466ad276fe1da5b567576db26f",
+   "papel": "referencia F11-B2: evidencia aceptada"
+  },
+  {
+   "archivo": "referencias/fam11/rem169/VALIDACION/VALIDACION_B2.json",
+   "origen": "tmp/paso4_produccion_b2_doce_cov_desde_rem169/b2_B2PROD169/VALIDACION/VALIDACION_B2.json (proyección del catálogo (REGLA-PROYECCION-1); original sha256 aa30bc5b6e2e17bf346acb360be064b15511d24b764500b46b4a01990849366e; marcadores {'@@R_BS2@@': 2, '@@TRANSCRIPCION_CLAUDE_BS2@@': 1})",
+   "sha256": "0049f4959c96467a3e347fd91b8343da7c62158b8f9cd3b95454cfa7e049aab9",
+   "papel": "referencia F11-B2: validación aceptada"
+  },
+  {
+   "archivo": "referencias/fam11/rem169/VALIDACION/LECTURA_B2.json",
+   "origen": "tmp/paso4_produccion_b2_doce_cov_desde_rem169/b2_B2PROD169/VALIDACION/LECTURA_B2.json (proyección del catálogo (REGLA-PROYECCION-1); original sha256 1fd0e1803a7fa4824b750f89a1a1e489232086e99a3469ba205abded28417638; marcadores {'@@R_BS2@@': 2})",
+   "sha256": "07129cd99edeb206e82b7b1ea6f24728cf30b4ad770f185167cfd6c5e050ffd2",
+   "papel": "referencia F11-B2: lectura aceptada"
+  },
+  {
+   "archivo": "datos/fam11/guardadas/cov_rem151/ABL-COV-T1/resultado.json",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T1/resultado.json (fijado por ENSAMBLADO.json aceptado; = objeto del catálogo)",
+   "sha256": "25fba6e60fb97900d11ca8c6c495026a6cec845c7efdfd04247e5fc6e1783109",
+   "papel": "entrada guardada: resultado.json de ABL-COV-T1 aceptada (rem151; bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam11/guardadas/cov_rem151/ABL-COV-T1/salida/cov_techos.jsonl",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T1/salida/cov_techos.jsonl (fijado por ENSAMBLADO.json aceptado)",
+   "sha256": "e4dd80c7ceb48ca8861312392f51522c40380ceca5de7c14e263abf5773677ba",
+   "papel": "entrada guardada: salida/cov_techos.jsonl de ABL-COV-T1 aceptada (rem151; bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam11/guardadas/cov_rem151/ABL-COV-T1/salida/cov_comparacion.jsonl",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T1/salida/cov_comparacion.jsonl (fijado por ENSAMBLADO.json aceptado)",
+   "sha256": "3b5a877ac157dcf9b30c66b9210cf8b308da3c9ce99c9eb4d593c108f35eca2d",
+   "papel": "entrada guardada: salida/cov_comparacion.jsonl de ABL-COV-T1 aceptada (rem151; bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam11/guardadas/cov_rem151/ABL-COV-T2/resultado.json",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T2/resultado.json (fijado por ENSAMBLADO.json aceptado)",
+   "sha256": "85cdf9d47970d3e0a5e1faad50cb244f669c706fb41afcb44297b37e3b37b4ef",
+   "papel": "entrada guardada: resultado.json de ABL-COV-T2 aceptada (rem151; bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam11/guardadas/cov_rem151/ABL-COV-T2/salida/cov_techos.jsonl",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T2/salida/cov_techos.jsonl (fijado por ENSAMBLADO.json aceptado)",
+   "sha256": "9de69f4271ef6886de2b4c6a3e9ed1683b84de3ce2dbdd2e79e8012232d25399",
+   "papel": "entrada guardada: salida/cov_techos.jsonl de ABL-COV-T2 aceptada (rem151; bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam11/guardadas/cov_rem151/ABL-COV-T2/salida/cov_comparacion.jsonl",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T2/salida/cov_comparacion.jsonl (fijado por ENSAMBLADO.json aceptado)",
+   "sha256": "75e84e3d207ea8c7b833093f7466dd8dfc2c06e4d2442fb32c25da2055565a82",
+   "papel": "entrada guardada: salida/cov_comparacion.jsonl de ABL-COV-T2 aceptada (rem151; bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam11/guardadas/cov_rem151/ABL-COV-T3/resultado.json",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T3/resultado.json (fijado por ENSAMBLADO.json aceptado)",
+   "sha256": "acc6732ffb8591c7e683c5f5e86aeb3dbc8453db62a13e2fcda60d812212dfda",
+   "papel": "entrada guardada: resultado.json de ABL-COV-T3 aceptada (rem151; bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam11/guardadas/cov_rem151/ABL-COV-T3/salida/cov_techos.jsonl",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T3/salida/cov_techos.jsonl (fijado por ENSAMBLADO.json aceptado)",
+   "sha256": "43e248a19cc2cb97f06bfdd7f8872c263060ecaaa8a3e8cfc4c9a6628c4a8eba",
+   "papel": "entrada guardada: salida/cov_techos.jsonl de ABL-COV-T3 aceptada (rem151; bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam11/guardadas/cov_rem151/ABL-COV-T3/salida/cov_comparacion.jsonl",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T3/salida/cov_comparacion.jsonl (fijado por ENSAMBLADO.json aceptado)",
+   "sha256": "dc1adef5bc001ed919ceaec87e20e7a786fc73b3eceef882f7c2c6122c1d66c7",
+   "papel": "entrada guardada: salida/cov_comparacion.jsonl de ABL-COV-T3 aceptada (rem151; bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam11/guardadas/cov_rem151/ABL-COV-T4/resultado.json",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T4/resultado.json (fijado por ENSAMBLADO.json aceptado)",
+   "sha256": "3e83bb59e68a30bae41f1f18009a8b083482583e214b680b48c9d389c10d2eed",
+   "papel": "entrada guardada: resultado.json de ABL-COV-T4 aceptada (rem151; bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam11/guardadas/cov_rem151/ABL-COV-T4/salida/cov_techos.jsonl",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T4/salida/cov_techos.jsonl (fijado por ENSAMBLADO.json aceptado)",
+   "sha256": "05feb960711abd729784dbe9bad32b9a82f9a4e90ee45c52e20adbbe9f0f0b96",
+   "papel": "entrada guardada: salida/cov_techos.jsonl de ABL-COV-T4 aceptada (rem151; bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam11/guardadas/cov_rem151/ABL-COV-T4/salida/cov_comparacion.jsonl",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T4/salida/cov_comparacion.jsonl (fijado por ENSAMBLADO.json aceptado)",
+   "sha256": "fbdaf5b3bb2bc5c0957e750ce31f5e6cd9835b8097c0625e855ef1ed6f5f04ec",
+   "papel": "entrada guardada: salida/cov_comparacion.jsonl de ABL-COV-T4 aceptada (rem151; bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam11/guardadas/cov_rem151/ABL-COV-T5/resultado.json",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T5/resultado.json (fijado por ENSAMBLADO.json aceptado)",
+   "sha256": "5e2a59e5023018709b7760a974b0a3faaba51acd7e6030438417686146466267",
+   "papel": "entrada guardada: resultado.json de ABL-COV-T5 aceptada (rem151; bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam11/guardadas/cov_rem151/ABL-COV-T5/salida/cov_techos.jsonl",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T5/salida/cov_techos.jsonl (fijado por ENSAMBLADO.json aceptado)",
+   "sha256": "d42da22401f56dc5e9de6d2914792239f70c3c33ebbd9edd98d0b5da772584fd",
+   "papel": "entrada guardada: salida/cov_techos.jsonl de ABL-COV-T5 aceptada (rem151; bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam11/guardadas/cov_rem151/ABL-COV-T5/salida/cov_comparacion.jsonl",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T5/salida/cov_comparacion.jsonl (fijado por ENSAMBLADO.json aceptado)",
+   "sha256": "c1511453a57995d2a124a56d7a58a404ff05dd838ecbf1469624cd5f1cea1f84",
+   "papel": "entrada guardada: salida/cov_comparacion.jsonl de ABL-COV-T5 aceptada (rem151; bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam11/guardadas/cov_rem151/ABL-COV-T6/resultado.json",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T6/resultado.json (fijado por ENSAMBLADO.json aceptado)",
+   "sha256": "59467f7e4dfa49921508e598b1635153fe54c4550234290c41851dd955d8bb2f",
+   "papel": "entrada guardada: resultado.json de ABL-COV-T6 aceptada (rem151; bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam11/guardadas/cov_rem151/ABL-COV-T6/salida/cov_techos.jsonl",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T6/salida/cov_techos.jsonl (fijado por ENSAMBLADO.json aceptado)",
+   "sha256": "e51919127c88d0ab95f19ff740b4b5e901a307caba350c3f027eefa483f95591",
+   "papel": "entrada guardada: salida/cov_techos.jsonl de ABL-COV-T6 aceptada (rem151; bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam11/guardadas/cov_rem151/ABL-COV-T6/salida/cov_comparacion.jsonl",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T6/salida/cov_comparacion.jsonl (fijado por ENSAMBLADO.json aceptado)",
+   "sha256": "d5eb6c1090eb2ca78f142dafe3fe65c7112601c95c35ca0934fb2f5b8cf62b25",
+   "papel": "entrada guardada: salida/cov_comparacion.jsonl de ABL-COV-T6 aceptada (rem151; bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "referencias/fam11/rem151/ENSAMBLADO/cov_techos_ensamblados.jsonl",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ENSAMBLADO/cov_techos_ensamblados.jsonl (= objeto del catálogo)",
+   "sha256": "0bae15d406b24773e2ff66c0765a777e0787bff90beb90da21af9927f70de676",
+   "papel": "referencia: referencia F11-COV26 (26 techos) (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem151/ENSAMBLADO/cov_comparacion_ensamblada.jsonl",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ENSAMBLADO/cov_comparacion_ensamblada.jsonl (= objeto del catálogo)",
+   "sha256": "cad40d17bb55074dd167e756f6dc32cbe35eefdef3ac56ba796dd9a5e94d8a80",
+   "papel": "referencia: referencia F11-COV26 (1.724 comparaciones) (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem151/ensamblado_stdout.txt",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ensamblado_stdout.txt",
+   "sha256": "d7f3c8b776fb5e1b5fc032f21626403d1b24714f0530741e831993abe7299917",
+   "papel": "referencia: veredicto del ensamblador aceptado (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem151/CONCILIACION/CONCILIACION_COV.json",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/CONCILIACION/CONCILIACION_COV.json (= objeto del catálogo)",
+   "sha256": "927e77aaefd24f27f9d50dfbfaf3d6eb3274db0a22d43cac502be24ed211a9e2",
+   "papel": "referencia: referencia F11-COV26 (resumen de la conciliación) (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem151/CONCILIACION/CONCILIACION_COV.jsonl",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/CONCILIACION/CONCILIACION_COV.jsonl (= objeto del catálogo)",
+   "sha256": "5ba0142304deb949777ad3ae3443556250f2237d214cb4e4fb0d427aa5ea049f",
+   "papel": "referencia: referencia F11-COV26 (1.728 afirmaciones) (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem151/conciliacion_stdout.txt",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/conciliacion_stdout.txt",
+   "sha256": "ec07efc819251c0f4d55bd7481f06685e73c27732e6ec29e769c14b370acc5ac",
+   "papel": "referencia: veredicto del conciliador aceptado (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem166/TRABAJO/SOLICITUD_INICIO.json",
+   "origen": "tmp/paso4_produccion_b1_doce_cov_desde_rem166/b1_B1PROD166/TRABAJO/SOLICITUD_INICIO.json (= objeto del catálogo)",
+   "sha256": "8539833b9d14e1b424f3d70e1d04e0074bb8e459f9850f403f3336c75dc94d57",
+   "papel": "referencia: referencia F11-B1: solicitud de inicio (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem166/B1PROD166_TRABAJO.stdout.txt",
+   "origen": "tmp/paso4_produccion_b1_doce_cov_desde_rem166/b1_B1PROD166/B1PROD166_TRABAJO.stdout.txt",
+   "sha256": "4871c9916ba65ea8c8ab58e79a5e78e4ff476c0f39b16d52a8f33391dbf4627c",
+   "papel": "referencia: salida de terminal del trabajo B1 aceptado (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem166/B1PROD166_VALIDACION.stdout.txt",
+   "origen": "tmp/paso4_produccion_b1_doce_cov_desde_rem166/b1_B1PROD166/B1PROD166_VALIDACION.stdout.txt",
+   "sha256": "7c349573b48e87281998521e68e1332e9ccf4c379394f451b5e7d16431419474",
+   "papel": "referencia: veredicto del validador B1 aceptado (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem169/TRABAJO/PLAN_INICIO.json",
+   "origen": "tmp/paso4_produccion_b2_doce_cov_desde_rem169/b2_B2PROD169/TRABAJO/PLAN_INICIO.json (= objeto del catálogo)",
+   "sha256": "e0e1ff3f76eee7ad6f951790591efbba7037cd0990213a77b4d889308de4bf77",
+   "papel": "referencia: referencia F11-B2: plan de inicio (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem169/B2PROD169_TRABAJO.stdout.txt",
+   "origen": "tmp/paso4_produccion_b2_doce_cov_desde_rem169/b2_B2PROD169/B2PROD169_TRABAJO.stdout.txt",
+   "sha256": "964747c10f7c8d4108602e9b8790bd14513ad5e2a988a1e8ca9712c59acf9dff",
+   "papel": "referencia: salida de terminal del trabajo B2 aceptado (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem169/B2PROD169_VALIDACION.stdout.txt",
+   "origen": "tmp/paso4_produccion_b2_doce_cov_desde_rem169/b2_B2PROD169/B2PROD169_VALIDACION.stdout.txt",
+   "sha256": "7b93b9deaf72eea5e1c35f1bbd2a559ac41e9621259d3847167c537089391586",
+   "papel": "referencia: veredicto del validador B2 aceptado (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem170/COV12_RESOLUCION_GLOBAL.jsonl",
+   "origen": "tmp/paso4_integracion_final_exp8_desde_rem170/sintesis/COV12_RESOLUCION_GLOBAL.jsonl (= objeto del catálogo)",
+   "sha256": "ac18226808b7e0124140043347e853a6581097e4433798932083f4ed9b02fd7f",
+   "papel": "referencia: referencia F11-B2 (X_cov12): resolución global de las doce (se cotejan sus campos científicos) (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem151/ABL-COV-T1/trabajo_stdout.txt",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T1/trabajo_stdout.txt",
+   "sha256": "f1c23584ec30ba1d9c93378c5c7e1c183ce2fc08706cfef807dfcc3b047b66a6",
+   "papel": "referencia: salida de terminal / veredicto histórico de ABL-COV-T1 (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem151/ABL-COV-T1/validacion_stdout.txt",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T1/validacion_stdout.txt",
+   "sha256": "bbe0b10bf1b10fcc260db8e917214d629f260bc2917198520db2de39116cd68d",
+   "papel": "referencia: salida de terminal / veredicto histórico de ABL-COV-T1 (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem151/ABL-COV-T2/trabajo_stdout.txt",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T2/trabajo_stdout.txt",
+   "sha256": "423ef89c739e3ba11d9dcc7dc476971468fa7af8ad55b3374832c4478885e372",
+   "papel": "referencia: salida de terminal / veredicto histórico de ABL-COV-T2 (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem151/ABL-COV-T2/validacion_stdout.txt",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T2/validacion_stdout.txt",
+   "sha256": "9ad13b28416215d02ca3dea8868373b7782706f044c51cfae1c638a40dc2b862",
+   "papel": "referencia: salida de terminal / veredicto histórico de ABL-COV-T2 (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem151/ABL-COV-T3/trabajo_stdout.txt",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T3/trabajo_stdout.txt",
+   "sha256": "6ac238dfbb1162e0372d50cb3651e268a0752b6f96d879535f36372f0b79bf21",
+   "papel": "referencia: salida de terminal / veredicto histórico de ABL-COV-T3 (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem151/ABL-COV-T3/validacion_stdout.txt",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T3/validacion_stdout.txt",
+   "sha256": "64f7eea48cb4a6d4c8fc2a11baabf83e4c3c3e02557e7679c3e29eebf40ae75c",
+   "papel": "referencia: salida de terminal / veredicto histórico de ABL-COV-T3 (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem151/ABL-COV-T4/trabajo_stdout.txt",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T4/trabajo_stdout.txt",
+   "sha256": "e699355dbdfa74ed416e50701d0cbc5c0e887eba066ee06b227f326e0e174bad",
+   "papel": "referencia: salida de terminal / veredicto histórico de ABL-COV-T4 (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem151/ABL-COV-T4/validacion_stdout.txt",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T4/validacion_stdout.txt",
+   "sha256": "843fbe56f92d4ae6400288b36aa19035e3396d76e75caad9fc773fbf7f177367",
+   "papel": "referencia: salida de terminal / veredicto histórico de ABL-COV-T4 (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem151/ABL-COV-T5/trabajo_stdout.txt",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T5/trabajo_stdout.txt",
+   "sha256": "b0069501684d76031dbf3a5ffcee8c34d1c8151c82c535b21818a52e1a7ca1d4",
+   "papel": "referencia: salida de terminal / veredicto histórico de ABL-COV-T5 (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem151/ABL-COV-T5/validacion_stdout.txt",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T5/validacion_stdout.txt",
+   "sha256": "8080f04b263749d5dd3f1fe39a27ac97b2dd09d16f063de60454ca51d10639c1",
+   "papel": "referencia: salida de terminal / veredicto histórico de ABL-COV-T5 (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem151/ABL-COV-T6/trabajo_stdout.txt",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T6/trabajo_stdout.txt",
+   "sha256": "4f46ab3b1a869b475bc3a331c2626a695d63b9eb28137973c9bdd65b2632ef1a",
+   "papel": "referencia: salida de terminal / veredicto histórico de ABL-COV-T6 (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam11/rem151/ABL-COV-T6/validacion_stdout.txt",
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/cov_REM151_COV/ABL-COV-T6/validacion_stdout.txt",
+   "sha256": "6bc11f189abcbdbc18a75725ede8f54f178e4d31992e8a759aab8eb18df6530d",
+   "papel": "referencia: salida de terminal / veredicto histórico de ABL-COV-T6 (solo para comparar; nunca se lee para producir)"
+  }
+ ],
+ "reutilizados": [
+  {
+   "archivo": "src/conciliar_cov.py",
+   "sha256": "fef92f1c34b314021f0ecc3ff7f4a990686ff2f2c318c233968bc9dbe4ef7161",
+   "papel": "conciliador COV i5 (los mismos bytes del índice COV)",
+   "declarada_en": "fuentes_fam12.json"
+  },
+  {
+   "archivo": "datos/fam08/CENSO_REMANENTE.json",
+   "sha256": "f9940081b3fca85a6641443a340bbb73b7be5119b83434d87d9aca98876dab08",
+   "papel": "fuente de celdas del manifiesto ABL-COV (proyección saneada; original 78e51627…)",
+   "declarada_en": "fuentes_fam08.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/salidas_s6/d7/versions/2a25893b09c097b2af22ed2e5be9a4014851faf55bbaaf380c7a078f1a740591/support_set.csv",
+   "sha256": "91716f572a85dae4e57290efb3dad03ada588d7a6cfe037fd2e1ae5d40bd61c6",
+   "papel": "D7: raíz ABL-COV y ejes macro (B1, B2)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/salidas_s6/d7/versions/2a25893b09c097b2af22ed2e5be9a4014851faf55bbaaf380c7a078f1a740591/tau_domains.csv",
+   "sha256": "c39aa30fc0fdb44fb9d0c32d66bc001d901fdeae9fb6f3c27874c21a1d0b0e6f",
+   "papel": "D7: menú f (B1)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/salidas_s6/d7/versions/2a25893b09c097b2af22ed2e5be9a4014851faf55bbaaf380c7a078f1a740591/d7_manifest.json",
+   "sha256": "9faf63c3ce96ec0e18b7cbf6235bdf21fc6e8bd18ce2ed054e3eb7f7b3a04ff9",
+   "papel": "D7: manifiesto de la versión (B1, B2)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase5_cuantificacion/extraccion_grilla/grilla_efectiva.csv",
+   "sha256": "b94b9eedeea87d08071366e2bd8a5b7cd9662ce6f9fd9d7bee42848d6c4c5f90",
+   "papel": "grilla: 30 celdas guardrail_deuda COL (B2)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/ca2_bundles/bundles/73cf4e4499eb2e3327a27e01f9e87e1fd6b14a160bee4718fc945636420ae48e.json",
+   "sha256": "73cf4e4499eb2e3327a27e01f9e87e1fd6b14a160bee4718fc945636420ae48e",
+   "papel": "bundle CA2 E2 (literales nacionales, B2)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/ca2_bundles/bundles/b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151.json",
+   "sha256": "b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151",
+   "papel": "bundle CA2 E1 (literales nacionales, B2)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d6_tax_shares_v2/versions/8cea18486cdc83d6a2d25fd7060670cc229b80de2d61de4477ddb57613779441/tax_shares_marg.csv",
+   "sha256": "83cb6b5659ec484de356b6d945b37668dd32bbaa401e59d49275af6cb8bdef88",
+   "papel": "D6 tax_shares_marg (B2)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/herramientas/b/nacional.py",
+   "sha256": "8b12df28cf317ed2d9f93ce48f1fa236e3c65edbc78c4a1df82490415828422b",
+   "papel": "nacional.py de la instalación (fuente declarada de B2; no se ejecuta)",
+   "declarada_en": "fuentes_fam01.json"
+  }
+ ],
+ "saneado": [
+  {
+   "archivo": "nucleo_s6/b1/comun_b1.py",
+   "sha256": "076dbc26ef0546044f4d048b281bda466c9f2faca4d01799126b156423bb7f2c",
+   "sha256_original": "25bf92ffcb13efd57af9a80336bf5f3374a823e0c364ef9c8943c774183ad5bf",
+   "regla": "proyección propia (marcadores de ruta)",
+   "marcadores": {
+    "@@W_WIN@@": 1,
+    "@@R_WIN@@": 1
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "nucleo_s6/b2/comun_b2.py",
+   "sha256": "105172d887de5b8d8f20963dd75fb32f9865b71170db635f11f6c62c966fce1d",
+   "sha256_original": "9035e3b19c152c2e68f8e0b65146187b964a1b37d9351ed06c4b64a7737da1a5",
+   "regla": "proyección propia (marcadores de ruta)",
+   "marcadores": {
+    "@@W_WIN@@": 1,
+    "@@R_WIN@@": 1
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "nucleo_s6/b1/PAQUETE_B1.json",
+   "sha256": "9ad7e49232de6528681a365ec6473b0d565494c480353b22ff93bc5d3c87e5dd",
+   "sha256_original": "9244a279c4b5ede08b9a48b9f2f0ebe99a22ed91cd137b8ae24aa7ae4aa3f13d",
+   "regla": "proyección del catálogo (REGLA-PROYECCION-1)",
+   "marcadores": {
+    "@@R_BS2@@": 2
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "datos/fam11/b1/MANIFIESTO_B1.json",
+   "sha256": "b064ca43668a9012af30da0c5eaf57f3bf2388e11856ad1c8d94ef9b853b464a",
+   "sha256_original": "1194923c273da998db23a83700dac1669693490d01f7fc52668ae39c105fe33e",
+   "regla": "proyección del catálogo (REGLA-PROYECCION-1)",
+   "marcadores": {
+    "@@W_BS2@@": 4,
+    "@@R_BS2@@": 16
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "nucleo_s6/b2/PAQUETE_B2.json",
+   "sha256": "0113dfc6c65a019c187aea65f84ba6d162df41bd24e6c9e348d5b7adf7234203",
+   "sha256_original": "5f7ec64bc4027aa9dd2893042622a027a480ba410474d01041938cb56295f9de",
+   "regla": "proyección del catálogo (REGLA-PROYECCION-1)",
+   "marcadores": {
+    "@@R_BS2@@": 2
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "datos/fam11/b2/MANIFIESTO_B2.json",
+   "sha256": "af2679ee6ff828bfc3d2f04d8771b93cb577679f004c23a0d06da6584d7f9926",
+   "sha256_original": "0f1582cc3718f2f5545ab4a112d108d7e4d4639505dec4826d21d22045664d7b",
+   "regla": "proyección del catálogo (REGLA-PROYECCION-1)",
+   "marcadores": {
+    "@@R_BS2@@": 28,
+    "@@TRANSCRIPCION_CLAUDE_BS2@@": 1,
+    "@@W_BS2@@": 3
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "datos/fam11/fuentes/MAPA_SOPORTE_REUTILIZACION.derivado.jsonl",
+   "sha256": "624d8fc665d225f9d62fe33ce86bf0cca4646b054999e32a7fc00cf2e81fa421",
+   "sha256_original": "92d5e082aa6d28e113fc16748998146bf999f3dcf07bf2a1184d6f68041eb502",
+   "regla": "proyección propia con la regla del catálogo",
+   "marcadores": {
+    "@@W_BS2@@": 36,
+    "@@R_BS2@@": 168
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "referencias/fam11/rem151/ENSAMBLADO/ENSAMBLADO.json",
+   "sha256": "cdd71ebc22f340a87da177a92dac718993230d5f6c2334314df017275276b336",
+   "sha256_original": "1f0eb893ab4184ed9cf597fe5cec0f68b51a5a9f11f8dcdae84978caa4ae11f4",
+   "regla": "proyección del catálogo (REGLA-PROYECCION-1)",
+   "marcadores": {
+    "@@R_BS2@@": 12
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "referencias/fam11/rem166/estado_b1.json",
+   "sha256": "31fd9937fa9dabee6babce84a318d0227bd764bbfc600047e6742b4ee3d674fd",
+   "sha256_original": "e01f4cf096d105728c67cd04db2bde6ae340aa5379b65a2e58dd4929311f81c6",
+   "regla": "proyección del catálogo (REGLA-PROYECCION-1)",
+   "marcadores": {
+    "@@TRANSCRIPCION_CLAUDE_BS2@@": 1,
+    "@@R_FS@@": 5,
+    "@@R_BS2@@": 5
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "referencias/fam11/rem166/TRABAJO/EVIDENCIA_B1.json",
+   "sha256": "27119660540226dcab1f258ebd5a57e3285beeec207f17e152ed85cf0e072cc3",
+   "sha256_original": "8bb0b86e213f88cd902a9a5f8ad6c4ea2f979ee8d948717362d9dc6c66f808c5",
+   "regla": "proyección del catálogo (REGLA-PROYECCION-1)",
+   "marcadores": {
+    "@@R_BS2@@": 1,
+    "@@TRANSCRIPCION_CLAUDE_BS2@@": 1
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "referencias/fam11/rem166/VALIDACION/VALIDACION_B1.json",
+   "sha256": "8fca3b63800024c8db1e417d404c6fbe317de563f161bda0669cd40a7e652772",
+   "sha256_original": "a6806885bfcd47d399564080efe230269f04fd8ca485aa574f4d7b4fdc8d3540",
+   "regla": "proyección del catálogo (REGLA-PROYECCION-1)",
+   "marcadores": {
+    "@@R_BS2@@": 2,
+    "@@TRANSCRIPCION_CLAUDE_BS2@@": 1
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "referencias/fam11/rem166/VALIDACION/LECTURA_B1.json",
+   "sha256": "32e905931e7ce3776bd6f34c6fd0c070edfc340a1b5a65798442e19229218fca",
+   "sha256_original": "ec3db4e494caeb413407157ae0027c39da5e49f712bf83468d63c5c7e35df960",
+   "regla": "proyección del catálogo (REGLA-PROYECCION-1)",
+   "marcadores": {
+    "@@R_BS2@@": 2
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "referencias/fam11/rem169/estado_b2.json",
+   "sha256": "4d7588a676062285f65e060256942c95b227211cbb2f7f7b082a6a0d46d69289",
+   "sha256_original": "a4ccbd1c87db5a9376c39817ee84d92bfc9c336a5fc7e872a2d7ea1998a3c40f",
+   "regla": "proyección del catálogo (REGLA-PROYECCION-1)",
+   "marcadores": {
+    "@@TRANSCRIPCION_CLAUDE_BS2@@": 1,
+    "@@R_FS@@": 5,
+    "@@R_BS2@@": 5
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "referencias/fam11/rem169/TRABAJO/EVIDENCIA_B2.json",
+   "sha256": "c7147276f78d7d0538b4b653fe5d23a48a907a466ad276fe1da5b567576db26f",
+   "sha256_original": "dfbe7e6cb7c1c2c97c408797ddb9634be9704ab91892fb3df349f2cc50b0f56d",
+   "regla": "proyección del catálogo (REGLA-PROYECCION-1)",
+   "marcadores": {
+    "@@R_BS2@@": 1,
+    "@@TRANSCRIPCION_CLAUDE_BS2@@": 2
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "referencias/fam11/rem169/VALIDACION/VALIDACION_B2.json",
+   "sha256": "0049f4959c96467a3e347fd91b8343da7c62158b8f9cd3b95454cfa7e049aab9",
+   "sha256_original": "aa30bc5b6e2e17bf346acb360be064b15511d24b764500b46b4a01990849366e",
+   "regla": "proyección del catálogo (REGLA-PROYECCION-1)",
+   "marcadores": {
+    "@@R_BS2@@": 2,
+    "@@TRANSCRIPCION_CLAUDE_BS2@@": 1
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "referencias/fam11/rem169/VALIDACION/LECTURA_B2.json",
+   "sha256": "07129cd99edeb206e82b7b1ea6f24728cf30b4ad770f185167cfd6c5e050ffd2",
+   "sha256_original": "1fd0e1803a7fa4824b750f89a1a1e489232086e99a3469ba205abded28417638",
+   "regla": "proyección del catálogo (REGLA-PROYECCION-1)",
+   "marcadores": {
+    "@@R_BS2@@": 2
+   },
+   "restituye_el_original": true
+  }
+ ],
+ "solo_procedencia": {
+  "dictamen_rem163": {
+   "origen": "<directorio de los libros>/review_20261107_rem163_dictamen.txt",
+   "sha256": "39a59bd7b9097962bfed21a42b98650142bdc250ad8a17e33262215424abc6e0",
+   "uso": "solo procedencia del manifiesto B1/B2 (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "hallazgos_rem163": {
+   "origen": "<directorio de los libros>/review_20261107_rem163_findings.json",
+   "sha256": "93b32afdb309799988b8d7ac10fa9693a5228614f7fb3d30ba40c00627c68cf9",
+   "uso": "solo procedencia del manifiesto B1/B2 (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "libro_exp8_rem161": {
+   "origen": "<directorio de los libros>/review_20261106_rem161_EXP8_sintesis_aceptada.json",
+   "sha256": "0d84eb80d10ad530f222ca4b38c5e5ef86be1fcf7afde604243012a3cdd7e707",
+   "uso": "solo procedencia del manifiesto B1/B2 (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "cov_aceptada_rem152": {
+   "origen": "<directorio de los libros>/review_20261105_rem152_COV_aceptada.json",
+   "sha256": "accdf8abd212e41ea34719853ec36ba09f3a0f1e54b3309ec6925a018eb1490c",
+   "uso": "solo procedencia del manifiesto B1/B2 (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "dictamen_rem167": {
+   "origen": "<directorio de los libros>/review_20261108_rem167_dictamen.txt",
+   "sha256": "516e65f9b44032584d8cba712d5ca648eaf28d07d39a583ec7b88afa7ac74cb0",
+   "uso": "solo procedencia del manifiesto B1/B2 (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "hallazgos_rem167": {
+   "origen": "<directorio de los libros>/review_20261108_rem167_findings.json",
+   "sha256": "005743341131d56daebe20137c3c15c6bd2b6c6384f1f81fedbdac20cc861b6b",
+   "uso": "solo procedencia del manifiesto B1/B2 (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "libro_B1_rem167": {
+   "origen": "<directorio de los libros>/review_20261108_rem167_B1_aceptada.json",
+   "sha256": "649457712e6f3d33ca596021e5c4878782558579971c4f60a5048455cb1b4535",
+   "uso": "solo procedencia del manifiesto B1/B2 (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "x162_inventario": {
+   "origen": "tmp/paso4_preparacion_precisa_doce_cov_desde_rem162/audit/entrega.json",
+   "sha256": "0ac16b19b91deda3c302f9c82b3be08a653576af20e998a07230cc0b2b026ab7",
+   "uso": "solo procedencia del manifiesto B1/B2 (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "x161_inventario": {
+   "origen": "tmp/paso4_dimensionamiento_doce_cov_desde_rem161/audit/entrega.json",
+   "sha256": "a43d361e894adc1fd69960d188b8b387922bdd5a955270fe60ce4d1d4d9f188c",
+   "uso": "solo procedencia del manifiesto B1/B2 (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "entrega_rem151": {
+   "origen": "tmp/paso4_produccion_cov_desde_rem151/audit/entrega.json",
+   "sha256": "8b5b5202f85a01768a0eb27e85172e691e811f3a3ca491f7d0991ddedb6a5570",
+   "uso": "solo procedencia del manifiesto B1/B2 (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "c0_inventario_rem116": {
+   "origen": "tmp/paso4_raices_impacto_desde_rem116/audit/entrega.json",
+   "sha256": "609c6e4dc98cbb8e900e9fe5441feeaf506e22957947c927fb6073cec1cdba4a",
+   "uso": "solo procedencia del manifiesto B1/B2 (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "x162_conexion_b1": {
+   "origen": "tmp/paso4_preparacion_precisa_doce_cov_desde_rem162/preparacion/CONEXION_B1.py",
+   "sha256": "43c1dfceef2910ff72664c0bbd308d1c7215791eee84cc36db8b839db59d882f",
+   "uso": "solo procedencia del manifiesto B1/B2 (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "x166_inventario": {
+   "origen": "tmp/paso4_produccion_b1_doce_cov_desde_rem166/audit/entrega.json",
+   "sha256": "af7678fda72eca202a3fa0e369c35279f13cbc2241c84e702aadcbf4267b6f4c",
+   "uso": "solo procedencia del manifiesto B1/B2 (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "a165_inventario": {
+   "origen": "tmp/paso4_invocacion_procedencia_b1_desde_rem165/audit/entrega.json",
+   "sha256": "80d1b2cb1cd7187f8d767b928ac9f4994711a67a9d1ac4931fe499931bf9acf1",
+   "uso": "solo procedencia del manifiesto B1/B2 (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "x162_ligadura": {
+   "origen": "tmp/paso4_preparacion_precisa_doce_cov_desde_rem162/soporte/LIGADURA_SOPORTE.md",
+   "sha256": "bc40c57d0e857ff0dc03229a03d1ea65f732b10f232b22e8bad796f0c516ed64",
+   "uso": "solo procedencia del manifiesto B1/B2 (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "x162_enumerador": {
+   "origen": "tmp/paso4_preparacion_precisa_doce_cov_desde_rem162/soporte/enumerar_contextos_rem162.py",
+   "sha256": "0c57d9a922598a30fc6b09ccec9e21391a27249637cc6dad50cb18969a235c0c",
+   "uso": "solo procedencia del manifiesto B1/B2 (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "x162_presupuesto": {
+   "origen": "tmp/paso4_preparacion_precisa_doce_cov_desde_rem162/preparacion/PRESUPUESTO_Y_PARADA.md",
+   "sha256": "b3f19d73f22123681035f694ccde6aa74f1040cbf3028693ffd3d3435a8644c1",
+   "uso": "solo procedencia del manifiesto B1/B2 (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  },
+  "x162_manifiesto_preparacion": {
+   "origen": "tmp/paso4_preparacion_precisa_doce_cov_desde_rem162/fuentes/MANIFIESTO_PREPARACION.json",
+   "sha256": "a4c4ab04b19b62a3f80b351933e9c6d767229725db7d00912da39dc8bef97089",
+   "uso": "solo procedencia del manifiesto B1/B2 (autenticada en la extracción; no se copia ni se lee al ejecutar)"
+  }
+ },
+ "autenticacion": {
+  "indices": {
+   "cov": "cd197300152b73d391b2b9a223bd9585425618ae2a383df7004804a232e94ec1",
+   "b1": "9244a279c4b5ede08b9a48b9f2f0ebe99a22ed91cd137b8ae24aa7ae4aa3f13d",
+   "b2": "5f7ec64bc4027aa9dd2893042622a027a480ba410474d01041938cb56295f9de"
+  },
+  "cierre_c0": {
+   "b1": {
+    "c2_normalizado.py": "31d247eeb0368a38aa90ea8c262e3ea55cdfa62d312fe68024969b54670ab785",
+    "encierros_modelo.py": "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53",
+    "model.py": "b8541045ce2db793e3acfba5e84053edc185a7f8cdfc5c1b535d1452ebde9b04",
+    "elementales.py": "c71faf35370fa2329db69802f03f52d9bc72566a2d9fa50a9ca8dbea1eb6f82b",
+    "intervalos.py": "2607d0cf3f879316c699ec4cd73021bff9ae8f680f7c7c01facb84dfb65aa891",
+    "supremum.py": "2c246c8be6d4437892cd951cc0acaaac6e5d8ea7a921de2e13f560caf8dfebbb",
+    "numeric.py": "4b19f4cb45a637c3a3370ca95059bc4f94feb71649a9f54fd5ac8c33c941c98e",
+    "modelos.py": "7f0dd31cacf431fb421e2c5047aa5b750cbecfc1064e3374c4247dcd40c93fda",
+    "frontier.py": "709f51b21188ff8d4638d7eadf535dd3f8307f2e1ce995a49539fe7bfcd36ed2",
+    "cobertura.py": "d6be53db849fbfaa1d11c3213cc25a0f86a990ef6b3198e36e6b56607f5d9381",
+    "__init__.py": "89f7210e7c118c83eec9d73323491e0d8c778b76d1297f703dfca2b86069c72a"
+   },
+   "b2": {
+    "__init__.py": "89f7210e7c118c83eec9d73323491e0d8c778b76d1297f703dfca2b86069c72a",
+    "intervalos.py": "2607d0cf3f879316c699ec4cd73021bff9ae8f680f7c7c01facb84dfb65aa891",
+    "macro.py": "4a94661d1cd0f3fe654f2cf7ecaa740b860e1c735b1585d51fda8f56dd068b98",
+    "external.py": "0b14fc0ee0fe4b0bc6d28aebad717dc0e02af03d8b53007be00d7295b72c4a6b"
+   }
+  },
+  "u49_del_catalogo_igual_a_c0": true,
+  "u49": {
+   "elementales.py": "c71faf35370fa2329db69802f03f52d9bc72566a2d9fa50a9ca8dbea1eb6f82b",
+   "encierros_modelo.py": "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53",
+   "frontier.py": "709f51b21188ff8d4638d7eadf535dd3f8307f2e1ce995a49539fe7bfcd36ed2",
+   "intervalos.py": "2607d0cf3f879316c699ec4cd73021bff9ae8f680f7c7c01facb84dfb65aa891",
+   "model.py": "b8541045ce2db793e3acfba5e84053edc185a7f8cdfc5c1b535d1452ebde9b04",
+   "modelos.py": "7f0dd31cacf431fb421e2c5047aa5b750cbecfc1064e3374c4247dcd40c93fda",
+   "supremum.py": "2c246c8be6d4437892cd951cc0acaaac6e5d8ea7a921de2e13f560caf8dfebbb"
+  },
+  "nucleo_cov": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae"
+ },
+ "nucleo_c0": {
+  "identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+  "declarado_en": "fuentes_fam05.json (nucleo_c0)",
+  "nota": "el mismo núcleo C0 de FAM05–FAM08 (identidad fijada por el índice COV y por los manifiestos B1/B2)"
+ },
+ "libros": {
+  "rem152": {
+   "presente": true,
+   "archivo": "review_20261105_rem152_COV_aceptada.json",
+   "sha256": "accdf8abd212e41ea34719853ec36ba09f3a0f1e54b3309ec6925a018eb1490c",
+   "kind": "accepted-production-COV-and-claim-conciliation-rem152",
+   "uso": "solo fuente de extracción (recuentos y huellas); nunca dependencia de ejecución; sin rutas, transcripciones ni referencia de la decisión",
+   "dictamen": {
+    "archivo": "review_20261105_rem152_dictamen.txt",
+    "sha256_en_el_libro": "13211ff2d260ce4fb9f05701d5055feadb18743d7e5f44b481945e4ae6929638",
+    "sha256_del_archivo": "13211ff2d260ce4fb9f05701d5055feadb18743d7e5f44b481945e4ae6929638"
+   },
+   "indice_sha256": "cd197300152b73d391b2b9a223bd9585425618ae2a383df7004804a232e94ec1",
+   "manifiesto_sha256": "a38f9e95b83af3fd921f240f26fd1d8a242f46009c770c5123a8b7c72932c9c3",
+   "tareas": {
+    "ABL-COV-T1": {
+     "resultado_sha256": "25fba6e60fb97900d11ca8c6c495026a6cec845c7efdfd04247e5fc6e1783109"
+    },
+    "ABL-COV-T2": {
+     "resultado_sha256": "85cdf9d47970d3e0a5e1faad50cb244f669c706fb41afcb44297b37e3b37b4ef"
+    },
+    "ABL-COV-T3": {
+     "resultado_sha256": "acc6732ffb8591c7e683c5f5e86aeb3dbc8453db62a13e2fcda60d812212dfda"
+    },
+    "ABL-COV-T4": {
+     "resultado_sha256": "3e83bb59e68a30bae41f1f18009a8b083482583e214b680b48c9d389c10d2eed"
+    },
+    "ABL-COV-T5": {
+     "resultado_sha256": "5e2a59e5023018709b7760a974b0a3faaba51acd7e6030438417686146466267"
+    },
+    "ABL-COV-T6": {
+     "resultado_sha256": "59467f7e4dfa49921508e598b1635153fe54c4550234290c41851dd955d8bb2f"
+    }
+   },
+   "techos": 26,
+   "techos_cierre_solo_normalizado": 8,
+   "recuentos": {
+    "cells": 1724,
+    "claims": 1728,
+    "witness_slots": 3449,
+    "counts": {
+     "all": {
+      "inconclusa_preservada": 1693,
+      "no_decidida_por_testigos": 28,
+      "parcial_no_robusta_factible": 3,
+      "parcial_no_robusta_infactible": 4
+     },
+     "inconclusive": {
+      "inconclusa_preservada": 1693,
+      "no_decidida_por_testigos": 12,
+      "parcial_no_robusta_factible": 3,
+      "parcial_no_robusta_infactible": 4
+     },
+     "robust": {
+      "no_decidida_por_testigos": 16
+     }
+    },
+    "sign_changes": {
+     "occurrences": 20,
+     "unique_claims": 20,
+     "unique_cells": 20,
+     "unique_keys": 2,
+     "directions": {
+      "1->-1": 20
+     },
+     "rows": [
+      {
+       "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+       "pais": "COL",
+       "side": "sup",
+       "C2_cov": 0.1731239887088656,
+       "G_padre": 0.05813300380648062,
+       "K1": 0.21560005716016362,
+       "cell_id": "CEL:221bd879ba0f209ae86703c687500b45cd64c9a85025",
+       "clave_cov": "6072bd5d08a5a2b8",
+       "error_R": 2.7569860072684783e-07,
+       "error_normalizado": 2.506350915698619e-08,
+       "g_hi": "-12837596391642295697407/302231454903657293676544",
+       "g_hi_float": -0.04247604338778885,
+       "g_lo": "-12837611541603970711553/302231454903657293676544",
+       "g_lo_float": -0.04247609351480716,
+       "signo_cov_certificado": -1,
+       "signo_padre": 1,
+       "unidad": "732fec3eabe89191d4a742629761273b4b20a8364b09becd682571e2ef6606b5"
+      },
+      {
+       "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+       "pais": "COL",
+       "side": "sup",
+       "C2_cov": 0.1731239887088656,
+       "G_padre": 0.09857825584853724,
+       "K1": 0.175154805118107,
+       "cell_id": "CEL:2c9ad0ea9e0a440711214d296b9bf32cacc183da430e",
+       "clave_cov": "6072bd5d08a5a2b8",
+       "error_R": 2.7569860072684783e-07,
+       "error_normalizado": 2.506350915698619e-08,
+       "g_hi": "-613769023026406359039/302231454903657293676544",
+       "g_hi_float": -0.0020307913457322246,
+       "g_lo": "-613784172988081373185/302231454903657293676544",
+       "g_lo_float": -0.0020308414727505386,
+       "signo_cov_certificado": -1,
+       "signo_padre": 1,
+       "unidad": "4db406abd5d5ae93cba7fd837de910879ae645fa9ec319cb7ca8e7abb5c4f8f4"
+      },
+      {
+       "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+       "pais": "COL",
+       "side": "sup",
+       "C2_cov": 0.1731239887088656,
+       "G_padre": 0.058516004394132765,
+       "K1": 0.21521705657251147,
+       "cell_id": "CEL:b04db965b2eb261d9a35a1afb4919f24242b11124649",
+       "clave_cov": "6072bd5d08a5a2b8",
+       "error_R": 2.7569860072684783e-07,
+       "error_normalizado": 2.506350915698619e-08,
+       "g_hi": "-12721841566807232610303/302231454903657293676544",
+       "g_hi_float": -0.042093042800136704,
+       "g_lo": "-12721856716768907624449/302231454903657293676544",
+       "g_lo_float": -0.04209309292715502,
+       "signo_cov_certificado": -1,
+       "signo_padre": 1,
+       "unidad": "5f211820647b7a20dbe23ab9cd5d4984feef19ac38bdbb1509cb7e1deb6284f1"
+      },
+      {
+       "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+       "pais": "COL",
+       "side": "sup",
+       "C2_cov": 0.1731239887088656,
+       "G_padre": 0.098889407868504,
+       "K1": 0.17484365309814023,
+       "cell_id": "CEL:d0304b460907537871fc51a30095265d9055993c2f3b",
+       "clave_cov": "6072bd5d08a5a2b8",
+       "error_R": 2.7569860072684783e-07,
+       "error_normalizado": 2.506350915698619e-08,
+       "g_hi": "-519729095335640825855/302231454903657293676544",
+       "g_hi_float": -0.0017196393257654652,
+       "g_lo": "-519744245297315840001/302231454903657293676544",
+       "g_lo_float": -0.0017196894527837792,
+       "signo_cov_certificado": -1,
+       "signo_padre": 1,
+       "unidad": "327ea989520ae4809bc95aa133da53ba3a5b5a31520daacb23a2c44e1a64e75b"
+      },
+      {
+       "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+       "pais": "COL",
+       "side": "sup",
+       "C2_cov": 0.1731239887088656,
+       "G_padre": 0.05813300380648062,
+       "K1": 0.21560005716016362,
+       "cell_id": "CEL:d0dc073f4570420f4cb844b418fe2f5d420d5de52075",
+       "clave_cov": "22d6a8dcf42be6fb",
+       "error_R": 2.7569860072684783e-07,
+       "error_normalizado": 2.506350915698619e-08,
+       "g_hi": "-12837596391642295697407/302231454903657293676544",
+       "g_hi_float": -0.04247604338778885,
+       "g_lo": "-12837611541603970711553/302231454903657293676544",
+       "g_lo_float": -0.04247609351480716,
+       "signo_cov_certificado": -1,
+       "signo_padre": 1,
+       "unidad": "5306a18f79831bb8dded6a69b1440191ccd2774e609185e17de545e8adf67259"
+      },
+      {
+       "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:micro:guardrail_deuda",
+       "pais": "COL",
+       "side": "sup",
+       "C2_cov": 0.1731239887088656,
+       "G_padre": 0.09857825584853724,
+       "K1": 0.175154805118107,
+       "cell_id": "CEL:e223687617fc5b820c28722db053435974ff7104ef2b",
+       "clave_cov": "22d6a8dcf42be6fb",
+       "error_R": 2.7569860072684783e-07,
+       "error_normalizado": 2.506350915698619e-08,
+       "g_hi": "-613769023026406359039/302231454903657293676544",
+       "g_hi_float": -0.0020307913457322246,
+       "g_lo": "-613784172988081373185/302231454903657293676544",
+       "g_lo_float": -0.0020308414727505386,
+       "signo_cov_certificado": -1,
+       "signo_padre": 1,
+       "unidad": "4052a1e54ded7ee4a6b5286558046b9b03a8131e9f5b13e7eae3367e52ce318a"
+      },
+      {
+       "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+       "pais": "COL",
+       "side": "sup",
+       "C2_cov": 0.1731239887088656,
+       "G_padre": 0.058516004394132765,
+       "K1": 0.21521705657251147,
+       "cell_id": "CEL:e358015e68eb300d2849714d8998ac3ad5b9a5d258f0",
+       "clave_cov": "22d6a8dcf42be6fb",
+       "error_R": 2.7569860072684783e-07,
+       "error_normalizado": 2.506350915698619e-08,
+       "g_hi": "-12721841566807232610303/302231454903657293676544",
+       "g_hi_float": -0.042093042800136704,
+       "g_lo": "-12721856716768907624449/302231454903657293676544",
+       "g_lo_float": -0.04209309292715502,
+       "signo_cov_certificado": -1,
+       "signo_padre": 1,
+       "unidad": "e874f7a33d7ddd800c94d4e803add8255f556f9b15bcc296c8bd16e8521d4756"
+      },
+      {
+       "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:micro:guardrail_deuda",
+       "pais": "COL",
+       "side": "sup",
+       "C2_cov": 0.1731239887088656,
+       "G_padre": 0.098889407868504,
+       "K1": 0.17484365309814023,
+       "cell_id": "CEL:288a33c4ffd879170ecbb78a319f8ea013e0ef7de544",
+       "clave_cov": "22d6a8dcf42be6fb",
+       "error_R": 2.7569860072684783e-07,
+       "error_normalizado": 2.506350915698619e-08,
+       "g_hi": "-519729095335640825855/302231454903657293676544",
+       "g_hi_float": -0.0017196393257654652,
+       "g_lo": "-519744245297315840001/302231454903657293676544",
+       "g_lo_float": -0.0017196894527837792,
+       "signo_cov_certificado": -1,
+       "signo_padre": 1,
+       "unidad": "b9f5fcf5f5a7bc77ba85970cb7883f61505df3c04adb19ec1e92dd61f914cf97"
+      },
+      {
+       "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+       "pais": "COL",
+       "side": "sup",
+       "C2_cov": 0.1731239887088656,
+       "G_padre": 0.059938030543244036,
+       "K1": 0.2137950304234002,
+       "cell_id": "CEL:a3eb5c296a25c6bfebaa4a6d9c4da171f498436a1ccd",
+       "clave_cov": "6072bd5d08a5a2b8",
+       "error_R": 2.7569860072684783e-07,
+       "error_normalizado": 2.506350915698619e-08,
+       "g_hi": "-12292060534850287828991/302231454903657293676544",
+       "g_hi_float": -0.04067101665102543,
+       "g_lo": "-12292075684811962843137/302231454903657293676544",
+       "g_lo_float": -0.040671066778043746,
+       "signo_cov_certificado": -1,
+       "signo_padre": 1,
+       "unidad": "5203ea6207ef12610e50e854ee59f7b5688524d9929c41d0b309d6d91758c11f"
+      },
+      {
+       "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+       "pais": "COL",
+       "side": "sup",
+       "C2_cov": 0.1731239887088656,
+       "G_padre": 0.06031782460901483,
+       "K1": 0.2134152363576294,
+       "cell_id": "CEL:32612f2e7a66787615dd4c454322d33ddd14c07aac0c",
+       "clave_cov": "6072bd5d08a5a2b8",
+       "error_R": 2.7569860072684783e-07,
+       "error_normalizado": 2.506350915698619e-08,
+       "g_hi": "-12177274821788605349887/302231454903657293676544",
+       "g_hi_float": -0.04029122258525464,
+       "g_lo": "-12177289971750280364033/302231454903657293676544",
+       "g_lo_float": -0.04029127271227295,
+       "signo_cov_certificado": -1,
+       "signo_padre": 1,
+       "unidad": "4c9954d08c5d2bd006451cabf2b95ecd32d0afdff3391a23fb9f2f71aa1753cc"
+      },
+      {
+       "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+       "pais": "COL",
+       "side": "sup",
+       "C2_cov": 0.1731239887088656,
+       "G_padre": 0.059938030543244036,
+       "K1": 0.2137950304234002,
+       "cell_id": "CEL:3f52386637f9f033f1652dcee90b4850f57f0c1de408",
+       "clave_cov": "22d6a8dcf42be6fb",
+       "error_R": 2.7569860072684783e-07,
+       "error_normalizado": 2.506350915698619e-08,
+       "g_hi": "-12292060534850287828991/302231454903657293676544",
+       "g_hi_float": -0.04067101665102543,
+       "g_lo": "-12292075684811962843137/302231454903657293676544",
+       "g_lo_float": -0.040671066778043746,
+       "signo_cov_certificado": -1,
+       "signo_padre": 1,
+       "unidad": "103a1494131cdf3137d989f73ae542bfecd99e2d1719190e7d0e65014b503dfe"
+      },
+      {
+       "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+       "pais": "COL",
+       "side": "sup",
+       "C2_cov": 0.1731239887088656,
+       "G_padre": 0.06031782460901483,
+       "K1": 0.2134152363576294,
+       "cell_id": "CEL:48f9b14ccfb50cbc083599e0905d0584cb162c0c3075",
+       "clave_cov": "22d6a8dcf42be6fb",
+       "error_R": 2.7569860072684783e-07,
+       "error_normalizado": 2.506350915698619e-08,
+       "g_hi": "-12177274821788605349887/302231454903657293676544",
+       "g_hi_float": -0.04029122258525464,
+       "g_lo": "-12177289971750280364033/302231454903657293676544",
+       "g_lo_float": -0.04029127271227295,
+       "signo_cov_certificado": -1,
+       "signo_padre": 1,
+       "unidad": "325d5f7ad3b265102815e857779921dd2054ce92f76dd751b9f0d2161569447a"
+      },
+      {
+       "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+       "pais": "COL",
+       "side": "sup",
+       "C2_cov": 0.1731239887088656,
+       "G_padre": 0.05813300380648062,
+       "K1": 0.21560005716016362,
+       "cell_id": "CEL:f3f422a2e81a0fdb1d9d5a181f60db3b569ea0635baf",
+       "clave_cov": "6072bd5d08a5a2b8",
+       "error_R": 2.7569860072684783e-07,
+       "error_normalizado": 2.506350915698619e-08,
+       "g_hi": "-12837596391642295697407/302231454903657293676544",
+       "g_hi_float": -0.04247604338778885,
+       "g_lo": "-12837611541603970711553/302231454903657293676544",
+       "g_lo_float": -0.04247609351480716,
+       "signo_cov_certificado": -1,
+       "signo_padre": 1,
+       "unidad": "66c8ba5f138deaf8d5ecc7584eb12aa1cf982e6c22680d267c946b3e74848378"
+      },
+      {
+       "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+       "pais": "COL",
+       "side": "sup",
+       "C2_cov": 0.1731239887088656,
+       "G_padre": 0.09857825584853724,
+       "K1": 0.175154805118107,
+       "cell_id": "CEL:c3131888a591ce9070bbeaaa8314691baed1dcb95009",
+       "clave_cov": "6072bd5d08a5a2b8",
+       "error_R": 2.7569860072684783e-07,
+       "error_normalizado": 2.506350915698619e-08,
+       "g_hi": "-613769023026406359039/302231454903657293676544",
+       "g_hi_float": -0.0020307913457322246,
+       "g_lo": "-613784172988081373185/302231454903657293676544",
+       "g_lo_float": -0.0020308414727505386,
+       "signo_cov_certificado": -1,
+       "signo_padre": 1,
+       "unidad": "5e77668076aaaa0168d33791721df87af3d9888f0f78927e3a0786ef2256788b"
+      },
+      {
+       "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+       "pais": "COL",
+       "side": "sup",
+       "C2_cov": 0.1731239887088656,
+       "G_padre": 0.058516004394132765,
+       "K1": 0.21521705657251147,
+       "cell_id": "CEL:d4e037c43ef6148ecad597bf8db970c5fb4db77dceb1",
+       "clave_cov": "6072bd5d08a5a2b8",
+       "error_R": 2.7569860072684783e-07,
+       "error_normalizado": 2.506350915698619e-08,
+       "g_hi": "-12721841566807232610303/302231454903657293676544",
+       "g_hi_float": -0.042093042800136704,
+       "g_lo": "-12721856716768907624449/302231454903657293676544",
+       "g_lo_float": -0.04209309292715502,
+       "signo_cov_certificado": -1,
+       "signo_padre": 1,
+       "unidad": "bcbfadd12524c16dd385da9e179c81b057bd5d4cd68b7919c8c0232313c0dac5"
+      },
+      {
+       "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+       "pais": "COL",
+       "side": "sup",
+       "C2_cov": 0.1731239887088656,
+       "G_padre": 0.098889407868504,
+       "K1": 0.17484365309814023,
+       "cell_id": "CEL:ca325fa96c0d616b3a7ecdf4997e798014269a51d30d",
+       "clave_cov": "6072bd5d08a5a2b8",
+       "error_R": 2.7569860072684783e-07,
+       "error_normalizado": 2.506350915698619e-08,
+       "g_hi": "-519729095335640825855/302231454903657293676544",
+       "g_hi_float": -0.0017196393257654652,
+       "g_lo": "-519744245297315840001/302231454903657293676544",
+       "g_lo_float": -0.0017196894527837792,
+       "signo_cov_certificado": -1,
+       "signo_padre": 1,
+       "unidad": "b030e745531562fe7257262ddd25e5ccf0e645ca4f44a86caf2304885428847a"
+      },
+      {
+       "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+       "pais": "COL",
+       "side": "sup",
+       "C2_cov": 0.1731239887088656,
+       "G_padre": 0.05813300380648062,
+       "K1": 0.21560005716016362,
+       "cell_id": "CEL:7497070e548629a986a76eaf2dd7e587c9d8b0e6e389",
+       "clave_cov": "22d6a8dcf42be6fb",
+       "error_R": 2.7569860072684783e-07,
+       "error_normalizado": 2.506350915698619e-08,
+       "g_hi": "-12837596391642295697407/302231454903657293676544",
+       "g_hi_float": -0.04247604338778885,
+       "g_lo": "-12837611541603970711553/302231454903657293676544",
+       "g_lo_float": -0.04247609351480716,
+       "signo_cov_certificado": -1,
+       "signo_padre": 1,
+       "unidad": "a2d351bfa00a4617181280dc69d33cb29f2b280eb627dfd8f77c4d6edea61c43"
+      },
+      {
+       "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:micro:guardrail_deuda",
+       "pais": "COL",
+       "side": "sup",
+       "C2_cov": 0.1731239887088656,
+       "G_padre": 0.09857825584853724,
+       "K1": 0.175154805118107,
+       "cell_id": "CEL:1372f7cc924ddb75af576abece73193a47c7f5103945",
+       "clave_cov": "22d6a8dcf42be6fb",
+       "error_R": 2.7569860072684783e-07,
+       "error_normalizado": 2.506350915698619e-08,
+       "g_hi": "-613769023026406359039/302231454903657293676544",
+       "g_hi_float": -0.0020307913457322246,
+       "g_lo": "-613784172988081373185/302231454903657293676544",
+       "g_lo_float": -0.0020308414727505386,
+       "signo_cov_certificado": -1,
+       "signo_padre": 1,
+       "unidad": "ccce2572abbc9b3b51f9ccaf93cc489e33376e6e46e5994a8a43f223cd7ed828"
+      },
+      {
+       "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+       "pais": "COL",
+       "side": "sup",
+       "C2_cov": 0.1731239887088656,
+       "G_padre": 0.058516004394132765,
+       "K1": 0.21521705657251147,
+       "cell_id": "CEL:64fa73a111efcfd0ed4c575d129213a8af1a21aeb72c",
+       "clave_cov": "22d6a8dcf42be6fb",
+       "error_R": 2.7569860072684783e-07,
+       "error_normalizado": 2.506350915698619e-08,
+       "g_hi": "-12721841566807232610303/302231454903657293676544",
+       "g_hi_float": -0.042093042800136704,
+       "g_lo": "-12721856716768907624449/302231454903657293676544",
+       "g_lo_float": -0.04209309292715502,
+       "signo_cov_certificado": -1,
+       "signo_padre": 1,
+       "unidad": "e340aa3d78fbad89541a4fa657434ef22ac9a0d47ed18d62417fc9202f594867"
+      },
+      {
+       "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:micro:guardrail_deuda",
+       "pais": "COL",
+       "side": "sup",
+       "C2_cov": 0.1731239887088656,
+       "G_padre": 0.098889407868504,
+       "K1": 0.17484365309814023,
+       "cell_id": "CEL:aeea1fbaa5c8bbbd9d3b091a0fc878724f6622400a48",
+       "clave_cov": "22d6a8dcf42be6fb",
+       "error_R": 2.7569860072684783e-07,
+       "error_normalizado": 2.506350915698619e-08,
+       "g_hi": "-519729095335640825855/302231454903657293676544",
+       "g_hi_float": -0.0017196393257654652,
+       "g_lo": "-519744245297315840001/302231454903657293676544",
+       "g_lo_float": -0.0017196894527837792,
+       "signo_cov_certificado": -1,
+       "signo_padre": 1,
+       "unidad": "dc525349bc491ce0b4dc431a79859b5e29c5b79fca4291b5742c8d3f2ceb0567"
+      }
+     ]
+    }
+   }
+  },
+  "rem167": {
+   "presente": true,
+   "archivo": "review_20261108_rem167_B1_aceptada.json",
+   "sha256": "649457712e6f3d33ca596021e5c4878782558579971c4f60a5048455cb1b4535",
+   "kind": "B1-doce-COV-aceptada-rem167",
+   "uso": "solo fuente de extracción (recuentos y huellas); nunca dependencia de ejecución; sin rutas, transcripciones ni referencia de la decisión",
+   "dictamen": {
+    "archivo": "review_20261108_rem167_dictamen.txt",
+    "sha256_en_el_libro": "516e65f9b44032584d8cba712d5ca648eaf28d07d39a583ec7b88afa7ac74cb0",
+    "sha256_del_archivo": "516e65f9b44032584d8cba712d5ca648eaf28d07d39a583ec7b88afa7ac74cb0"
+   },
+   "indice_sha256": "9244a279c4b5ede08b9a48b9f2f0ebe99a22ed91cd137b8ae24aa7ae4aa3f13d",
+   "manifiesto_sha256": "1194923c273da998db23a83700dac1669693490d01f7fc52668ae39c105fe33e",
+   "U_C2": 0.17312398870886692,
+   "U_C2_hex": "0x1.628ed46d42e18p-3",
+   "U_C2_exacto": "779681131038147/4503599627370496",
+   "instalacion": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+   "productos": {
+    "estado_b1.json": "e01f4cf096d105728c67cd04db2bde6ae340aa5379b65a2e58dd4929311f81c6",
+    "EVIDENCIA_B1.json": "8bb0b86e213f88cd902a9a5f8ad6c4ea2f979ee8d948717362d9dc6c66f808c5",
+    "SOLICITUD_INICIO.json": "8539833b9d14e1b424f3d70e1d04e0074bb8e459f9850f403f3336c75dc94d57",
+    "VALIDACION_B1.json": "a6806885bfcd47d399564080efe230269f04fd8ca485aa574f4d7b4fdc8d3540",
+    "LECTURA_B1.json": "ec3db4e494caeb413407157ae0027c39da5e49f712bf83468d63c5c7e35df960"
+   },
+   "lectura_por_grupo": {
+    "K1": {
+     "threshold_exact": "46297017040693277/225179981368524800",
+     "margin_exact": "7312960488785927/225179981368524800",
+     "claims": [
+      "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+      "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+     ]
+    },
+    "K2": {
+     "threshold_exact": "184843091902006533/900719925474099200",
+     "margin_exact": "28906865694377133/900719925474099200",
+     "claims": [
+      "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+      "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+     ]
+    },
+    "K3": {
+     "threshold_exact": "22945280576869601/112589990684262400",
+     "margin_exact": "1726626150457963/56294995342131200",
+     "claims": [
+      "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+      "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+     ]
+    },
+    "K4": {
+     "threshold_exact": "183220156532340233/900719925474099200",
+     "margin_exact": "27283930324710833/900719925474099200",
+     "claims": [
+      "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+      "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+     ]
+    },
+    "K5": {
+     "threshold_exact": "46297017040693277/225179981368524800",
+     "margin_exact": "7312960488785927/225179981368524800",
+     "claims": [
+      "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+      "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+     ]
+    },
+    "K6": {
+     "threshold_exact": "184843091902006533/900719925474099200",
+     "margin_exact": "28906865694377133/900719925474099200",
+     "claims": [
+      "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+      "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+     ]
+    }
+   },
+   "solicitudes_B1": 1,
+   "afirmaciones": 12,
+   "duracion": {
+    "request_seconds": 0.858,
+    "work_seconds": 1.3,
+    "validation_seconds": 0.2,
+    "conductor_seconds": 2.64,
+    "union_s": 4.351,
+    "peak": 1
+   }
+  },
+  "rem170": {
+   "presente": true,
+   "archivo": "review_20261108_rem170_B2_COV12_aceptada.json",
+   "sha256": "d53bbe822a4df76f57e2826da6786914338dff15671a72d73521f2ee848c80cd",
+   "kind": "B2-COV12-produccion-y-clasificacion-aceptadas-rem170",
+   "uso": "solo fuente de extracción (recuentos y huellas); nunca dependencia de ejecución; sin rutas, transcripciones ni referencia de la decisión",
+   "dictamen": {
+    "archivo": "review_20261108_rem170_dictamen.txt",
+    "sha256_en_el_libro": "b17fa026d53aa9e839b619d4dcb81de8d925712692e8c0fc47ef453b2c4cbd80",
+    "sha256_del_archivo": "b17fa026d53aa9e839b619d4dcb81de8d925712692e8c0fc47ef453b2c4cbd80"
+   },
+   "indice_sha256": "5f7ec64bc4027aa9dd2893042622a027a480ba410474d01041938cb56295f9de",
+   "manifiesto_sha256": "0f1582cc3718f2f5545ab4a112d108d7e4d4639505dec4826d21d22045664d7b",
+   "U_C2_hex": "0x1.628ed46d42e18p-3",
+   "grupos": {
+    "K1": {
+     "contexts": 192,
+     "L_K1_hex": "0x1.b98c85d42628dp-3",
+     "G_hi_exact": "-1530361648395381/36028797018963968",
+     "accepted_transformed_verdict": "robust_infeasible"
+    },
+    "K2": {
+     "contexts": 192,
+     "L_K1_hex": "0x1.b8c3b85c299c6p-3",
+     "G_hi_exact": "-758281298982359/18014398509481984",
+     "accepted_transformed_verdict": "robust_infeasible"
+    },
+    "K3": {
+     "contexts": 864,
+     "L_K1_hex": "0x1.b5da2b3dba041p-3",
+     "G_hi_exact": "-1465328706482729/36028797018963968",
+     "accepted_transformed_verdict": "robust_infeasible"
+    },
+    "K4": {
+     "contexts": 864,
+     "L_K1_hex": "0x1.b5130c24fe36ap-3",
+     "G_hi_exact": "-725822591589033/18014398509481984",
+     "accepted_transformed_verdict": "robust_infeasible"
+    },
+    "K5": {
+     "contexts": 96,
+     "L_K1_hex": "0x1.b98c85d42628dp-3",
+     "G_hi_exact": "-1530361648395381/36028797018963968",
+     "accepted_transformed_verdict": "robust_infeasible"
+    },
+    "K6": {
+     "contexts": 96,
+     "L_K1_hex": "0x1.b8c3b85c299c6p-3",
+     "G_hi_exact": "-758281298982359/18014398509481984",
+     "accepted_transformed_verdict": "robust_infeasible"
+    }
+   },
+   "llamadas": {
+    "macro.bridge": 480,
+    "GridCell.Q": 60,
+    "k1_intervalar": 1920,
+    "new_C2": 0
+   },
+   "duracion": {
+    "conductor_s": 1.9,
+    "work_supervisor_s": 0.4,
+    "validation_supervisor_s": 0.5,
+    "union_s": 4.733490943908691,
+    "peak": 1
+   },
+   "afirmaciones": 12,
+   "grupos_n": 6,
+   "veredicto_bajo_COV": "robust_infeasible",
+   "categorias_padre_sin_cambio": true,
+   "integracion_materializada": false,
+   "productos": {
+    "estado_b2.json": "a4ccbd1c87db5a9376c39817ee84d92bfc9c336a5fc7e872a2d7ea1998a3c40f",
+    "EVIDENCIA_B2.json": "dfbe7e6cb7c1c2c97c408797ddb9634be9704ab91892fb3df349f2cc50b0f56d",
+    "PLAN_INICIO.json": "e0e1ff3f76eee7ad6f951790591efbba7037cd0990213a77b4d889308de4bf77",
+    "VALIDACION_B2.json": "aa30bc5b6e2e17bf346acb360be064b15511d24b764500b46b4a01990849366e",
+    "LECTURA_B2.json": "1fd0e1803a7fa4824b750f89a1a1e489232086e99a3469ba205abded28417638"
+   }
+  },
+  "rem170_enlace": {
+   "presente": true,
+   "archivo": "review_20261108_rem170_claims_join.json",
+   "sha256": "232fb614d698b9ca5176d9d3b67bd6294485b94267e75a76974b03dd86574117",
+   "kind": "review-rem170-join-twelve-COV",
+   "uso": "solo fuente de extracción (recuentos y huellas); nunca dependencia de ejecución; sin rutas, transcripciones ni referencia de la decisión",
+   "comprobaciones": {
+    "passed": null,
+    "total": null,
+    "conforme": null
+   },
+   "afirmaciones": 12,
+   "veredictos": [
+    "robust_infeasible"
+   ]
+  }
+ }
+}

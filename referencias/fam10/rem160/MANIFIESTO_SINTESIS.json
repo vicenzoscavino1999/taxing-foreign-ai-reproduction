@@ -1,0 +1,159 @@
+{
+ "kind": "manifiesto-sintesis-exp8-rem160",
+ "utc": "2026-11-06T19:40:37.580995+00:00",
+ "candidato_para_revision": true,
+ "derivado_de": {
+  "area": "@@R_BS2@@\\tmp\\paso4_sintesis_exp8_desde_rem159",
+  "inventario_sha256": "d823217f731ed52179cb32fde6efefda3a4bda70f92412ec52e55737e715caa9",
+  "filas_sha256": "e2889c3f66b3c5dee16b13a42881a4ff5cab3a4e17c782c90267730e2a334d7c",
+  "resumen_sha256": "c64b5eb4118dd5475f143fe225dd4723260d041e8421cd5b936500ea2f8ae932",
+  "manifiesto_sha256": "72a737cea2b5fafd62d6b272b51506ea372f084aba08f5bb5387c34e42f1f463",
+  "constructor_sha256": "ed5c199b2071018a0145fdf8083dd779a79f952465af38374b410490dedc8ae8",
+  "nota": "referencia para la comprobación de invariancia; NO es autoridad científica: las fuentes siguen siendo los productos fijados por sus libros"
+ },
+ "campos_interpretativos_cambiados": {
+  "filas": [
+   "se_sabe",
+   "no_se_concluye"
+  ],
+  "resumen": [
+   "kind",
+   "utc",
+   "filas_sha256"
+  ],
+  "motivo": "hallazgos rem160 P4-EXP8-EPS-SIGNOS y P4-EXP8-NO-DECIDIDAS-N3"
+ },
+ "libros": {
+  "ENF": {
+   "ruta": "@@W_BS2@@\\review_20261105_rem148_EXP8_ENF_aceptada.json",
+   "sha256": "74342fd08788103af28fcba180e864a91a6c02cd7737d67bb5e94e6123ead571"
+  },
+  "COV": {
+   "ruta": "@@W_BS2@@\\review_20261105_rem152_COV_aceptada.json",
+   "sha256": "accdf8abd212e41ea34719853ec36ba09f3a0f1e54b3309ec6925a018eb1490c"
+  },
+  "P7": {
+   "ruta": "@@W_BS2@@\\review_20261105_rem155_P7_aceptado.json",
+   "sha256": "ae2c36e5d5c509b879eb9c423e7564e215ee1bf3d85617e4e3cf3039fca6d652"
+  },
+  "Q": {
+   "ruta": "@@W_BS2@@\\review_20261106_rem159_Q_local_aceptada.json",
+   "sha256": "a6946c0e8fbe06db29f9f9fef9afdf91621ff2354d6eacbb169ac6a751c8db5e"
+  },
+  "Q_DIAG": {
+   "ruta": "@@W_BS2@@\\review_20261106_rem156_Q_diagnostico.json",
+   "sha256": "7609b7bdfb0bc66305100d3b2967e7612e5430d36f1d653c54f25ba49d4f1301"
+  },
+  "ENF_ORIGEN": {
+   "ruta": "@@W_BS2@@\\review_20261101_rem132_ENF_integral_aceptado.json",
+   "sha256": "500537615c2c0deebebec90165f6aae5fe2e7272b8fe1976ca00376a8c34debf"
+  }
+ },
+ "dictamenes_y_registros": {
+  "rem148": {
+   "ruta": "@@W_BS2@@\\review_20261105_rem148_dictamen.txt",
+   "sha256": "3e7977c33dd5a4b74870c8efb4959b66cbaedcd1028fad544d92c45aaaea42d1"
+  },
+  "rem149": {
+   "ruta": "@@W_BS2@@\\review_20261105_rem149_dictamen.txt",
+   "sha256": "669af810c99a8a1c24b52a589f53996de7d89a775b52a51c40e005049d2b72b5"
+  },
+  "rem157": {
+   "ruta": "@@W_BS2@@\\review_20261106_rem157_dictamen.txt",
+   "sha256": "65e4ccba0ef8ed89e0b0e5908cce2f4f66bc026fbc6f85bcbc959c0be6040c52"
+  },
+  "rem158": {
+   "ruta": "@@W_BS2@@\\review_20261106_rem158_dictamen.txt",
+   "sha256": "6a9173e21d10f29e68359a11f2a269a458273d3dd1654aae49067c2cfb09e51b"
+  },
+  "rem159": {
+   "ruta": "@@W_BS2@@\\review_20261106_rem159_dictamen.txt",
+   "sha256": "58998d564ae69d8a7348447309c4faedf8c911f88d68c6fa2361b55db848714b"
+  },
+  "eleccion_m_Q": {
+   "ruta": "@@W_BS2@@\\review_20261106_rem158_eleccion_m_Q.json",
+   "sha256": "1b95216b1785d4b9284a23297bf4ebc1f84a28768b011c53018251a59cec7643"
+  }
+ },
+ "fuentes": {
+  "ENF_POR_AFIRMACION": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_ablaciones_exp8_desde_rem147\\exp8\\ENF_POR_AFIRMACION.jsonl",
+   "sha256": "e0670acc74ac1aaf92686b4fd207c11da1aa8636833b140e40c0a08ddc30ac3c",
+   "bytes": 5297361,
+   "autorizada_por": {
+    "libro": "ENF",
+    "sha256": "74342fd08788103af28fcba180e864a91a6c02cd7737d67bb5e94e6123ead571",
+    "campo": "product / product_sha256"
+   }
+  },
+  "CONCILIACION_COV": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_produccion_cov_desde_rem151\\cov_REM151_COV\\CONCILIACION\\CONCILIACION_COV.jsonl",
+   "sha256": "5ba0142304deb949777ad3ae3443556250f2237d214cb4e4fb0d427aa5ea049f",
+   "bytes": 2659012,
+   "autorizada_por": {
+    "libro": "COV",
+    "sha256": "accdf8abd212e41ea34719853ec36ba09f3a0f1e54b3309ec6925a018eb1490c",
+    "campo": "products[...CONCILIACION_COV.jsonl]"
+   }
+  },
+  "SUPLEMENTO_P7": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_produccion_siete_casos_desde_rem154\\p7_REM154_P7\\CONCILIACION\\SUPLEMENTO_P7.jsonl",
+   "sha256": "a450014b1b431b8099586360e877647650a9ced27ab6b40a1d8b997a861344bc",
+   "bytes": 13926,
+   "autorizada_por": {
+    "libro": "P7",
+    "sha256": "ae2c36e5d5c509b879eb9c423e7564e215ee1bf3d85617e4e3cf3039fca6d652",
+    "campo": "products[...SUPLEMENTO_P7.jsonl] = summary.producto_sha256"
+   }
+  },
+  "Q_contrato": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_produccion_q_local_desde_rem158\\q_lanzamientos\\QPROD158\\Q-MAT-CONTRATO\\resultado.json",
+   "sha256": "95cfa83d90d6172f8478e840493f8e7aa477b05881a1783966ac3d1a9e5b6683",
+   "bytes": 2961991,
+   "autorizada_por": {
+    "libro": "Q",
+    "sha256": "a6946c0e8fbe06db29f9f9fef9afdf91621ff2354d6eacbb169ac6a751c8db5e",
+    "campo": "products[...Q-MAT-CONTRATO\\resultado.json]"
+   }
+  },
+  "Q_conservadora": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_produccion_q_local_desde_rem158\\q_lanzamientos\\QPROD158\\Q-MAT-CONSERVADORA\\resultado.json",
+   "sha256": "248193c245db979d5e84032175a5f9b01dfc6e1d36dbc3e865253796b92c50c6",
+   "bytes": 2977191,
+   "autorizada_por": {
+    "libro": "Q",
+    "sha256": "a6946c0e8fbe06db29f9f9fef9afdf91621ff2354d6eacbb169ac6a751c8db5e",
+    "campo": "products[...Q-MAT-CONSERVADORA\\resultado.json]"
+   }
+  },
+  "Q_DIAGNOSTICO_GENERAL": {
+   "ruta": "@@W_BS2@@\\review_20261106_rem156_Q_diagnostico.json",
+   "sha256": "7609b7bdfb0bc66305100d3b2967e7612e5430d36f1d653c54f25ba49d4f1301",
+   "autorizada_por": {
+    "libro": "Q",
+    "campo": "general_diagnostic_separate",
+    "sha256": "a6946c0e8fbe06db29f9f9fef9afdf91621ff2354d6eacbb169ac6a751c8db5e"
+   },
+   "uso": "referencia del resultado técnico general 0<m<=1 (diagnóstico aceptado, separado de la producción)"
+  }
+ },
+ "excepcion_integridad_ENF": {
+  "area": "@@R_BS2@@\\tmp\\paso4_ablaciones_exp8_desde_rem147",
+  "inventario_original_conforme": false,
+  "integridad_observada_sha256": "1101e0a0bd40ec125cba041be198e8e7ab8e81517a7a25235a5956bb6ad3788f",
+  "nota": "el producto ENF se autentica por su huella fijada en el libro rem148; la excepción rem147 (logs/sello.txt) se conserva"
+ },
+ "referencias_no_autoridad": {
+  "MATRIZ_CANALES_LOCALES rem156": "solo con los límites ratificados por rem157/rem158/rem159",
+  "FICHA_D_EXP8 rem148": "antecedente para el diferencial; no estado vigente",
+  "N3_PROPUESTA rem148": "antecedente para el diferencial; no estado vigente"
+ },
+ "salidas": {
+  "sintesis/EXP8_POR_AFIRMACION.jsonl": "816209e40007471265f0a06e529d1d30ed60ca80d445594ce43b57bbdede113f",
+  "sintesis/RESUMEN_EXP8.json": "1dc9d778b6dcaec13d5f19c8cf9fb8e447e15dc65a1752e13f912da892ea2751"
+ },
+ "construccion": {
+  "script": "sintesis/construir_sintesis_rem160.py",
+  "sha256": "e96814df3ae17c4c24463958b7839491ade01e5c1b3e1614cc510d6cbaf84966"
+ }
+}

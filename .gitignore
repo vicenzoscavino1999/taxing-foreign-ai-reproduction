@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+salidas/
+.venv/
+local/
+.venv-fam01/
+
+# The six national-accounts sheets that the package does not redistribute (docs/DATA_SOURCES.md).
+# `run.ps1 inputs` obtains five of them; PER_2023.xlsx is available on request from INEI (README.md, Inputs).
+# Only these six paths are ignored: the other files in snapshots/ are distributed with the package.
+/nucleo_s6/raiz/fase2_datos/recepcion_nacional/versions/866aa139fb50578cae1ec5d77e1f98e6a5b87b56780aa1d95a118dffc5644984/snapshots/CHL_CEI.xls
+/nucleo_s6/raiz/fase2_datos/recepcion_nacional/versions/866aa139fb50578cae1ec5d77e1f98e6a5b87b56780aa1d95a118dffc5644984/snapshots/CHL_COU.xlsx
+/nucleo_s6/raiz/fase2_datos/recepcion_nacional/versions/866aa139fb50578cae1ec5d77e1f98e6a5b87b56780aa1d95a118dffc5644984/snapshots/COL_2023.xlsx
+/nucleo_s6/raiz/fase2_datos/recepcion_nacional/versions/866aa139fb50578cae1ec5d77e1f98e6a5b87b56780aa1d95a118dffc5644984/snapshots/COL_2024p.xlsx
+/nucleo_s6/raiz/fase2_datos/recepcion_nacional/versions/866aa139fb50578cae1ec5d77e1f98e6a5b87b56780aa1d95a118dffc5644984/snapshots/UN_bundle.tar
+/nucleo_s6/raiz/fase2_datos/recepcion_nacional/versions/866aa139fb50578cae1ec5d77e1f98e6a5b87b56780aa1d95a118dffc5644984/snapshots/PER_2023.xlsx

@@ -1,0 +1,248 @@
+{
+ "manifiesto_integracion_sha256": "b752249a446ce4f16a4c4d80e6608811787b9b99d0c6fd6aef6480a6ace10b85",
+ "modo": "produccion",
+ "puerta": {
+  "modo": "produccion",
+  "indice_sha256": "43b24726f76ead77717c642176fc0e2880e60db0e4ac1b44a30d803a5e0f1673",
+  "alcance_sha256": "397a796e7d58e2c7f971941c799cbecfbb6c2230b001484cf6f49c09e970e431"
+ },
+ "decision": {
+  "proveedor": "claude",
+  "transcripcion": "@@TRANSCRIPCION_CLAUDE_BS2@@\\fa99d748-337c-44a7-8d1d-ca7ced1b9871.jsonl",
+  "linea": 15631,
+  "uuid": "ef6ca595-c019-42b6-996b-4f25ccaec71e",
+  "session_id": "fa99d748-337c-44a7-8d1d-ca7ced1b9871",
+  "timestamp": "2026-10-31T23:58:47.670Z",
+  "registro_sha256": "e767aa76c21688eef53f610043f78c591c4d1cc956f42ed67c374949ab4839b7",
+  "contenido": "AUTORIZO ALCANCE PASO4 alcance_sha256=397a796e7d58e2c7f971941c799cbecfbb6c2230b001484cf6f49c09e970e431",
+  "mensaje_sha256": "e767aa76c21688eef53f610043f78c591c4d1cc956f42ed67c374949ab4839b7",
+  "alcance_sha256": "397a796e7d58e2c7f971941c799cbecfbb6c2230b001484cf6f49c09e970e431",
+  "modo_arnes": false
+ },
+ "ensayo": false,
+ "dictamen": "completa_validada_con_resolucion",
+ "aceptada": true,
+ "fallos": [],
+ "kind": "ensamblado-integral-enf-rem129",
+ "origen": {
+  "ABL-ENF-T2": {
+   "directorio": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T2",
+   "resultado_sha256": "c1a4db0277a323de09675b01de5798b3beb07e8cd9e924785805816e3130227c",
+   "productos": {
+    "enf_techos.jsonl": "263ecb9ce3781bc555bdab174067c10293b55c68a703704283bcb128ae454204",
+    "enf_comparacion.jsonl": "d92e85ce117a9543b94ed1b5b96f16158470622d4a3bcf232c24eb606d84c224"
+   },
+   "alcance_origen_sha256": "5c64a6da4d9182f03e1739cf3ff006b14b23787db5b1076cf349df66f1be58cc",
+   "modo": "produccion",
+   "dictamen": "completa_validada"
+  },
+  "ABL-ENF-T3": {
+   "directorio": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T3",
+   "resultado_sha256": "63f0d2820a6d645cd3f1c56ea677311a5d49deeedc1d86487db6b56959a2a97d",
+   "productos": {
+    "enf_techos.jsonl": "7e106a4efa638ba63acfc6c540070a12bea09772f2667dd4bbac8c7a7d92685c",
+    "enf_comparacion.jsonl": "07e1e6a5d2712c9cd85852ebcbba5f56d8fae9cf308485f5c7df9511391585eb"
+   },
+   "alcance_origen_sha256": "5c64a6da4d9182f03e1739cf3ff006b14b23787db5b1076cf349df66f1be58cc",
+   "modo": "produccion",
+   "dictamen": "completa_validada"
+  },
+  "ABL-ENF-T4": {
+   "directorio": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T4",
+   "resultado_sha256": "e087d50f48bf81d0a1904a807f90e9ac6ea114862793bb69ce1d293b6d61e07e",
+   "productos": {
+    "enf_techos.jsonl": "af2bc95723263f8a2656d86cd288b0dfa2ecc004ce4dfbe8fa72289111343a24",
+    "enf_comparacion.jsonl": "4cf6f739a7dc11e10d55e15157db0ecb9f017a4c30009406c266b8e91a0d14fc"
+   },
+   "alcance_origen_sha256": "5c64a6da4d9182f03e1739cf3ff006b14b23787db5b1076cf349df66f1be58cc",
+   "modo": "produccion",
+   "dictamen": "completa_validada"
+  },
+  "ABL-ENF-T5": {
+   "directorio": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T5",
+   "resultado_sha256": "d350770f2eed742ed5c94cc300ca05d5a5f274ac1ee2167464f9a6cc69bc1cc0",
+   "productos": {
+    "enf_techos.jsonl": "d1310475f6fb2dbda3803ab9b14eba89c3e1fecf89272bd94d3dd06b4e18d2b5",
+    "enf_comparacion.jsonl": "5847b186d235100f440d1775b9d8b9f7d21da148ef058256cfa94898f84ff445"
+   },
+   "alcance_origen_sha256": "5c64a6da4d9182f03e1739cf3ff006b14b23787db5b1076cf349df66f1be58cc",
+   "modo": "produccion",
+   "dictamen": "completa_validada"
+  },
+  "ABL-ENF-T6": {
+   "directorio": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T6",
+   "resultado_sha256": "bb4c9a9f4d0974581777adf2c60ced943335c3e23fcd07302e7f8577f031e121",
+   "productos": {
+    "enf_techos.jsonl": "a067e6b2de6e28958323084ded12e981787ccab263fc3da209848ad0fb9aa801",
+    "enf_comparacion.jsonl": "a45fcf8f18e142f5a0f15492782ba01ab20024a02ff11ef30928f743deeff0bc"
+   },
+   "alcance_origen_sha256": "5c64a6da4d9182f03e1739cf3ff006b14b23787db5b1076cf349df66f1be58cc",
+   "modo": "produccion",
+   "dictamen": "completa_validada"
+  },
+  "ABL-ENF-T1": {
+   "directorio": "tmp/paso4_enforcement_completo_desde_rem127/enf_REM127_ENF_COMPLETO_TECHOS/ABL-ENF-T1",
+   "resultado_sha256": "0e1900aa5b4e0a6dcba4080a50d2587ba20cc5c3b93a1196b65eb13544064c68",
+   "productos": {
+    "enf_techos.jsonl": "ee76629337035a5c9179917b1dc3c076fe1ffb60accb358aa7e3d5393026ee74",
+    "enf_comparacion.jsonl": "69c2a48a213b50eb682c25796dc777f84aab0fd4f019016fb1d4a4a0d4d574fa"
+   },
+   "alcance_origen_sha256": "5c64a6da4d9182f03e1739cf3ff006b14b23787db5b1076cf349df66f1be58cc",
+   "estado_historico": "incompleta",
+   "reutilizables": {
+    "claves": [
+     "230651ca1f231278",
+     "28497604b356680c",
+     "334b9a1c0f334ab1",
+     "567a527b8daa7445",
+     "5c72a56472225d7b",
+     "6fe85b6df4c7433a",
+     "75a283726bb5e755",
+     "8437b741f27bef3a",
+     "85e2bb7b2279bcad",
+     "8a9fbd6ddd9bf9c4",
+     "8af179a6f3885ace",
+     "a53bc6985b309381",
+     "cc2ebecde85bf358",
+     "dff097a9f2c3bfcd",
+     "e7b02a2faa6c5ce0",
+     "f1cdb2b49894f2e9",
+     "fecc3d29aefc48fb"
+    ],
+    "techos": 17,
+    "comparaciones": 1294,
+    "validacion_comun": "completa_validada"
+   }
+  }
+ },
+ "cobertura": {
+  "claves": 26,
+  "por_origen": {
+   "T1_recuperado": 17,
+   "tarea_completa": 8,
+   "resolucion_no_alcanzado": 1
+  },
+  "duplicadas": []
+ },
+ "ensamblado": {
+  "dictamen": "incompleta",
+  "filas": 1724,
+  "con_techo_incompleto": 144,
+  "por_origen": {
+   "recalculado": 1724,
+   "reutilizado": 0
+  },
+  "fuera_del_lote": {
+   "COL-E2-2023.2024p.macro.ABL-ENF": "pendiente (sin testigos), no NA",
+   "COL-E2-2023.2024p.micro.ABL-ENF": "pendiente (sin testigos), no NA"
+  }
+ },
+ "resumen": {
+  "celdas": 1724,
+  "celdas_resueltas": 144,
+  "G_enf_negativo": 870,
+  "G_padre_negativo": 870,
+  "cambios_de_signo_G": 0,
+  "dG_min": 0.0,
+  "dG_max": 0.012832670219052933
+ },
+ "resoluciones": {
+  "d59edf8a9d1461d1": {
+   "clave": "d59edf8a9d1461d1",
+   "clave_completa_sha256": "d59edf8a9d1461d135ecb84f7cf0fbf1a332ea182ad1acde96113702f4a8d40e",
+   "tarea_origen": "ABL-ENF-T1",
+   "estado_historico": "incomplete",
+   "motivo_historico": "SUP_ATTAINMENT_UNDECIDED_AT_JUMP_CURVE",
+   "attained_historico": false,
+   "resolucion": "no_alcanzado_demostrado",
+   "regla": "supremo no alcanzado demostrado (G, rho = 1, S13; caja cerrada del manifiesto); aceptada en rem129 para esta clave exacta",
+   "certificado": {
+    "ruta": "tmp/paso4_enf_continuacion_salto_desde_rem128/diagnostico/CERTIFICADO_d59edf8a_I2.json",
+    "sha256": "cc1aa49abf64585dd500838d1120d02c938a571f4be6fe159e3ab42fc697daaa",
+    "recalculado_identico": true
+   },
+   "cota_inferior_historica": {
+    "lower_R": 8.78074346560998,
+    "valor_R_factible": 8.780743465610009,
+    "C_2_factible": 0.7982494059645469,
+    "testigo_factible": {
+     "tau_d": 0.5937443203343207,
+     "tau_f": 0.599999999999983
+    },
+    "nota": "punto factible de la rama y cota; NO es un maximizador"
+   },
+   "cota_superior_historica_R": 8.78074346561024,
+   "error_normalizado_historico": 2.1982415887578103e-14,
+   "valor_limite_R": [
+    8.780743465609994,
+    8.780743465610234
+   ],
+   "valor_limite_C2": [
+    0.7982494059645449,
+    0.7982494059645682
+   ],
+   "testigo_lateral": {
+    "tau_d": [
+     0.5937443203343036,
+     0.5937443203343207
+    ],
+    "tau_f": 0.6,
+    "lado": "c > 0 (FF, adopción formal)",
+    "eje": "tau_d desde abajo",
+    "limite_R": [
+     8.780743465609994,
+     8.780743465610234
+    ],
+    "valor_en_la_curva_R": 0.0,
+    "limite_desde_c_negativo_R": 0.0
+   },
+   "esquema_supremo_no_alcanzado": {
+    "tau_d_at_sup": null,
+    "tau_f_at_sup": null,
+    "sup_not_attained": true,
+    "sup_lateral_low": [
+     0.7982494059645449,
+     0.7982494059645682
+    ],
+    "sup_lateral_high": 0.0,
+    "eje_lateral": "tau_d en tau_f = 0.6: low = desde tasas menores (c > 0, FF); high = desde tasas mayores (c < 0, NF)",
+    "sup_witness": [
+     {
+      "side": "minus",
+      "tau_d": [
+       0.5937443203343036,
+       0.5937443203343207
+      ],
+      "tau_f": 0.6,
+      "limit_value": [
+       0.7982494059645449,
+       0.7982494059645682
+      ],
+      "branch_id": "FF"
+     }
+    ]
+   },
+   "C2_para_brecha": 0.7982494059645469,
+   "origen_C2_para_brecha": "C_2 persistido de T1 (valor factible certificado; |C_2 − sup/B_pot| <= error_normalizado)"
+  }
+ },
+ "productos": {
+  "enf_techos_integrados.jsonl": {
+   "sha256": "31ee1d746870391f227c11df28035b2299ed33a7493f978be9cb111607baac28",
+   "filas": 26
+  },
+  "enf_comparacion_ensamblada.jsonl": {
+   "sha256": "504f0b28b4d60c29421f0b4cc893d24af4fdbb3c67b9390b7070636c2a1a58cc",
+   "filas": 1724
+  },
+  "enf_brechas_resueltas.jsonl": {
+   "sha256": "b987ec77948c5ad5c3859305a1b9ea688f8a56cd07c497b78fa8c6f3eb4148ab",
+   "filas": 144
+  },
+  "enf_comparacion_integral.jsonl": {
+   "sha256": "0220543dce3b4187b557d0ca6175513b88037408146a8d7f6968b29e585fed1b",
+   "filas": 1724
+  }
+ },
+ "alcance_de_la_integracion": "deriva productos de resultados ya calculados; no reemplaza los alcances de origen de cada tarea"
+}

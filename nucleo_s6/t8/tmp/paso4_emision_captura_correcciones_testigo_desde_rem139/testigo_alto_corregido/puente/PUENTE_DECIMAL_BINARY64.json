@@ -1,0 +1,142 @@
+{
+ "kind": "puente-decimal-binary64-testigo-rem139",
+ "productivo": false,
+ "formula": {
+  "origen": "tmp/paso4_preparacion_captura_testigo_desde_rem138/testigo_alto/controles_testigo.py",
+  "sha256": "d51c7c2d726e5cb0d8217a254271f9316dcea92aa38e30db383e3a556bbd3cfa",
+  "funciones": [
+   "pot",
+   "iadd",
+   "isub",
+   "imul",
+   "k_",
+   "dec",
+   "evaluar_punto"
+  ],
+  "funciones_sha256": {
+   "pot": "c9cf3c0e2b549fd299147dee74b16acc1389340f4a3d05016551eb2d41b31136",
+   "iadd": "8dea21e295983c3609eb1e4fcf18809f21a7ad1e582d98fb7ae606895577ba74",
+   "isub": "03547440e39ea96faca3e3c5cd3d2f01a898b51c4e25a826c4e24aac722c321d",
+   "imul": "19f4feb06e086f4f5a5bca8528451ee8857a64997f034699419660f324e6b84b",
+   "k_": "989621272f0d519dd9fee650c13256022f0128516a8f4d77128c633c47ecef1a",
+   "dec": "2d940fc83f03bbca48e4b8ddcdf1745c26adcb1c00334cefceb978e537ff7a93",
+   "evaluar_punto": "6c87ff4e8334f3d460123957f93098257e66f7f8f0bd8973276b36ca3dbf56db"
+  },
+  "inventario_sellado": "364bf4725adf4ffffc187cf3950724d1d92f8f63e38b75c556b03de64100220c"
+ },
+ "punto": {
+  "tau_d": "19/32",
+  "tau_f": "19/32",
+  "base_x": "13/32",
+  "en_dominio_b64": true
+ },
+ "primitivas_decimales": {
+  "eta_d": "0.1",
+  "eta_f": "0.1",
+  "phi": "0.75",
+  "kappa_tilde": "0.2",
+  "beta_tilde": "0.25"
+ },
+ "primitivas_binary64": {
+  "eta_d": {
+   "racional": "3602879701896397/36028797018963968",
+   "repr": "0.1",
+   "delta_vs_decimal": "1/180143985094819840"
+  },
+  "eta_f": {
+   "racional": "3602879701896397/36028797018963968",
+   "repr": "0.1",
+   "delta_vs_decimal": "1/180143985094819840"
+  },
+  "phi": {
+   "racional": "3/4",
+   "repr": "0.75",
+   "delta_vs_decimal": "0"
+  },
+  "kappa_tilde": {
+   "racional": "3602879701896397/18014398509481984",
+   "repr": "0.2",
+   "delta_vs_decimal": "1/90071992547409920"
+  },
+  "beta_tilde": {
+   "racional": "1/4",
+   "repr": "0.25",
+   "delta_vs_decimal": "0"
+  }
+ },
+ "encierro_exponente": {
+  "regla": "x^(e_d+δ): δ>=0 → [x^e_d (1-δ), x^e_d]; δ<0 → [x^e_d, x^e_d (1+2|δ|)]; válido para x >= 3/8 (ln x >= -1) y |δ| <= 1",
+  "pasos": [
+   {
+    "x": "13/32",
+    "e": "3602879701896397/36028797018963968",
+    "e_d": "1/10",
+    "delta": "1/180143985094819840"
+   },
+   {
+    "x": "13/32",
+    "e": "39631676720860365/36028797018963968",
+    "e_d": "11/10",
+    "delta": "1/180143985094819840"
+   },
+   {
+    "x": "13/32",
+    "e": "-23418718062326579/36028797018963968",
+    "e_d": "-13/20",
+    "delta": "1/180143985094819840"
+   },
+   {
+    "x": "13/32",
+    "e": "12610078956637389/36028797018963968",
+    "e_d": "7/20",
+    "delta": "1/180143985094819840"
+   }
+  ]
+ },
+ "decimal": {
+  "todo_F_demostrado": true,
+  "R_sobre_Bpot": {
+   "lo": "0.7558681452598683547908070760766559172552",
+   "hi": "0.7558681452598683547908070760766559172552",
+   "ancho": 1.425e-60
+  },
+  "L_dec": "0.7558681452598683547908070760766559172552",
+  "L_rem138": "0.7558681452598683547908070760766559172552",
+  "regresion_igual_rem138": true
+ },
+ "binary64": {
+  "todo_F_demostrado": true,
+  "margenes": {
+   "margen_F0_I0": {
+    "lo": "0.8515625000000000000000000000000000000000",
+    "hi": "0.8515625000000000000000000000000000000000",
+    "ancho": 0.0
+   },
+   "margen_F1_F0": {
+    "lo": "0.0616877662190798699182805049876488015046",
+    "hi": "0.0616877662190798730833326323971061313418",
+    "ancho": 3.1650521274094573e-18
+   },
+   "margen_F1_I1": {
+    "lo": "0.1132502662190798810205107512392142057409",
+    "hi": "0.1132502662190798841855628786486715355781",
+    "ancho": 3.1650521274094573e-18
+   }
+  },
+  "R_sobre_Bpot": {
+   "lo": "0.7558681452598683624334363510264371321908",
+   "hi": "0.7558681452598683666293474432675283249321",
+   "ancho": 4.195911092241091e-18
+  },
+  "L_b64": "0.7558681452598683624334363510264371321908",
+  "L_b64_racional": "39246917960993612593678169158848361405107256384763929333529166879145263118354859472190607451163807406179621432546096772088537/51922968585348276285304963292200960000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+ },
+ "diferencia_L_b64_menos_L_dec": 7.642629274949781e-18,
+ "alcance": "L_b64 es cota inferior demostrada de R/B_pot del modelo exacto con primitivas binary64 en τ = (19/32, 19/32); no certifica el redondeo del motor ni su supremo. El validador exige C2 + err >= L_b64 sin holgura; ninguna fila se garantiza por esta cota sola.",
+ "no_hace": [
+  "llamar a capture_ceiling, sup_bound, model.evaluate o bridge",
+  "cargar paper2b",
+  "mallas o barridos"
+ ],
+ "conforme": true
+}

@@ -1,0 +1,25 @@
+{
+ "cpu_usuario_s": 130.734375,
+ "cpu_nucleo_s": 0.71875,
+ "procesos_totales": 6,
+ "procesos_activos": 0,
+ "memoria_pico_job_mb": 255.6,
+ "memoria_pico_proceso_mb": 248.5,
+ "id": "REG3-int",
+ "comando": [
+  "bash",
+  "tmp/cierre_candidato_3_7_2026-10-04_lima2103/../pilotos_b36_b37_2026-10-02/entorno/py_integracion.sh",
+  "-m",
+  "codigo.regresion",
+  "integracion",
+  "demo/integracion/regresion_integracion.json"
+ ],
+ "cwd": "tmp/cierre_candidato_3_7_2026-10-04_lima2103",
+ "limite_duro_s": 1200.0,
+ "inicio_utc": "2026-10-05T02:33:49Z",
+ "pared_s": 135.7,
+ "codigo_salida": 127,
+ "estado": "FALLO",
+ "cpu_total_s": 131.5,
+ "cpu_por_pared": 0.97
+}

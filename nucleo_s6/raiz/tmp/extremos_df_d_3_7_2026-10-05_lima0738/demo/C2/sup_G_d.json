@@ -1,0 +1,167 @@
+{
+ "L": 0.5474661219332874,
+ "T2": 0.0001,
+ "U": 0.5474661220701559,
+ "brecha": 1.3686851652039422e-10,
+ "cajas": 1,
+ "diseno": "G",
+ "dominio": {
+  "a": [
+   1.1,
+   2.5
+  ],
+  "beta_tilde": [
+   0.25,
+   4.0
+  ],
+  "eta_d": [
+   0.1,
+   4.0
+  ],
+  "eta_f": [
+   0.1,
+   8.0
+  ],
+  "kappa_tilde": [
+   0.005,
+   0.2
+  ],
+  "phi": [
+   0.0,
+   1.0
+  ],
+  "rho": [
+   0.4,
+   1.0
+  ],
+  "tau_d": [
+   0.0,
+   0.6
+  ],
+  "tau_f": [
+   0.0,
+   0.0
+  ],
+  "u_theta": [
+   0.1,
+   0.9
+  ],
+  "z_cost": [
+   1.0,
+   100.0
+  ]
+ },
+ "ejes_irrelevantes": {
+  "ejes": [
+   "eta_f",
+   "phi"
+  ],
+  "fundamento": "menú d: τ_f ≡ 0 => l_f = log1p(-τ_f) = 0, de modo que tilde_f = 0, q* = 1, x_f^(-φ) = 1, k_F = κ0 y φ tilde_f = 0 (tax_side): η_f y φ no aparecen en los trinomios ni en R = τ_d (E0 + r* A) + 0"
+ },
+ "ensayos": 0,
+ "estado": "convergido",
+ "etiqueta": "EXTREMOS df/d 3.7 NO OFICIAL",
+ "fijos": {
+  "bar_tau_d": "0.6",
+  "bar_tau_f": "0.6",
+  "c_legal": "1.0",
+  "gamma": "1.0",
+  "t": "0.0",
+  "z_m": "1.0"
+ },
+ "grupo": "c2ca6041ff12e58199d765b24ab5e788f80033470a7a0958c1839130068e3fc5",
+ "instrumento": "d",
+ "lema_E0": {
+  "lema_aplicado": 1,
+  "lema_violaciones": 0
+ },
+ "metodo": "rama y cota conjunta (tau, theta) con motor_theta (natural ∩ valor medio + monotonía)",
+ "mono": 0,
+ "no_exportable": true,
+ "objeto": "sup_theta C2",
+ "optimizacion_inicial": {
+  "puntos": [
+   {
+    "punto": {
+     "a": 1.1,
+     "beta_tilde": 0.25,
+     "eta_d": 0.1,
+     "eta_f": 4.05,
+     "kappa_tilde": 0.017966283754294814,
+     "phi": 0.5,
+     "rho": 0.611412854580057,
+     "tau_d": 0.6,
+     "tau_f": 0.0,
+     "u_theta": 0.45146222099177646,
+     "z_cost": 44.504042527132874
+    },
+    "valor": 0.5474661219332893
+   },
+   {
+    "punto": {
+     "a": 1.1,
+     "beta_tilde": 0.3792735990303585,
+     "eta_d": 0.1,
+     "eta_f": 4.05,
+     "kappa_tilde": 0.10668063634616196,
+     "phi": 0.5,
+     "rho": 0.9935461764945209,
+     "tau_d": 0.6,
+     "tau_f": 0.0,
+     "u_theta": 0.7512280195752684,
+     "z_cost": 4.004504939350193
+    },
+    "valor": 0.5474661219332888
+   },
+   {
+    "punto": {
+     "a": 1.2491951707069866,
+     "beta_tilde": 0.25,
+     "eta_d": 0.1,
+     "eta_f": 4.05,
+     "kappa_tilde": 0.1550288601674195,
+     "phi": 0.5,
+     "rho": 0.6914555479295474,
+     "tau_d": 0.6,
+     "tau_f": 0.0,
+     "u_theta": 0.6125611554515786,
+     "z_cost": 1.0
+    },
+    "valor": 0.5474661219332888
+   }
+  ],
+  "segundos": 23.4
+ },
+ "plan_sha256": "cbe40f29bdb7de5818231aa094c34e0be9400f0d063b1ef1daaafe9ecf983164",
+ "podadas": 0,
+ "punto_cota_inferior": {
+  "a": 1.2491951707069866,
+  "beta_tilde": 0.25,
+  "eta_d": 0.1,
+  "eta_f": 4.05,
+  "kappa_tilde": 0.1550288601674195,
+  "phi": 0.5,
+  "rho": 0.6914555479295474,
+  "tau_d": 0.6,
+  "tau_f": 0.0,
+  "u_theta": 0.6125611554515786,
+  "z_cost": 1.0
+ },
+ "segundos": 23.5,
+ "sin_grad": 1,
+ "traza": [
+  [
+   23.5,
+   1,
+   0.5474661219332874,
+   0.5474661220701559
+  ],
+  [
+   23.5,
+   1,
+   0.5474661219332874,
+   0.5474661220701559
+  ]
+ ],
+ "vivas": 1
+}

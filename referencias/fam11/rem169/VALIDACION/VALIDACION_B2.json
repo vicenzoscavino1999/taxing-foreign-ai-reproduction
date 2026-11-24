@@ -1,0 +1,133 @@
+{
+ "kind": "validacion-b2-rem167",
+ "tarea": "B2-VALIDACION",
+ "modo": "produccion",
+ "manifiesto_sha256": "0f1582cc3718f2f5545ab4a112d108d7e4d4639505dec4826d21d22045664d7b",
+ "que_valida": "procedencia y autoridad, identidad del cierre C0 B2 y del proveedor, q/B1/DME del manifiesto, cobertura del plan (480 puentes, 60 celdas, 1.920 contextos), s_Pi/s_T exactos, Q exacto y float, n_min, premisas P7/s_T/eta_H por estado y nodo, K1 intervalar reproducido bit a bit y su encierro de la referencia exacta, minimos por grupo, lectura y conciliacion",
+ "depende_de": "la autenticidad de los literales nacionales y de la grilla (produccion: claves y huellas de fila comprobadas por el trabajador y fijadas por el manifiesto) y la cota B1 aceptada por el libro 19",
+ "alcance_sha256": "848e11532851b2e432557c0560c6514ee116844b9456660185b95d4f16599974",
+ "puerta_nativa": {
+  "proveedor": "claude",
+  "transcripcion": "@@TRANSCRIPCION_CLAUDE_BS2@@\\fa99d748-337c-44a7-8d1d-ca7ced1b9871.jsonl",
+  "linea": 34728,
+  "uuid": "2546ac31-92d8-42b6-b7e7-744880bbcf11",
+  "session_id": "fa99d748-337c-44a7-8d1d-ca7ced1b9871",
+  "timestamp": "2026-11-08T06:53:20.223Z",
+  "registro_sha256": "94314daa2f821e72f0878ca040ff2dbb75dbbc602ea373be8f1e66d0b317c4b8",
+  "contenido": "AUTORIZO ALCANCE PASO4 alcance_sha256=848e11532851b2e432557c0560c6514ee116844b9456660185b95d4f16599974",
+  "mensaje_sha256": "94314daa2f821e72f0878ca040ff2dbb75dbbc602ea373be8f1e66d0b317c4b8",
+  "alcance_sha256": "848e11532851b2e432557c0560c6514ee116844b9456660185b95d4f16599974",
+  "modo_arnes": false
+ },
+ "indice_sha256": "5f7ec64bc4027aa9dd2893042622a027a480ba410474d01041938cb56295f9de",
+ "evidencia_sha256": "dfbe7e6cb7c1c2c97c408797ddb9634be9704ab91892fb3df349f2cc50b0f56d",
+ "lectura_sha256": "1fd0e1803a7fa4824b750f89a1a1e489232086e99a3469ba205abded28417638",
+ "procedencia": {
+  "tipo": "lanzamiento",
+  "modo": "produccion",
+  "area": "@@R_BS2@@\\tmp\\paso4_produccion_b2_doce_cov_desde_rem169",
+  "lanzamiento": "B2PROD169",
+  "eventos_sha256": "1bbb39711e73c4cc2db24c976dabf0743fa9bfe9c36f40fdc4edca903045c9d3",
+  "evento_inicio_sha256": "b17e9ecd9d21cb86fb8f4bead77192be7155f5211f1399689a7c1f66c4f8c552",
+  "evento_fin_sha256": "1161d40227e4fdc6429356ab967183a678498e6ae1aa039061c11f5098105623",
+  "trabajo_id": "B2PROD169_TRABAJO",
+  "trabajo_dir": "@@R_BS2@@\\tmp\\paso4_produccion_b2_doce_cov_desde_rem169\\b2_B2PROD169\\TRABAJO",
+  "salida_trabajador_sha256": "964747c10f7c8d4108602e9b8790bd14513ad5e2a988a1e8ca9712c59acf9dff",
+  "evidencia_sha256": "dfbe7e6cb7c1c2c97c408797ddb9634be9704ab91892fb3df349f2cc50b0f56d",
+  "validacion_id": "B2PROD169_VALIDACION"
+ },
+ "fallos": [],
+ "datos": {
+  "grupos": {
+   "K1": {
+    "contextos": 192,
+    "pendientes": 0,
+    "L_K1": 0.21560005716016342,
+    "L_K1_hex": "0x1.b98c85d42628dp-3",
+    "minimo_parcial_hex": "0x1.b98c85d42628dp-3"
+   },
+   "K2": {
+    "contextos": 192,
+    "pendientes": 0,
+    "L_K1": 0.21521705657251128,
+    "L_K1_hex": "0x1.b8c3b85c299c6p-3",
+    "minimo_parcial_hex": "0x1.b8c3b85c299c6p-3"
+   },
+   "K3": {
+    "contextos": 864,
+    "pendientes": 0,
+    "L_K1": 0.2137950304234,
+    "L_K1_hex": "0x1.b5da2b3dba041p-3",
+    "minimo_parcial_hex": "0x1.b5da2b3dba041p-3"
+   },
+   "K4": {
+    "contextos": 864,
+    "pendientes": 0,
+    "L_K1": 0.2134152363576292,
+    "L_K1_hex": "0x1.b5130c24fe36ap-3",
+    "minimo_parcial_hex": "0x1.b5130c24fe36ap-3"
+   },
+   "K5": {
+    "contextos": 96,
+    "pendientes": 0,
+    "L_K1": 0.21560005716016342,
+    "L_K1_hex": "0x1.b98c85d42628dp-3",
+    "minimo_parcial_hex": "0x1.b98c85d42628dp-3"
+   },
+   "K6": {
+    "contextos": 96,
+    "pendientes": 0,
+    "L_K1": 0.21521705657251128,
+    "L_K1_hex": "0x1.b8c3b85c299c6p-3",
+    "minimo_parcial_hex": "0x1.b8c3b85c299c6p-3"
+   }
+  },
+  "U_C2": 0.17312398870886692,
+  "holgura_relativa_max_k1": 1.3217340403513923e-15,
+  "contextos_acotados": 1920,
+  "contextos_pendientes": 0,
+  "n_min": {
+   "addback_completo": {
+    "lo": 0.027020331240602217,
+    "hi": 0.02702033124060222,
+    "lo_hex": "0x1.bab37bc059ae1p-6",
+    "hi_hex": "0x1.bab37bc059ae2p-6",
+    "exacto": "67550828101505543/2500000000000000000",
+    "float_c0_hex": "0x1.bab37bc059ae1p-6",
+    "dme": "0.0",
+    "signo": "positivo"
+   },
+   "sin_addback": {
+    "lo": 0.02697233124060213,
+    "hi": 0.026972331240602134,
+    "lo_hex": "0x1.b9ea2824d1256p-6",
+    "hi_hex": "0x1.b9ea2824d1257p-6",
+    "exacto": "269723312406021323/10000000000000000000",
+    "float_c0_hex": "0x1.b9ea2824d1256p-6",
+    "dme": "0.0",
+    "signo": "positivo"
+   }
+  }
+ },
+ "recuentos_validacion": {
+  "s_Pi_exacto": 480,
+  "Q_exacto": 60,
+  "Q_float_replica": 60,
+  "k1_intervalar": 1920,
+  "k1_referencia_exacta": 1920,
+  "macro.bridge": 0,
+  "GridCell.Q": 0,
+  "bloqueadas": {}
+ },
+ "conciliacion": {
+  "conforme": true,
+  "fallos": [],
+  "comprobaciones": {
+   "inclusiones": 4,
+   "afirmaciones": 12,
+   "grupos": 6
+  }
+ },
+ "aceptada": true,
+ "dictamen": "validada"
+}

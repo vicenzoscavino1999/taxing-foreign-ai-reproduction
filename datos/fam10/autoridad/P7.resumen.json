@@ -1,0 +1,35 @@
+{
+ "_resumen_fam10": {
+  "kind": "resumen-libro-fam10",
+  "clave": "P7",
+  "libro": "review_20261105_rem155_P7_aceptado.json",
+  "original_sha256": "ae2c36e5d5c509b879eb9c423e7564e215ee1bf3d85617e4e3cf3039fca6d652",
+  "campos": [
+   "products",
+   "summary.producto_sha256",
+   "overlay_rule",
+   "nonattained_ENF_claims_preserved"
+  ],
+  "regla": "solo los campos que lee el código histórico, copiados tal cual del original autenticado; rutas privadas por marcadores; sin transcripciones, horas ni referencias de decisión"
+ },
+ "products": {
+  "@@R_BS2@@\\tmp\\paso4_produccion_siete_casos_desde_rem154\\p7_REM154_P7\\P7-K1-S1-N-df\\resultado.json": "e608aac7c1c0e50d041e1e1203da7ecf63e7fb7a983ac81aa3ffb47444b9ed57",
+  "@@R_BS2@@\\tmp\\paso4_produccion_siete_casos_desde_rem154\\p7_REM154_P7\\P7-K1-S1-N-df\\validacion.json": "25322b4376844d27697d53021c44dbe07137689f0deba7b2749ac708375c765f",
+  "@@R_BS2@@\\tmp\\paso4_produccion_siete_casos_desde_rem154\\p7_REM154_P7\\P7-K1-S1-G-df\\resultado.json": "f5036f8a88cd4a40a9bae5a1fcd5d0923c7cdf6cce02fd7b9ddf2ee6bc5969ef",
+  "@@R_BS2@@\\tmp\\paso4_produccion_siete_casos_desde_rem154\\p7_REM154_P7\\P7-K1-S1-G-df\\validacion.json": "5851f212a414ad0fd09418dc1f8d0d488c42b1480cd48c12956283ff0cb7d8ca",
+  "@@R_BS2@@\\tmp\\paso4_produccion_siete_casos_desde_rem154\\p7_REM154_P7\\P7-K1-S1-N-f\\resultado.json": "5e5732d3738a3c1e031c1101609c1eff9bdf805b44fdcdab97f0c1d4dff8b545",
+  "@@R_BS2@@\\tmp\\paso4_produccion_siete_casos_desde_rem154\\p7_REM154_P7\\P7-K1-S1-N-f\\validacion.json": "f3faef5c709398846e593102d09a17cf4a0f227f8980081db0bad6f6e6776cb7",
+  "@@R_BS2@@\\tmp\\paso4_produccion_siete_casos_desde_rem154\\p7_REM154_P7\\P7-K1-S1-G-d\\resultado.json": "ade869e0feb290abc56aef1dd5892b795c4580779479d69d07a8b49d38c72825",
+  "@@R_BS2@@\\tmp\\paso4_produccion_siete_casos_desde_rem154\\p7_REM154_P7\\P7-K1-S1-G-d\\validacion.json": "c27b5817c5f69dde119924cd28ae536430a3b1089a489857d487806f9874ad92",
+  "@@R_BS2@@\\tmp\\paso4_produccion_siete_casos_desde_rem154\\p7_REM154_P7\\CONCILIACION\\SUPLEMENTO_P7.jsonl": "a450014b1b431b8099586360e877647650a9ced27ab6b40a1d8b997a861344bc",
+  "@@R_BS2@@\\tmp\\paso4_produccion_siete_casos_desde_rem154\\p7_REM154_P7\\CONCILIACION\\SUPLEMENTO_P7.json": "bc281c6a35fa6175d91bfb30c8c4e95f385dc21cf0ad65e62382eccbe741bb8f"
+ },
+ "summary": {
+  "producto_sha256": "a450014b1b431b8099586360e877647650a9ced27ab6b40a1d8b997a861344bc"
+ },
+ "overlay_rule": "Replace only the seven partial evidence conclusions by accepted two-sided inconclusive evidence; original categories and all 1721 other claims preserved. Prior files are not edited.",
+ "nonattained_ENF_claims_preserved": [
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:df:conditional_full:G:addback_completo:macro:guardrail_deuda",
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:df:conditional_full:G:addback_completo:macro:guardrail_deuda"
+ ]
+}

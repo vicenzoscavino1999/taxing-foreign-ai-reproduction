@@ -1,0 +1,5899 @@
+{
+ "C2": {
+  "G": {
+   "cota_C2_en_s": "g*",
+   "inf_C2_punto": [
+    0.0003990304147818546,
+    0.0003990434635030444
+   ],
+   "p_max": [
+    0.5474661219332874,
+    0.5474661479781556
+   ],
+   "p_min": [
+    0.5474661219332854,
+    0.5474661479781574
+   ],
+   "punto_inf": {
+    "a": 2.499658203125,
+    "beta_tilde": 4.0,
+    "eta_d": 4.0,
+    "eta_f": 4.05,
+    "kappa_tilde": 0.2,
+    "phi": 0.5,
+    "rho": 1.0,
+    "u_theta": 0.9,
+    "z_cost": 100.0
+   },
+   "s_max": [
+    0.19999999999999987,
+    0.20000000000000018
+   ],
+   "s_min": [
+    0.0007142857142857142,
+    0.0007142857142857155
+   ],
+   "sup_C2": [
+    0.5474661219332874,
+    0.5474661220701559,
+    "convergido"
+   ]
+  },
+  "N": {
+   "cota_C2_en_s": "g* (1 - s)",
+   "inf_C2_punto": [
+    0.0003490062446640384,
+    0.0003490575640780722
+   ],
+   "p_max": [
+    0.4379728975466295,
+    0.43797298082768593
+   ],
+   "p_min": [
+    0.5470750747033329,
+    0.5470751007296015
+   ],
+   "punto_inf": {
+    "a": 2.5,
+    "beta_tilde": 3.765625,
+    "eta_d": 4.0,
+    "eta_f": 4.05,
+    "kappa_tilde": 0.2,
+    "phi": 0.5,
+    "rho": 1.0,
+    "u_theta": 0.9,
+    "z_cost": 100.0
+   },
+   "s_max": [
+    0.19999999999999987,
+    0.20000000000000018
+   ],
+   "s_min": [
+    0.0007142857142857142,
+    0.0007142857142857155
+   ],
+   "sup_C2": [
+    0.547075074703333,
+    0.5470750748401059,
+    "convergido"
+   ]
+  }
+ },
+ "T2_G": 0.0001,
+ "afirmaciones": {
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:G:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 0.48579580295891334,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.4339428908031255,
+    -1.9481470878442122
+   ],
+   "sup_G": [
+    0.4544410397044361,
+    0.4544410397044382
+   ],
+   "sup_G_individual_U": 0.4544410398413049
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:G:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 1.1253813233513634,
+   "brecha_sup": 2.3869795029440866e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -5.641040177645523,
+    -4.515658854294159
+   ],
+   "sup_G": [
+    0.33186606477312347,
+    0.33186606477312586
+   ],
+   "sup_G_individual_U": 0.33186606490999254
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:G:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 0.44813123983712,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.245080081457649,
+    -1.7969488416205288
+   ],
+   "sup_G": [
+    0.46165935959013304,
+    0.4616593595901351
+   ],
+   "sup_G_individual_U": 0.4616593597270018
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:G:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 0.4669635213980168,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.339511486130387,
+    -1.8725479647323702
+   ],
+   "sup_G": [
+    0.45805019964728455,
+    0.45805019964728666
+   ],
+   "sup_G_individual_U": 0.45805019978415334
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:G:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 0.35508734916598406,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.7785266655117058,
+    -1.4234393163457217
+   ],
+   "sup_G": [
+    0.47189197615842754,
+    0.4718919761584296
+   ],
+   "sup_G_individual_U": 0.4718919762952963
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:G:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 0.8224442075340983,
+   "brecha_sup": 2.275957200481571e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -4.122011414103049,
+    -3.299567206568951
+   ],
+   "sup_G": [
+    0.37231131681518015,
+    0.3723113168151824
+   ],
+   "sup_G_individual_U": 0.3723113169520491
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:G:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 0.3275651627950238,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.640521150339759,
+    -1.3129559875447352
+   ],
+   "sup_G": [
+    0.47775618338319725,
+    0.4777561833831993
+   ],
+   "sup_G_individual_U": 0.477756183520066
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:G:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 0.3413262559805039,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.7095239079257323,
+    -1.3681976519452284
+   ],
+   "sup_G": [
+    0.4748240797708124,
+    0.4748240797708144
+   ],
+   "sup_G_individual_U": 0.4748240799076811
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 0.4837973393222583,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.4239219208114404,
+    -1.940124581489182
+   ],
+   "sup_G": [
+    0.4548240402920882,
+    0.45482404029209034
+   ],
+   "sup_G_individual_U": 0.454824040428957
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:G:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 1.1233828597147086,
+   "brecha_sup": 2.3869795029440866e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -5.6310192076538375,
+    -4.507636347939129
+   ],
+   "sup_G": [
+    0.3322490653607756,
+    0.332249065360778
+   ],
+   "sup_G_individual_U": 0.33224906549764466
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:G:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 0.44613277620046543,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.235059111465964,
+    -1.7889263352654987
+   ],
+   "sup_G": [
+    0.46204236017778516,
+    0.4620423601777872
+   ],
+   "sup_G_individual_U": 0.4620423603146539
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:G:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 0.4649650577613622,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.3294905161387023,
+    -1.86452545837734
+   ],
+   "sup_G": [
+    0.4584332002349367,
+    0.4584332002349388
+   ],
+   "sup_G_individual_U": 0.45843320037180546
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:G:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 0.35362703517041894,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.77120415913251,
+    -1.4175771239620911
+   ],
+   "sup_G": [
+    0.47220312817839427,
+    0.4722031281783963
+   ],
+   "sup_G_individual_U": 0.472203128315263
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:G:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 0.8209838935385334,
+   "brecha_sup": 2.275957200481571e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -4.1146889077238535,
+    -3.29370501418532
+   ],
+   "sup_G": [
+    0.37262246883514694,
+    0.3726224688351492
+   ],
+   "sup_G_individual_U": 0.3726224689720159
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:G:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 0.32610484879945867,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.633198643960563,
+    -1.3070937951611044
+   ],
+   "sup_G": [
+    0.478067335403164,
+    0.47806733540316604
+   ],
+   "sup_G_individual_U": 0.4780673355400327
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:G:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 0.3398659419849386,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.7022014015465363,
+    -1.3623354595615977
+   ],
+   "sup_G": [
+    0.47513523179077916,
+    0.47513523179078115
+   ],
+   "sup_G_individual_U": 0.47513523192764784
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 0.4857458170594884,
+   "brecha_sup": 4.218847493575595e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.023173212584848835,
+   "inf_G": [
+    -2.4339428908031255,
+    -1.9481970737436372
+   ],
+   "sup_G": [
+    0.43087678002640184,
+    0.43087678002640606
+   ],
+   "sup_G_individual_U": 0.4540499926112549
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 1.1253313374519385,
+   "brecha_sup": 4.6074255521944e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.053707514375773924,
+   "inf_G": [
+    -5.641040177645523,
+    -4.515708840193584
+   ],
+   "sup_G": [
+    0.277767503304164,
+    0.2777675033041686
+   ],
+   "sup_G_individual_U": 0.33147501767994253
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 0.44808125393769505,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.021375077541893994,
+   "inf_G": [
+    -2.245080081457649,
+    -1.7969988275199538
+   ],
+   "sup_G": [
+    0.4398932349550536,
+    0.4398932349550578
+   ],
+   "sup_G_individual_U": 0.46126831249695177
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 0.4669135354985918,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.022274145063371442,
+   "inf_G": [
+    -2.339511486130387,
+    -1.8725979506317951
+   ],
+   "sup_G": [
+    0.4353850074907277,
+    0.4353850074907319
+   ],
+   "sup_G_individual_U": 0.45765915255410333
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 0.3550373632665591,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.018826059664613537,
+   "inf_G": [
+    -1.7785266655117058,
+    -1.4234893022451467
+   ],
+   "sup_G": [
+    0.4526748694006286,
+    0.45267486940063273
+   ],
+   "sup_G_individual_U": 0.47150092906524627
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 0.8223942216346734,
+   "brecha_sup": 4.385380947269368e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.043632313197440264,
+   "inf_G": [
+    -4.122011414103049,
+    -3.299617192468376
+   ],
+   "sup_G": [
+    0.32828795652455445,
+    0.32828795652455883
+   ],
+   "sup_G_individual_U": 0.3719202697219991
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 0.32751517689559884,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.01736524375772891,
+   "inf_G": [
+    -1.640521150339759,
+    -1.3130059734441601
+   ],
+   "sup_G": [
+    0.4599998925322829,
+    0.45999989253228707
+   ],
+   "sup_G_individual_U": 0.477365136290016
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 0.34127627008107897,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.018095651711171168,
+   "inf_G": [
+    -1.7095239079257323,
+    -1.3682476378446533
+   ],
+   "sup_G": [
+    0.45633738096645576,
+    0.4563373809664599
+   ],
+   "sup_G_individual_U": 0.4744330326776311
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 0.48374735342283337,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.023077804402746205,
+   "inf_G": [
+    -2.4239219208114404,
+    -1.940174567388607
+   ],
+   "sup_G": [
+    0.43135518879615664,
+    0.4313551887961608
+   ],
+   "sup_G_individual_U": 0.454432993198907
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 1.1233328738152837,
+   "brecha_sup": 4.6074255521944e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.05361210619367124,
+   "inf_G": [
+    -5.6310192076538375,
+    -4.507686333838554
+   ],
+   "sup_G": [
+    0.2782459120739188,
+    0.2782459120739234
+   ],
+   "sup_G_individual_U": 0.33185801826759465
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 0.4460827903010405,
+   "brecha_sup": 4.218847493575595e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.02127966935979131,
+   "inf_G": [
+    -2.235059111465964,
+    -1.7889763211649237
+   ],
+   "sup_G": [
+    0.44037164372480836,
+    0.4403716437248126
+   ],
+   "sup_G_individual_U": 0.4616513130846039
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 0.46491507186193726,
+   "brecha_sup": 4.218847493575595e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.022178736881268757,
+   "inf_G": [
+    -2.3294905161387023,
+    -1.864575444276765
+   ],
+   "sup_G": [
+    0.4358634162604825,
+    0.4358634162604867
+   ],
+   "sup_G_individual_U": 0.45804215314175545
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 0.353577049270994,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.018748549473925347,
+   "inf_G": [
+    -1.77120415913251,
+    -1.417627109861516
+   ],
+   "sup_G": [
+    0.4530635316112835,
+    0.45306353161128765
+   ],
+   "sup_G_individual_U": 0.471812081085213
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 0.8209339076391085,
+   "brecha_sup": 4.385380947269368e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.04355480300675213,
+   "inf_G": [
+    -4.1146889077238535,
+    -3.293755000084745
+   ],
+   "sup_G": [
+    0.32867661873520937,
+    0.32867661873521375
+   ],
+   "sup_G_individual_U": 0.3722314217419659
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 0.3260548629000337,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.017287733567040775,
+   "inf_G": [
+    -1.633198643960563,
+    -1.3071437810605293
+   ],
+   "sup_G": [
+    0.46038855474293783,
+    0.46038855474294194
+   ],
+   "sup_G_individual_U": 0.4776762883099827
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 0.3398159560855136,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.018018141520483033,
+   "inf_G": [
+    -1.7022014015465363,
+    -1.3623854454610227
+   ],
+   "sup_G": [
+    0.45672604317711063,
+    0.4567260431771148
+   ],
+   "sup_G_individual_U": 0.4747441846975978
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:G:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 0.5328794742024843,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.670036281734148,
+    -2.137156807531664
+   ],
+   "sup_G": [
+    0.45521985564179906,
+    0.4552198556418011
+   ],
+   "sup_G_individual_U": 0.4552198557786678
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:G:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 1.2345050345935764,
+   "brecha_sup": 2.3314683517128287e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -6.188223231508801,
+    -4.953718196915225
+   ],
+   "sup_G": [
+    0.33367109150988694,
+    0.3336710915098893
+   ],
+   "sup_G_individual_U": 0.33367109164675596
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:G:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 0.49156143405830055,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.4628537076778323,
+    -1.9712922736195317
+   ],
+   "sup_G": [
+    0.46237774298142054,
+    0.4623777429814226
+   ],
+   "sup_G_individual_U": 0.4623777431182893
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:G:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 0.5122204541303925,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.56644499470599,
+    -2.0542245405755977
+   ],
+   "sup_G": [
+    0.45879879931160983,
+    0.4587987993116119
+   ],
+   "sup_G_individual_U": 0.45879879944847857
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:G:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 0.36611459020952575,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.8338209673751997,
+    -1.467706377165674
+   ],
+   "sup_G": [
+    0.47415475974851357,
+    0.4741547597485156
+   ],
+   "sup_G_individual_U": 0.4741547598853823
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:G:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 0.8480015490848181,
+   "brecha_sup": 2.275957200481571e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -4.250164535355581,
+    -3.402162986270763
+   ],
+   "sup_G": [
+    0.377555668764942,
+    0.3775556687649443
+   ],
+   "sup_G_individual_U": 0.37755566890181097
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:G:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 0.337736740490554,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.6915248678883141,
+    -1.35378812739776
+   ],
+   "sup_G": [
+    0.4798433853409536,
+    0.4798433853409556
+   ],
+   "sup_G_individual_U": 0.4798433854778223
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:G:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 0.3519256653500398,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.7626729176317568,
+    -1.410747252281717
+   ],
+   "sup_G": [
+    0.4769990725447336,
+    0.4769990725447356
+   ],
+   "sup_G_individual_U": 0.4769990726816023
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 0.5306871588290396,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.659043273822143,
+    -2.128356114993103
+   ],
+   "sup_G": [
+    0.45559964970756983,
+    0.4555996497075719
+   ],
+   "sup_G_individual_U": 0.45559964984443857
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:G:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 1.2323127192201309,
+   "brecha_sup": 2.3869795029440866e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -6.177230223596795,
+    -4.944917504376664
+   ],
+   "sup_G": [
+    0.33405088557565765,
+    0.33405088557566004
+   ],
+   "sup_G_individual_U": 0.3340508857125267
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:G:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 0.48936911868485566,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.451860699765827,
+    -1.9624915810809713
+   ],
+   "sup_G": [
+    0.4627575370471913,
+    0.46275753704719336
+   ],
+   "sup_G_individual_U": 0.46275753718406004
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:G:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 0.5100281387569479,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.555451986793985,
+    -2.045423848037037
+   ],
+   "sup_G": [
+    0.45917859337738054,
+    0.45917859337738265
+   ],
+   "sup_G_individual_U": 0.45917859351424933
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:G:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 0.3646088751275154,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.8262708046521436,
+    -1.4616619295246283
+   ],
+   "sup_G": [
+    0.4744565954913649,
+    0.47445659549136693
+   ],
+   "sup_G_individual_U": 0.4744565956282336
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:G:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 0.8464958340028073,
+   "brecha_sup": 2.275957200481571e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -4.2426143726325245,
+    -3.3961185386297172
+   ],
+   "sup_G": [
+    0.3778575045077933,
+    0.3778575045077956
+   ],
+   "sup_G_individual_U": 0.3778575046446623
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:G:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 0.33623102540854366,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.683974705165258,
+    -1.3477436797567144
+   ],
+   "sup_G": [
+    0.48014522108380486,
+    0.4801452210838069
+   ],
+   "sup_G_individual_U": 0.4801452212206736
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:G:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 0.3504199502680294,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.7551227549087007,
+    -1.4047028046406713
+   ],
+   "sup_G": [
+    0.47730090828758487,
+    0.4773009082875869
+   ],
+   "sup_G_individual_U": 0.4773009084244536
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 0.5328294883030593,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.0229792039718808,
+   "inf_G": [
+    -2.670036281734148,
+    -2.1372067934310888
+   ],
+   "sup_G": [
+    0.4318496045767328,
+    0.431849604576737
+   ],
+   "sup_G_individual_U": 0.4548288085486178
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 1.2344550486941515,
+   "brecha_sup": 4.6629367034256575e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.05325786932259807,
+   "inf_G": [
+    -6.188223231508801,
+    -4.95376818281465
+   ],
+   "sup_G": [
+    0.2800221750941032,
+    0.2800221750941079
+   ],
+   "sup_G_individual_U": 0.33328004441670595
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 0.4915114481588756,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.02119612310781438,
+   "inf_G": [
+    -2.4628537076778323,
+    -1.9713422595189567
+   ],
+   "sup_G": [
+    0.4407905727804207,
+    0.4407905727804249
+   ],
+   "sup_G_individual_U": 0.46198669588823926
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 0.5121704682309676,
+   "brecha_sup": 4.218847493575595e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.02208766353984759,
+   "inf_G": [
+    -2.56644499470599,
+    -2.0542745264750226
+   ],
+   "sup_G": [
+    0.43632008867857675,
+    0.43632008867858096
+   ],
+   "sup_G_individual_U": 0.45840775221842855
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 0.3660646043101008,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.01826238410958314,
+   "inf_G": [
+    -1.8338209673751997,
+    -1.467756363065099
+   ],
+   "sup_G": [
+    0.455501328545745,
+    0.45550132854574915
+   ],
+   "sup_G_individual_U": 0.4737637126553323
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 0.8479515631853931,
+   "brecha_sup": 4.496403249731884e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.04232590766709776,
+   "inf_G": [
+    -4.250164535355581,
+    -3.402212972170188
+   ],
+   "sup_G": [
+    0.3348387140046587,
+    0.3348387140046632
+   ],
+   "sup_G_individual_U": 0.37716462167176096
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 0.33768675459112907,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.016845306841466345,
+   "inf_G": [
+    -1.6915248678883141,
+    -1.353838113297185
+   ],
+   "sup_G": [
+    0.46260703140630177,
+    0.46260703140630594
+   ],
+   "sup_G_individual_U": 0.4794523382477723
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 0.3518756794506148,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.017553845475524743,
+   "inf_G": [
+    -1.7626729176317568,
+    -1.410797238181142
+   ],
+   "sup_G": [
+    0.4590541799760234,
+    0.45905417997602754
+   ],
+   "sup_G_individual_U": 0.4766080254515523
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 0.5306371729296147,
+   "brecha_sup": 4.218847493575595e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.022884594557282534,
+   "inf_G": [
+    -2.659043273822143,
+    -2.128406100892528
+   ],
+   "sup_G": [
+    0.4323240080571018,
+    0.432324008057106
+   ],
+   "sup_G_individual_U": 0.45520860261438856
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 1.232262733320706,
+   "brecha_sup": 4.6629367034256575e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.053163259907999805,
+   "inf_G": [
+    -6.177230223596795,
+    -4.944967490276089
+   ],
+   "sup_G": [
+    0.28049657857447224,
+    0.2804965785744769
+   ],
+   "sup_G_individual_U": 0.3336598384824767
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 0.4893191327854307,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.021101513693216112,
+   "inf_G": [
+    -2.451860699765827,
+    -1.9625415669803963
+   ],
+   "sup_G": [
+    0.44126497626078975,
+    0.4412649762607939
+   ],
+   "sup_G_individual_U": 0.46236648995401003
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 0.5099781528575229,
+   "brecha_sup": 4.218847493575595e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.021993054125249323,
+   "inf_G": [
+    -2.555451986793985,
+    -2.045473833936462
+   ],
+   "sup_G": [
+    0.4367944921589458,
+    0.43679449215895
+   ],
+   "sup_G_individual_U": 0.4587875462841993
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 0.36455888922809043,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.018187194670069295,
+   "inf_G": [
+    -1.8262708046521436,
+    -1.4617119154240532
+   ],
+   "sup_G": [
+    0.45587835372811014,
+    0.4558783537281143
+   ],
+   "sup_G_individual_U": 0.4740655483981836
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 0.8464458481033823,
+   "brecha_sup": 4.440892098500626e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.04225071822758397,
+   "inf_G": [
+    -4.2426143726325245,
+    -3.396168524529142
+   ],
+   "sup_G": [
+    0.33521573918702385,
+    0.3352157391870283
+   ],
+   "sup_G_individual_U": 0.37746645741461227
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 0.3361810395091187,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.016770117401952556,
+   "inf_G": [
+    -1.683974705165258,
+    -1.3477936656561393
+   ],
+   "sup_G": [
+    0.46298405658866687,
+    0.46298405658867103
+   ],
+   "sup_G_individual_U": 0.4797541739906236
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 0.35036996436860446,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.017478656036010898,
+   "inf_G": [
+    -1.7551227549087007,
+    -1.4047527905400963
+   ],
+   "sup_G": [
+    0.45943120515838853,
+    0.4594312051583927
+   ],
+   "sup_G_individual_U": 0.4769098611944036
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:G:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 0.4774290834194259,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.391989340137382,
+    -1.914560256717956
+   ],
+   "sup_G": [
+    0.43265605384890027,
+    0.4326560538489023
+   ],
+   "sup_G_individual_U": 0.432656053985769
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:G:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 1.5082161854399478,
+   "brecha_sup": 2.8033131371785203e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368667124079792e-10,
+   "inf_G": [
+    -7.56070315994633,
+    -6.052486974506382
+   ],
+   "sup_G": [
+    0.1845695027914045,
+    0.1845695027914073
+   ],
+   "sup_G_individual_U": 0.184569502928274
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:G:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 0.44456416618826156,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.2271935723725123,
+    -1.7826294061842507
+   ],
+   "sup_G": [
+    0.4405658772747926,
+    0.44056587727479474
+   ],
+   "sup_G_individual_U": 0.4405658774116614
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:G:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 0.4609966248038435,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.309591456254947,
+    -1.8485948314511034
+   ],
+   "sup_G": [
+    0.4366109655618464,
+    0.43661096556184853
+   ],
+   "sup_G_individual_U": 0.4366109656987152
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:G:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 0.3825673811102379,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.9163208041855815,
+    -1.5337534230753436
+   ],
+   "sup_G": [
+    0.45141680525041344,
+    0.4514168052504155
+   ],
+   "sup_G_individual_U": 0.4514168053872822
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:G:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 1.2083732219400476,
+   "brecha_sup": 2.6367796834847468e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368667124079792e-10,
+   "inf_G": [
+    -6.057189518597383,
+    -4.848816296657335
+   ],
+   "sup_G": [
+    0.24386929565596704,
+    0.24386929565596968
+   ],
+   "sup_G_individual_U": 0.2438692957928364
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:G:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 0.3562379474622184,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.7842961530257992,
+    -1.4280582055635809
+   ],
+   "sup_G": [
+    0.4580341093581049,
+    0.45803410935810696
+   ],
+   "sup_G_individual_U": 0.45803410949497364
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:G:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 0.36940266428622803,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.8503084786056903,
+    -1.4809058143194622
+   ],
+   "sup_G": [
+    0.4547254573042592,
+    0.4547254573042612
+   ],
+   "sup_G_individual_U": 0.4547254574411279
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 0.4741815720809872,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.375705224142845,
+    -1.901523652061858
+   ],
+   "sup_G": [
+    0.43343765451686955,
+    0.43343765451687166
+   ],
+   "sup_G_individual_U": 0.43343765465373835
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:G:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 1.5049686741015087,
+   "brecha_sup": 2.7478019859472624e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368667124079792e-10,
+   "inf_G": [
+    -7.544419043951793,
+    -6.039450369850284
+   ],
+   "sup_G": [
+    0.18535110345937383,
+    0.18535110345937658
+   ],
+   "sup_G_individual_U": 0.1853511035962433
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:G:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 0.44131665484982285,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.2109094563779754,
+    -1.7695928015281526
+   ],
+   "sup_G": [
+    0.44134747794276197,
+    0.441347477942764
+   ],
+   "sup_G_individual_U": 0.4413474780796307
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:G:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 0.45774911346540503,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.29330734026041,
+    -1.835558226795005
+   ],
+   "sup_G": [
+    0.43739256622981576,
+    0.43739256622981787
+   ],
+   "sup_G_individual_U": 0.43739256636668455
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:G:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 0.3799656665309743,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.9032749307218184,
+    -1.5233092641908441
+   ],
+   "sup_G": [
+    0.4520706870164459,
+    0.452070687016448
+   ],
+   "sup_G_individual_U": 0.45207068715331467
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:G:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 1.205771507360784,
+   "brecha_sup": 2.6367796834847468e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368667124079792e-10,
+   "inf_G": [
+    -6.0441436451336195,
+    -4.8383721377728355
+   ],
+   "sup_G": [
+    0.24452317742199953,
+    0.24452317742200216
+   ],
+   "sup_G_individual_U": 0.24452317755886888
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:G:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 0.35363623288295454,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.7712502795620362,
+    -1.4176140466790816
+   ],
+   "sup_G": [
+    0.4586879911241374,
+    0.45868799112413944
+   ],
+   "sup_G_individual_U": 0.4586879912610061
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:G:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 0.3668009497069644,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.8372626051419272,
+    -1.4704616554349628
+   ],
+   "sup_G": [
+    0.45537933907029166,
+    0.45537933907029376
+   ],
+   "sup_G_individual_U": 0.45537933920716045
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 0.47737909752000096,
+   "brecha_sup": 4.385380947269368e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.028600008168504554,
+   "inf_G": [
+    -2.391989340137382,
+    -1.914610242617381
+   ],
+   "sup_G": [
+    0.40366499858721006,
+    0.40366499858721444
+   ],
+   "sup_G_individual_U": 0.432265006755719
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 1.508166199540523,
+   "brecha_sup": 4.954370247389761e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.09040014008372003,
+   "inf_G": [
+    -7.56070315994633,
+    -6.052536960405807
+   ],
+   "sup_G": [
+    0.09377831561449901,
+    0.09377831561450396
+   ],
+   "sup_G_individual_U": 0.184178455698224
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 0.4445141802888366,
+   "brecha_sup": 4.3298697960381105e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.026629614654376077,
+   "inf_G": [
+    -2.2271935723725123,
+    -1.7826793920836757
+   ],
+   "sup_G": [
+    0.413545215527231,
+    0.41354521552723533
+   ],
+   "sup_G_individual_U": 0.4401748301816114
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 0.46094663890441856,
+   "brecha_sup": 4.3298697960381105e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.027614811411440343,
+   "inf_G": [
+    -2.309591456254947,
+    -1.8486448173505283
+   ],
+   "sup_G": [
+    0.40860510705722053,
+    0.40860510705722486
+   ],
+   "sup_G_individual_U": 0.4362199184686652
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 0.38251739521081296,
+   "brecha_sup": 4.218847493575595e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.023926570989020568,
+   "inf_G": [
+    -1.9163208041855815,
+    -1.5338034089747685
+   ],
+   "sup_G": [
+    0.4270991871682074,
+    0.4270991871682116
+   ],
+   "sup_G_individual_U": 0.45102575815723217
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 1.2083232360406226,
+   "brecha_sup": 4.801714581503802e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.07562813811120847,
+   "inf_G": [
+    -6.057189518597383,
+    -4.84886628255676
+   ],
+   "sup_G": [
+    0.1678501104515731,
+    0.1678501104515779
+   ],
+   "sup_G_individual_U": 0.24347824856278638
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 0.3561879615627934,
+   "brecha_sup": 4.218847493575595e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.022278153269336687,
+   "inf_G": [
+    -1.7842961530257992,
+    -1.4281081914630058
+   ],
+   "sup_G": [
+    0.4353649089955827,
+    0.43536490899558694
+   ],
+   "sup_G_individual_U": 0.45764306226492363
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 0.3693526783868031,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.023102362129178655,
+   "inf_G": [
+    -1.8503084786056903,
+    -1.4809558002188872
+   ],
+   "sup_G": [
+    0.4312320480818951,
+    0.43123204808189924
+   ],
+   "sup_G_individual_U": 0.4543344102110779
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 0.47413158618156226,
+   "brecha_sup": 4.3298697960381105e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.02840530585925155,
+   "inf_G": [
+    -2.375705224142845,
+    -1.9015736379612829
+   ],
+   "sup_G": [
+    0.40464130156443245,
+    0.4046413015644368
+   ],
+   "sup_G_individual_U": 0.43304660742368833
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 1.5049186882020837,
+   "brecha_sup": 4.898859096158503e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.09020543777446698,
+   "inf_G": [
+    -7.544419043951793,
+    -6.039500355749709
+   ],
+   "sup_G": [
+    0.0947546185917214,
+    0.0947546185917263
+   ],
+   "sup_G_individual_U": 0.18496005636619328
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 0.4412666689503979,
+   "brecha_sup": 4.274358644806853e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.02643491234512302,
+   "inf_G": [
+    -2.2109094563779754,
+    -1.7696427874275775
+   ],
+   "sup_G": [
+    0.4145215185044534,
+    0.4145215185044577
+   ],
+   "sup_G_individual_U": 0.4409564308495807
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 0.4576991275659801,
+   "brecha_sup": 4.3298697960381105e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.027420109102187284,
+   "inf_G": [
+    -2.29330734026041,
+    -1.83560821269443
+   ],
+   "sup_G": [
+    0.4095814100344429,
+    0.40958141003444726
+   ],
+   "sup_G_individual_U": 0.43700151913663454
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 0.37991568063154935,
+   "brecha_sup": 4.218847493575595e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.02376368437051779,
+   "inf_G": [
+    -1.9032749307218184,
+    -1.523359250090269
+   ],
+   "sup_G": [
+    0.42791595555274264,
+    0.42791595555274686
+   ],
+   "sup_G_individual_U": 0.45167963992326465
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 1.205721521461359,
+   "brecha_sup": 4.801714581503802e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.07546525149270575,
+   "inf_G": [
+    -6.0441436451336195,
+    -4.83842212367226
+   ],
+   "sup_G": [
+    0.1686668788361083,
+    0.16866687883611312
+   ],
+   "sup_G_individual_U": 0.24413213032881886
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 0.3535862469835296,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.022115266650833965,
+   "inf_G": [
+    -1.7712502795620362,
+    -1.4176640325785066
+   ],
+   "sup_G": [
+    0.436181677380118,
+    0.43618167738012215
+   ],
+   "sup_G_individual_U": 0.4582969440309561
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 0.36675096380753947,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.022939475510675933,
+   "inf_G": [
+    -1.8372626051419272,
+    -1.4705116413343877
+   ],
+   "sup_G": [
+    0.43204881646643034,
+    0.4320488164664345
+   ],
+   "sup_G_individual_U": 0.45498829197711044
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 0.2803919608618759,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.4039788223667362,
+    -1.1235868615048603
+   ],
+   "sup_G": [
+    0.4861291065783834,
+    0.4861291065783853
+   ],
+   "sup_G_individual_U": 0.486129106715252
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 0.5143410731492688,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.577078492940428,
+    -2.062737419791159
+   ],
+   "sup_G": [
+    0.4348787377262982,
+    0.4348787377263003
+   ],
+   "sup_G_individual_U": 0.434878737863167
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 0.26048236698339244,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.3041454107681776,
+    -1.0436630437847851
+   ],
+   "sup_G": [
+    0.4904906278510694,
+    0.4904906278510714
+   ],
+   "sup_G_individual_U": 0.4904906279879381
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 0.27043716392263417,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.354062116567457,
+    -1.0836249526448227
+   ],
+   "sup_G": [
+    0.48830986721472636,
+    0.48830986721472835
+   ],
+   "sup_G_individual_U": 0.48830986735159504
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 0.21508148850333042,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.0764901097158268,
+    -0.8614086212124964
+   ],
+   "sup_G": [
+    0.4971029851427741,
+    0.4971029851427761
+   ],
+   "sup_G_individual_U": 0.4971029852796428
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 0.3944601953200284,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.9759553815314488,
+    -1.5814951862114204
+   ],
+   "sup_G": [
+    0.45502188090046514,
+    0.4550218809004672
+   ],
+   "sup_G_individual_U": 0.4550218810373339
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 0.1998159584560062,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.3686662914125236e-10,
+   "inf_G": [
+    -0.9999435988333674,
+    -0.8001276403773612
+   ],
+   "sup_G": [
+    0.5006841814432469,
+    0.5006841814432489
+   ],
+   "sup_G_individual_U": 0.5006841815801155
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 0.20744872347966858,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.0382168542745973,
+    -0.8307681307949287
+   ],
+   "sup_G": [
+    0.4988935832930105,
+    0.4988935832930125
+   ],
+   "sup_G_individual_U": 0.49889358342987916
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 0.2786774164831909,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.395381519191897,
+    -1.1167041027087061
+   ],
+   "sup_G": [
+    0.48650470548945307,
+    0.486504705489455
+   ],
+   "sup_G_individual_U": 0.4865047056263217
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 0.5126265287705838,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.568481189765589,
+    -2.055854660995005
+   ],
+   "sup_G": [
+    0.4352543366373679,
+    0.43525433663737
+   ],
+   "sup_G_individual_U": 0.4352543367742367
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 0.25876782260470765,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.2955481075933384,
+    -1.0367802849886307
+   ],
+   "sup_G": [
+    0.4908662267621391,
+    0.4908662267621411
+   ],
+   "sup_G_individual_U": 0.4908662268990078
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 0.26872261954394916,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.3454648133926177,
+    -1.0767421938486685
+   ],
+   "sup_G": [
+    0.4886854661257961,
+    0.48868546612579805
+   ],
+   "sup_G_individual_U": 0.48868546626266474
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 0.21376687460964527,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.0698981927363802,
+    -0.8561313181267349
+   ],
+   "sup_G": [
+    0.4974113852047452,
+    0.49741138520474715
+   ],
+   "sup_G_individual_U": 0.49741138534161383
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 0.39314558142634337,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.9693634645520024,
+    -1.576217883125659
+   ],
+   "sup_G": [
+    0.4553302809624362,
+    0.45533028096243827
+   ],
+   "sup_G_individual_U": 0.45533028109930496
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 0.19850134456232105,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.3686662914125236e-10,
+   "inf_G": [
+    -0.9933516818539208,
+    -0.7948503372915997
+   ],
+   "sup_G": [
+    0.500992581505218,
+    0.50099258150522
+   ],
+   "sup_G_individual_U": 0.5009925816420866
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 0.2061341095859831,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.0316249372951505,
+    -0.8254908277091674
+   ],
+   "sup_G": [
+    0.49920198335498156,
+    0.4992019833549835
+   ],
+   "sup_G_individual_U": 0.4992019834918502
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 0.28034197496245095,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.01527948878321378,
+   "inf_G": [
+    -1.4039788223667362,
+    -1.1236368474042853
+   ],
+   "sup_G": [
+    0.47045857070198405,
+    0.4704585707019882
+   ],
+   "sup_G_individual_U": 0.485738059485202
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 0.5142910872498438,
+   "brecha_sup": 4.3298697960381105e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.02804632173833138,
+   "inf_G": [
+    -2.577078492940428,
+    -2.062787405690584
+   ],
+   "sup_G": [
+    0.4064413688947813,
+    0.4064413688947856
+   ],
+   "sup_G_individual_U": 0.434487690633117
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 0.2604323810839675,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.014193002680464362,
+   "inf_G": [
+    -1.3041454107681776,
+    -1.04371302968421
+   ],
+   "sup_G": [
+    0.4759065780774196,
+    0.4759065780774237
+   ],
+   "sup_G_individual_U": 0.49009958075788806
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 0.2703871780232092,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.01473624573183907,
+   "inf_G": [
+    -1.354062116567457,
+    -1.0836749385442477
+   ],
+   "sup_G": [
+    0.47318257438970185,
+    0.47318257438970596
+   ],
+   "sup_G_individual_U": 0.487918820121545
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 0.21503150260390547,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.012545817247977153,
+   "inf_G": [
+    -1.0764901097158268,
+    -0.8614586071119213
+   ],
+   "sup_G": [
+    0.4841661208016115,
+    0.48416612080161564
+   ],
+   "sup_G_individual_U": 0.4967119380495928
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 0.39441020942060345,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.02302852089405233,
+   "inf_G": [
+    -1.9759553815314488,
+    -1.5815451721108453
+   ],
+   "sup_G": [
+    0.43160231291322737,
+    0.43160231291323153
+   ],
+   "sup_G_individual_U": 0.45463083380728386
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 0.19976597255658124,
+   "brecha_sup": 4.052314039881821e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.011653715669555864,
+   "inf_G": [
+    -0.9999435988333674,
+    -0.8001776262767861
+   ],
+   "sup_G": [
+    0.4886394186805056,
+    0.48863941868050964
+   ],
+   "sup_G_individual_U": 0.5002931343500655
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 0.20739873758024363,
+   "brecha_sup": 4.052314039881821e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.012099766458766537,
+   "inf_G": [
+    -1.0382168542745973,
+    -0.8308181166943537
+   ],
+   "sup_G": [
+    0.48640276974105856,
+    0.4864027697410626
+   ],
+   "sup_G_individual_U": 0.49850253619982915
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 0.27862743058376593,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.015185924411616925,
+   "inf_G": [
+    -1.395381519191897,
+    -1.116754088608131
+   ],
+   "sup_G": [
+    0.4709277339846506,
+    0.47092773398465476
+   ],
+   "sup_G_individual_U": 0.4861136583962717
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 0.5125765428711588,
+   "brecha_sup": 4.3298697960381105e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.027952757366734582,
+   "inf_G": [
+    -2.568481189765589,
+    -2.05590464689443
+   ],
+   "sup_G": [
+    0.40691053217744777,
+    0.4069105321774521
+   ],
+   "sup_G_individual_U": 0.4348632895441867
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 0.2587178367052827,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.014099438308867507,
+   "inf_G": [
+    -1.2955481075933384,
+    -1.0368302708880557
+   ],
+   "sup_G": [
+    0.47637574136008615,
+    0.47637574136009025
+   ],
+   "sup_G_individual_U": 0.49047517966895776
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 0.2686726336445242,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.014642681360242216,
+   "inf_G": [
+    -1.3454648133926177,
+    -1.0767921797480935
+   ],
+   "sup_G": [
+    0.47365173767236834,
+    0.4736517376723725
+   ],
+   "sup_G_individual_U": 0.4882944190326147
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 0.21371688871022032,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.012468992589682593,
+   "inf_G": [
+    -1.0698981927363802,
+    -0.8561813040261599
+   ],
+   "sup_G": [
+    0.4845513455218771,
+    0.4845513455218812
+   ],
+   "sup_G_individual_U": 0.4970203381115638
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 0.3930955955269184,
+   "brecha_sup": 4.218847493575595e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.022951696235757768,
+   "inf_G": [
+    -1.9693634645520024,
+    -1.576267869025084
+   ],
+   "sup_G": [
+    0.43198753763349296,
+    0.4319875376334972
+   ],
+   "sup_G_individual_U": 0.45493923386925494
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 0.1984513586628961,
+   "brecha_sup": 4.052314039881821e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.011576891011261303,
+   "inf_G": [
+    -0.9933516818539208,
+    -0.7949003231910247
+   ],
+   "sup_G": [
+    0.48902464340077123,
+    0.4890246434007753
+   ],
+   "sup_G_individual_U": 0.5006015344120366
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 0.20608412368655815,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.01202294180047192,
+   "inf_G": [
+    -1.0316249372951505,
+    -0.8255408136085923
+   ],
+   "sup_G": [
+    0.48678799446132415,
+    0.48678799446132826
+   ],
+   "sup_G_individual_U": 0.4988109362618002
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:G:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 0.48579580295891334,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.4339428908031255,
+    -1.9481470878442122
+   ],
+   "sup_G": [
+    0.4544410397044361,
+    0.4544410397044382
+   ],
+   "sup_G_individual_U": 0.4544410398413049
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:G:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 1.1253813233513634,
+   "brecha_sup": 2.3869795029440866e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -5.641040177645523,
+    -4.515658854294159
+   ],
+   "sup_G": [
+    0.33186606477312347,
+    0.33186606477312586
+   ],
+   "sup_G_individual_U": 0.33186606490999254
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:G:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 0.44813123983712,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.245080081457649,
+    -1.7969488416205288
+   ],
+   "sup_G": [
+    0.46165935959013304,
+    0.4616593595901351
+   ],
+   "sup_G_individual_U": 0.4616593597270018
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:G:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 0.4669635213980168,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.339511486130387,
+    -1.8725479647323702
+   ],
+   "sup_G": [
+    0.45805019964728455,
+    0.45805019964728666
+   ],
+   "sup_G_individual_U": 0.45805019978415334
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:G:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 0.35508734916598406,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.7785266655117058,
+    -1.4234393163457217
+   ],
+   "sup_G": [
+    0.47189197615842754,
+    0.4718919761584296
+   ],
+   "sup_G_individual_U": 0.4718919762952963
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:G:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 0.8224442075340983,
+   "brecha_sup": 2.275957200481571e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -4.122011414103049,
+    -3.299567206568951
+   ],
+   "sup_G": [
+    0.37231131681518015,
+    0.3723113168151824
+   ],
+   "sup_G_individual_U": 0.3723113169520491
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:G:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 0.3275651627950238,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.640521150339759,
+    -1.3129559875447352
+   ],
+   "sup_G": [
+    0.47775618338319725,
+    0.4777561833831993
+   ],
+   "sup_G_individual_U": 0.477756183520066
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:G:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 0.3413262559805039,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.7095239079257323,
+    -1.3681976519452284
+   ],
+   "sup_G": [
+    0.4748240797708124,
+    0.4748240797708144
+   ],
+   "sup_G_individual_U": 0.4748240799076811
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 0.4837973393222583,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.4239219208114404,
+    -1.940124581489182
+   ],
+   "sup_G": [
+    0.4548240402920882,
+    0.45482404029209034
+   ],
+   "sup_G_individual_U": 0.454824040428957
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:G:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 1.1233828597147086,
+   "brecha_sup": 2.3869795029440866e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -5.6310192076538375,
+    -4.507636347939129
+   ],
+   "sup_G": [
+    0.3322490653607756,
+    0.332249065360778
+   ],
+   "sup_G_individual_U": 0.33224906549764466
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:G:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 0.44613277620046543,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.235059111465964,
+    -1.7889263352654987
+   ],
+   "sup_G": [
+    0.46204236017778516,
+    0.4620423601777872
+   ],
+   "sup_G_individual_U": 0.4620423603146539
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:G:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 0.4649650577613622,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.3294905161387023,
+    -1.86452545837734
+   ],
+   "sup_G": [
+    0.4584332002349367,
+    0.4584332002349388
+   ],
+   "sup_G_individual_U": 0.45843320037180546
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:G:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 0.35362703517041894,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.77120415913251,
+    -1.4175771239620911
+   ],
+   "sup_G": [
+    0.47220312817839427,
+    0.4722031281783963
+   ],
+   "sup_G_individual_U": 0.472203128315263
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:G:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 0.8209838935385334,
+   "brecha_sup": 2.275957200481571e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -4.1146889077238535,
+    -3.29370501418532
+   ],
+   "sup_G": [
+    0.37262246883514694,
+    0.3726224688351492
+   ],
+   "sup_G_individual_U": 0.3726224689720159
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:G:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 0.32610484879945867,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.633198643960563,
+    -1.3070937951611044
+   ],
+   "sup_G": [
+    0.478067335403164,
+    0.47806733540316604
+   ],
+   "sup_G_individual_U": 0.4780673355400327
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:G:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 0.3398659419849386,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.7022014015465363,
+    -1.3623354595615977
+   ],
+   "sup_G": [
+    0.47513523179077916,
+    0.47513523179078115
+   ],
+   "sup_G_individual_U": 0.47513523192764784
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 0.4857458170594884,
+   "brecha_sup": 4.218847493575595e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.023173212584848835,
+   "inf_G": [
+    -2.4339428908031255,
+    -1.9481970737436372
+   ],
+   "sup_G": [
+    0.43087678002640184,
+    0.43087678002640606
+   ],
+   "sup_G_individual_U": 0.4540499926112549
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 1.1253313374519385,
+   "brecha_sup": 4.6074255521944e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.053707514375773924,
+   "inf_G": [
+    -5.641040177645523,
+    -4.515708840193584
+   ],
+   "sup_G": [
+    0.277767503304164,
+    0.2777675033041686
+   ],
+   "sup_G_individual_U": 0.33147501767994253
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 0.44808125393769505,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.021375077541893994,
+   "inf_G": [
+    -2.245080081457649,
+    -1.7969988275199538
+   ],
+   "sup_G": [
+    0.4398932349550536,
+    0.4398932349550578
+   ],
+   "sup_G_individual_U": 0.46126831249695177
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 0.4669135354985918,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.022274145063371442,
+   "inf_G": [
+    -2.339511486130387,
+    -1.8725979506317951
+   ],
+   "sup_G": [
+    0.4353850074907277,
+    0.4353850074907319
+   ],
+   "sup_G_individual_U": 0.45765915255410333
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 0.3550373632665591,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.018826059664613537,
+   "inf_G": [
+    -1.7785266655117058,
+    -1.4234893022451467
+   ],
+   "sup_G": [
+    0.4526748694006286,
+    0.45267486940063273
+   ],
+   "sup_G_individual_U": 0.47150092906524627
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 0.8223942216346734,
+   "brecha_sup": 4.385380947269368e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.043632313197440264,
+   "inf_G": [
+    -4.122011414103049,
+    -3.299617192468376
+   ],
+   "sup_G": [
+    0.32828795652455445,
+    0.32828795652455883
+   ],
+   "sup_G_individual_U": 0.3719202697219991
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 0.32751517689559884,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.01736524375772891,
+   "inf_G": [
+    -1.640521150339759,
+    -1.3130059734441601
+   ],
+   "sup_G": [
+    0.4599998925322829,
+    0.45999989253228707
+   ],
+   "sup_G_individual_U": 0.477365136290016
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 0.34127627008107897,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.018095651711171168,
+   "inf_G": [
+    -1.7095239079257323,
+    -1.3682476378446533
+   ],
+   "sup_G": [
+    0.45633738096645576,
+    0.4563373809664599
+   ],
+   "sup_G_individual_U": 0.4744330326776311
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 0.48374735342283337,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.023077804402746205,
+   "inf_G": [
+    -2.4239219208114404,
+    -1.940174567388607
+   ],
+   "sup_G": [
+    0.43135518879615664,
+    0.4313551887961608
+   ],
+   "sup_G_individual_U": 0.454432993198907
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 1.1233328738152837,
+   "brecha_sup": 4.6074255521944e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.05361210619367124,
+   "inf_G": [
+    -5.6310192076538375,
+    -4.507686333838554
+   ],
+   "sup_G": [
+    0.2782459120739188,
+    0.2782459120739234
+   ],
+   "sup_G_individual_U": 0.33185801826759465
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 0.4460827903010405,
+   "brecha_sup": 4.218847493575595e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.02127966935979131,
+   "inf_G": [
+    -2.235059111465964,
+    -1.7889763211649237
+   ],
+   "sup_G": [
+    0.44037164372480836,
+    0.4403716437248126
+   ],
+   "sup_G_individual_U": 0.4616513130846039
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 0.46491507186193726,
+   "brecha_sup": 4.218847493575595e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.022178736881268757,
+   "inf_G": [
+    -2.3294905161387023,
+    -1.864575444276765
+   ],
+   "sup_G": [
+    0.4358634162604825,
+    0.4358634162604867
+   ],
+   "sup_G_individual_U": 0.45804215314175545
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 0.353577049270994,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.018748549473925347,
+   "inf_G": [
+    -1.77120415913251,
+    -1.417627109861516
+   ],
+   "sup_G": [
+    0.4530635316112835,
+    0.45306353161128765
+   ],
+   "sup_G_individual_U": 0.471812081085213
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 0.8209339076391085,
+   "brecha_sup": 4.385380947269368e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.04355480300675213,
+   "inf_G": [
+    -4.1146889077238535,
+    -3.293755000084745
+   ],
+   "sup_G": [
+    0.32867661873520937,
+    0.32867661873521375
+   ],
+   "sup_G_individual_U": 0.3722314217419659
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 0.3260548629000337,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.017287733567040775,
+   "inf_G": [
+    -1.633198643960563,
+    -1.3071437810605293
+   ],
+   "sup_G": [
+    0.46038855474293783,
+    0.46038855474294194
+   ],
+   "sup_G_individual_U": 0.4776762883099827
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 0.3398159560855136,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.018018141520483033,
+   "inf_G": [
+    -1.7022014015465363,
+    -1.3623854454610227
+   ],
+   "sup_G": [
+    0.45672604317711063,
+    0.4567260431771148
+   ],
+   "sup_G_individual_U": 0.4747441846975978
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:G:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 0.4774290834194259,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.391989340137382,
+    -1.914560256717956
+   ],
+   "sup_G": [
+    0.43265605384890027,
+    0.4326560538489023
+   ],
+   "sup_G_individual_U": 0.432656053985769
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:G:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 1.5082161854399478,
+   "brecha_sup": 2.8033131371785203e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368667124079792e-10,
+   "inf_G": [
+    -7.56070315994633,
+    -6.052486974506382
+   ],
+   "sup_G": [
+    0.1845695027914045,
+    0.1845695027914073
+   ],
+   "sup_G_individual_U": 0.184569502928274
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:G:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 0.44456416618826156,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.2271935723725123,
+    -1.7826294061842507
+   ],
+   "sup_G": [
+    0.4405658772747926,
+    0.44056587727479474
+   ],
+   "sup_G_individual_U": 0.4405658774116614
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:G:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 0.4609966248038435,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.309591456254947,
+    -1.8485948314511034
+   ],
+   "sup_G": [
+    0.4366109655618464,
+    0.43661096556184853
+   ],
+   "sup_G_individual_U": 0.4366109656987152
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:G:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 0.3825673811102379,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.9163208041855815,
+    -1.5337534230753436
+   ],
+   "sup_G": [
+    0.45141680525041344,
+    0.4514168052504155
+   ],
+   "sup_G_individual_U": 0.4514168053872822
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:G:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 1.2083732219400476,
+   "brecha_sup": 2.6367796834847468e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368667124079792e-10,
+   "inf_G": [
+    -6.057189518597383,
+    -4.848816296657335
+   ],
+   "sup_G": [
+    0.24386929565596704,
+    0.24386929565596968
+   ],
+   "sup_G_individual_U": 0.2438692957928364
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:G:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 0.3562379474622184,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.7842961530257992,
+    -1.4280582055635809
+   ],
+   "sup_G": [
+    0.4580341093581049,
+    0.45803410935810696
+   ],
+   "sup_G_individual_U": 0.45803410949497364
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:G:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 0.36940266428622803,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.8503084786056903,
+    -1.4809058143194622
+   ],
+   "sup_G": [
+    0.4547254573042592,
+    0.4547254573042612
+   ],
+   "sup_G_individual_U": 0.4547254574411279
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 0.4741815720809872,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.375705224142845,
+    -1.901523652061858
+   ],
+   "sup_G": [
+    0.43343765451686955,
+    0.43343765451687166
+   ],
+   "sup_G_individual_U": 0.43343765465373835
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:G:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 1.5049686741015087,
+   "brecha_sup": 2.7478019859472624e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368667124079792e-10,
+   "inf_G": [
+    -7.544419043951793,
+    -6.039450369850284
+   ],
+   "sup_G": [
+    0.18535110345937383,
+    0.18535110345937658
+   ],
+   "sup_G_individual_U": 0.1853511035962433
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:G:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 0.44131665484982285,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.2109094563779754,
+    -1.7695928015281526
+   ],
+   "sup_G": [
+    0.44134747794276197,
+    0.441347477942764
+   ],
+   "sup_G_individual_U": 0.4413474780796307
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:G:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 0.45774911346540503,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.29330734026041,
+    -1.835558226795005
+   ],
+   "sup_G": [
+    0.43739256622981576,
+    0.43739256622981787
+   ],
+   "sup_G_individual_U": 0.43739256636668455
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:G:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 0.3799656665309743,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.9032749307218184,
+    -1.5233092641908441
+   ],
+   "sup_G": [
+    0.4520706870164459,
+    0.452070687016448
+   ],
+   "sup_G_individual_U": 0.45207068715331467
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:G:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 1.205771507360784,
+   "brecha_sup": 2.6367796834847468e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368667124079792e-10,
+   "inf_G": [
+    -6.0441436451336195,
+    -4.8383721377728355
+   ],
+   "sup_G": [
+    0.24452317742199953,
+    0.24452317742200216
+   ],
+   "sup_G_individual_U": 0.24452317755886888
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:G:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 0.35363623288295454,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.7712502795620362,
+    -1.4176140466790816
+   ],
+   "sup_G": [
+    0.4586879911241374,
+    0.45868799112413944
+   ],
+   "sup_G_individual_U": 0.4586879912610061
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:G:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 0.3668009497069644,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.8372626051419272,
+    -1.4704616554349628
+   ],
+   "sup_G": [
+    0.45537933907029166,
+    0.45537933907029376
+   ],
+   "sup_G_individual_U": 0.45537933920716045
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 0.47737909752000096,
+   "brecha_sup": 4.385380947269368e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.028600008168504554,
+   "inf_G": [
+    -2.391989340137382,
+    -1.914610242617381
+   ],
+   "sup_G": [
+    0.40366499858721006,
+    0.40366499858721444
+   ],
+   "sup_G_individual_U": 0.432265006755719
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 1.508166199540523,
+   "brecha_sup": 4.954370247389761e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.09040014008372003,
+   "inf_G": [
+    -7.56070315994633,
+    -6.052536960405807
+   ],
+   "sup_G": [
+    0.09377831561449901,
+    0.09377831561450396
+   ],
+   "sup_G_individual_U": 0.184178455698224
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 0.4445141802888366,
+   "brecha_sup": 4.3298697960381105e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.026629614654376077,
+   "inf_G": [
+    -2.2271935723725123,
+    -1.7826793920836757
+   ],
+   "sup_G": [
+    0.413545215527231,
+    0.41354521552723533
+   ],
+   "sup_G_individual_U": 0.4401748301816114
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 0.46094663890441856,
+   "brecha_sup": 4.3298697960381105e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.027614811411440343,
+   "inf_G": [
+    -2.309591456254947,
+    -1.8486448173505283
+   ],
+   "sup_G": [
+    0.40860510705722053,
+    0.40860510705722486
+   ],
+   "sup_G_individual_U": 0.4362199184686652
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 0.38251739521081296,
+   "brecha_sup": 4.218847493575595e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.023926570989020568,
+   "inf_G": [
+    -1.9163208041855815,
+    -1.5338034089747685
+   ],
+   "sup_G": [
+    0.4270991871682074,
+    0.4270991871682116
+   ],
+   "sup_G_individual_U": 0.45102575815723217
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 1.2083232360406226,
+   "brecha_sup": 4.801714581503802e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.07562813811120847,
+   "inf_G": [
+    -6.057189518597383,
+    -4.84886628255676
+   ],
+   "sup_G": [
+    0.1678501104515731,
+    0.1678501104515779
+   ],
+   "sup_G_individual_U": 0.24347824856278638
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 0.3561879615627934,
+   "brecha_sup": 4.218847493575595e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.022278153269336687,
+   "inf_G": [
+    -1.7842961530257992,
+    -1.4281081914630058
+   ],
+   "sup_G": [
+    0.4353649089955827,
+    0.43536490899558694
+   ],
+   "sup_G_individual_U": 0.45764306226492363
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 0.3693526783868031,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.023102362129178655,
+   "inf_G": [
+    -1.8503084786056903,
+    -1.4809558002188872
+   ],
+   "sup_G": [
+    0.4312320480818951,
+    0.43123204808189924
+   ],
+   "sup_G_individual_U": 0.4543344102110779
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 0.47413158618156226,
+   "brecha_sup": 4.3298697960381105e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.02840530585925155,
+   "inf_G": [
+    -2.375705224142845,
+    -1.9015736379612829
+   ],
+   "sup_G": [
+    0.40464130156443245,
+    0.4046413015644368
+   ],
+   "sup_G_individual_U": 0.43304660742368833
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 1.5049186882020837,
+   "brecha_sup": 4.898859096158503e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.09020543777446698,
+   "inf_G": [
+    -7.544419043951793,
+    -6.039500355749709
+   ],
+   "sup_G": [
+    0.0947546185917214,
+    0.0947546185917263
+   ],
+   "sup_G_individual_U": 0.18496005636619328
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 0.4412666689503979,
+   "brecha_sup": 4.274358644806853e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.02643491234512302,
+   "inf_G": [
+    -2.2109094563779754,
+    -1.7696427874275775
+   ],
+   "sup_G": [
+    0.4145215185044534,
+    0.4145215185044577
+   ],
+   "sup_G_individual_U": 0.4409564308495807
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 0.4576991275659801,
+   "brecha_sup": 4.3298697960381105e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.027420109102187284,
+   "inf_G": [
+    -2.29330734026041,
+    -1.83560821269443
+   ],
+   "sup_G": [
+    0.4095814100344429,
+    0.40958141003444726
+   ],
+   "sup_G_individual_U": 0.43700151913663454
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 0.37991568063154935,
+   "brecha_sup": 4.218847493575595e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.02376368437051779,
+   "inf_G": [
+    -1.9032749307218184,
+    -1.523359250090269
+   ],
+   "sup_G": [
+    0.42791595555274264,
+    0.42791595555274686
+   ],
+   "sup_G_individual_U": 0.45167963992326465
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 1.205721521461359,
+   "brecha_sup": 4.801714581503802e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.07546525149270575,
+   "inf_G": [
+    -6.0441436451336195,
+    -4.83842212367226
+   ],
+   "sup_G": [
+    0.1686668788361083,
+    0.16866687883611312
+   ],
+   "sup_G_individual_U": 0.24413213032881886
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 0.3535862469835296,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.022115266650833965,
+   "inf_G": [
+    -1.7712502795620362,
+    -1.4176640325785066
+   ],
+   "sup_G": [
+    0.436181677380118,
+    0.43618167738012215
+   ],
+   "sup_G_individual_U": 0.4582969440309561
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 0.36675096380753947,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.022939475510675933,
+   "inf_G": [
+    -1.8372626051419272,
+    -1.4705116413343877
+   ],
+   "sup_G": [
+    0.43204881646643034,
+    0.4320488164664345
+   ],
+   "sup_G_individual_U": 0.45498829197711044
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:G:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 0.2639214107106782,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.3213899346910183,
+    -1.05746852398034
+   ],
+   "sup_G": [
+    0.4857078198869538,
+    0.48570781988695577
+   ],
+   "sup_G_individual_U": 0.48570782002382246
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:G:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 0.4841084942204814,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.4254821563046822,
+    -1.9413736620842008
+   ],
+   "sup_G": [
+    0.4341054433898388,
+    0.4341054433898409
+   ],
+   "sup_G_individual_U": 0.4341054435267076
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:G:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 0.24518299633027796,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.2274292116867918,
+    -0.9822462153565138
+   ],
+   "sup_G": [
+    0.490099297799296,
+    0.49009929779929795
+   ],
+   "sup_G_individual_U": 0.49009929793616464
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:G:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 0.25455220352047836,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.2744095731889051,
+    -1.0198573696684268
+   ],
+   "sup_G": [
+    0.4879035588431249,
+    0.48790355884312686
+   ],
+   "sup_G_individual_U": 0.48790355897999355
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:G:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 0.21038538206413737,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.0529422498289764,
+    -0.8425568677648391
+   ],
+   "sup_G": [
+    0.49580076480337965,
+    0.4958007648033816
+   ],
+   "sup_G_individual_U": 0.4958007649402483
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:G:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 0.3858402398675651,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.932732020678414,
+    -1.5468917808108489
+   ],
+   "sup_G": [
+    0.4526315855653361,
+    0.45263158556533817
+   ],
+   "sup_G_individual_U": 0.45263158570220485
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:G:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 0.1954537803635844,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -0.9780701681835523,
+    -0.7826163878199679
+   ],
+   "sup_G": [
+    0.4994745587250299,
+    0.4994745587250318
+   ],
+   "sup_G_individual_U": 0.4994745588618985
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:G:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 0.202919581213861,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.0155062090062645,
+    -0.8125866277924035
+   ],
+   "sup_G": [
+    0.49763766176420476,
+    0.4976376617642067
+   ],
+   "sup_G_individual_U": 0.4976376619010734
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 0.262307724201678,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.3132983668555656,
+    -1.0509906426538875
+   ],
+   "sup_G": [
+    0.48608599855873785,
+    0.48608599855873985
+   ],
+   "sup_G_individual_U": 0.48608599869560654
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:G:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 0.48249480771148145,
+   "brecha_sup": 2.1649348980190553e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.41739058846923,
+    -1.9348957807577485
+   ],
+   "sup_G": [
+    0.43448362206162283,
+    0.434483622061625
+   ],
+   "sup_G_individual_U": 0.4344836221984917
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:G:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 0.24356930982127778,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.219337643851339,
+    -0.9757683340300612
+   ],
+   "sup_G": [
+    0.4904774764710801,
+    0.49047747647108203
+   ],
+   "sup_G_individual_U": 0.4904774766079487
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:G:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 0.25293851701147796,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.2663180053534522,
+    -1.0133794883419742
+   ],
+   "sup_G": [
+    0.48828173751490894,
+    0.48828173751491094
+   ],
+   "sup_G_individual_U": 0.4882817376517776
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:G:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 0.2090995249082006,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.0464945288212502,
+    -0.8373950039130496
+   ],
+   "sup_G": [
+    0.49611713904763877,
+    0.49611713904764076
+   ],
+   "sup_G_individual_U": 0.49611713918450745
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:G:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 0.38455438271162823,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.9262842996706877,
+    -1.5417299169590595
+   ],
+   "sup_G": [
+    0.45294795980959524,
+    0.45294795980959734
+   ],
+   "sup_G_individual_U": 0.45294795994646403
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:G:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 0.19416792320764742,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -0.9716224471758259,
+    -0.7774545239681785
+   ],
+   "sup_G": [
+    0.49979093296928906,
+    0.499790932969291
+   ],
+   "sup_G_individual_U": 0.4997909331061577
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:G:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 0.20163372405792424,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.0090584879985383,
+    -0.807424763940614
+   ],
+   "sup_G": [
+    0.49795403600846394,
+    0.4979540360084659
+   ],
+   "sup_G_individual_U": 0.49795403614533257
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 0.26387142481125325,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.01538443430723957,
+   "inf_G": [
+    -1.3213899346910183,
+    -1.057518509879765
+   ],
+   "sup_G": [
+    0.46993233848652877,
+    0.4699323384865329
+   ],
+   "sup_G_individual_U": 0.48531677279377244
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 0.48405850832105646,
+   "brecha_sup": 4.274358644806853e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.02823895488107442,
+   "inf_G": [
+    -2.4254821563046822,
+    -1.9414236479836258
+   ],
+   "sup_G": [
+    0.4054754414155789,
+    0.40547544141558317
+   ],
+   "sup_G_individual_U": 0.4337143962966576
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 0.245133010430853,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.014290485791575713,
+   "inf_G": [
+    -1.2274292116867918,
+    -0.9822962012559388
+   ],
+   "sup_G": [
+    0.4754177649145348,
+    0.4754177649145389
+   ],
+   "sup_G_individual_U": 0.4897082507061146
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 0.2545022176210534,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.014837460049407614,
+   "inf_G": [
+    -1.2744095731889051,
+    -1.0199073555678517
+   ],
+   "sup_G": [
+    0.47267505170053176,
+    0.4726750517005359
+   ],
+   "sup_G_individual_U": 0.48751251174994353
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 0.21033539616471242,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.012870209636094199,
+   "inf_G": [
+    -1.0529422498289764,
+    -0.842606853664264
+   ],
+   "sup_G": [
+    0.48253950807409995,
+    0.48253950807410406
+   ],
+   "sup_G_individual_U": 0.49540971771019826
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 0.38579025396814015,
+   "brecha_sup": 4.218847493575595e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.023623960535571087,
+   "inf_G": [
+    -1.932732020678414,
+    -1.5469417667102738
+   ],
+   "sup_G": [
+    0.42861657793657953,
+    0.42861657793658375
+   ],
+   "sup_G_individual_U": 0.45224053847215484
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 0.19540379446415945,
+   "brecha_sup": 4.052314039881821e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.011955041328825966,
+   "inf_G": [
+    -0.9780701681835523,
+    -0.7826663737193928
+   ],
+   "sup_G": [
+    0.4871284703030185,
+    0.48712847030302253
+   ],
+   "sup_G_individual_U": 0.4990835116318485
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 0.20286959531443605,
+   "brecha_sup": 4.052314039881821e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.012412625482460082,
+   "inf_G": [
+    -1.0155062090062645,
+    -0.8126366136918285
+   ],
+   "sup_G": [
+    0.48483398918855924,
+    0.4848339891885633
+   ],
+   "sup_G_individual_U": 0.4972466146710234
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 0.2622577383022531,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.015290227298821901,
+   "inf_G": [
+    -1.3132983668555656,
+    -1.0510406285533125
+   ],
+   "sup_G": [
+    0.47040472416673046,
+    0.4704047241667346
+   ],
+   "sup_G_individual_U": 0.4856949514655565
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 0.4824448218120565,
+   "brecha_sup": 4.274358644806853e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.028144747872656806,
+   "inf_G": [
+    -2.41739058846923,
+    -1.9349457666571734
+   ],
+   "sup_G": [
+    0.4059478270957806,
+    0.40594782709578486
+   ],
+   "sup_G_individual_U": 0.43409257496844167
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 0.24351932392185283,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.0141962787831581,
+   "inf_G": [
+    -1.219337643851339,
+    -0.9758183199294862
+   ],
+   "sup_G": [
+    0.4758901505947365,
+    0.4758901505947406
+   ],
+   "sup_G_individual_U": 0.4900864293778987
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 0.252888531112053,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.014743253040990001,
+   "inf_G": [
+    -1.2663180053534522,
+    -1.0134294742413992
+   ],
+   "sup_G": [
+    0.4731474373807335,
+    0.4731474373807376
+   ],
+   "sup_G_individual_U": 0.4878906904217276
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 0.20904953900877565,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.012791398552033206,
+   "inf_G": [
+    -1.0464945288212502,
+    -0.8374449898124745
+   ],
+   "sup_G": [
+    0.4829346934024201,
+    0.48293469340242423
+   ],
+   "sup_G_individual_U": 0.49572609195445744
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 0.3845043968122033,
+   "brecha_sup": 4.274358644806853e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.023545149451510095,
+   "inf_G": [
+    -1.9262842996706877,
+    -1.5417799028584844
+   ],
+   "sup_G": [
+    0.42901176326489965,
+    0.4290117632649039
+   ],
+   "sup_G_individual_U": 0.452556912716414
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 0.19411793730822247,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.011876230244764974,
+   "inf_G": [
+    -0.9716224471758259,
+    -0.7775045098676034
+   ],
+   "sup_G": [
+    0.4875236556313386,
+    0.4875236556313427
+   ],
+   "sup_G_individual_U": 0.4993998858761077
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 0.20158373815849928,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.01233381439839909,
+   "inf_G": [
+    -1.0090584879985383,
+    -0.807474749840039
+   ],
+   "sup_G": [
+    0.48522917451687936,
+    0.48522917451688347
+   ],
+   "sup_G_individual_U": 0.49756298891528256
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:G:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 0.26392205469677643,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.3213931638542857,
+    -1.0574711091575093
+   ],
+   "sup_G": [
+    0.4857078415682365,
+    0.4857078415682385
+   ],
+   "sup_G_individual_U": 0.48570784170510517
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:G:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 0.484109676291534,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.425488083607199,
+    -1.941378407315665
+   ],
+   "sup_G": [
+    0.434105483186997,
+    0.4341054831869991
+   ],
+   "sup_G_individual_U": 0.4341054833238658
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:G:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 0.24518359452414085,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.2274322112323612,
+    -0.9822486167082204
+   ],
+   "sup_G": [
+    0.49009931793887707,
+    0.490099317938879
+   ],
+   "sup_G_individual_U": 0.4900993180757457
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:G:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 0.2545528246104589,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.2744126875433235,
+    -1.0198598629328646
+   ],
+   "sup_G": [
+    0.48790357975355675,
+    0.48790357975355875
+   ],
+   "sup_G_individual_U": 0.48790357989042543
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:G:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 0.21038569469852209,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.0529438174831127,
+    -0.8425581227845906
+   ],
+   "sup_G": [
+    0.49580079903166874,
+    0.4958007990316707
+   ],
+   "sup_G_individual_U": 0.49580079916853736
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:G:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 0.3858408137247602,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.9327348981917314,
+    -1.5468940844669712
+   ],
+   "sup_G": [
+    0.4526316483931981,
+    0.45263164839320014
+   ],
+   "sup_G_individual_U": 0.4526316485300668
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:G:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 0.19545407076732235,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -0.978071624365736,
+    -0.7826175535984137
+   ],
+   "sup_G": [
+    0.4994745905194312,
+    0.49947459051943316
+   ],
+   "sup_G_individual_U": 0.49947459065629984
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:G:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 0.20291988273292239,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.0155077209244245,
+    -0.8125878381915022
+   ],
+   "sup_G": [
+    0.49763769477555,
+    0.4976376947755519
+   ],
+   "sup_G_individual_U": 0.4976376949124186
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 0.2623083642443098,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.3133015762449625,
+    -1.0509932120006527
+   ],
+   "sup_G": [
+    0.4860860201072546,
+    0.4860860201072566
+   ],
+   "sup_G_individual_U": 0.4860860202441233
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:G:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 0.48249598583906717,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.4173964959978758,
+    -1.9349005101588086
+   ],
+   "sup_G": [
+    0.4344836617260151,
+    0.4344836617260172
+   ],
+   "sup_G_individual_U": 0.4344836618628839
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:G:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 0.2435699040716739,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.2193406236230377,
+    -0.9757707195513639
+   ],
+   "sup_G": [
+    0.4904774964778952,
+    0.4904774964778972
+   ],
+   "sup_G_individual_U": 0.49047749661476386
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:G:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 0.25293913415799185,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.266321099934,
+    -1.0133819657760081
+   ],
+   "sup_G": [
+    0.4882817582925749,
+    0.48828175829257686
+   ],
+   "sup_G_individual_U": 0.48828175842944355
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:G:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 0.20909983562815992,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.0464960868758129,
+    -0.8373962512476529
+   ],
+   "sup_G": [
+    0.49611717306633,
+    0.49611717306633196
+   ],
+   "sup_G_individual_U": 0.49611717320319865
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:G:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 0.38455495465439804,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.9262871675844317,
+    -1.5417322129300337
+   ],
+   "sup_G": [
+    0.45294802242785936,
+    0.4529480224278614
+   ],
+   "sup_G_individual_U": 0.4529480225647281
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:G:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 0.1941682116969602,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -0.9716238937584362,
+    -0.777455682061476
+   ],
+   "sup_G": [
+    0.4997909645540925,
+    0.49979096455409444
+   ],
+   "sup_G_individual_U": 0.4997909646909611
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:G:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 0.20163402366256022,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.0090599903171247,
+    -0.8074259666545645
+   ],
+   "sup_G": [
+    0.49795406881021126,
+    0.4979540688102132
+   ],
+   "sup_G_individual_U": 0.4979540689470799
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 0.2638720687973515,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.01538442890627717,
+   "inf_G": [
+    -1.3213931638542857,
+    -1.0575210950569343
+   ],
+   "sup_G": [
+    0.4699323655687738,
+    0.469932365568778
+   ],
+   "sup_G_individual_U": 0.48531679447505516
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 0.48405969039210905,
+   "brecha_sup": 4.274358644806853e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.02823894496731799,
+   "inf_G": [
+    -2.425488083607199,
+    -1.94142839321509
+   ],
+   "sup_G": [
+    0.4054754911264935,
+    0.4054754911264978
+   ],
+   "sup_G_individual_U": 0.43371443609381577
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 0.2451336086247159,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.014290480774662218,
+   "inf_G": [
+    -1.2274322112323612,
+    -0.9822986026076453
+   ],
+   "sup_G": [
+    0.47541779007102936,
+    0.47541779007103346
+   ],
+   "sup_G_individual_U": 0.4897082708456957
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 0.25450283871103396,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.014837454840469666,
+   "inf_G": [
+    -1.2744126875433235,
+    -1.0199098488322895
+   ],
+   "sup_G": [
+    0.4726750778199016,
+    0.47267507781990575
+   ],
+   "sup_G_individual_U": 0.4875125326603754
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 0.21033570879909713,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.012870201109582868,
+   "inf_G": [
+    -1.0529438174831127,
+    -0.8426081086840156
+   ],
+   "sup_G": [
+    0.4825395508289004,
+    0.4825395508289045
+   ],
+   "sup_G_individual_U": 0.49540975193848735
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 0.38579082782533525,
+   "brecha_sup": 4.218847493575595e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.023623944884701875,
+   "inf_G": [
+    -1.9327348981917314,
+    -1.5469440703663961
+   ],
+   "sup_G": [
+    0.4286166564153107,
+    0.42861665641531493
+   ],
+   "sup_G_individual_U": 0.4522406013000168
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 0.1954040848678974,
+   "brecha_sup": 4.052314039881821e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.01195503340861348,
+   "inf_G": [
+    -0.978071624365736,
+    -0.7826675394978386
+   ],
+   "sup_G": [
+    0.4871285100176323,
+    0.48712851001763635
+   ],
+   "sup_G_individual_U": 0.49908354342624983
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 0.20286989683349743,
+   "brecha_sup": 4.052314039881821e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.012412617259098202,
+   "inf_G": [
+    -1.0155077209244245,
+    -0.8126378240909271
+   ],
+   "sup_G": [
+    0.48483403042326634,
+    0.4848340304232704
+   ],
+   "sup_G_individual_U": 0.4972466476823686
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 0.26225837834488486,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.01529022193093249,
+   "inf_G": [
+    -1.3133015762449625,
+    -1.0510431979000776
+   ],
+   "sup_G": [
+    0.4704047510831367,
+    0.4704047510831408
+   ],
+   "sup_G_individual_U": 0.4856949730140733
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 0.4824459999396422,
+   "brecha_sup": 4.274358644806853e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.028144737991973312,
+   "inf_G": [
+    -2.4173964959978758,
+    -1.9349504960582335
+   ],
+   "sup_G": [
+    0.4059478766408563,
+    0.40594787664086057
+   ],
+   "sup_G_individual_U": 0.4340926146328339
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 0.24351991817224894,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.014196273799317538,
+   "inf_G": [
+    -1.2193406236230377,
+    -0.9758207054507888
+   ],
+   "sup_G": [
+    0.4758901755853922,
+    0.4758901755853963
+   ],
+   "sup_G_individual_U": 0.49008644938471385
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 0.2528891482585669,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.014743247865124987,
+   "inf_G": [
+    -1.266321099934,
+    -1.013431951675433
+   ],
+   "sup_G": [
+    0.47314746333426444,
+    0.47314746333426855
+   ],
+   "sup_G_individual_U": 0.48789071119939353
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 0.20904984972873497,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.012791390077734222,
+   "inf_G": [
+    -1.0464960868758129,
+    -0.8374462371470779
+   ],
+   "sup_G": [
+    0.4829347358954103,
+    0.4829347358954144
+   ],
+   "sup_G_individual_U": 0.49572612597314863
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 0.3845049687549731,
+   "brecha_sup": 4.218847493575595e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.02354513385285323,
+   "inf_G": [
+    -1.9262871675844317,
+    -1.5417821988294587
+   ],
+   "sup_G": [
+    0.42901184148182064,
+    0.42901184148182486
+   ],
+   "sup_G_individual_U": 0.4525569753346781
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 0.19411822579753524,
+   "brecha_sup": 4.052314039881821e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.011876222376764833,
+   "inf_G": [
+    -0.9716238937584362,
+    -0.7775056679609009
+   ],
+   "sup_G": [
+    0.48752369508414223,
+    0.4875236950841463
+   ],
+   "sup_G_individual_U": 0.4993999174609111
+  },
+  "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 0.20158403776313527,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 192,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.0123338062272495,
+   "inf_G": [
+    -1.0090599903171247,
+    -0.8074759525539894
+   ],
+   "sup_G": [
+    0.48522921548977627,
+    0.4852292154897804
+   ],
+   "sup_G_individual_U": 0.4975630217170299
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 0.2803919608618759,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.4039788223667362,
+    -1.1235868615048603
+   ],
+   "sup_G": [
+    0.4861291065783834,
+    0.4861291065783853
+   ],
+   "sup_G_individual_U": 0.486129106715252
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 0.5143410731492688,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.577078492940428,
+    -2.062737419791159
+   ],
+   "sup_G": [
+    0.4348787377262982,
+    0.4348787377263003
+   ],
+   "sup_G_individual_U": 0.434878737863167
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 0.26048236698339244,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.3041454107681776,
+    -1.0436630437847851
+   ],
+   "sup_G": [
+    0.4904906278510694,
+    0.4904906278510714
+   ],
+   "sup_G_individual_U": 0.4904906279879381
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 0.27043716392263417,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.354062116567457,
+    -1.0836249526448227
+   ],
+   "sup_G": [
+    0.48830986721472636,
+    0.48830986721472835
+   ],
+   "sup_G_individual_U": 0.48830986735159504
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 0.21508148850333042,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.0764901097158268,
+    -0.8614086212124964
+   ],
+   "sup_G": [
+    0.4971029851427741,
+    0.4971029851427761
+   ],
+   "sup_G_individual_U": 0.4971029852796428
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 0.3944601953200284,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.9759553815314488,
+    -1.5814951862114204
+   ],
+   "sup_G": [
+    0.45502188090046514,
+    0.4550218809004672
+   ],
+   "sup_G_individual_U": 0.4550218810373339
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 0.1998159584560062,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.3686662914125236e-10,
+   "inf_G": [
+    -0.9999435988333674,
+    -0.8001276403773612
+   ],
+   "sup_G": [
+    0.5006841814432469,
+    0.5006841814432489
+   ],
+   "sup_G_individual_U": 0.5006841815801155
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 0.20744872347966858,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.0382168542745973,
+    -0.8307681307949287
+   ],
+   "sup_G": [
+    0.4988935832930105,
+    0.4988935832930125
+   ],
+   "sup_G_individual_U": 0.49889358342987916
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 0.2786774164831909,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.395381519191897,
+    -1.1167041027087061
+   ],
+   "sup_G": [
+    0.48650470548945307,
+    0.486504705489455
+   ],
+   "sup_G_individual_U": 0.4865047056263217
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 0.5126265287705838,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.568481189765589,
+    -2.055854660995005
+   ],
+   "sup_G": [
+    0.4352543366373679,
+    0.43525433663737
+   ],
+   "sup_G_individual_U": 0.4352543367742367
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 0.25876782260470765,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.2955481075933384,
+    -1.0367802849886307
+   ],
+   "sup_G": [
+    0.4908662267621391,
+    0.4908662267621411
+   ],
+   "sup_G_individual_U": 0.4908662268990078
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 0.26872261954394916,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.3454648133926177,
+    -1.0767421938486685
+   ],
+   "sup_G": [
+    0.4886854661257961,
+    0.48868546612579805
+   ],
+   "sup_G_individual_U": 0.48868546626266474
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 0.21376687460964527,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.0698981927363802,
+    -0.8561313181267349
+   ],
+   "sup_G": [
+    0.4974113852047452,
+    0.49741138520474715
+   ],
+   "sup_G_individual_U": 0.49741138534161383
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 0.39314558142634337,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.9693634645520024,
+    -1.576217883125659
+   ],
+   "sup_G": [
+    0.4553302809624362,
+    0.45533028096243827
+   ],
+   "sup_G_individual_U": 0.45533028109930496
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 0.19850134456232105,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.3686662914125236e-10,
+   "inf_G": [
+    -0.9933516818539208,
+    -0.7948503372915997
+   ],
+   "sup_G": [
+    0.500992581505218,
+    0.50099258150522
+   ],
+   "sup_G_individual_U": 0.5009925816420866
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:G:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 0.2061341095859831,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.0316249372951505,
+    -0.8254908277091674
+   ],
+   "sup_G": [
+    0.49920198335498156,
+    0.4992019833549835
+   ],
+   "sup_G_individual_U": 0.4992019834918502
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 0.28034197496245095,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.01527948878321378,
+   "inf_G": [
+    -1.4039788223667362,
+    -1.1236368474042853
+   ],
+   "sup_G": [
+    0.47045857070198405,
+    0.4704585707019882
+   ],
+   "sup_G_individual_U": 0.485738059485202
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 0.5142910872498438,
+   "brecha_sup": 4.3298697960381105e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.02804632173833138,
+   "inf_G": [
+    -2.577078492940428,
+    -2.062787405690584
+   ],
+   "sup_G": [
+    0.4064413688947813,
+    0.4064413688947856
+   ],
+   "sup_G_individual_U": 0.434487690633117
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 0.2604323810839675,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.014193002680464362,
+   "inf_G": [
+    -1.3041454107681776,
+    -1.04371302968421
+   ],
+   "sup_G": [
+    0.4759065780774196,
+    0.4759065780774237
+   ],
+   "sup_G_individual_U": 0.49009958075788806
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 0.2703871780232092,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.01473624573183907,
+   "inf_G": [
+    -1.354062116567457,
+    -1.0836749385442477
+   ],
+   "sup_G": [
+    0.47318257438970185,
+    0.47318257438970596
+   ],
+   "sup_G_individual_U": 0.487918820121545
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 0.21503150260390547,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.012545817247977153,
+   "inf_G": [
+    -1.0764901097158268,
+    -0.8614586071119213
+   ],
+   "sup_G": [
+    0.4841661208016115,
+    0.48416612080161564
+   ],
+   "sup_G_individual_U": 0.4967119380495928
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 0.39441020942060345,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.02302852089405233,
+   "inf_G": [
+    -1.9759553815314488,
+    -1.5815451721108453
+   ],
+   "sup_G": [
+    0.43160231291322737,
+    0.43160231291323153
+   ],
+   "sup_G_individual_U": 0.45463083380728386
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 0.19976597255658124,
+   "brecha_sup": 4.052314039881821e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.011653715669555864,
+   "inf_G": [
+    -0.9999435988333674,
+    -0.8001776262767861
+   ],
+   "sup_G": [
+    0.4886394186805056,
+    0.48863941868050964
+   ],
+   "sup_G_individual_U": 0.5002931343500655
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 0.20739873758024363,
+   "brecha_sup": 4.052314039881821e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.012099766458766537,
+   "inf_G": [
+    -1.0382168542745973,
+    -0.8308181166943537
+   ],
+   "sup_G": [
+    0.48640276974105856,
+    0.4864027697410626
+   ],
+   "sup_G_individual_U": 0.49850253619982915
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 0.27862743058376593,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.015185924411616925,
+   "inf_G": [
+    -1.395381519191897,
+    -1.116754088608131
+   ],
+   "sup_G": [
+    0.4709277339846506,
+    0.47092773398465476
+   ],
+   "sup_G_individual_U": 0.4861136583962717
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 0.5125765428711588,
+   "brecha_sup": 4.3298697960381105e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.027952757366734582,
+   "inf_G": [
+    -2.568481189765589,
+    -2.05590464689443
+   ],
+   "sup_G": [
+    0.40691053217744777,
+    0.4069105321774521
+   ],
+   "sup_G_individual_U": 0.4348632895441867
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 0.2587178367052827,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.014099438308867507,
+   "inf_G": [
+    -1.2955481075933384,
+    -1.0368302708880557
+   ],
+   "sup_G": [
+    0.47637574136008615,
+    0.47637574136009025
+   ],
+   "sup_G_individual_U": 0.49047517966895776
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 0.2686726336445242,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.014642681360242216,
+   "inf_G": [
+    -1.3454648133926177,
+    -1.0767921797480935
+   ],
+   "sup_G": [
+    0.47365173767236834,
+    0.4736517376723725
+   ],
+   "sup_G_individual_U": 0.4882944190326147
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 0.21371688871022032,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.012468992589682593,
+   "inf_G": [
+    -1.0698981927363802,
+    -0.8561813040261599
+   ],
+   "sup_G": [
+    0.4845513455218771,
+    0.4845513455218812
+   ],
+   "sup_G_individual_U": 0.4970203381115638
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 0.3930955955269184,
+   "brecha_sup": 4.218847493575595e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.022951696235757768,
+   "inf_G": [
+    -1.9693634645520024,
+    -1.576267869025084
+   ],
+   "sup_G": [
+    0.43198753763349296,
+    0.4319875376334972
+   ],
+   "sup_G_individual_U": 0.45493923386925494
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 0.1984513586628961,
+   "brecha_sup": 4.052314039881821e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.011576891011261303,
+   "inf_G": [
+    -0.9933516818539208,
+    -0.7949003231910247
+   ],
+   "sup_G": [
+    0.48902464340077123,
+    0.4890246434007753
+   ],
+   "sup_G_individual_U": 0.5006015344120366
+  },
+  "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 0.20608412368655815,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 864,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.01202294180047192,
+   "inf_G": [
+    -1.0316249372951505,
+    -0.8255408136085923
+   ],
+   "sup_G": [
+    0.48678799446132415,
+    0.48678799446132826
+   ],
+   "sup_G_individual_U": 0.4988109362618002
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:G:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 0.2639214107106782,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.3213899346910183,
+    -1.05746852398034
+   ],
+   "sup_G": [
+    0.4857078198869538,
+    0.48570781988695577
+   ],
+   "sup_G_individual_U": 0.48570782002382246
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:G:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 0.4841084942204814,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.4254821563046822,
+    -1.9413736620842008
+   ],
+   "sup_G": [
+    0.4341054433898388,
+    0.4341054433898409
+   ],
+   "sup_G_individual_U": 0.4341054435267076
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:G:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 0.24518299633027796,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.2274292116867918,
+    -0.9822462153565138
+   ],
+   "sup_G": [
+    0.490099297799296,
+    0.49009929779929795
+   ],
+   "sup_G_individual_U": 0.49009929793616464
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:G:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 0.25455220352047836,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.2744095731889051,
+    -1.0198573696684268
+   ],
+   "sup_G": [
+    0.4879035588431249,
+    0.48790355884312686
+   ],
+   "sup_G_individual_U": 0.48790355897999355
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:G:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 0.21038538206413737,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.0529422498289764,
+    -0.8425568677648391
+   ],
+   "sup_G": [
+    0.49580076480337965,
+    0.4958007648033816
+   ],
+   "sup_G_individual_U": 0.4958007649402483
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:G:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 0.3858402398675651,
+   "brecha_sup": 2.0539125955565396e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.932732020678414,
+    -1.5468917808108489
+   ],
+   "sup_G": [
+    0.4526315855653361,
+    0.45263158556533817
+   ],
+   "sup_G_individual_U": 0.45263158570220485
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:G:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 0.1954537803635844,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -0.9780701681835523,
+    -0.7826163878199679
+   ],
+   "sup_G": [
+    0.4994745587250299,
+    0.4994745587250318
+   ],
+   "sup_G_individual_U": 0.4994745588618985
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:G:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 0.202919581213861,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.0155062090062645,
+    -0.8125866277924035
+   ],
+   "sup_G": [
+    0.49763766176420476,
+    0.4976376617642067
+   ],
+   "sup_G_individual_U": 0.4976376619010734
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 0.262307724201678,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.3132983668555656,
+    -1.0509906426538875
+   ],
+   "sup_G": [
+    0.48608599855873785,
+    0.48608599855873985
+   ],
+   "sup_G_individual_U": 0.48608599869560654
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:G:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 0.48249480771148145,
+   "brecha_sup": 2.1649348980190553e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -2.41739058846923,
+    -1.9348957807577485
+   ],
+   "sup_G": [
+    0.43448362206162283,
+    0.434483622061625
+   ],
+   "sup_G_individual_U": 0.4344836221984917
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:G:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 0.24356930982127778,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.219337643851339,
+    -0.9757683340300612
+   ],
+   "sup_G": [
+    0.4904774764710801,
+    0.49047747647108203
+   ],
+   "sup_G_individual_U": 0.4904774766079487
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:G:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 0.25293851701147796,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.2663180053534522,
+    -1.0133794883419742
+   ],
+   "sup_G": [
+    0.48828173751490894,
+    0.48828173751491094
+   ],
+   "sup_G_individual_U": 0.4882817376517776
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:G:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 0.2090995249082006,
+   "brecha_sup": 1.9984014443252818e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.0464945288212502,
+    -0.8373950039130496
+   ],
+   "sup_G": [
+    0.49611713904763877,
+    0.49611713904764076
+   ],
+   "sup_G_individual_U": 0.49611713918450745
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:G:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 0.38455438271162823,
+   "brecha_sup": 2.1094237467877974e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.9262842996706877,
+    -1.5417299169590595
+   ],
+   "sup_G": [
+    0.45294795980959524,
+    0.45294795980959734
+   ],
+   "sup_G_individual_U": 0.45294795994646403
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:G:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 0.19416792320764742,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -0.9716224471758259,
+    -0.7774545239681785
+   ],
+   "sup_G": [
+    0.49979093296928906,
+    0.499790932969291
+   ],
+   "sup_G_individual_U": 0.4997909331061577
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:G:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 0.20163372405792424,
+   "brecha_sup": 1.942890293094024e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 1.368666846524036e-10,
+   "inf_G": [
+    -1.0090584879985383,
+    -0.807424763940614
+   ],
+   "sup_G": [
+    0.49795403600846394,
+    0.4979540360084659
+   ],
+   "sup_G_individual_U": 0.49795403614533257
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:buffer_destacado": {
+   "brecha_inf": 0.26387142481125325,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.01538443430723957,
+   "inf_G": [
+    -1.3213899346910183,
+    -1.057518509879765
+   ],
+   "sup_G": [
+    0.46993233848652877,
+    0.4699323384865329
+   ],
+   "sup_G_individual_U": 0.48531677279377244
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 0.48405850832105646,
+   "brecha_sup": 4.274358644806853e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.02823895488107442,
+   "inf_G": [
+    -2.4254821563046822,
+    -1.9414236479836258
+   ],
+   "sup_G": [
+    0.4054754414155789,
+    0.40547544141558317
+   ],
+   "sup_G_individual_U": 0.4337143962966576
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:nucleo_contable": {
+   "brecha_inf": 0.245133010430853,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.014290485791575713,
+   "inf_G": [
+    -1.2274292116867918,
+    -0.9822962012559388
+   ],
+   "sup_G": [
+    0.4754177649145348,
+    0.4754177649145389
+   ],
+   "sup_G_individual_U": 0.4897082507061146
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:sensibilidad": {
+   "brecha_inf": 0.2545022176210534,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.014837460049407614,
+   "inf_G": [
+    -1.2744095731889051,
+    -1.0199073555678517
+   ],
+   "sup_G": [
+    0.47267505170053176,
+    0.4726750517005359
+   ],
+   "sup_G_individual_U": 0.48751251174994353
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:buffer_destacado": {
+   "brecha_inf": 0.21033539616471242,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.012870209636094199,
+   "inf_G": [
+    -1.0529422498289764,
+    -0.842606853664264
+   ],
+   "sup_G": [
+    0.48253950807409995,
+    0.48253950807410406
+   ],
+   "sup_G_individual_U": 0.49540971771019826
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:guardrail_deuda": {
+   "brecha_inf": 0.38579025396814015,
+   "brecha_sup": 4.218847493575595e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.023623960535571087,
+   "inf_G": [
+    -1.932732020678414,
+    -1.5469417667102738
+   ],
+   "sup_G": [
+    0.42861657793657953,
+    0.42861657793658375
+   ],
+   "sup_G_individual_U": 0.45224053847215484
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:nucleo_contable": {
+   "brecha_inf": 0.19540379446415945,
+   "brecha_sup": 4.052314039881821e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.011955041328825966,
+   "inf_G": [
+    -0.9780701681835523,
+    -0.7826663737193928
+   ],
+   "sup_G": [
+    0.4871284703030185,
+    0.48712847030302253
+   ],
+   "sup_G_individual_U": 0.4990835116318485
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:sensibilidad": {
+   "brecha_inf": 0.20286959531443605,
+   "brecha_sup": 4.052314039881821e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.012412625482460082,
+   "inf_G": [
+    -1.0155062090062645,
+    -0.8126366136918285
+   ],
+   "sup_G": [
+    0.48483398918855924,
+    0.4848339891885633
+   ],
+   "sup_G_individual_U": 0.4972466146710234
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 0.2622577383022531,
+   "brecha_sup": 4.163336342344337e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.015290227298821901,
+   "inf_G": [
+    -1.3132983668555656,
+    -1.0510406285533125
+   ],
+   "sup_G": [
+    0.47040472416673046,
+    0.4704047241667346
+   ],
+   "sup_G_individual_U": 0.4856949514655565
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:guardrail_deuda": {
+   "brecha_inf": 0.4824448218120565,
+   "brecha_sup": 4.274358644806853e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.028144747872656806,
+   "inf_G": [
+    -2.41739058846923,
+    -1.9349457666571734
+   ],
+   "sup_G": [
+    0.4059478270957806,
+    0.40594782709578486
+   ],
+   "sup_G_individual_U": 0.43409257496844167
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:nucleo_contable": {
+   "brecha_inf": 0.24351932392185283,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.0141962787831581,
+   "inf_G": [
+    -1.219337643851339,
+    -0.9758183199294862
+   ],
+   "sup_G": [
+    0.4758901505947365,
+    0.4758901505947406
+   ],
+   "sup_G_individual_U": 0.4900864293778987
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:sensibilidad": {
+   "brecha_inf": 0.252888531112053,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.014743253040990001,
+   "inf_G": [
+    -1.2663180053534522,
+    -1.0134294742413992
+   ],
+   "sup_G": [
+    0.4731474373807335,
+    0.4731474373807376
+   ],
+   "sup_G_individual_U": 0.4878906904217276
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:buffer_destacado": {
+   "brecha_inf": 0.20904953900877565,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.012791398552033206,
+   "inf_G": [
+    -1.0464945288212502,
+    -0.8374449898124745
+   ],
+   "sup_G": [
+    0.4829346934024201,
+    0.48293469340242423
+   ],
+   "sup_G_individual_U": 0.49572609195445744
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:guardrail_deuda": {
+   "brecha_inf": 0.3845043968122033,
+   "brecha_sup": 4.274358644806853e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.023545149451510095,
+   "inf_G": [
+    -1.9262842996706877,
+    -1.5417799028584844
+   ],
+   "sup_G": [
+    0.42901176326489965,
+    0.4290117632649039
+   ],
+   "sup_G_individual_U": 0.452556912716414
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 0.19411793730822247,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.011876230244764974,
+   "inf_G": [
+    -0.9716224471758259,
+    -0.7775045098676034
+   ],
+   "sup_G": [
+    0.4875236556313386,
+    0.4875236556313427
+   ],
+   "sup_G_individual_U": 0.4993998858761077
+  },
+  "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:sensibilidad": {
+   "brecha_inf": 0.20158373815849928,
+   "brecha_sup": 4.107825191113079e-15,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "contextos": 96,
+   "estado_inf": "no_convergida",
+   "estado_sup": "convergida",
+   "exceso_individual": 0.01233381439839909,
+   "inf_G": [
+    -1.0090584879985383,
+    -0.807474749840039
+   ],
+   "sup_G": [
+    0.48522917451687936,
+    0.48522917451688347
+   ],
+   "sup_G_individual_U": 0.49756298891528256
+  }
+ },
+ "etiqueta": "EXTREMOS df/d 3.7 NO OFICIAL",
+ "g_estrella": [
+  0.547466121933288,
+  0.547466121933289
+ ],
+ "identidad_sha256": "f0eff2ee3ab3012098db7736a7a7bfb5bb1a60bb1583d0a8fa2e51cbaa227914",
+ "no_exportable": true,
+ "p_max": {
+  "a": 1.1,
+  "beta_tilde": 0.25,
+  "eta_d": 0.1,
+  "eta_f": 4.05,
+  "kappa_tilde": 0.2,
+  "phi": 0.5,
+  "rho": 1.0,
+  "u_theta": 0.5,
+  "z_cost": 1.0
+ },
+ "p_min": {
+  "a": 1.1,
+  "beta_tilde": 0.25,
+  "eta_d": 0.1,
+  "eta_f": 4.05,
+  "kappa_tilde": 0.005,
+  "phi": 0.5,
+  "rho": 0.4,
+  "u_theta": 0.5,
+  "z_cost": 1.0
+ },
+ "resumen": {
+  "coherencia_con_registro_v4": {
+   "cambio_de_signo": 320,
+   "cambio_de_signo_con_sup_L_mayor_o_igual_eps": 320,
+   "robustas": 0,
+   "robustas_con_sup_U_menor_que_menos_eps": 0
+  },
+  "inf_convergidas": 0,
+  "max_brecha_sup": 4.954370247389761e-15,
+  "max_exceso_individual_sobre_conjunto": 0.09040014008372003,
+  "por_diseno": {
+   "G": {
+    "max_exceso_individual": 1.368667124079792e-10,
+    "sup_convergidas": 160
+   },
+   "N": {
+    "max_exceso_individual": 0.09040014008372003,
+    "sup_convergidas": 160
+   }
+  },
+  "procesadas": 320,
+  "sup_convergidas": 320
+ },
+ "segundos": 138.3,
+ "universo": 320
+}

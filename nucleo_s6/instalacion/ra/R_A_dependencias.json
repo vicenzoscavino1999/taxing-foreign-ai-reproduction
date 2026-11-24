@@ -1,0 +1,520 @@
+{
+  "historico": "tmp/cierre_df_paso4_3_7_2026-10-05_lima1958",
+  "inventario_sha256": "f62789edc1e7f22c307e23cad95d71dcdff07f99715c63d5dbea9f5d0a991f8c",
+  "codigo": {
+    "codigo.sensibilidad_q": {
+      "archivo": "codigo/sensibilidad_q.py",
+      "bytes": 11852,
+      "sha256": "5b1716149926964a38f917f3b917eebdf5e0edc1a367e457223d82375e03e417",
+      "puerto": {
+        "bytes": 11852,
+        "sha256": "5b1716149926964a38f917f3b917eebdf5e0edc1a367e457223d82375e03e417"
+      },
+      "sustituciones": []
+    },
+    "codigo.demo.cobertura_compartida": {
+      "archivo": "codigo/demo/cobertura_compartida.py",
+      "bytes": 13315,
+      "sha256": "529d69dc5a878b8a74d78fbcf7716b065fa2dd391ed0fe08bc2e8459a5580a6f",
+      "puerto": {
+        "bytes": 13058,
+        "sha256": "d8b71f183e5f15de503c8539ea1b09db08e6bac264e818e5a0e567840bcead98"
+      },
+      "sustituciones": []
+    },
+    "codigo.demo.universo": {
+      "archivo": "codigo/demo/universo.py",
+      "bytes": 4996,
+      "sha256": "60a1a71af6c11f78373a49e3a57206768ab86e128605f4bbc34845b168489a8c",
+      "puerto": {
+        "bytes": 4996,
+        "sha256": "60a1a71af6c11f78373a49e3a57206768ab86e128605f4bbc34845b168489a8c"
+      },
+      "sustituciones": []
+    },
+    "codigo.demo.nucleo_v": {
+      "archivo": "codigo/demo/nucleo_v.py",
+      "bytes": 11306,
+      "sha256": "0071c7470ee242ba3838997d8108c6db34c3daa6a2ee239f2f71edac3ab570eb",
+      "puerto": {
+        "bytes": 11335,
+        "sha256": "bd0f0b954926bcb20d77834e24f3506ab236903ac0c47e2ae96bad2d8fbc8520"
+      },
+      "sustituciones": [
+        {
+          "original": "for p in (ROOT, ROOT / \"src\"):",
+          "puerto": "for p in ():  # rem44: el candidato S6 ya está en sys.path",
+          "n": 1
+        }
+      ]
+    },
+    "codigo.demo.init_autenticada": {
+      "archivo": "codigo/demo/init_autenticada.py",
+      "bytes": 10566,
+      "sha256": "ce57ff15d128a08aee9bc9ffde8119283b85a5d14d4cb427774e7426357a06b8",
+      "puerto": {
+        "bytes": 10566,
+        "sha256": "ce57ff15d128a08aee9bc9ffde8119283b85a5d14d4cb427774e7426357a06b8"
+      },
+      "sustituciones": []
+    },
+    "codigo.demo": {
+      "archivo": "codigo/demo/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "puerto": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "sustituciones": []
+    },
+    "codigo.demo.c2_normalizado": {
+      "archivo": "codigo/demo/c2_normalizado.py",
+      "bytes": 6223,
+      "sha256": "31d247eeb0368a38aa90ea8c262e3ea55cdfa62d312fe68024969b54670ab785",
+      "puerto": {
+        "bytes": 6223,
+        "sha256": "31d247eeb0368a38aa90ea8c262e3ea55cdfa62d312fe68024969b54670ab785"
+      },
+      "sustituciones": []
+    },
+    "codigo.testigos": {
+      "archivo": "codigo/testigos.py",
+      "bytes": 15528,
+      "sha256": "2ef80687d8483c203ba79e5e893e0144f18cc435058c31e0db3d2040a9a6dc8c",
+      "puerto": {
+        "bytes": 15528,
+        "sha256": "2ef80687d8483c203ba79e5e893e0144f18cc435058c31e0db3d2040a9a6dc8c"
+      },
+      "sustituciones": []
+    },
+    "codigo.demo.cobertura_mejorada": {
+      "archivo": "codigo/demo/cobertura_mejorada.py",
+      "bytes": 15081,
+      "sha256": "4254e7a34b334edebde3a56e87ec4c0cc3080ca715d44489cbd8de90258477c6",
+      "puerto": {
+        "bytes": 14801,
+        "sha256": "78140f33fa5499918dd36468788380e0daec51dfc913f03e0c2a145033dc0541"
+      },
+      "sustituciones": []
+    },
+    "codigo.demo.memo_c2": {
+      "archivo": "codigo/demo/memo_c2.py",
+      "bytes": 2594,
+      "sha256": "dc40b2330b52e85bc19cac086f83f2d259ec0a7e2f150e4c8edf64f955084b9a",
+      "puerto": {
+        "bytes": 2594,
+        "sha256": "dc40b2330b52e85bc19cac086f83f2d259ec0a7e2f150e4c8edf64f955084b9a"
+      },
+      "sustituciones": []
+    },
+    "codigo.demo.verificador_v2": {
+      "archivo": "codigo/demo/verificador_v2.py",
+      "bytes": 18325,
+      "sha256": "3c28797f952aa6edf2989eeedd10a6ef897278c420e5bf5db4876b53360ea4f8",
+      "puerto": {
+        "bytes": 17991,
+        "sha256": "3527ba17e2a877da22c7af35d9a678012f1edc874d5a3b6d4737770bbb5c4ecd"
+      },
+      "sustituciones": []
+    },
+    "codigo.muestra_costo": {
+      "archivo": "codigo/muestra_costo.py",
+      "bytes": 18614,
+      "sha256": "52532a33dd0625072f17b32a3a0870cb35d2efbbd5a713596549006d43daea53",
+      "puerto": {
+        "bytes": 18614,
+        "sha256": "52532a33dd0625072f17b32a3a0870cb35d2efbbd5a713596549006d43daea53"
+      },
+      "sustituciones": []
+    },
+    "codigo": {
+      "archivo": "codigo/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "puerto": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "sustituciones": []
+    },
+    "codigo.ensayo_quiebres_macro": {
+      "archivo": "codigo/ensayo_quiebres_macro.py",
+      "bytes": 14589,
+      "sha256": "08bf879636123da44037763a0ced67b45a1114b384d367d4aaf67e2f75fa89f2",
+      "puerto": {
+        "bytes": 14589,
+        "sha256": "08bf879636123da44037763a0ced67b45a1114b384d367d4aaf67e2f75fa89f2"
+      },
+      "sustituciones": []
+    },
+    "codigo.cobertura_m4": {
+      "archivo": "codigo/cobertura_m4.py",
+      "bytes": 23036,
+      "sha256": "99f3e07c0ba1d024cb90f11be804a199af2b6838a0acba0ac309bdcd7f85fd8f",
+      "puerto": {
+        "bytes": 23036,
+        "sha256": "99f3e07c0ba1d024cb90f11be804a199af2b6838a0acba0ac309bdcd7f85fd8f"
+      },
+      "sustituciones": []
+    },
+    "codigo.cobertura_dificiles": {
+      "archivo": "codigo/cobertura_dificiles.py",
+      "bytes": 18456,
+      "sha256": "fdb5e3909ba793bbb98c100c49d4b34e801e920c749d648deaac7db7b95610db",
+      "puerto": {
+        "bytes": 18456,
+        "sha256": "fdb5e3909ba793bbb98c100c49d4b34e801e920c749d648deaac7db7b95610db"
+      },
+      "sustituciones": []
+    },
+    "codigo.ensayo_quiebres": {
+      "archivo": "codigo/ensayo_quiebres.py",
+      "bytes": 9918,
+      "sha256": "4fdc0853db79216ace6120122394ef8295f4079ad80210f420e0e7256f07318f",
+      "puerto": {
+        "bytes": 9918,
+        "sha256": "4fdc0853db79216ace6120122394ef8295f4079ad80210f420e0e7256f07318f"
+      },
+      "sustituciones": []
+    }
+  },
+  "aristas": {
+    "codigo.sensibilidad_q": [
+      "codigo",
+      "codigo.testigos",
+      "codigo.demo",
+      "codigo.demo.c2_normalizado",
+      "codigo.demo",
+      "codigo.demo.nucleo_v",
+      "codigo.demo.cobertura_compartida"
+    ],
+    "codigo.demo.cobertura_compartida": [
+      "codigo.demo",
+      "codigo.demo.nucleo_v",
+      "codigo.demo.universo"
+    ],
+    "codigo.demo.universo": [],
+    "codigo.demo.nucleo_v": [
+      "codigo.demo",
+      "codigo.demo.init_autenticada"
+    ],
+    "codigo.demo.init_autenticada": [],
+    "codigo.demo": [],
+    "codigo.demo.c2_normalizado": [],
+    "codigo.testigos": [
+      "codigo",
+      "codigo.muestra_costo",
+      "codigo.demo",
+      "codigo.demo.nucleo_v",
+      "codigo.demo",
+      "codigo.demo.c2_normalizado",
+      "codigo.demo",
+      "codigo.demo.memo_c2",
+      "codigo.demo.cobertura_compartida",
+      "codigo.demo.universo",
+      "codigo.demo.verificador_v2",
+      "codigo.demo",
+      "codigo.demo.cobertura_mejorada"
+    ],
+    "codigo.demo.cobertura_mejorada": [
+      "codigo.demo",
+      "codigo.demo.nucleo_v",
+      "codigo.demo",
+      "codigo.demo.c2_normalizado",
+      "codigo.demo",
+      "codigo.demo.memo_c2",
+      "codigo.demo.universo"
+    ],
+    "codigo.demo.memo_c2": [],
+    "codigo.demo.verificador_v2": [
+      "codigo.demo",
+      "codigo.demo.nucleo_v"
+    ],
+    "codigo.muestra_costo": [
+      "codigo.demo",
+      "codigo.demo.cobertura_mejorada",
+      "codigo.demo.universo",
+      "codigo.demo",
+      "codigo.demo.nucleo_v",
+      "codigo.demo",
+      "codigo.demo.nucleo_v",
+      "codigo.demo",
+      "codigo.demo.c2_normalizado",
+      "codigo.demo",
+      "codigo.demo.memo_c2",
+      "codigo.demo.cobertura_compartida"
+    ],
+    "codigo": [],
+    "codigo.ensayo_quiebres_macro": [
+      "codigo",
+      "codigo.cobertura_m4",
+      "codigo",
+      "codigo.testigos",
+      "codigo.demo",
+      "codigo.demo.c2_normalizado",
+      "codigo.demo",
+      "codigo.demo.memo_c2",
+      "codigo.demo",
+      "codigo.demo.nucleo_v",
+      "codigo.demo.cobertura_compartida",
+      "codigo.demo.universo"
+    ],
+    "codigo.cobertura_m4": [
+      "codigo",
+      "codigo.muestra_costo",
+      "codigo",
+      "codigo.testigos",
+      "codigo",
+      "codigo.cobertura_dificiles",
+      "codigo.demo",
+      "codigo.demo.nucleo_v",
+      "codigo.demo",
+      "codigo.demo.c2_normalizado",
+      "codigo.demo",
+      "codigo.demo.memo_c2",
+      "codigo.demo.cobertura_compartida"
+    ],
+    "codigo.cobertura_dificiles": [
+      "codigo",
+      "codigo.muestra_costo",
+      "codigo",
+      "codigo.testigos",
+      "codigo.demo",
+      "codigo.demo.nucleo_v",
+      "codigo.demo",
+      "codigo.demo.c2_normalizado",
+      "codigo.demo",
+      "codigo.demo.memo_c2",
+      "codigo.demo.cobertura_compartida",
+      "codigo.demo.verificador_v2"
+    ],
+    "codigo.ensayo_quiebres": [
+      "codigo",
+      "codigo.cobertura_m4",
+      "codigo",
+      "codigo.testigos",
+      "codigo.demo",
+      "codigo.demo.c2_normalizado",
+      "codigo.demo",
+      "codigo.demo.memo_c2",
+      "codigo.demo",
+      "codigo.demo.nucleo_v",
+      "codigo.demo.cobertura_compartida"
+    ]
+  },
+  "imports_externos_estaticos": [
+    "__future__",
+    "__future__.annotations",
+    "builtins",
+    "codigo.demo.cobertura_compartida.q_pot_exact",
+    "codigo.demo.universo.MACRO",
+    "codigo.demo.universo.Universo",
+    "codigo.demo.universo.qmin_table",
+    "codigo.demo.verificador_v2.Verificador",
+    "collections",
+    "collections.deque",
+    "copy",
+    "csv",
+    "dataclasses",
+    "dataclasses.replace",
+    "decimal",
+    "decimal.Decimal",
+    "hashlib",
+    "heapq",
+    "herramientas.b",
+    "herramientas.b.ejecutar_b",
+    "herramientas.b.nacional",
+    "herramientas.bloque2",
+    "herramientas.bloque2.autoridad",
+    "herramientas.bloque2.entorno",
+    "herramientas.bloque2.familias",
+    "herramientas.bloque2.perfiles",
+    "herramientas.congelamiento",
+    "herramientas.congelamiento.s5_publicador",
+    "herramientas.s3.validadores.core",
+    "herramientas.s3.validadores.core.Contracts",
+    "io",
+    "itertools",
+    "itertools.product",
+    "json",
+    "math",
+    "os",
+    "paper2b",
+    "paper2b.claims",
+    "paper2b.claims.EPS_ECON",
+    "paper2b.cobertura",
+    "paper2b.d7view",
+    "paper2b.d7view.D7View",
+    "paper2b.encierros_modelo",
+    "paper2b.external",
+    "paper2b.intervalos",
+    "paper2b.intervalos.Iv",
+    "paper2b.keys",
+    "paper2b.robustness",
+    "paper2b.run",
+    "paper2b.supports",
+    "paper2b.supports.level_nodes",
+    "paper2b.supremum",
+    "paper2b.supremum.axes",
+    "pathlib",
+    "pathlib.Path",
+    "random",
+    "statistics",
+    "sys",
+    "time"
+  ],
+  "nucleo_S6": {
+    "aplicabilidad.py": {
+      "bytes": 6110,
+      "sha256": "71f452c7c0eea7b47ffb2985d0add1041780ecdaa19a4e24ed0ede7a1997a6cf"
+    },
+    "c2_normalizado.py": {
+      "bytes": 6223,
+      "sha256": "31d247eeb0368a38aa90ea8c262e3ea55cdfa62d312fe68024969b54670ab785"
+    },
+    "claims.py": {
+      "bytes": 9674,
+      "sha256": "24438732d316f299379a40a2476971dddacf59f338c1a36c1a4757f17f0254a0"
+    },
+    "claves_condicionales.py": {
+      "bytes": 8951,
+      "sha256": "a6826bcddf9d413f5a2438703dc202b3096fbfcb9edb63f035963b8d8485e6e3"
+    },
+    "cobertura.py": {
+      "bytes": 13330,
+      "sha256": "d6be53db849fbfaa1d11c3213cc25a0f86a990ef6b3198e36e6b56607f5d9381"
+    },
+    "contexto.py": {
+      "bytes": 5798,
+      "sha256": "035d51c3fcb48dd68d8b73f26ba436a7ff9a7a36e34cc89d9432cc76be673b9e"
+    },
+    "contour.py": {
+      "bytes": 24570,
+      "sha256": "d826dd8f57ca5d26a6feca2d44ebc9babda6179419f5f58391bb09f6e7907a69"
+    },
+    "contrato_paquete.py": {
+      "bytes": 59272,
+      "sha256": "6705b2467fce21dc5517b2648f80fa6857423f7239222bd224a112f2294c4538"
+    },
+    "convergencia.py": {
+      "bytes": 11968,
+      "sha256": "b7d41d81e5e29626f52634b5ef8de8cf5abc54e00688c7b4d4a255294b369b98"
+    },
+    "cota_fiscal.py": {
+      "bytes": 11833,
+      "sha256": "46b2d1617cfcca45be696e844a807baca866842d6ccd17363fb1f1978b0f0dca"
+    },
+    "d7build.py": {
+      "bytes": 30804,
+      "sha256": "e0dbe9562617642a08dcfd4dae5afafaef5b13df9a45f4c66e68967f6654013b"
+    },
+    "d7view.py": {
+      "bytes": 3843,
+      "sha256": "74f4b60a602ac951d5871c11e43e6a29efb6c3ffc5fb218135724ccea5671660"
+    },
+    "elementales.py": {
+      "bytes": 16623,
+      "sha256": "c71faf35370fa2329db69802f03f52d9bc72566a2d9fa50a9ca8dbea1eb6f82b"
+    },
+    "encierros_modelo.py": {
+      "bytes": 62827,
+      "sha256": "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53"
+    },
+    "external.py": {
+      "bytes": 4662,
+      "sha256": "0b14fc0ee0fe4b0bc6d28aebad717dc0e02af03d8b53007be00d7295b72c4a6b"
+    },
+    "frontier.py": {
+      "bytes": 6392,
+      "sha256": "709f51b21188ff8d4638d7eadf535dd3f8307f2e1ce995a49539fe7bfcd36ed2"
+    },
+    "intervalos.py": {
+      "bytes": 3856,
+      "sha256": "2607d0cf3f879316c699ec4cd73021bff9ae8f680f7c7c01facb84dfb65aa891"
+    },
+    "inversion.py": {
+      "bytes": 11701,
+      "sha256": "60fced8313fb90f1e69531d0a15f193dbeb94c369b2b3a7a7b939077d340685a"
+    },
+    "keys.py": {
+      "bytes": 5935,
+      "sha256": "fbcbc899f267cf2a367ce3cf6d46e0479869bd681d5a248ee5d49574660ac530"
+    },
+    "macro.py": {
+      "bytes": 5494,
+      "sha256": "4a94661d1cd0f3fe654f2cf7ecaa740b860e1c735b1585d51fda8f56dd068b98"
+    },
+    "model.py": {
+      "bytes": 16523,
+      "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9"
+    },
+    "modelos.py": {
+      "bytes": 34103,
+      "sha256": "7f0dd31cacf431fb421e2c5047aa5b750cbecfc1064e3374c4247dcd40c93fda"
+    },
+    "motor_theta.py": {
+      "bytes": 25471,
+      "sha256": "a5ab3b74321e35fdf59afcbeb992b9053acf7d7b9742f2ff4c14ff70cab27a42"
+    },
+    "niveles.py": {
+      "bytes": 5108,
+      "sha256": "5e686f31a60d473a8e12282cc8bb7d615fe94226a0f388b1627c9c09b1a9ce7a"
+    },
+    "numeric.py": {
+      "bytes": 5695,
+      "sha256": "4b19f4cb45a637c3a3370ca95059bc4f94feb71649a9f54fd5ac8c33c941c98e"
+    },
+    "r1_local.py": {
+      "bytes": 13228,
+      "sha256": "47790d95ef8c882305629484f1d215480eb859b1dbde8b3d7b28c6fcf438ca06"
+    },
+    "r1_reanudable.py": {
+      "bytes": 24477,
+      "sha256": "a73d83f99c10ded9ddff4e081a0c5ddf3c225b824055bc552c0f4e21d17a52c1"
+    },
+    "raices.py": {
+      "bytes": 26744,
+      "sha256": "1db76cf7129558f5d95d5f49ddbbb1110a30e753124cee152100f16f3313de22"
+    },
+    "robustness.py": {
+      "bytes": 18046,
+      "sha256": "587f7fc294655e0bb0759aeae09edf372274da651aa2c463a191c3da22aea2b8"
+    },
+    "rules.py": {
+      "bytes": 58052,
+      "sha256": "12c59cd46a8e4865a378dfbf3d7e3f9dc00bd4ee9e28addc7252e7b21b7c9fda"
+    },
+    "run.py": {
+      "bytes": 103551,
+      "sha256": "18abae7000d727c88dc7693db59c75a20ea79db7031b0c2e510d2b3af0058360"
+    },
+    "sections.py": {
+      "bytes": 5224,
+      "sha256": "0505b0df978fa31719332359b73bfb81d5413ad71b2331b247290ca2c481bd61"
+    },
+    "seleccion_valores.py": {
+      "bytes": 9286,
+      "sha256": "b5eaf6ea348c243ce13658b484b9e650d255317e43f4df70d2b492c6ec3cf65e"
+    },
+    "supports.py": {
+      "bytes": 2232,
+      "sha256": "8051efef6ae2819f864ec1e516b09ac7f03e421b74478454b57391c6529fa752"
+    },
+    "supremum.py": {
+      "bytes": 19690,
+      "sha256": "2c246c8be6d4437892cd951cc0acaaac6e5d8ea7a921de2e13f560caf8dfebbb"
+    },
+    "tables.py": {
+      "bytes": 7042,
+      "sha256": "10450098e68b929e3522d789acee57cdebb532c646abd85ddf788b58e228f6fe"
+    },
+    "__init__.py": {
+      "bytes": 407,
+      "sha256": "89f7210e7c118c83eec9d73323491e0d8c778b76d1297f703dfca2b86069c72a"
+    }
+  },
+  "original_autenticado_por": "audit/original_antes.json",
+  "dependencias_externas_autenticadas_por": "audit/dependencias_externas_antes.json",
+  "limite": "El grafo estatico no certifica equivalencia cientifica; las importaciones efectivas se registran en la prueba de conexion y el ensayo futuro."
+}

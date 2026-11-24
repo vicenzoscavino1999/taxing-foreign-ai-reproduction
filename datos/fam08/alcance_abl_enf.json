@@ -1,0 +1,53 @@
+{
+ "kind": "autorizacion-alcance-paso4-v3",
+ "etiqueta": "ALCANCE v3 TECHOS ABL-ENF — NO OFICIAL. D-EXP9i: «Adopto para Exp9(i)/C9 el contraste finito ABL-ENF de dos escenarios: eta_f del padre frente a eta_f/2, con phi y las demás entradas fijas. En las 1.724 celdas con testigo, vinculadas a 26 claves, se comparan mallas padre/ENF en tasas comunes, desplazamiento del techo C2 y cambio de G con K1 fijo. Se usa la malla finita aceptada, con sus laterales cuando corresponda, y el motor certificado para los techos, cierre normalizado 1e-7 y error en R conservado. El menú d sirve como control de invariancia. El contraste no demuestra respuesta en toda la superficie continua, causalidad institucional, costes de reforma ni política óptima.» D-COORD-ALCANCE: «Adopto para reportar COORD el universo de 1.724 celdas padre con testigo disponible. COL-2024p queda fuera de ese nivel por falta de testigos: es una exclusión de alcance, no una NA ni un resultado negativo. No se declara cobertura de todo Omega ni se autoriza una selección adicional.»",
+ "plan_sha256": "18b2647b07fc54b3bac88ffa2808c40de4df30682934abc48e7e22b61350495d",
+ "operaciones": [
+  "LOTE3"
+ ],
+ "tareas": [
+  "ABL-ENF-T1",
+  "ABL-ENF-T2",
+  "ABL-ENF-T3",
+  "ABL-ENF-T4",
+  "ABL-ENF-T5",
+  "ABL-ENF-T6"
+ ],
+ "asignaciones": {
+  "ABL-ENF-T1": "54b15187444cd6fd18bf1ac51617cdb90382fd68e53ec772aaf1cb9b9f76e06f",
+  "ABL-ENF-T2": "7594aef3f8c5746c4db6a17fc3a969052127c0a0f64fa0cc1e89670990c3c82b",
+  "ABL-ENF-T3": "85d4bd3a29524577b259ef4ee8c9b665ac3674cb0c796cfe745757e0936fc8e2",
+  "ABL-ENF-T4": "c2dccfadda5b2f837b821a2588862e13122599df685987c4b28161a5b9257655",
+  "ABL-ENF-T5": "c6f66c0be8ca36672e5b3d82f8b97704a74eb41c8f5f09b7d1c4b2392930f7f2",
+  "ABL-ENF-T6": "47e88f509411944c04510ceb9dc07f9862d803bef7eb35b38063f82e60472be7"
+ },
+ "despliegue_sha256": "f293a0a62d2cb6bf3517e72a0bfc589ee703685d4434c2cdae4b4cd1b5085d6c",
+ "entradas": {
+  "lote_manifiesto": "0b27b32abdfb4eaf0db11427a8a8bb93c7d4014c6c7acd1bdbfbe6e32d28b3ad",
+  "codigo_lote": {
+   "tarea_lote.py": "1fbe5cbc0525428788ac775f1a2e8c5e55b03079cb37a195b5ad997ed7bc0b40",
+   "conexion_coord_cert.py": "e5776de970b72535ec7b72340604abfd9e8448479ea78dac4b714d870d273d61"
+  },
+  "validador_lote": "070ae81d15119735369b08bf083e9ff3b7652ca99a2956547b9f290db4022ee4",
+  "d7_sha256": null,
+  "cobertura_nacional": "b7b2616c4f89f15d5469ad460e71697af910a6a0c2a2a60390b6a0fe367772d9",
+  "validador_coord_rec": "086ea05688d9eb520982cc3e57a01eb5b45b37f3bb9b77503f3c0a2822ed0864",
+  "ensamblador": "ac9a5d27d6f5fed0a069c7de664952b5ca774713fe285e0d6124920f0bc747be"
+ },
+ "limites": {
+  "procesos": 3,
+  "tope_s": 2400.0,
+  "suite_s": 3600.0,
+  "union_s": 10800.0
+ },
+ "repetir": [],
+ "excepciones": [],
+ "instalacion_identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+ "congelamiento_p3_sha256": "8e59ea4870c987ecca4ea1e5a8cb3f95581fcc1a64b3e7aa61c035a9b8e0dcfc",
+ "emitida_utc": "2026-10-30T18:52:17.500339+00:00",
+ "continua_alcance": null,
+ "lote_manifiesto_sha256": "0b27b32abdfb4eaf0db11427a8a8bb93c7d4014c6c7acd1bdbfbe6e32d28b3ad",
+ "b_official_run_authorized": false,
+ "freeze_run_authorized": false,
+ "official_export_authorized": false
+}

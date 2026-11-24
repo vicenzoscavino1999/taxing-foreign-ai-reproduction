@@ -1,0 +1,50 @@
+{
+ "kind": "declaracion-pruebas-diagnosticas-rem128",
+ "estado": "DECLARADA ANTES DE EJECUTAR; DIAGNÓSTICO NO PRODUCTIVO",
+ "contencion": "cada prueba como p3ctl directa con tope <= 600 s; unión efectiva del conjunto diagnóstico + recuperación <= 1.200 s; sin ejecución en paralelo con el conductor de T2–T6; sin relanzar una prueba detenida por tope",
+ "prohibido": "capture_ceiling, sup_bound, búsqueda global nueva, modo sintético con datos reales, acto de techos para un candidato modificado",
+ "enmiendas": [
+  {
+   "antes_de": "REM128_DIAG_CERTIFICADO_I2",
+   "motivo": "REM128_DIAG_CERTIFICADO (I1) terminó no_decidido (rc 4) por sobreestimación por dependencia de los encierros sobre la caja entera (H3: M en [−5e-18, 1,29]; H5: gradiente AD de t~_d en [−0,63; 2,5]); se conserva con su código (certificado_salto_I1.py 953fd1f7…) y su salida (CERTIFICADO_d59edf8a.json 2cd9d207…)",
+   "cambio": "I2 acota H1–H3 en la esquina desfavorable con monotonía demostrada por derivadas cerradas (t~_d' = x_d^eta_d; t~_f' = x_f^(alpha-1)(1 − (1 − phi) tau_f)); H5 por los mismos factores; signo de h' por su factor B; mismo dominio, mismos puntos de bisección y laterales",
+   "codigo": "diagnostico/certificado_salto.py (I2)",
+   "salida": "diagnostico/CERTIFICADO_d59edf8a_I2.json; las pruebas REM128_DIAG_CONTRASTES y REM128_RECUP_* usan el certificador I2 y esta salida"
+  }
+ ],
+ "pruebas": [
+  {
+   "id": "REM128_DIAG_CERTIFICADO",
+   "objetivo": "decidir el alcance del supremo de R en la clave d59edf8a9d1461d1 (G|df, rho = 1) con las hipótesis H1–H6 por intervalos y, si procede, encerrar el testigo lateral P1 y el supremo de forma independiente; contrastarlo con las cotas persistidas de T1",
+   "dominio": "caja de tasas del manifiesto ABL-ENF: [0, 0.6] x [0, 0.6] cerrada; primitivas de la clave del manifiesto (0b27b32a…)",
+   "puntos_o_regla": "encierros sobre la caja completa (H1–H5) y en sus dos esquinas (H6); bisección de c(., 0.6) en [0, 0.6] y de c(0.6, .) hasta que el signo deje de decidirse (<= 400 pasos); derivada a lo largo de Γ en la caja que la contiene, subdividida en 2^k tiras (k <= 6) si hace falta; pruebas laterales con model.evaluate en tau_f = 0.6 y tau_d = a − h, b + h para h = 1e-3 … 1e-10 (16 evaluaciones)",
+   "codigo": "diagnostico/certificado_salto.py (C0: model.py, encierros_modelo.py, elementales.py, intervalos.py, sin cambios)",
+   "entrada": "rem127 enf_REM127_ENF_COMPLETO_TECHOS/ABL-ENF-T1/salida/enf_techos.jsonl (ee766293…)",
+   "salida": "diagnostico/CERTIFICADO_d59edf8a.json"
+  },
+  {
+   "id": "REM128_DIAG_CONTRASTES",
+   "objetivo": "comprobar que el certificador distingue alcanzado / no alcanzado demostrado / no decidido y no promueve un estado no decidido",
+   "dominio": "la clave real con UN cambio sintético por caso",
+   "puntos_o_regla": "7 casos fijos: S1 caja [0, 0.5]²; S2 diseño N; S3 rho = 0.9; S4 kappa_tilde = 0.9; S5 cotas +1 en R; S6 menú d; S7 clave real",
+   "codigo": "diagnostico/pruebas_certificado.py",
+   "salida": "diagnostico/PRUEBAS_CERTIFICADO_REM128.json"
+  },
+  {
+   "id": "REM128_RECUP_PRUEBAS",
+   "objetivo": "pruebas dirigidas de la recuperación granular de T1, de la composición y del validador candidato (copias aisladas)",
+   "dominio": "bytes sellados de rem127 T1 (solo lectura) y copias alteradas en recuperacion/pruebas_REM128/copias/",
+   "puntos_o_regla": "R01–R17, V01–V06, C01–C03 (ver docstring de recuperacion/pruebas_recuperacion.py)",
+   "codigo": "recuperacion/recuperar_t1.py, recuperacion/candidato/validar_coord_rec.py, diagnostico/certificado_salto.py",
+   "salida": "recuperacion/pruebas_REM128/PRUEBAS_RECUPERACION_REM128.json"
+  },
+  {
+   "id": "REM128_RECUP_PROPUESTA",
+   "objetivo": "manifestación de reutilización por clave de los 17 techos cerrados de T1 y estado de la clave pendiente con el certificado",
+   "dominio": "bytes sellados de rem127 T1",
+   "puntos_o_regla": "una ejecución",
+   "codigo": "recuperacion/recuperar_t1.py",
+   "salida": "recuperacion/REUTILIZACION_T1_REM128/"
+  }
+ ]
+}

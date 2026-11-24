@@ -1,0 +1,78 @@
+{
+ "arbol_D3_activo": "6e2ac8eb42f85ca36bffcdaebab3a7762c10cc42457b7874b5537e98f69b2236",
+ "certificado_D3": {
+  "ruta": "fase2_datos\\certificados_reuso\\CERT-REUSO-D3-A1E-v2.json",
+  "sha256": "2d8a1ff1ca181ffef68cc04adaf4e7d1b1d171784aaddc2d2d2b6531179964bd",
+  "igual_dependencia_D7": true
+ },
+ "indice": {
+  "ruta": "fase2_datos\\d3_universo\\versions\\6e2ac8eb42f85ca36bffcdaebab3a7762c10cc42457b7874b5537e98f69b2236\\derivation_manifests_index.json",
+  "sha256_bytes": "2affd40089fc71588ad86fb3dc0077c9eb7e7506b57b0b62908239a3a3cfd380",
+  "sha256_canonico": "609043125b9166df27973cd9c24958f0718c97794746c54064d2f5af8a9604ab",
+  "contenido": {
+   "schema_version": 1,
+   "manifest_count": 0,
+   "manifests": []
+  }
+ },
+ "comprobaciones": {
+  "esquema_cerrado": true,
+  "conteo_coherente": true,
+  "entradas_cinco_campos": true,
+  "claves_unicas_y_ordenadas": true,
+  "rutas_relativas_sin_escape": true,
+  "hashes_reproducen": true,
+  "evidencia_sin_manifiesto_no_indexado": true,
+  "fase_una_fila": true,
+  "fase_conteo_igual": true,
+  "fase_bundle_igual_bytes": true,
+  "fase_otros_hashes": {
+   "universe_crosswalk": true,
+   "crosswalk_evidence": true,
+   "firm_universe": true,
+   "size_distribution": true,
+   "d3_gate_report": true
+  },
+  "fase_estado": "complete_with_limitations",
+  "fase_bundle_es_bytes_del_archivo": true
+ },
+ "nota": "índice VACÍO (manifest_count 0) admitido por el diseño; su hash nunca es nulo",
+ "enlaces_D7_D2_D6_bundles": {
+  "d2_version": {
+   "manifiesto": "fase2_datos/d2_cuentas_nacionales/versions/61e68b44bb7e6c535bba4211405f37521b39fc93eaee6094c1c9f9cea0dded2d/d2_manifest.json",
+   "hash_dependencia_ok": true,
+   "archivos": 14,
+   "malos": [],
+   "duplicados": 0,
+   "rutas_absolutas_o_escape": [],
+   "arbol_D7_igual_carpeta": true,
+   "arbol_declarado_en_manifiesto": "61e68b44bb7e6c535bba4211405f37521b39fc93eaee6094c1c9f9cea0dded2d"
+  },
+  "d6_v2_version": {
+   "manifiesto": "fase2_datos/d6_tax_shares_v2/versions/8cea18486cdc83d6a2d25fd7060670cc229b80de2d61de4477ddb57613779441/d6_manifest.json",
+   "hash_dependencia_ok": true,
+   "archivos": 6,
+   "malos": [],
+   "duplicados": 0,
+   "rutas_absolutas_o_escape": [],
+   "arbol_D7_igual_carpeta": true,
+   "arbol_declarado_en_manifiesto": null
+  },
+  "ca2_bundles_index": {
+   "indice": "fase2_datos/ca2_bundles/indice_bundles_s5_d2694d8f76eb26ac.json",
+   "hash_dependencia_ok": true,
+   "referencias": 39,
+   "por_tipo": {
+    "bundle": 4,
+    "componente": 5,
+    "contexto": 30
+   },
+   "malas": [],
+   "n_malas": 0,
+   "rutas_repetidas_mismo_hash": 20,
+   "rutas_con_hash_en_conflicto": [],
+   "nota_repetidas": "un mismo contexto (archivo y hash) compartido por varios países; no es duplicado conflictivo",
+   "evidencia_D7_de_bundles_coincide": true
+  }
+ }
+}

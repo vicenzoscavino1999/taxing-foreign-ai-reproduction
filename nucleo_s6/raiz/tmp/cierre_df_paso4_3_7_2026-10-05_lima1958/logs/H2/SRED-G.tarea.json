@@ -1,0 +1,26 @@
+{
+ "cpu_usuario_s": 8.609375,
+ "cpu_nucleo_s": 0.125,
+ "procesos_totales": 6,
+ "procesos_activos": 0,
+ "memoria_pico_job_mb": 33.3,
+ "memoria_pico_proceso_mb": 26.1,
+ "id": "SRED-G",
+ "comando": [
+  "bash",
+  "tmp/cierre_df_paso4_3_7_2026-10-05_lima1958/../pilotos_b36_b37_2026-10-02/entorno/py_integracion.sh",
+  "-m",
+  "codigo.sup_reducido",
+  "G",
+  "demo/hito2/sred_G_df.json",
+  "1800"
+ ],
+ "cwd": "tmp/cierre_df_paso4_3_7_2026-10-05_lima1958",
+ "limite_duro_s": 2100.0,
+ "inicio_utc": "2026-10-06T01:12:27Z",
+ "pared_s": 9.0,
+ "codigo_salida": 0,
+ "estado": "TERMINO",
+ "cpu_total_s": 8.7,
+ "cpu_por_pared": 0.97
+}

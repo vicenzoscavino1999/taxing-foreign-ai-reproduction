@@ -1,0 +1,208 @@
+{
+ "id": "S1-G-d",
+ "familia": "S1",
+ "estrato": "G-d",
+ "estado_final": "completo",
+ "estado_generador": "ok",
+ "inicio_utc": "2026-10-10T03:13:11Z",
+ "fin_utc": "2026-10-10T03:15:33Z",
+ "pared_s": 142.04,
+ "cpu_s": 141.31,
+ "cache_delta": {
+  "rechazos": 0,
+  "esperas": 0,
+  "candados_liberados_por_error": 0,
+  "escrituras_rechazadas": 0,
+  "candados_recuperados": 0,
+  "esperas_agotadas": 0,
+  "calculos": 1,
+  "aciertos_memoria": 0,
+  "aciertos_disco": 0
+ },
+ "resultado": {
+  "etiqueta": "S1-G-d",
+  "extreme_id": "c2b42c293515d323",
+  "claim_id_hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:G:addback_completo:micro:sensibilidad",
+  "indice_contexto": 77,
+  "precomprobaciones": {
+   "indice_en_universo": true,
+   "contexto_coincide": true,
+   "diseno_instrumento": true,
+   "pais": true,
+   "K1_coincide": true,
+   "omega_exacto": true,
+   "omega_admisible": true
+  },
+  "set_id": "CMP-E1.micro",
+  "omega_id": "OMG:ef9581921a56b0e19107f2845d03910bceb75061bab3d04c1c7e2568f4003011",
+  "pais": "COL",
+  "diseno": "G",
+  "instrumento": "d",
+  "caso": "domestic_unchanged",
+  "estado_nacional": {
+   "pais": "COL",
+   "preregistro": "PREG-COMPARACION-E1",
+   "canal": "conditional",
+   "edicion": "pub",
+   "anio_ancla": 2020,
+   "etiqueta": "published_vector",
+   "dominio_conjunto_sha256": "b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151"
+  },
+  "macro": {
+   "eta_H": "-0.5",
+   "eta_w": "0.05",
+   "gain_share": "0.1",
+   "pi_iva": "0.5",
+   "pi_otros_productos": "0.5",
+   "pi_produccion": "0.5"
+  },
+  "celda_externa": {
+   "id": "EXT:COL:PEN:r4:baseline:0.05",
+   "Q": 0.011206155833979763,
+   "capa": "sensibilidad",
+   "cota": "addback_completo"
+  },
+  "clave_estructural": "8b89cce77b9c07610691c0f6a57b2f25eb062937ddb5a6226f80033548617924",
+  "techo_reutilizado_entre_conjuntos": false,
+  "frontera_reutilizada": false,
+  "frontier_id": "FRN:269b482e0a7600b06c043613244f8731c46d63bc",
+  "macro_reutilizado": false,
+  "estado": "ok",
+  "motivos": [],
+  "completitud": {
+   "estado": "completa",
+   "partes": {
+    "contexto": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "frontera": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "techo": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "confrontacion": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "macro": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "evidencia_G": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "inversion:capture_required": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "inversion:external_factor": {
+     "estado": "no_aplicable_justificada",
+     "motivo": "EXTERNAL_FACTOR_NOT_IDENTIFIED"
+    },
+    "inversion:gain_required": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "inversion:lambda_required": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "inversion:phi_partial": {
+     "estado": "no_aplicable_justificada",
+     "motivo": "TARGETS_NOT_PREDECLARED"
+    },
+    "inversion:phi_total": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "r1": {
+     "estado": "completa",
+     "motivo": null
+    },
+    "r2:paridad": {
+     "estado": "no_aplicable_justificada",
+     "motivo": "SECTION_OUTSIDE_MENU; trayectoria fuera del menú"
+    },
+    "r2:tau_d_0": {
+     "estado": "no_aplicable_justificada",
+     "motivo": "SECTION_OUTSIDE_MENU; trayectoria fuera del menú"
+    },
+    "r2:tau_d_estatutario": {
+     "estado": "no_aplicable_justificada",
+     "motivo": "SECTION_OUTSIDE_MENU; trayectoria fuera del menú"
+    },
+    "r2:tau_f_0": {
+     "estado": "completa",
+     "motivo": null
+    }
+   },
+   "motivos": [],
+   "n_partes": 17
+  },
+  "poscomprobaciones": {
+   "K_comp_1_en_K1": true,
+   "C2_interseca_certificado": true
+  },
+  "cell_id": "CEL:0a78787867a78d889ab438431aa38ac1f8f6daea79a8",
+  "celda_reutilizada": false,
+  "tiempos_s": {
+   "previas_s": 0.347,
+   "techo_s": 0.064,
+   "macro_s": 141.531,
+   "resto_celda_s": 0.043
+  },
+  "techo": {
+   "C_2": 0.5474661219332885,
+   "numerical_error": 2.604486792900929e-08,
+   "computation_status": "complete",
+   "reason_code": null,
+   "sup_not_attained": false
+  },
+  "confrontacion": {
+   "G": 0.4769990725447348,
+   "K_comp_1": 0.07046704938855368,
+   "verdict": "factible",
+   "computation_status": "complete",
+   "reason_code": null
+  },
+  "clave_E12": {
+   "cell_id": "CEL:0a78787867a78d889ab438431aa38ac1f8f6daea79a8",
+   "frontier_id": "FRN:269b482e0a7600b06c043613244f8731c46d63bc",
+   "instrumento": "d",
+   "barras": [
+    0.6,
+    0.6
+   ],
+   "tasa": 0.35,
+   "run_geometry": true,
+   "con_unidad": true,
+   "omega_id": "OMG:ef9581921a56b0e19107f2845d03910bceb75061bab3d04c1c7e2568f4003011"
+  }
+ },
+ "clave_estructural_lima1913": "358cf6ce54a02b2c21d5dc32218ad1d7e2ecd0f716c4fc88692b2d8260fb0adb",
+ "filas": {
+  "archivo": "S1-G-d_filas.json",
+  "sha256": "10fc91346481541a4ddcb5faad2e261a4ad3d24205c5ead926f1ddf35150fe03",
+  "tablas": {
+   "cell_context": 1,
+   "confrontation_result": 1,
+   "inversion_result": 6,
+   "r1_summary": 1,
+   "r1_components": 1,
+   "r1_vertices": 1,
+   "r1_edges": 0,
+   "r1_rejected_crossings": 0,
+   "r2_sections": 4,
+   "r2_roots": 1,
+   "frontier_context": 1,
+   "capture_ceiling_result": 1,
+   "lambda_pi_envelope": 1,
+   "convergence_result": 3
+  }
+ }
+}

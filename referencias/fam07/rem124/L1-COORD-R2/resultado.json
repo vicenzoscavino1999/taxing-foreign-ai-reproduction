@@ -1,0 +1,27 @@
+{
+ "tarea": "L1-COORD-R2",
+ "modo": "produccion",
+ "manifiesto_sha256": "108bf2edc0261769e3f8a3d962c12610c9045b5898dfbfe70409607c278979e6",
+ "tope_efectivo_s": 2280.0,
+ "sintetico": false,
+ "codigo_sha256": {
+  "tarea_lote.py": "ffd44b60534922410fbbb99c7c68064ffc84b7e7b467d9b30510cbd06e852ed4",
+  "conexion_coord_cert.py": "e5776de970b72535ec7b72340604abfd9e8448479ea78dac4b714d870d273d61"
+ },
+ "productos": [
+  {
+   "archivo": "coord_techos_rec.jsonl",
+   "sha256": "ee736350e0ddb508e15db7d4a7887fbbc7fa30efea34774f79430728488fb395",
+   "filas": 2
+  },
+  {
+   "archivo": "coord_comparacion_rec.jsonl",
+   "sha256": "afaaa73a955e5183b157ce839c3f3b1b38af84af6486be0db574bf1bc2ea214e",
+   "filas": 12
+  }
+ ],
+ "alcance_sha256": "0555825f50439fcf0b7c9cdafe011c2570fe017c23c416576a7ab5052c3af227",
+ "estado": "completa",
+ "motivo": null,
+ "pared_s": 921.81
+}

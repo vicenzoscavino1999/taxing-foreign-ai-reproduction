@@ -1,0 +1,127 @@
+{
+  "schema_version": "D2_VERSION_1",
+  "product_type": "d2_cuentas_nacionales",
+  "run_id": "D2V-99b0dee09637dc5a1c328870",
+  "created_at": "2026-10-02T05:38:46.504955+00:00",
+  "producer_path": "herramientas/nacionales/construir_d2.py",
+  "producer_sha256": "b1489af99c6170ad278ade7900d9df7cae5cb253fc84c4e93a8cdddf18e4b505",
+  "authority_package_sha256": "93c625a40772f3d278183cd738f454cc47345c1a52e71dc9f47342352d2aba09",
+  "authority_manifest_sha256": "968970833c6ac6d9788003e5b4a7cede0540c3b5d4f4948eb9d17a875efa70f0",
+  "contract_sha256": "eda3d6e5a0c0c0c318bb075c3314f7c927382c955d76e2dcdd3b5c1f4659af32",
+  "input_dependencies": [
+    {
+      "role": "recepcion_nacional",
+      "path": "fase2_datos/recepcion_nacional/versions/866aa139fb50578cae1ec5d77e1f98e6a5b87b56780aa1d95a118dffc5644984/recepcion_manifest.json",
+      "sha256": "a049c27f0618dcbcab4a23788e7a3de829e952ce6abfab8ba756e46cb95b4ce6",
+      "tree_sha256": "866aa139fb50578cae1ec5d77e1f98e6a5b87b56780aa1d95a118dffc5644984",
+      "version": "866aa139fb50578cae1ec5d77e1f98e6a5b87b56780aa1d95a118dffc5644984",
+      "authority_package_sha256": "93c625a40772f3d278183cd738f454cc47345c1a52e71dc9f47342352d2aba09"
+    },
+    {
+      "role": "registro_casos_A1E_v2",
+      "path": "herramientas/s3/contratos_adicionales/REGISTRO_CASOS_A1E_V2.json",
+      "sha256": "18344e5fff14865f35c47d24babee4edd9840316c36d11e038f4f0de2288c95d",
+      "tree_sha256": null,
+      "version": "A1-E-v2",
+      "authority_package_sha256": "93c625a40772f3d278183cd738f454cc47345c1a52e71dc9f47342352d2aba09"
+    },
+    {
+      "role": "contrato_normativo",
+      "path": "herramientas/s3/contratos/contract_manifest.json",
+      "sha256": "eda3d6e5a0c0c0c318bb075c3314f7c927382c955d76e2dcdd3b5c1f4659af32",
+      "tree_sha256": null,
+      "version": "CA2-3/macro-ca2-v2",
+      "authority_package_sha256": "93c625a40772f3d278183cd738f454cc47345c1a52e71dc9f47342352d2aba09"
+    },
+    {
+      "role": "expediente_sellado",
+      "path": "fase2_datos/recepcion_nacional/versions/866aa139fb50578cae1ec5d77e1f98e6a5b87b56780aa1d95a118dffc5644984/evidencia/sello_expediente.json",
+      "sha256": "d2adfdc090d34c3c03ecd6f70e318352b18dc9c2b56a9da4c611e2c70b2d1b6c",
+      "tree_sha256": null,
+      "version": "SEALED_SANITIZED_DOSSIER_1",
+      "authority_package_sha256": "93c625a40772f3d278183cd738f454cc47345c1a52e71dc9f47342352d2aba09"
+    },
+    {
+      "role": "predecesor_legado",
+      "path": "fase2_datos/d2_cuentas_nacionales/output/d2_manifest.json",
+      "sha256": "78791c19b28322e581826a5628c6cacbb3a746f6cc62488b43f8665d3ea36ec4",
+      "tree_sha256": null,
+      "version": "D2 legado (UN SNA)",
+      "authority_package_sha256": null
+    }
+  ],
+  "files": [
+    {
+      "path": "ca2_evidence_receipts.json",
+      "sha256": "cd41cd91d0be8361445e517b6229baacc1139b054540c391e48a4ca00e9e8570",
+      "bytes": 277625
+    },
+    {
+      "path": "conciliaciones.json",
+      "sha256": "720be73c4e846ebe6cf9eca8bdccd2559ab441cdb4e6f0202780a365cb6ead6d",
+      "bytes": 9834
+    },
+    {
+      "path": "contraste_csi103.json",
+      "sha256": "c293307ecca01c3efd3d305eff7d1cc66387eebfe801e55068a30889547d5830",
+      "bytes": 643
+    },
+    {
+      "path": "correspondencia_csi103.csv",
+      "sha256": "df3c9b269eb18c55e622137e9251f9b5c794c062d3cd4b8a12e81e86f3d752eb",
+      "bytes": 34653
+    },
+    {
+      "path": "d2_2015_2023.csv",
+      "sha256": "219df531f16fe9e5280c2f0c77c706fa48f24ac6726c39459b7b4463f97fd30c",
+      "bytes": 24703
+    },
+    {
+      "path": "d2_gate_report_candidato.json",
+      "sha256": "2b43ecae5bce94ae7fe9bc8e346a0267fcf749a449c2045b0d0d39050e2e3e71",
+      "bytes": 1949
+    },
+    {
+      "path": "d2_primaria_2023.csv",
+      "sha256": "c243ca6c6b3c6ede41d058a54a9fcded67bc590be589033473e2b33fe438007a",
+      "bytes": 3452
+    },
+    {
+      "path": "d2_revision_bridge.csv",
+      "sha256": "9533711bd3a2baec6c250661b38e1eac4aae4598e9819bb36ba29ca739713e21",
+      "bytes": 64543
+    },
+    {
+      "path": "dominios_candidatos.json",
+      "sha256": "0e8bd8c979267248e3fc2359a8cbf3032557366d03d4d34de0d4823945a69d28",
+      "bytes": 387964
+    },
+    {
+      "path": "labor_income_shares_candidato.csv",
+      "sha256": "80b64dc6948e95facb08e130458c8794d0458c7aeedae2907665174f7b610450",
+      "bytes": 3982
+    },
+    {
+      "path": "labor_income_shares_sensitivity_candidato.csv",
+      "sha256": "3131ae0ead8a848db7e2f08baaa87542f606cd360bed22535e8bebe7ec53ba61",
+      "bytes": 28076
+    },
+    {
+      "path": "precision_evidence_candidato.csv",
+      "sha256": "13d8892854a836363b5e33524ef627144f2963353e5f347168358305ff2f2551",
+      "bytes": 4590
+    },
+    {
+      "path": "puente_revisiones.csv",
+      "sha256": "fca9b95a4f6c30d4a21fe60b6af650279190d0ed45687da2092424f059809ad7",
+      "bytes": 76708
+    },
+    {
+      "path": "vectores.json",
+      "sha256": "8d6aa531d1b726c657a6e0a779e8b1b80f9fcf30a29e98438cdc811de64c7181",
+      "bytes": 74111
+    }
+  ],
+  "tree_sha256": "61e68b44bb7e6c535bba4211405f37521b39fc93eaee6094c1c9f9cea0dded2d",
+  "phase_status": "complete_incorporated_not_admitted"
+}

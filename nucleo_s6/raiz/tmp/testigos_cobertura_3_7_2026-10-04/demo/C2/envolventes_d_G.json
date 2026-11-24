@@ -1,0 +1,126 @@
+{
+ "T2": 0.0001,
+ "consumido_s": 1067.3,
+ "de": 2,
+ "etiqueta": "TESTIGOS Y COBERTURA 3.7 NO OFICIAL",
+ "grupos": [
+  {
+   "caja": {
+    "encierro": [
+     -2e-323,
+     2.947466121933298
+    ],
+    "normalizado": true,
+    "segundos": 15.216
+   },
+   "conjunto_ref": "CMP-E1.macro",
+   "diseno": "G",
+   "grupo": "c2ca6041ff12e58199d765b24ab5e788f80033470a7a0958c1839130068e3fc5",
+   "inf": {
+    "L": -2e-323,
+    "U": 0.0004387454798015553,
+    "brecha": 0.0004387454798015553,
+    "estado": "acotado",
+    "punto_U": {
+     "a": 2.5,
+     "beta_tilde": 4.0,
+     "eta_d": 4.0,
+     "eta_f": 4.05,
+     "kappa_tilde": 0.10250000000000001,
+     "phi": 0.5,
+     "rho": 0.7,
+     "u_theta": 0.9,
+     "z_cost": 100.0
+    }
+   },
+   "instrumento": "d",
+   "objetos": [
+    {
+     "conjunto": "CMP-E1.macro",
+     "diseno": "G",
+     "fijos_multiples": false,
+     "instrumento": "d"
+    },
+    {
+     "conjunto": "CMP-E1.micro",
+     "diseno": "G",
+     "fijos_multiples": false,
+     "instrumento": "d"
+    },
+    {
+     "conjunto": "COL-E2-2023.2023p.macro",
+     "diseno": "G",
+     "fijos_multiples": false,
+     "instrumento": "d"
+    },
+    {
+     "conjunto": "COL-E2-2023.2023p.micro",
+     "diseno": "G",
+     "fijos_multiples": false,
+     "instrumento": "d"
+    },
+    {
+     "conjunto": "COL-E2-2023.2024p.macro",
+     "diseno": "G",
+     "fijos_multiples": false,
+     "instrumento": "d"
+    },
+    {
+     "conjunto": "COL-E2-2023.2024p.micro",
+     "diseno": "G",
+     "fijos_multiples": false,
+     "instrumento": "d"
+    },
+    {
+     "conjunto": "PER-E0E3.macro",
+     "diseno": "G",
+     "fijos_multiples": false,
+     "instrumento": "d"
+    },
+    {
+     "conjunto": "PER-E0E3.micro",
+     "diseno": "G",
+     "fijos_multiples": false,
+     "instrumento": "d"
+    },
+    {
+     "conjunto": "PER-E1.macro",
+     "diseno": "G",
+     "fijos_multiples": false,
+     "instrumento": "d"
+    },
+    {
+     "conjunto": "PER-E1.micro",
+     "diseno": "G",
+     "fijos_multiples": false,
+     "instrumento": "d"
+    }
+   ],
+   "puntos_evaluados": 268,
+   "segundos": 1063.5,
+   "sup": {
+    "L": 0.5474661219332871,
+    "U": 2.947466121933298,
+    "brecha": 2.400000000000011,
+    "estado": "acotado",
+    "punto_L": {
+     "a": 1.1,
+     "beta_tilde": 0.25,
+     "eta_d": 0.1,
+     "eta_f": 4.05,
+     "kappa_tilde": 0.2,
+     "phi": 0.5,
+     "rho": 0.7,
+     "u_theta": 0.5,
+     "z_cost": 1.0
+    }
+   },
+   "vertices": "parcial"
+  }
+ ],
+ "identidad_sha256": "36b6dafc8ae41730233cebbdcf8c5b19e1d650673d6f09dc37acad7714ad6a38",
+ "no_exportable": true,
+ "parte": 1,
+ "pendientes_por_tope": [],
+ "plan_sha256": "cbe40f29bdb7de5818231aa094c34e0be9400f0d063b1ef1daaafe9ecf983164"
+}

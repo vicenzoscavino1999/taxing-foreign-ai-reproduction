@@ -1,0 +1,466 @@
+{
+ "descripcion": "entradas que los comandos de las rutas por comando leen al ejecutarse, por análisis ESTÁTICO de los módulos que cargan (no prueba la ausencia de otras lecturas: eso lo prueba un cálculo real con Rastro)",
+ "modulos_por_comando": {
+  "cierre_df_paso4_3_7_2026-10-05_lima1958": {
+   "codigo.sup_reducido": {
+    "tareas": [
+     "R1-A1"
+    ],
+    "archivos": [
+     "codigo/__init__.py",
+     "codigo/demo/__init__.py",
+     "codigo/demo/nucleo_v.py",
+     "codigo/extremos_dfd.py",
+     "codigo/sup_formal_mvf.py",
+     "codigo/sup_reducido.py",
+     "codigo/sup_restringido.py"
+    ],
+    "perezosos": []
+   },
+   "codigo.extremos_G_d_inf_v3": {
+    "tareas": [
+     "R1-B1",
+     "R1-B2"
+    ],
+    "archivos": [
+     "codigo/__init__.py",
+     "codigo/demo/__init__.py",
+     "codigo/demo/c2_normalizado.py",
+     "codigo/demo/cobertura_compartida.py",
+     "codigo/demo/nucleo_v.py",
+     "codigo/demo/universo.py",
+     "codigo/extremos_G.py",
+     "codigo/extremos_G_d_inf_v3.py",
+     "codigo/extremos_dfd.py",
+     "codigo/inf_cota_formal_v2.py"
+    ],
+    "perezosos": []
+   },
+   "codigo.sensibilidad_q": {
+    "tareas": [
+     "R1-F"
+    ],
+    "archivos": [
+     "codigo/__init__.py",
+     "codigo/demo/__init__.py",
+     "codigo/demo/c2_normalizado.py",
+     "codigo/demo/cobertura_compartida.py",
+     "codigo/demo/memo_c2.py",
+     "codigo/demo/nucleo_v.py",
+     "codigo/demo/universo.py",
+     "codigo/demo/verificador_v2.py",
+     "codigo/muestra_costo.py",
+     "codigo/sensibilidad_q.py",
+     "codigo/testigos.py"
+    ],
+    "perezosos": []
+   }
+  },
+  "cierre_candidato_3_7_2026-10-04_lima2103": {
+   "codigo.extremos_G": {
+    "tareas": [
+     "R1-A2",
+     "R1-B3"
+    ],
+    "archivos": [
+     "codigo/__init__.py",
+     "codigo/demo/__init__.py",
+     "codigo/demo/c2_normalizado.py",
+     "codigo/demo/cobertura_compartida.py",
+     "codigo/demo/nucleo_v.py",
+     "codigo/demo/universo.py",
+     "codigo/extremos_G.py"
+    ],
+    "perezosos": []
+   }
+  },
+  "extremos_df_d_3_7_2026-10-05_lima0738": {
+   "codigo.extremos_G_d": {
+    "tareas": [
+     "R1-A2",
+     "R1-B3"
+    ],
+    "archivos": [
+     "codigo/__init__.py",
+     "codigo/demo/__init__.py",
+     "codigo/demo/c2_normalizado.py",
+     "codigo/demo/cobertura_compartida.py",
+     "codigo/demo/nucleo_v.py",
+     "codigo/demo/universo.py",
+     "codigo/extremos_G.py",
+     "codigo/extremos_G_d.py",
+     "codigo/extremos_dfd.py"
+    ],
+    "perezosos": []
+   }
+  },
+  "cierre_inf_df_paso4_3_7_2026-10-05_lima2149": {
+   "codigo.certificar_puntos": {
+    "tareas": [
+     "R1-A3-G-U",
+     "R1-A3-N-U"
+    ],
+    "archivos": [
+     "codigo/__init__.py",
+     "codigo/certificar_inf_df.py",
+     "codigo/certificar_puntos.py",
+     "codigo/demo/__init__.py",
+     "codigo/demo/c2_normalizado.py",
+     "codigo/demo/nucleo_v.py",
+     "codigo/extremos_dfd.py",
+     "codigo/inf_df_techo_v3.py"
+    ],
+    "perezosos": []
+   },
+   "codigo.inf_df_bb_v5": {
+    "tareas": [
+     "R1-A3-G-L",
+     "R1-A3-N-L"
+    ],
+    "archivos": [
+     "codigo/__init__.py",
+     "codigo/demo/__init__.py",
+     "codigo/demo/nucleo_v.py",
+     "codigo/extremos_dfd.py",
+     "codigo/inf_df_bb_v3.py",
+     "codigo/inf_df_bb_v5.py"
+    ],
+    "perezosos": []
+   }
+  }
+ },
+ "archivos": [
+  "tmp/certificacion_3_7_2026-10-04/audit/entrega.json",
+  "tmp/certificacion_3_7_2026-10-04/demo/C2/envolventes_0.json",
+  "tmp/certificacion_3_7_2026-10-04/demo/C2/envolventes_1.json",
+  "tmp/certificacion_3_7_2026-10-04/demo/C2/plan.json",
+  "tmp/cierre_candidato_3_7_2026-10-04_lima2103/audit/entrega.json",
+  "tmp/cierre_df_paso4_3_7_2026-10-05_lima1958/audit/entrega.json",
+  "tmp/cierre_df_paso4_3_7_2026-10-05_lima1958/demo/hito2/infbb2_G_df.json",
+  "tmp/cierre_df_paso4_3_7_2026-10-05_lima1958/demo/hito2/infbb2_N_df.json",
+  "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149/audit/entrega.json",
+  "tmp/extremos_df_d_3_7_2026-10-05_lima0738/audit/entrega.json",
+  "tmp/extremos_df_d_3_7_2026-10-05_lima0738/demo/C2/inf_G_d.json",
+  "tmp/extremos_df_d_3_7_2026-10-05_lima0738/demo/C2/inf_N_d.json",
+  "tmp/extremos_df_d_3_7_2026-10-05_lima0738/demo/C2/sup_G_d.json",
+  "tmp/extremos_df_d_3_7_2026-10-05_lima0738/demo/C2/sup_N_d.json",
+  "tmp/pilotos_b36_b37_2026-10-02/audit/entrega.json",
+  "tmp/pilotos_b36_b37_2026-10-02/pilotos/P3/P3-PREG-PER-APLICACION-E0E3_P3b.parcial.json",
+  "tmp/resolucion_3_7_2026-10-04_lima1941/audit/entrega.json",
+  "tmp/resolucion_3_7_2026-10-04_lima1941/demo/registro/registro_candidato_v4.json",
+  "tmp/testigos_cobertura_3_7_2026-10-04/audit/entrega.json",
+  "tmp/testigos_cobertura_3_7_2026-10-04/demo/C2/envolventes_d.json",
+  "tmp/testigos_cobertura_3_7_2026-10-04/demo/C2/envolventes_d_G.json",
+  "tmp/testigos_cobertura_3_7_2026-10-04/demo/registro/registro_candidato.json",
+  "tmp/validacion_testigos_3_7_2026-10-03/audit/entrega.json",
+  "tmp/validacion_testigos_3_7_2026-10-03/demo/R/evidencia_testigos.json",
+  "tmp/verificador_rendimiento_3_7_2026-10-04/audit/entrega.json",
+  "tmp/verificador_rendimiento_3_7_2026-10-04/demo/registro/registro_v2.json",
+  "tmp/viabilidad_alternativa_2026-10-03/audit/entrega.json",
+  "tmp/viabilidad_alternativa_2026-10-03/demo/analisis/analisis_final.json"
+ ],
+ "detalle": [
+  {
+   "archivo": "tmp/certificacion_3_7_2026-10-04/audit/entrega.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_candidato_3_7_2026-10-04_lima2103:codigo/demo/cobertura_compartida.py",
+    "cierre_candidato_3_7_2026-10-04_lima2103:codigo/extremos_G.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/demo/cobertura_compartida.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_G.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_dfd.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/muestra_costo.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/sensibilidad_q.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/testigos.py",
+    "cierre_inf_df_paso4_3_7_2026-10-05_lima2149:codigo/extremos_dfd.py",
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/demo/cobertura_compartida.py",
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/extremos_G.py",
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/extremos_dfd.py"
+   ]
+  },
+  {
+   "archivo": "tmp/certificacion_3_7_2026-10-04/demo/C2/envolventes_0.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_candidato_3_7_2026-10-04_lima2103:codigo/extremos_G.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_G.py",
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/extremos_G.py"
+   ]
+  },
+  {
+   "archivo": "tmp/certificacion_3_7_2026-10-04/demo/C2/envolventes_1.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_candidato_3_7_2026-10-04_lima2103:codigo/extremos_G.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_G.py",
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/extremos_G.py"
+   ]
+  },
+  {
+   "archivo": "tmp/certificacion_3_7_2026-10-04/demo/C2/plan.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_dfd.py",
+    "cierre_inf_df_paso4_3_7_2026-10-05_lima2149:codigo/extremos_dfd.py",
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/extremos_dfd.py"
+   ]
+  },
+  {
+   "archivo": "tmp/cierre_candidato_3_7_2026-10-04_lima2103/audit/entrega.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_candidato_3_7_2026-10-04_lima2103:codigo/demo/cobertura_compartida.py",
+    "cierre_candidato_3_7_2026-10-04_lima2103:codigo/extremos_G.py"
+   ]
+  },
+  {
+   "archivo": "tmp/cierre_df_paso4_3_7_2026-10-05_lima1958/audit/entrega.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/demo/cobertura_compartida.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_G.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_dfd.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/muestra_costo.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/sensibilidad_q.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/testigos.py",
+    "cierre_inf_df_paso4_3_7_2026-10-05_lima2149:codigo/extremos_dfd.py"
+   ]
+  },
+  {
+   "archivo": "tmp/cierre_df_paso4_3_7_2026-10-05_lima1958/demo/hito2/infbb2_G_df.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_inf_df_paso4_3_7_2026-10-05_lima2149:codigo/certificar_inf_df.py"
+   ]
+  },
+  {
+   "archivo": "tmp/cierre_df_paso4_3_7_2026-10-05_lima1958/demo/hito2/infbb2_N_df.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_inf_df_paso4_3_7_2026-10-05_lima2149:codigo/certificar_inf_df.py"
+   ]
+  },
+  {
+   "archivo": "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149/audit/entrega.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_inf_df_paso4_3_7_2026-10-05_lima2149:codigo/extremos_dfd.py"
+   ]
+  },
+  {
+   "archivo": "tmp/extremos_df_d_3_7_2026-10-05_lima0738/audit/entrega.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/demo/cobertura_compartida.py",
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/extremos_G.py",
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/extremos_dfd.py"
+   ]
+  },
+  {
+   "archivo": "tmp/extremos_df_d_3_7_2026-10-05_lima0738/demo/C2/inf_G_d.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/extremos_G_d.py"
+   ]
+  },
+  {
+   "archivo": "tmp/extremos_df_d_3_7_2026-10-05_lima0738/demo/C2/inf_N_d.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/extremos_G_d.py"
+   ]
+  },
+  {
+   "archivo": "tmp/extremos_df_d_3_7_2026-10-05_lima0738/demo/C2/sup_G_d.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/extremos_G_d.py"
+   ]
+  },
+  {
+   "archivo": "tmp/extremos_df_d_3_7_2026-10-05_lima0738/demo/C2/sup_N_d.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/extremos_G_d.py"
+   ]
+  },
+  {
+   "archivo": "tmp/pilotos_b36_b37_2026-10-02/audit/entrega.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_candidato_3_7_2026-10-04_lima2103:codigo/demo/cobertura_compartida.py",
+    "cierre_candidato_3_7_2026-10-04_lima2103:codigo/extremos_G.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/demo/cobertura_compartida.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_G.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_dfd.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/muestra_costo.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/sensibilidad_q.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/testigos.py",
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/demo/cobertura_compartida.py",
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/extremos_G.py",
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/extremos_dfd.py"
+   ]
+  },
+  {
+   "archivo": "tmp/pilotos_b36_b37_2026-10-02/pilotos/P3/P3-PREG-PER-APLICACION-E0E3_P3b.parcial.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_candidato_3_7_2026-10-04_lima2103:codigo/demo/cobertura_compartida.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/demo/cobertura_compartida.py",
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/demo/cobertura_compartida.py"
+   ]
+  },
+  {
+   "archivo": "tmp/resolucion_3_7_2026-10-04_lima1941/audit/entrega.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_candidato_3_7_2026-10-04_lima2103:codigo/demo/cobertura_compartida.py",
+    "cierre_candidato_3_7_2026-10-04_lima2103:codigo/extremos_G.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/demo/cobertura_compartida.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_G.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_dfd.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/muestra_costo.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/sensibilidad_q.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/testigos.py",
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/demo/cobertura_compartida.py",
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/extremos_G.py",
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/extremos_dfd.py"
+   ]
+  },
+  {
+   "archivo": "tmp/resolucion_3_7_2026-10-04_lima1941/demo/registro/registro_candidato_v4.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_candidato_3_7_2026-10-04_lima2103:codigo/extremos_G.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_G.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_G_d_inf_v3.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/sensibilidad_q.py",
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/extremos_G.py",
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/extremos_G_d.py"
+   ]
+  },
+  {
+   "archivo": "tmp/testigos_cobertura_3_7_2026-10-04/audit/entrega.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/demo/cobertura_compartida.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_G.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_dfd.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/muestra_costo.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/sensibilidad_q.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/testigos.py"
+   ]
+  },
+  {
+   "archivo": "tmp/testigos_cobertura_3_7_2026-10-04/demo/C2/envolventes_d.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_G.py"
+   ]
+  },
+  {
+   "archivo": "tmp/testigos_cobertura_3_7_2026-10-04/demo/C2/envolventes_d_G.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_G.py"
+   ]
+  },
+  {
+   "archivo": "tmp/testigos_cobertura_3_7_2026-10-04/demo/registro/registro_candidato.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/muestra_costo.py"
+   ]
+  },
+  {
+   "archivo": "tmp/validacion_testigos_3_7_2026-10-03/audit/entrega.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/demo/cobertura_compartida.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_G.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_dfd.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/muestra_costo.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/sensibilidad_q.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/testigos.py"
+   ]
+  },
+  {
+   "archivo": "tmp/validacion_testigos_3_7_2026-10-03/demo/R/evidencia_testigos.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/testigos.py"
+   ]
+  },
+  {
+   "archivo": "tmp/verificador_rendimiento_3_7_2026-10-04/audit/entrega.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/demo/cobertura_compartida.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_G.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_dfd.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/muestra_costo.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/sensibilidad_q.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/testigos.py"
+   ]
+  },
+  {
+   "archivo": "tmp/verificador_rendimiento_3_7_2026-10-04/demo/registro/registro_v2.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/muestra_costo.py"
+   ]
+  },
+  {
+   "archivo": "tmp/viabilidad_alternativa_2026-10-03/audit/entrega.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_candidato_3_7_2026-10-04_lima2103:codigo/demo/cobertura_compartida.py",
+    "cierre_candidato_3_7_2026-10-04_lima2103:codigo/extremos_G.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/demo/cobertura_compartida.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_G.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/extremos_dfd.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/muestra_costo.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/sensibilidad_q.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/testigos.py",
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/demo/cobertura_compartida.py",
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/extremos_G.py",
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/extremos_dfd.py"
+   ]
+  },
+  {
+   "archivo": "tmp/viabilidad_alternativa_2026-10-03/demo/analisis/analisis_final.json",
+   "en_inventario_de_su_entrega": true,
+   "leido_por": [
+    "cierre_candidato_3_7_2026-10-04_lima2103:codigo/demo/cobertura_compartida.py",
+    "cierre_df_paso4_3_7_2026-10-05_lima1958:codigo/demo/cobertura_compartida.py",
+    "extremos_df_d_3_7_2026-10-05_lima0738:codigo/demo/cobertura_compartida.py"
+   ]
+  }
+ ],
+ "n_archivos": 28,
+ "salidas_guardadas": [
+  "tmp/cierre_candidato_3_7_2026-10-04_lima2103/demo/extremos/extremos_G_f.json",
+  "tmp/cierre_df_paso4_3_7_2026-10-05_lima1958/demo/hito2/produccion_inf_G_cid_G.json",
+  "tmp/cierre_df_paso4_3_7_2026-10-05_lima1958/demo/hito2/produccion_inf_G_cid_N.json",
+  "tmp/cierre_df_paso4_3_7_2026-10-05_lima1958/demo/hito2/sred_G_df.json",
+  "tmp/cierre_df_paso4_3_7_2026-10-05_lima1958/demo/hito2/sred_N_df.json",
+  "tmp/cierre_df_paso4_3_7_2026-10-05_lima1958/demo/paso4/sensibilidad_q.json",
+  "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149/demo/hito2/infbb5_G_df.json",
+  "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149/demo/hito2/infbb5_N_df.json",
+  "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149/demo/hito2/puntos_U_G.json",
+  "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149/demo/hito2/puntos_U_N.json",
+  "tmp/extremos_df_d_3_7_2026-10-05_lima0738/demo/extremos/extremos_G_d.json"
+ ],
+ "salidas_guardadas_descripcion": "salidas históricas de los comandos que ejecuta cada ruta (r1_rutas.salidas_del_comando; A1 con la opción A1/A2: solo los de SRED): referencia de igualdad de r1_rutas.validar y entrada de la prueba de conexión sin cálculo (--salidas-guardadas)",
+ "referencias_a3": [
+  "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149/demo/hito2/certificar_U_G_instantanea.json",
+  "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149/demo/hito2/certificar_U_N_instantanea.json",
+  "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149/demo/hito2/cierre_infimos_df.json",
+  "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149/demo/hito2/infbb4_N_df.json",
+  "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149/demo/hito2/infbb5_G_df.json",
+  "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149/demo/hito2/infbb5_N_df.json",
+  "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149/demo/hito2/puntos_U_G.json",
+  "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149/demo/hito2/puntos_U_N.json"
+ ],
+ "referencias_a3_descripcion": "cierre de ínfimos de lima2149 y los productos históricos U/L que cita: opciones_p1.a3_contexto los lee en la comparación del par A3 (contenido canónico) para rechazar una cota copiada de un producto histórico"
+}

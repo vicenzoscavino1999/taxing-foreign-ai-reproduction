@@ -1,0 +1,413 @@
+{
+ "kind": "universo-nacional-b1-rem133",
+ "proveedor": {
+  "ruta": "herramientas/b/nacional.py",
+  "sha256": "8b12df28cf317ed2d9f93ce48f1fa236e3c65edbc78c4a1df82490415828422b",
+  "igual_toolchain_S5": true
+ },
+ "nucleo": "tmp\\validacion_detallada_d_s1_d_h4_paso4_3_7_2026-10-09_lima2331\\candidato\\src",
+ "conexion_lambda": {
+  "ruta": "tmp\\paso4_suplemento_topologia_desde_rem119\\lote2\\conexion_lambda.py",
+  "sha256": "9dbdc7322e303f11f4b33897dd11de3e7ce8327636637e75bc246222391138b3"
+ },
+ "claves": {
+  "CMP-E1.macro|COL": {
+   "clave": "CMP-E1.macro|COL",
+   "tipo_censo": "vectores_publicados",
+   "estados_proveedor": 9,
+   "estados_censo": 9,
+   "huellas_proveedor": [
+    "00de6d58b415a927fe73607265f474aad37644e9601ccf76c660dae829ea79ef",
+    "4d77e56aaf4c5c32338d5214f4e3d1ca08e3752e59f28c6974e46da4fcef9bc7",
+    "71dfd54b7a25663d1ef074b1aabd2fadad240041b3f0866b7bad84ae32b4979b",
+    "7b959386cf3ad64c91e02637522797415d47ab6ea4556322e8a28a7a860073b1",
+    "a157df52c1475740a4b47eb70a0cfaa04aec047efd09e52da04af8ed38d497db",
+    "b89ba9728af50d10687842ab51c8dafa87f03f6a38220c6f5c998e7a4a70f650",
+    "bb7b611c2f03efe00c1c184a70f70b87169810023dc3fabc047a65a6f8aebcf7",
+    "e72f3f9c43853b03c4738266e13240664e47c48c60a194440351cbebbcc827ed",
+    "f359acecb0ca5f49d6060ca0bd00c9d08047f110221fa5543a3dfeb6e70b68ac"
+   ],
+   "huellas_iguales_censo": true,
+   "identidades_iguales_censo": true,
+   "envolvente_max_igual": true,
+   "envolvente_min_igual": true,
+   "testigos_nacionales": [
+    5,
+    5
+   ],
+   "universo_igual": true
+  },
+  "CMP-E1.macro|MEX": {
+   "clave": "CMP-E1.macro|MEX",
+   "tipo_censo": "vectores_publicados",
+   "estados_proveedor": 9,
+   "estados_censo": 9,
+   "huellas_proveedor": [
+    "5e66c3e06d75e4b7e2bfbaac0ac2856098f807f58282e519b184f07b3b59a08a",
+    "69d507a81fcb3808c505f5b7bfebc1bb4bfa56ce9277cca553ae374f6ce3dcaf",
+    "7e6c366f24ec4f8013b12d345b677fa735407e2024b410187307d103ade2b3ac",
+    "82e2a20d5bf4eea17c8a12e8385e1c422408f6109f99946e4c8e561d0874e9e1",
+    "a80d7a71f7d6c8c57ca2ff118f62c8928401719a9836ffabc38eb146653f2dd0",
+    "b5351453748cff6487ee8bdd079e665dc8063596b0a96eff9e674dcbc1a95aad",
+    "bdc0a30dc8cd9832eaeb4bb61cf6e122391e5c1bd44f290546d21ec90242f29d",
+    "c78f15455522ec1380c87dc5131afc4e757075ecc0a4040e535072e858a797e0",
+    "d39fa221ea495f3b54bc31ec294a77481b1c7e1f1f52c89c7e2e2837be066248"
+   ],
+   "huellas_iguales_censo": true,
+   "identidades_iguales_censo": true,
+   "envolvente_max_igual": true,
+   "envolvente_min_igual": true,
+   "testigos_nacionales": [
+    8,
+    8
+   ],
+   "universo_igual": true
+  },
+  "CMP-E1.macro|PER": {
+   "clave": "CMP-E1.macro|PER",
+   "tipo_censo": "vectores_publicados",
+   "estados_proveedor": 9,
+   "estados_censo": 9,
+   "huellas_proveedor": [
+    "0241abc9d4e0292ba1318fe02b82f0d7f7ad323250fbe1a582d52436ee977972",
+    "0785de3b03852e7bfedf24193e287bc178ce77d76a970507f300aa2aeece19fc",
+    "07db99cb4c0c18eee2ee05a3259c6ba1c2a54b9dab8afe9eea0ed3b9bf141324",
+    "1b1b92c1997145518031aeedc6ae1a463081d1ac4ba78d1e83b9c5ec11a2b893",
+    "23b7c68f777db5e9ff29938c16282262fdfe9db30e8b04e73173edd612c4aed1",
+    "62934db046a91f08aee67c05f75ff11af801228401e055c033005132ce3c2ba5",
+    "aa6cc1a429b6a7a80f93883d4a1f070dab9da0ae1dbd385b9bf33929a2ad8554",
+    "bad6727a018ea7a4fba2d41b56d28d6356daee878b23db6b073a2ef3235506ef",
+    "c63941f01bc81dedb49f7170fc84136715cd0c6d6b9e19a877dca5e420b91823"
+   ],
+   "huellas_iguales_censo": true,
+   "identidades_iguales_censo": true,
+   "envolvente_max_igual": true,
+   "envolvente_min_igual": true,
+   "testigos_nacionales": [
+    0,
+    0
+   ],
+   "universo_igual": true
+  },
+  "CMP-E1.micro|COL": {
+   "clave": "CMP-E1.micro|COL",
+   "tipo_censo": "vectores_publicados",
+   "estados_proveedor": 9,
+   "estados_censo": 9,
+   "huellas_proveedor": [
+    "00de6d58b415a927fe73607265f474aad37644e9601ccf76c660dae829ea79ef",
+    "4d77e56aaf4c5c32338d5214f4e3d1ca08e3752e59f28c6974e46da4fcef9bc7",
+    "71dfd54b7a25663d1ef074b1aabd2fadad240041b3f0866b7bad84ae32b4979b",
+    "7b959386cf3ad64c91e02637522797415d47ab6ea4556322e8a28a7a860073b1",
+    "a157df52c1475740a4b47eb70a0cfaa04aec047efd09e52da04af8ed38d497db",
+    "b89ba9728af50d10687842ab51c8dafa87f03f6a38220c6f5c998e7a4a70f650",
+    "bb7b611c2f03efe00c1c184a70f70b87169810023dc3fabc047a65a6f8aebcf7",
+    "e72f3f9c43853b03c4738266e13240664e47c48c60a194440351cbebbcc827ed",
+    "f359acecb0ca5f49d6060ca0bd00c9d08047f110221fa5543a3dfeb6e70b68ac"
+   ],
+   "huellas_iguales_censo": true,
+   "identidades_iguales_censo": true,
+   "envolvente_max_igual": true,
+   "envolvente_min_igual": true,
+   "testigos_nacionales": [
+    5,
+    5
+   ],
+   "universo_igual": true
+  },
+  "CMP-E1.micro|MEX": {
+   "clave": "CMP-E1.micro|MEX",
+   "tipo_censo": "vectores_publicados",
+   "estados_proveedor": 9,
+   "estados_censo": 9,
+   "huellas_proveedor": [
+    "5e66c3e06d75e4b7e2bfbaac0ac2856098f807f58282e519b184f07b3b59a08a",
+    "69d507a81fcb3808c505f5b7bfebc1bb4bfa56ce9277cca553ae374f6ce3dcaf",
+    "7e6c366f24ec4f8013b12d345b677fa735407e2024b410187307d103ade2b3ac",
+    "82e2a20d5bf4eea17c8a12e8385e1c422408f6109f99946e4c8e561d0874e9e1",
+    "a80d7a71f7d6c8c57ca2ff118f62c8928401719a9836ffabc38eb146653f2dd0",
+    "b5351453748cff6487ee8bdd079e665dc8063596b0a96eff9e674dcbc1a95aad",
+    "bdc0a30dc8cd9832eaeb4bb61cf6e122391e5c1bd44f290546d21ec90242f29d",
+    "c78f15455522ec1380c87dc5131afc4e757075ecc0a4040e535072e858a797e0",
+    "d39fa221ea495f3b54bc31ec294a77481b1c7e1f1f52c89c7e2e2837be066248"
+   ],
+   "huellas_iguales_censo": true,
+   "identidades_iguales_censo": true,
+   "envolvente_max_igual": true,
+   "envolvente_min_igual": true,
+   "testigos_nacionales": [
+    8,
+    8
+   ],
+   "universo_igual": true
+  },
+  "CMP-E1.micro|PER": {
+   "clave": "CMP-E1.micro|PER",
+   "tipo_censo": "vectores_publicados",
+   "estados_proveedor": 9,
+   "estados_censo": 9,
+   "huellas_proveedor": [
+    "0241abc9d4e0292ba1318fe02b82f0d7f7ad323250fbe1a582d52436ee977972",
+    "0785de3b03852e7bfedf24193e287bc178ce77d76a970507f300aa2aeece19fc",
+    "07db99cb4c0c18eee2ee05a3259c6ba1c2a54b9dab8afe9eea0ed3b9bf141324",
+    "1b1b92c1997145518031aeedc6ae1a463081d1ac4ba78d1e83b9c5ec11a2b893",
+    "23b7c68f777db5e9ff29938c16282262fdfe9db30e8b04e73173edd612c4aed1",
+    "62934db046a91f08aee67c05f75ff11af801228401e055c033005132ce3c2ba5",
+    "aa6cc1a429b6a7a80f93883d4a1f070dab9da0ae1dbd385b9bf33929a2ad8554",
+    "bad6727a018ea7a4fba2d41b56d28d6356daee878b23db6b073a2ef3235506ef",
+    "c63941f01bc81dedb49f7170fc84136715cd0c6d6b9e19a877dca5e420b91823"
+   ],
+   "huellas_iguales_censo": true,
+   "identidades_iguales_censo": true,
+   "envolvente_max_igual": true,
+   "envolvente_min_igual": true,
+   "testigos_nacionales": [
+    0,
+    0
+   ],
+   "universo_igual": true
+  },
+  "COL-E2-2023.2023p.macro|COL": {
+   "clave": "COL-E2-2023.2023p.macro|COL",
+   "tipo_censo": "vectores_publicados",
+   "estados_proveedor": 1,
+   "estados_censo": 1,
+   "huellas_proveedor": [
+    "e72f3f9c43853b03c4738266e13240664e47c48c60a194440351cbebbcc827ed"
+   ],
+   "huellas_iguales_censo": true,
+   "identidades_iguales_censo": true,
+   "envolvente_max_igual": true,
+   "envolvente_min_igual": true,
+   "testigos_nacionales": [
+    0,
+    0
+   ],
+   "universo_igual": true
+  },
+  "COL-E2-2023.2023p.micro|COL": {
+   "clave": "COL-E2-2023.2023p.micro|COL",
+   "tipo_censo": "vectores_publicados",
+   "estados_proveedor": 1,
+   "estados_censo": 1,
+   "huellas_proveedor": [
+    "e72f3f9c43853b03c4738266e13240664e47c48c60a194440351cbebbcc827ed"
+   ],
+   "huellas_iguales_censo": true,
+   "identidades_iguales_censo": true,
+   "envolvente_max_igual": true,
+   "envolvente_min_igual": true,
+   "testigos_nacionales": [
+    0,
+    0
+   ],
+   "universo_igual": true
+  },
+  "COL-E2-2023.2024p.macro|COL": {
+   "clave": "COL-E2-2023.2024p.macro|COL",
+   "tipo_censo": "vectores_publicados",
+   "estados_proveedor": 1,
+   "estados_censo": 1,
+   "huellas_proveedor": [
+    "89706e83d5b20166bc509a6f8f5bdd6278ff6ca1722361c85b819670766a92da"
+   ],
+   "huellas_iguales_censo": true,
+   "identidades_iguales_censo": true,
+   "envolvente_max_igual": true,
+   "envolvente_min_igual": true,
+   "testigos_nacionales": [
+    0,
+    0
+   ],
+   "universo_igual": true
+  },
+  "COL-E2-2023.2024p.micro|COL": {
+   "clave": "COL-E2-2023.2024p.micro|COL",
+   "tipo_censo": "vectores_publicados",
+   "estados_proveedor": 1,
+   "estados_censo": 1,
+   "huellas_proveedor": [
+    "89706e83d5b20166bc509a6f8f5bdd6278ff6ca1722361c85b819670766a92da"
+   ],
+   "huellas_iguales_censo": true,
+   "identidades_iguales_censo": true,
+   "envolvente_max_igual": true,
+   "envolvente_min_igual": true,
+   "testigos_nacionales": [
+    0,
+    0
+   ],
+   "universo_igual": true
+  },
+  "PER-E0E3.macro|PER": {
+   "clave": "PER-E0E3.macro|PER",
+   "tipo_censo": "dominio_estricto",
+   "definicion_sha256_proveedor": "6c745c5dc901b9d1c98c35c47cebb535ed1a8ec2144493411cdcaf405e699c82",
+   "definicion_sha256_censo": [
+    "6c745c5dc901b9d1c98c35c47cebb535ed1a8ec2144493411cdcaf405e699c82"
+   ],
+   "vertices": 128,
+   "candidatos_por_shares": 32,
+   "signo_no_negativo": true,
+   "huellas_candidatos": [
+    "07e696acb9095d7bc13fdae579e77d7f5660fca24ea3b71b9590b2e2bd494052",
+    "086b04a50e42ee4b9b95f44ad6cb02ad9ae1b80b08f01da4b09a648006706d7d",
+    "0f7e5ff7111dfdd6ebf864094f3a5eeaddf94149750516f9ff89477db4ad3ace",
+    "148a1d48e05bf6eeae783922aeff220a07e3658aa7cabb75a72e36866a972255",
+    "26fafdc457f28152350f9039256a7e4d5c00d3a49013aab1b8646798af211a1b",
+    "2b6d4e26e9f1a953a6e027d7678e041213011a073eace081a21e9ef648c94489",
+    "2b8c315427c7d72a472f5a80cfdbdea638a3210c3e6143050291d276d9205ae6",
+    "30b9341361e704b111c090a5439f36a25326baf20d053a959b4d973005599951",
+    "3fa086ec2661cf96b3df4d6b10af6974c40373189887656621915671ef3c2770",
+    "439a7e77d0b1d66b42a16c6207f85f24267c36069ba2d17d93870f61b5087bc4",
+    "45ef5833ae286e5fc4ee73969bad652efcc497087ea3d5b669a0e5bdfec8d4f8",
+    "4bc23e8985d22d9d498008bc7a0f6bbac8157698b04519e0445f4321e1461f10",
+    "56b14fd531f01042194c9da302852704ab2e63a9d9530cc8d457da0f51343702",
+    "5bea4388d44718c910d30eba51057bff85fdf91407bfef497afcf7e7a9ddf95a",
+    "5e84f17e6270b1006c1cf67c4deae8b464cf1f1df53529ff2f53492efa447429",
+    "646c3291dee91dd7f6860fdc40153b36cc3153776f997a5560da709e23299c04",
+    "7047c7ac89f9e6a98cb4b6d0d00423120e38f1f60bc5efd1b6476b0221608655",
+    "76fb447cbdf836b538f9c04804a44b62024b7a04389324767613584a822e9077",
+    "7dc6c88ba93b51118c6c051bee57068482562cd474fd0bd8e5805379159b7c3c",
+    "7fc16605adad03be7e036442d8d6f336973126ae4bc77b4b4c7f07cab804d738",
+    "8791e7034665083451fe4a37e65dcef8e187ebfdab770465d90e3a2c08186dd3",
+    "9382f47469fcc7a65c0227586e629f3a602f8192f1546f7c389209783338f1c9",
+    "98d925528391eab06f8b836b0364e5d4987da621cbdd7040447c5d85d593ab33",
+    "a1130c4df9bcd0a362d916c1751e954607bf4bb683fdb8438ce3c6b694f55ebc",
+    "b07a2b692268f4d042d5bd5a385f5cebf32fa29f5b3873babbd2e32baec573e6",
+    "c8faa8cd88aa5fcdd0832242860aea99999bbcf56c30459d75f1147cbd94ceee",
+    "cb8d8e7b71d8efa348f779ac84e18de66d681bfd5d951379b0b8768ae0fd7131",
+    "d9a775ce1349221a71bad3db5346a018a677c7fdb3d70f769e605169db0a4595",
+    "de92340f55066e959e7cf485dfe14816847384010d5207ae352ef1634764740f",
+    "efd1c933fde5109f18b92f3e59b4461228ee02dd99196c58b90d2692e3cf42a7",
+    "efeae84df45b5443417a838de0e79a88b0af9e17473095634191faf7a7f1307f",
+    "fd9aaa7b3ae688b7becd10204299dca7f76371c3fd4273443be82a4e5ad3dd4a"
+   ],
+   "envolvente_usa_todos_los_candidatos": true,
+   "definicion_igual_al_censo": true,
+   "observados": 11,
+   "observados_entre_vertices": 11,
+   "observados_contenidos": true,
+   "universo_igual": true
+  },
+  "PER-E0E3.micro|PER": {
+   "clave": "PER-E0E3.micro|PER",
+   "tipo_censo": "dominio_estricto",
+   "definicion_sha256_proveedor": "6c745c5dc901b9d1c98c35c47cebb535ed1a8ec2144493411cdcaf405e699c82",
+   "definicion_sha256_censo": [
+    "6c745c5dc901b9d1c98c35c47cebb535ed1a8ec2144493411cdcaf405e699c82"
+   ],
+   "vertices": 128,
+   "candidatos_por_shares": 32,
+   "signo_no_negativo": true,
+   "huellas_candidatos": [
+    "07e696acb9095d7bc13fdae579e77d7f5660fca24ea3b71b9590b2e2bd494052",
+    "086b04a50e42ee4b9b95f44ad6cb02ad9ae1b80b08f01da4b09a648006706d7d",
+    "0f7e5ff7111dfdd6ebf864094f3a5eeaddf94149750516f9ff89477db4ad3ace",
+    "148a1d48e05bf6eeae783922aeff220a07e3658aa7cabb75a72e36866a972255",
+    "26fafdc457f28152350f9039256a7e4d5c00d3a49013aab1b8646798af211a1b",
+    "2b6d4e26e9f1a953a6e027d7678e041213011a073eace081a21e9ef648c94489",
+    "2b8c315427c7d72a472f5a80cfdbdea638a3210c3e6143050291d276d9205ae6",
+    "30b9341361e704b111c090a5439f36a25326baf20d053a959b4d973005599951",
+    "3fa086ec2661cf96b3df4d6b10af6974c40373189887656621915671ef3c2770",
+    "439a7e77d0b1d66b42a16c6207f85f24267c36069ba2d17d93870f61b5087bc4",
+    "45ef5833ae286e5fc4ee73969bad652efcc497087ea3d5b669a0e5bdfec8d4f8",
+    "4bc23e8985d22d9d498008bc7a0f6bbac8157698b04519e0445f4321e1461f10",
+    "56b14fd531f01042194c9da302852704ab2e63a9d9530cc8d457da0f51343702",
+    "5bea4388d44718c910d30eba51057bff85fdf91407bfef497afcf7e7a9ddf95a",
+    "5e84f17e6270b1006c1cf67c4deae8b464cf1f1df53529ff2f53492efa447429",
+    "646c3291dee91dd7f6860fdc40153b36cc3153776f997a5560da709e23299c04",
+    "7047c7ac89f9e6a98cb4b6d0d00423120e38f1f60bc5efd1b6476b0221608655",
+    "76fb447cbdf836b538f9c04804a44b62024b7a04389324767613584a822e9077",
+    "7dc6c88ba93b51118c6c051bee57068482562cd474fd0bd8e5805379159b7c3c",
+    "7fc16605adad03be7e036442d8d6f336973126ae4bc77b4b4c7f07cab804d738",
+    "8791e7034665083451fe4a37e65dcef8e187ebfdab770465d90e3a2c08186dd3",
+    "9382f47469fcc7a65c0227586e629f3a602f8192f1546f7c389209783338f1c9",
+    "98d925528391eab06f8b836b0364e5d4987da621cbdd7040447c5d85d593ab33",
+    "a1130c4df9bcd0a362d916c1751e954607bf4bb683fdb8438ce3c6b694f55ebc",
+    "b07a2b692268f4d042d5bd5a385f5cebf32fa29f5b3873babbd2e32baec573e6",
+    "c8faa8cd88aa5fcdd0832242860aea99999bbcf56c30459d75f1147cbd94ceee",
+    "cb8d8e7b71d8efa348f779ac84e18de66d681bfd5d951379b0b8768ae0fd7131",
+    "d9a775ce1349221a71bad3db5346a018a677c7fdb3d70f769e605169db0a4595",
+    "de92340f55066e959e7cf485dfe14816847384010d5207ae352ef1634764740f",
+    "efd1c933fde5109f18b92f3e59b4461228ee02dd99196c58b90d2692e3cf42a7",
+    "efeae84df45b5443417a838de0e79a88b0af9e17473095634191faf7a7f1307f",
+    "fd9aaa7b3ae688b7becd10204299dca7f76371c3fd4273443be82a4e5ad3dd4a"
+   ],
+   "envolvente_usa_todos_los_candidatos": true,
+   "definicion_igual_al_censo": true,
+   "observados": 11,
+   "observados_entre_vertices": 11,
+   "observados_contenidos": true,
+   "universo_igual": true
+  },
+  "PER-E1.macro|PER": {
+   "clave": "PER-E1.macro|PER",
+   "tipo_censo": "vectores_publicados",
+   "estados_proveedor": 9,
+   "estados_censo": 9,
+   "huellas_proveedor": [
+    "0241abc9d4e0292ba1318fe02b82f0d7f7ad323250fbe1a582d52436ee977972",
+    "0785de3b03852e7bfedf24193e287bc178ce77d76a970507f300aa2aeece19fc",
+    "07db99cb4c0c18eee2ee05a3259c6ba1c2a54b9dab8afe9eea0ed3b9bf141324",
+    "1b1b92c1997145518031aeedc6ae1a463081d1ac4ba78d1e83b9c5ec11a2b893",
+    "23b7c68f777db5e9ff29938c16282262fdfe9db30e8b04e73173edd612c4aed1",
+    "62934db046a91f08aee67c05f75ff11af801228401e055c033005132ce3c2ba5",
+    "aa6cc1a429b6a7a80f93883d4a1f070dab9da0ae1dbd385b9bf33929a2ad8554",
+    "bad6727a018ea7a4fba2d41b56d28d6356daee878b23db6b073a2ef3235506ef",
+    "c63941f01bc81dedb49f7170fc84136715cd0c6d6b9e19a877dca5e420b91823"
+   ],
+   "huellas_iguales_censo": true,
+   "identidades_iguales_censo": true,
+   "envolvente_max_igual": true,
+   "envolvente_min_igual": true,
+   "testigos_nacionales": [
+    0,
+    0
+   ],
+   "universo_igual": true
+  },
+  "PER-E1.micro|PER": {
+   "clave": "PER-E1.micro|PER",
+   "tipo_censo": "vectores_publicados",
+   "estados_proveedor": 9,
+   "estados_censo": 9,
+   "huellas_proveedor": [
+    "0241abc9d4e0292ba1318fe02b82f0d7f7ad323250fbe1a582d52436ee977972",
+    "0785de3b03852e7bfedf24193e287bc178ce77d76a970507f300aa2aeece19fc",
+    "07db99cb4c0c18eee2ee05a3259c6ba1c2a54b9dab8afe9eea0ed3b9bf141324",
+    "1b1b92c1997145518031aeedc6ae1a463081d1ac4ba78d1e83b9c5ec11a2b893",
+    "23b7c68f777db5e9ff29938c16282262fdfe9db30e8b04e73173edd612c4aed1",
+    "62934db046a91f08aee67c05f75ff11af801228401e055c033005132ce3c2ba5",
+    "aa6cc1a429b6a7a80f93883d4a1f070dab9da0ae1dbd385b9bf33929a2ad8554",
+    "bad6727a018ea7a4fba2d41b56d28d6356daee878b23db6b073a2ef3235506ef",
+    "c63941f01bc81dedb49f7170fc84136715cd0c6d6b9e19a877dca5e420b91823"
+   ],
+   "huellas_iguales_censo": true,
+   "identidades_iguales_censo": true,
+   "envolvente_max_igual": true,
+   "envolvente_min_igual": true,
+   "testigos_nacionales": [
+    0,
+    0
+   ],
+   "universo_igual": true
+  }
+ },
+ "claves_con_universo_igual": [
+  "CMP-E1.macro|COL",
+  "CMP-E1.macro|MEX",
+  "CMP-E1.macro|PER",
+  "CMP-E1.micro|COL",
+  "CMP-E1.micro|MEX",
+  "CMP-E1.micro|PER",
+  "COL-E2-2023.2023p.macro|COL",
+  "COL-E2-2023.2023p.micro|COL",
+  "COL-E2-2023.2024p.macro|COL",
+  "COL-E2-2023.2024p.micro|COL",
+  "PER-E0E3.macro|PER",
+  "PER-E0E3.micro|PER",
+  "PER-E1.macro|PER",
+  "PER-E1.micro|PER"
+ ]
+}

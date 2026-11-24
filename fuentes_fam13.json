@@ -1,0 +1,1566 @@
+{
+ "descripcion": "Relación de piezas de FAM13 (T1/T2 rem107, T7 rem108, validaciones E1235/E1_i2, matriz v4 rem134; integridad S1) y su origen (raiz: = raíz del proyecto original; <directorio de los libros> = libros de revisión). Las ubicaciones de origen solo sirven para localizar; ninguna se usa al ejecutar. Espejo en nucleo_s6/raiz (rutas de la raíz histórica); extractos, proyecciones y S1 en datos/fam13; referencias en referencias/fam13. Copias exactas salvo los extractos y proyecciones declarados, cada uno ligado a la huella de su original.",
+ "herramienta": {
+  "archivo": "extraccion/extraer_fam13.py",
+  "sha256": "9310770b7471ae8f3b2af157fc33f325b54bcf48aee84e9cf24ee6cf1e38cf39"
+ },
+ "raiz": "nucleo_s6/raiz",
+ "archivos": [
+  {
+   "archivo": "nucleo_s6/raiz/tmp/paso4_conciliacion_portabilidad_desde_rem107/conciliacion/generar_matriz_rem107.py",
+   "origen": "raiz:tmp/paso4_conciliacion_portabilidad_desde_rem107/conciliacion/generar_matriz_rem107.py (fijado por catálogo (U59))",
+   "sha256": "c6a96856bcb0b09211f764fe82535cf0e8ea7499ca61c1dde0f73bbbff1d20b6",
+   "papel": "F13-HISTORICAS: materializador U59 de T1/T2 (tablas_diseno y bloque de escritura) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/paso4_conciliacion_portabilidad_desde_rem108/conciliacion/generar_matriz_rem108.py",
+   "origen": "raiz:tmp/paso4_conciliacion_portabilidad_desde_rem108/conciliacion/generar_matriz_rem108.py (fijado por catálogo (U59))",
+   "sha256": "8954fdd4ab7a7fb076f3a3bd347dd12b363122d4cbe91d2fab724ce0b40d4335",
+   "papel": "F13-HISTORICAS: materializador U59 de T7/T7_anexo (unidades, analizar_claim, ensamblajes y escritura) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/paso4_exp0_lambda_autenticada_desde_rem134/a_exp0/ejecutado/derivar_h4_h30_r1.A2.py",
+   "origen": "raiz:tmp/paso4_exp0_lambda_autenticada_desde_rem134/a_exp0/ejecutado/derivar_h4_h30_r1.A2.py (fijado por inventario rem134)",
+   "sha256": "3305e831ef0a96867f3357cecee284e9be8906a8fb78c9aa4f0d35dc22beaf65",
+   "papel": "F13-HISTORICAS: versión A2 ejecutada de derivar_h4_h30_r1 (matriz v4 sobre A3) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/paso4_conciliacion_portabilidad_desde_rem108/pruebas/prueba_ensamblajes.py",
+   "origen": "raiz:tmp/paso4_conciliacion_portabilidad_desde_rem108/pruebas/prueba_ensamblajes.py (fijado por inventario rem108)",
+   "sha256": "63e965b1c680a33a4fb6c04ead6ba30bee828cfa2dbe72f1c46886269d618304",
+   "papel": "F13-HISTORICAS: prueba dirigida rem108 (candidato a U60 examinado); su bloque T7 se ejecuta como comprobación independiente del anexo nuevo; no liga bytes aceptados (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/t1t2/PLAN_DISENO_v2_2_30.secciones_6_2_6_3.md",
+   "origen": "raiz:fase6_planes/PLAN_DISENO_v2_2_30.md líneas 1028–1153 (original sha256 08fc62957ca33f413cb0c82760426b4d57b7d37f24421d6c35d5670a23e47c9a)",
+   "sha256": "5a20933a0ebdcf98780aad68bf40ec801df5b3d4cc4d0e9654714d5b55136b81",
+   "papel": "F13-HISTORICAS T1/T2: líneas que lee tablas_diseno (§6.2 y §6.3, más el encabezado que cierra §6.3), copiadas tal cual"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquetes_indice.json",
+   "origen": "raiz:tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquetes_indice.json (fijado por inventario pv12)",
+   "sha256": "31694f4f44dc73924d304054de7ff01219cbacf81a34a1e79c3699aa12e90c96",
+   "papel": "F13-HISTORICAS T7: índice del paquete pv12 de unidades (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_piloto.json",
+   "origen": "raiz:tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_piloto.json (fijado por paquetes_indice.json)",
+   "sha256": "ad3e3ff633ab5a78977aa0658fd2622e29cd24c49dfe3c60140cac8e950819d1",
+   "papel": "F13-HISTORICAS T7: paquete pv12 piloto (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_S1-d.json",
+   "origen": "raiz:tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_S1-d.json (fijado por paquetes_indice.json)",
+   "sha256": "2c46b3c09c5b4561039afe55f5c15d512b10f126d762cdd3774e3f460510dbae",
+   "papel": "F13-HISTORICAS T7: paquete pv12 S1-d (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_S2-G-df-NA.json",
+   "origen": "raiz:tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_S2-G-df-NA.json (fijado por paquetes_indice.json)",
+   "sha256": "13b740f70dbf862eeb616cdded1d27f9dac9a999d9b02c4971d7ea7c226ad828",
+   "papel": "F13-HISTORICAS T7: paquete pv12 S2-G-df-NA (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_S1-f-lima0800.json",
+   "origen": "raiz:tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_S1-f-lima0800.json (fijado por paquetes_indice.json)",
+   "sha256": "cc74c6d61a430de503bcabb0bce54e1f6346feebeb81fc168a6f973408acfbd9",
+   "papel": "F13-HISTORICAS T7: paquete pv12 S1-f-lima0800 (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_S1-f-lima1125.json",
+   "origen": "raiz:tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_S1-f-lima1125.json (fijado por paquetes_indice.json)",
+   "sha256": "b53bc9f91856c3a1ebc49f05cfd1d530527fb688622fac00a9b22d7cae38c1ed",
+   "papel": "F13-HISTORICAS T7: paquete pv12 S1-f-lima1125 (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_rem-lima1533.json",
+   "origen": "raiz:tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_rem-lima1533.json (fijado por paquetes_indice.json)",
+   "sha256": "998ca33763e695ed4a78b4580645392da25840251ca468698594e85e10abafa3",
+   "papel": "F13-HISTORICAS T7: paquete pv12 rem-lima1533 (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_rem-lima1855.json",
+   "origen": "raiz:tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_rem-lima1855.json (fijado por paquetes_indice.json)",
+   "sha256": "a4312084d111e0f25a51d63f8860b1c584bce3a8e34a8d0a8d6204e775dc5a3e",
+   "papel": "F13-HISTORICAS T7: paquete pv12 rem-lima1855 (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_rem-lima2213.json",
+   "origen": "raiz:tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_rem-lima2213.json (fijado por paquetes_indice.json)",
+   "sha256": "2f67309034c5e58dd5d4234940b18afd290d8a2d17e08f17e404b846c60265e4",
+   "papel": "F13-HISTORICAS T7: paquete pv12 rem-lima2213 (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_rem-lima0200.json",
+   "origen": "raiz:tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_rem-lima0200.json (fijado por paquetes_indice.json)",
+   "sha256": "f34ec9b0f6b35ce28071ed8031a1a6f1c81e275b42303e240f4abf562290329d",
+   "papel": "F13-HISTORICAS T7: paquete pv12 rem-lima0200 (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_rem-lima0604.json",
+   "origen": "raiz:tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_rem-lima0604.json (fijado por paquetes_indice.json)",
+   "sha256": "98f93faf5e35af437c2086ce8844445c9bfed580375c1f99e15e8e8db2701fe9",
+   "papel": "F13-HISTORICAS T7: paquete pv12 rem-lima0604 (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_rem-lima1009.json",
+   "origen": "raiz:tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_rem-lima1009.json (fijado por paquetes_indice.json)",
+   "sha256": "36a7fd900bc656225ac64688a6d8814b614e1566b860183b6db91e8d8f7d2f18",
+   "papel": "F13-HISTORICAS T7: paquete pv12 rem-lima1009 (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_rem-lima1324.json",
+   "origen": "raiz:tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_rem-lima1324.json (fijado por paquetes_indice.json)",
+   "sha256": "81239421176ac360eafacd2346cdc5175885416b1afa04e90e9d20abfa6316cc",
+   "papel": "F13-HISTORICAS T7: paquete pv12 rem-lima1324 (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_rem-lima1738.json",
+   "origen": "raiz:tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_rem-lima1738.json (fijado por paquetes_indice.json)",
+   "sha256": "f0c52cde6c9593df10dbaa779a480df02d4f170efd0ce6475a7bb8ca10381a87",
+   "papel": "F13-HISTORICAS T7: paquete pv12 rem-lima1738 (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_rem-lima2059.json",
+   "origen": "raiz:tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_rem-lima2059.json (fijado por paquetes_indice.json)",
+   "sha256": "359165c56894e58901d665532dcf998e42c26262ab7189b84d9a833311078460",
+   "papel": "F13-HISTORICAS T7: paquete pv12 rem-lima2059 (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_rem-lima2330.json",
+   "origen": "raiz:tmp/pv12_consumidor_cierre_paso4_3_7_2026-10-12_lima1018/demo/integracion/paquetes_finales_lima1018/paquete_rem-lima2330.json (fijado por paquetes_indice.json)",
+   "sha256": "53afe24acbc2b8049274b50353bd11192b2c2cecafd47f0124b065587c28501b",
+   "papel": "F13-HISTORICAS T7: paquete pv12 rem-lima2330 (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/t7/INVENTARIOS_PROYECTADOS.json",
+   "origen": "derivado de raiz:tmp/<entrega>/audit/entrega.json (15 inventarios; huella de cada original dentro)",
+   "sha256": "9a480ce760cdcd1c57c334ca6aacfc23bfb8dca55653959195135aa02528037d",
+   "papel": "F13-HISTORICAS T7: inventarios proyectados (entradas consultadas)"
+  },
+  {
+   "archivo": "datos/fam13/t7/FILAS_FAM01.json",
+   "origen": "derivado de referencias/fam01/indice_originales.json y de los paquetes pv12",
+   "sha256": "0d4734ccdd62b69105704606b2435f3d8d18a0e6fc245640c4e562bd22b3ef6d",
+   "papel": "F13-HISTORICAS T7: enlace de las filas de unidad con FAM01"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/paso4_exp0_lambda_captura_desde_rem133/audit/entrega.json",
+   "origen": "raiz:tmp/paso4_exp0_lambda_captura_desde_rem133/audit/entrega.json (fijado por derivar_h4_h30_r1.A2)",
+   "sha256": "b635d0b31662f6947e8358b10a2fb53885d9a97f9dd66113766462e2ecbb2642",
+   "papel": "F13-HISTORICAS v4: inventario rem133 (PARTIDA) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/paso4_exp0_lambda_captura_desde_rem133/a_exp0/salida_a3/MATRIZ_REVISADA.json",
+   "origen": "raiz:tmp/paso4_exp0_lambda_captura_desde_rem133/a_exp0/salida_a3/MATRIZ_REVISADA.json (fijado por inventario rem133)",
+   "sha256": "a0a47410a50f0063fa2cb9f7ec3757bbb4333742b9e268ee84e236cdfb2b806c",
+   "papel": "F13-HISTORICAS v4: salida A3 de rem133 (matriz de 42 requisitos y su universo) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/paso4_exp0_lambda_captura_desde_rem133/a_exp0/salida_a3/input_audit_report_v2.json",
+   "origen": "raiz:tmp/paso4_exp0_lambda_captura_desde_rem133/a_exp0/salida_a3/input_audit_report_v2.json (fijado por inventario rem133)",
+   "sha256": "38d839ccfcd06054b7c7d092ea6988a44670362cc17beaf115ac243066f34e33",
+   "papel": "F13-HISTORICAS v4: salida A3 de rem133 (matriz de 42 requisitos y su universo) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/paso4_exp0_lambda_captura_desde_rem133/a_exp0/salida_a3/UNIVERSOS_POR_CORRIDA.json",
+   "origen": "raiz:tmp/paso4_exp0_lambda_captura_desde_rem133/a_exp0/salida_a3/UNIVERSOS_POR_CORRIDA.json (fijado por inventario rem133)",
+   "sha256": "b8a2821231ae340bdd1a99456717fa7700f75b6916e751450107c0ec92b8e3cb",
+   "papel": "F13-HISTORICAS v4: salida A3 de rem133 (matriz de 42 requisitos y su universo) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/herramientas/b/contexto_s5.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/herramientas/b/contexto_s5.py (fijado por inventario de su entrega)",
+   "sha256": "346916c6a96742a53a271e3efeb4f9bf887429970fc3ab37d573f712a9ccb58c",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/candidato/herramientas/b/e12_celda.py",
+   "origen": "raiz:tmp/remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533/candidato/herramientas/b/e12_celda.py (fijado por inventario de su entrega)",
+   "sha256": "4f30b3f054394e929bac50536ecae67f2ed53b8cf617e5741778e79d0b1a96b0",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/herramientas/b/ejecutar_b.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/herramientas/b/ejecutar_b.py (fijado por inventario de su entrega)",
+   "sha256": "39d6a7c08d01429e6eb7f34f521055662e79aa7a39ca380dc97bcdc0720349a0",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/herramientas/b/generador_seleccion.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/herramientas/b/generador_seleccion.py (fijado por inventario de su entrega)",
+   "sha256": "92898e1ee72e6187d7670c74b85a70ba89ad44c83be33efdf7ee06fa31e4488a",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/herramientas/b/regla_b_v2.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/herramientas/b/regla_b_v2.py (fijado por inventario de su entrega)",
+   "sha256": "b138dec4e9daaff5b226f4fca87dd3ff3d51ab9586b401a00074aed9e00a4790",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/herramientas/b/seleccion_paso4.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/herramientas/b/seleccion_paso4.py (fijado por inventario de su entrega)",
+   "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/herramientas/b/soporte_global.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/herramientas/b/soporte_global.py (fijado por inventario de su entrega)",
+   "sha256": "fa379d35c3f825f91c10c642c472d94ab25d07517f4ee85df8077066adf84374",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/herramientas/b/techos_persistentes.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/herramientas/b/techos_persistentes.py (fijado por inventario de su entrega)",
+   "sha256": "8e349de642df5d4c56647ac0c44969df367d487ca68dbd9099dde887e2eabc22",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/herramientas/b/unidades.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/herramientas/b/unidades.py (fijado por inventario de su entrega)",
+   "sha256": "f8044ed07992bd4ae9e58dfc5a18c50a4ff414250df162b754fa997ee7d6b432",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/__init__.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/__init__.py (fijado por inventario de su entrega)",
+   "sha256": "89f7210e7c118c83eec9d73323491e0d8c778b76d1297f703dfca2b86069c72a",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/c2_normalizado.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/c2_normalizado.py (fijado por inventario de su entrega)",
+   "sha256": "31d247eeb0368a38aa90ea8c262e3ea55cdfa62d312fe68024969b54670ab785",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/claims.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/claims.py (fijado por inventario de su entrega)",
+   "sha256": "24438732d316f299379a40a2476971dddacf59f338c1a36c1a4757f17f0254a0",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/claves_condicionales.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/claves_condicionales.py (fijado por inventario de su entrega)",
+   "sha256": "a6826bcddf9d413f5a2438703dc202b3096fbfcb9edb63f035963b8d8485e6e3",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/cobertura.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/cobertura.py (fijado por inventario de su entrega)",
+   "sha256": "d6be53db849fbfaa1d11c3213cc25a0f86a990ef6b3198e36e6b56607f5d9381",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/contexto.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/contexto.py (fijado por inventario de su entrega)",
+   "sha256": "035d51c3fcb48dd68d8b73f26ba436a7ff9a7a36e34cc89d9432cc76be673b9e",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/contour.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/contour.py (fijado por inventario de su entrega)",
+   "sha256": "d826dd8f57ca5d26a6feca2d44ebc9babda6179419f5f58391bb09f6e7907a69",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/contrato_paquete.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/contrato_paquete.py (fijado por inventario de su entrega)",
+   "sha256": "6705b2467fce21dc5517b2648f80fa6857423f7239222bd224a112f2294c4538",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/convergencia.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/convergencia.py (fijado por inventario de su entrega)",
+   "sha256": "b7d41d81e5e29626f52634b5ef8de8cf5abc54e00688c7b4d4a255294b369b98",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/cota_fiscal.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/cota_fiscal.py (fijado por inventario de su entrega)",
+   "sha256": "46b2d1617cfcca45be696e844a807baca866842d6ccd17363fb1f1978b0f0dca",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/d7build.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/d7build.py (fijado por inventario de su entrega)",
+   "sha256": "e0dbe9562617642a08dcfd4dae5afafaef5b13df9a45f4c66e68967f6654013b",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/d7view.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/d7view.py (fijado por inventario de su entrega)",
+   "sha256": "74f4b60a602ac951d5871c11e43e6a29efb6c3ffc5fb218135724ccea5671660",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/elementales.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/elementales.py (fijado por inventario de su entrega)",
+   "sha256": "c71faf35370fa2329db69802f03f52d9bc72566a2d9fa50a9ca8dbea1eb6f82b",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/encierros_modelo.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/encierros_modelo.py (fijado por inventario de su entrega)",
+   "sha256": "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/external.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/external.py (fijado por inventario de su entrega)",
+   "sha256": "0b14fc0ee0fe4b0bc6d28aebad717dc0e02af03d8b53007be00d7295b72c4a6b",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/frontier.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/frontier.py (fijado por inventario de su entrega)",
+   "sha256": "709f51b21188ff8d4638d7eadf535dd3f8307f2e1ce995a49539fe7bfcd36ed2",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/intervalos.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/intervalos.py (fijado por inventario de su entrega)",
+   "sha256": "2607d0cf3f879316c699ec4cd73021bff9ae8f680f7c7c01facb84dfb65aa891",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/inversion.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/inversion.py (fijado por inventario de su entrega)",
+   "sha256": "60fced8313fb90f1e69531d0a15f193dbeb94c369b2b3a7a7b939077d340685a",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/keys.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/keys.py (fijado por inventario de su entrega)",
+   "sha256": "fbcbc899f267cf2a367ce3cf6d46e0479869bd681d5a248ee5d49574660ac530",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/macro.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/macro.py (fijado por inventario de su entrega)",
+   "sha256": "4a94661d1cd0f3fe654f2cf7ecaa740b860e1c735b1585d51fda8f56dd068b98",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/model.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/model.py (fijado por inventario de su entrega)",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/modelos.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/modelos.py (fijado por inventario de su entrega)",
+   "sha256": "7f0dd31cacf431fb421e2c5047aa5b750cbecfc1064e3374c4247dcd40c93fda",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/motor_theta.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/motor_theta.py (fijado por inventario de su entrega)",
+   "sha256": "a5ab3b74321e35fdf59afcbeb992b9053acf7d7b9742f2ff4c14ff70cab27a42",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/niveles.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/niveles.py (fijado por inventario de su entrega)",
+   "sha256": "5e686f31a60d473a8e12282cc8bb7d615fe94226a0f388b1627c9c09b1a9ce7a",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/numeric.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/numeric.py (fijado por inventario de su entrega)",
+   "sha256": "4b19f4cb45a637c3a3370ca95059bc4f94feb71649a9f54fd5ac8c33c941c98e",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/r1_local.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/r1_local.py (fijado por inventario de su entrega)",
+   "sha256": "47790d95ef8c882305629484f1d215480eb859b1dbde8b3d7b28c6fcf438ca06",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/r1_reanudable.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/r1_reanudable.py (fijado por inventario de su entrega)",
+   "sha256": "a73d83f99c10ded9ddff4e081a0c5ddf3c225b824055bc552c0f4e21d17a52c1",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/raices.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/raices.py (fijado por inventario de su entrega)",
+   "sha256": "1db76cf7129558f5d95d5f49ddbbb1110a30e753124cee152100f16f3313de22",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/robustness.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/robustness.py (fijado por inventario de su entrega)",
+   "sha256": "587f7fc294655e0bb0759aeae09edf372274da651aa2c463a191c3da22aea2b8",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/rules.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/rules.py (fijado por inventario de su entrega)",
+   "sha256": "fcce1f42415272577cea93185a2e6961954b5c1de016f6c6c5c9b8cac5fa3905",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/run.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/run.py (fijado por inventario de su entrega)",
+   "sha256": "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/sections.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/sections.py (fijado por inventario de su entrega)",
+   "sha256": "0505b0df978fa31719332359b73bfb81d5413ad71b2331b247290ca2c481bd61",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/seleccion_valores.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/seleccion_valores.py (fijado por inventario de su entrega)",
+   "sha256": "b5eaf6ea348c243ce13658b484b9e650d255317e43f4df70d2b492c6ec3cf65e",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/supports.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/supports.py (fijado por inventario de su entrega)",
+   "sha256": "8051efef6ae2819f864ec1e516b09ac7f03e421b74478454b57391c6529fa752",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/supremum.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/supremum.py (fijado por inventario de su entrega)",
+   "sha256": "2c246c8be6d4437892cd951cc0acaaac6e5d8ea7a921de2e13f560caf8dfebbb",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/tables.py",
+   "origen": "raiz:tmp/fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201/candidato/src/paper2b/tables.py (fijado por inventario de su entrega)",
+   "sha256": "10450098e68b929e3522d789acee57cdebb532c646abd85ddf788b58e228f6fe",
+   "papel": "F13-HISTORICAS v4: núcleo de corrida H4 (única versión; primera entrega que lo tiene) (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/v4/NUCLEO_H4_POR_ENTREGA.json",
+   "origen": "derivado de raiz:tmp/<entrega>/audit/entrega.json y del glob de las 14 entregas H4",
+   "sha256": "286e286d4f570458685bc5cd2abf7d128e2abf2d062404dd96cdbd14db7b4d07",
+   "papel": "F13-HISTORICAS v4: inventarios H4 proyectados"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase6_planes/freeze_history/93c625a40772f3d278183cd738f454cc47345c1a52e71dc9f47342352d2aba09/toolchain/herramientas/d7/construir_d7.py",
+   "origen": "raiz:fase6_planes/freeze_history/93c625a40772f3d278183cd738f454cc47345c1a52e71dc9f47342352d2aba09/toolchain/herramientas/d7/construir_d7.py",
+   "sha256": "5f15b2193f3caff1da735e6133a71370fae8d907cb9a8477b5d43f9b3eed0ce6",
+   "papel": "F13-HISTORICAS v4: toolchain S5 congelado (H4: igual_toolchain_S5 y productor D7) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase6_planes/freeze_history/93c625a40772f3d278183cd738f454cc47345c1a52e71dc9f47342352d2aba09/toolchain/herramientas/b/nacional.py",
+   "origen": "raiz:fase6_planes/freeze_history/93c625a40772f3d278183cd738f454cc47345c1a52e71dc9f47342352d2aba09/toolchain/herramientas/b/nacional.py",
+   "sha256": "8b12df28cf317ed2d9f93ce48f1fa236e3c65edbc78c4a1df82490415828422b",
+   "papel": "F13-HISTORICAS v4: toolchain S5 congelado (H4: igual_toolchain_S5 y productor D7) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase6_planes/freeze_history/93c625a40772f3d278183cd738f454cc47345c1a52e71dc9f47342352d2aba09/toolchain/herramientas/b/ejecutar_b.py",
+   "origen": "raiz:fase6_planes/freeze_history/93c625a40772f3d278183cd738f454cc47345c1a52e71dc9f47342352d2aba09/toolchain/herramientas/b/ejecutar_b.py",
+   "sha256": "dc831c8f6f0022612ed1a1b648ba9327045e151b5f1814028e856fef639946d9",
+   "papel": "F13-HISTORICAS v4: toolchain S5 congelado (H4: igual_toolchain_S5 y productor D7) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/certificados_reuso/CERT-REUSO-D3-A1E-v2.json",
+   "origen": "raiz:fase2_datos/certificados_reuso/CERT-REUSO-D3-A1E-v2.json (fijado por dependencia de D7)",
+   "sha256": "2d8a1ff1ca181ffef68cc04adaf4e7d1b1d171784aaddc2d2d2b6531179964bd",
+   "papel": "F13-HISTORICAS v4: certificado D3 (H30) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d3_universo/versions/6e2ac8eb42f85ca36bffcdaebab3a7762c10cc42457b7874b5537e98f69b2236/derivation_manifests_index.json",
+   "origen": "raiz:fase2_datos/d3_universo/versions/6e2ac8eb42f85ca36bffcdaebab3a7762c10cc42457b7874b5537e98f69b2236/derivation_manifests_index.json",
+   "sha256": "2affd40089fc71588ad86fb3dc0077c9eb7e7506b57b0b62908239a3a3cfd380",
+   "papel": "F13-HISTORICAS v4: árbol D-3 activo (H30) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d3_universo/versions/6e2ac8eb42f85ca36bffcdaebab3a7762c10cc42457b7874b5537e98f69b2236/d3_phase_report.csv",
+   "origen": "raiz:fase2_datos/d3_universo/versions/6e2ac8eb42f85ca36bffcdaebab3a7762c10cc42457b7874b5537e98f69b2236/d3_phase_report.csv",
+   "sha256": "83b7e473cee05bf802a6a5c41a6cbf35fa068201332f65f6a8594393da85688b",
+   "papel": "F13-HISTORICAS v4: árbol D-3 activo (H30) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d3_universo/versions/6e2ac8eb42f85ca36bffcdaebab3a7762c10cc42457b7874b5537e98f69b2236/crosswalk_evidence.csv",
+   "origen": "raiz:fase2_datos/d3_universo/versions/6e2ac8eb42f85ca36bffcdaebab3a7762c10cc42457b7874b5537e98f69b2236/crosswalk_evidence.csv",
+   "sha256": "2f84669b8f7399508f35eacc21a4d0f625a594e2de20cad84b04db52b309af83",
+   "papel": "F13-HISTORICAS v4: árbol D-3 activo (H30) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d3_universo/versions/6e2ac8eb42f85ca36bffcdaebab3a7762c10cc42457b7874b5537e98f69b2236/universe_crosswalk.csv",
+   "origen": "raiz:fase2_datos/d3_universo/versions/6e2ac8eb42f85ca36bffcdaebab3a7762c10cc42457b7874b5537e98f69b2236/universe_crosswalk.csv",
+   "sha256": "03c4c4f8bfd83af3d6f71dbb1d4cf5087f3287ea42d219e0f535b126a65462fc",
+   "papel": "F13-HISTORICAS v4: árbol D-3 activo (H30) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d3_universo/versions/6e2ac8eb42f85ca36bffcdaebab3a7762c10cc42457b7874b5537e98f69b2236/firm_universe.csv",
+   "origen": "raiz:fase2_datos/d3_universo/versions/6e2ac8eb42f85ca36bffcdaebab3a7762c10cc42457b7874b5537e98f69b2236/firm_universe.csv",
+   "sha256": "f68542c1dab0a7b496d0aec00e4f8501ef64d914bdc0d10990cbb22f75d13192",
+   "papel": "F13-HISTORICAS v4: árbol D-3 activo (H30) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d3_universo/versions/6e2ac8eb42f85ca36bffcdaebab3a7762c10cc42457b7874b5537e98f69b2236/size_distribution.csv",
+   "origen": "raiz:fase2_datos/d3_universo/versions/6e2ac8eb42f85ca36bffcdaebab3a7762c10cc42457b7874b5537e98f69b2236/size_distribution.csv",
+   "sha256": "a121c6ff4d62944af678df3cdca9fbc91ce92bdccfc3de2411e3ff92ac54f553",
+   "papel": "F13-HISTORICAS v4: árbol D-3 activo (H30) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d3_universo/versions/6e2ac8eb42f85ca36bffcdaebab3a7762c10cc42457b7874b5537e98f69b2236/d3_gate_report.csv",
+   "origen": "raiz:fase2_datos/d3_universo/versions/6e2ac8eb42f85ca36bffcdaebab3a7762c10cc42457b7874b5537e98f69b2236/d3_gate_report.csv",
+   "sha256": "cfde26b853369c84417f2035eaf7f097f3a68d76ca0554efe90faa6fab4c23d7",
+   "papel": "F13-HISTORICAS v4: árbol D-3 activo (H30) (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/validaciones/resultados_E1235_i1.json",
+   "origen": "raiz:tmp/paso4_conciliacion_portabilidad_desde_rem107/validaciones/resultados_E1235_i1.json",
+   "sha256": "f05c2ba464ab530b5f1dd0fe14e4c73cf7f4c7df9acdc8d929d334299cbb5188",
+   "papel": "F13-HISTORICAS validaciones: producto aceptado P_val_e1235 e insumo guardado (E1 i1, E2, E3, E5) (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/validaciones/resultados_E1_i2.json",
+   "origen": "raiz:tmp/paso4_conciliacion_portabilidad_desde_rem107/validaciones/resultados_E1_i2.json",
+   "sha256": "59f98aa200bee055ed2ce6b5b2f38bfa5b1d9fd46c6d9903a022c27ed0eb510a",
+   "papel": "F13-HISTORICAS validaciones: producto aceptado P_val_e1i2 e insumo guardado (E1 i2, Romberg) (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/validaciones/prerregistro_E1235.json",
+   "origen": "raiz:tmp/paso4_conciliacion_portabilidad_desde_rem107/validaciones/prerregistro_E1235.json",
+   "sha256": "9f9846e78c53da76012059df106029bb50002ef46d90090ab50933fa1f6254fd",
+   "papel": "F13-HISTORICAS validaciones: prerregistro de E1/E2/E3/E5 (entradas, rejillas y tolerancias) (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/validaciones/prerregistro_E1_i2.json",
+   "origen": "raiz:tmp/paso4_conciliacion_portabilidad_desde_rem107/validaciones/prerregistro_E1_i2.json",
+   "sha256": "ee65ec1780f8d7a75cf72a3181707b101ad7c88fc07bc01d402c932e41f98338",
+   "papel": "F13-HISTORICAS validaciones: prerregistro de E1 i2 (método Romberg y criterios; fijado tras observar i1) (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/AUDITORIA_A_insumos.json",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/AUDITORIA_A_insumos.json (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/AUDITORIA_A_insumos.json)",
+   "sha256": "7a17c28b85938637498296c3220d74a7c5c06c559218aeba5c36882709d006b2",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/AUDITORIA_A_insumos.md",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/AUDITORIA_A_insumos.md (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/AUDITORIA_A_insumos.md)",
+   "sha256": "23c11e96c96f8a28ef56e840d1fbd4800d356003cb8d23ee3b6ffa43b3f9c02b",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/AUDITORIA_B_doble_conteo.json",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/AUDITORIA_B_doble_conteo.json (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/AUDITORIA_B_doble_conteo.json)",
+   "sha256": "f311b90217babe16c0eb97e354d173e84d2eb3b107ffb002da8f35a8385148cb",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/AUDITORIA_B_doble_conteo.md",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/AUDITORIA_B_doble_conteo.md (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/AUDITORIA_B_doble_conteo.md)",
+   "sha256": "f24dca5338300a87c53d06ce0a01682981e796b6e1d2f35fb2f9328550310cb9",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/AUDITORIA_C_admisibilidad.json",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/AUDITORIA_C_admisibilidad.json (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/AUDITORIA_C_admisibilidad.json)",
+   "sha256": "eb0acf090d1d8bb9d36176901dc07d8a232f76d24fd05e3fff7b6e46fb914a36",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/AUDITORIA_C_admisibilidad.md",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/AUDITORIA_C_admisibilidad.md (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/AUDITORIA_C_admisibilidad.md)",
+   "sha256": "29ece531920ce360f9c9e0d5056d2169a7767ccdc812191620062e5aef94f8cb",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/AUDITORIA_D_circularidad.json",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/AUDITORIA_D_circularidad.json (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/AUDITORIA_D_circularidad.json)",
+   "sha256": "ff1d432b573d671b41a9b2dbe7b2965284a26bdc3cbcbb843fc1c4c22592b4c8",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/AUDITORIA_D_circularidad.md",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/AUDITORIA_D_circularidad.md (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/AUDITORIA_D_circularidad.md)",
+   "sha256": "7e67cc34056a65950b75018854ad14b8dee53e1d5a3fe8e06d43b334947b153f",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/INDICE_PUBLICO.json",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/INDICE_PUBLICO.json (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/INDICE_PUBLICO.json)",
+   "sha256": "1d7df814c94e63a11088aac150fbb1931e8e1796e9c91199f3493c7221b2491a",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/NOTAS_DE_ALCANCE.md",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/NOTAS_DE_ALCANCE.md (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/NOTAS_DE_ALCANCE.md)",
+   "sha256": "83a65cdf1baaccdb5c60dc5017ec682471adee996b6767fb2b7207cf8dbc29e4",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T1.csv",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T1.csv (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T1.csv)",
+   "sha256": "76416c9d8bafcd0661471a5809439fba2eef375f6d2fc8a50c197905476cd375",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T1.json",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T1.json (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T1.json)",
+   "sha256": "07ae92386ce55df4bbf736e68962863fcf5f61b296cfff5dba08819bf01d1d09",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T1.md",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T1.md (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T1.md)",
+   "sha256": "8f79d6aa877519ce6b32175ccfc00c50346a6eb3d50437fb04bd46adf5b9a3b0",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T2.csv",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T2.csv (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T2.csv)",
+   "sha256": "62efb406d9ceb8b62a0fffb09d3b768959b6e5d962ddc577059b6724dc3432d5",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T2.json",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T2.json (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T2.json)",
+   "sha256": "07c58555c3751dd5dc9aae374f18d79da0cc9275b58453603a21581bab61ec67",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T2.md",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T2.md (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T2.md)",
+   "sha256": "168e945387b6fdfeb3b38c1b099d8c0c6e539d2cd0fb681cc9568f72b1f796ad",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T3.json",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T3.json (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T3.json)",
+   "sha256": "8250772a4f8631f8225e66a9e9fbe66604afd5a1c31878d783540cb22871520b",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T3.md",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T3.md (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T3.md)",
+   "sha256": "31bee6f5f16d2700c09cdd9d32e21454242990a9609bb3155c183d4d9be1746e",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T3_anexo.csv",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T3_anexo.csv (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T3_anexo.csv)",
+   "sha256": "373db1544f4f88b73851e111cf805bdb4afdea9a4c400b692a06ed5a13a72b89",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T3_anexo.jsonl",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T3_anexo.jsonl (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T3_anexo.jsonl)",
+   "sha256": "eed11896fe8d3c4344e010b271896e29c409432c5af23bc362374658ac4608d6",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T3_cuerpo.csv",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T3_cuerpo.csv (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T3_cuerpo.csv)",
+   "sha256": "3f22de1256b13a7aa1de3568a0ed02d99d9f283246688a01c03f96e48d280ce8",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T4.csv",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T4.csv (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T4.csv)",
+   "sha256": "3e5773b03703a473089307a7d74273b8cfd911d8fb82e2686eb916813d0bbdc6",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T4.json",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T4.json (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T4.json)",
+   "sha256": "83ada46d488e06762b4008452bd3a2851d6c939805240ae95ba879249741307e",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T4.md",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T4.md (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T4.md)",
+   "sha256": "a0dc8b9ac078eab0c04289540f8741fe6e4bea9e46dc3eb19d2e5441ac01369b",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T4_traza_registros.jsonl",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T4_traza_registros.jsonl (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T4_traza_registros.jsonl)",
+   "sha256": "06293d06594f654af28b283e18d7abb96cfa9269a2ddaf63ea67062e5f52b0ef",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T5.json",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T5.json (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T5.json)",
+   "sha256": "27611adbd99cc80dbb4ba0ce1b300d6578f601fa5c8b77a5d6036da927af2f18",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T5.md",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T5.md (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T5.md)",
+   "sha256": "28a680648de4d77c5018b34e81beef672f9b30d54bed079a41c5c7c176d3246a",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T5_anexo.csv",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T5_anexo.csv (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T5_anexo.csv)",
+   "sha256": "b4a051da1a0c0c8ed2982c85144381fa09e7079c9a080912b58cf9a2438ed67b",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T5_anexo.jsonl",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T5_anexo.jsonl (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T5_anexo.jsonl)",
+   "sha256": "38c0644a9f1da688853e67518c8ff8abc18121833c928c3196b31f68c335b825",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T6.csv",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T6.csv (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T6.csv)",
+   "sha256": "46b619863d03b8d00dcf20e6c915a8e1eceb88217edfa87cebc1b8f8a713aee5",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T6.json",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T6.json (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T6.json)",
+   "sha256": "e992e3dcd64df2b1b2cc8122b47690e6562a8f8ed041e6fada571dff2f47e0c9",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T6.md",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T6.md (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T6.md)",
+   "sha256": "06e86ad27daf2bd30f91f1b7d08c127c801606d6ee0debdc3049eed74a6a08e4",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T7.csv",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T7.csv (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T7.csv)",
+   "sha256": "28209cb717d98cd572c36b814ce101cf510549bcf2a9585e0d5049d350bcd0f4",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T7.json",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T7.json (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T7.json)",
+   "sha256": "64636bc1b6f69c5fc8df407fcee5973f80210b3459b67aab0b640ce48015af97",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T7.md",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T7.md (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T7.md)",
+   "sha256": "5b6c70fc8d6c8ff2745ee0682e0f09437273e24e25a53e90f5e94ca48486f985",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T7_anexo.jsonl",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T7_anexo.jsonl (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T7_anexo.jsonl)",
+   "sha256": "0ead5b531f86c57922a20d1070770127d32ef199151ff55695aea8e319ad0b03",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T8.json",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T8.json (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T8.json)",
+   "sha256": "ea5105ed0baf3d9d3f881bd58067df172a4e9e272c373422543ae91863e2fa6e",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T8.md",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T8.md (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T8.md)",
+   "sha256": "3dab1d23d20ee904250846744e50eb7b81f10a29c308283b1e67e4d0302a13bb",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T8_anexo.csv",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T8_anexo.csv (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T8_anexo.csv)",
+   "sha256": "bfa2d4b7b09fe27fa34f7a69fcb6c640c1432079166606407a3efbec8d4e23b9",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/publico/T8_anexo.jsonl",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/publico/T8_anexo.jsonl (= raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/reutilizacion/salida_4/publico/T8_anexo.jsonl)",
+   "sha256": "7f25b222307b978046f3cf9b37c0744e9f9d4595cb06091b98b00c1e7b67eff0",
+   "papel": "F13-S1: archivo público aceptado (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/MAPA_COBERTURA_VISTAS_REM187.json",
+   "origen": "raiz:tmp/correcciones_limites_numericos_s1_desde_rem187/especificacion/MAPA_COBERTURA_VISTAS_REM187.json (= tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/objetos/062f8d9b…)",
+   "sha256": "062f8d9b1f551369371d3be85b723305da3b1a69708780e6123576c58644ef3c",
+   "papel": "F13-S1: mapa de cobertura rem187 (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam13/s1/ERRATA_MAPA_REM188.json",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/S1/ERRATA_MAPA_REM188.json (proyección del catálogo; original <directorio de los libros>/review_20261114_rem188_errata_mapa.json sha256 283fffd57ccc13d3d2ee4479f96a126d15690aba08e9e6ff3ac80dba861a63fb; marcadores {'@@R_FS@@': 1})",
+   "sha256": "32892f0aff4bf78193adad55dbcf73e610b03caadd33cdd5e995d9c889d74ef5",
+   "papel": "F13-S1: fe de erratas rem188 del mapa (proyección saneada)"
+  },
+  {
+   "archivo": "datos/fam13/s1/HUELLAS_ACEPTADAS_S1.json",
+   "origen": "derivado de <directorio de los libros>/review_20261114_rem188_S1_acceptance.json (sha256 4bb43a2e2db6ce90ef4acbd42346b718403272adf3b53d5241050da9f6019d49) y su cierre review_20261114_rem188_S1_cerrado.json",
+   "sha256": "88ef8cabaa63b50157de1aac77ac33e552baa5831dadb4e5f53b1eb1a212ac66",
+   "papel": "F13-S1: huellas aceptadas (40 públicos, 19 internos solo por huella, mapa y las dos identidades de la fe de erratas)"
+  },
+  {
+   "archivo": "referencias/fam13/rem107/T1.csv",
+   "origen": "raiz:tmp/paso4_conciliacion_portabilidad_desde_rem107/conciliacion/ensamblajes/T1.csv",
+   "sha256": "f20d0e928e6e2cee0c045ecb9f29697e08b807ed18b6797bd7eb84c7b54b9d39",
+   "papel": "referencia P_t1 (solo para comparar; nunca se lee para producir; copia exacta)"
+  },
+  {
+   "archivo": "referencias/fam13/rem107/T2.csv",
+   "origen": "raiz:tmp/paso4_conciliacion_portabilidad_desde_rem107/conciliacion/ensamblajes/T2.csv",
+   "sha256": "bce470b6bebcaaa5c5e8f46110972417a34b9889292c3b0a8a03704e0b9bce2d",
+   "papel": "referencia P_t2 (solo para comparar; nunca se lee para producir; copia exacta)"
+  },
+  {
+   "archivo": "referencias/fam13/rem108/T7.csv",
+   "origen": "raiz:tmp/paso4_conciliacion_portabilidad_desde_rem108/conciliacion/ensamblajes/T7.csv",
+   "sha256": "504255e10e769188699c1725660595f56cf2edd995a346213a1d5ba82001572b",
+   "papel": "referencia P_t7_csv (solo para comparar; nunca se lee para producir; copia exacta)"
+  },
+  {
+   "archivo": "referencias/fam13/rem108/COBERTURA.json",
+   "origen": "raiz:tmp/paso4_conciliacion_portabilidad_desde_rem108/conciliacion/ensamblajes/COBERTURA.json",
+   "sha256": "3a18a8973a2e9f2a69c1ba9c6b30e77282f59113ee4d0a26d81b0d204916e8f6",
+   "papel": "referencia cobertura rem108 (se compara su parte T7) (solo para comparar; nunca se lee para producir; copia exacta)"
+  },
+  {
+   "archivo": "referencias/fam13/rem134/salida_a2/H4_LITERALES.json",
+   "origen": "raiz:tmp/paso4_exp0_lambda_autenticada_desde_rem134/a_exp0/salida_a2/H4_LITERALES.json",
+   "sha256": "38d3f8895d63baca2a3c56b48e5e50ec4c092485ce02e649f37c33e1242b5722",
+   "papel": "referencia salida A2 de rem134 (misma ejecución que la matriz v4) (solo para comparar; nunca se lee para producir; copia exacta)"
+  },
+  {
+   "archivo": "referencias/fam13/rem134/salida_a2/H30_INDICE_DERIVACION.json",
+   "origen": "raiz:tmp/paso4_exp0_lambda_autenticada_desde_rem134/a_exp0/salida_a2/H30_INDICE_DERIVACION.json",
+   "sha256": "1f92cc1525e0ef640c9a527f07a1c5110f0383e5dad79ded59665ebae8c16f34",
+   "papel": "referencia salida A2 de rem134 (misma ejecución que la matriz v4) (solo para comparar; nunca se lee para producir; copia exacta)"
+  },
+  {
+   "archivo": "referencias/fam13/rem134/salida_a2/R1_ESCENARIOS.json",
+   "origen": "raiz:tmp/paso4_exp0_lambda_autenticada_desde_rem134/a_exp0/salida_a2/R1_ESCENARIOS.json",
+   "sha256": "e4655fb61bfec45373d3ff33b1c509e8fd038d51f3952e343e03286457703b87",
+   "papel": "referencia salida A2 de rem134 (misma ejecución que la matriz v4) (solo para comparar; nunca se lee para producir; copia exacta)"
+  },
+  {
+   "archivo": "referencias/fam13/rem134/salida_a2/MATRIZ_REVISADA_v4.json",
+   "origen": "raiz:tmp/paso4_exp0_lambda_autenticada_desde_rem134/a_exp0/salida_a2/MATRIZ_REVISADA_v4.json",
+   "sha256": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5",
+   "papel": "referencia P_matriz_v4 (solo para comparar; nunca se lee para producir; copia exacta)"
+  },
+  {
+   "archivo": "referencias/fam13/rem134/salida_a2/RESUMEN_A_rem134.json",
+   "origen": "raiz:tmp/paso4_exp0_lambda_autenticada_desde_rem134/a_exp0/salida_a2/RESUMEN_A_rem134.json",
+   "sha256": "c40b5b0a5b48896337883e7e611e6c05340d15bad2475b59d3419ae30c023185",
+   "papel": "referencia salida A2 de rem134 (misma ejecución que la matriz v4) (solo para comparar; nunca se lee para producir; copia exacta)"
+  },
+  {
+   "archivo": "referencias/fam13/rem134/salida_a2/input_audit_report_v4.json",
+   "origen": "raiz:tmp/paso4_exp0_lambda_autenticada_desde_rem134/a_exp0/salida_a2/input_audit_report_v4.json",
+   "sha256": "fd02e9a589d6043b77efd4009c4c01abecfe1b7b44f888d92236887068568bf2",
+   "papel": "referencia salida A2 de rem134 (misma ejecución que la matriz v4) (solo para comparar; nunca se lee para producir; copia exacta)"
+  }
+ ],
+ "reutilizados": [
+  {
+   "archivo": "nucleo_s6/raiz/salidas_s6/d7/versions/2a25893b09c097b2af22ed2e5be9a4014851faf55bbaaf380c7a078f1a740591/parameter_registry.csv",
+   "sha256": "a4f891e4ae2fdf7d42f2f46e44ab80813cf71e0e288b38355f9ba9ae591c5b51",
+   "papel": "F13-HISTORICAS T1/T2: D7 2a25893b (tablas_diseno)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/salidas_s6/d7/versions/2a25893b09c097b2af22ed2e5be9a4014851faf55bbaaf380c7a078f1a740591/support_sets.csv",
+   "sha256": "745d83dcbff308a94e00d9660fc68db7537c95cce61edfdebe8835ded4612516",
+   "papel": "F13-HISTORICAS T1/T2: D7 2a25893b (tablas_diseno)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/salidas_s6/d7/versions/2a25893b09c097b2af22ed2e5be9a4014851faf55bbaaf380c7a078f1a740591/support_set.csv",
+   "sha256": "91716f572a85dae4e57290efb3dad03ada588d7a6cfe037fd2e1ae5d40bd61c6",
+   "papel": "F13-HISTORICAS T1/T2: D7 2a25893b (tablas_diseno)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/salidas_s6/d7/versions/2a25893b09c097b2af22ed2e5be9a4014851faf55bbaaf380c7a078f1a740591/source_evidence.csv",
+   "sha256": "b6c686d70bfc094d1d568e25a3179857eaef21f5355e47d7c8ad0f30f95e8d29",
+   "papel": "F13-HISTORICAS T1/T2: D7 2a25893b (tablas_diseno)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/resolucion_3_7_2026-10-04_lima1941/demo/registro/registro_candidato_v4.json",
+   "sha256": "4cf24bc0d9a407db3afa81042419add41256366311d38f36b0a329384ac7ba31",
+   "papel": "F13-HISTORICAS T7: registro de afirmaciones v4 (REG[3])",
+   "declarada_en": "fuentes_fam02.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/tmp/p1b_global_h4_paso4_3_7_2026-10-09_lima1913/demo/b_v2_p1b/cell_selection.json",
+   "sha256": "dd86e55cebdcc70488db0863a3aa7da57f790367680625509bdf64d2bfd8324e",
+   "papel": "F13-HISTORICAS T7: cell_selection (S1: testigos sup/inf)",
+   "declarada_en": "fuentes_fam02.json"
+  },
+  {
+   "archivo": "nucleo_s6/instalacion/src/paper2b/claims.py",
+   "sha256": "24438732d316f299379a40a2476971dddacf59f338c1a36c1a4757f17f0254a0",
+   "papel": "F13-HISTORICAS T7: claims.py del núcleo instalado (analizar_claim: dominios)",
+   "declarada_en": "fuentes_fam02.json"
+  },
+  {
+   "archivo": "nucleo_s6/instalacion/src/paper2b/__init__.py",
+   "sha256": "89f7210e7c118c83eec9d73323491e0d8c778b76d1297f703dfca2b86069c72a",
+   "papel": "F13-HISTORICAS T7: paquete paper2b del núcleo instalado",
+   "declarada_en": "fuentes_fam02.json"
+  },
+  {
+   "archivo": "nucleo_s6/exp8/tmp/paso4_conciliacion_portabilidad_desde_rem108/conciliacion/ensamblajes/T7_anexo.json",
+   "sha256": "070f3c8e01f245897985c1bd3ee9b0094f3feb388c6c8390a7b1a41ef4f023ec",
+   "papel": "referencia de T7_anexo (producto rem108 aceptado; entrada de F10-ENF-AFIRMACION / U41; solo para comparar)",
+   "declarada_en": "fuentes_fam10.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/herramientas/b/nacional.py",
+   "sha256": "8b12df28cf317ed2d9f93ce48f1fa236e3c65edbc78c4a1df82490415828422b",
+   "papel": "F13-HISTORICAS v4: módulo del original que importaban las corridas (H4)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/herramientas/b/ejecutar_b.py",
+   "sha256": "9c96d3f40f871994bb4e16d2ff81b024bc79c8eebe025b68c2a3942e6c7e8d80",
+   "papel": "F13-HISTORICAS v4: módulo del original que importaban las corridas (H4)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase6_planes/integracion_s4/versions/560026466c07259d759cdd435a80e37561b0226228383a5a2c1fef5d501fa4d2/contratos_enmienda/contratos/formulas.json",
+   "sha256": "db828d3c00b2fe09377489007b7a2097288b11ddce5c3630a9ea7174e2ca3ddd",
+   "papel": "F13-HISTORICAS v4: formulas.json (R1 y H4)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739/d7_manifest.json",
+   "sha256": "42fc2b0c454371a45ab10ccbda37a1154e77282dd06df7a880560966242e074a",
+   "papel": "F13-HISTORICAS v4: manifiesto D7 10a0bd5b",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739/authority.csv",
+   "sha256": "f8f8c1ee38bb939a3866b283f8619924938777df67b29d1e89e9a4544cfbd88f",
+   "papel": "F13-HISTORICAS v4: D7 10a0bd5b",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739/constraint_inputs.csv",
+   "sha256": "0eaa13424faf3827d994148b94596053b05bec2094a0415b8c8be46331315a28",
+   "papel": "F13-HISTORICAS v4: D7 10a0bd5b",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739/d7_admissibility_report.csv",
+   "sha256": "0a93f8272b9ee6d034799f6f3cd6c8f25ec7a27a88a3a5a0e1fdde2f0ed3a499",
+   "papel": "F13-HISTORICAS v4: D7 10a0bd5b",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739/d7_gate_report.csv",
+   "sha256": "3548cebed8c96ad839af76946f00747bdc5aacec97801aa1f708cb1d549a4a8a",
+   "papel": "F13-HISTORICAS v4: D7 10a0bd5b",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739/d7_phase_report.json",
+   "sha256": "ae353e05eae886a7829abce98a546ce618f1c98d8a0ba70d2e022c656ba36e6a",
+   "papel": "F13-HISTORICAS v4: D7 10a0bd5b",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739/formula_inputs.csv",
+   "sha256": "36ca8209dcebec6da38a9a6feed9043d7422fb35d72f73ed703fdb99f68a0947",
+   "papel": "F13-HISTORICAS v4: D7 10a0bd5b",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739/formula_registry.csv",
+   "sha256": "391dd6d2679055b6d38d4b18c97aa65e4646efcac142e53a41874bbb3450f481",
+   "papel": "F13-HISTORICAS v4: D7 10a0bd5b",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739/joint_constraints.csv",
+   "sha256": "734df3dbd9451ec0d8d744fb619232a2fceb3c4083e454b3433295aae6eec52b",
+   "papel": "F13-HISTORICAS v4: D7 10a0bd5b",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739/parameter_bindings.csv",
+   "sha256": "4297e50b12bdca48e5b8558bd2a614c1ba9fffa470d817b8dab19bcf1fa18ba5",
+   "papel": "F13-HISTORICAS v4: D7 10a0bd5b",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739/parameter_registry.csv",
+   "sha256": "a4f891e4ae2fdf7d42f2f46e44ab80813cf71e0e288b38355f9ba9ae591c5b51",
+   "papel": "F13-HISTORICAS v4: D7 10a0bd5b",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739/scenario_map.csv",
+   "sha256": "da5c9247903e4bd053d088c8c9db435128b33f47cf479496273a0331358aebce",
+   "papel": "F13-HISTORICAS v4: D7 10a0bd5b",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739/shared_primitive_members.csv",
+   "sha256": "3003e099cb06814fea8ac618db66df06c741827940ed665d7e75df354adb0abb",
+   "papel": "F13-HISTORICAS v4: D7 10a0bd5b",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739/source_evidence.csv",
+   "sha256": "59613a4cce6d769aa733b85fdb1731a40b8839192c8de6835b8cde97cc592c19",
+   "papel": "F13-HISTORICAS v4: D7 10a0bd5b",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739/support_set.csv",
+   "sha256": "91716f572a85dae4e57290efb3dad03ada588d7a6cfe037fd2e1ae5d40bd61c6",
+   "papel": "F13-HISTORICAS v4: D7 10a0bd5b",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739/support_sets.csv",
+   "sha256": "ab74aafd22193c31e642f7238e379f65bfe2147ce7edb6a7a82970c19ca046c9",
+   "papel": "F13-HISTORICAS v4: D7 10a0bd5b",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739/tau_domains.csv",
+   "sha256": "c39aa30fc0fdb44fb9d0c32d66bc001d901fdeae9fb6f3c27874c21a1d0b0e6f",
+   "papel": "F13-HISTORICAS v4: D7 10a0bd5b",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739/tax_component_supports.csv",
+   "sha256": "2198f62b400fb32b0ee58442b697753c2c0eba72035ec3d8065ce66d37ed8199",
+   "papel": "F13-HISTORICAS v4: D7 10a0bd5b",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d7_calibracion/versions/10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739/tax_rate_inputs.csv",
+   "sha256": "fee69822972fb47ab741c35a26bc7b71926a7f45dc8111db8e6bfc90f077d7f1",
+   "papel": "F13-HISTORICAS v4: D7 10a0bd5b",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d2_cuentas_nacionales/versions/61e68b44bb7e6c535bba4211405f37521b39fc93eaee6094c1c9f9cea0dded2d/d2_manifest.json",
+   "sha256": "0302c43159d70893f33565ecaf82df4bb2a57ddd1f6fae4b85f8571a42ec4172",
+   "papel": "F13-HISTORICAS v4: manifiesto d2_version (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d2_cuentas_nacionales/versions/61e68b44bb7e6c535bba4211405f37521b39fc93eaee6094c1c9f9cea0dded2d/ca2_evidence_receipts.json",
+   "sha256": "cd41cd91d0be8361445e517b6229baacc1139b054540c391e48a4ca00e9e8570",
+   "papel": "F13-HISTORICAS v4: d2_version (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d2_cuentas_nacionales/versions/61e68b44bb7e6c535bba4211405f37521b39fc93eaee6094c1c9f9cea0dded2d/conciliaciones.json",
+   "sha256": "720be73c4e846ebe6cf9eca8bdccd2559ab441cdb4e6f0202780a365cb6ead6d",
+   "papel": "F13-HISTORICAS v4: d2_version (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d2_cuentas_nacionales/versions/61e68b44bb7e6c535bba4211405f37521b39fc93eaee6094c1c9f9cea0dded2d/contraste_csi103.json",
+   "sha256": "c293307ecca01c3efd3d305eff7d1cc66387eebfe801e55068a30889547d5830",
+   "papel": "F13-HISTORICAS v4: d2_version (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d2_cuentas_nacionales/versions/61e68b44bb7e6c535bba4211405f37521b39fc93eaee6094c1c9f9cea0dded2d/correspondencia_csi103.csv",
+   "sha256": "df3c9b269eb18c55e622137e9251f9b5c794c062d3cd4b8a12e81e86f3d752eb",
+   "papel": "F13-HISTORICAS v4: d2_version (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d2_cuentas_nacionales/versions/61e68b44bb7e6c535bba4211405f37521b39fc93eaee6094c1c9f9cea0dded2d/d2_2015_2023.csv",
+   "sha256": "219df531f16fe9e5280c2f0c77c706fa48f24ac6726c39459b7b4463f97fd30c",
+   "papel": "F13-HISTORICAS v4: d2_version (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d2_cuentas_nacionales/versions/61e68b44bb7e6c535bba4211405f37521b39fc93eaee6094c1c9f9cea0dded2d/d2_gate_report_candidato.json",
+   "sha256": "2b43ecae5bce94ae7fe9bc8e346a0267fcf749a449c2045b0d0d39050e2e3e71",
+   "papel": "F13-HISTORICAS v4: d2_version (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d2_cuentas_nacionales/versions/61e68b44bb7e6c535bba4211405f37521b39fc93eaee6094c1c9f9cea0dded2d/d2_primaria_2023.csv",
+   "sha256": "c243ca6c6b3c6ede41d058a54a9fcded67bc590be589033473e2b33fe438007a",
+   "papel": "F13-HISTORICAS v4: d2_version (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d2_cuentas_nacionales/versions/61e68b44bb7e6c535bba4211405f37521b39fc93eaee6094c1c9f9cea0dded2d/d2_revision_bridge.csv",
+   "sha256": "9533711bd3a2baec6c250661b38e1eac4aae4598e9819bb36ba29ca739713e21",
+   "papel": "F13-HISTORICAS v4: d2_version (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d2_cuentas_nacionales/versions/61e68b44bb7e6c535bba4211405f37521b39fc93eaee6094c1c9f9cea0dded2d/dominios_candidatos.json",
+   "sha256": "0e8bd8c979267248e3fc2359a8cbf3032557366d03d4d34de0d4823945a69d28",
+   "papel": "F13-HISTORICAS v4: d2_version (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d2_cuentas_nacionales/versions/61e68b44bb7e6c535bba4211405f37521b39fc93eaee6094c1c9f9cea0dded2d/labor_income_shares_candidato.csv",
+   "sha256": "80b64dc6948e95facb08e130458c8794d0458c7aeedae2907665174f7b610450",
+   "papel": "F13-HISTORICAS v4: d2_version (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d2_cuentas_nacionales/versions/61e68b44bb7e6c535bba4211405f37521b39fc93eaee6094c1c9f9cea0dded2d/labor_income_shares_sensitivity_candidato.csv",
+   "sha256": "3131ae0ead8a848db7e2f08baaa87542f606cd360bed22535e8bebe7ec53ba61",
+   "papel": "F13-HISTORICAS v4: d2_version (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d2_cuentas_nacionales/versions/61e68b44bb7e6c535bba4211405f37521b39fc93eaee6094c1c9f9cea0dded2d/precision_evidence_candidato.csv",
+   "sha256": "13d8892854a836363b5e33524ef627144f2963353e5f347168358305ff2f2551",
+   "papel": "F13-HISTORICAS v4: d2_version (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d2_cuentas_nacionales/versions/61e68b44bb7e6c535bba4211405f37521b39fc93eaee6094c1c9f9cea0dded2d/puente_revisiones.csv",
+   "sha256": "fca9b95a4f6c30d4a21fe60b6af650279190d0ed45687da2092424f059809ad7",
+   "papel": "F13-HISTORICAS v4: d2_version (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d2_cuentas_nacionales/versions/61e68b44bb7e6c535bba4211405f37521b39fc93eaee6094c1c9f9cea0dded2d/vectores.json",
+   "sha256": "2060afc624936113a911180727ec7efb332b7da214866e4d85834c9ec4972bc3",
+   "papel": "F13-HISTORICAS v4: d2_version (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d6_tax_shares_v2/versions/8cea18486cdc83d6a2d25fd7060670cc229b80de2d61de4477ddb57613779441/d6_manifest.json",
+   "sha256": "8cea18486cdc83d6a2d25fd7060670cc229b80de2d61de4477ddb57613779441",
+   "papel": "F13-HISTORICAS v4: manifiesto d6_v2_version (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d6_tax_shares_v2/versions/8cea18486cdc83d6a2d25fd7060670cc229b80de2d61de4477ddb57613779441/d6_audit.json",
+   "sha256": "f1aa20d7537208d3680ce127ea04286e6353bf18da28a5579fd10fac0fb17061",
+   "papel": "F13-HISTORICAS v4: d6_v2_version (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d6_tax_shares_v2/versions/8cea18486cdc83d6a2d25fd7060670cc229b80de2d61de4477ddb57613779441/d6_gate_report.csv",
+   "sha256": "09ed38c33d17d6a45529b271601b2f833bbcbed110ca0403a7699d97197016b1",
+   "papel": "F13-HISTORICAS v4: d6_v2_version (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d6_tax_shares_v2/versions/8cea18486cdc83d6a2d25fd7060670cc229b80de2d61de4477ddb57613779441/d6_phase_report.csv",
+   "sha256": "1b1ff24a9683f3296039a9aeae1bd685ec96baeda0f255265afda8863d631131",
+   "papel": "F13-HISTORICAS v4: d6_v2_version (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d6_tax_shares_v2/versions/8cea18486cdc83d6a2d25fd7060670cc229b80de2d61de4477ddb57613779441/sna_derivations.csv",
+   "sha256": "4e268b3b08a9fbbb2f232ec17dbe53a3e51ea712c018ee72f31185c7be004562",
+   "papel": "F13-HISTORICAS v4: d6_v2_version (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d6_tax_shares_v2/versions/8cea18486cdc83d6a2d25fd7060670cc229b80de2d61de4477ddb57613779441/sna_observations.csv",
+   "sha256": "f11739fc39d630aba779edf79039e6c9b857a61e2e3ec2af39b21f41cb8c4cab",
+   "papel": "F13-HISTORICAS v4: d6_v2_version (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d6_tax_shares_v2/versions/8cea18486cdc83d6a2d25fd7060670cc229b80de2d61de4477ddb57613779441/tax_shares_marg.csv",
+   "sha256": "83cb6b5659ec484de356b6d945b37668dd32bbaa401e59d49275af6cb8bdef88",
+   "papel": "F13-HISTORICAS v4: d6_v2_version (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/ca2_bundles/indice_bundles_s5_d2694d8f76eb26ac.json",
+   "sha256": "9b462a62528b4142d38d404b864a6acacc6e85ceba70552066ed36b4da133926",
+   "papel": "F13-HISTORICAS v4: índice de bundles CA2 (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/ca2_bundles/bundles/73cf4e4499eb2e3327a27e01f9e87e1fd6b14a160bee4718fc945636420ae48e.json",
+   "sha256": "73cf4e4499eb2e3327a27e01f9e87e1fd6b14a160bee4718fc945636420ae48e",
+   "papel": "F13-HISTORICAS v4: pieza CA2 referida por el índice (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/ca2_bundles/bundles/b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151.json",
+   "sha256": "b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151",
+   "papel": "F13-HISTORICAS v4: pieza CA2 referida por el índice (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/ca2_bundles/bundles/246a477e20c61784d9b9708700767d8e4da7eb7437b5e22800aa2e7392c9df30.json",
+   "sha256": "246a477e20c61784d9b9708700767d8e4da7eb7437b5e22800aa2e7392c9df30",
+   "papel": "F13-HISTORICAS v4: pieza CA2 referida por el índice (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/ca2_bundles/bundles/5e526e5e2a1c2d927626233bb9015250ab6342445ba0e5d5f60e973ef882a8d4.json",
+   "sha256": "5e526e5e2a1c2d927626233bb9015250ab6342445ba0e5d5f60e973ef882a8d4",
+   "papel": "F13-HISTORICAS v4: pieza CA2 referida por el índice (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/ca2_bundles/componentes/c14d1a8a19e29f2999b82dddcc08072a511cfd00fdd8e90d1faa8ad74654498a.json",
+   "sha256": "c14d1a8a19e29f2999b82dddcc08072a511cfd00fdd8e90d1faa8ad74654498a",
+   "papel": "F13-HISTORICAS v4: pieza CA2 referida por el índice (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/ca2_bundles/componentes/58d94a387dddbda45e40b74bf52e5c870573d8f44ddb09e45a31b2ee7e2c4247.json",
+   "sha256": "58d94a387dddbda45e40b74bf52e5c870573d8f44ddb09e45a31b2ee7e2c4247",
+   "papel": "F13-HISTORICAS v4: pieza CA2 referida por el índice (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/ca2_bundles/componentes/e498e98d0a7118a6979aae3ea60a172a3f46c08a0165c1736ddcdecedde19405.json",
+   "sha256": "e498e98d0a7118a6979aae3ea60a172a3f46c08a0165c1736ddcdecedde19405",
+   "papel": "F13-HISTORICAS v4: pieza CA2 referida por el índice (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/ca2_bundles/componentes/4f81b8656b2b2ef00ceb336790141342370123374953e072ca5b5a1bf38f53c6.json",
+   "sha256": "4f81b8656b2b2ef00ceb336790141342370123374953e072ca5b5a1bf38f53c6",
+   "papel": "F13-HISTORICAS v4: pieza CA2 referida por el índice (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/ca2_bundles/componentes/3b2676ede1690489493dbeaa8ca0f6868bd58a1569cb2104833fb1a8d7471db5.json",
+   "sha256": "3b2676ede1690489493dbeaa8ca0f6868bd58a1569cb2104833fb1a8d7471db5",
+   "papel": "F13-HISTORICAS v4: pieza CA2 referida por el índice (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/ca2_bundles/contextos/c68e79cfc4b273417053d473f382984dc72b37391ee7ec4d001a63b26f79f771.json",
+   "sha256": "c68e79cfc4b273417053d473f382984dc72b37391ee7ec4d001a63b26f79f771",
+   "papel": "F13-HISTORICAS v4: pieza CA2 referida por el índice (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/ca2_bundles/contextos/0f49c9238bc976720bdc8481cd5fef676e5f13195ce46da852bd8d75d51868df.json",
+   "sha256": "0f49c9238bc976720bdc8481cd5fef676e5f13195ce46da852bd8d75d51868df",
+   "papel": "F13-HISTORICAS v4: pieza CA2 referida por el índice (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/ca2_bundles/contextos/dda362d1c81729bdcb531a0524f04f05f5c4a0d5256b0fbed4e021fc8fc8b0dc.json",
+   "sha256": "dda362d1c81729bdcb531a0524f04f05f5c4a0d5256b0fbed4e021fc8fc8b0dc",
+   "papel": "F13-HISTORICAS v4: pieza CA2 referida por el índice (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/ca2_bundles/contextos/98f39e43cb7d78d48869d7e27f71a0c48e64af8a5e3d0e7291c6caf3c200795f.json",
+   "sha256": "98f39e43cb7d78d48869d7e27f71a0c48e64af8a5e3d0e7291c6caf3c200795f",
+   "papel": "F13-HISTORICAS v4: pieza CA2 referida por el índice (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/ca2_bundles/contextos/c920fefbe0bc08274214a4e5f81b6ac7e2ec5f612df4dcec4bec38fb4164c556.json",
+   "sha256": "c920fefbe0bc08274214a4e5f81b6ac7e2ec5f612df4dcec4bec38fb4164c556",
+   "papel": "F13-HISTORICAS v4: pieza CA2 referida por el índice (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/ca2_bundles/contextos/7e717f12022d7c6b6a774d7e39f33fe5f8b41c99c303f06bb519ca930a663ed8.json",
+   "sha256": "7e717f12022d7c6b6a774d7e39f33fe5f8b41c99c303f06bb519ca930a663ed8",
+   "papel": "F13-HISTORICAS v4: pieza CA2 referida por el índice (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/ca2_bundles/contextos/409f00026c074bfdc892e79c33d460cdc2af13ea4a1004e4cfb660748655a732.json",
+   "sha256": "409f00026c074bfdc892e79c33d460cdc2af13ea4a1004e4cfb660748655a732",
+   "papel": "F13-HISTORICAS v4: pieza CA2 referida por el índice (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/ca2_bundles/contextos/82832543e81d77fa27e2334e10d1076fbebd8fcb53b9ada74be5eec1b2a053e9.json",
+   "sha256": "82832543e81d77fa27e2334e10d1076fbebd8fcb53b9ada74be5eec1b2a053e9",
+   "papel": "F13-HISTORICAS v4: pieza CA2 referida por el índice (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/ca2_bundles/contextos/613844d504ff81d9f31499740dba7ba5190210bf8690f1b8e28eccba94291e78.json",
+   "sha256": "613844d504ff81d9f31499740dba7ba5190210bf8690f1b8e28eccba94291e78",
+   "papel": "F13-HISTORICAS v4: pieza CA2 referida por el índice (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/ca2_bundles/contextos/c22b874a47351cc4fb6293d9f60d016f76b15e1b0d03bf172b10aed169da4e66.json",
+   "sha256": "c22b874a47351cc4fb6293d9f60d016f76b15e1b0d03bf172b10aed169da4e66",
+   "papel": "F13-HISTORICAS v4: pieza CA2 referida por el índice (H30)",
+   "declarada_en": "fuentes_fam01.json"
+  }
+ ],
+ "saneado": [
+  {
+   "archivo": "nucleo_s6/raiz/fase2_datos/d2_cuentas_nacionales/versions/61e68b44bb7e6c535bba4211405f37521b39fc93eaee6094c1c9f9cea0dded2d/vectores.json",
+   "sha256": "2060afc624936113a911180727ec7efb332b7da214866e4d85834c9ec4972bc3",
+   "sha256_original": "8d6aa531d1b726c657a6e0a779e8b1b80f9fcf30a29e98438cdc811de64c7181",
+   "regla": "proyección saneada declarada en fuentes_fam01.json",
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "datos/fam13/s1/ERRATA_MAPA_REM188.json",
+   "sha256": "32892f0aff4bf78193adad55dbcf73e610b03caadd33cdd5e995d9c889d74ef5",
+   "sha256_original": "283fffd57ccc13d3d2ee4479f96a126d15690aba08e9e6ff3ac80dba861a63fb",
+   "regla": "proyección del catálogo",
+   "marcadores": {
+    "@@R_FS@@": 1
+   },
+   "restituye_el_original": true
+  }
+ ],
+ "extracto_plan": {
+  "archivo": "datos/fam13/t1t2/PLAN_DISENO_v2_2_30.secciones_6_2_6_3.md",
+  "sha256": "5a20933a0ebdcf98780aad68bf40ec801df5b3d4cc4d0e9654714d5b55136b81",
+  "original": "fase6_planes/PLAN_DISENO_v2_2_30.md",
+  "sha256_original": "08fc62957ca33f413cb0c82760426b4d57b7d37f24421d6c35d5670a23e47c9a",
+  "lineas": [
+   1028,
+   1153
+  ],
+  "primera": "## 6.2 Los nueve números adimensionales",
+  "ultima": "## 7.1 Normalización"
+ },
+ "t7": {
+  "paquetes": 15,
+  "inventarios_proyectados": 15,
+  "filas_fam01": 1730,
+  "unidades_sin_copia": 546,
+  "testigos_unicos": 1728,
+  "testigos_sin_copia": 0,
+  "nota_sin_copia": "unidades del paquete pv12 que no son testigo de ninguna afirmación: FAM01 no las extrajo; unidades() las rechaza por AUSENTE y T7 no las usa",
+  "registro_v4_sha256": "4cf24bc0d9a407db3afa81042419add41256366311d38f36b0a329384ac7ba31",
+  "cell_selection_sha256": "dd86e55cebdcc70488db0863a3aa7da57f790367680625509bdf64d2bfd8324e"
+ },
+ "h4": {
+  "entregas": 14,
+  "archivos_unicos": 45,
+  "posiciones": 629
+ },
+ "huellas_aceptadas": {
+  "P_t1": "f20d0e928e6e2cee0c045ecb9f29697e08b807ed18b6797bd7eb84c7b54b9d39",
+  "P_t2": "bce470b6bebcaaa5c5e8f46110972417a34b9889292c3b0a8a03704e0b9bce2d",
+  "P_t7_csv": "504255e10e769188699c1725660595f56cf2edd995a346213a1d5ba82001572b",
+  "P_t7_anexo": "070f3c8e01f245897985c1bd3ee9b0094f3feb388c6c8390a7b1a41ef4f023ec",
+  "P_val_e1235": "f05c2ba464ab530b5f1dd0fe14e4c73cf7f4c7df9acdc8d929d334299cbb5188",
+  "P_val_e1i2": "59f98aa200bee055ed2ce6b5b2f38bfa5b1d9fd46c6d9903a022c27ed0eb510a",
+  "P_matriz_v4": "e020cff2bd9d7b22dd228f2eeda32c48e0da6479aa272969d46e88e688d882c5"
+ },
+ "solo_procedencia": {
+  "guion_validaciones_sinteticas.py": {
+   "origen": "raiz:tmp/paso4_conciliacion_portabilidad_desde_rem107/validaciones/validaciones_sinteticas.py",
+   "sha256": "d09c7d4c9ebe3484717ca58ea310842ff527cd12bcaa67d47dd4ef049058b57a",
+   "uso": "solo procedencia: fórmulas citadas por línea en src/fam13.py; no se ejecuta (evalúa el modelo)"
+  },
+  "guion_e1_romberg.py": {
+   "origen": "raiz:tmp/paso4_conciliacion_portabilidad_desde_rem107/validaciones/e1_romberg.py",
+   "sha256": "289b5d94dc4face38a52a367f602587a3bad56d380da172b5da335dcd6b99879",
+   "uso": "solo procedencia: fórmulas citadas por línea en src/fam13.py; no se ejecuta (evalúa el modelo)"
+  },
+  "S1_cierre": {
+   "origen": "<directorio de los libros>/review_20261114_rem188_S1_cerrado.json",
+   "sha256": "aa6810dd856da94cfb966f6cf8916b1376836f094a90d083a14ddde6ee262eb1",
+   "uso": "solo procedencia (autenticado; no se copia)"
+  },
+  "S1_aceptacion": {
+   "origen": "<directorio de los libros>/review_20261114_rem188_S1_acceptance.json",
+   "sha256": "4bb43a2e2db6ce90ef4acbd42346b718403272adf3b53d5241050da9f6019d49",
+   "uso": "solo procedencia (autenticado; no se copia)"
+  },
+  "S1_errata": {
+   "origen": "<directorio de los libros>/review_20261114_rem188_errata_mapa.json",
+   "sha256": "283fffd57ccc13d3d2ee4479f96a126d15690aba08e9e6ff3ac80dba861a63fb",
+   "uso": "solo procedencia (autenticado; no se copia)"
+  }
+ },
+ "u60_busqueda": [
+  {
+   "grupo": "origen",
+   "archivo": "tmp/paso4_conciliacion_portabilidad_desde_rem107/pruebas/prueba_rem107.py",
+   "existe": true,
+   "sha256": "87069a84242a045d134df0f6c5905d8333bc3a10c5e43a63415e99132712e098",
+   "lineas": 464,
+   "huellas_aceptadas_citadas": []
+  },
+  {
+   "grupo": "origen",
+   "archivo": "tmp/paso4_conciliacion_portabilidad_desde_rem107/pruebas/reproducir_revisor.py",
+   "existe": true,
+   "sha256": "0d57c48a84769e01f1f7b5f198f83f777f7c30b3e40676e462d8c26c4b4a2a93",
+   "lineas": 89,
+   "huellas_aceptadas_citadas": []
+  },
+  {
+   "grupo": "origen",
+   "archivo": "tmp/paso4_conciliacion_portabilidad_desde_rem107/conciliacion/prueba_entregas.py",
+   "existe": true,
+   "sha256": "09863a0e2b675b61cd56485fddae9668287bea783167732258d5481958ebfe79",
+   "lineas": 76,
+   "huellas_aceptadas_citadas": []
+  },
+  {
+   "grupo": "origen",
+   "archivo": "tmp/paso4_conciliacion_portabilidad_desde_rem108/pruebas/prueba_ensamblajes.py",
+   "existe": true,
+   "sha256": "63e965b1c680a33a4fb6c04ead6ba30bee828cfa2dbe72f1c46886269d618304",
+   "lineas": 64,
+   "huellas_aceptadas_citadas": []
+  },
+  {
+   "grupo": "origen",
+   "archivo": "tmp/paso4_conciliacion_portabilidad_desde_rem108/conciliacion/prueba_entregas.py",
+   "existe": true,
+   "sha256": "5440a11448ae55b315fa1c9d836c20a26b550241702597300fc27f7c78f28322",
+   "lineas": 76,
+   "huellas_aceptadas_citadas": []
+  },
+  {
+   "grupo": "origen",
+   "archivo": "tmp/paso4_conciliacion_portabilidad_desde_rem108/lote/verificar_lote.py",
+   "existe": true,
+   "sha256": "c68bd4324f3e2b41f76af36ccaa4704090869766d7bbf83697636b8d3791f2e2",
+   "lineas": 82,
+   "huellas_aceptadas_citadas": []
+  },
+  {
+   "grupo": "origen",
+   "archivo": "tmp/paso4_exp0_lambda_autenticada_desde_rem134/b_lambda/prueba_entrada_lambda_rem134.py",
+   "existe": true,
+   "sha256": "143890e5e3a8bc76105ea04c05582b78e6e7db8fc8a67cf4f33d181f8785c288",
+   "lineas": 153,
+   "huellas_aceptadas_citadas": []
+  },
+  {
+   "grupo": "origen",
+   "archivo": "tmp/paso4_exp0_lambda_autenticada_desde_rem134/c_captura/pruebas_fila_c.py",
+   "existe": true,
+   "sha256": "52681f1e3719eabdd16a8296468c7ad3fde5141dee71954e36b8bb85fe1675f2",
+   "lineas": 137,
+   "huellas_aceptadas_citadas": []
+  },
+  {
+   "grupo": "revisor",
+   "archivo": "<directorio de los libros>/review_20261028_rem107_audit.py",
+   "existe": true,
+   "sha256": "5db0e3042b0d68a6f278f0f5f9e55c747ef0c77eafd674c953a7646f5ce4e5f0",
+   "lineas": 57,
+   "huellas_aceptadas_citadas": []
+  },
+  {
+   "grupo": "revisor",
+   "archivo": "<directorio de los libros>/review_20261028_rem107_probes.py",
+   "existe": true,
+   "sha256": "c0e000766043e35d726de85a419703c1343a86d09e9d20c3e52a328364aba4e9",
+   "lineas": 56,
+   "huellas_aceptadas_citadas": []
+  },
+  {
+   "grupo": "revisor",
+   "archivo": "<directorio de los libros>/review_20261028_rem107_supplement.py",
+   "existe": true,
+   "sha256": "5333972e78d04a2e838755cf1819dc7f9451eb1588de4b8ddba322d658220bcb",
+   "lineas": 33,
+   "huellas_aceptadas_citadas": []
+  },
+  {
+   "grupo": "revisor",
+   "archivo": "<directorio de los libros>/review_20261028_rem107_update.py",
+   "existe": true,
+   "sha256": "51f4316a33e69fb131f6ee232f38127603759f7cb648b0a1ea5e000edf151902",
+   "lineas": 69,
+   "huellas_aceptadas_citadas": []
+  },
+  {
+   "grupo": "revisor",
+   "archivo": "<directorio de los libros>/review_20261029_rem108_audit.py",
+   "existe": true,
+   "sha256": "e465ac1350529f554a9807d5079d2de778ef8ddec9ed6955184a64872ed023f2",
+   "lineas": 44,
+   "huellas_aceptadas_citadas": []
+  },
+  {
+   "grupo": "revisor",
+   "archivo": "<directorio de los libros>/review_20261029_rem108_probes.py",
+   "existe": true,
+   "sha256": "14c4ceee52d0aba1816ec890f958e0cd55a8fed282c1607b5485e97b1c35fe9c",
+   "lineas": 70,
+   "huellas_aceptadas_citadas": []
+  },
+  {
+   "grupo": "revisor",
+   "archivo": "<directorio de los libros>/review_20261029_rem108_science.py",
+   "existe": true,
+   "sha256": "83a3ad6b29207d7a9ccbffa78bbc9a801b029d0c3af051e603486a8a9772d5f3",
+   "lineas": 75,
+   "huellas_aceptadas_citadas": []
+  },
+  {
+   "grupo": "revisor",
+   "archivo": "<directorio de los libros>/review_20261029_rem108_details.py",
+   "existe": true,
+   "sha256": "856c6b2f9fc40db40c28a024fd7164c9012921b0f992102f134f3b5febc6922c",
+   "lineas": 21,
+   "huellas_aceptadas_citadas": []
+  },
+  {
+   "grupo": "revisor",
+   "archivo": "<directorio de los libros>/review_20261029_rem108_supplement.py",
+   "existe": true,
+   "sha256": "6e68988345831e7e8ad98f946fdac6e17f0f1d73824ba4cff78b4d5b8365404b",
+   "lineas": 25,
+   "huellas_aceptadas_citadas": []
+  },
+  {
+   "grupo": "revisor",
+   "archivo": "<directorio de los libros>/review_20261029_rem108_update.py",
+   "existe": true,
+   "sha256": "0bafbd13f74f73e058ad960b1abd8b81d7c3ebc09613067dcd8e8062fea31ef3",
+   "lineas": 92,
+   "huellas_aceptadas_citadas": []
+  },
+  {
+   "grupo": "revisor",
+   "archivo": "<directorio de los libros>/review_20261101_rem133_audit.py",
+   "existe": true,
+   "sha256": "042ca43256d8a5c6479720c458c186d8b6b837dadccb8cd498c60cebd6694dc4",
+   "lineas": 165,
+   "huellas_aceptadas_citadas": []
+  },
+  {
+   "grupo": "revisor",
+   "archivo": "<directorio de los libros>/review_20261101_rem133_update.py",
+   "existe": true,
+   "sha256": "e71fbd93c772538483b929889afa11684750e9320b9f2305c15db49cabe033e2",
+   "lineas": 128,
+   "huellas_aceptadas_citadas": []
+  },
+  {
+   "grupo": "revisor",
+   "archivo": "<directorio de los libros>/review_20261101_rem134_audit.py",
+   "existe": true,
+   "sha256": "1c378cb15ad9b7358f216e6ea6826f06dde6c20a790841e20c8662e25146fa8b",
+   "lineas": 233,
+   "huellas_aceptadas_citadas": []
+  },
+  {
+   "grupo": "revisor",
+   "archivo": "<directorio de los libros>/review_20261101_rem134_audit_i1.py",
+   "existe": true,
+   "sha256": "169d8920163df174935a6f66b8cd562d082e5ae30b1bf53ea149b88c4195d3e6",
+   "lineas": 229,
+   "huellas_aceptadas_citadas": []
+  },
+  {
+   "grupo": "revisor",
+   "archivo": "<directorio de los libros>/review_20261101_rem134_update.py",
+   "existe": true,
+   "sha256": "213d84cfdd65ff0ba89bee54c7a15ea4c8fba6f5afcbb64d23d0d8ab8692c455",
+   "lineas": 107,
+   "huellas_aceptadas_citadas": []
+  }
+ ],
+ "bytes_copiados": 57785377
+}

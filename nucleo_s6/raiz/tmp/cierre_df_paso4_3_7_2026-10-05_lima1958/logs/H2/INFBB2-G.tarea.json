@@ -1,0 +1,26 @@
+{
+ "cpu_usuario_s": 1393.6875,
+ "cpu_nucleo_s": 2.65625,
+ "procesos_totales": 6,
+ "procesos_activos": 0,
+ "memoria_pico_job_mb": 200.3,
+ "memoria_pico_proceso_mb": 193.3,
+ "id": "INFBB2-G",
+ "comando": [
+  "bash",
+  "tmp/cierre_df_paso4_3_7_2026-10-05_lima1958/../pilotos_b36_b37_2026-10-02/entorno/py_integracion.sh",
+  "-m",
+  "codigo.inf_df_bb_v2",
+  "G",
+  "demo/hito2/infbb2_G_df.json",
+  "1500"
+ ],
+ "cwd": "tmp/cierre_df_paso4_3_7_2026-10-05_lima1958",
+ "limite_duro_s": 1800.0,
+ "inicio_utc": "2026-10-06T01:30:39Z",
+ "pared_s": 1501.0,
+ "codigo_salida": 0,
+ "estado": "TERMINO",
+ "cpu_total_s": 1396.3,
+ "cpu_por_pared": 0.93
+}

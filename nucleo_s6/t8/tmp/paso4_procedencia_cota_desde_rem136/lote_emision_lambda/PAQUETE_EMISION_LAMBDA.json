@@ -1,0 +1,87 @@
+{
+ "deriva_de": {
+  "cambiadas": {
+   "materializar_lambda.py": "6f73b50ef8bb74ff324585ddde286c02468ecb5ba63b1f47607111c61642bba3",
+   "validar_emision_lambda.py": "66215f110bebf081f2c4dd180a60964372511f3a9b1126c1bf3c9c7f23f64106",
+   "verificar_producto_lambda.py": "a2ec7cf1bbcda05efb4ca5b88c9578f00cdaf47e98792d268e09004d3074b81f"
+  },
+  "indice": "7daea8cf70c15bbaf349e4e894603911b951b646dcf16130c11a5f76a6fc27b2",
+  "inventario": "313719680b730727b64d3260359030486c2b8449b68632b32805d4b19051bdd3",
+  "sin_cambio": [
+   "emitir_alcance_emision.py",
+   "admision_integracion.py",
+   "receta_emision_lambda.sh"
+  ]
+ },
+ "habilitado": false,
+ "kind": "paquete-emision-lambda-rem136",
+ "manifiesto_emision_sha256": "e6207fa8ec6a9402c2b86d67ea0d91a7b2eff9c010e2f34139e00a3f44875474",
+ "manifiestos_ensayo": {
+  "MANIFIESTO_EMISION_LAMBDA-ENSAYO-FALLA-TRABAJO.json": {
+   "ruta": "tmp/paso4_emision_lambda_captura_desde_rem135/pruebas/fixtures/MANIFIESTO_EMISION_LAMBDA-ENSAYO-FALLA-TRABAJO.json",
+   "sha256": "82d6ca02a1eb6a815d31937c56bcb58a45d765c52fc1a49be139a9086370b5a9"
+  },
+  "MANIFIESTO_EMISION_LAMBDA-ENSAYO-FALLA-VALIDACION.json": {
+   "ruta": "tmp/paso4_emision_lambda_captura_desde_rem135/pruebas/fixtures/MANIFIESTO_EMISION_LAMBDA-ENSAYO-FALLA-VALIDACION.json",
+   "sha256": "02114ae4a729c6170e733daf97d6e908a569fecaea074fb202720b92d1d8f868"
+  },
+  "MANIFIESTO_EMISION_LAMBDA-ENSAYO.json": {
+   "ruta": "tmp/paso4_emision_lambda_captura_desde_rem135/pruebas/fixtures/MANIFIESTO_EMISION_LAMBDA-ENSAYO.json",
+   "sha256": "cd134a6b2b2acca4d215489df249e21a4e1bf20859ffcf6cca5842396d677ccf"
+  }
+ },
+ "origenes": {
+  "admision_integracion.py": "bytes sin cambios de tmp/paso4_correcciones_integracion_enf_desde_rem130/lote_integracion_enf/admision_integracion.py (inventario 5a55397a…)",
+  "emitir_alcance_emision.py": "bytes sin cambios de rem135 (derivado de emitir_alcance_integracion.py)",
+  "materializar_lambda.py": "rem135 6f73b50e… + kind por VE.KIND_PRODUCTO",
+  "receta_emision_lambda.sh": "bytes sin cambios de rem135 (derivada de receta_integracion.sh, rem129/rem130)",
+  "validar_emision_lambda.py": "rem135 66215f11… + procedencia (puerta→contexto, contexto_autentico, cotejar_procedencia, verificar)",
+  "verificar_producto_lambda.py": "rem135 a2ec7cf1… + pasa el contexto de su puerta a verificar"
+ },
+ "piezas": {
+  "admision_integracion.py": {
+   "sha256": "7304ac8be5e2d2c33fd16ccf79611285aba2baf4ebd089ba73f33679363603c9"
+  },
+  "emitir_alcance_emision.py": {
+   "sha256": "3db9ae4ab20b94e419102918700442b7c67f4a4f64365760ba6c0791bdf17aa6"
+  },
+  "materializar_lambda.py": {
+   "sha256": "6beb73b45fa49d7acbd35ddfd857dd9c80fa65999e53065d3ed1af623b43d5e9"
+  },
+  "receta_emision_lambda.sh": {
+   "sha256": "55cc9c749c8ce0409004bc7481bd76aaa5e202a0449f0bfe52057258103d8363"
+  },
+  "validar_emision_lambda.py": {
+   "sha256": "4fd9d680247c6d9d464698e78c545580f357623a3c0ee88ada69f875682cffdb"
+  },
+  "verificar_producto_lambda.py": {
+   "sha256": "ef459e8d5fe0c8697a10aa5879ef3e0a3e4d129d6638cf4a396de8ce6ab27ef5"
+  }
+ },
+ "procedencia": {
+  "compartidos": [
+   "modo",
+   "manifiesto_emision_sha256",
+   "indice_sha256",
+   "alcance_sha256",
+   "decision"
+  ],
+  "derivados_del_modo": [
+   "kind",
+   "productivo"
+  ],
+  "duplicados_del_resumen": [
+   "modo",
+   "manifiesto_emision_sha256"
+  ],
+  "kind_por_modo": {
+   "candidata": "producto-t8-lambda-CANDIDATA",
+   "ensayo": "producto-t8-lambda-ENSAYO",
+   "produccion": "producto-t8-lambda-PRODUCCION"
+  },
+  "por_operacion": [
+   "tarea",
+   "entradas"
+  ]
+ }
+}

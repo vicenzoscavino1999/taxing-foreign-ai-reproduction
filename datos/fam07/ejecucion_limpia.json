@@ -1,0 +1,22 @@
+{
+ "codigo_trabajador": {
+  "conexion_coord_cert.py": "e5776de970b72535ec7b72340604abfd9e8448479ea78dac4b714d870d273d61",
+  "tarea_lote.py": "ffd44b60534922410fbbb99c7c68064ffc84b7e7b467d9b30510cbd06e852ed4"
+ },
+ "ensamblador": "fcb4046962a930aea76495a59bee861882336df4cd97686c8ad0c59607825793",
+ "etiqueta": "REPRODUCCION LIMPIA FAM07 NO OFICIAL",
+ "instalacion_identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+ "kind": "declaracion-ejecucion-limpia-fam07",
+ "manifiesto_sha256": "108bf2edc0261769e3f8a3d962c12610c9045b5898dfbfe70409607c278979e6",
+ "naturaleza": "PUERTA-v1: la puerta de producción del trabajador COORD (alcance v3 verificado y decisión humana nativa) no se ejecuta ni se reconstruye. El sha256 de este documento ocupa el campo alcance_sha256 que el trabajador escribe tras la puerta y que el validador exige a un resultado real para ligar cada techo con su resultado. No es un alcance ni una decisión; no autoriza producción oficial ni sustituye al alcance histórico (0555825f…, que solo se usa para cruzar huellas).",
+ "oficial": false,
+ "tareas": [
+  "L1-COORD-R1",
+  "L1-COORD-R2",
+  "L1-COORD-R3"
+ ],
+ "validador": {
+  "validar_coord_rec.py": "cc83b778cfc4d7f56417084cb9222a4c40d8c097138eaf519aedf94ee37fa0a8",
+  "validar_lote.py": "070ae81d15119735369b08bf083e9ff3b7652ca99a2956547b9f290db4022ee4"
+ }
+}

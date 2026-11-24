@@ -1,0 +1,2413 @@
+[
+  {
+    "context": {
+      "accounting_basis": "SNA2008_reference2018",
+      "country_id": "CHL",
+      "family": "D6",
+      "multiplier": "1000000000",
+      "observation_year": 2023,
+      "representation": "d6_net",
+      "source_id": "CHL_COU",
+      "source_vintage": "Anuario2025_snapshot_pinned",
+      "unit": "CLP"
+    },
+    "id": "CHL_D6_2023",
+    "members": [
+      {
+        "concept": "N_PROD",
+        "multiplier": "1000000000",
+        "selector": "23!P29:1",
+        "unit": "CLP",
+        "value_literal": "4159.657348873267"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000000",
+        "selector": "23!P16:1;2!F29:1;2!G29:1;2!J29:1",
+        "unit": "CLP",
+        "value_literal": "282096.646057020488"
+      },
+      {
+        "concept": "P_NET",
+        "multiplier": "1000000000",
+        "selector": "2!F29:1;2!G29:1;2!J29:1",
+        "unit": "CLP",
+        "value_literal": "28617.481926113588"
+      },
+      {
+        "concept": "V",
+        "multiplier": "1000000000",
+        "selector": "2!J29:1",
+        "unit": "CLP",
+        "value_literal": "24331.99890063512"
+      }
+    ],
+    "source": {
+      "bytes": 73484,
+      "id": "CHL_COU",
+      "obtained_at": "2026-09-19T19:49:21.190041+00:00",
+      "official_url": null,
+      "origin": "tmp\\cierre_integrado_planes_2026-09-11\\fuentes_publicas\\CHL_COU_2023.xlsx",
+      "path": "snapshots/CHL_COU.xlsx",
+      "sha256": "4fa4dc3da102ec26a07d2215d0f4fabea2be1a348077f6c5aee2b805d69ed058",
+      "status": "authenticated_local_snapshot",
+      "vintage": "Anuario2025_snapshot_pinned"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_reference2018",
+      "country_id": "CHL",
+      "family": "D2",
+      "multiplier": "1000000000",
+      "observation_year": 2015,
+      "representation": "d2_combined",
+      "source_id": "CHL_CEI",
+      "source_vintage": "Anuario2025_snapshot_pinned",
+      "unit": "CLP"
+    },
+    "id": "CHL_D2_2015",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000000",
+        "selector": "2015!D22:1",
+        "unit": "CLP",
+        "value_literal": "61040.08487992869"
+      },
+      {
+        "concept": "GOS_MI",
+        "multiplier": "1000000000",
+        "selector": "2015!D24:1",
+        "unit": "CLP",
+        "value_literal": "79892.93302642475"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000000",
+        "selector": "2015!D22:1;2015!D24:1;2015!D30:1",
+        "unit": "CLP",
+        "value_literal": "158622.902851353438"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000000",
+        "selector": "2015!D30:1",
+        "unit": "CLP",
+        "value_literal": "17689.884944999998"
+      }
+    ],
+    "source": {
+      "bytes": 416256,
+      "id": "CHL_CEI",
+      "obtained_at": "2026-09-19T19:49:21.206863+00:00",
+      "official_url": null,
+      "origin": "fase2_datos\\d6_tax_shares\\inputs\\.rejected\\D6I-e66b2138bc67d8b35a276bc8\\84f025caad43d5df78e5197bf038bb8e790aa3e4e0beb4972503771f11da0460\\payload.xls",
+      "path": "snapshots/CHL_CEI.xls",
+      "sha256": "84f025caad43d5df78e5197bf038bb8e790aa3e4e0beb4972503771f11da0460",
+      "status": "authenticated_local_snapshot",
+      "vintage": "Anuario2025_snapshot_pinned"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_reference2018",
+      "country_id": "CHL",
+      "family": "D2",
+      "multiplier": "1000000000",
+      "observation_year": 2016,
+      "representation": "d2_combined",
+      "source_id": "CHL_CEI",
+      "source_vintage": "Anuario2025_snapshot_pinned",
+      "unit": "CLP"
+    },
+    "id": "CHL_D2_2016",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000000",
+        "selector": "2016!D22:1",
+        "unit": "CLP",
+        "value_literal": "65611.41998774782"
+      },
+      {
+        "concept": "GOS_MI",
+        "multiplier": "1000000000",
+        "selector": "2016!D24:1",
+        "unit": "CLP",
+        "value_literal": "84252.27630829466"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000000",
+        "selector": "2016!D22:1;2016!D24:1;2016!D30:1",
+        "unit": "CLP",
+        "value_literal": "168764.68791604248"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000000",
+        "selector": "2016!D30:1",
+        "unit": "CLP",
+        "value_literal": "18900.99162"
+      }
+    ],
+    "source": {
+      "bytes": 416256,
+      "id": "CHL_CEI",
+      "obtained_at": "2026-09-19T19:49:21.206863+00:00",
+      "official_url": null,
+      "origin": "fase2_datos\\d6_tax_shares\\inputs\\.rejected\\D6I-e66b2138bc67d8b35a276bc8\\84f025caad43d5df78e5197bf038bb8e790aa3e4e0beb4972503771f11da0460\\payload.xls",
+      "path": "snapshots/CHL_CEI.xls",
+      "sha256": "84f025caad43d5df78e5197bf038bb8e790aa3e4e0beb4972503771f11da0460",
+      "status": "authenticated_local_snapshot",
+      "vintage": "Anuario2025_snapshot_pinned"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_reference2018",
+      "country_id": "CHL",
+      "family": "D2",
+      "multiplier": "1000000000",
+      "observation_year": 2017,
+      "representation": "d2_combined",
+      "source_id": "CHL_CEI",
+      "source_vintage": "Anuario2025_snapshot_pinned",
+      "unit": "CLP"
+    },
+    "id": "CHL_D2_2017",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000000",
+        "selector": "2017!D22:1",
+        "unit": "CLP",
+        "value_literal": "69465.03743566535"
+      },
+      {
+        "concept": "GOS_MI",
+        "multiplier": "1000000000",
+        "selector": "2017!D24:1",
+        "unit": "CLP",
+        "value_literal": "89705.51381555092"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000000",
+        "selector": "2017!D22:1;2017!D24:1;2017!D30:1",
+        "unit": "CLP",
+        "value_literal": "179314.91010621627"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000000",
+        "selector": "2017!D30:1",
+        "unit": "CLP",
+        "value_literal": "20144.358855"
+      }
+    ],
+    "source": {
+      "bytes": 416256,
+      "id": "CHL_CEI",
+      "obtained_at": "2026-09-19T19:49:21.206863+00:00",
+      "official_url": null,
+      "origin": "fase2_datos\\d6_tax_shares\\inputs\\.rejected\\D6I-e66b2138bc67d8b35a276bc8\\84f025caad43d5df78e5197bf038bb8e790aa3e4e0beb4972503771f11da0460\\payload.xls",
+      "path": "snapshots/CHL_CEI.xls",
+      "sha256": "84f025caad43d5df78e5197bf038bb8e790aa3e4e0beb4972503771f11da0460",
+      "status": "authenticated_local_snapshot",
+      "vintage": "Anuario2025_snapshot_pinned"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_reference2018",
+      "country_id": "CHL",
+      "family": "D2",
+      "multiplier": "1000000000",
+      "observation_year": 2018,
+      "representation": "d2_combined",
+      "source_id": "CHL_CEI",
+      "source_vintage": "Anuario2025_snapshot_pinned",
+      "unit": "CLP"
+    },
+    "id": "CHL_D2_2018",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000000",
+        "selector": "2018!D22:1",
+        "unit": "CLP",
+        "value_literal": "75518.6765996723"
+      },
+      {
+        "concept": "GOS_MI",
+        "multiplier": "1000000000",
+        "selector": "2018!D24:1",
+        "unit": "CLP",
+        "value_literal": "92085.10717912574"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000000",
+        "selector": "2018!D22:1;2018!D24:1;2018!D30:1",
+        "unit": "CLP",
+        "value_literal": "189434.86741079804"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000000",
+        "selector": "2018!D30:1",
+        "unit": "CLP",
+        "value_literal": "21831.083632"
+      }
+    ],
+    "source": {
+      "bytes": 416256,
+      "id": "CHL_CEI",
+      "obtained_at": "2026-09-19T19:49:21.206863+00:00",
+      "official_url": null,
+      "origin": "fase2_datos\\d6_tax_shares\\inputs\\.rejected\\D6I-e66b2138bc67d8b35a276bc8\\84f025caad43d5df78e5197bf038bb8e790aa3e4e0beb4972503771f11da0460\\payload.xls",
+      "path": "snapshots/CHL_CEI.xls",
+      "sha256": "84f025caad43d5df78e5197bf038bb8e790aa3e4e0beb4972503771f11da0460",
+      "status": "authenticated_local_snapshot",
+      "vintage": "Anuario2025_snapshot_pinned"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_reference2018",
+      "country_id": "CHL",
+      "family": "D2",
+      "multiplier": "1000000000",
+      "observation_year": 2019,
+      "representation": "d2_combined",
+      "source_id": "CHL_CEI",
+      "source_vintage": "Anuario2025_snapshot_pinned",
+      "unit": "CLP"
+    },
+    "id": "CHL_D2_2019",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000000",
+        "selector": "2019!D22:1",
+        "unit": "CLP",
+        "value_literal": "79941.86268183046"
+      },
+      {
+        "concept": "GOS_MI",
+        "multiplier": "1000000000",
+        "selector": "2019!D24:1",
+        "unit": "CLP",
+        "value_literal": "93364.01150708829"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000000",
+        "selector": "2019!D22:1;2019!D24:1;2019!D30:1",
+        "unit": "CLP",
+        "value_literal": "195548.14984291875"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000000",
+        "selector": "2019!D30:1",
+        "unit": "CLP",
+        "value_literal": "22242.275654"
+      }
+    ],
+    "source": {
+      "bytes": 416256,
+      "id": "CHL_CEI",
+      "obtained_at": "2026-09-19T19:49:21.206863+00:00",
+      "official_url": null,
+      "origin": "fase2_datos\\d6_tax_shares\\inputs\\.rejected\\D6I-e66b2138bc67d8b35a276bc8\\84f025caad43d5df78e5197bf038bb8e790aa3e4e0beb4972503771f11da0460\\payload.xls",
+      "path": "snapshots/CHL_CEI.xls",
+      "sha256": "84f025caad43d5df78e5197bf038bb8e790aa3e4e0beb4972503771f11da0460",
+      "status": "authenticated_local_snapshot",
+      "vintage": "Anuario2025_snapshot_pinned"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_reference2018",
+      "country_id": "CHL",
+      "family": "D2",
+      "multiplier": "1000000000",
+      "observation_year": 2020,
+      "representation": "d2_combined",
+      "source_id": "CHL_CEI",
+      "source_vintage": "Anuario2025_snapshot_pinned",
+      "unit": "CLP"
+    },
+    "id": "CHL_D2_2020",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000000",
+        "selector": "2020!D22:1",
+        "unit": "CLP",
+        "value_literal": "78385.41098573655"
+      },
+      {
+        "concept": "GOS_MI",
+        "multiplier": "1000000000",
+        "selector": "2020!D24:1",
+        "unit": "CLP",
+        "value_literal": "100622.26072119526"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000000",
+        "selector": "2020!D22:1;2020!D24:1;2020!D30:1",
+        "unit": "CLP",
+        "value_literal": "201306.50729093181"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000000",
+        "selector": "2020!D30:1",
+        "unit": "CLP",
+        "value_literal": "22298.835584"
+      }
+    ],
+    "source": {
+      "bytes": 416256,
+      "id": "CHL_CEI",
+      "obtained_at": "2026-09-19T19:49:21.206863+00:00",
+      "official_url": null,
+      "origin": "fase2_datos\\d6_tax_shares\\inputs\\.rejected\\D6I-e66b2138bc67d8b35a276bc8\\84f025caad43d5df78e5197bf038bb8e790aa3e4e0beb4972503771f11da0460\\payload.xls",
+      "path": "snapshots/CHL_CEI.xls",
+      "sha256": "84f025caad43d5df78e5197bf038bb8e790aa3e4e0beb4972503771f11da0460",
+      "status": "authenticated_local_snapshot",
+      "vintage": "Anuario2025_snapshot_pinned"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_reference2018",
+      "country_id": "CHL",
+      "family": "D2",
+      "multiplier": "1000000000",
+      "observation_year": 2021,
+      "representation": "d2_combined",
+      "source_id": "CHL_CEI",
+      "source_vintage": "Anuario2025_snapshot_pinned",
+      "unit": "CLP"
+    },
+    "id": "CHL_D2_2021",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000000",
+        "selector": "2021!D22:1",
+        "unit": "CLP",
+        "value_literal": "89108.67488923919"
+      },
+      {
+        "concept": "GOS_MI",
+        "multiplier": "1000000000",
+        "selector": "2021!D24:1",
+        "unit": "CLP",
+        "value_literal": "121620.9521629524"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000000",
+        "selector": "2021!D22:1;2021!D24:1;2021!D30:1",
+        "unit": "CLP",
+        "value_literal": "239556.27084619159"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000000",
+        "selector": "2021!D30:1",
+        "unit": "CLP",
+        "value_literal": "28826.643794"
+      }
+    ],
+    "source": {
+      "bytes": 416256,
+      "id": "CHL_CEI",
+      "obtained_at": "2026-09-19T19:49:21.206863+00:00",
+      "official_url": null,
+      "origin": "fase2_datos\\d6_tax_shares\\inputs\\.rejected\\D6I-e66b2138bc67d8b35a276bc8\\84f025caad43d5df78e5197bf038bb8e790aa3e4e0beb4972503771f11da0460\\payload.xls",
+      "path": "snapshots/CHL_CEI.xls",
+      "sha256": "84f025caad43d5df78e5197bf038bb8e790aa3e4e0beb4972503771f11da0460",
+      "status": "authenticated_local_snapshot",
+      "vintage": "Anuario2025_snapshot_pinned"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_reference2018",
+      "country_id": "CHL",
+      "family": "D2",
+      "multiplier": "1000000000",
+      "observation_year": 2022,
+      "representation": "d2_combined",
+      "source_id": "CHL_CEI",
+      "source_vintage": "Anuario2025_snapshot_pinned",
+      "unit": "CLP"
+    },
+    "id": "CHL_D2_2022",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000000",
+        "selector": "2022!D22:1",
+        "unit": "CLP",
+        "value_literal": "102890.97231561369"
+      },
+      {
+        "concept": "GOS_MI",
+        "multiplier": "1000000000",
+        "selector": "2022!D24:1",
+        "unit": "CLP",
+        "value_literal": "129095.87361128526"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000000",
+        "selector": "2022!D22:1;2022!D24:1;2022!D30:1",
+        "unit": "CLP",
+        "value_literal": "262954.24247489895"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000000",
+        "selector": "2022!D30:1",
+        "unit": "CLP",
+        "value_literal": "30967.396548"
+      }
+    ],
+    "source": {
+      "bytes": 416256,
+      "id": "CHL_CEI",
+      "obtained_at": "2026-09-19T19:49:21.206863+00:00",
+      "official_url": null,
+      "origin": "fase2_datos\\d6_tax_shares\\inputs\\.rejected\\D6I-e66b2138bc67d8b35a276bc8\\84f025caad43d5df78e5197bf038bb8e790aa3e4e0beb4972503771f11da0460\\payload.xls",
+      "path": "snapshots/CHL_CEI.xls",
+      "sha256": "84f025caad43d5df78e5197bf038bb8e790aa3e4e0beb4972503771f11da0460",
+      "status": "authenticated_local_snapshot",
+      "vintage": "Anuario2025_snapshot_pinned"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_reference2018",
+      "country_id": "CHL",
+      "family": "D2",
+      "multiplier": "1000000000",
+      "observation_year": 2023,
+      "representation": "d2_combined",
+      "source_id": "CHL_CEI",
+      "source_vintage": "Anuario2025_snapshot_pinned",
+      "unit": "CLP"
+    },
+    "id": "CHL_D2_2023",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000000",
+        "selector": "2023!D22:1",
+        "unit": "CLP",
+        "value_literal": "114601.56497739482"
+      },
+      {
+        "concept": "GOS_MI",
+        "multiplier": "1000000000",
+        "selector": "2023!D24:1",
+        "unit": "CLP",
+        "value_literal": "134717.94180463796"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000000",
+        "selector": "2023!D22:1;2023!D24:1;2023!D30:1",
+        "unit": "CLP",
+        "value_literal": "282096.64605703278"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000000",
+        "selector": "2023!D30:1",
+        "unit": "CLP",
+        "value_literal": "32777.139275"
+      }
+    ],
+    "source": {
+      "bytes": 416256,
+      "id": "CHL_CEI",
+      "obtained_at": "2026-09-19T19:49:21.206863+00:00",
+      "official_url": null,
+      "origin": "fase2_datos\\d6_tax_shares\\inputs\\.rejected\\D6I-e66b2138bc67d8b35a276bc8\\84f025caad43d5df78e5197bf038bb8e790aa3e4e0beb4972503771f11da0460\\payload.xls",
+      "path": "snapshots/CHL_CEI.xls",
+      "sha256": "84f025caad43d5df78e5197bf038bb8e790aa3e4e0beb4972503771f11da0460",
+      "status": "authenticated_local_snapshot",
+      "vintage": "Anuario2025_snapshot_pinned"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2015",
+      "country_id": "COL",
+      "family": "D6",
+      "multiplier": "1000000000",
+      "observation_year": 2023,
+      "representation": "d6_gross",
+      "source_id": "COL_2023",
+      "source_vintage": "CEI_base2015_2025-02-17",
+      "unit": "COP"
+    },
+    "id": "COL_D6_2023",
+    "members": [
+      {
+        "concept": "D21",
+        "multiplier": "1000000000",
+        "selector": "2023!Q63:1",
+        "unit": "COP",
+        "value_literal": "154642"
+      },
+      {
+        "concept": "D211",
+        "multiplier": "1000000000",
+        "selector": "2023!Q64:1",
+        "unit": "COP",
+        "value_literal": "102414"
+      },
+      {
+        "concept": "D29",
+        "multiplier": "1000000000",
+        "selector": "2023!Q68:1",
+        "unit": "COP",
+        "value_literal": "46954"
+      },
+      {
+        "concept": "D31",
+        "multiplier": "1000000000",
+        "selector": "2023!Q70:1",
+        "unit": "COP",
+        "value_literal": "0"
+      },
+      {
+        "concept": "D39",
+        "multiplier": "1000000000",
+        "selector": "2023!Q71:1",
+        "unit": "COP",
+        "value_literal": "-238"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000000",
+        "selector": "2023!A29:1",
+        "unit": "COP",
+        "value_literal": "1584562"
+      }
+    ],
+    "source": {
+      "bytes": 318826,
+      "id": "COL_2023",
+      "obtained_at": "2026-09-19T19:49:21.190041+00:00",
+      "official_url": null,
+      "origin": "fase2_datos\\d6_tax_shares\\inputs\\.staging\\D6I-20452681ec02310be8dae09f\\payload.xlsx",
+      "path": "snapshots/COL_2023.xlsx",
+      "sha256": "fa799bfe8e087ba1921a7c9623490748d0b24985fdf14acb0e53e155c125da5c",
+      "status": "authenticated_local_snapshot",
+      "vintage": "CEI_base2015_2025-02-17"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2015",
+      "country_id": "COL",
+      "family": "D2",
+      "multiplier": "1000000000",
+      "observation_year": 2015,
+      "representation": "d2_split",
+      "source_id": "COL_2023",
+      "source_vintage": "CEI_base2015_2025-02-17",
+      "unit": "COP"
+    },
+    "id": "COL_D2_2015",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000000",
+        "selector": "2015!A36:1",
+        "unit": "COP",
+        "value_literal": "274307"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000000",
+        "selector": "2015!A47:1",
+        "unit": "COP",
+        "value_literal": "281736"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000000",
+        "selector": "2015!A48:1",
+        "unit": "COP",
+        "value_literal": "153016"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000000",
+        "selector": "2015!A29:1",
+        "unit": "COP",
+        "value_literal": "804692"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000000",
+        "selector": "2015!Q63:1;2015!Q68:1;2015!Q70:1;2015!Q71:1",
+        "unit": "COP",
+        "value_literal": "95633"
+      }
+    ],
+    "source": {
+      "bytes": 318826,
+      "id": "COL_2023",
+      "obtained_at": "2026-09-19T19:49:21.190041+00:00",
+      "official_url": null,
+      "origin": "fase2_datos\\d6_tax_shares\\inputs\\.staging\\D6I-20452681ec02310be8dae09f\\payload.xlsx",
+      "path": "snapshots/COL_2023.xlsx",
+      "sha256": "fa799bfe8e087ba1921a7c9623490748d0b24985fdf14acb0e53e155c125da5c",
+      "status": "authenticated_local_snapshot",
+      "vintage": "CEI_base2015_2025-02-17"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2015",
+      "country_id": "COL",
+      "family": "D2",
+      "multiplier": "1000000000",
+      "observation_year": 2016,
+      "representation": "d2_split",
+      "source_id": "COL_2023",
+      "source_vintage": "CEI_base2015_2025-02-17",
+      "unit": "COP"
+    },
+    "id": "COL_D2_2016",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000000",
+        "selector": "2016!A36:1",
+        "unit": "COP",
+        "value_literal": "291561"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000000",
+        "selector": "2016!A47:1",
+        "unit": "COP",
+        "value_literal": "297680"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000000",
+        "selector": "2016!A48:1",
+        "unit": "COP",
+        "value_literal": "175773"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000000",
+        "selector": "2016!A29:1",
+        "unit": "COP",
+        "value_literal": "863782"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000000",
+        "selector": "2016!Q63:1;2016!Q68:1;2016!Q70:1;2016!Q71:1",
+        "unit": "COP",
+        "value_literal": "98768"
+      }
+    ],
+    "source": {
+      "bytes": 318826,
+      "id": "COL_2023",
+      "obtained_at": "2026-09-19T19:49:21.190041+00:00",
+      "official_url": null,
+      "origin": "fase2_datos\\d6_tax_shares\\inputs\\.staging\\D6I-20452681ec02310be8dae09f\\payload.xlsx",
+      "path": "snapshots/COL_2023.xlsx",
+      "sha256": "fa799bfe8e087ba1921a7c9623490748d0b24985fdf14acb0e53e155c125da5c",
+      "status": "authenticated_local_snapshot",
+      "vintage": "CEI_base2015_2025-02-17"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2015",
+      "country_id": "COL",
+      "family": "D2",
+      "multiplier": "1000000000",
+      "observation_year": 2017,
+      "representation": "d2_split",
+      "source_id": "COL_2023",
+      "source_vintage": "CEI_base2015_2025-02-17",
+      "unit": "COP"
+    },
+    "id": "COL_D2_2017",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000000",
+        "selector": "2017!A36:1",
+        "unit": "COP",
+        "value_literal": "312418"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000000",
+        "selector": "2017!A47:1",
+        "unit": "COP",
+        "value_literal": "316056"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000000",
+        "selector": "2017!A48:1",
+        "unit": "COP",
+        "value_literal": "182819"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000000",
+        "selector": "2017!A29:1",
+        "unit": "COP",
+        "value_literal": "920471"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000000",
+        "selector": "2017!Q63:1;2017!Q68:1;2017!Q70:1;2017!Q71:1",
+        "unit": "COP",
+        "value_literal": "109178"
+      }
+    ],
+    "source": {
+      "bytes": 318826,
+      "id": "COL_2023",
+      "obtained_at": "2026-09-19T19:49:21.190041+00:00",
+      "official_url": null,
+      "origin": "fase2_datos\\d6_tax_shares\\inputs\\.staging\\D6I-20452681ec02310be8dae09f\\payload.xlsx",
+      "path": "snapshots/COL_2023.xlsx",
+      "sha256": "fa799bfe8e087ba1921a7c9623490748d0b24985fdf14acb0e53e155c125da5c",
+      "status": "authenticated_local_snapshot",
+      "vintage": "CEI_base2015_2025-02-17"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2015",
+      "country_id": "COL",
+      "family": "D2",
+      "multiplier": "1000000000",
+      "observation_year": 2018,
+      "representation": "d2_split",
+      "source_id": "COL_2023",
+      "source_vintage": "CEI_base2015_2025-02-17",
+      "unit": "COP"
+    },
+    "id": "COL_D2_2018",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000000",
+        "selector": "2018!A36:1",
+        "unit": "COP",
+        "value_literal": "336117"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000000",
+        "selector": "2018!A47:1",
+        "unit": "COP",
+        "value_literal": "341738"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000000",
+        "selector": "2018!A48:1",
+        "unit": "COP",
+        "value_literal": "191843"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000000",
+        "selector": "2018!A29:1",
+        "unit": "COP",
+        "value_literal": "987791"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000000",
+        "selector": "2018!Q63:1;2018!Q68:1;2018!Q70:1;2018!Q71:1",
+        "unit": "COP",
+        "value_literal": "118093"
+      }
+    ],
+    "source": {
+      "bytes": 318826,
+      "id": "COL_2023",
+      "obtained_at": "2026-09-19T19:49:21.190041+00:00",
+      "official_url": null,
+      "origin": "fase2_datos\\d6_tax_shares\\inputs\\.staging\\D6I-20452681ec02310be8dae09f\\payload.xlsx",
+      "path": "snapshots/COL_2023.xlsx",
+      "sha256": "fa799bfe8e087ba1921a7c9623490748d0b24985fdf14acb0e53e155c125da5c",
+      "status": "authenticated_local_snapshot",
+      "vintage": "CEI_base2015_2025-02-17"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2015",
+      "country_id": "COL",
+      "family": "D2",
+      "multiplier": "1000000000",
+      "observation_year": 2019,
+      "representation": "d2_split",
+      "source_id": "COL_2023",
+      "source_vintage": "CEI_base2015_2025-02-17",
+      "unit": "COP"
+    },
+    "id": "COL_D2_2019",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000000",
+        "selector": "2019!A36:1",
+        "unit": "COP",
+        "value_literal": "365056"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000000",
+        "selector": "2019!A47:1",
+        "unit": "COP",
+        "value_literal": "362050"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000000",
+        "selector": "2019!A48:1",
+        "unit": "COP",
+        "value_literal": "203297"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000000",
+        "selector": "2019!A29:1",
+        "unit": "COP",
+        "value_literal": "1060068"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000000",
+        "selector": "2019!Q63:1;2019!Q68:1;2019!Q70:1;2019!Q71:1",
+        "unit": "COP",
+        "value_literal": "129665"
+      }
+    ],
+    "source": {
+      "bytes": 318826,
+      "id": "COL_2023",
+      "obtained_at": "2026-09-19T19:49:21.190041+00:00",
+      "official_url": null,
+      "origin": "fase2_datos\\d6_tax_shares\\inputs\\.staging\\D6I-20452681ec02310be8dae09f\\payload.xlsx",
+      "path": "snapshots/COL_2023.xlsx",
+      "sha256": "fa799bfe8e087ba1921a7c9623490748d0b24985fdf14acb0e53e155c125da5c",
+      "status": "authenticated_local_snapshot",
+      "vintage": "CEI_base2015_2025-02-17"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2015",
+      "country_id": "COL",
+      "family": "D2",
+      "multiplier": "1000000000",
+      "observation_year": 2020,
+      "representation": "d2_split",
+      "source_id": "COL_2023",
+      "source_vintage": "CEI_base2015_2025-02-17",
+      "unit": "COP"
+    },
+    "id": "COL_D2_2020",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000000",
+        "selector": "2020!A36:1",
+        "unit": "COP",
+        "value_literal": "372488"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000000",
+        "selector": "2020!A47:1",
+        "unit": "COP",
+        "value_literal": "319473"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000000",
+        "selector": "2020!A48:1",
+        "unit": "COP",
+        "value_literal": "193901"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000000",
+        "selector": "2020!A29:1",
+        "unit": "COP",
+        "value_literal": "998471"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000000",
+        "selector": "2020!Q63:1;2020!Q68:1;2020!Q70:1;2020!Q71:1",
+        "unit": "COP",
+        "value_literal": "112609"
+      }
+    ],
+    "source": {
+      "bytes": 318826,
+      "id": "COL_2023",
+      "obtained_at": "2026-09-19T19:49:21.190041+00:00",
+      "official_url": null,
+      "origin": "fase2_datos\\d6_tax_shares\\inputs\\.staging\\D6I-20452681ec02310be8dae09f\\payload.xlsx",
+      "path": "snapshots/COL_2023.xlsx",
+      "sha256": "fa799bfe8e087ba1921a7c9623490748d0b24985fdf14acb0e53e155c125da5c",
+      "status": "authenticated_local_snapshot",
+      "vintage": "CEI_base2015_2025-02-17"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2015",
+      "country_id": "COL",
+      "family": "D2",
+      "multiplier": "1000000000",
+      "observation_year": 2021,
+      "representation": "d2_split",
+      "source_id": "COL_2023",
+      "source_vintage": "CEI_base2015_2025-02-17",
+      "unit": "COP"
+    },
+    "id": "COL_D2_2021",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000000",
+        "selector": "2021!A36:1",
+        "unit": "COP",
+        "value_literal": "405888"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000000",
+        "selector": "2021!A47:1",
+        "unit": "COP",
+        "value_literal": "405230"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000000",
+        "selector": "2021!A48:1",
+        "unit": "COP",
+        "value_literal": "237193"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000000",
+        "selector": "2021!A29:1",
+        "unit": "COP",
+        "value_literal": "1192634"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000000",
+        "selector": "2021!Q63:1;2021!Q68:1;2021!Q70:1;2021!Q71:1",
+        "unit": "COP",
+        "value_literal": "144323"
+      }
+    ],
+    "source": {
+      "bytes": 318826,
+      "id": "COL_2023",
+      "obtained_at": "2026-09-19T19:49:21.190041+00:00",
+      "official_url": null,
+      "origin": "fase2_datos\\d6_tax_shares\\inputs\\.staging\\D6I-20452681ec02310be8dae09f\\payload.xlsx",
+      "path": "snapshots/COL_2023.xlsx",
+      "sha256": "fa799bfe8e087ba1921a7c9623490748d0b24985fdf14acb0e53e155c125da5c",
+      "status": "authenticated_local_snapshot",
+      "vintage": "CEI_base2015_2025-02-17"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2015",
+      "country_id": "COL",
+      "family": "D2",
+      "multiplier": "1000000000",
+      "observation_year": 2022,
+      "representation": "d2_split",
+      "source_id": "COL_2023",
+      "source_vintage": "CEI_base2015_2025-02-17",
+      "unit": "COP"
+    },
+    "id": "COL_D2_2022",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000000",
+        "selector": "2022!A36:1",
+        "unit": "COP",
+        "value_literal": "459693"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000000",
+        "selector": "2022!A47:1",
+        "unit": "COP",
+        "value_literal": "508956"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000000",
+        "selector": "2022!A48:1",
+        "unit": "COP",
+        "value_literal": "314665"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000000",
+        "selector": "2022!A29:1",
+        "unit": "COP",
+        "value_literal": "1471079"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000000",
+        "selector": "2022!Q63:1;2022!Q68:1;2022!Q70:1;2022!Q71:1",
+        "unit": "COP",
+        "value_literal": "187765"
+      }
+    ],
+    "source": {
+      "bytes": 318826,
+      "id": "COL_2023",
+      "obtained_at": "2026-09-19T19:49:21.190041+00:00",
+      "official_url": null,
+      "origin": "fase2_datos\\d6_tax_shares\\inputs\\.staging\\D6I-20452681ec02310be8dae09f\\payload.xlsx",
+      "path": "snapshots/COL_2023.xlsx",
+      "sha256": "fa799bfe8e087ba1921a7c9623490748d0b24985fdf14acb0e53e155c125da5c",
+      "status": "authenticated_local_snapshot",
+      "vintage": "CEI_base2015_2025-02-17"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2015",
+      "country_id": "COL",
+      "family": "D2",
+      "multiplier": "1000000000",
+      "observation_year": 2023,
+      "representation": "d2_split",
+      "source_id": "COL_2023",
+      "source_vintage": "CEI_base2015_2025-02-17",
+      "unit": "COP"
+    },
+    "id": "COL_D2_2023",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000000",
+        "selector": "2023!A36:1",
+        "unit": "COP",
+        "value_literal": "524069"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000000",
+        "selector": "2023!A47:1",
+        "unit": "COP",
+        "value_literal": "525308"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000000",
+        "selector": "2023!A48:1",
+        "unit": "COP",
+        "value_literal": "333827"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000000",
+        "selector": "2023!A29:1",
+        "unit": "COP",
+        "value_literal": "1584562"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000000",
+        "selector": "2023!Q63:1;2023!Q68:1;2023!Q70:1;2023!Q71:1",
+        "unit": "COP",
+        "value_literal": "201358"
+      }
+    ],
+    "source": {
+      "bytes": 318826,
+      "id": "COL_2023",
+      "obtained_at": "2026-09-19T19:49:21.190041+00:00",
+      "official_url": null,
+      "origin": "fase2_datos\\d6_tax_shares\\inputs\\.staging\\D6I-20452681ec02310be8dae09f\\payload.xlsx",
+      "path": "snapshots/COL_2023.xlsx",
+      "sha256": "fa799bfe8e087ba1921a7c9623490748d0b24985fdf14acb0e53e155c125da5c",
+      "status": "authenticated_local_snapshot",
+      "vintage": "CEI_base2015_2025-02-17"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2018",
+      "country_id": "MEX",
+      "family": "D6",
+      "multiplier": "1000000",
+      "observation_year": 2023,
+      "representation": "d6_gross",
+      "source_id": "MEX_2023",
+      "source_vintage": "CSI_2003_2024_revisada_jun2026",
+      "unit": "MXN"
+    },
+    "id": "MEX_D6_2023",
+    "members": [
+      {
+        "concept": "D21",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R46:1",
+        "unit": "MXN",
+        "value_literal": "2002987.333"
+      },
+      {
+        "concept": "D211",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R47:1",
+        "unit": "MXN",
+        "value_literal": "1366582.569"
+      },
+      {
+        "concept": "D29",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R53:1",
+        "unit": "MXN",
+        "value_literal": "238902.655"
+      },
+      {
+        "concept": "D31",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R55:1",
+        "unit": "MXN",
+        "value_literal": "-88879.305"
+      },
+      {
+        "concept": "D39",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R59:1",
+        "unit": "MXN",
+        "value_literal": "-12545.26"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000",
+        "selector": "Tabulado!S34:1",
+        "unit": "MXN",
+        "value_literal": "31871088.604"
+      }
+    ],
+    "source": {
+      "accessed_at": "2026-09-19T19:49:22.792870+00:00",
+      "bytes": 48249,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "final_url": "https://www.inegi.org.mx/contenidos/programas/si/2018/tabulados/ori/CSI_23.xlsx",
+      "id": "MEX_2023_public",
+      "official_url": "https://www.inegi.org.mx/contenidos/programas/si/2018/tabulados/ori/CSI_23.xlsx",
+      "path": "snapshots/MEX_2023_public.xlsx",
+      "sha256": "077a64fe4272a7163f47fbeb3835428838f89460537480222b7f5d0d5abbf6f6",
+      "status": 200,
+      "vintage": "CSI_2003_2024_revisada_jun2026"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2018",
+      "country_id": "MEX",
+      "family": "D2",
+      "multiplier": "1000000",
+      "observation_year": 2015,
+      "representation": "d2_split",
+      "source_id": "MEX_2015",
+      "source_vintage": "CSI_2003_2024_revisada_jun2026",
+      "unit": "MXN"
+    },
+    "id": "MEX_D2_2015",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R36:1",
+        "unit": "MXN",
+        "value_literal": "4955651.389"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R60:1",
+        "unit": "MXN",
+        "value_literal": "8902918.119"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R61:1",
+        "unit": "MXN",
+        "value_literal": "4183233.929"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000",
+        "selector": "Tabulado!S34:1",
+        "unit": "MXN",
+        "value_literal": "19228614.674"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R46:1;Tabulado!R53:1;Tabulado!R55:1;Tabulado!R59:1",
+        "unit": "MXN",
+        "value_literal": "1186811.237"
+      }
+    ],
+    "source": {
+      "accessed_at": "2026-09-19T19:49:21.226987+00:00",
+      "bytes": 48126,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "final_url": "https://www.inegi.org.mx/contenidos/programas/si/2018/tabulados/ori/CSI_15.xlsx",
+      "id": "MEX_2015_public",
+      "official_url": "https://www.inegi.org.mx/contenidos/programas/si/2018/tabulados/ori/CSI_15.xlsx",
+      "path": "snapshots/MEX_2015_public.xlsx",
+      "sha256": "26f79db791cb0231eef5a657738a58d74acacbdb92c3d0c099d03995aec71c6f",
+      "status": 200,
+      "vintage": "CSI_2003_2024_revisada_jun2026"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2018",
+      "country_id": "MEX",
+      "family": "D2",
+      "multiplier": "1000000",
+      "observation_year": 2016,
+      "representation": "d2_split",
+      "source_id": "MEX_2016",
+      "source_vintage": "CSI_2003_2024_revisada_jun2026",
+      "unit": "MXN"
+    },
+    "id": "MEX_D2_2016",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R36:1",
+        "unit": "MXN",
+        "value_literal": "5211606.937"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R60:1",
+        "unit": "MXN",
+        "value_literal": "9677095.532"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R61:1",
+        "unit": "MXN",
+        "value_literal": "4497371.832"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000",
+        "selector": "Tabulado!S34:1",
+        "unit": "MXN",
+        "value_literal": "20758790.506"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R46:1;Tabulado!R53:1;Tabulado!R55:1;Tabulado!R59:1",
+        "unit": "MXN",
+        "value_literal": "1372716.205"
+      }
+    ],
+    "source": {
+      "accessed_at": "2026-09-19T19:49:21.226987+00:00",
+      "bytes": 48082,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "final_url": "https://www.inegi.org.mx/contenidos/programas/si/2018/tabulados/ori/CSI_16.xlsx",
+      "id": "MEX_2016_public",
+      "official_url": "https://www.inegi.org.mx/contenidos/programas/si/2018/tabulados/ori/CSI_16.xlsx",
+      "path": "snapshots/MEX_2016_public.xlsx",
+      "sha256": "92b2bb1fb54b79c282b6812bd762ff554d598dd1f979039841f6b33c1e1ff552",
+      "status": 200,
+      "vintage": "CSI_2003_2024_revisada_jun2026"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2018",
+      "country_id": "MEX",
+      "family": "D2",
+      "multiplier": "1000000",
+      "observation_year": 2017,
+      "representation": "d2_split",
+      "source_id": "MEX_2017",
+      "source_vintage": "CSI_2003_2024_revisada_jun2026",
+      "unit": "MXN"
+    },
+    "id": "MEX_D2_2017",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R36:1",
+        "unit": "MXN",
+        "value_literal": "5549476.137"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R60:1",
+        "unit": "MXN",
+        "value_literal": "10821305.55"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R61:1",
+        "unit": "MXN",
+        "value_literal": "4829639.523"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000",
+        "selector": "Tabulado!S34:1",
+        "unit": "MXN",
+        "value_literal": "22536210.256"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R46:1;Tabulado!R53:1;Tabulado!R55:1;Tabulado!R59:1",
+        "unit": "MXN",
+        "value_literal": "1335789.046"
+      }
+    ],
+    "source": {
+      "accessed_at": "2026-09-19T19:49:21.226987+00:00",
+      "bytes": 48079,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "final_url": "https://www.inegi.org.mx/contenidos/programas/si/2018/tabulados/ori/CSI_17.xlsx",
+      "id": "MEX_2017_public",
+      "official_url": "https://www.inegi.org.mx/contenidos/programas/si/2018/tabulados/ori/CSI_17.xlsx",
+      "path": "snapshots/MEX_2017_public.xlsx",
+      "sha256": "14b8139e82db94f5ea6a3a4df3bd1271335abb57a08bb613c4f0a5e7427c0f62",
+      "status": 200,
+      "vintage": "CSI_2003_2024_revisada_jun2026"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2018",
+      "country_id": "MEX",
+      "family": "D2",
+      "multiplier": "1000000",
+      "observation_year": 2018,
+      "representation": "d2_split",
+      "source_id": "MEX_2018",
+      "source_vintage": "CSI_2003_2024_revisada_jun2026",
+      "unit": "MXN"
+    },
+    "id": "MEX_D2_2018",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R36:1",
+        "unit": "MXN",
+        "value_literal": "5974564.145"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R60:1",
+        "unit": "MXN",
+        "value_literal": "11561646.365"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R61:1",
+        "unit": "MXN",
+        "value_literal": "5206749.199"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000",
+        "selector": "Tabulado!S34:1",
+        "unit": "MXN",
+        "value_literal": "24176670.374"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R46:1;Tabulado!R53:1;Tabulado!R55:1;Tabulado!R59:1",
+        "unit": "MXN",
+        "value_literal": "1433710.665"
+      }
+    ],
+    "source": {
+      "accessed_at": "2026-09-19T19:49:21.226987+00:00",
+      "bytes": 48109,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "final_url": "https://www.inegi.org.mx/contenidos/programas/si/2018/tabulados/ori/CSI_18.xlsx",
+      "id": "MEX_2018_public",
+      "official_url": "https://www.inegi.org.mx/contenidos/programas/si/2018/tabulados/ori/CSI_18.xlsx",
+      "path": "snapshots/MEX_2018_public.xlsx",
+      "sha256": "5963106bf45aedaa07f454db11a3f7a968da6800f68ce6fb238295ceb267cc34",
+      "status": 200,
+      "vintage": "CSI_2003_2024_revisada_jun2026"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2018",
+      "country_id": "MEX",
+      "family": "D2",
+      "multiplier": "1000000",
+      "observation_year": 2019,
+      "representation": "d2_split",
+      "source_id": "MEX_2019",
+      "source_vintage": "CSI_2003_2024_revisada_jun2026",
+      "unit": "MXN"
+    },
+    "id": "MEX_D2_2019",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R36:1",
+        "unit": "MXN",
+        "value_literal": "6357467.343"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R60:1",
+        "unit": "MXN",
+        "value_literal": "11722936.556"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R61:1",
+        "unit": "MXN",
+        "value_literal": "5469640.969"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000",
+        "selector": "Tabulado!S34:1",
+        "unit": "MXN",
+        "value_literal": "25121823.305"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R46:1;Tabulado!R53:1;Tabulado!R55:1;Tabulado!R59:1",
+        "unit": "MXN",
+        "value_literal": "1571778.437"
+      }
+    ],
+    "source": {
+      "accessed_at": "2026-09-19T19:49:21.226987+00:00",
+      "bytes": 48107,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "final_url": "https://www.inegi.org.mx/contenidos/programas/si/2018/tabulados/ori/CSI_19.xlsx",
+      "id": "MEX_2019_public",
+      "official_url": "https://www.inegi.org.mx/contenidos/programas/si/2018/tabulados/ori/CSI_19.xlsx",
+      "path": "snapshots/MEX_2019_public.xlsx",
+      "sha256": "95ba04c4df7b39539a9239cad251c88429823fd8504bbbbb152086d968ee08ec",
+      "status": 200,
+      "vintage": "CSI_2003_2024_revisada_jun2026"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2018",
+      "country_id": "MEX",
+      "family": "D2",
+      "multiplier": "1000000",
+      "observation_year": 2020,
+      "representation": "d2_split",
+      "source_id": "MEX_2020",
+      "source_vintage": "CSI_2003_2024_revisada_jun2026",
+      "unit": "MXN"
+    },
+    "id": "MEX_D2_2020",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R36:1",
+        "unit": "MXN",
+        "value_literal": "6566367.71"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R60:1",
+        "unit": "MXN",
+        "value_literal": "10801306.297"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R61:1",
+        "unit": "MXN",
+        "value_literal": "5109577.079"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000",
+        "selector": "Tabulado!S34:1",
+        "unit": "MXN",
+        "value_literal": "24086758.133"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R46:1;Tabulado!R53:1;Tabulado!R55:1;Tabulado!R59:1",
+        "unit": "MXN",
+        "value_literal": "1609507.047"
+      }
+    ],
+    "source": {
+      "accessed_at": "2026-09-19T19:49:22.790828+00:00",
+      "bytes": 48140,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "final_url": "https://www.inegi.org.mx/contenidos/programas/si/2018/tabulados/ori/CSI_20.xlsx",
+      "id": "MEX_2020_public",
+      "official_url": "https://www.inegi.org.mx/contenidos/programas/si/2018/tabulados/ori/CSI_20.xlsx",
+      "path": "snapshots/MEX_2020_public.xlsx",
+      "sha256": "4f9c530f71c8348881f95c4464d7035b81cefe40d0404cd07fc2778aeee4620a",
+      "status": 200,
+      "vintage": "CSI_2003_2024_revisada_jun2026"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2018",
+      "country_id": "MEX",
+      "family": "D2",
+      "multiplier": "1000000",
+      "observation_year": 2021,
+      "representation": "d2_split",
+      "source_id": "MEX_2021",
+      "source_vintage": "CSI_2003_2024_revisada_jun2026",
+      "unit": "MXN"
+    },
+    "id": "MEX_D2_2021",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R36:1",
+        "unit": "MXN",
+        "value_literal": "7245298.705"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R60:1",
+        "unit": "MXN",
+        "value_literal": "11688697.111"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R61:1",
+        "unit": "MXN",
+        "value_literal": "6015501.905"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000",
+        "selector": "Tabulado!S34:1",
+        "unit": "MXN",
+        "value_literal": "26690033.392"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R46:1;Tabulado!R53:1;Tabulado!R55:1;Tabulado!R59:1",
+        "unit": "MXN",
+        "value_literal": "1740535.671"
+      }
+    ],
+    "source": {
+      "accessed_at": "2026-09-19T19:49:22.792870+00:00",
+      "bytes": 48215,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "final_url": "https://www.inegi.org.mx/contenidos/programas/si/2018/tabulados/ori/CSI_21.xlsx",
+      "id": "MEX_2021_public",
+      "official_url": "https://www.inegi.org.mx/contenidos/programas/si/2018/tabulados/ori/CSI_21.xlsx",
+      "path": "snapshots/MEX_2021_public.xlsx",
+      "sha256": "2be32c9450e1bb5f29882955cc2f852895b64d6cb4a45b43937910a9422a74a7",
+      "status": 200,
+      "vintage": "CSI_2003_2024_revisada_jun2026"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2018",
+      "country_id": "MEX",
+      "family": "D2",
+      "multiplier": "1000000",
+      "observation_year": 2022,
+      "representation": "d2_split",
+      "source_id": "MEX_2022",
+      "source_vintage": "CSI_2003_2024_revisada_jun2026",
+      "unit": "MXN"
+    },
+    "id": "MEX_D2_2022",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R36:1",
+        "unit": "MXN",
+        "value_literal": "8142427.086"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R60:1",
+        "unit": "MXN",
+        "value_literal": "12997173.33"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R61:1",
+        "unit": "MXN",
+        "value_literal": "6777424.156"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000",
+        "selector": "Tabulado!S34:1",
+        "unit": "MXN",
+        "value_literal": "29525508.624"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R46:1;Tabulado!R53:1;Tabulado!R55:1;Tabulado!R59:1",
+        "unit": "MXN",
+        "value_literal": "1608484.052"
+      }
+    ],
+    "source": {
+      "accessed_at": "2026-09-19T19:49:22.792870+00:00",
+      "bytes": 48217,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "final_url": "https://www.inegi.org.mx/contenidos/programas/si/2018/tabulados/ori/CSI_22.xlsx",
+      "id": "MEX_2022_public",
+      "official_url": "https://www.inegi.org.mx/contenidos/programas/si/2018/tabulados/ori/CSI_22.xlsx",
+      "path": "snapshots/MEX_2022_public.xlsx",
+      "sha256": "b33fc815131e09656eb521adb629400babd95e104e5ccae2382bcd1f897eb1d3",
+      "status": 200,
+      "vintage": "CSI_2003_2024_revisada_jun2026"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2018",
+      "country_id": "MEX",
+      "family": "D2",
+      "multiplier": "1000000",
+      "observation_year": 2023,
+      "representation": "d2_split",
+      "source_id": "MEX_2023",
+      "source_vintage": "CSI_2003_2024_revisada_jun2026",
+      "unit": "MXN"
+    },
+    "id": "MEX_D2_2023",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R36:1",
+        "unit": "MXN",
+        "value_literal": "9102482.904"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R60:1",
+        "unit": "MXN",
+        "value_literal": "13460447.819"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R61:1",
+        "unit": "MXN",
+        "value_literal": "7167692.458"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000",
+        "selector": "Tabulado!S34:1",
+        "unit": "MXN",
+        "value_literal": "31871088.604"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000",
+        "selector": "Tabulado!R46:1;Tabulado!R53:1;Tabulado!R55:1;Tabulado!R59:1",
+        "unit": "MXN",
+        "value_literal": "2140465.423"
+      }
+    ],
+    "source": {
+      "accessed_at": "2026-09-19T19:49:22.792870+00:00",
+      "bytes": 48249,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "final_url": "https://www.inegi.org.mx/contenidos/programas/si/2018/tabulados/ori/CSI_23.xlsx",
+      "id": "MEX_2023_public",
+      "official_url": "https://www.inegi.org.mx/contenidos/programas/si/2018/tabulados/ori/CSI_23.xlsx",
+      "path": "snapshots/MEX_2023_public.xlsx",
+      "sha256": "077a64fe4272a7163f47fbeb3835428838f89460537480222b7f5d0d5abbf6f6",
+      "status": 200,
+      "vintage": "CSI_2003_2024_revisada_jun2026"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2007",
+      "country_id": "PER",
+      "family": "D6",
+      "multiplier": "1000000",
+      "observation_year": 2023,
+      "representation": "d6_net",
+      "source_id": "PER_2023",
+      "source_vintage": "INEI_1950_2024_oct2025",
+      "unit": "PEN"
+    },
+    "id": "PER_D6_2023",
+    "members": [
+      {
+        "concept": "N_PROD",
+        "multiplier": "1000000",
+        "selector": "COU_2023!DL389:1;COU_2023!DL390:semantic_zero:90994661e8f21fbaa189067472fc8b3b23be5f79540fb8057476ea38775a0137",
+        "unit": "PEN",
+        "value_literal": "6997"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000",
+        "selector": "CEI_2023!E19:1",
+        "unit": "PEN",
+        "value_literal": "1003439"
+      },
+      {
+        "concept": "P_NET",
+        "multiplier": "1000000",
+        "selector": "CEI_2023!E24:1;COU_2023!DL389:-1;COU_2023!DL390:semantic_zero:90994661e8f21fbaa189067472fc8b3b23be5f79540fb8057476ea38775a0137:-1",
+        "unit": "PEN",
+        "value_literal": "75849"
+      },
+      {
+        "concept": "V",
+        "multiplier": "1000000",
+        "selector": "COU_2023!K376:1",
+        "unit": "PEN",
+        "value_literal": "66351"
+      }
+    ],
+    "source": {
+      "bytes": 251614,
+      "id": "PER_2023",
+      "obtained_at": "2026-09-19T19:49:21.190041+00:00",
+      "official_url": null,
+      "origin": "<descargas>\\PBI_Imp_2023_CEIyCOU_R.xlsx",
+      "path": "snapshots/PER_2023.xlsx",
+      "sha256": "dca6ebf37c2c0865a7d579cf73ade2358a459ea51441e2a2ee9d6b4412f158e3",
+      "status": "authenticated_local_snapshot",
+      "vintage": "INEI_1950_2024_oct2025"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2007",
+      "country_id": "PER",
+      "family": "D2",
+      "multiplier": "1000000",
+      "observation_year": 2015,
+      "representation": "d2_split",
+      "source_id": "PER_PDF",
+      "source_vintage": "INEI_1950_2024_oct2025",
+      "unit": "PEN"
+    },
+    "id": "PER_D2_2015",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000",
+        "selector": "PDF:p405:Empleos/EconomiaTotal:D.1:x[198,223):y=253.6746597290039",
+        "unit": "PEN",
+        "value_literal": "192350"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000",
+        "selector": "PDF:p405:Empleos/EconomiaTotal:B.2b:x[198,223):y=270.1846466064453",
+        "unit": "PEN",
+        "value_literal": "221451"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000",
+        "selector": "PDF:p405:Empleos/EconomiaTotal:B.3b:x[198,223):y=278.45066833496094",
+        "unit": "PEN",
+        "value_literal": "134913"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000",
+        "selector": "PDF:p405:Empleos/EconomiaTotal:B.1b:x[198,223):y=234.91165924072266",
+        "unit": "PEN",
+        "value_literal": "604416"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000",
+        "selector": "PDF:p405:Empleos/EconomiaTotal:D.2-D.3:x[198,223):y=261.9346466064453",
+        "unit": "PEN",
+        "value_literal": "55702"
+      }
+    ],
+    "source": {
+      "accessed_at": "2026-09-19T19:50:37.869315+00:00",
+      "bytes": 10215715,
+      "id": "PER_PDF",
+      "official_url": "https://cdn.www.gob.pe/uploads/document/file/8978115/7387220-peru-cuentas-nacionales-1950-2024-cuentas-de-bienes-y-servicios-y-cuentas-por-sectores-institucionales.pdf?v=1762882540",
+      "path": "snapshots/PER_1950_2024.pdf",
+      "sha256": "7fd47dd55b93af29c49c7562cd2adb67630dd6c114ad3a48ca8e4f4d1ea04804",
+      "vintage": "INEI_1950_2024_oct2025"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2007",
+      "country_id": "PER",
+      "family": "D2",
+      "multiplier": "1000000",
+      "observation_year": 2016,
+      "representation": "d2_split",
+      "source_id": "PER_PDF",
+      "source_vintage": "INEI_1950_2024_oct2025",
+      "unit": "PEN"
+    },
+    "id": "PER_D2_2016",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000",
+        "selector": "PDF:p406:Empleos/EconomiaTotal:D.1:x[198,223):y=240.76663970947266",
+        "unit": "PEN",
+        "value_literal": "204177"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000",
+        "selector": "PDF:p406:Empleos/EconomiaTotal:B.2b:x[198,223):y=257.2766571044922",
+        "unit": "PEN",
+        "value_literal": "238832"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000",
+        "selector": "PDF:p406:Empleos/EconomiaTotal:B.3b:x[198,223):y=265.5426483154297",
+        "unit": "PEN",
+        "value_literal": "147017"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000",
+        "selector": "PDF:p406:Empleos/EconomiaTotal:B.1b:x[198,223):y=222.00165557861328",
+        "unit": "PEN",
+        "value_literal": "647668"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000",
+        "selector": "PDF:p406:Empleos/EconomiaTotal:D.2-D.3:x[198,223):y=249.02664947509766",
+        "unit": "PEN",
+        "value_literal": "57642"
+      }
+    ],
+    "source": {
+      "accessed_at": "2026-09-19T19:50:37.869315+00:00",
+      "bytes": 10215715,
+      "id": "PER_PDF",
+      "official_url": "https://cdn.www.gob.pe/uploads/document/file/8978115/7387220-peru-cuentas-nacionales-1950-2024-cuentas-de-bienes-y-servicios-y-cuentas-por-sectores-institucionales.pdf?v=1762882540",
+      "path": "snapshots/PER_1950_2024.pdf",
+      "sha256": "7fd47dd55b93af29c49c7562cd2adb67630dd6c114ad3a48ca8e4f4d1ea04804",
+      "vintage": "INEI_1950_2024_oct2025"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2007",
+      "country_id": "PER",
+      "family": "D2",
+      "multiplier": "1000000",
+      "observation_year": 2017,
+      "representation": "d2_split",
+      "source_id": "PER_PDF",
+      "source_vintage": "INEI_1950_2024_oct2025",
+      "unit": "PEN"
+    },
+    "id": "PER_D2_2017",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000",
+        "selector": "PDF:p407:Empleos/EconomiaTotal:D.1:x[198,223):y=240.76663970947266",
+        "unit": "PEN",
+        "value_literal": "215097"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000",
+        "selector": "PDF:p407:Empleos/EconomiaTotal:B.2b:x[198,223):y=257.2766571044922",
+        "unit": "PEN",
+        "value_literal": "259295"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000",
+        "selector": "PDF:p407:Empleos/EconomiaTotal:B.3b:x[198,223):y=265.5426483154297",
+        "unit": "PEN",
+        "value_literal": "153798"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000",
+        "selector": "PDF:p407:Empleos/EconomiaTotal:B.1b:x[198,223):y=222.00165557861328",
+        "unit": "PEN",
+        "value_literal": "687989"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000",
+        "selector": "PDF:p407:Empleos/EconomiaTotal:D.2-D.3:x[198,223):y=249.02664947509766",
+        "unit": "PEN",
+        "value_literal": "59799"
+      }
+    ],
+    "source": {
+      "accessed_at": "2026-09-19T19:50:37.869315+00:00",
+      "bytes": 10215715,
+      "id": "PER_PDF",
+      "official_url": "https://cdn.www.gob.pe/uploads/document/file/8978115/7387220-peru-cuentas-nacionales-1950-2024-cuentas-de-bienes-y-servicios-y-cuentas-por-sectores-institucionales.pdf?v=1762882540",
+      "path": "snapshots/PER_1950_2024.pdf",
+      "sha256": "7fd47dd55b93af29c49c7562cd2adb67630dd6c114ad3a48ca8e4f4d1ea04804",
+      "vintage": "INEI_1950_2024_oct2025"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2007",
+      "country_id": "PER",
+      "family": "D2",
+      "multiplier": "1000000",
+      "observation_year": 2018,
+      "representation": "d2_split",
+      "source_id": "PER_PDF",
+      "source_vintage": "INEI_1950_2024_oct2025",
+      "unit": "PEN"
+    },
+    "id": "PER_D2_2018",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000",
+        "selector": "PDF:p408:Empleos/EconomiaTotal:D.1:x[198,223):y=241.4781265258789",
+        "unit": "PEN",
+        "value_literal": "227599"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000",
+        "selector": "PDF:p408:Empleos/EconomiaTotal:B.2b:x[198,223):y=258.2201232910156",
+        "unit": "PEN",
+        "value_literal": "279268"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000",
+        "selector": "PDF:p408:Empleos/EconomiaTotal:B.3b:x[198,223):y=266.5931091308594",
+        "unit": "PEN",
+        "value_literal": "161348"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000",
+        "selector": "PDF:p408:Empleos/EconomiaTotal:B.1b:x[198,223):y=222.4721450805664",
+        "unit": "PEN",
+        "value_literal": "731588"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000",
+        "selector": "PDF:p408:Empleos/EconomiaTotal:D.2-D.3:x[198,223):y=249.85114288330078",
+        "unit": "PEN",
+        "value_literal": "63373"
+      }
+    ],
+    "source": {
+      "accessed_at": "2026-09-19T19:50:37.869315+00:00",
+      "bytes": 10215715,
+      "id": "PER_PDF",
+      "official_url": "https://cdn.www.gob.pe/uploads/document/file/8978115/7387220-peru-cuentas-nacionales-1950-2024-cuentas-de-bienes-y-servicios-y-cuentas-por-sectores-institucionales.pdf?v=1762882540",
+      "path": "snapshots/PER_1950_2024.pdf",
+      "sha256": "7fd47dd55b93af29c49c7562cd2adb67630dd6c114ad3a48ca8e4f4d1ea04804",
+      "vintage": "INEI_1950_2024_oct2025"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2007",
+      "country_id": "PER",
+      "family": "D2",
+      "multiplier": "1000000",
+      "observation_year": 2019,
+      "representation": "d2_split",
+      "source_id": "PER_PDF",
+      "source_vintage": "INEI_1950_2024_oct2025",
+      "unit": "PEN"
+    },
+    "id": "PER_D2_2019",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000",
+        "selector": "PDF:p409:Empleos/EconomiaTotal:D.1:x[198,223):y=235.42374420166016",
+        "unit": "PEN",
+        "value_literal": "240913"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000",
+        "selector": "PDF:p409:Empleos/EconomiaTotal:B.2b:x[198,223):y=251.28873443603516",
+        "unit": "PEN",
+        "value_literal": "283474"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000",
+        "selector": "PDF:p409:Empleos/EconomiaTotal:B.3b:x[198,223):y=259.2107696533203",
+        "unit": "PEN",
+        "value_literal": "168874"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000",
+        "selector": "PDF:p409:Empleos/EconomiaTotal:B.1b:x[198,223):y=217.40973663330078",
+        "unit": "PEN",
+        "value_literal": "761984"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000",
+        "selector": "PDF:p409:Empleos/EconomiaTotal:D.2-D.3:x[198,223):y=243.35675811767578",
+        "unit": "PEN",
+        "value_literal": "68723"
+      }
+    ],
+    "source": {
+      "accessed_at": "2026-09-19T19:50:37.869315+00:00",
+      "bytes": 10215715,
+      "id": "PER_PDF",
+      "official_url": "https://cdn.www.gob.pe/uploads/document/file/8978115/7387220-peru-cuentas-nacionales-1950-2024-cuentas-de-bienes-y-servicios-y-cuentas-por-sectores-institucionales.pdf?v=1762882540",
+      "path": "snapshots/PER_1950_2024.pdf",
+      "sha256": "7fd47dd55b93af29c49c7562cd2adb67630dd6c114ad3a48ca8e4f4d1ea04804",
+      "vintage": "INEI_1950_2024_oct2025"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2007",
+      "country_id": "PER",
+      "family": "D2",
+      "multiplier": "1000000",
+      "observation_year": 2020,
+      "representation": "d2_split",
+      "source_id": "PER_PDF",
+      "source_vintage": "INEI_1950_2024_oct2025",
+      "unit": "PEN"
+    },
+    "id": "PER_D2_2020",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000",
+        "selector": "PDF:p410:Empleos/EconomiaTotal:D.1:x[198,223):y=236.2127456665039",
+        "unit": "PEN",
+        "value_literal": "217550"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000",
+        "selector": "PDF:p410:Empleos/EconomiaTotal:B.2b:x[198,223):y=252.0777359008789",
+        "unit": "PEN",
+        "value_literal": "282343"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000",
+        "selector": "PDF:p410:Empleos/EconomiaTotal:B.3b:x[198,223):y=259.99977111816406",
+        "unit": "PEN",
+        "value_literal": "144359"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000",
+        "selector": "PDF:p410:Empleos/EconomiaTotal:B.1b:x[198,223):y=218.20075225830078",
+        "unit": "PEN",
+        "value_literal": "703915"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000",
+        "selector": "PDF:p410:Empleos/EconomiaTotal:D.2-D.3:x[198,223):y=244.14774322509766",
+        "unit": "PEN",
+        "value_literal": "59663"
+      }
+    ],
+    "source": {
+      "accessed_at": "2026-09-19T19:50:37.869315+00:00",
+      "bytes": 10215715,
+      "id": "PER_PDF",
+      "official_url": "https://cdn.www.gob.pe/uploads/document/file/8978115/7387220-peru-cuentas-nacionales-1950-2024-cuentas-de-bienes-y-servicios-y-cuentas-por-sectores-institucionales.pdf?v=1762882540",
+      "path": "snapshots/PER_1950_2024.pdf",
+      "sha256": "7fd47dd55b93af29c49c7562cd2adb67630dd6c114ad3a48ca8e4f4d1ea04804",
+      "vintage": "INEI_1950_2024_oct2025"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2007",
+      "country_id": "PER",
+      "family": "D2",
+      "multiplier": "1000000",
+      "observation_year": 2021,
+      "representation": "d2_split",
+      "source_id": "PER_PDF",
+      "source_vintage": "INEI_1950_2024_oct2025",
+      "unit": "PEN"
+    },
+    "id": "PER_D2_2021",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000",
+        "selector": "PDF:p411:Empleos/EconomiaTotal:D.1:x[198,223):y=237.89717864990234",
+        "unit": "PEN",
+        "value_literal": "248223"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000",
+        "selector": "PDF:p411:Empleos/EconomiaTotal:B.2b:x[198,223):y=253.79418182373047",
+        "unit": "PEN",
+        "value_literal": "380124"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000",
+        "selector": "PDF:p411:Empleos/EconomiaTotal:B.3b:x[198,223):y=261.7311553955078",
+        "unit": "PEN",
+        "value_literal": "170118"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000",
+        "selector": "PDF:p411:Empleos/EconomiaTotal:B.1b:x[198,223):y=219.8431625366211",
+        "unit": "PEN",
+        "value_literal": "878581"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000",
+        "selector": "PDF:p411:Empleos/EconomiaTotal:D.2-D.3:x[198,223):y=245.8431625366211",
+        "unit": "PEN",
+        "value_literal": "80116"
+      }
+    ],
+    "source": {
+      "accessed_at": "2026-09-19T19:50:37.869315+00:00",
+      "bytes": 10215715,
+      "id": "PER_PDF",
+      "official_url": "https://cdn.www.gob.pe/uploads/document/file/8978115/7387220-peru-cuentas-nacionales-1950-2024-cuentas-de-bienes-y-servicios-y-cuentas-por-sectores-institucionales.pdf?v=1762882540",
+      "path": "snapshots/PER_1950_2024.pdf",
+      "sha256": "7fd47dd55b93af29c49c7562cd2adb67630dd6c114ad3a48ca8e4f4d1ea04804",
+      "vintage": "INEI_1950_2024_oct2025"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2007",
+      "country_id": "PER",
+      "family": "D2",
+      "multiplier": "1000000",
+      "observation_year": 2022,
+      "representation": "d2_split",
+      "source_id": "PER_PDF",
+      "source_vintage": "INEI_1950_2024_oct2025",
+      "unit": "PEN"
+    },
+    "id": "PER_D2_2022",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000",
+        "selector": "PDF:p412:Empleos/EconomiaTotal:D.1:x[198,223):y=236.2127456665039",
+        "unit": "PEN",
+        "value_literal": "270895"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000",
+        "selector": "PDF:p412:Empleos/EconomiaTotal:B.2b:x[198,223):y=252.0777359008789",
+        "unit": "PEN",
+        "value_literal": "401185"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000",
+        "selector": "PDF:p412:Empleos/EconomiaTotal:B.3b:x[198,223):y=259.99977111816406",
+        "unit": "PEN",
+        "value_literal": "188112"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000",
+        "selector": "PDF:p412:Empleos/EconomiaTotal:B.1b:x[198,223):y=218.20075225830078",
+        "unit": "PEN",
+        "value_literal": "944106"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000",
+        "selector": "PDF:p412:Empleos/EconomiaTotal:D.2-D.3:x[198,223):y=244.14774322509766",
+        "unit": "PEN",
+        "value_literal": "83914"
+      }
+    ],
+    "source": {
+      "accessed_at": "2026-09-19T19:50:37.869315+00:00",
+      "bytes": 10215715,
+      "id": "PER_PDF",
+      "official_url": "https://cdn.www.gob.pe/uploads/document/file/8978115/7387220-peru-cuentas-nacionales-1950-2024-cuentas-de-bienes-y-servicios-y-cuentas-por-sectores-institucionales.pdf?v=1762882540",
+      "path": "snapshots/PER_1950_2024.pdf",
+      "sha256": "7fd47dd55b93af29c49c7562cd2adb67630dd6c114ad3a48ca8e4f4d1ea04804",
+      "vintage": "INEI_1950_2024_oct2025"
+    }
+  },
+  {
+    "context": {
+      "accounting_basis": "SNA2008_base2007",
+      "country_id": "PER",
+      "family": "D2",
+      "multiplier": "1000000",
+      "observation_year": 2023,
+      "representation": "d2_split",
+      "source_id": "PER_2023",
+      "source_vintage": "INEI_1950_2024_oct2025",
+      "unit": "PEN"
+    },
+    "id": "PER_D2_2023",
+    "members": [
+      {
+        "concept": "COE",
+        "multiplier": "1000000",
+        "selector": "CEI_2023!E21:1",
+        "unit": "PEN",
+        "value_literal": "284345"
+      },
+      {
+        "concept": "GOS",
+        "multiplier": "1000000",
+        "selector": "CEI_2023!E27:1",
+        "unit": "PEN",
+        "value_literal": "428595"
+      },
+      {
+        "concept": "MI",
+        "multiplier": "1000000",
+        "selector": "CEI_2023!E28:1",
+        "unit": "PEN",
+        "value_literal": "207653"
+      },
+      {
+        "concept": "PIB",
+        "multiplier": "1000000",
+        "selector": "CEI_2023!E19:1",
+        "unit": "PEN",
+        "value_literal": "1003439"
+      },
+      {
+        "concept": "TAX_NET",
+        "multiplier": "1000000",
+        "selector": "CEI_2023!E24:1",
+        "unit": "PEN",
+        "value_literal": "82846"
+      }
+    ],
+    "source": {
+      "bytes": 251614,
+      "id": "PER_2023",
+      "obtained_at": "2026-09-19T19:49:21.190041+00:00",
+      "official_url": null,
+      "origin": "<descargas>\\PBI_Imp_2023_CEIyCOU_R.xlsx",
+      "path": "snapshots/PER_2023.xlsx",
+      "sha256": "dca6ebf37c2c0865a7d579cf73ade2358a459ea51441e2a2ee9d6b4412f158e3",
+      "status": "authenticated_local_snapshot",
+      "vintage": "INEI_1950_2024_oct2025"
+    }
+  }
+]

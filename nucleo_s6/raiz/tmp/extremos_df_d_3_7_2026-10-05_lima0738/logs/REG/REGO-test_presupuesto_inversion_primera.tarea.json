@@ -1,0 +1,11 @@
+{
+ "id": "REGO-test_presupuesto_inversion(primera)",
+ "RECONSTRUIDO": true,
+ "fuente": "logs/cola_reg_C.log (lanza 14:01:44 UTC; siguiente lanzamiento 14:11:09 UTC) y fecha de escritura de demo/regresion/original_test_presupuesto_inversion.json (14:11:08 UTC; 14 pruebas, 0 fallos, 561,1 s de suite)",
+ "inicio_utc": "2026-10-05T14:01:44Z",
+ "pared_s": 564.0,
+ "cpu_usuario_s": null,
+ "cpu_nucleo_s": null,
+ "estado": "TERMINO (reconstruido: sus registros de supervisor fueron sobrescritos por el duplicado de las 14:45:13)",
+ "nota": "CPU desconocida: el presupuesto la cuenta como 0 (cota por defecto) y la pared sí se cuenta"
+}

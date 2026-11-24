@@ -1,0 +1,26 @@
+{
+ "cpu_usuario_s": 1474.625,
+ "cpu_nucleo_s": 2.640625,
+ "procesos_totales": 6,
+ "procesos_activos": 0,
+ "memoria_pico_job_mb": 461.2,
+ "memoria_pico_proceso_mb": 454.3,
+ "id": "REGI2-test_presupuesto_inversion",
+ "comando": [
+  "bash",
+  "tmp/extremos_df_d_3_7_2026-10-05_lima0738/../pilotos_b36_b37_2026-10-02/entorno/py_integracion.sh",
+  "-m",
+  "codigo.regresion",
+  "integracion",
+  "demo/regresion/integracion_test_presupuesto_inversion.json",
+  "test_presupuesto_inversion"
+ ],
+ "cwd": "tmp/extremos_df_d_3_7_2026-10-05_lima0738",
+ "limite_duro_s": 3600.0,
+ "inicio_utc": "2026-10-05T14:49:02Z",
+ "pared_s": 1505.8,
+ "codigo_salida": 127,
+ "estado": "FALLO",
+ "cpu_total_s": 1477.3,
+ "cpu_por_pared": 0.98
+}

@@ -1,0 +1,263 @@
+{
+ "kind": "manifiesto-sintesis-exp8-rem170",
+ "utc": "2026-11-08T12:17:17.004619+00:00",
+ "candidato_para_revision": true,
+ "naturaleza": "INTEGRACION DOCUMENTAL EXP8 B1+B2 ACEPTADOS, SIN CALCULO CIENTIFICO NUEVO NI ALCANCE PRODUCTIVO",
+ "fuente_historica": {
+  "area": "@@R_BS2@@\\tmp\\paso4_correcciones_sintesis_exp8_desde_rem160",
+  "inventario_sha256": "3bcebf129042e5006519de16ca205d21cc07db8c5c6a189e4a5abd365cccc4de",
+  "filas_sha256": "816209e40007471265f0a06e529d1d30ed60ca80d445594ce43b57bbdede113f",
+  "resumen_sha256": "1dc9d778b6dcaec13d5f19c8cf9fb8e447e15dc65a1752e13f912da892ea2751",
+  "manifiesto_sha256": "9adbcc842ff82d8c8487f550a2d9da7eca354da2f8dc761f413e367c19b83389",
+  "constructor_sha256": "e96814df3ae17c4c24463958b7839491ade01e5c1b3e1614cc510d6cbaf84966",
+  "informe_sha256": "a1af9a13faf5e5144facb514fcb85f73f0bdcaaaec14f6b23fd94e20aeb5e2d9",
+  "libro_de_aceptacion": {
+   "archivo": "review_20261106_rem161_EXP8_sintesis_aceptada.json",
+   "sha256": "0d84eb80d10ad530f222ca4b38c5e5ef86be1fcf7afde604243012a3cdd7e707"
+  },
+  "uso": "base de las 1.728 filas: 1.716 ajenas copiadas byte a byte y, en las doce, todos los campos padre, ENF, Q, P7 y la evidencia COV histórica; NO es la autoridad de la clasificación transformada de las doce"
+ },
+ "autoridad_de_actualizacion": {
+  "dictamen_rem170": {
+   "ruta": "@@W_BS2@@\\review_20261108_rem170_dictamen.txt",
+   "sha256": "b17fa026d53aa9e839b619d4dcb81de8d925712692e8c0fc47ef453b2c4cbd80"
+  },
+  "libro_B2_COV12": {
+   "ruta": "@@W_BS2@@\\review_20261108_rem170_B2_COV12_aceptada.json",
+   "sha256": "d53bbe822a4df76f57e2826da6786914338dff15671a72d73521f2ee848c80cd",
+   "numero": 20
+  },
+  "libro_B1": {
+   "ruta": "@@W_BS2@@\\review_20261108_rem167_B1_aceptada.json",
+   "sha256": "649457712e6f3d33ca596021e5c4878782558579971c4f60a5048455cb1b4535"
+  },
+  "auditoria_rem170": {
+   "ruta": "@@W_BS2@@\\review_20261108_rem170_audit_final.json",
+   "sha256": "aeda909d888709379dc90e4179afbd0f1704e8a3375f1221078e1d2b079b4026"
+  },
+  "enlace_rem170": {
+   "ruta": "@@W_BS2@@\\review_20261108_rem170_claims_join.json",
+   "sha256": "232fb614d698b9ca5176d9d3b67bd6294485b94267e75a76974b03dd86574117"
+  },
+  "hallazgos_rem170": {
+   "ruta": "@@W_BS2@@\\review_20261108_rem170_findings.json",
+   "sha256": "698f4af398f564b36f36e735f2b699a575e331d021e3eb566c4f664b62df5275"
+  },
+  "productos_B2": {
+   "X_estado_b2": {
+    "ruta": "@@R_BS2@@\\tmp\\paso4_produccion_b2_doce_cov_desde_rem169\\b2_B2PROD169\\estado_b2.json",
+    "sha256": "a4ccbd1c87db5a9376c39817ee84d92bfc9c336a5fc7e872a2d7ea1998a3c40f",
+    "fijado_por": "libro_B2.products"
+   },
+   "X_evidencia_b2": {
+    "ruta": "@@R_BS2@@\\tmp\\paso4_produccion_b2_doce_cov_desde_rem169\\b2_B2PROD169\\TRABAJO\\EVIDENCIA_B2.json",
+    "sha256": "dfbe7e6cb7c1c2c97c408797ddb9634be9704ab91892fb3df349f2cc50b0f56d",
+    "fijado_por": "libro_B2.products"
+   },
+   "X_plan_inicio": {
+    "ruta": "@@R_BS2@@\\tmp\\paso4_produccion_b2_doce_cov_desde_rem169\\b2_B2PROD169\\TRABAJO\\PLAN_INICIO.json",
+    "sha256": "e0e1ff3f76eee7ad6f951790591efbba7037cd0990213a77b4d889308de4bf77",
+    "fijado_por": "libro_B2.products"
+   },
+   "X_validacion_b2": {
+    "ruta": "@@R_BS2@@\\tmp\\paso4_produccion_b2_doce_cov_desde_rem169\\b2_B2PROD169\\VALIDACION\\VALIDACION_B2.json",
+    "sha256": "aa30bc5b6e2e17bf346acb360be064b15511d24b764500b46b4a01990849366e",
+    "fijado_por": "libro_B2.products"
+   },
+   "X_lectura_b2": {
+    "ruta": "@@R_BS2@@\\tmp\\paso4_produccion_b2_doce_cov_desde_rem169\\b2_B2PROD169\\VALIDACION\\LECTURA_B2.json",
+    "sha256": "1fd0e1803a7fa4824b750f89a1a1e489232086e99a3469ba205abded28417638",
+    "fijado_por": "libro_B2.products"
+   }
+  },
+  "entrega_B2_inventario": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_produccion_b2_doce_cov_desde_rem169\\audit\\entrega.json",
+   "sha256": "b7354ee7d9956fd6e38d929ff471f5af6638339bc335de4592ea6bdc739058b5"
+  },
+  "informe_rem169": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_produccion_b2_doce_cov_desde_rem169\\INFORME_REM169.md",
+   "sha256": "6c51b049d82ed5d20b1916171fdc8f253b8d30a901011c27185aba1d88dff40b"
+  },
+  "lectura_B1": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_produccion_b1_doce_cov_desde_rem166\\b1_B1PROD166\\VALIDACION\\LECTURA_B1.json",
+   "sha256": "ec3db4e494caeb413407157ae0027c39da5e49f712bf83468d63c5c7e35df960",
+   "fijado_por": "libro_B1.products"
+  },
+  "entrega_B1_inventario": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_produccion_b1_doce_cov_desde_rem166\\audit\\entrega.json",
+   "sha256": "af7678fda72eca202a3fa0e369c35279f13cbc2241c84e702aadcbf4267b6f4c"
+  },
+  "soporte_rem162": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_preparacion_precisa_doce_cov_desde_rem162\\soporte\\CONTEXTO_COL_POR_GRUPO.json",
+   "sha256": "5821bb3dae7d4c4dc93e8e956da8984dfeec931587b16b8e7329231c8819d810",
+   "fijado_por": "auditoría rem170 source_hashes"
+  },
+  "uso": "autoridad única de la clasificación vigente robust_infeasible de las doce y de su cota global"
+ },
+ "referencias_de_la_base": {
+  "libros": {
+   "ENF": {
+    "ruta": "@@W_BS2@@\\review_20261105_rem148_EXP8_ENF_aceptada.json",
+    "sha256": "74342fd08788103af28fcba180e864a91a6c02cd7737d67bb5e94e6123ead571"
+   },
+   "COV": {
+    "ruta": "@@W_BS2@@\\review_20261105_rem152_COV_aceptada.json",
+    "sha256": "accdf8abd212e41ea34719853ec36ba09f3a0f1e54b3309ec6925a018eb1490c"
+   },
+   "P7": {
+    "ruta": "@@W_BS2@@\\review_20261105_rem155_P7_aceptado.json",
+    "sha256": "ae2c36e5d5c509b879eb9c423e7564e215ee1bf3d85617e4e3cf3039fca6d652"
+   },
+   "Q": {
+    "ruta": "@@W_BS2@@\\review_20261106_rem159_Q_local_aceptada.json",
+    "sha256": "a6946c0e8fbe06db29f9f9fef9afdf91621ff2354d6eacbb169ac6a751c8db5e"
+   },
+   "Q_DIAG": {
+    "ruta": "@@W_BS2@@\\review_20261106_rem156_Q_diagnostico.json",
+    "sha256": "7609b7bdfb0bc66305100d3b2967e7612e5430d36f1d653c54f25ba49d4f1301"
+   },
+   "ENF_ORIGEN": {
+    "ruta": "@@W_BS2@@\\review_20261101_rem132_ENF_integral_aceptado.json",
+    "sha256": "500537615c2c0deebebec90165f6aae5fe2e7272b8fe1976ca00376a8c34debf"
+   }
+  },
+  "dictamenes_y_registros": {
+   "rem148": {
+    "ruta": "@@W_BS2@@\\review_20261105_rem148_dictamen.txt",
+    "sha256": "3e7977c33dd5a4b74870c8efb4959b66cbaedcd1028fad544d92c45aaaea42d1"
+   },
+   "rem149": {
+    "ruta": "@@W_BS2@@\\review_20261105_rem149_dictamen.txt",
+    "sha256": "669af810c99a8a1c24b52a589f53996de7d89a775b52a51c40e005049d2b72b5"
+   },
+   "rem157": {
+    "ruta": "@@W_BS2@@\\review_20261106_rem157_dictamen.txt",
+    "sha256": "65e4ccba0ef8ed89e0b0e5908cce2f4f66bc026fbc6f85bcbc959c0be6040c52"
+   },
+   "rem158": {
+    "ruta": "@@W_BS2@@\\review_20261106_rem158_dictamen.txt",
+    "sha256": "6a9173e21d10f29e68359a11f2a269a458273d3dd1654aae49067c2cfb09e51b"
+   },
+   "rem159": {
+    "ruta": "@@W_BS2@@\\review_20261106_rem159_dictamen.txt",
+    "sha256": "58998d564ae69d8a7348447309c4faedf8c911f88d68c6fa2361b55db848714b"
+   },
+   "eleccion_m_Q": {
+    "ruta": "@@W_BS2@@\\review_20261106_rem158_eleccion_m_Q.json",
+    "sha256": "1b95216b1785d4b9284a23297bf4ebc1f84a28768b011c53018251a59cec7643"
+   }
+  },
+  "fuentes": {
+   "ENF_POR_AFIRMACION": {
+    "ruta": "@@R_BS2@@\\tmp\\paso4_ablaciones_exp8_desde_rem147\\exp8\\ENF_POR_AFIRMACION.jsonl",
+    "sha256": "e0670acc74ac1aaf92686b4fd207c11da1aa8636833b140e40c0a08ddc30ac3c",
+    "bytes": 5297361,
+    "autorizada_por": {
+     "libro": "ENF",
+     "sha256": "74342fd08788103af28fcba180e864a91a6c02cd7737d67bb5e94e6123ead571",
+     "campo": "product / product_sha256"
+    }
+   },
+   "CONCILIACION_COV": {
+    "ruta": "@@R_BS2@@\\tmp\\paso4_produccion_cov_desde_rem151\\cov_REM151_COV\\CONCILIACION\\CONCILIACION_COV.jsonl",
+    "sha256": "5ba0142304deb949777ad3ae3443556250f2237d214cb4e4fb0d427aa5ea049f",
+    "bytes": 2659012,
+    "autorizada_por": {
+     "libro": "COV",
+     "sha256": "accdf8abd212e41ea34719853ec36ba09f3a0f1e54b3309ec6925a018eb1490c",
+     "campo": "products[...CONCILIACION_COV.jsonl]"
+    }
+   },
+   "SUPLEMENTO_P7": {
+    "ruta": "@@R_BS2@@\\tmp\\paso4_produccion_siete_casos_desde_rem154\\p7_REM154_P7\\CONCILIACION\\SUPLEMENTO_P7.jsonl",
+    "sha256": "a450014b1b431b8099586360e877647650a9ced27ab6b40a1d8b997a861344bc",
+    "bytes": 13926,
+    "autorizada_por": {
+     "libro": "P7",
+     "sha256": "ae2c36e5d5c509b879eb9c423e7564e215ee1bf3d85617e4e3cf3039fca6d652",
+     "campo": "products[...SUPLEMENTO_P7.jsonl] = summary.producto_sha256"
+    }
+   },
+   "Q_contrato": {
+    "ruta": "@@R_BS2@@\\tmp\\paso4_produccion_q_local_desde_rem158\\q_lanzamientos\\QPROD158\\Q-MAT-CONTRATO\\resultado.json",
+    "sha256": "95cfa83d90d6172f8478e840493f8e7aa477b05881a1783966ac3d1a9e5b6683",
+    "bytes": 2961991,
+    "autorizada_por": {
+     "libro": "Q",
+     "sha256": "a6946c0e8fbe06db29f9f9fef9afdf91621ff2354d6eacbb169ac6a751c8db5e",
+     "campo": "products[...Q-MAT-CONTRATO\\resultado.json]"
+    }
+   },
+   "Q_conservadora": {
+    "ruta": "@@R_BS2@@\\tmp\\paso4_produccion_q_local_desde_rem158\\q_lanzamientos\\QPROD158\\Q-MAT-CONSERVADORA\\resultado.json",
+    "sha256": "248193c245db979d5e84032175a5f9b01dfc6e1d36dbc3e865253796b92c50c6",
+    "bytes": 2977191,
+    "autorizada_por": {
+     "libro": "Q",
+     "sha256": "a6946c0e8fbe06db29f9f9fef9afdf91621ff2354d6eacbb169ac6a751c8db5e",
+     "campo": "products[...Q-MAT-CONSERVADORA\\resultado.json]"
+    }
+   },
+   "Q_DIAGNOSTICO_GENERAL": {
+    "ruta": "@@W_BS2@@\\review_20261106_rem156_Q_diagnostico.json",
+    "sha256": "7609b7bdfb0bc66305100d3b2967e7612e5430d36f1d653c54f25ba49d4f1301",
+    "autorizada_por": {
+     "libro": "Q",
+     "campo": "general_diagnostic_separate",
+     "sha256": "a6946c0e8fbe06db29f9f9fef9afdf91621ff2354d6eacbb169ac6a751c8db5e"
+    },
+    "uso": "referencia del resultado técnico general 0<m<=1 (diagnóstico aceptado, separado de la producción)"
+   }
+  },
+  "excepcion_integridad_ENF": {
+   "area": "@@R_BS2@@\\tmp\\paso4_ablaciones_exp8_desde_rem147",
+   "inventario_original_conforme": false,
+   "integridad_observada_sha256": "1101e0a0bd40ec125cba041be198e8e7ab8e81517a7a25235a5956bb6ad3788f",
+   "nota": "el producto ENF se autentica por su huella fijada en el libro rem148; la excepción rem147 (logs/sello.txt) se conserva"
+  },
+  "referencias_no_autoridad": {
+   "MATRIZ_CANALES_LOCALES rem156": "solo con los límites ratificados por rem157/rem158/rem159",
+   "FICHA_D_EXP8 rem148": "antecedente para el diferencial; no estado vigente",
+   "N3_PROPUESTA rem148": "antecedente para el diferencial; no estado vigente"
+  },
+  "nota": "copiados sin cambios del manifiesto rem160: procedencia de los campos de la base"
+ },
+ "esquema_declarado": {
+  "ruta": "construccion/ESQUEMA_DECLARADO_REM170.json",
+  "sha256": "f4e474457cf0e70135f02da7cb0333ec8be6f7334452969c9a1ffb7bb33dd443"
+ },
+ "campos_cambiados": {
+  "filas_doce": [
+   "COV.conclusion",
+   "COV.resolucion_global (nueva)",
+   "se_sabe[elemento «COV phi/2:»]",
+   "no_se_concluye[elemento de la clasificación bajo phi/2]",
+   "no_se_concluye (+1 elemento al final)"
+  ],
+  "filas_ajenas": "ninguno: 1.716 líneas idénticas byte a byte",
+  "resumen": [
+   "COV",
+   "COV_cambios_de_signo_certificados",
+   "cotejos_esperados_del_encargo",
+   "filas_sha256",
+   "kind",
+   "listas",
+   "por_dimension",
+   "por_pais_y_bloque",
+   "utc"
+  ],
+  "resumen_nuevas": [
+   "COV_resolucion_global",
+   "derivado_de"
+  ]
+ },
+ "salidas": {
+  "sintesis/EXP8_POR_AFIRMACION.jsonl": "b4abf72c532431b6f2d221d2f354e5f0f34de04fc75e3d9b6e7f255e47bb6276",
+  "sintesis/COV12_RESOLUCION_GLOBAL.jsonl": "ac18226808b7e0124140043347e853a6581097e4433798932083f4ed9b02fd7f",
+  "sintesis/RESUMEN_EXP8.json": "e9a8b9e6bb75817bea0e86f7883ca14400a17d768e249015212fd4aa8545324c"
+ },
+ "construccion": {
+  "script": "construccion/construir_integracion_rem170.py",
+  "sha256": "95493c614aa367c2ad97913387aa56ee7e532e44eb1775a5227143d7063593a6"
+ }
+}

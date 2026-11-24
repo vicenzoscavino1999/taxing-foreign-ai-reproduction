@@ -1,0 +1,80 @@
+{
+ "codigo": {
+  "nucleo_s6/t8/tmp/paso4_conexion_cinco_filas_t8_desde_rem145/conexion_c5b/paquete/conexion_c5b.py": "006ec4fa2a4f5d1d7b60c09f9a226f6b83282cd1b9640dc8cacadaca6ecfb461",
+  "nucleo_s6/t8/tmp/paso4_conexion_cinco_filas_t8_desde_rem145/conexion_c5b/paquete/materializar_t8_c5b.py": "df22d8903e5e7c90547d4e924402892b374550de1df64f6e3e96a9b9c1908d75",
+  "nucleo_s6/t8/tmp/paso4_conexion_cinco_filas_t8_desde_rem145/conexion_c5b/paquete/verificar_t8_c5b.py": "8e78b261ce4b534ab899d365ca22549451e912a182086928f15f8dad8976220d",
+  "nucleo_s6/t8/tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/certificacion_fila.py": "4741b4ea3b72fc2f754cc2d8c79dd9dd718f8e37205bf3e4ee5c0c539be60f4b",
+  "nucleo_s6/t8/tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/conexion_captura.py": "f7a8d23f5d2558843f4620052b49d20250cf23c67ac8a02d54ea57db1c05dba7",
+  "nucleo_s6/t8/tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/materializar_captura.py": "8ef790ffccbc4b8875f29f986fcca36c8d184ef7b1d6066fe696387236786263",
+  "nucleo_s6/t8/tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3/verificar_captura.py": "18d6872a13527aa590406db33d9e6e901fb8e9596b301d1a60f09d14051c6860",
+  "nucleo_s6/t8/tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/adaptador_fila_testigo.py": "7cbebc7691c68d7d902d4c0944f30f8b3b4a1844c409a9f089f88fd7da60b0e2",
+  "nucleo_s6/t8/tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/construir_incorporacion.py": "bfa2d5ba3f41b4f8aa4ade3c4243c4d045388a008e24e3b7f5fff8262fe4d775",
+  "nucleo_s6/t8/tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/lector_fuente_testigo.py": "9e25706026743e1b92221029f0e30faaf3c64df703f8c07451848b9696ad7d7a",
+  "nucleo_s6/t8/tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/testigo_comun.py": "3f8ec27b92c9e04c6d1b5e688f38fe3663440c1e3aa54a9fd9392e6617f28b52",
+  "nucleo_s6/t8/tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/trabajador_testigo.py": "fefa171c21f74248860a7ac984d562d21ee74a0f7b5d47a3058c40554a4741fa",
+  "nucleo_s6/t8/tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/validar_testigo.py": "69989e41136706f995d4e24b33fbde0c8e63d98440b61d7cdc9b5b7fe5fb80fe",
+  "nucleo_s6/t8/tmp/paso4_incorporacion_testigo_desde_rem142/conexion_testigo/paquete/conexion_testigo.py": "a292a929d1e74178726777d32e103b3897d1e39ad01b7b3ffab324c5c904657c",
+  "nucleo_s6/t8/tmp/paso4_incorporacion_testigo_desde_rem142/conexion_testigo/paquete/materializar_t8_testigo.py": "c6f0db6b86dd001785dbb6ac0334a46d1903daae76b1304aa38e7cc25bb5361d",
+  "nucleo_s6/t8/tmp/paso4_incorporacion_testigo_desde_rem142/conexion_testigo/paquete/verificar_t8_testigo.py": "3e20c16b6e5b50aeed542a9e0c9c09926c45cdecc81b6d2d3e80334a675cbb97",
+  "nucleo_s6/t8/tmp/paso4_procedencia_cota_desde_rem136/lote_emision_lambda/materializar_lambda.py": "6beb73b45fa49d7acbd35ddfd857dd9c80fa65999e53065d3ed1af623b43d5e9",
+  "nucleo_s6/t8/tmp/paso4_procedencia_cota_desde_rem136/lote_emision_lambda/validar_emision_lambda.py": "4fd9d680247c6d9d464698e78c545580f357623a3c0ee88ada69f875682cffdb",
+  "nucleo_s6/t8/tmp/paso4_procedencia_cota_desde_rem136/lote_emision_lambda/verificar_producto_lambda.py": "ef459e8d5fe0c8697a10aa5879ef3e0a3e4d129d6638cf4a396de8ce6ab27ef5"
+ },
+ "decision": null,
+ "emitida_utc": "2026-11-18T00:00:00+00:00",
+ "etiqueta": "REPRODUCCION LIMPIA FAM09 NO OFICIAL",
+ "kind": "declaracion-ejecucion-limpia-fam09",
+ "modos": {
+  "F09-C5B": "candidata",
+  "F09-CAPTURA": "candidata",
+  "F09-LAMBDA": "candidata",
+  "F09-TESTIGO (cálculo y validación)": "produccion con esta declaración",
+  "F09-TESTIGO (emisión)": "candidata"
+ },
+ "naturaleza": "PUERTA-v1: las puertas de producción (alcance v3 verificado por C0 y decisión humana nativa) no se ejecutan ni se reconstruyen. λ, captura, emisión del testigo y C5B corren en modo candidata (sin alcance ni decisión). El testigo alto corre en modo produccion con ESTE documento como alcance: fija antes de calcular las entradas esperadas, las asignaciones y los límites (un proceso, 600 s). No es un alcance ni una decisión; no autoriza producción oficial ni sustituye a los alcances históricos (210015d7… del testigo; los de rem137/rem139/rem143/rem146).",
+ "oficial": false,
+ "operaciones": [
+  "TESTIGO_ALTO_C3"
+ ],
+ "testigo": {
+  "asignaciones": {
+   "TESTIGO-ALTO-TRABAJO": {
+    "procesos": 1,
+    "tope_s": 600.0,
+    "trabajador": "trabajador_testigo.py"
+   },
+   "TESTIGO-ALTO-VALIDAR": {
+    "procesos": 1,
+    "tope_s": 600.0,
+    "validador": "validar_testigo.py"
+   }
+  },
+  "entradas": {
+   "clave": "e8b1f7fdb9c7017605e0a4162fc6688e7b6ed01d2308ff72106ed6cf6834a97b",
+   "controles": "706ead3f40069c5b9919edd6ec1d5a1caf58c4820977880bb245681c6e5408c0",
+   "d7_arbol": "10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739",
+   "grupo": "EQ-TECHO-T8-1",
+   "manifiesto_testigo": "3ed91d323c7f0f0e56eb31b01b41ef864c68bea029936afd4d090f36c9939ad4",
+   "modulos_ruta_real_sha256": "5a48291e0c1ab78616f076da879f312d590c393f3b230e8bb1476b304020e5fd",
+   "nucleo_archivos_sha256": "77e6b50d07c7f7e68563f93133f7d62c39e10cb66905fdf00849da7e98bebe6d",
+   "nucleo_inventario": "1bb94b75d57c4b97e9ebf662bc6cc6117e3b8b30792e46d6d1e5ef1a36ea8cdd",
+   "piezas": {
+    "testigo_comun.py": "3f8ec27b92c9e04c6d1b5e688f38fe3663440c1e3aa54a9fd9392e6617f28b52",
+    "trabajador_testigo.py": "fefa171c21f74248860a7ac984d562d21ee74a0f7b5d47a3058c40554a4741fa",
+    "validar_testigo.py": "69989e41136706f995d4e24b33fbde0c8e63d98440b61d7cdc9b5b7fe5fb80fe"
+   },
+   "puente": "32750ce609ea043a04b6feb7fd7a1a218f5f32bc5f6b60cfa8d1f94a9086c400"
+  },
+  "instalacion_identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+  "limites": {
+   "intentos": 1,
+   "procesos": 1,
+   "tope_s": 600.0,
+   "union_s": 10800.0
+  },
+  "tareas": [
+   "TESTIGO-ALTO-TRABAJO",
+   "TESTIGO-ALTO-VALIDAR"
+  ]
+ }
+}

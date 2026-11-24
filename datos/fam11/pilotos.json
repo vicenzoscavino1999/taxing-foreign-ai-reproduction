@@ -1,0 +1,30 @@
+{
+ "pilotos": [
+  {
+   "claves": 18,
+   "comparaciones": 1438,
+   "duracion_historica": "≈70 s según el encargo (informativa; no es un tope)",
+   "limite_externo_s": 2400.0,
+   "operacion": "F11-COV26",
+   "reloj_interno_s": 2280.0,
+   "unidad": "ABL-COV-T1"
+  },
+  {
+   "limite_externo_s": 600.0,
+   "operacion": "F11-B1",
+   "presupuestos": "los del manifiesto B1 (param_budget_s 3600, struct_max_boxes 400; sin recortes)",
+   "solicitudes": 1,
+   "unidad": "B1"
+  },
+  {
+   "Q": 60,
+   "consume": "el B1 nuevo del piloto 2, validado por fam11-validar (ENLACE-B1-v1)",
+   "contextos_efectivos": 1920,
+   "limite_externo_s": 600.0,
+   "operacion": "F11-B2",
+   "puentes": 480,
+   "unidad": "B2"
+  }
+ ],
+ "regla": "fijados por el encargo de FAM11 antes de calcular y sin mirar resultados: (1) la tarea completa ABL-COV-T1 (sus 18 claves, con los presupuestos científicos originales; límite externo 2.400 s); (2) B1 completo con su única solicitud (600 s); (3) B2 completo consumiendo el B1 NUEVO validado del piloto 2 (600 s). Un supervisor, una invocación cada vez; un vencimiento real se informa y no se relanza."
+}

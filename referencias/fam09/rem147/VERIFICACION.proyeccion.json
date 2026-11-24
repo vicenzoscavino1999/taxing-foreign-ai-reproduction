@@ -1,0 +1,153 @@
+{
+ "kind": "verificacion-vista-t8-captura-c5b",
+ "utc": "2026-11-05T04:29:52.800832+00:00",
+ "modo": "produccion",
+ "puerta": {
+  "modo": "produccion",
+  "manifiesto_sha256": "dc34c455608490c2fa065e13e5bfd7d9f752613863359f55160a26b604395623",
+  "indice_sha256": "200d49ad6eb31fae786826acb1c2cb1065ea4a889f4886e13c52af154c67094e",
+  "alcance_sha256": "8f2ac08b91c8ace969ee856461974945146e0fc12c297c147c8a005584a5dc9c",
+  "decision": {
+   "proveedor": "claude",
+   "transcripcion": "@@TRANSCRIPCION_PERFIL_BS2@@\\9b2b3b21-bc8b-4128-9131-b0860deaec9d.jsonl",
+   "linea": 14343,
+   "uuid": "9d3437be-cc21-49aa-ba1a-6358695b3219",
+   "session_id": "9b2b3b21-bc8b-4128-9131-b0860deaec9d",
+   "timestamp": "2026-11-05T04:28:50.098Z",
+   "registro_sha256": "7db4e952c83e1be32567afd5346f7aa3d94ee1e1678bff69f04b6d4180fbf67a",
+   "contenido": "AUTORIZO ALCANCE PASO4 alcance_sha256=8f2ac08b91c8ace969ee856461974945146e0fc12c297c147c8a005584a5dc9c",
+   "mensaje_sha256": "7db4e952c83e1be32567afd5346f7aa3d94ee1e1678bff69f04b6d4180fbf67a",
+   "alcance_sha256": "8f2ac08b91c8ace969ee856461974945146e0fc12c297c147c8a005584a5dc9c",
+   "modo_arnes": false
+  },
+  "tarea": "T8-C5B-VERIFICAR",
+  "entradas": {
+   "alcance": "@@R_FS@@/tmp/paso4_emision_cinco_filas_t8_desde_rem146/alcance/alcance_t8_c5b.json",
+   "decision": "@@R_FS@@/tmp/paso4_emision_cinco_filas_t8_desde_rem146/alcance/decision_ref_t8_c5b.json"
+  }
+ },
+ "manifiesto_sha256": "dc34c455608490c2fa065e13e5bfd7d9f752613863359f55160a26b604395623",
+ "conforme": true,
+ "fallos": [],
+ "detalle": {
+  "resumen": {
+   "filas": 13656,
+   "no_captura": 11545,
+   "definitivo_almacenado": 9434,
+   "lambda_finalizadas": 2111,
+   "captura_filas": 2111,
+   "captura_computed": 963,
+   "captura_outside_support": 1148,
+   "captura_pendiente": 0,
+   "definitivas_candidatas": 13656,
+   "pendientes": 0,
+   "captura_por_tipo": {
+    "exclusion_cota_33_10": 264,
+    "exclusion_cota_U": 879,
+    "exclusion_cota_U_global": 5,
+    "pertenencia_misma_corrida": 365,
+    "pertenencia_testigo_alto": 35,
+    "pertenencia_transferida": 563
+   },
+   "captura_pendientes_por_causa": {},
+   "captura_cambios": 963,
+   "actualizadas_por_c5b": [
+    7028,
+    7208,
+    8144,
+    8186,
+    9578
+   ],
+   "testigo_alto_preservadas": [
+    6884,
+    6902,
+    6926,
+    7172,
+    7196,
+    7244,
+    7322,
+    7598,
+    7682,
+    7772,
+    7916,
+    7958,
+    7964,
+    8288,
+    8378,
+    8462,
+    8552,
+    8606,
+    8636,
+    8654,
+    8786,
+    8876,
+    8930,
+    9014,
+    9020,
+    9188,
+    9224,
+    9260,
+    9350,
+    9398,
+    9458,
+    9542,
+    9560,
+    9680,
+    9686
+   ],
+   "pendientes_filas": [],
+   "corridas": [
+    "BRUN-050091213b198d7cd7ba9ea2",
+    "BRUN-1368187e9a43de0d95926dca",
+    "BRUN-47e3d9f48d2b65e9ddeed02f",
+    "BRUN-4ef8507fcdefbddc55dbc3b7",
+    "BRUN-5b35ba3f51bc08bd48b384bd",
+    "BRUN-612818cb081c6797d4923b4d",
+    "BRUN-63a9e9ea157b2faaf317ae61",
+    "BRUN-7bdfe0a1bee57298e31e1b34",
+    "BRUN-991c466a1938ddbf2192eefb",
+    "BRUN-9c6c66e7af8b139a613b1c3f",
+    "BRUN-a81e3f45f7111e18b1f39370",
+    "BRUN-c5af32a993773f5258ce570f",
+    "BRUN-cb33e6b24039acc84fb1a065",
+    "BRUN-f5f58960bbf9017776d3d7fc"
+   ],
+   "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42"
+  },
+  "producto_sha256": "12826a0518b4a7479f135d47b4e387cf73e43d73744d576e53b375f969a199a2",
+  "base_vista_sha256": "ec6e3929dd6be8dbb56b17493ce51061b95dde7991722832045a1c4411c8fd93",
+  "procedencia": {
+   "cotejados": [
+    "modo",
+    "manifiesto_sha256",
+    "indice_sha256",
+    "alcance_sha256",
+    "decision",
+    "kind",
+    "productivo",
+    "modo",
+    "manifiesto_sha256",
+    "fuentes"
+   ],
+   "contexto": {
+    "modo": "produccion",
+    "manifiesto_sha256": "dc34c455608490c2fa065e13e5bfd7d9f752613863359f55160a26b604395623",
+    "indice_sha256": "200d49ad6eb31fae786826acb1c2cb1065ea4a889f4886e13c52af154c67094e",
+    "alcance_sha256": "8f2ac08b91c8ace969ee856461974945146e0fc12c297c147c8a005584a5dc9c",
+    "decision": {
+     "proveedor": "claude",
+     "transcripcion": "@@TRANSCRIPCION_PERFIL_BS2@@\\9b2b3b21-bc8b-4128-9131-b0860deaec9d.jsonl",
+     "linea": 14343,
+     "uuid": "9d3437be-cc21-49aa-ba1a-6358695b3219",
+     "session_id": "9b2b3b21-bc8b-4128-9131-b0860deaec9d",
+     "timestamp": "2026-11-05T04:28:50.098Z",
+     "registro_sha256": "7db4e952c83e1be32567afd5346f7aa3d94ee1e1678bff69f04b6d4180fbf67a",
+     "contenido": "AUTORIZO ALCANCE PASO4 alcance_sha256=8f2ac08b91c8ace969ee856461974945146e0fc12c297c147c8a005584a5dc9c",
+     "mensaje_sha256": "7db4e952c83e1be32567afd5346f7aa3d94ee1e1678bff69f04b6d4180fbf67a",
+     "alcance_sha256": "8f2ac08b91c8ace969ee856461974945146e0fc12c297c147c8a005584a5dc9c",
+     "modo_arnes": false
+    }
+   }
+  }
+ }
+}

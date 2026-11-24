@@ -1,0 +1,486 @@
+{
+ "kind": "tabla-T8-rem183",
+ "objeto": "T8",
+ "titulo_diseno": "Inversión: puente requerido y ganancia potencial requerida, con banderas",
+ "cita_diseno": {
+  "documento": "PLAN_DISENO_v2_2_30.md",
+  "sha256": "08fc62957ca33f413cb0c82760426b4d57b7d37f24421d6c35d5670a23e47c9a",
+  "linea": 2695
+ },
+ "estado": "candidato de preparación editorial S1 (rem183); fuera del manuscrito; no aceptado; no es exportación oficial",
+ "obligacion_posterior": "T8.tabla_cuerpo",
+ "estado_obligacion_posterior": "etapa_posterior",
+ "fuentes": [
+  {
+   "id": "P_t8_vista_C5B",
+   "ruta": "tmp/paso4_emision_cinco_filas_t8_desde_rem146/t8_c5b_vista_T8_C5B/VISTA_T8_CAPTURA.jsonl",
+   "sha256": "12826a0518b4a7479f135d47b4e387cf73e43d73744d576e53b375f969a199a2",
+   "bytes": 25325993,
+   "autoridad": [
+    "L_rem147"
+   ]
+  }
+ ],
+ "controles_selector": [
+  {
+   "selector": "S_T8_FILAS",
+   "producto": "P_t8_vista_C5B",
+   "filas": 13656,
+   "cardinalidad": 13656,
+   "duplicados": 0,
+   "huella_claves": "7a6e399c24134b617ec505e404a9a021dbe720e4967481b3ebbee4219f6998de",
+   "huella_mapa": "7a6e399c24134b617ec505e404a9a021dbe720e4967481b3ebbee4219f6998de",
+   "filas_mapa": 13656,
+   "igual_al_mapa": true
+  },
+  {
+   "selector": "S_T8_DEFINITIVAS_PREVIAS",
+   "producto": "P_t8_vista_C5B",
+   "filas": 9434,
+   "cardinalidad": 9434,
+   "duplicados": 0,
+   "huella_claves": "6688f0d92d9bb558cd0f629cabdcd434ab6ff8387f47f9d3d2943f84c055c072",
+   "huella_mapa": "6688f0d92d9bb558cd0f629cabdcd434ab6ff8387f47f9d3d2943f84c055c072",
+   "filas_mapa": 9434,
+   "igual_al_mapa": true
+  },
+  {
+   "selector": "S_T8_LAMBDA",
+   "producto": "P_t8_vista_C5B",
+   "filas": 2111,
+   "cardinalidad": 2111,
+   "duplicados": 0,
+   "huella_claves": "e7b4d659eb80fb87f1c3152a8b3d980bfe2bdf6e56b227462461eb015b8e4d91",
+   "huella_mapa": "e7b4d659eb80fb87f1c3152a8b3d980bfe2bdf6e56b227462461eb015b8e4d91",
+   "filas_mapa": 2111,
+   "igual_al_mapa": true
+  },
+  {
+   "selector": "S_T8_CAPTURA",
+   "producto": "P_t8_vista_C5B",
+   "filas": 2111,
+   "cardinalidad": 2111,
+   "duplicados": 0,
+   "huella_claves": "fda8d7b2229e9b104e85b2888bf71728fafa5eb3b2a2971a87151ac5acd3df5a",
+   "huella_mapa": "fda8d7b2229e9b104e85b2888bf71728fafa5eb3b2a2971a87151ac5acd3df5a",
+   "filas_mapa": 2111,
+   "igual_al_mapa": true
+  },
+  {
+   "selector": "S_T8_CORRIDAS",
+   "producto": "P_t8_vista_C5B",
+   "filas": 13656,
+   "cardinalidad": 14,
+   "duplicados": 13642,
+   "huella_claves": "2d33337b8227f6d7e3bcdddd5d97f76710bda57b09fae4c03ecbdef98f859870"
+  },
+  {
+   "selector": "S_T8_UNIDADES",
+   "producto": "P_t8_vista_C5B",
+   "filas": 13656,
+   "cardinalidad": 2276,
+   "duplicados": 11380,
+   "huella_claves": "cb30816ff19c3a3463ff1c8d65e141874438fe47a00f83192116b0c82f956c57"
+  }
+ ],
+ "limites_mapa": [
+  "13.656 + 0",
+  "outside_support no es infactibilidad",
+  "la vista vigente encadena resultados históricos (9.434 definitivas previas), la emisión lambda (L_rem138: 2.111), la captura (L_rem140: 2.071), el testigo alto (L_rem142 fuente; L_rem144: 35 filas) y la exclusión C5B (L_rem147: 5 filas)",
+  "las cinco filas finalizadas por la exclusión C5B son un resultado de T8 (L_rem147); D-EXP0 regula otra cosa: el reporte de las entradas de las 14 corridas",
+  "las referencias internas de procedencia (campo ref) no son redistribuibles tal cual: hay que mapearlas a identificadores del paquete"
+ ],
+ "notas_de_garantia": "la de cada fila (histórico o sucesor), declarada por fila",
+ "transformaciones_mapa": {
+  "evaluacion_cientifica": "ninguna: el ensamblado solo selecciona, une, agrupa por claves declaradas y da formato a valores aceptados; no recalcula, no reclasifica, no promedia (H12) y no elige celda de referencia",
+  "seleccion": "S_T8_FILAS (13.656) de la vista C5B; CAPTURA (2.111), LAMBDA (2.111), DEFINITIVAS_PREVIAS (9.434)",
+  "union": "ninguna: la vista ya integra histórico y sucesor por fila",
+  "agregacion": "en el cuerpo, recuentos por estado/bandera con denominador y rangos por país; las 13.656 filas van al anexo",
+  "redondeo": "de presentación, declarado",
+  "formato": "lambda_pi_required y delta_y_required con estado y banderas (outside_support, no_solution, kink_adjacent, admissibility_violated)"
+ },
+ "condicion_firewall": "Insertar la tabla en main.tex (secciones Quantitative Results/Discussion, marcadas FROZEN en l.720 y l.723) exige la condición del firewall: diseño §8.4, §12.5 (Gate 5), §12.6 (Gate 6), §12.7 (Fase 7, Gate 7) y H11 (l.2090). La preparación fuera del .tex no lo levanta.",
+ "notas": [
+  "las etapas de captura (2.071 + 35 + 5) desglosan las 2.111 filas de captura; no se suman al total",
+  "estado vigente = campo almacenado declarado por grupo de selector; los campos de fila de la vista se conservan aparte",
+  "anexo completo en T8_anexo.jsonl / .csv; ref privado → ID público en la proyección"
+ ],
+ "cuerpo": {
+  "filas": 13656,
+  "por_grupo": {
+   "lambda": 2111,
+   "definitiva_previa": 9434,
+   "captura": 2111
+  },
+  "grupo_x_estado": [
+   {
+    "grupo": "captura",
+    "estado": "computed",
+    "filas": 963
+   },
+   {
+    "grupo": "captura",
+    "estado": "outside_support",
+    "filas": 1148
+   },
+   {
+    "grupo": "definitiva_previa",
+    "estado": "computed",
+    "filas": 804
+   },
+   {
+    "grupo": "definitiva_previa",
+    "estado": "no_feasible_solution",
+    "filas": 2059
+   },
+   {
+    "grupo": "definitiva_previa",
+    "estado": "not_identified",
+    "filas": 4222
+   },
+   {
+    "grupo": "definitiva_previa",
+    "estado": "outside_support",
+    "filas": 1359
+   },
+   {
+    "grupo": "definitiva_previa",
+    "estado": "undefined_denominator",
+    "filas": 990
+   },
+   {
+    "grupo": "lambda",
+    "estado": "computed",
+    "filas": 69
+   },
+   {
+    "grupo": "lambda",
+    "estado": "outside_support",
+    "filas": 2042
+   }
+  ],
+  "captura_por_etapa": {
+   "L_rem140": {
+    "pertenencia_misma_corrida": 365,
+    "pertenencia_transferida": 563,
+    "exclusion_cota_33_10": 264,
+    "exclusion_cota_U": 879
+   },
+   "L_rem144_testigo_alto": {
+    "pertenencia_testigo_alto": 35
+   },
+   "L_rem147_C5B": {
+    "exclusion_cota_U_global": 5
+   },
+   "nota": "etapas de la misma captura (2.071 + 35 + 5 = 2.111); no se suman otra vez al total"
+  },
+  "captura_tipo_prueba_x_estado": [
+   {
+    "tipo_prueba": "exclusion_cota_33_10",
+    "estado": "outside_support",
+    "filas": 264
+   },
+   {
+    "tipo_prueba": "exclusion_cota_U",
+    "estado": "outside_support",
+    "filas": 879
+   },
+   {
+    "tipo_prueba": "exclusion_cota_U_global",
+    "estado": "outside_support",
+    "filas": 5
+   },
+   {
+    "tipo_prueba": "pertenencia_misma_corrida",
+    "estado": "computed",
+    "filas": 365
+   },
+   {
+    "tipo_prueba": "pertenencia_testigo_alto",
+    "estado": "computed",
+    "filas": 35
+   },
+   {
+    "tipo_prueba": "pertenencia_transferida",
+    "estado": "computed",
+    "filas": 563
+   }
+  ],
+  "banderas": {
+   "outside_support": {
+    "verdadero": 5580,
+    "denominador": 13656
+   },
+   "no_solution": {
+    "verdadero": 2059,
+    "denominador": 13656
+   },
+   "kink_adjacent": {
+    "verdadero": 0,
+    "denominador": 13656
+   },
+   "admissibility_violated": {
+    "verdadero": 0,
+    "denominador": 13656
+   },
+   "corner_binding": {
+    "verdadero": 0,
+    "denominador": 13656
+   }
+  },
+  "banderas_fuente": "campo almacenado de la fila histórica de la vista; no es el estado vigente",
+  "outside_support_fila_x_estado_vigente": [
+   {
+    "grupo": "captura",
+    "estado": "computed",
+    "outside_support_fila": true,
+    "filas": 963
+   },
+   {
+    "grupo": "captura",
+    "estado": "outside_support",
+    "outside_support_fila": true,
+    "filas": 1148
+   },
+   {
+    "grupo": "definitiva_previa",
+    "estado": "computed",
+    "outside_support_fila": false,
+    "filas": 804
+   },
+   {
+    "grupo": "definitiva_previa",
+    "estado": "no_feasible_solution",
+    "outside_support_fila": false,
+    "filas": 2059
+   },
+   {
+    "grupo": "definitiva_previa",
+    "estado": "not_identified",
+    "outside_support_fila": false,
+    "filas": 4222
+   },
+   {
+    "grupo": "definitiva_previa",
+    "estado": "outside_support",
+    "outside_support_fila": true,
+    "filas": 1359
+   },
+   {
+    "grupo": "definitiva_previa",
+    "estado": "undefined_denominator",
+    "outside_support_fila": false,
+    "filas": 990
+   },
+   {
+    "grupo": "lambda",
+    "estado": "computed",
+    "outside_support_fila": false,
+    "filas": 1
+   },
+   {
+    "grupo": "lambda",
+    "estado": "computed",
+    "outside_support_fila": true,
+    "filas": 68
+   },
+   {
+    "grupo": "lambda",
+    "estado": "outside_support",
+    "outside_support_fila": true,
+    "filas": 2042
+   }
+  ],
+  "rangos_por_pais_inversion": [
+   {
+    "pais": "COL",
+    "inversion_id": "capture_required",
+    "filas": 815,
+    "no_nulos": 742,
+    "min": 0.06732090084948239,
+    "max": 58.8123767166231,
+    "campo": "C_2_required"
+   },
+   {
+    "pais": "COL",
+    "inversion_id": "external_factor",
+    "filas": 815,
+    "no_nulos": 0,
+    "min": null,
+    "max": null,
+    "campo": "external_factor_required"
+   },
+   {
+    "pais": "COL",
+    "inversion_id": "gain_required",
+    "filas": 815,
+    "no_nulos": 742,
+    "min": 0.008503836893758412,
+    "max": 2000.6670938390364,
+    "campo": "delta_y_required"
+   },
+   {
+    "pais": "COL",
+    "inversion_id": "lambda_required",
+    "filas": 815,
+    "no_nulos": 742,
+    "min": 0.13523387490335653,
+    "max": 87357.36503888748,
+    "campo": "lambda_pi_required"
+   },
+   {
+    "pais": "COL",
+    "inversion_id": "phi_partial",
+    "filas": 815,
+    "no_nulos": 0,
+    "min": null,
+    "max": null,
+    "campo": "phi_critical_partial"
+   },
+   {
+    "pais": "COL",
+    "inversion_id": "phi_total",
+    "filas": 815,
+    "no_nulos": 24,
+    "min": 0.47761136016924866,
+    "max": 0.739462280907901,
+    "campo": "phi_critical_total"
+   },
+   {
+    "pais": "MEX",
+    "inversion_id": "capture_required",
+    "filas": 274,
+    "no_nulos": 250,
+    "min": 0.08877813080914984,
+    "max": 33.71044673733238,
+    "campo": "C_2_required"
+   },
+   {
+    "pais": "MEX",
+    "inversion_id": "external_factor",
+    "filas": 274,
+    "no_nulos": 0,
+    "min": null,
+    "max": null,
+    "campo": "external_factor_required"
+   },
+   {
+    "pais": "MEX",
+    "inversion_id": "gain_required",
+    "filas": 274,
+    "no_nulos": 250,
+    "min": 0.011214269782599965,
+    "max": 2444.3930757651965,
+    "campo": "delta_y_required"
+   },
+   {
+    "pais": "MEX",
+    "inversion_id": "lambda_required",
+    "filas": 274,
+    "no_nulos": 250,
+    "min": 0.17150302034939816,
+    "max": 150109.0434743054,
+    "campo": "lambda_pi_required"
+   },
+   {
+    "pais": "MEX",
+    "inversion_id": "phi_partial",
+    "filas": 274,
+    "no_nulos": 0,
+    "min": null,
+    "max": null,
+    "campo": "phi_critical_partial"
+   },
+   {
+    "pais": "MEX",
+    "inversion_id": "phi_total",
+    "filas": 274,
+    "no_nulos": 8,
+    "min": 0.005769086972577497,
+    "max": 0.051748326019151136,
+    "campo": "phi_critical_total"
+   },
+   {
+    "pais": "PER",
+    "inversion_id": "capture_required",
+    "filas": 1187,
+    "no_nulos": 1119,
+    "min": 0.046473540428069386,
+    "max": 41.530467918295365,
+    "campo": "C_2_required"
+   },
+   {
+    "pais": "PER",
+    "inversion_id": "external_factor",
+    "filas": 1187,
+    "no_nulos": 0,
+    "min": null,
+    "max": null,
+    "campo": "external_factor_required"
+   },
+   {
+    "pais": "PER",
+    "inversion_id": "gain_required",
+    "filas": 1187,
+    "no_nulos": 1119,
+    "min": 0.005870441463036781,
+    "max": 2090.2237096949625,
+    "campo": "delta_y_required"
+   },
+   {
+    "pais": "PER",
+    "inversion_id": "lambda_required",
+    "filas": 1187,
+    "no_nulos": 1119,
+    "min": 0.09136872036450597,
+    "max": 150440.3458048707,
+    "campo": "lambda_pi_required"
+   },
+   {
+    "pais": "PER",
+    "inversion_id": "phi_partial",
+    "filas": 1187,
+    "no_nulos": 0,
+    "min": null,
+    "max": null,
+    "campo": "phi_critical_partial"
+   },
+   {
+    "pais": "PER",
+    "inversion_id": "phi_total",
+    "filas": 1187,
+    "no_nulos": 20,
+    "min": 0.02676591111230664,
+    "max": 0.037883076089201495,
+    "campo": "phi_critical_total"
+   }
+  ],
+  "rangos_nota": "min–max de valores requeridos no nulos almacenados en el campo nominal de cada inversion_id; sin promedios; null almacenado no entra",
+  "cinco_C5B": [
+   "273d71ee0f67962a2f407f0874046e684c599650a1aaac6783996cc481482051",
+   "314a614e7e163b62587dc10f8a2bcc84ad02c92c38375d5f27e6bc4a1bbc7bed",
+   "4a16cc773f46a0424a4c4903de1358cebd501a04715f697c62168698d8b4a012",
+   "869cc35d96ad584bc0dc9619bda895cc17713bd2c7861a3030ca9c3b68a8aa30",
+   "9c2782cf675d790889a46f269733c51dc1b62f0b23806f6a14cf04223c73d433"
+  ],
+  "pendientes": 0,
+  "libro_L_rem147_accepted_counts": {
+   "total_rows": 13656,
+   "previous_definitive_preserved": 13651,
+   "new_capture_finalized": 5,
+   "capture_total": 2111,
+   "capture_finalized_total": 2111,
+   "capture_computed": 963,
+   "computed_same_run": 365,
+   "computed_transferred": 563,
+   "computed_high_witness": 35,
+   "capture_outside_support": 1148,
+   "outside_33_10": 264,
+   "outside_U": 879,
+   "outside_C5B": 5,
+   "definitive_total": 13656,
+   "capture_pending": 0
+  }
+ },
+ "filas": null
+}

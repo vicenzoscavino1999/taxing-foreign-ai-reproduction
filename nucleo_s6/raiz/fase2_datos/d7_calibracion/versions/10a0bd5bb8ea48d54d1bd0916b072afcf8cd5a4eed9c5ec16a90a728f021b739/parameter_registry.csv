@@ -1,0 +1,63 @@
+parameter_id,name,symbol,module,role,unit,denominator,universe,horizon,formula_id,active_primary,inactive_reason
+B_pot,derivado B_pot,B_pot,derivado,derived,flow,gamma*z_m,firmas Pareto normalizadas (z>=z_m),estático (endpoint),B_pot,true,
+C_2,derivado C_2,C_2,derivado,derived,share,B_pot o cociente declarado,firmas Pareto normalizadas (z>=z_m),estático (endpoint),C_2,true,
+C_2_required,derivado C_2_required,C_2_required,derivado,derived,share,B_pot o cociente declarado,firmas Pareto normalizadas (z>=z_m),estático (endpoint),C_2_required,true,
+DME_gAI,"grilla externa/crosswalk; condicional a cota, capa, caso y celda; no soporte propio nuevo",DME_gAI,externo,measured,share_GDP,PIB (mismo año/vintage),firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+G,derivado G,G,derivado,derived,share,B_pot o cociente declarado,firmas Pareto normalizadas (z>=z_m),estático (endpoint),G,true,
+K_comp_1,derivado K_comp_1,K_comp_1,derivado,derived,share,B_pot o cociente declarado,firmas Pareto normalizadas (z>=z_m),estático (endpoint),K_comp_1,true,
+M_c,no identificado/no aplicable M3 o extensión fuera de baseline; nunca se consume null numéricamente,M_c,inactivo,inactive,not_applicable,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,false,UNIVERSE_LIMITATION_H
+P_mapped,requiere universo/crosswalk y evidencia D3/D5 admisibles; no entra a ruta estructural actual,P_mapped,inactivo,inactive,not_applicable,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,false,MOMENT_NOT_IDENTIFIED
+P_total,fórmula solo condicional a activación de momento y D19; no entra a omega primario,P_total,inactivo,inactive,source_payment_unit,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),P_total,false,MOMENT_BRANCH_INACTIVE
+Ptarget,no identificado/no aplicable M3 o extensión fuera de baseline; nunca se consume null numéricamente,Ptarget,inactivo,inactive,not_applicable,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,false,PTARGET_NOT_IDENTIFIED
+Q_perp,"grilla externa/crosswalk; condicional a cota, capa, caso y celda; no soporte propio nuevo",Q_perp,externo,measured,share_GDP,PIB (mismo año/vintage),firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+R,derivado R,R,derivado,derived,flow,gamma*z_m,firmas Pareto normalizadas (z>=z_m),estático (endpoint),R,true,
+a,declared_scenario; A4 no aprobado,a,estructural,primitive,dimensionless,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+bar_tau_d,"tope registrado; tau correspondiente en[0,bar_tau]",bar_tau_d,fiscal,primitive,rate,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+bar_tau_f,"tope registrado; tau correspondiente en[0,bar_tau]",bar_tau_f,fiscal,primitive,rate,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+beta,derivado beta,beta,derivado,derived,flow_per_z,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),beta,true,
+beta_tilde,declared_scenario; A4 no aprobado,beta_tilde,estructural,primitive,dimensionless,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+body_dist_id,no identificado/no aplicable M3 o extensión fuera de baseline; nunca se consume null numéricamente,body_dist_id,inactivo,inactive,not_applicable,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,false,M3_NOT_APPLICABLE
+c_legal,normalización/alcance; no estimación nacional,c_legal,alcance,fixed,dimensionless,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+c_trace,no identificado/no aplicable M3 o extensión fuera de baseline; nunca se consume null numéricamente,c_trace,inactivo,inactive,not_applicable,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,false,H13_NO_TRACE_FACTOR
+chi_r,intensidad relativa de pagos del residual; NO captura reducida; D5/D19 sin momento admisible mantienen inactiva esta rama,chi_r,inactivo,inactive,relative_payment_intensity,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,false,MOMENT_NOT_IDENTIFIED
+delta,derivado delta,delta,derivado,derived,cost_coefficient_theta,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),delta,true,
+delta_tilde,derivado delta_tilde,delta_tilde,derivado,derived,dimensionless,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),delta_tilde,true,
+delta_y_required,derivado delta_y_required,delta_y_required,derivado,derived,share_GDP,PIB (mismo año/vintage),firmas Pareto normalizadas (z>=z_m),estático (endpoint),delta_y_required,true,
+eta_H,escalera epistemológica discreta; no dominio agotado,eta_H,macro,primitive,dimensionless,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+eta_d,declared_scenario; A4 no aprobado,eta_d,estructural,primitive,dimensionless,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+eta_f,declared_scenario; A4 no aprobado,eta_f,estructural,primitive,dimensionless,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+eta_w,bloques separados; no colapsar hueco,eta_w,macro,primitive,dimensionless,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+external_factor,"s_AI*s_FN solo como inversión requerida; rama not_identified si falta correspondencia con adopción, no calibración de D5",external_factor,inversion,primitive,share,B_pot o cociente declarado,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+gain_share,DeltaY_AI_pot/PIB declarado; no predicción nacional,gain_share,escala_tecnologica,primitive,share_GDP,PIB (mismo año/vintage),firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+gamma,normalización/alcance; no estimación nacional,gamma,normalizacion,fixed,normalization_unit,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+kappa0,derivado kappa0,kappa0,derivado,derived,payment_coefficient_rho,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),kappa0,true,
+kappa_tilde,declared_scenario; A4 no aprobado,kappa_tilde,estructural,primitive,dimensionless,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+lambda_pi,derivado lambda_pi,lambda_pi,derivado,derived,dimensionless,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),lambda_pi,true,
+lambda_pi_required,derivado lambda_pi_required,lambda_pi_required,derivado,derived,dimensionless,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),lambda_pi_required,true,
+omega_tail,no identificado/no aplicable M3 o extensión fuera de baseline; nunca se consume null numéricamente,omega_tail,inactivo,inactive,not_applicable,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,false,M3_NOT_APPLICABLE
+phi,declared_scenario; A4 no aprobado,phi,estructural,primitive,dimensionless,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+phi_critical_partial,derivado phi_critical_partial,phi_critical_partial,derivado,derived,dimensionless,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),phi_critical_partial,true,
+pi_iva,estrés declarado TR-PROP,pi_iva,macro,primitive,dimensionless,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+pi_otros_productos,estrés declarado TR-PROP,pi_otros_productos,macro,primitive,dimensionless,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+pi_produccion,estrés declarado TR-PROP,pi_produccion,macro,primitive,dimensionless,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+q_pot,derivado q_pot,q_pot,derivado,derived,share,B_pot o cociente declarado,firmas Pareto normalizadas (z>=z_m),estático (endpoint),q_pot,true,
+residual_share,requiere universo/crosswalk y evidencia D3/D5 admisibles; no entra a ruta estructural actual,residual_share,inactivo,inactive,not_applicable,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,false,MOMENT_NOT_IDENTIFIED
+rho,declared_scenario; A4 no aprobado,rho,estructural,primitive,dimensionless,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+s_AI,no identificado/no aplicable M3 o extensión fuera de baseline; nunca se consume null numéricamente,s_AI,inactivo,inactive,not_applicable,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,false,NOT_IDENTIFIED_M3_OR_EXTENSION
+s_FN,no identificado/no aplicable M3 o extensión fuera de baseline; nunca se consume null numéricamente,s_FN,inactivo,inactive,not_applicable,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,false,NOT_IDENTIFIED_M3_OR_EXTENSION
+s_L_bar,"D2/D6 versionados, precisión y denominador común; no valor inventado",s_L_bar,nacional,measured,share_GDP,PIB (mismo año/vintage),economía nacional completa,2023 (D6); 2015-2023 solo ancla D2,,true,
+s_L_marg,derivado s_L_marg,s_L_marg,derivado,derived,share,B_pot o cociente declarado,firmas Pareto normalizadas (z>=z_m),estático (endpoint),s_L_marg,true,
+s_Pi_marg,derivado s_Pi_marg,s_Pi_marg,derivado,derived,share,B_pot o cociente declarado,firmas Pareto normalizadas (z>=z_m),estático (endpoint),s_Pi_marg,true,
+s_T_marg,derivado s_T_marg,s_T_marg,derivado,derived,share,B_pot o cociente declarado,firmas Pareto normalizadas (z>=z_m),estático (endpoint),s_T_marg,true,
+s_bar_iva,"D2/D6 versionados, precisión y denominador común; no valor inventado",s_bar_iva,nacional,measured,share_GDP,PIB (mismo año/vintage),economía nacional completa,2023 (D6); 2015-2023 solo ancla D2,,true,
+s_bar_otros_productos,"D2/D6 versionados, precisión y denominador común; no valor inventado",s_bar_otros_productos,nacional,measured,share_GDP,PIB (mismo año/vintage),economía nacional completa,2023 (D6); 2015-2023 solo ancla D2,,true,
+s_bar_produccion,"D2/D6 versionados, precisión y denominador común; no valor inventado",s_bar_produccion,nacional,measured,share_GDP,PIB (mismo año/vintage),economía nacional completa,2023 (D6); 2015-2023 solo ancla D2,,true,
+supplier_share_target,"umbral declarado de inversión parcial, parámetro funcional; A5 propone función sobre todo[0,1], sin titular puntual no predeclarado",supplier_share_target,inversion,primitive,share,B_pot o cociente declarado,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+t,baseline importador; t>0 extensión inactiva,t,alcance,fixed,rate,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+tau_d,variable de decisión fiscal; menú D4 y tau_domains,tau_d,fiscal,primitive,rate,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+tau_f,variable de decisión fiscal; menú D4 y tau_domains,tau_f,fiscal,primitive,rate,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+theta,derivado theta,theta,derivado,derived,dimensionless,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),theta,true,
+theta_W,derivado theta_W,theta_W,derivado,derived,dimensionless,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),theta_W,true,
+u_theta,declared_scenario; A4 no aprobado,u_theta,estructural,primitive,dimensionless,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+z_cost,declared_scenario; A4 no aprobado,z_cost,estructural,primitive,dimensionless,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,
+z_m,normalización/alcance; no estimación nacional,z_m,normalizacion,fixed,normalization_unit,none,firmas Pareto normalizadas (z>=z_m),estático (endpoint),,true,

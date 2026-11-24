@@ -1,0 +1,9 @@
+ecuacion,estado_asignado,fila,objeto
+s_Π/(1−q_{pot}),ESCENARIO — cota estructural ejecutable,a,λ_π
+Pagos_IA = Pagos_{digitales}·s_AI,ESCENARIO,b,s_AI
+"Pagos_{IA,no-nexus} = Pagos_IA·s_FN",ESCENARIO,c,s_FN
+"¿Está disponible la retención para ese par fuente–residencia? → determina si j=f y j=df entran en \mathcal T_{c,j}","OBJETIVO DE MEDICIÓN, con fallback en §6.3.1",d,Disponibilidad institucional del instrumento — y nada más
+"φ_c = Σ_{p,h}ω_{cph}φ_{cph}",ESCENARIO,e,φ
+Pagos/B_{pot} = κ̃_0E[ζ^ρ1\{adopta\}]/E[ζ],LIMITACIÓN con la evidencia vigente; ESCENARIO conjunto restringido solo si en una sucesión futura el crosswalk y D19 son admisibles,f,"(κ̃_0,ρ,adopción)"
+"F(z)=1-(z_m/z)^a, a_structural_support=[1.1,2.5]",ESCENARIO estructural (pass_scenario),g,Pareto global
+M_c = Σ_h w_{ch}M_{ch},LIMITACIÓN mientras no exista mapeo documentado establecimiento→empresa legal,h,Universo y pesos

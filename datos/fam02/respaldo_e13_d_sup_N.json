@@ -1,0 +1,4698 @@
+{
+ "C2_en_punto": {
+  "archivo": "demo/extremos/extremos_G_d.json",
+  "clave": "XDD",
+  "entrega": "extremos_df_d_3_7_2026-10-05_lima0738",
+  "inventario_sha256": "116a3f06bb8f5dc449e6c9921a6fd4600abb2f349bb61b3ee8667b412d796bd4",
+  "localizador": [
+   "C2",
+   "N",
+   "p_min",
+   [
+    0,
+    1
+   ]
+  ],
+  "sha256": "54c0bba9101d81afab6e561f26ec69b90deb2cb07682cd4ff60f167ddb903f27",
+  "valor": [
+   0.5470750747033329,
+   0.5470751007296015
+  ]
+ },
+ "decision": "encargo del autor del 2026-11-20: R1-B3A2 conservada; cada L de las 160 d-sup-N se acepta solo con un punto admisible que lo respalde por la regla histórica E13 (misma tolerancia, C2 y K1 en el mismo punto)",
+ "fuentes": {
+  "cobertura_01.json": "d5cf04b11ba19fc11b1c0c7445814f70c068e998d372e797490c1f662af6e81b",
+  "piloto_02.json": "5f2f1ea7a687cffa9fc41e2ec83dbbf88830a14ced0dd3acc0074e306860d813"
+ },
+ "punto": {
+  "archivo": "demo/extremos/extremos_G_d.json",
+  "clave": "XDD",
+  "entrega": "extremos_df_d_3_7_2026-10-05_lima0738",
+  "inventario_sha256": "116a3f06bb8f5dc449e6c9921a6fd4600abb2f349bb61b3ee8667b412d796bd4",
+  "localizador": [
+   "p_min"
+  ],
+  "sha256": "54c0bba9101d81afab6e561f26ec69b90deb2cb07682cd4ff60f167ddb903f27",
+  "valor": {
+   "a": 1.1,
+   "beta_tilde": 0.25,
+   "eta_d": 0.1,
+   "eta_f": 4.05,
+   "kappa_tilde": 0.005,
+   "phi": 0.5,
+   "rho": 0.4,
+   "u_theta": 0.5,
+   "z_cost": 1.0
+  }
+ },
+ "regla": "RESPALDO-E13-PUNTO-v1",
+ "regla_K1": "e13_referencia.REGLA_K1 (contexto de e13_referencia.Referencia.contexto_de(h, 'sup'))",
+ "regla_respaldo": "e13_referencia.Referencia.respaldo('sup', C2, K1, L, U): (C2.lo − K1).lo ≥ L − 1e-12·max(1, |L|)",
+ "tabla_e13": {
+  "archivo": "demo/e13v4d/hojas_ci_v4.json",
+  "entrega": "p1b_global_h4_paso4_3_7_2026-10-09_lima1913",
+  "sha256": "173c2c46353f864c1474793a5d6fcac6d2bd33984cfa5914a2f7d5e3a8aae0a8"
+ },
+ "unidades": [
+  {
+   "K1_en_punto": [
+    0.11619829467693092,
+    0.11619829467693109
+   ],
+   "L": 0.43087678002640184,
+   "U": 0.43087678002640606,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0026094277156716,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.011658478057083964
+   ],
+   "cota": 0.4308767800264018,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:addback_completo:macro:buffer_destacado",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.26930757139916844,
+    0.2693075713991689
+   ],
+   "L": 0.277767503304164,
+   "U": 0.2777675033041686,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0026094277156716,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.027020331240602217
+   ],
+   "cota": 0.277767503304164,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:addback_completo:macro:guardrail_deuda",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.10718183974827918,
+    0.10718183974827933
+   ],
+   "L": 0.4398932349550536,
+   "U": 0.4398932349550578,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0026094277156716,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.010753833610875563
+   ],
+   "cota": 0.43989323495505356,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:addback_completo:macro:nucleo_contable",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11169006721260505,
+    0.1116900672126052
+   ],
+   "L": 0.4353850074907277,
+   "U": 0.4353850074907319,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0026094277156716,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.011206155833979763
+   ],
+   "cota": 0.43538500749072767,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:addback_completo:macro:sensibilidad",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.09440020530270417,
+    0.09440020530270432
+   ],
+   "L": 0.4526748694006286,
+   "U": 0.45267486940063273,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2341234360031352,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.011658478057083964
+   ],
+   "cota": 0.45267486940062857,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:addback_completo:micro:buffer_destacado",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.2187871181787781,
+    0.21878711817877844
+   ],
+   "L": 0.32828795652455445,
+   "U": 0.32828795652455883,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2341234360031352,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.027020331240602217
+   ],
+   "cota": 0.32828795652455445,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:addback_completo:micro:guardrail_deuda",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.08707518217104986,
+    0.08707518217105001
+   ],
+   "L": 0.4599998925322829,
+   "U": 0.45999989253228707,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2341234360031352,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.010753833610875563
+   ],
+   "cota": 0.45999989253228285,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:addback_completo:micro:nucleo_contable",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.09073769373687701,
+    0.09073769373687715
+   ],
+   "L": 0.45633738096645576,
+   "U": 0.4563373809664599,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2341234360031352,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.011206155833979763
+   ],
+   "cota": 0.45633738096645576,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:addback_completo:micro:sensibilidad",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11571988590717615,
+    0.11571988590717631
+   ],
+   "L": 0.43135518879615664,
+   "U": 0.4313551887961608,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0026094277156716,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.01161047805708388
+   ],
+   "cota": 0.4313551887961566,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:sin_addback:macro:buffer_destacado",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.26882916262941364,
+    0.26882916262941414
+   ],
+   "L": 0.2782459120739188,
+   "U": 0.2782459120739234,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0026094277156716,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.02697233124060213
+   ],
+   "cota": 0.27824591207391874,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:sin_addback:macro:guardrail_deuda",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.10670343097852442,
+    0.10670343097852457
+   ],
+   "L": 0.44037164372480836,
+   "U": 0.4403716437248126,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0026094277156716,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.010705833610875478
+   ],
+   "cota": 0.4403716437248083,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:sin_addback:macro:nucleo_contable",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11121165844285028,
+    0.11121165844285044
+   ],
+   "L": 0.4358634162604825,
+   "U": 0.4358634162604867,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0026094277156716,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.011158155833979678
+   ],
+   "cota": 0.4358634162604825,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:sin_addback:macro:sensibilidad",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.09401154309204929,
+    0.09401154309204943
+   ],
+   "L": 0.4530635316112835,
+   "U": 0.45306353161128765,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2341234360031352,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.01161047805708388
+   ],
+   "cota": 0.4530635316112835,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:sin_addback:micro:buffer_destacado",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.2183984559681232,
+    0.21839845596812352
+   ],
+   "L": 0.32867661873520937,
+   "U": 0.32867661873521375,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2341234360031352,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.02697233124060213
+   ],
+   "cota": 0.32867661873520937,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:sin_addback:micro:guardrail_deuda",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.08668651996039498,
+    0.0866865199603951
+   ],
+   "L": 0.46038855474293783,
+   "U": 0.46038855474294194,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2341234360031352,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.010705833610875478
+   ],
+   "cota": 0.4603885547429378,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:sin_addback:micro:nucleo_contable",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.09034903152622212,
+    0.09034903152622227
+   ],
+   "L": 0.45672604317711063,
+   "U": 0.4567260431771148,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2341234360031352,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.011158155833979678
+   ],
+   "cota": 0.45672604317711063,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COL-E2-2023:primary:ci:COL:d:domestic_unchanged:N:sin_addback:micro:sensibilidad",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11522547012659991,
+    0.11522547012660005
+   ],
+   "L": 0.4318496045767328,
+   "U": 0.431849604576737,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0110742494656153,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.011658478057083964
+   ],
+   "cota": 0.4318496045767328,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:addback_completo:macro:buffer_destacado",
+   "indice_contexto": 77,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.2670528996092291,
+    0.26705289960922957
+   ],
+   "L": 0.2800221750941032,
+   "U": 0.2800221750941079,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0110742494656153,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.027020331240602217
+   ],
+   "cota": 0.2800221750941033,
+   "cota_menos_L": 1.1102230246251565e-16,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:addback_completo:macro:guardrail_deuda",
+   "indice_contexto": 77,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.10628450192291203,
+    0.10628450192291215
+   ],
+   "L": 0.4407905727804207,
+   "U": 0.4407905727804249,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0110742494656153,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.010753833610875563
+   ],
+   "cota": 0.4407905727804207,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:addback_completo:macro:nucleo_contable",
+   "indice_contexto": 77,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11075498602475595,
+    0.1107549860247561
+   ],
+   "L": 0.43632008867857675,
+   "U": 0.43632008867858096,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0110742494656153,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.011206155833979763
+   ],
+   "cota": 0.4363200886785768,
+   "cota_menos_L": 5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:addback_completo:macro:sensibilidad",
+   "indice_contexto": 77,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.09157374615758777,
+    0.0915737461575879
+   ],
+   "L": 0.455501328545745,
+   "U": 0.45550132854574915,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2722151338778815,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.011658478057083964
+   ],
+   "cota": 0.455501328545745,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:addback_completo:micro:buffer_destacado",
+   "indice_contexto": 77,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.21223636069867383,
+    0.21223636069867413
+   ],
+   "L": 0.3348387140046587,
+   "U": 0.3348387140046632,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2722151338778815,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.027020331240602217
+   ],
+   "cota": 0.33483871400465876,
+   "cota_menos_L": 5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:addback_completo:micro:guardrail_deuda",
+   "indice_contexto": 77,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.084468043297031,
+    0.08446804329703114
+   ],
+   "L": 0.46260703140630177,
+   "U": 0.46260703140630594,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2722151338778815,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.010753833610875563
+   ],
+   "cota": 0.4626070314063017,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:addback_completo:micro:nucleo_contable",
+   "indice_contexto": 77,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.08802089472730938,
+    0.08802089472730952
+   ],
+   "L": 0.4590541799760234,
+   "U": 0.45905417997602754,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2722151338778815,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.011206155833979763
+   ],
+   "cota": 0.4590541799760234,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:addback_completo:micro:sensibilidad",
+   "indice_contexto": 77,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11475106664623089,
+    0.11475106664623103
+   ],
+   "L": 0.4323240080571018,
+   "U": 0.432324008057106,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0110742494656153,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.01161047805708388
+   ],
+   "cota": 0.43232400805710186,
+   "cota_menos_L": 5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:sin_addback:macro:buffer_destacado",
+   "indice_contexto": 77,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.2665784961288601,
+    0.2665784961288605
+   ],
+   "L": 0.28049657857447224,
+   "U": 0.2804965785744769,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0110742494656153,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.02697233124060213
+   ],
+   "cota": 0.2804965785744724,
+   "cota_menos_L": 1.6653345369377348e-16,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:sin_addback:macro:guardrail_deuda",
+   "indice_contexto": 77,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.105810098442543,
+    0.10581009844254312
+   ],
+   "L": 0.44126497626078975,
+   "U": 0.4412649762607939,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0110742494656153,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.010705833610875478
+   ],
+   "cota": 0.44126497626078975,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:sin_addback:macro:nucleo_contable",
+   "indice_contexto": 77,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11028058254438693,
+    0.11028058254438707
+   ],
+   "L": 0.4367944921589458,
+   "U": 0.43679449215895,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0110742494656153,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.011158155833979678
+   ],
+   "cota": 0.43679449215894584,
+   "cota_menos_L": 5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:sin_addback:macro:sensibilidad",
+   "indice_contexto": 77,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.09119672097522263,
+    0.09119672097522277
+   ],
+   "L": 0.45587835372811014,
+   "U": 0.4558783537281143,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2722151338778815,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.01161047805708388
+   ],
+   "cota": 0.4558783537281101,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:sin_addback:micro:buffer_destacado",
+   "indice_contexto": 77,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.21185933551630867,
+    0.21185933551630898
+   ],
+   "L": 0.33521573918702385,
+   "U": 0.3352157391870283,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2722151338778815,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.02697233124060213
+   ],
+   "cota": 0.3352157391870239,
+   "cota_menos_L": 5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:sin_addback:micro:guardrail_deuda",
+   "indice_contexto": 77,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.08409101811466588,
+    0.084091018114666
+   ],
+   "L": 0.46298405658866687,
+   "U": 0.46298405658867103,
+   "acreditada_en": "piloto_02.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2722151338778815,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.010705833610875478
+   ],
+   "cota": 0.46298405658866687,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:sin_addback:micro:nucleo_contable",
+   "indice_contexto": 77,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.08764386954494426,
+    0.08764386954494438
+   ],
+   "L": 0.45943120515838853,
+   "U": 0.4594312051583927,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2722151338778815,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.011158155833979678
+   ],
+   "cota": 0.4594312051583885,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:N:sin_addback:micro:sensibilidad",
+   "indice_contexto": 77,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.14341007611612255,
+    0.1434100761161228
+   ],
+   "L": 0.40366499858721006,
+   "U": 0.40366499858721444,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0235405786925595,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.014689095440853202
+   ],
+   "cota": 0.4036649985872101,
+   "cota_menos_L": 5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:addback_completo:macro:buffer_destacado",
+   "indice_contexto": 80,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.45329675908883316,
+    0.4532967590888338
+   ],
+   "L": 0.09377831561449901,
+   "U": 0.09377831561450396,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0235405786925595,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.04642992694525696
+   ],
+   "cota": 0.0937783156144991,
+   "cota_menos_L": 9.71445146547012e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:addback_completo:macro:guardrail_deuda",
+   "indice_contexto": 80,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.13352985917610163,
+    0.13352985917610186
+   ],
+   "L": 0.413545215527231,
+   "U": 0.41354521552723533,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0235405786925595,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.01367709228501647
+   ],
+   "cota": 0.41354521552723106,
+   "cota_menos_L": 5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:addback_completo:macro:nucleo_contable",
+   "indice_contexto": 80,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.13846996764611208,
+    0.13846996764611233
+   ],
+   "L": 0.40860510705722053,
+   "U": 0.40860510705722486,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0235405786925595,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.014183093862934835
+   ],
+   "cota": 0.4086051070572206,
+   "cota_menos_L": 5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:addback_completo:macro:sensibilidad",
+   "indice_contexto": 80,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11997588753512532,
+    0.1199758875351255
+   ],
+   "L": 0.4270991871682074,
+   "U": 0.4270991871682116,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2234627750119005,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.014689095440853202
+   ],
+   "cota": 0.4270991871682074,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:addback_completo:micro:buffer_destacado",
+   "indice_contexto": 80,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.37922496425175906,
+    0.3792249642517597
+   ],
+   "L": 0.1678501104515731,
+   "U": 0.1678501104515779,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2234627750119005,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.04642992694525696
+   ],
+   "cota": 0.1678501104515732,
+   "cota_menos_L": 8.326672684688674e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:addback_completo:micro:guardrail_deuda",
+   "indice_contexto": 80,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11171016570775,
+    0.11171016570775016
+   ],
+   "L": 0.4353649089955827,
+   "U": 0.43536490899558694,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2234627750119005,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.01367709228501647
+   ],
+   "cota": 0.4353649089955827,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:addback_completo:micro:nucleo_contable",
+   "indice_contexto": 80,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11584302662143765,
+    0.11584302662143783
+   ],
+   "L": 0.4312320480818951,
+   "U": 0.43123204808189924,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2234627750119005,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.014183093862934835
+   ],
+   "cota": 0.431232048081895,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:addback_completo:micro:sensibilidad",
+   "indice_contexto": 80,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.14243377313890018,
+    0.14243377313890043
+   ],
+   "L": 0.40464130156443245,
+   "U": 0.4046413015644368,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0235405786925595,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.014589095440853227
+   ],
+   "cota": 0.40464130156443245,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:sin_addback:macro:buffer_destacado",
+   "indice_contexto": 80,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.45232045611161076,
+    0.4523204561116114
+   ],
+   "L": 0.0947546185917214,
+   "U": 0.0947546185917263,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0235405786925595,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.046329926945256984
+   ],
+   "cota": 0.0947546185917215,
+   "cota_menos_L": 9.71445146547012e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:sin_addback:macro:guardrail_deuda",
+   "indice_contexto": 80,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.13255355619887926,
+    0.13255355619887949
+   ],
+   "L": 0.4145215185044534,
+   "U": 0.4145215185044577,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0235405786925595,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.013577092285016495
+   ],
+   "cota": 0.4145215185044534,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:sin_addback:macro:nucleo_contable",
+   "indice_contexto": 80,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.1374936646688897,
+    0.13749366466888996
+   ],
+   "L": 0.4095814100344429,
+   "U": 0.40958141003444726,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0235405786925595,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.01408309386293486
+   ],
+   "cota": 0.4095814100344429,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:sin_addback:macro:sensibilidad",
+   "indice_contexto": 80,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11915911915059009,
+    0.11915911915059027
+   ],
+   "L": 0.42791595555274264,
+   "U": 0.42791595555274686,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2234627750119005,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.014589095440853227
+   ],
+   "cota": 0.4279159555527426,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:sin_addback:micro:buffer_destacado",
+   "indice_contexto": 80,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.37840819586722385,
+    0.3784081958672245
+   ],
+   "L": 0.1686668788361083,
+   "U": 0.16866687883611312,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2234627750119005,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.046329926945256984
+   ],
+   "cota": 0.1686668788361084,
+   "cota_menos_L": 8.326672684688674e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:sin_addback:micro:guardrail_deuda",
+   "indice_contexto": 80,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11089339732321477,
+    0.11089339732321495
+   ],
+   "L": 0.436181677380118,
+   "U": 0.43618167738012215,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2234627750119005,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.013577092285016495
+   ],
+   "cota": 0.4361816773801179,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:sin_addback:micro:nucleo_contable",
+   "indice_contexto": 80,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11502625823690242,
+    0.1150262582369026
+   ],
+   "L": 0.43204881646643034,
+   "U": 0.4320488164664345,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2234627750119005,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.01408309386293486
+   ],
+   "cota": 0.4320488164664303,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:d:domestic_unchanged:N:sin_addback:micro:sensibilidad",
+   "indice_contexto": 80,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.07661650400134869,
+    0.07661650400134883
+   ],
+   "L": 0.47045857070198405,
+   "U": 0.4704585707019882,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0223671812761126,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007838618937035347
+   ],
+   "cota": 0.47045857070198405,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:macro:buffer_destacado",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.14063370580855136,
+    0.1406337058085516
+   ],
+   "L": 0.4064413688947813,
+   "U": 0.4064413688947856,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0223671812761126,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.014388205829868762
+   ],
+   "cota": 0.4064413688947813,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:macro:guardrail_deuda",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.07116849662591317,
+    0.07116849662591329
+   ],
+   "L": 0.4759065780774196,
+   "U": 0.4759065780774237,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0223671812761126,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.0072812344108313665
+   ],
+   "cota": 0.4759065780774196,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:macro:nucleo_contable",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.07389250031363093,
+    0.07389250031363105
+   ],
+   "L": 0.47318257438970185,
+   "U": 0.47318257438970596,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0223671812761126,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007559926673933357
+   ],
+   "cota": 0.47318257438970185,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:macro:sensibilidad",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.0629089539017213,
+    0.06290895390172141
+   ],
+   "L": 0.4841661208016115,
+   "U": 0.48416612080161564,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2451359365704795,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007838618937035347
+   ],
+   "cota": 0.4841661208016115,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:micro:buffer_destacado",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11547276179010538,
+    0.11547276179010553
+   ],
+   "L": 0.43160231291322737,
+   "U": 0.43160231291323153,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2451359365704795,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.014388205829868762
+   ],
+   "cota": 0.43160231291322737,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:micro:guardrail_deuda",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.05843565602282725,
+    0.05843565602282733
+   ],
+   "L": 0.4886394186805056,
+   "U": 0.48863941868050964,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2451359365704795,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.0072812344108313665
+   ],
+   "cota": 0.48863941868050553,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:micro:nucleo_contable",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.060672304962274284,
+    0.06067230496227436
+   ],
+   "L": 0.48640276974105856,
+   "U": 0.4864027697410626,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2451359365704795,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007559926673933357
+   ],
+   "cota": 0.4864027697410585,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:micro:sensibilidad",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.07614734071868218,
+    0.0761473407186823
+   ],
+   "L": 0.4709277339846506,
+   "U": 0.47092773398465476,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0223671812761126,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.0077906189370352584
+   ],
+   "cota": 0.4709277339846506,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:macro:buffer_destacado",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.14016454252588484,
+    0.1401645425258851
+   ],
+   "L": 0.40691053217744777,
+   "U": 0.4069105321774521,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0223671812761126,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.014340205829868674
+   ],
+   "cota": 0.4069105321774478,
+   "cota_menos_L": 5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:macro:guardrail_deuda",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.07069933334324664,
+    0.07069933334324675
+   ],
+   "L": 0.47637574136008615,
+   "U": 0.47637574136009025,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0223671812761126,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007233234410831278
+   ],
+   "cota": 0.47637574136008615,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:macro:nucleo_contable",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.0734233370309644,
+    0.07342333703096454
+   ],
+   "L": 0.47365173767236834,
+   "U": 0.4736517376723725,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0223671812761126,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007511926673933268
+   ],
+   "cota": 0.47365173767236834,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:macro:sensibilidad",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.06252372918145567,
+    0.06252372918145578
+   ],
+   "L": 0.4845513455218771,
+   "U": 0.4845513455218812,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2451359365704795,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.0077906189370352584
+   ],
+   "cota": 0.4845513455218771,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:micro:buffer_destacado",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11508753706983978,
+    0.11508753706983992
+   ],
+   "L": 0.43198753763349296,
+   "U": 0.4319875376334972,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2451359365704795,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.014340205829868674
+   ],
+   "cota": 0.43198753763349296,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:micro:guardrail_deuda",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.058050431302561635,
+    0.05805043130256171
+   ],
+   "L": 0.48902464340077123,
+   "U": 0.4890246434007753,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2451359365704795,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007233234410831278
+   ],
+   "cota": 0.4890246434007712,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:micro:nucleo_contable",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.06028708024200866,
+    0.06028708024200874
+   ],
+   "L": 0.48678799446132415,
+   "U": 0.48678799446132826,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2451359365704795,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007511926673933268
+   ],
+   "cota": 0.48678799446132415,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:micro:sensibilidad",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11619829467693092,
+    0.11619829467693109
+   ],
+   "L": 0.43087678002640184,
+   "U": 0.43087678002640606,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0026094277156716,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.011658478057083964
+   ],
+   "cota": 0.4308767800264018,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:addback_completo:macro:buffer_destacado",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.26930757139916844,
+    0.2693075713991689
+   ],
+   "L": 0.277767503304164,
+   "U": 0.2777675033041686,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0026094277156716,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.027020331240602217
+   ],
+   "cota": 0.277767503304164,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:addback_completo:macro:guardrail_deuda",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.10718183974827918,
+    0.10718183974827933
+   ],
+   "L": 0.4398932349550536,
+   "U": 0.4398932349550578,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0026094277156716,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.010753833610875563
+   ],
+   "cota": 0.43989323495505356,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:addback_completo:macro:nucleo_contable",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11169006721260505,
+    0.1116900672126052
+   ],
+   "L": 0.4353850074907277,
+   "U": 0.4353850074907319,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0026094277156716,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.011206155833979763
+   ],
+   "cota": 0.43538500749072767,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:addback_completo:macro:sensibilidad",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.09440020530270417,
+    0.09440020530270432
+   ],
+   "L": 0.4526748694006286,
+   "U": 0.45267486940063273,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2341234360031352,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.011658478057083964
+   ],
+   "cota": 0.45267486940062857,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:addback_completo:micro:buffer_destacado",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.2187871181787781,
+    0.21878711817877844
+   ],
+   "L": 0.32828795652455445,
+   "U": 0.32828795652455883,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2341234360031352,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.027020331240602217
+   ],
+   "cota": 0.32828795652455445,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:addback_completo:micro:guardrail_deuda",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.08707518217104986,
+    0.08707518217105001
+   ],
+   "L": 0.4599998925322829,
+   "U": 0.45999989253228707,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2341234360031352,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.010753833610875563
+   ],
+   "cota": 0.45999989253228285,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:addback_completo:micro:nucleo_contable",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.09073769373687701,
+    0.09073769373687715
+   ],
+   "L": 0.45633738096645576,
+   "U": 0.4563373809664599,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2341234360031352,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.011206155833979763
+   ],
+   "cota": 0.45633738096645576,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:addback_completo:micro:sensibilidad",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11571988590717615,
+    0.11571988590717631
+   ],
+   "L": 0.43135518879615664,
+   "U": 0.4313551887961608,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0026094277156716,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.01161047805708388
+   ],
+   "cota": 0.4313551887961566,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:sin_addback:macro:buffer_destacado",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.26882916262941364,
+    0.26882916262941414
+   ],
+   "L": 0.2782459120739188,
+   "U": 0.2782459120739234,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0026094277156716,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.02697233124060213
+   ],
+   "cota": 0.27824591207391874,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:sin_addback:macro:guardrail_deuda",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.10670343097852442,
+    0.10670343097852457
+   ],
+   "L": 0.44037164372480836,
+   "U": 0.4403716437248126,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0026094277156716,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.010705833610875478
+   ],
+   "cota": 0.4403716437248083,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:sin_addback:macro:nucleo_contable",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11121165844285028,
+    0.11121165844285044
+   ],
+   "L": 0.4358634162604825,
+   "U": 0.4358634162604867,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0026094277156716,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.011158155833979678
+   ],
+   "cota": 0.4358634162604825,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:sin_addback:macro:sensibilidad",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.09401154309204929,
+    0.09401154309204943
+   ],
+   "L": 0.4530635316112835,
+   "U": 0.45306353161128765,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2341234360031352,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.01161047805708388
+   ],
+   "cota": 0.4530635316112835,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:sin_addback:micro:buffer_destacado",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.2183984559681232,
+    0.21839845596812352
+   ],
+   "L": 0.32867661873520937,
+   "U": 0.32867661873521375,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2341234360031352,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.02697233124060213
+   ],
+   "cota": 0.32867661873520937,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:sin_addback:micro:guardrail_deuda",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.08668651996039498,
+    0.0866865199603951
+   ],
+   "L": 0.46038855474293783,
+   "U": 0.46038855474294194,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2341234360031352,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.010705833610875478
+   ],
+   "cota": 0.4603885547429378,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:sin_addback:micro:nucleo_contable",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.09034903152622212,
+    0.09034903152622227
+   ],
+   "L": 0.45672604317711063,
+   "U": 0.4567260431771148,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2341234360031352,
+    0.06353743179503232,
+    -0.5,
+    0.1,
+    0.011158155833979678
+   ],
+   "cota": 0.45672604317711063,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:COL:d:domestic_unchanged:N:sin_addback:micro:sensibilidad",
+   "indice_contexto": 8,
+   "pais": "COL",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.14341007611612255,
+    0.1434100761161228
+   ],
+   "L": 0.40366499858721006,
+   "U": 0.40366499858721444,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0235405786925595,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.014689095440853202
+   ],
+   "cota": 0.4036649985872101,
+   "cota_menos_L": 5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:addback_completo:macro:buffer_destacado",
+   "indice_contexto": 8,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.45329675908883316,
+    0.4532967590888338
+   ],
+   "L": 0.09377831561449901,
+   "U": 0.09377831561450396,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0235405786925595,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.04642992694525696
+   ],
+   "cota": 0.0937783156144991,
+   "cota_menos_L": 9.71445146547012e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:addback_completo:macro:guardrail_deuda",
+   "indice_contexto": 8,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.13352985917610163,
+    0.13352985917610186
+   ],
+   "L": 0.413545215527231,
+   "U": 0.41354521552723533,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0235405786925595,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.01367709228501647
+   ],
+   "cota": 0.41354521552723106,
+   "cota_menos_L": 5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:addback_completo:macro:nucleo_contable",
+   "indice_contexto": 8,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.13846996764611208,
+    0.13846996764611233
+   ],
+   "L": 0.40860510705722053,
+   "U": 0.40860510705722486,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0235405786925595,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.014183093862934835
+   ],
+   "cota": 0.4086051070572206,
+   "cota_menos_L": 5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:addback_completo:macro:sensibilidad",
+   "indice_contexto": 8,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11997588753512532,
+    0.1199758875351255
+   ],
+   "L": 0.4270991871682074,
+   "U": 0.4270991871682116,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2234627750119005,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.014689095440853202
+   ],
+   "cota": 0.4270991871682074,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:addback_completo:micro:buffer_destacado",
+   "indice_contexto": 8,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.37922496425175906,
+    0.3792249642517597
+   ],
+   "L": 0.1678501104515731,
+   "U": 0.1678501104515779,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2234627750119005,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.04642992694525696
+   ],
+   "cota": 0.1678501104515732,
+   "cota_menos_L": 8.326672684688674e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:addback_completo:micro:guardrail_deuda",
+   "indice_contexto": 8,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11171016570775,
+    0.11171016570775016
+   ],
+   "L": 0.4353649089955827,
+   "U": 0.43536490899558694,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2234627750119005,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.01367709228501647
+   ],
+   "cota": 0.4353649089955827,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:addback_completo:micro:nucleo_contable",
+   "indice_contexto": 8,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11584302662143765,
+    0.11584302662143783
+   ],
+   "L": 0.4312320480818951,
+   "U": 0.43123204808189924,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2234627750119005,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.014183093862934835
+   ],
+   "cota": 0.431232048081895,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:addback_completo:micro:sensibilidad",
+   "indice_contexto": 8,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.14243377313890018,
+    0.14243377313890043
+   ],
+   "L": 0.40464130156443245,
+   "U": 0.4046413015644368,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0235405786925595,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.014589095440853227
+   ],
+   "cota": 0.40464130156443245,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:sin_addback:macro:buffer_destacado",
+   "indice_contexto": 8,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.45232045611161076,
+    0.4523204561116114
+   ],
+   "L": 0.0947546185917214,
+   "U": 0.0947546185917263,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0235405786925595,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.046329926945256984
+   ],
+   "cota": 0.0947546185917215,
+   "cota_menos_L": 9.71445146547012e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:sin_addback:macro:guardrail_deuda",
+   "indice_contexto": 8,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.13255355619887926,
+    0.13255355619887949
+   ],
+   "L": 0.4145215185044534,
+   "U": 0.4145215185044577,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0235405786925595,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.013577092285016495
+   ],
+   "cota": 0.4145215185044534,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:sin_addback:macro:nucleo_contable",
+   "indice_contexto": 8,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.1374936646688897,
+    0.13749366466888996
+   ],
+   "L": 0.4095814100344429,
+   "U": 0.40958141003444726,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0235405786925595,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.01408309386293486
+   ],
+   "cota": 0.4095814100344429,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:sin_addback:macro:sensibilidad",
+   "indice_contexto": 8,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11915911915059009,
+    0.11915911915059027
+   ],
+   "L": 0.42791595555274264,
+   "U": 0.42791595555274686,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2234627750119005,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.014589095440853227
+   ],
+   "cota": 0.4279159555527426,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:sin_addback:micro:buffer_destacado",
+   "indice_contexto": 8,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.37840819586722385,
+    0.3784081958672245
+   ],
+   "L": 0.1686668788361083,
+   "U": 0.16866687883611312,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2234627750119005,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.046329926945256984
+   ],
+   "cota": 0.1686668788361084,
+   "cota_menos_L": 8.326672684688674e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:sin_addback:micro:guardrail_deuda",
+   "indice_contexto": 8,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11089339732321477,
+    0.11089339732321495
+   ],
+   "L": 0.436181677380118,
+   "U": 0.43618167738012215,
+   "acreditada_en": "piloto_02.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2234627750119005,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.013577092285016495
+   ],
+   "cota": 0.4361816773801179,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:sin_addback:micro:nucleo_contable",
+   "indice_contexto": 8,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11502625823690242,
+    0.1150262582369026
+   ],
+   "L": 0.43204881646643034,
+   "U": 0.4320488164664345,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2234627750119005,
+    0.033580048827252164,
+    -0.5,
+    0.1,
+    0.01408309386293486
+   ],
+   "cota": 0.4320488164664303,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:MEX:d:domestic_unchanged:N:sin_addback:micro:sensibilidad",
+   "indice_contexto": 8,
+   "pais": "MEX",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.077142736216804,
+    0.07714273621680413
+   ],
+   "L": 0.46993233848652877,
+   "U": 0.4699323384865329,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153930632554644,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007838618937035347
+   ],
+   "cota": 0.46993233848652877,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:buffer_destacado",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.14159963328775377,
+    0.14159963328775402
+   ],
+   "L": 0.4054754414155789,
+   "U": 0.40547544141558317,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153930632554644,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.014388205829868762
+   ],
+   "cota": 0.40547544141557884,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:guardrail_deuda",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.071657309788798,
+    0.07165730978879813
+   ],
+   "L": 0.4754177649145348,
+   "U": 0.4754177649145389,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153930632554644,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.0072812344108313665
+   ],
+   "cota": 0.47541776491453475,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:nucleo_contable",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.07440002300280099,
+    0.07440002300280113
+   ],
+   "L": 0.47267505170053176,
+   "U": 0.4726750517005359,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153930632554644,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007559926673933357
+   ],
+   "cota": 0.47267505170053176,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:sensibilidad",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.06453556662923285,
+    0.06453556662923296
+   ],
+   "L": 0.48253950807409995,
+   "U": 0.48253950807410406,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137524054775626,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007838618937035347
+   ],
+   "cota": 0.4825395080740999,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:buffer_destacado",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11845849676675319,
+    0.11845849676675334
+   ],
+   "L": 0.42861657793657953,
+   "U": 0.42861657793658375,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137524054775626,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.014388205829868762
+   ],
+   "cota": 0.42861657793657953,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:guardrail_deuda",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.059946604400314366,
+    0.05994660440031444
+   ],
+   "L": 0.4871284703030185,
+   "U": 0.48712847030302253,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137524054775626,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.0072812344108313665
+   ],
+   "cota": 0.4871284703030184,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:nucleo_contable",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.06224108551477361,
+    0.06224108551477369
+   ],
+   "L": 0.48483398918855924,
+   "U": 0.4848339891885633,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137524054775626,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007559926673933357
+   ],
+   "cota": 0.4848339891885592,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:sensibilidad",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.07667035053660229,
+    0.07667035053660241
+   ],
+   "L": 0.47040472416673046,
+   "U": 0.4704047241667346,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153930632554644,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.0077906189370352584
+   ],
+   "cota": 0.47040472416673046,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:buffer_destacado",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.14112724760755205,
+    0.1411272476075523
+   ],
+   "L": 0.4059478270957806,
+   "U": 0.40594782709578486,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153930632554644,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.014340205829868674
+   ],
+   "cota": 0.4059478270957806,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:guardrail_deuda",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.0711849241085963,
+    0.0711849241085964
+   ],
+   "L": 0.4758901505947365,
+   "U": 0.4758901505947406,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153930632554644,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007233234410831278
+   ],
+   "cota": 0.4758901505947365,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:nucleo_contable",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.07392763732259928,
+    0.07392763732259942
+   ],
+   "L": 0.4731474373807335,
+   "U": 0.4731474373807376,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153930632554644,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007511926673933268
+   ],
+   "cota": 0.47314743738073345,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:sensibilidad",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.06414038130091268,
+    0.06414038130091279
+   ],
+   "L": 0.4829346934024201,
+   "U": 0.48293469340242423,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137524054775626,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.0077906189370352584
+   ],
+   "cota": 0.48293469340242007,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:buffer_destacado",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11806331143843303,
+    0.1180633114384332
+   ],
+   "L": 0.42901176326489965,
+   "U": 0.4290117632649039,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137524054775626,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.014340205829868674
+   ],
+   "cota": 0.4290117632648997,
+   "cota_menos_L": 5.551115123125783e-17,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:guardrail_deuda",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.05955141907199421,
+    0.05955141907199429
+   ],
+   "L": 0.4875236556313386,
+   "U": 0.4875236556313427,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137524054775626,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007233234410831278
+   ],
+   "cota": 0.4875236556313386,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:nucleo_contable",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.06184590018645345,
+    0.061845900186453535
+   ],
+   "L": 0.48522917451687936,
+   "U": 0.48522917451688347,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137524054775626,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007511926673933268
+   ],
+   "cota": 0.48522917451687936,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-COMPARACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:sensibilidad",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.07714270913455892,
+    0.07714270913455906
+   ],
+   "L": 0.4699323655687738,
+   "U": 0.469932365568778,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153934197262713,
+    0.04128080594874524,
+    -0.5,
+    0.1,
+    0.007838618937035347
+   ],
+   "cota": 0.4699323655687738,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:buffer_destacado",
+   "indice_contexto": 16,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.1415995835768392,
+    0.1415995835768394
+   ],
+   "L": 0.4054754911264935,
+   "U": 0.4054754911264978,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153934197262713,
+    0.04128080594874524,
+    -0.5,
+    0.1,
+    0.014388205829868762
+   ],
+   "cota": 0.40547549112649345,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:guardrail_deuda",
+   "indice_contexto": 16,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.07165728463230343,
+    0.07165728463230356
+   ],
+   "L": 0.47541779007102936,
+   "U": 0.47541779007103346,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153934197262713,
+    0.04128080594874524,
+    -0.5,
+    0.1,
+    0.0072812344108313665
+   ],
+   "cota": 0.4754177900710293,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:nucleo_contable",
+   "indice_contexto": 16,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.07439999688343119,
+    0.07439999688343131
+   ],
+   "L": 0.4726750778199016,
+   "U": 0.47267507781990575,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153934197262713,
+    0.04128080594874524,
+    -0.5,
+    0.1,
+    0.007559926673933357
+   ],
+   "cota": 0.4726750778199016,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:sensibilidad",
+   "indice_contexto": 16,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.06453552387443244,
+    0.06453552387443255
+   ],
+   "L": 0.4825395508289004,
+   "U": 0.4825395508289045,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137532095888288,
+    0.04128080594874524,
+    -0.5,
+    0.1,
+    0.007838618937035347
+   ],
+   "cota": 0.4825395508289003,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:buffer_destacado",
+   "indice_contexto": 16,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11845841828802202,
+    0.11845841828802219
+   ],
+   "L": 0.4286166564153107,
+   "U": 0.42861665641531493,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137532095888288,
+    0.04128080594874524,
+    -0.5,
+    0.1,
+    0.014388205829868762
+   ],
+   "cota": 0.4286166564153107,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:guardrail_deuda",
+   "indice_contexto": 16,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.05994656468570055,
+    0.059946564685700636
+   ],
+   "L": 0.4871285100176323,
+   "U": 0.48712851001763635,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137532095888288,
+    0.04128080594874524,
+    -0.5,
+    0.1,
+    0.0072812344108313665
+   ],
+   "cota": 0.48712851001763224,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:nucleo_contable",
+   "indice_contexto": 16,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.06224104428006651,
+    0.06224104428006658
+   ],
+   "L": 0.48483403042326634,
+   "U": 0.4848340304232704,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137532095888288,
+    0.04128080594874524,
+    -0.5,
+    0.1,
+    0.007559926673933357
+   ],
+   "cota": 0.4848340304232663,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:sensibilidad",
+   "indice_contexto": 16,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.07667032362019612,
+    0.07667032362019624
+   ],
+   "L": 0.4704047510831367,
+   "U": 0.4704047510831408,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153934197262713,
+    0.04128080594874524,
+    -0.5,
+    0.1,
+    0.0077906189370352584
+   ],
+   "cota": 0.4704047510831367,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:buffer_destacado",
+   "indice_contexto": 16,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.14112719806247637,
+    0.14112719806247662
+   ],
+   "L": 0.4059478766408563,
+   "U": 0.40594787664086057,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153934197262713,
+    0.04128080594874524,
+    -0.5,
+    0.1,
+    0.014340205829868674
+   ],
+   "cota": 0.40594787664085624,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:guardrail_deuda",
+   "indice_contexto": 16,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.0711848991179406,
+    0.07118489911794072
+   ],
+   "L": 0.4758901755853922,
+   "U": 0.4758901755853963,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153934197262713,
+    0.04128080594874524,
+    -0.5,
+    0.1,
+    0.007233234410831278
+   ],
+   "cota": 0.47589017558539215,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:nucleo_contable",
+   "indice_contexto": 16,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.07392761136906835,
+    0.07392761136906847
+   ],
+   "L": 0.47314746333426444,
+   "U": 0.47314746333426855,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153934197262713,
+    0.04128080594874524,
+    -0.5,
+    0.1,
+    0.007511926673933268
+   ],
+   "cota": 0.47314746333426444,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:sensibilidad",
+   "indice_contexto": 16,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.0641403388079225,
+    0.06414033880792261
+   ],
+   "L": 0.4829347358954103,
+   "U": 0.4829347358954144,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137532095888288,
+    0.04128080594874524,
+    -0.5,
+    0.1,
+    0.0077906189370352584
+   ],
+   "cota": 0.4829347358954103,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:buffer_destacado",
+   "indice_contexto": 16,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11806323322151208,
+    0.11806323322151223
+   ],
+   "L": 0.42901184148182064,
+   "U": 0.42901184148182486,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137532095888288,
+    0.04128080594874524,
+    -0.5,
+    0.1,
+    0.014340205829868674
+   ],
+   "cota": 0.42901184148182064,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:guardrail_deuda",
+   "indice_contexto": 16,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.05955137961919061,
+    0.059551379619190686
+   ],
+   "L": 0.48752369508414223,
+   "U": 0.4875236950841463,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137532095888288,
+    0.04128080594874524,
+    -0.5,
+    0.1,
+    0.007233234410831278
+   ],
+   "cota": 0.48752369508414223,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:nucleo_contable",
+   "indice_contexto": 16,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.06184585921355656,
+    0.06184585921355664
+   ],
+   "L": 0.48522921548977627,
+   "U": 0.4852292154897804,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137532095888288,
+    0.04128080594874524,
+    -0.5,
+    0.1,
+    0.007511926673933268
+   ],
+   "cota": 0.48522921548977627,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E0E3:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:sensibilidad",
+   "indice_contexto": 16,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.07661650400134869,
+    0.07661650400134883
+   ],
+   "L": 0.47045857070198405,
+   "U": 0.4704585707019882,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0223671812761126,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007838618937035347
+   ],
+   "cota": 0.47045857070198405,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:macro:buffer_destacado",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.14063370580855136,
+    0.1406337058085516
+   ],
+   "L": 0.4064413688947813,
+   "U": 0.4064413688947856,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0223671812761126,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.014388205829868762
+   ],
+   "cota": 0.4064413688947813,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:macro:guardrail_deuda",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.07116849662591317,
+    0.07116849662591329
+   ],
+   "L": 0.4759065780774196,
+   "U": 0.4759065780774237,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0223671812761126,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.0072812344108313665
+   ],
+   "cota": 0.4759065780774196,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:macro:nucleo_contable",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.07389250031363093,
+    0.07389250031363105
+   ],
+   "L": 0.47318257438970185,
+   "U": 0.47318257438970596,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0223671812761126,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007559926673933357
+   ],
+   "cota": 0.47318257438970185,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:macro:sensibilidad",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.0629089539017213,
+    0.06290895390172141
+   ],
+   "L": 0.4841661208016115,
+   "U": 0.48416612080161564,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2451359365704795,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007838618937035347
+   ],
+   "cota": 0.4841661208016115,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:micro:buffer_destacado",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11547276179010538,
+    0.11547276179010553
+   ],
+   "L": 0.43160231291322737,
+   "U": 0.43160231291323153,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2451359365704795,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.014388205829868762
+   ],
+   "cota": 0.43160231291322737,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:micro:guardrail_deuda",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.05843565602282725,
+    0.05843565602282733
+   ],
+   "L": 0.4886394186805056,
+   "U": 0.48863941868050964,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2451359365704795,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.0072812344108313665
+   ],
+   "cota": 0.48863941868050553,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:micro:nucleo_contable",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.060672304962274284,
+    0.06067230496227436
+   ],
+   "L": 0.48640276974105856,
+   "U": 0.4864027697410626,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2451359365704795,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007559926673933357
+   ],
+   "cota": 0.4864027697410585,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:addback_completo:micro:sensibilidad",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.07614734071868218,
+    0.0761473407186823
+   ],
+   "L": 0.4709277339846506,
+   "U": 0.47092773398465476,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0223671812761126,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.0077906189370352584
+   ],
+   "cota": 0.4709277339846506,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:macro:buffer_destacado",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.14016454252588484,
+    0.1401645425258851
+   ],
+   "L": 0.40691053217744777,
+   "U": 0.4069105321774521,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0223671812761126,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.014340205829868674
+   ],
+   "cota": 0.4069105321774478,
+   "cota_menos_L": 5.551115123125783e-17,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:macro:guardrail_deuda",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.07069933334324664,
+    0.07069933334324675
+   ],
+   "L": 0.47637574136008615,
+   "U": 0.47637574136009025,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0223671812761126,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007233234410831278
+   ],
+   "cota": 0.47637574136008615,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:macro:nucleo_contable",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.0734233370309644,
+    0.07342333703096454
+   ],
+   "L": 0.47365173767236834,
+   "U": 0.4736517376723725,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0223671812761126,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007511926673933268
+   ],
+   "cota": 0.47365173767236834,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:macro:sensibilidad",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.06252372918145567,
+    0.06252372918145578
+   ],
+   "L": 0.4845513455218771,
+   "U": 0.4845513455218812,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2451359365704795,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.0077906189370352584
+   ],
+   "cota": 0.4845513455218771,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:micro:buffer_destacado",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11508753706983978,
+    0.11508753706983992
+   ],
+   "L": 0.43198753763349296,
+   "U": 0.4319875376334972,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2451359365704795,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.014340205829868674
+   ],
+   "cota": 0.43198753763349296,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:micro:guardrail_deuda",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.058050431302561635,
+    0.05805043130256171
+   ],
+   "L": 0.48902464340077123,
+   "U": 0.4890246434007753,
+   "acreditada_en": "piloto_02.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2451359365704795,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007233234410831278
+   ],
+   "cota": 0.4890246434007712,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:micro:nucleo_contable",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.06028708024200866,
+    0.06028708024200874
+   ],
+   "L": 0.48678799446132415,
+   "U": 0.48678799446132826,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2451359365704795,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007511926673933268
+   ],
+   "cota": 0.48678799446132415,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:historical_anchor:ci:PER:d:domestic_unchanged:N:sin_addback:micro:sensibilidad",
+   "indice_contexto": 72,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.077142736216804,
+    0.07714273621680413
+   ],
+   "L": 0.46993233848652877,
+   "U": 0.4699323384865329,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153930632554644,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007838618937035347
+   ],
+   "cota": 0.46993233848652877,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:buffer_destacado",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.14159963328775377,
+    0.14159963328775402
+   ],
+   "L": 0.4054754414155789,
+   "U": 0.40547544141558317,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153930632554644,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.014388205829868762
+   ],
+   "cota": 0.40547544141557884,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:guardrail_deuda",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.071657309788798,
+    0.07165730978879813
+   ],
+   "L": 0.4754177649145348,
+   "U": 0.4754177649145389,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153930632554644,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.0072812344108313665
+   ],
+   "cota": 0.47541776491453475,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:nucleo_contable",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.07440002300280099,
+    0.07440002300280113
+   ],
+   "L": 0.47267505170053176,
+   "U": 0.4726750517005359,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153930632554644,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007559926673933357
+   ],
+   "cota": 0.47267505170053176,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:macro:sensibilidad",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.06453556662923285,
+    0.06453556662923296
+   ],
+   "L": 0.48253950807409995,
+   "U": 0.48253950807410406,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137524054775626,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007838618937035347
+   ],
+   "cota": 0.4825395080740999,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:buffer_destacado",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11845849676675319,
+    0.11845849676675334
+   ],
+   "L": 0.42861657793657953,
+   "U": 0.42861657793658375,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137524054775626,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.014388205829868762
+   ],
+   "cota": 0.42861657793657953,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:guardrail_deuda",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.059946604400314366,
+    0.05994660440031444
+   ],
+   "L": 0.4871284703030185,
+   "U": 0.48712847030302253,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137524054775626,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.0072812344108313665
+   ],
+   "cota": 0.4871284703030184,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:nucleo_contable",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.06224108551477361,
+    0.06224108551477369
+   ],
+   "L": 0.48483398918855924,
+   "U": 0.4848339891885633,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137524054775626,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007559926673933357
+   ],
+   "cota": 0.4848339891885592,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:addback_completo:micro:sensibilidad",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.07667035053660229,
+    0.07667035053660241
+   ],
+   "L": 0.47040472416673046,
+   "U": 0.4704047241667346,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153930632554644,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.0077906189370352584
+   ],
+   "cota": 0.47040472416673046,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:buffer_destacado",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.14112724760755205,
+    0.1411272476075523
+   ],
+   "L": 0.4059478270957806,
+   "U": 0.40594782709578486,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153930632554644,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.014340205829868674
+   ],
+   "cota": 0.4059478270957806,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:guardrail_deuda",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.0711849241085963,
+    0.0711849241085964
+   ],
+   "L": 0.4758901505947365,
+   "U": 0.4758901505947406,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153930632554644,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007233234410831278
+   ],
+   "cota": 0.4758901505947365,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:nucleo_contable",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.07392763732259928,
+    0.07392763732259942
+   ],
+   "L": 0.4731474373807335,
+   "U": 0.4731474373807376,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.0153930632554644,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007511926673933268
+   ],
+   "cota": 0.47314743738073345,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:macro:sensibilidad",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.06414038130091268,
+    0.06414038130091279
+   ],
+   "L": 0.4829346934024201,
+   "U": 0.48293469340242423,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137524054775626,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.0077906189370352584
+   ],
+   "cota": 0.48293469340242007,
+   "cota_menos_L": -5.551115123125783e-17,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:buffer_destacado",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.11806331143843303,
+    0.1180633114384332
+   ],
+   "L": 0.42901176326489965,
+   "U": 0.4290117632649039,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137524054775626,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.014340205829868674
+   ],
+   "cota": 0.4290117632648997,
+   "cota_menos_L": 5.551115123125783e-17,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:guardrail_deuda",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.05955141907199421,
+    0.05955141907199429
+   ],
+   "L": 0.4875236556313386,
+   "U": 0.4875236556313427,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137524054775626,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007233234410831278
+   ],
+   "cota": 0.4875236556313386,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:nucleo_contable",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  },
+  {
+   "K1_en_punto": [
+    0.06184590018645345,
+    0.061845900186453535
+   ],
+   "L": 0.48522917451687936,
+   "U": 0.48522917451688347,
+   "acreditada_en": "cobertura_01.json",
+   "contexto": [
+    "N",
+    "d",
+    [
+     0.6,
+     0.6
+    ],
+    1.2137524054775626,
+    0.04128103452227789,
+    -0.5,
+    0.1,
+    0.007511926673933268
+   ],
+   "cota": 0.48522917451687936,
+   "cota_menos_L": 0.0,
+   "hoja": "CLM:PREG-PER-APLICACION-E1:primary:ci:PER:d:domestic_unchanged:N:sin_addback:micro:sensibilidad",
+   "indice_contexto": 8,
+   "pais": "PER",
+   "sentido": "sup",
+   "tolerancia": 1e-12
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "cpu_usuario_s": 245.15625,
+ "cpu_nucleo_s": 9.328125,
+ "procesos_totales": 6,
+ "procesos_activos": 0,
+ "memoria_pico_job_mb": 527.3,
+ "memoria_pico_proceso_mb": 520.5,
+ "id": "ENS2-resto",
+ "comando": [
+  "bash",
+  "tmp/extremos_df_d_3_7_2026-10-05_lima0738/../pilotos_b36_b37_2026-10-02/entorno/py_integracion.sh",
+  "-m",
+  "codigo.ensayo_integracion",
+  "resto",
+  "demo/integracion/final_resto.json"
+ ],
+ "cwd": "tmp/extremos_df_d_3_7_2026-10-05_lima0738",
+ "limite_duro_s": 1200.0,
+ "inicio_utc": "2026-10-05T15:06:09Z",
+ "pared_s": 261.6,
+ "codigo_salida": 0,
+ "estado": "TERMINO",
+ "cpu_total_s": 254.5,
+ "cpu_por_pared": 0.97
+}

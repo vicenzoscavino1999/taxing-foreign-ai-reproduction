@@ -1,0 +1,3599 @@
+{
+ "kind": "manifiesto-mallas-abl-enf-rem126",
+ "estado": "PROPUESTO_NO_EMITIDO",
+ "nota": "formato L1-ELAST del paquete rem119 aceptado; mallas ENF y padres a evaluar con C0",
+ "b_official_run_authorized": false,
+ "freeze_run_authorized": false,
+ "official_export_authorized": false,
+ "L1-ELAST": {
+  "fronteras": {
+   "G|df|FRN-ENF:075cb6d4080fc856e386": {
+    "frontier_id": "FRN-ENF:075cb6d4080fc856e386",
+    "clave_estructural": {
+     "a": "2.13",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "4",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.99023",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 2,
+    "puntos_frontier_n4": 25,
+    "rol": "ENF",
+    "clave_enf": "075cb6d4080fc856",
+    "identidad_sha256": "075cb6d4080fc856e386f81a9299824674c31067f82a8ea4bf90d1107392e7cd"
+   },
+   "G|df|FRN-ENF:0f8b40d7eee999256b89": {
+    "frontier_id": "FRN-ENF:0f8b40d7eee999256b89",
+    "clave_estructural": {
+     "a": "2.2",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "4",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.99023",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 2,
+    "puntos_frontier_n4": 25,
+    "rol": "ENF",
+    "clave_enf": "0f8b40d7eee99925",
+    "identidad_sha256": "0f8b40d7eee999256b89691d4ed9364e49b2abeaa7c0b1fdefac88d75f43eb7b"
+   },
+   "N|d|FRN-ENF:230651ca1f23127881ca": {
+    "frontier_id": "FRN-ENF:230651ca1f23127881ca",
+    "clave_estructural": {
+     "a": "2.29",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "2.025",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.5",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos_frontier_n4": 5,
+    "rol": "ENF",
+    "clave_enf": "230651ca1f231278",
+    "identidad_sha256": "230651ca1f23127881ca04c11fb3d46bc058e9cb4ba0aa42719905ca6f953717"
+   },
+   "N|d|FRN-ENF:28497604b356680cc901": {
+    "frontier_id": "FRN-ENF:28497604b356680cc901",
+    "clave_estructural": {
+     "a": "2.5",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "2.025",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.5",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos_frontier_n4": 5,
+    "rol": "ENF",
+    "clave_enf": "28497604b356680c",
+    "identidad_sha256": "28497604b356680cc90155ae1466c089482a522a8e917fd94bcfccf135336828"
+   },
+   "N|df|FRN-ENF:29f1e9137a358a6fa55b": {
+    "frontier_id": "FRN-ENF:29f1e9137a358a6fa55b",
+    "clave_estructural": {
+     "a": "2.3",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "4",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.99414",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 2,
+    "puntos_frontier_n4": 25,
+    "rol": "ENF",
+    "clave_enf": "29f1e9137a358a6f",
+    "identidad_sha256": "29f1e9137a358a6fa55bdf4c6026c3d462a1cf3d40e282324bd8deee9ab4b7ab"
+   },
+   "N|df|FRN-ENF:2ad72b91ffbc2d92a798": {
+    "frontier_id": "FRN-ENF:2ad72b91ffbc2d92a798",
+    "clave_estructural": {
+     "a": "2.2",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "4",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.99414",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 2,
+    "puntos_frontier_n4": 25,
+    "rol": "ENF",
+    "clave_enf": "2ad72b91ffbc2d92",
+    "identidad_sha256": "2ad72b91ffbc2d92a79859acc17fb7757aa92481b4a0c1f734bf9c8eb9c2c623"
+   },
+   "G|d|FRN-ENF:334b9a1c0f334ab13a37": {
+    "frontier_id": "FRN-ENF:334b9a1c0f334ab13a37",
+    "clave_estructural": {
+     "a": "2.5",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "2.025",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.5",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos_frontier_n4": 5,
+    "rol": "ENF",
+    "clave_enf": "334b9a1c0f334ab1",
+    "identidad_sha256": "334b9a1c0f334ab13a37dc282ef04b79ee33e6a2205ddfafd76d3e62bd5daaea"
+   },
+   "G|df|FRN-ENF:3fa7da47337aa0f2221d": {
+    "frontier_id": "FRN-ENF:3fa7da47337aa0f2221d",
+    "clave_estructural": {
+     "a": "2.3",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "4",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.99023",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 2,
+    "puntos_frontier_n4": 25,
+    "rol": "ENF",
+    "clave_enf": "3fa7da47337aa0f2",
+    "identidad_sha256": "3fa7da47337aa0f2221d871706d1d9dda467d45eea97c6a7083beaa8d5eda330"
+   },
+   "G|df|FRN-ENF:4e183af386348a3d7840": {
+    "frontier_id": "FRN-ENF:4e183af386348a3d7840",
+    "clave_estructural": {
+     "a": "2.5",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "4",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.990234375",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 2,
+    "puntos_frontier_n4": 25,
+    "rol": "ENF",
+    "clave_enf": "4e183af386348a3d",
+    "identidad_sha256": "4e183af386348a3d784090bd2488e2ecbeae675230e4138d1e5bd5d55547a1f1"
+   },
+   "G|df|FRN-ENFPADRE:0b5ce97607ff1595211d": {
+    "frontier_id": "FRN-ENFPADRE:0b5ce97607ff1595211d",
+    "clave_estructural": {
+     "a": "2.5",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "8",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.990234375",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 2,
+    "puntos_frontier_n4": 25,
+    "rol": "PADRE_C0",
+    "clave_enf": "4e183af386348a3d",
+    "identidad_sha256": "0b5ce97607ff1595211de215d1c126c65e8e73a9a276627a0f844871dadaa953"
+   },
+   "G|d|FRN-ENF:567a527b8daa7445e086": {
+    "frontier_id": "FRN-ENF:567a527b8daa7445e086",
+    "clave_estructural": {
+     "a": "2.1500000000000004",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "2.025",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.5",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos_frontier_n4": 5,
+    "rol": "ENF",
+    "clave_enf": "567a527b8daa7445",
+    "identidad_sha256": "567a527b8daa7445e086e863d3a933730b12d2bbd3e4996b0a6ae07142abacb7"
+   },
+   "N|df|FRN-ENF:57e622fb22a3ad95e752": {
+    "frontier_id": "FRN-ENF:57e622fb22a3ad95e752",
+    "clave_estructural": {
+     "a": "2.1",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "4",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.99414",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 2,
+    "puntos_frontier_n4": 25,
+    "rol": "ENF",
+    "clave_enf": "57e622fb22a3ad95",
+    "identidad_sha256": "57e622fb22a3ad95e75241a4c6b7ab6d91c76bb08fb790a56383fdd419e99c61"
+   },
+   "G|d|FRN-ENF:5c72a56472225d7bed1d": {
+    "frontier_id": "FRN-ENF:5c72a56472225d7bed1d",
+    "clave_estructural": {
+     "a": "1.1",
+     "beta_tilde": "0.25",
+     "c_legal": "1",
+     "eta_d": "0.1",
+     "eta_f": "2.025",
+     "gamma": "1",
+     "kappa_tilde": "0.2",
+     "phi": "0.5",
+     "rho": "1",
+     "t": "0",
+     "u_theta": "0.5",
+     "z_cost": "1",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos_frontier_n4": 5,
+    "rol": "ENF",
+    "clave_enf": "5c72a56472225d7b",
+    "identidad_sha256": "5c72a56472225d7bed1dbbe359c4be19dfb906659860dbdebb2cf2a41ce6a63c"
+   },
+   "G|d|FRN-ENF:6fe85b6df4c7433a3d71": {
+    "frontier_id": "FRN-ENF:6fe85b6df4c7433a3d71",
+    "clave_estructural": {
+     "a": "2.2199999999999998",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "2.025",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.5",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos_frontier_n4": 5,
+    "rol": "ENF",
+    "clave_enf": "6fe85b6df4c7433a",
+    "identidad_sha256": "6fe85b6df4c7433a3d7165aa1a960f9960da90c28f603fc56761de8c7ca45b51"
+   },
+   "G|f|FRN-ENF:75a283726bb5e755b89d": {
+    "frontier_id": "FRN-ENF:75a283726bb5e755b89d",
+    "clave_estructural": {
+     "a": "1.1",
+     "beta_tilde": "2.125",
+     "c_legal": "1",
+     "eta_d": "2.05",
+     "eta_f": "4",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "1",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos_frontier_n4": 5,
+    "rol": "ENF",
+    "clave_enf": "75a283726bb5e755",
+    "identidad_sha256": "75a283726bb5e755b89d740f05adcd7af6457799156877edad4e2258e813338c"
+   },
+   "N|df|FRN-ENF:7c16ddb2712795a15f96": {
+    "frontier_id": "FRN-ENF:7c16ddb2712795a15f96",
+    "clave_estructural": {
+     "a": "2.5",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "4",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.994140625",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 2,
+    "puntos_frontier_n4": 25,
+    "rol": "ENF",
+    "clave_enf": "7c16ddb2712795a1",
+    "identidad_sha256": "7c16ddb2712795a15f9649f2709809115ac30c03ab93302d6058e8210401251c"
+   },
+   "N|df|FRN-ENF:8437b741f27bef3aca72": {
+    "frontier_id": "FRN-ENF:8437b741f27bef3aca72",
+    "clave_estructural": {
+     "a": "1.1",
+     "beta_tilde": "0.25",
+     "c_legal": "1",
+     "eta_d": "0.1",
+     "eta_f": "0.05",
+     "gamma": "1",
+     "kappa_tilde": "0.2",
+     "phi": "0.667",
+     "rho": "1",
+     "t": "0",
+     "u_theta": "0.5",
+     "z_cost": "1",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 2,
+    "puntos_frontier_n4": 25,
+    "rol": "ENF",
+    "clave_enf": "8437b741f27bef3a",
+    "identidad_sha256": "8437b741f27bef3aca7291136d967a170b1eab6e307606a3be347e756529eda2"
+   },
+   "G|f|FRN-ENF:85e2bb7b2279bcadbd77": {
+    "frontier_id": "FRN-ENF:85e2bb7b2279bcadbd77",
+    "clave_estructural": {
+     "a": "1.1",
+     "beta_tilde": "2.125",
+     "c_legal": "1",
+     "eta_d": "2.05",
+     "eta_f": "0.05",
+     "gamma": "1",
+     "kappa_tilde": "0.2",
+     "phi": "1",
+     "rho": "1",
+     "t": "0",
+     "u_theta": "0.5",
+     "z_cost": "1",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos_frontier_n4": 5,
+    "rol": "ENF",
+    "clave_enf": "85e2bb7b2279bcad",
+    "identidad_sha256": "85e2bb7b2279bcadbd7700faf011be9d30b3b2d4493490e62211a40a2403659c"
+   },
+   "G|f|FRN-ENFPADRE:f2dcb2a2836a7a187bc0": {
+    "frontier_id": "FRN-ENFPADRE:f2dcb2a2836a7a187bc0",
+    "clave_estructural": {
+     "a": "1.1",
+     "beta_tilde": "2.125",
+     "c_legal": "1",
+     "eta_d": "2.05",
+     "eta_f": "0.1",
+     "gamma": "1",
+     "kappa_tilde": "0.2",
+     "phi": "1",
+     "rho": "1",
+     "t": "0",
+     "u_theta": "0.5",
+     "z_cost": "1",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos_frontier_n4": 5,
+    "rol": "PADRE_C0",
+    "clave_enf": "85e2bb7b2279bcad",
+    "identidad_sha256": "f2dcb2a2836a7a187bc0ab15575519dcc954d433145c140aada1a6dc6570bbd4"
+   },
+   "N|f|FRN-ENF:8a9fbd6ddd9bf9c46f26": {
+    "frontier_id": "FRN-ENF:8a9fbd6ddd9bf9c46f26",
+    "clave_estructural": {
+     "a": "1.1",
+     "beta_tilde": "2.125",
+     "c_legal": "1",
+     "eta_d": "2.05",
+     "eta_f": "4",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "1",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos_frontier_n4": 5,
+    "rol": "ENF",
+    "clave_enf": "8a9fbd6ddd9bf9c4",
+    "identidad_sha256": "8a9fbd6ddd9bf9c46f26caa2f35ae77b76cee2da525ee25f58e9ee4e86aaede7"
+   },
+   "G|d|FRN-ENF:8af179a6f3885acefbf0": {
+    "frontier_id": "FRN-ENF:8af179a6f3885acefbf0",
+    "clave_estructural": {
+     "a": "2.3600000000000003",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "2.025",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.5",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos_frontier_n4": 5,
+    "rol": "ENF",
+    "clave_enf": "8af179a6f3885ace",
+    "identidad_sha256": "8af179a6f3885acefbf0ff5130407289f24dbaf9fd370f0bd4a9de27bc13ff58"
+   },
+   "G|d|FRN-ENF:a53bc6985b309381c812": {
+    "frontier_id": "FRN-ENF:a53bc6985b309381c812",
+    "clave_estructural": {
+     "a": "2.29",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "2.025",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.5",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos_frontier_n4": 5,
+    "rol": "ENF",
+    "clave_enf": "a53bc6985b309381",
+    "identidad_sha256": "a53bc6985b309381c81272e76e3b0a258a7e98f104d701f264366a91d2183743"
+   },
+   "N|d|FRN-ENF:cc2ebecde85bf358d7db": {
+    "frontier_id": "FRN-ENF:cc2ebecde85bf358d7db",
+    "clave_estructural": {
+     "a": "2.3600000000000003",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "2.025",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.5",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos_frontier_n4": 5,
+    "rol": "ENF",
+    "clave_enf": "cc2ebecde85bf358",
+    "identidad_sha256": "cc2ebecde85bf358d7dbedf6085de12bb6299c487fc8e85fa3b75d57b9912c68"
+   },
+   "G|df|FRN-ENF:d59edf8a9d1461d135ec": {
+    "frontier_id": "FRN-ENF:d59edf8a9d1461d135ec",
+    "clave_estructural": {
+     "a": "1.1",
+     "beta_tilde": "0.25",
+     "c_legal": "1",
+     "eta_d": "0.10002975463867188",
+     "eta_f": "0.050060272216796875",
+     "gamma": "1",
+     "kappa_tilde": "0.2",
+     "phi": "0.8755340576171875",
+     "rho": "1",
+     "t": "0",
+     "u_theta": "0.5",
+     "z_cost": "1",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 2,
+    "puntos_frontier_n4": 25,
+    "rol": "ENF",
+    "clave_enf": "d59edf8a9d1461d1",
+    "identidad_sha256": "d59edf8a9d1461d135ecb84f7cf0fbf1a332ea182ad1acde96113702f4a8d40e"
+   },
+   "N|f|FRN-ENF:dff097a9f2c3bfcddfab": {
+    "frontier_id": "FRN-ENF:dff097a9f2c3bfcddfab",
+    "clave_estructural": {
+     "a": "1.1",
+     "beta_tilde": "2.125",
+     "c_legal": "1",
+     "eta_d": "2.05",
+     "eta_f": "0.05",
+     "gamma": "1",
+     "kappa_tilde": "0.2",
+     "phi": "1",
+     "rho": "1",
+     "t": "0",
+     "u_theta": "0.5",
+     "z_cost": "1",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos_frontier_n4": 5,
+    "rol": "ENF",
+    "clave_enf": "dff097a9f2c3bfcd",
+    "identidad_sha256": "dff097a9f2c3bfcddfabf265431fc1acb80d386f1a1c8fd2f7a73b52a3d7dbc0"
+   },
+   "N|d|FRN-ENF:e7b02a2faa6c5ce07054": {
+    "frontier_id": "FRN-ENF:e7b02a2faa6c5ce07054",
+    "clave_estructural": {
+     "a": "2.1500000000000004",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "2.025",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.5",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos_frontier_n4": 5,
+    "rol": "ENF",
+    "clave_enf": "e7b02a2faa6c5ce0",
+    "identidad_sha256": "e7b02a2faa6c5ce07054e29b84719da61e7e849a777b810797eed73a9547a88a"
+   },
+   "N|d|FRN-ENF:f1cdb2b49894f2e92844": {
+    "frontier_id": "FRN-ENF:f1cdb2b49894f2e92844",
+    "clave_estructural": {
+     "a": "2.2199999999999998",
+     "beta_tilde": "4",
+     "c_legal": "1",
+     "eta_d": "4",
+     "eta_f": "2.025",
+     "gamma": "1",
+     "kappa_tilde": "0.005",
+     "phi": "0.5",
+     "rho": "0.4",
+     "t": "0",
+     "u_theta": "0.9",
+     "z_cost": "100",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos_frontier_n4": 5,
+    "rol": "ENF",
+    "clave_enf": "f1cdb2b49894f2e9",
+    "identidad_sha256": "f1cdb2b49894f2e92844bc5435e8f56b4c34e9d01cceba236aec75593e841037"
+   },
+   "N|d|FRN-ENF:fecc3d29aefc48fb01e4": {
+    "frontier_id": "FRN-ENF:fecc3d29aefc48fb01e4",
+    "clave_estructural": {
+     "a": "1.1",
+     "beta_tilde": "0.25",
+     "c_legal": "1",
+     "eta_d": "0.1",
+     "eta_f": "2.025",
+     "gamma": "1",
+     "kappa_tilde": "0.2",
+     "phi": "0.5",
+     "rho": "1",
+     "t": "0",
+     "u_theta": "0.5",
+     "z_cost": "1",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos_frontier_n4": 5,
+    "rol": "ENF",
+    "clave_enf": "fecc3d29aefc48fb",
+    "identidad_sha256": "fecc3d29aefc48fb01e4dd1b56b66af1a1a728c442cfda22fbbd3c7ed79afe22"
+   },
+   "N|d|FRN-ENFPADRE:c5897f57c9e41f1a5d58": {
+    "frontier_id": "FRN-ENFPADRE:c5897f57c9e41f1a5d58",
+    "clave_estructural": {
+     "a": "1.1",
+     "beta_tilde": "0.25",
+     "c_legal": "1",
+     "eta_d": "0.1",
+     "eta_f": "4.05",
+     "gamma": "1",
+     "kappa_tilde": "0.2",
+     "phi": "0.5",
+     "rho": "1",
+     "t": "0",
+     "u_theta": "0.5",
+     "z_cost": "1",
+     "z_m": "1"
+    },
+    "dominio_tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos_frontier_n4": 5,
+    "rol": "PADRE_C0",
+    "clave_enf": "fecc3d29aefc48fb",
+    "identidad_sha256": "c5897f57c9e41f1a5d58916d8a16b3cfcc292c7c0ab078fc087bc9cbda36cad2"
+   }
+  },
+  "topologia_requerida": true,
+  "puntos_totales_frontier_n4": 365
+ },
+ "ABL-ENF-MALLAS": {
+  "transformacion": "enforcement_half: eta_f ← eta_f/2 exacto; phi y las otras 11 entradas del padre intactas",
+  "manifiesto_techos": {
+   "ruta": "tmp/paso4_enforcement_desde_rem125/lote_enf/MANIFIESTO_ABL_ENF.json",
+   "sha256": "0b27b32abdfb4eaf0db11427a8a8bb93c7d4014c6c7acd1bdbfbe6e32d28b3ad"
+  },
+  "fuentes": {
+   "lote1_manifiesto": {
+    "ruta": "tmp/paso4_conciliacion_portabilidad_desde_rem111/lote/LOTE1_MANIFIESTO.json",
+    "sha256": "19ecd7d3eb0e42a67d46678a6b447f064c8011a27361c8777330ddade9e8ebb9"
+   },
+   "lote2_manifiesto": {
+    "ruta": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/LOTE2_MANIFIESTO.json",
+    "sha256": "b1cf8af5eab8aa22c53ec279bd5660dbf57847b6be8f874c56af7d71f9cd4bab"
+   },
+   "e4_manifiesto": {
+    "ruta": "tmp/paso4_suplemento_topologia_desde_rem119/lote2/LOTE2E4_MANIFIESTO.json",
+    "sha256": "d430b39db2cea7801cdcf8b55f0455063270d58f5aebea57776241fcde04b4af"
+   },
+   "elast_lote1_rem112": {
+    "ruta": "tmp/paso4_lote1_desde_rem112/lote1_LOTE1_REM112/L1-ELAST/salida/frontier_result.jsonl",
+    "sha256": "dba33b473db7e6f82b56e30d5086c84298bff48ee1427dfbdfffb98fdf97997b"
+   },
+   "elast_lote2_rem120": {
+    "ruta": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-ELAST/salida/frontier_result.jsonl",
+    "sha256": "007095a94b7d1fce18aea6214c56c45b370e9a6eb5b0e415da6a0cc09a26ea8c"
+   },
+   "procedencia_suplemento_rem120": {
+    "ruta": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-ELAST/salida/suplemento_procedencia.jsonl",
+    "sha256": "d6a12af3818993288d8b1f1cbbb87eb7cb64bf2ee25492ae4ff1d95cc2e55b39"
+   },
+   "elast_e4_rem121": {
+    "ruta": "tmp/paso4_e4_coord_desde_rem121/lote2e4_REM121_E4/L1-ELAST/salida/frontier_result.jsonl",
+    "sha256": "cf711accc908ffb10e190424e0f207b55b69f719585458b734d711be09142f0d"
+   }
+  },
+  "pares": [
+   {
+    "par_id": "PAR-ENF:075cb6d4080fc856",
+    "clave_enf": "075cb6d4080fc856",
+    "diseno": "G",
+    "j": "df",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 2,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0000_0001",
+      "tau_d": 0.0,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0000_0002",
+      "tau_d": 0.0,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0000_0003",
+      "tau_d": 0.0,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0000_0004",
+      "tau_d": 0.0,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0001_0000",
+      "tau_d": 0.15,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0001_0001",
+      "tau_d": 0.15,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0001_0002",
+      "tau_d": 0.15,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0001_0003",
+      "tau_d": 0.15,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0001_0004",
+      "tau_d": 0.15,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0002_0000",
+      "tau_d": 0.3,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0002_0001",
+      "tau_d": 0.3,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0002_0002",
+      "tau_d": 0.3,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0002_0003",
+      "tau_d": 0.3,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0002_0004",
+      "tau_d": 0.3,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0003_0000",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0003_0001",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0003_0002",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0003_0003",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0003_0004",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0004_0000",
+      "tau_d": 0.6,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0004_0001",
+      "tau_d": 0.6,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0004_0002",
+      "tau_d": 0.6,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0004_0003",
+      "tau_d": 0.6,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0004_0004",
+      "tau_d": 0.6,
+      "tau_f": 0.6
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:075cb6d4080fc856e386",
+     "identidad_sha256": "075cb6d4080fc856e386f81a9299824674c31067f82a8ea4bf90d1107392e7cd",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:cffc7797b61afe9e15aea64f164a273eb17930d7",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "687c3fadf56972d2b6fa56882f180307aa608a698aa3c1ece4899960ab983aaf",
+     "alternativas": []
+    },
+    "celdas": 1,
+    "control_menu_d": false
+   },
+   {
+    "par_id": "PAR-ENF:0f8b40d7eee99925",
+    "clave_enf": "0f8b40d7eee99925",
+    "diseno": "G",
+    "j": "df",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 2,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0000_0001",
+      "tau_d": 0.0,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0000_0002",
+      "tau_d": 0.0,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0000_0003",
+      "tau_d": 0.0,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0000_0004",
+      "tau_d": 0.0,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0001_0000",
+      "tau_d": 0.15,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0001_0001",
+      "tau_d": 0.15,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0001_0002",
+      "tau_d": 0.15,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0001_0003",
+      "tau_d": 0.15,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0001_0004",
+      "tau_d": 0.15,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0002_0000",
+      "tau_d": 0.3,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0002_0001",
+      "tau_d": 0.3,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0002_0002",
+      "tau_d": 0.3,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0002_0003",
+      "tau_d": 0.3,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0002_0004",
+      "tau_d": 0.3,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0003_0000",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0003_0001",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0003_0002",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0003_0003",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0003_0004",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0004_0000",
+      "tau_d": 0.6,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0004_0001",
+      "tau_d": 0.6,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0004_0002",
+      "tau_d": 0.6,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0004_0003",
+      "tau_d": 0.6,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0004_0004",
+      "tau_d": 0.6,
+      "tau_f": 0.6
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:0f8b40d7eee999256b89",
+     "identidad_sha256": "0f8b40d7eee999256b89691d4ed9364e49b2abeaa7c0b1fdefac88d75f43eb7b",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:383767f5d98b123218b7de8c454f7b31bc9f8b84",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "dcc8852922a59c9158cbb63f77ddf93aefb0acb6486efa4a0d64bf59890c2199",
+     "alternativas": []
+    },
+    "celdas": 8,
+    "control_menu_d": false
+   },
+   {
+    "par_id": "PAR-ENF:230651ca1f231278",
+    "clave_enf": "230651ca1f231278",
+    "diseno": "N",
+    "j": "d",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0001_0000",
+      "tau_d": 0.15,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0002_0000",
+      "tau_d": 0.3,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0003_0000",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0004_0000",
+      "tau_d": 0.6,
+      "tau_f": 0.0
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:230651ca1f23127881ca",
+     "identidad_sha256": "230651ca1f23127881ca04c11fb3d46bc058e9cb4ba0aa42719905ca6f953717",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:c4ab9a01b71d91cf629b1725cc22bedaf7188df7",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "fc351d4bb3d0e671f883c79113e64207ef9e05914dce1a424bfbfaf8cbeb7b3b",
+     "alternativas": []
+    },
+    "celdas": 2,
+    "control_menu_d": true
+   },
+   {
+    "par_id": "PAR-ENF:28497604b356680c",
+    "clave_enf": "28497604b356680c",
+    "diseno": "N",
+    "j": "d",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0001_0000",
+      "tau_d": 0.15,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0002_0000",
+      "tau_d": 0.3,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0003_0000",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0004_0000",
+      "tau_d": 0.6,
+      "tau_f": 0.0
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:28497604b356680cc901",
+     "identidad_sha256": "28497604b356680cc90155ae1466c089482a522a8e917fd94bcfccf135336828",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:03f80ccb9439b47bfe872137ff3aa6f53ccd1772",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "dec18ef5f2fc2e57f1ed54fa6a70fcef30cc988e3ac699e4364e70bce67bce59",
+     "alternativas": []
+    },
+    "celdas": 128,
+    "control_menu_d": true
+   },
+   {
+    "par_id": "PAR-ENF:29f1e9137a358a6f",
+    "clave_enf": "29f1e9137a358a6f",
+    "diseno": "N",
+    "j": "df",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 2,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0000_0001",
+      "tau_d": 0.0,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0000_0002",
+      "tau_d": 0.0,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0000_0003",
+      "tau_d": 0.0,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0000_0004",
+      "tau_d": 0.0,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0001_0000",
+      "tau_d": 0.15,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0001_0001",
+      "tau_d": 0.15,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0001_0002",
+      "tau_d": 0.15,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0001_0003",
+      "tau_d": 0.15,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0001_0004",
+      "tau_d": 0.15,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0002_0000",
+      "tau_d": 0.3,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0002_0001",
+      "tau_d": 0.3,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0002_0002",
+      "tau_d": 0.3,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0002_0003",
+      "tau_d": 0.3,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0002_0004",
+      "tau_d": 0.3,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0003_0000",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0003_0001",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0003_0002",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0003_0003",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0003_0004",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0004_0000",
+      "tau_d": 0.6,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0004_0001",
+      "tau_d": 0.6,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0004_0002",
+      "tau_d": 0.6,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0004_0003",
+      "tau_d": 0.6,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0004_0004",
+      "tau_d": 0.6,
+      "tau_f": 0.6
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:29f1e9137a358a6fa55b",
+     "identidad_sha256": "29f1e9137a358a6fa55bdf4c6026c3d462a1cf3d40e282324bd8deee9ab4b7ab",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:2bacbe21a081aad8439f5ec94fd8a1ce9c0a958d",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "830650733672f18358e50c6cbcc64ec8c5d94e16360339d205fb4efeff1fdedf",
+     "alternativas": []
+    },
+    "celdas": 6,
+    "control_menu_d": false
+   },
+   {
+    "par_id": "PAR-ENF:2ad72b91ffbc2d92",
+    "clave_enf": "2ad72b91ffbc2d92",
+    "diseno": "N",
+    "j": "df",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 2,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0000_0001",
+      "tau_d": 0.0,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0000_0002",
+      "tau_d": 0.0,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0000_0003",
+      "tau_d": 0.0,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0000_0004",
+      "tau_d": 0.0,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0001_0000",
+      "tau_d": 0.15,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0001_0001",
+      "tau_d": 0.15,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0001_0002",
+      "tau_d": 0.15,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0001_0003",
+      "tau_d": 0.15,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0001_0004",
+      "tau_d": 0.15,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0002_0000",
+      "tau_d": 0.3,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0002_0001",
+      "tau_d": 0.3,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0002_0002",
+      "tau_d": 0.3,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0002_0003",
+      "tau_d": 0.3,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0002_0004",
+      "tau_d": 0.3,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0003_0000",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0003_0001",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0003_0002",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0003_0003",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0003_0004",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0004_0000",
+      "tau_d": 0.6,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0004_0001",
+      "tau_d": 0.6,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0004_0002",
+      "tau_d": 0.6,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0004_0003",
+      "tau_d": 0.6,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0004_0004",
+      "tau_d": 0.6,
+      "tau_f": 0.6
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:2ad72b91ffbc2d92a798",
+     "identidad_sha256": "2ad72b91ffbc2d92a79859acc17fb7757aa92481b4a0c1f734bf9c8eb9c2c623",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:2ab9da03ed861f70dbe11a4287e75badc19ccb1b",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "76fdd0210431d231b733db3ed09ce1701da3c38c6de5199aabd05697a3fa6e4c",
+     "alternativas": []
+    },
+    "celdas": 8,
+    "control_menu_d": false
+   },
+   {
+    "par_id": "PAR-ENF:334b9a1c0f334ab1",
+    "clave_enf": "334b9a1c0f334ab1",
+    "diseno": "G",
+    "j": "d",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0001_0000",
+      "tau_d": 0.15,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0002_0000",
+      "tau_d": 0.3,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0003_0000",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0004_0000",
+      "tau_d": 0.6,
+      "tau_f": 0.0
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:334b9a1c0f334ab13a37",
+     "identidad_sha256": "334b9a1c0f334ab13a37dc282ef04b79ee33e6a2205ddfafd76d3e62bd5daaea",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:1d93543b7da80a5ec9927545468b00e59a2aeee2",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "52a35e3fb347bfad2b66ee517e05faf69b0b6a731f9aede030be8e863fcd613b",
+     "alternativas": []
+    },
+    "celdas": 128,
+    "control_menu_d": true
+   },
+   {
+    "par_id": "PAR-ENF:3fa7da47337aa0f2",
+    "clave_enf": "3fa7da47337aa0f2",
+    "diseno": "G",
+    "j": "df",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 2,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0000_0001",
+      "tau_d": 0.0,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0000_0002",
+      "tau_d": 0.0,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0000_0003",
+      "tau_d": 0.0,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0000_0004",
+      "tau_d": 0.0,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0001_0000",
+      "tau_d": 0.15,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0001_0001",
+      "tau_d": 0.15,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0001_0002",
+      "tau_d": 0.15,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0001_0003",
+      "tau_d": 0.15,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0001_0004",
+      "tau_d": 0.15,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0002_0000",
+      "tau_d": 0.3,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0002_0001",
+      "tau_d": 0.3,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0002_0002",
+      "tau_d": 0.3,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0002_0003",
+      "tau_d": 0.3,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0002_0004",
+      "tau_d": 0.3,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0003_0000",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0003_0001",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0003_0002",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0003_0003",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0003_0004",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0004_0000",
+      "tau_d": 0.6,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0004_0001",
+      "tau_d": 0.6,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0004_0002",
+      "tau_d": 0.6,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0004_0003",
+      "tau_d": 0.6,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0004_0004",
+      "tau_d": 0.6,
+      "tau_f": 0.6
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:3fa7da47337aa0f2221d",
+     "identidad_sha256": "3fa7da47337aa0f2221d871706d1d9dda467d45eea97c6a7083beaa8d5eda330",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:c9dfdbb56940f6bd2782ff519a76b0026c110122",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "57901895ed6c0be0a8a7b607cdd9aa8be52d5ea066fb8b8ae6994dae5a184ec0",
+     "alternativas": []
+    },
+    "celdas": 6,
+    "control_menu_d": false
+   },
+   {
+    "par_id": "PAR-ENF:4e183af386348a3d",
+    "clave_enf": "4e183af386348a3d",
+    "diseno": "G",
+    "j": "df",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 2,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0000_0001",
+      "tau_d": 0.0,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0000_0002",
+      "tau_d": 0.0,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0000_0003",
+      "tau_d": 0.0,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0000_0004",
+      "tau_d": 0.0,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0001_0000",
+      "tau_d": 0.15,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0001_0001",
+      "tau_d": 0.15,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0001_0002",
+      "tau_d": 0.15,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0001_0003",
+      "tau_d": 0.15,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0001_0004",
+      "tau_d": 0.15,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0002_0000",
+      "tau_d": 0.3,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0002_0001",
+      "tau_d": 0.3,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0002_0002",
+      "tau_d": 0.3,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0002_0003",
+      "tau_d": 0.3,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0002_0004",
+      "tau_d": 0.3,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0003_0000",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0003_0001",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0003_0002",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0003_0003",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0003_0004",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0004_0000",
+      "tau_d": 0.6,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0004_0001",
+      "tau_d": 0.6,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0004_0002",
+      "tau_d": 0.6,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0004_0003",
+      "tau_d": 0.6,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0004_0004",
+      "tau_d": 0.6,
+      "tau_f": 0.6
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:4e183af386348a3d7840",
+     "identidad_sha256": "4e183af386348a3d784090bd2488e2ecbeae675230e4138d1e5bd5d55547a1f1",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "evaluar_con_C0",
+     "frontier_id": "FRN-ENFPADRE:0b5ce97607ff1595211d",
+     "identidad_sha256": "0b5ce97607ff1595211de215d1c126c65e8e73a9a276627a0f844871dadaa953",
+     "aceptadas_no_reutilizables": [
+      {
+       "frontier_id": "FRN:09c72876468fe62aaf395071c1c2825d22435ff9",
+       "manifiesto": "lote1_manifiesto",
+       "producto": "elast_lote1_rem112",
+       "origen": "historico_lote1_otro_nucleo",
+       "filas_point_en_producto": 25
+      },
+      {
+       "frontier_id": "FRN:09c72876468fe62aaf395071c1c2825d22435ff9",
+       "manifiesto": "lote2_manifiesto",
+       "producto": "elast_lote2_rem120",
+       "origen": "historico_lote1_mas_topologia_C0",
+       "filas_point_en_producto": 25
+      }
+     ]
+    },
+    "celdas": 128,
+    "control_menu_d": false
+   },
+   {
+    "par_id": "PAR-ENF:567a527b8daa7445",
+    "clave_enf": "567a527b8daa7445",
+    "diseno": "G",
+    "j": "d",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0001_0000",
+      "tau_d": 0.15,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0002_0000",
+      "tau_d": 0.3,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0003_0000",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0004_0000",
+      "tau_d": 0.6,
+      "tau_f": 0.0
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:567a527b8daa7445e086",
+     "identidad_sha256": "567a527b8daa7445e086e863d3a933730b12d2bbd3e4996b0a6ae07142abacb7",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:9e651d35f6b9b2888bb727de32753d9b4fc09b2b",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "0be3d31d4a26c7ecc897e480b1cb265f5f641650a0155f9314cd944276307fd6",
+     "alternativas": []
+    },
+    "celdas": 2,
+    "control_menu_d": true
+   },
+   {
+    "par_id": "PAR-ENF:57e622fb22a3ad95",
+    "clave_enf": "57e622fb22a3ad95",
+    "diseno": "N",
+    "j": "df",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 2,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0000_0001",
+      "tau_d": 0.0,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0000_0002",
+      "tau_d": 0.0,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0000_0003",
+      "tau_d": 0.0,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0000_0004",
+      "tau_d": 0.0,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0001_0000",
+      "tau_d": 0.15,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0001_0001",
+      "tau_d": 0.15,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0001_0002",
+      "tau_d": 0.15,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0001_0003",
+      "tau_d": 0.15,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0001_0004",
+      "tau_d": 0.15,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0002_0000",
+      "tau_d": 0.3,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0002_0001",
+      "tau_d": 0.3,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0002_0002",
+      "tau_d": 0.3,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0002_0003",
+      "tau_d": 0.3,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0002_0004",
+      "tau_d": 0.3,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0003_0000",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0003_0001",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0003_0002",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0003_0003",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0003_0004",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0004_0000",
+      "tau_d": 0.6,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0004_0001",
+      "tau_d": 0.6,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0004_0002",
+      "tau_d": 0.6,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0004_0003",
+      "tau_d": 0.6,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0004_0004",
+      "tau_d": 0.6,
+      "tau_f": 0.6
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:57e622fb22a3ad95e752",
+     "identidad_sha256": "57e622fb22a3ad95e75241a4c6b7ab6d91c76bb08fb790a56383fdd419e99c61",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:8ec4d0aa43ed07a7b5ac4f525708e88a94738d96",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "07bdb805e123cd1486cd733a51a32fb1dd58e5e6f08c8b363b2c44c746d56708",
+     "alternativas": []
+    },
+    "celdas": 1,
+    "control_menu_d": false
+   },
+   {
+    "par_id": "PAR-ENF:5c72a56472225d7b",
+    "clave_enf": "5c72a56472225d7b",
+    "diseno": "G",
+    "j": "d",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0001_0000",
+      "tau_d": 0.15,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0002_0000",
+      "tau_d": 0.3,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0003_0000",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0004_0000",
+      "tau_d": 0.6,
+      "tau_f": 0.0
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:5c72a56472225d7bed1d",
+     "identidad_sha256": "5c72a56472225d7bed1dbbe359c4be19dfb906659860dbdebb2cf2a41ce6a63c",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:06065ec884430f9ae68c37cfec49ef4d559a2172",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "a01bb9248b696e95002e7fb57d9042abf4a81fcd64c460ed251d8ebe2e7a7f1f",
+     "alternativas": []
+    },
+    "celdas": 143,
+    "control_menu_d": true
+   },
+   {
+    "par_id": "PAR-ENF:6fe85b6df4c7433a",
+    "clave_enf": "6fe85b6df4c7433a",
+    "diseno": "G",
+    "j": "d",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0001_0000",
+      "tau_d": 0.15,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0002_0000",
+      "tau_d": 0.3,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0003_0000",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0004_0000",
+      "tau_d": 0.6,
+      "tau_f": 0.0
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:6fe85b6df4c7433a3d71",
+     "identidad_sha256": "6fe85b6df4c7433a3d7165aa1a960f9960da90c28f603fc56761de8c7ca45b51",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:0cfcf6a480b82071e9be74d4960c02a8b81bc59e",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "96c51921adab36e013ac6d6312373410b6c444267e8149a67d9fd8c989a18ef3",
+     "alternativas": []
+    },
+    "celdas": 8,
+    "control_menu_d": true
+   },
+   {
+    "par_id": "PAR-ENF:75a283726bb5e755",
+    "clave_enf": "75a283726bb5e755",
+    "diseno": "G",
+    "j": "f",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0000_0001",
+      "tau_d": 0.0,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0000_0002",
+      "tau_d": 0.0,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0000_0003",
+      "tau_d": 0.0,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0000_0004",
+      "tau_d": 0.0,
+      "tau_f": 0.6
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:75a283726bb5e755b89d",
+     "identidad_sha256": "75a283726bb5e755b89d740f05adcd7af6457799156877edad4e2258e813338c",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:032b07091d8730e23122c54948aaa531f98bf043",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "cef529bb736fde3f4bca09ac4b107278c729f7c6a5164b3fc4930a86c17cf9dd",
+     "alternativas": []
+    },
+    "celdas": 144,
+    "control_menu_d": false
+   },
+   {
+    "par_id": "PAR-ENF:7c16ddb2712795a1",
+    "clave_enf": "7c16ddb2712795a1",
+    "diseno": "N",
+    "j": "df",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 2,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0000_0001",
+      "tau_d": 0.0,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0000_0002",
+      "tau_d": 0.0,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0000_0003",
+      "tau_d": 0.0,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0000_0004",
+      "tau_d": 0.0,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0001_0000",
+      "tau_d": 0.15,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0001_0001",
+      "tau_d": 0.15,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0001_0002",
+      "tau_d": 0.15,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0001_0003",
+      "tau_d": 0.15,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0001_0004",
+      "tau_d": 0.15,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0002_0000",
+      "tau_d": 0.3,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0002_0001",
+      "tau_d": 0.3,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0002_0002",
+      "tau_d": 0.3,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0002_0003",
+      "tau_d": 0.3,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0002_0004",
+      "tau_d": 0.3,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0003_0000",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0003_0001",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0003_0002",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0003_0003",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0003_0004",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0004_0000",
+      "tau_d": 0.6,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0004_0001",
+      "tau_d": 0.6,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0004_0002",
+      "tau_d": 0.6,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0004_0003",
+      "tau_d": 0.6,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0004_0004",
+      "tau_d": 0.6,
+      "tau_f": 0.6
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:7c16ddb2712795a15f96",
+     "identidad_sha256": "7c16ddb2712795a15f9649f2709809115ac30c03ab93302d6058e8210401251c",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:1550f3f8f01c018a6bebfbb99226e10422804f32",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "3b27897490c7a2260264cb4cdd4e57d91551750ecd659f4f3a5da668ea7207c5",
+     "alternativas": []
+    },
+    "celdas": 128,
+    "control_menu_d": false
+   },
+   {
+    "par_id": "PAR-ENF:8437b741f27bef3a",
+    "clave_enf": "8437b741f27bef3a",
+    "diseno": "N",
+    "j": "df",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 2,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0000_0001",
+      "tau_d": 0.0,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0000_0002",
+      "tau_d": 0.0,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0000_0003",
+      "tau_d": 0.0,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0000_0004",
+      "tau_d": 0.0,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0001_0000",
+      "tau_d": 0.15,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0001_0001",
+      "tau_d": 0.15,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0001_0002",
+      "tau_d": 0.15,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0001_0003",
+      "tau_d": 0.15,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0001_0004",
+      "tau_d": 0.15,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0002_0000",
+      "tau_d": 0.3,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0002_0001",
+      "tau_d": 0.3,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0002_0002",
+      "tau_d": 0.3,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0002_0003",
+      "tau_d": 0.3,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0002_0004",
+      "tau_d": 0.3,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0003_0000",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0003_0001",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0003_0002",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0003_0003",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0003_0004",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0004_0000",
+      "tau_d": 0.6,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0004_0001",
+      "tau_d": 0.6,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0004_0002",
+      "tau_d": 0.6,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0004_0003",
+      "tau_d": 0.6,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0004_0004",
+      "tau_d": 0.6,
+      "tau_f": 0.6
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:8437b741f27bef3aca72",
+     "identidad_sha256": "8437b741f27bef3aca7291136d967a170b1eab6e307606a3be347e756529eda2",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:25b337fbb97d4df2895c5aa4585c02c0b4dabdc8",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "2b8f8a69804e41891fcfd4915f636650c96b4610a85e25c14d48d43eaeb6d0f9",
+     "alternativas": []
+    },
+    "celdas": 144,
+    "control_menu_d": false
+   },
+   {
+    "par_id": "PAR-ENF:85e2bb7b2279bcad",
+    "clave_enf": "85e2bb7b2279bcad",
+    "diseno": "G",
+    "j": "f",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0000_0001",
+      "tau_d": 0.0,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0000_0002",
+      "tau_d": 0.0,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0000_0003",
+      "tau_d": 0.0,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0000_0004",
+      "tau_d": 0.0,
+      "tau_f": 0.6
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:85e2bb7b2279bcadbd77",
+     "identidad_sha256": "85e2bb7b2279bcadbd7700faf011be9d30b3b2d4493490e62211a40a2403659c",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "evaluar_con_C0",
+     "frontier_id": "FRN-ENFPADRE:f2dcb2a2836a7a187bc0",
+     "identidad_sha256": "f2dcb2a2836a7a187bc0ab15575519dcc954d433145c140aada1a6dc6570bbd4",
+     "aceptadas_no_reutilizables": [
+      {
+       "frontier_id": "FRN:339fcdf381352b3d9b92e336fe7b7c23a1e2c7cf",
+       "manifiesto": "lote1_manifiesto",
+       "producto": "elast_lote1_rem112",
+       "origen": "historico_lote1_otro_nucleo",
+       "filas_point_en_producto": 5
+      },
+      {
+       "frontier_id": "FRN:339fcdf381352b3d9b92e336fe7b7c23a1e2c7cf",
+       "manifiesto": "lote2_manifiesto",
+       "producto": "elast_lote2_rem120",
+       "origen": "historico_lote1_mas_topologia_C0",
+       "filas_point_en_producto": 5
+      }
+     ]
+    },
+    "celdas": 144,
+    "control_menu_d": false
+   },
+   {
+    "par_id": "PAR-ENF:8a9fbd6ddd9bf9c4",
+    "clave_enf": "8a9fbd6ddd9bf9c4",
+    "diseno": "N",
+    "j": "f",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0000_0001",
+      "tau_d": 0.0,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0000_0002",
+      "tau_d": 0.0,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0000_0003",
+      "tau_d": 0.0,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0000_0004",
+      "tau_d": 0.0,
+      "tau_f": 0.6
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:8a9fbd6ddd9bf9c46f26",
+     "identidad_sha256": "8a9fbd6ddd9bf9c46f26caa2f35ae77b76cee2da525ee25f58e9ee4e86aaede7",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:01479ff40a2aa3116139923812843ded2ba28f0f",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "b454cf4e8221081b5f131d49372161f8b328943bfd4de388de5ce46eb158f00a",
+     "alternativas": []
+    },
+    "celdas": 144,
+    "control_menu_d": false
+   },
+   {
+    "par_id": "PAR-ENF:8af179a6f3885ace",
+    "clave_enf": "8af179a6f3885ace",
+    "diseno": "G",
+    "j": "d",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0001_0000",
+      "tau_d": 0.15,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0002_0000",
+      "tau_d": 0.3,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0003_0000",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0004_0000",
+      "tau_d": 0.6,
+      "tau_f": 0.0
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:8af179a6f3885acefbf0",
+     "identidad_sha256": "8af179a6f3885acefbf0ff5130407289f24dbaf9fd370f0bd4a9de27bc13ff58",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:a37338a67af9c62909af545025537824b0921fa1",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "5ff42bda4bad4992b473de427710731b4e0e775c795b151318bf8ff28bb5bb55",
+     "alternativas": []
+    },
+    "celdas": 4,
+    "control_menu_d": true
+   },
+   {
+    "par_id": "PAR-ENF:a53bc6985b309381",
+    "clave_enf": "a53bc6985b309381",
+    "diseno": "G",
+    "j": "d",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0001_0000",
+      "tau_d": 0.15,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0002_0000",
+      "tau_d": 0.3,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0003_0000",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0004_0000",
+      "tau_d": 0.6,
+      "tau_f": 0.0
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:a53bc6985b309381c812",
+     "identidad_sha256": "a53bc6985b309381c81272e76e3b0a258a7e98f104d701f264366a91d2183743",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:db616cec4ab953c7de47989f7e06ab2cccf49194",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "73847a0158971287db1b6549a7dd07ec0b18f69b40d16a4e9cc84d0dc5986983",
+     "alternativas": []
+    },
+    "celdas": 2,
+    "control_menu_d": true
+   },
+   {
+    "par_id": "PAR-ENF:cc2ebecde85bf358",
+    "clave_enf": "cc2ebecde85bf358",
+    "diseno": "N",
+    "j": "d",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0001_0000",
+      "tau_d": 0.15,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0002_0000",
+      "tau_d": 0.3,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0003_0000",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0004_0000",
+      "tau_d": 0.6,
+      "tau_f": 0.0
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:cc2ebecde85bf358d7db",
+     "identidad_sha256": "cc2ebecde85bf358d7dbedf6085de12bb6299c487fc8e85fa3b75d57b9912c68",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:58ff816856d50e26883408cb13c2fcd7c651b191",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "ace820156a5ceac68f58116ea14beb7df6489efd28a0dba2b7c8c447ee3f1fbb",
+     "alternativas": []
+    },
+    "celdas": 4,
+    "control_menu_d": true
+   },
+   {
+    "par_id": "PAR-ENF:d59edf8a9d1461d1",
+    "clave_enf": "d59edf8a9d1461d1",
+    "diseno": "G",
+    "j": "df",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 2,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0000_0001",
+      "tau_d": 0.0,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0000_0002",
+      "tau_d": 0.0,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0000_0003",
+      "tau_d": 0.0,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0000_0004",
+      "tau_d": 0.0,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0001_0000",
+      "tau_d": 0.15,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0001_0001",
+      "tau_d": 0.15,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0001_0002",
+      "tau_d": 0.15,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0001_0003",
+      "tau_d": 0.15,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0001_0004",
+      "tau_d": 0.15,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0002_0000",
+      "tau_d": 0.3,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0002_0001",
+      "tau_d": 0.3,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0002_0002",
+      "tau_d": 0.3,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0002_0003",
+      "tau_d": 0.3,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0002_0004",
+      "tau_d": 0.3,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0003_0000",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0003_0001",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0003_0002",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0003_0003",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0003_0004",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.6
+     },
+     {
+      "point_id": "P0004_0000",
+      "tau_d": 0.6,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0004_0001",
+      "tau_d": 0.6,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0004_0002",
+      "tau_d": 0.6,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0004_0003",
+      "tau_d": 0.6,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0004_0004",
+      "tau_d": 0.6,
+      "tau_f": 0.6
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:d59edf8a9d1461d135ec",
+     "identidad_sha256": "d59edf8a9d1461d135ecb84f7cf0fbf1a332ea182ad1acde96113702f4a8d40e",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:3bf89c100247e2b6e211ad5b2b20ea65be4fe596",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "0163cb6569c9bddc382a7661ba7479e9cf4960b2d27c8f39d7d63f0c93ef3483",
+     "alternativas": []
+    },
+    "celdas": 144,
+    "control_menu_d": false
+   },
+   {
+    "par_id": "PAR-ENF:dff097a9f2c3bfcd",
+    "clave_enf": "dff097a9f2c3bfcd",
+    "diseno": "N",
+    "j": "f",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0.6",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0000_0001",
+      "tau_d": 0.0,
+      "tau_f": 0.15
+     },
+     {
+      "point_id": "P0000_0002",
+      "tau_d": 0.0,
+      "tau_f": 0.3
+     },
+     {
+      "point_id": "P0000_0003",
+      "tau_d": 0.0,
+      "tau_f": 0.44999999999999996
+     },
+     {
+      "point_id": "P0000_0004",
+      "tau_d": 0.0,
+      "tau_f": 0.6
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:dff097a9f2c3bfcddfab",
+     "identidad_sha256": "dff097a9f2c3bfcddfabf265431fc1acb80d386f1a1c8fd2f7a73b52a3d7dbc0",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:04b7750426cf76f9f005b712ddff79803667f79b",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "2a02678e316563b83c936a5a0d20122aca91ac83a81f32c325d42c7a2109daa1",
+     "alternativas": []
+    },
+    "celdas": 143,
+    "control_menu_d": false
+   },
+   {
+    "par_id": "PAR-ENF:e7b02a2faa6c5ce0",
+    "clave_enf": "e7b02a2faa6c5ce0",
+    "diseno": "N",
+    "j": "d",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0001_0000",
+      "tau_d": 0.15,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0002_0000",
+      "tau_d": 0.3,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0003_0000",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0004_0000",
+      "tau_d": 0.6,
+      "tau_f": 0.0
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:e7b02a2faa6c5ce07054",
+     "identidad_sha256": "e7b02a2faa6c5ce07054e29b84719da61e7e849a777b810797eed73a9547a88a",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:2608012140b15d4d3dae20685167a61d40a923ce",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "e1bab48219e28630af047a34ed697c9b8e28dfae276b169a19de0f5f3ff96bbf",
+     "alternativas": []
+    },
+    "celdas": 2,
+    "control_menu_d": true
+   },
+   {
+    "par_id": "PAR-ENF:f1cdb2b49894f2e9",
+    "clave_enf": "f1cdb2b49894f2e9",
+    "diseno": "N",
+    "j": "d",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0001_0000",
+      "tau_d": 0.15,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0002_0000",
+      "tau_d": 0.3,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0003_0000",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0004_0000",
+      "tau_d": 0.6,
+      "tau_f": 0.0
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:f1cdb2b49894f2e92844",
+     "identidad_sha256": "f1cdb2b49894f2e92844bc5435e8f56b4c34e9d01cceba236aec75593e841037",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "reutilizada",
+     "frontier_id": "FRN:04bcd2232c71bba6afe8820c4b336d88fe91537d",
+     "producto": "elast_lote2_rem120",
+     "origen": "C0_rem120",
+     "identidad_sha256": "048a5ed2aaaae39eab729b906d1e6167cbba66acbcb1df23b04e8e1ef0b533c6",
+     "alternativas": []
+    },
+    "celdas": 8,
+    "control_menu_d": true
+   },
+   {
+    "par_id": "PAR-ENF:fecc3d29aefc48fb",
+    "clave_enf": "fecc3d29aefc48fb",
+    "diseno": "N",
+    "j": "d",
+    "tau": {
+     "tau_d_lower": "0",
+     "tau_d_lower_closed": true,
+     "tau_d_upper": "0.6",
+     "tau_d_upper_closed": true,
+     "tau_f_lower": "0",
+     "tau_f_lower_closed": true,
+     "tau_f_upper": "0",
+     "tau_f_upper_closed": true
+    },
+    "dimension_malla": 1,
+    "puntos": [
+     {
+      "point_id": "P0000_0000",
+      "tau_d": 0.0,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0001_0000",
+      "tau_d": 0.15,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0002_0000",
+      "tau_d": 0.3,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0003_0000",
+      "tau_d": 0.44999999999999996,
+      "tau_f": 0.0
+     },
+     {
+      "point_id": "P0004_0000",
+      "tau_d": 0.6,
+      "tau_f": 0.0
+     }
+    ],
+    "enf": {
+     "frontier_id": "FRN-ENF:fecc3d29aefc48fb01e4",
+     "identidad_sha256": "fecc3d29aefc48fb01e4dd1b56b66af1a1a728c442cfda22fbbd3c7ed79afe22",
+     "coincide_con_malla_aceptada": []
+    },
+    "padre": {
+     "modo": "evaluar_con_C0",
+     "frontier_id": "FRN-ENFPADRE:c5897f57c9e41f1a5d58",
+     "identidad_sha256": "c5897f57c9e41f1a5d58916d8a16b3cfcc292c7c0ab078fc087bc9cbda36cad2",
+     "aceptadas_no_reutilizables": [
+      {
+       "frontier_id": "FRN:30fda18328b9ca52a35faa9bf9a88caa72f55ced",
+       "manifiesto": "lote1_manifiesto",
+       "producto": "elast_lote1_rem112",
+       "origen": "historico_lote1_otro_nucleo",
+       "filas_point_en_producto": 5
+      },
+      {
+       "frontier_id": "FRN:30fda18328b9ca52a35faa9bf9a88caa72f55ced",
+       "manifiesto": "lote2_manifiesto",
+       "producto": "elast_lote2_rem120",
+       "origen": "historico_lote1_mas_topologia_C0",
+       "filas_point_en_producto": 5
+      }
+     ]
+    },
+    "celdas": 144,
+    "control_menu_d": true
+   }
+  ],
+  "comparacion": "por clave y coordenadas efectivas (τ_d, τ_f): R, CS = R/B_pot, B_d, B_f, régimen, topología y kink; laterales solo si ambos lados los tienen en el mismo punto (si no, no comparables y declarados); sin interpolación ni relleno",
+  "fuera_del_lote": {
+   "COL-E2-2023.2024p.macro.ABL-ENF": {
+    "celdas": 0,
+    "estado": "pendiente de D-COORD-ALCANCE; no NA"
+   },
+   "COL-E2-2023.2024p.micro.ABL-ENF": {
+    "celdas": 0,
+    "estado": "pendiente de D-COORD-ALCANCE; no NA"
+   }
+  },
+  "separados": [
+   "D-COORD-ALCANCE",
+   "D-EXP8/N3 (canal eta_f sin activar)",
+   "ABL-COV (canal phi)"
+  ]
+ }
+}

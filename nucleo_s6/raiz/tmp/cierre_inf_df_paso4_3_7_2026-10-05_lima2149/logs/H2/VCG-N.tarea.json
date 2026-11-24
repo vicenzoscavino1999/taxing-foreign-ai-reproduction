@@ -1,0 +1,26 @@
+{
+ "cpu_usuario_s": 245.859375,
+ "cpu_nucleo_s": 0.765625,
+ "procesos_totales": 6,
+ "procesos_activos": 0,
+ "memoria_pico_job_mb": 249.6,
+ "memoria_pico_proceso_mb": 242.7,
+ "id": "VCG-N",
+ "comando": [
+  "bash",
+  "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149/../pilotos_b36_b37_2026-10-02/entorno/py_integracion.sh",
+  "-m",
+  "codigo.validar_cota_G",
+  "N",
+  "demo/hito2/validar_cota_G_N.json",
+  "420"
+ ],
+ "cwd": "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149",
+ "limite_duro_s": 500.0,
+ "inicio_utc": "2026-10-06T03:29:02Z",
+ "pared_s": 251.1,
+ "codigo_salida": 0,
+ "estado": "TERMINO",
+ "cpu_total_s": 246.6,
+ "cpu_por_pared": 0.98
+}

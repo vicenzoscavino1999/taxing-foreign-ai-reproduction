@@ -1,0 +1,264 @@
+{
+  "S1-N-df": {
+    "bound": "sin_addback",
+    "cell_id": "CEL:cb64b71ca529ceb2a233c3b2ffdd5f5908d70d36e730",
+    "dme_gai": "0",
+    "estado_nacional": {
+      "joint_domain_sha256": "b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151",
+      "primitive_values": [
+        {
+          "parameter_id": "MEX_D2_2023_MEX_2023_COE",
+          "value": "9102482.904",
+          "value_unit": "MXN"
+        },
+        {
+          "parameter_id": "MEX_D2_2023_MEX_2023_GOS",
+          "value": "13460447.819",
+          "value_unit": "MXN"
+        },
+        {
+          "parameter_id": "MEX_D2_2023_MEX_2023_MI",
+          "value": "7167692.458",
+          "value_unit": "MXN"
+        },
+        {
+          "parameter_id": "MEX_D2_2023_MEX_2023_PIB",
+          "value": "31871088.604",
+          "value_unit": "MXN"
+        },
+        {
+          "parameter_id": "MEX_D2_2023_MEX_2023_TAX_NET",
+          "value": "2140465.423",
+          "value_unit": "MXN"
+        },
+        {
+          "parameter_id": "MEX_D6_2023_MEX_2023_D21",
+          "value": "2002987.333",
+          "value_unit": "MXN"
+        },
+        {
+          "parameter_id": "MEX_D6_2023_MEX_2023_D211",
+          "value": "1366582.569",
+          "value_unit": "MXN"
+        },
+        {
+          "parameter_id": "MEX_D6_2023_MEX_2023_D29",
+          "value": "238902.655",
+          "value_unit": "MXN"
+        },
+        {
+          "parameter_id": "MEX_D6_2023_MEX_2023_D31",
+          "value": "-88879.305",
+          "value_unit": "MXN"
+        },
+        {
+          "parameter_id": "MEX_D6_2023_MEX_2023_D39",
+          "value": "-12545.26",
+          "value_unit": "MXN"
+        },
+        {
+          "parameter_id": "MEX_D6_2023_MEX_2023_PIB",
+          "value": "31871088.604",
+          "value_unit": "MXN"
+        }
+      ]
+    },
+    "grid": {
+      "F_admin": "0.0025",
+      "F_fix": "0.0036570607266491377",
+      "F_fix_perp": "0.0034570607266491953",
+      "F_leak": "0.0002",
+      "F_trans": "0.0009570607266491954",
+      "Q_grid": "0.0465299269452569",
+      "cost_gross": "0.0101200315583673",
+      "country_id": "MEX",
+      "policy_variant_id": "GMI:GMI_ideal_aggregate",
+      "regime_id": "r0",
+      "requirement_basis": "debt_consistent",
+      "s_PB": "0.03275283466024049",
+      "xi": "0.0"
+    },
+    "omega": {
+      "a": "2.1",
+      "bar_tau_d": "0.6",
+      "bar_tau_f": "0.6",
+      "beta_tilde": "4",
+      "c_legal": "1",
+      "eta_H": "-0.5",
+      "eta_d": "4",
+      "eta_f": "8",
+      "eta_w": "1",
+      "gain_share": "0.01",
+      "gamma": "1",
+      "kappa_tilde": "0.005",
+      "phi": "0.99414",
+      "pi_iva": "1.5",
+      "pi_otros_productos": "1.5",
+      "pi_produccion": "1.5",
+      "rho": "0.4",
+      "t": "0",
+      "u_theta": "0.9",
+      "z_cost": "100",
+      "z_m": "1"
+    },
+    "omega_identidad": {
+      "scenario_id": "SCN:CMP-E1.macro",
+      "support_set_id": "CMP-E1.macro"
+    },
+    "procedencia": {
+      "contexto": "CUATRO_CELDAS_REM149_I2 1ac4ac8aaac2bd4b169e5c065a38e07a1ea4b7619e336a01c3b7ced71ba3f768 = MANIFIESTO_P7 rem152 272ef95989fdef2668b0dad00f0914d81e45e6358cf714d22807540edc26849b",
+      "contrato_s6": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+      "d7_manifest": "9faf63c3ce96ec0e18b7cbf6235bdf21fc6e8bd18ce2ed054e3eb7f7b3a04ff9",
+      "dme_gai": "D7 parameter_bindings BND:CMP-E1.macro:DME_gAI:global = 0 (EV.DME); contexto_s6.py:127 dme_gai=0.0",
+      "estado_nacional": "NAT.Providers.national(CMP-E1.macro, MEX) -> run.py:642-646; 1 de 9 estados",
+      "estado_nacional_meta": {
+        "anchor_year": 2023,
+        "channel": "conditional",
+        "country_id": "MEX",
+        "edition": "pub",
+        "joint_domain_sha256": "b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151",
+        "label": "published_vector",
+        "preregistration_id": "PREG-COMPARACION-E1"
+      },
+      "omega": "Run.omega_points(CMP-E1.macro, overrides=9 estructurales del padre I2) -> K.omega_id; 1 de 96 puntos",
+      "rejilla": "D7 external_grid fase5_cuantificacion/extraccion_grilla/grilla_efectiva.csv sha256 b94b9eedeea87d08071366e2bd8a5b7cd9662ce6f9fd9d7bee42848d6c4c5f90"
+    },
+    "shares": {
+      "s_L_bar": "2275620726/7967772151",
+      "s_bar_iva": "1366582569/31871088604",
+      "s_bar_otros_productos": "547525459/31871088604",
+      "s_bar_produccion": "226357395/31871088604"
+    }
+  },
+  "S1-G-df": {
+    "bound": "addback_completo",
+    "cell_id": "CEL:17f4550f7fd79cf8d51aeebcfdb74fa1e414baff76e2",
+    "dme_gai": "0",
+    "estado_nacional": {
+      "joint_domain_sha256": "b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151",
+      "primitive_values": [
+        {
+          "parameter_id": "MEX_D2_2023_MEX_2023_COE",
+          "value": "9102482.904",
+          "value_unit": "MXN"
+        },
+        {
+          "parameter_id": "MEX_D2_2023_MEX_2023_GOS",
+          "value": "13460447.819",
+          "value_unit": "MXN"
+        },
+        {
+          "parameter_id": "MEX_D2_2023_MEX_2023_MI",
+          "value": "7167692.458",
+          "value_unit": "MXN"
+        },
+        {
+          "parameter_id": "MEX_D2_2023_MEX_2023_PIB",
+          "value": "31871088.604",
+          "value_unit": "MXN"
+        },
+        {
+          "parameter_id": "MEX_D2_2023_MEX_2023_TAX_NET",
+          "value": "2140465.423",
+          "value_unit": "MXN"
+        },
+        {
+          "parameter_id": "MEX_D6_2023_MEX_2023_D21",
+          "value": "2002987.333",
+          "value_unit": "MXN"
+        },
+        {
+          "parameter_id": "MEX_D6_2023_MEX_2023_D211",
+          "value": "1366582.569",
+          "value_unit": "MXN"
+        },
+        {
+          "parameter_id": "MEX_D6_2023_MEX_2023_D29",
+          "value": "238902.655",
+          "value_unit": "MXN"
+        },
+        {
+          "parameter_id": "MEX_D6_2023_MEX_2023_D31",
+          "value": "-88879.305",
+          "value_unit": "MXN"
+        },
+        {
+          "parameter_id": "MEX_D6_2023_MEX_2023_D39",
+          "value": "-12545.26",
+          "value_unit": "MXN"
+        },
+        {
+          "parameter_id": "MEX_D6_2023_MEX_2023_PIB",
+          "value": "31871088.604",
+          "value_unit": "MXN"
+        }
+      ]
+    },
+    "grid": {
+      "F_admin": "0.0025",
+      "F_fix": "0.00355706072664917",
+      "F_fix_perp": "0.0034570607266491953",
+      "F_leak": "0.0001",
+      "F_trans": "0.0009570607266491954",
+      "Q_grid": "0.0464299269452569",
+      "cost_gross": "0.0101200315583673",
+      "country_id": "MEX",
+      "policy_variant_id": "GMI:GMI_ideal_aggregate",
+      "regime_id": "r4",
+      "requirement_basis": "debt_consistent",
+      "s_PB": "0.03275283466024049",
+      "xi": "0.0"
+    },
+    "omega": {
+      "a": "2.13",
+      "bar_tau_d": "0.6",
+      "bar_tau_f": "0.6",
+      "beta_tilde": "4",
+      "c_legal": "1",
+      "eta_H": "-0.5",
+      "eta_d": "4",
+      "eta_f": "8",
+      "eta_w": "1",
+      "gain_share": "0.01",
+      "gamma": "1",
+      "kappa_tilde": "0.005",
+      "phi": "0.99023",
+      "pi_iva": "1.5",
+      "pi_otros_productos": "1.5",
+      "pi_produccion": "1.5",
+      "rho": "0.4",
+      "t": "0",
+      "u_theta": "0.9",
+      "z_cost": "100",
+      "z_m": "1"
+    },
+    "omega_identidad": {
+      "scenario_id": "SCN:CMP-E1.macro",
+      "support_set_id": "CMP-E1.macro"
+    },
+    "procedencia": {
+      "contexto": "CUATRO_CELDAS_REM149_I2 1ac4ac8aaac2bd4b169e5c065a38e07a1ea4b7619e336a01c3b7ced71ba3f768 = MANIFIESTO_P7 rem152 272ef95989fdef2668b0dad00f0914d81e45e6358cf714d22807540edc26849b",
+      "contrato_s6": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+      "d7_manifest": "9faf63c3ce96ec0e18b7cbf6235bdf21fc6e8bd18ce2ed054e3eb7f7b3a04ff9",
+      "dme_gai": "D7 parameter_bindings BND:CMP-E1.macro:DME_gAI:global = 0 (EV.DME); contexto_s6.py:127 dme_gai=0.0",
+      "estado_nacional": "NAT.Providers.national(CMP-E1.macro, MEX) -> run.py:642-646; 1 de 9 estados",
+      "estado_nacional_meta": {
+        "anchor_year": 2023,
+        "channel": "conditional",
+        "country_id": "MEX",
+        "edition": "pub",
+        "joint_domain_sha256": "b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151",
+        "label": "published_vector",
+        "preregistration_id": "PREG-COMPARACION-E1"
+      },
+      "omega": "Run.omega_points(CMP-E1.macro, overrides=9 estructurales del padre I2) -> K.omega_id; 1 de 96 puntos",
+      "rejilla": "D7 external_grid fase5_cuantificacion/extraccion_grilla/grilla_efectiva.csv sha256 b94b9eedeea87d08071366e2bd8a5b7cd9662ce6f9fd9d7bee42848d6c4c5f90"
+    },
+    "shares": {
+      "s_L_bar": "2275620726/7967772151",
+      "s_bar_iva": "1366582569/31871088604",
+      "s_bar_otros_productos": "547525459/31871088604",
+      "s_bar_produccion": "226357395/31871088604"
+    }
+  }
+}

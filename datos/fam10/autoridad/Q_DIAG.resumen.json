@@ -1,0 +1,32 @@
+{
+ "_resumen_fam10": {
+  "kind": "resumen-libro-fam10",
+  "clave": "Q_DIAG",
+  "libro": "review_20261106_rem156_Q_diagnostico.json",
+  "original_sha256": "7609b7bdfb0bc66305100d3b2967e7612e5430d36f1d653c54f25ba49d4f1301",
+  "campos": [
+   "margins",
+   "domain"
+  ],
+  "regla": "solo los campos que lee el código histórico, copiados tal cual del original autenticado; rutas privadas por marcadores; sin transcripciones, horas ni referencias de decisión"
+ },
+ "margins": {
+  "contrato": {
+   "sup_at_1": "514798269973460351451111/7555786372591432341913600",
+   "inf_at_0": "29631728656581536186343/3777893186295716170956800",
+   "max_inf_threshold": "-29631728656581536186343/28491468583357561333350400",
+   "max_inf_threshold_float": -0.0010400211056122964,
+   "sign_inf_threshold": "75004921985969029121/146407626100309873393664",
+   "sign_inf_threshold_float": 0.0005123020158429457
+  },
+  "conservadora": {
+   "sup_at_1": "64349783746682182214517/944473296573929042739200",
+   "inf_at_0": "7407932164132731292817/944473296573929042739200",
+   "max_inf_threshold": "-1058276023447533041831/1017552449405627190476800",
+   "max_inf_threshold_float": -0.00104002110561052,
+   "sign_inf_threshold": "75004921986229101309/146407626100309873393664",
+   "sign_inf_threshold_float": 0.0005123020158447221
+  }
+ },
+ "domain": "0 < m <= 1; m=0 limite algebraico, no productivo"
+}

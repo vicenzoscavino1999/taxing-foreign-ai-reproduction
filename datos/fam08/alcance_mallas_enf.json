@@ -1,0 +1,42 @@
+{
+ "kind": "autorizacion-alcance-paso4-v3",
+ "etiqueta": "ALCANCE v3 MALLAS ABL-ENF — NO OFICIAL. D-EXP9i: «Adopto para Exp9(i)/C9 el contraste finito ABL-ENF de dos escenarios: eta_f del padre frente a eta_f/2, con phi y las demás entradas fijas. En las 1.724 celdas con testigo, vinculadas a 26 claves, se comparan mallas padre/ENF en tasas comunes, desplazamiento del techo C2 y cambio de G con K1 fijo. Se usa la malla finita aceptada, con sus laterales cuando corresponda, y el motor certificado para los techos, cierre normalizado 1e-7 y error en R conservado. El menú d sirve como control de invariancia. El contraste no demuestra respuesta en toda la superficie continua, causalidad institucional, costes de reforma ni política óptima.» D-COORD-ALCANCE: «Adopto para reportar COORD el universo de 1.724 celdas padre con testigo disponible. COL-2024p queda fuera de ese nivel por falta de testigos: es una exclusión de alcance, no una NA ni un resultado negativo. No se declara cobertura de todo Omega ni se autoriza una selección adicional.»",
+ "plan_sha256": "18b2647b07fc54b3bac88ffa2808c40de4df30682934abc48e7e22b61350495d",
+ "operaciones": [
+  "LOTE1"
+ ],
+ "tareas": [
+  "L1-ELAST"
+ ],
+ "asignaciones": {
+  "L1-ELAST": "6a36a0d3178cba8ada62063ff372ed1024f7726788f35d455e8851ec508bd844"
+ },
+ "despliegue_sha256": "f293a0a62d2cb6bf3517e72a0bfc589ee703685d4434c2cdae4b4cd1b5085d6c",
+ "entradas": {
+  "lote_manifiesto": "8ae8f1ca1d23bcb6fb5e9ac3eff3cbc7b2495f9fb2d40b22f583157ecd67e224",
+  "codigo_lote": {
+   "tarea_lote.py": "dca9d79b2d7c89bdd09e4e99293a158cb7fdc4cf8951df51561c68b019386456",
+   "conexion_lambda.py": "9dbdc7322e303f11f4b33897dd11de3e7ce8327636637e75bc246222391138b3",
+   "conexion_frontera.py": "4fb1915d7cf7ca39bf9385f975665a75b32717558096870d7d9213d151be2527"
+  },
+  "validador_lote": "d95e2beb0c0f67a96984d4346fe1c77e5b44539eb97769ba3f09ecbb67ea4f19",
+  "d7_sha256": null,
+  "cobertura_nacional": "a39438a13a2b4f479f60e73eb3ac4b1ae45e1482d9d00be8c18e8817132c899c"
+ },
+ "limites": {
+  "procesos": 3,
+  "tope_s": 2400.0,
+  "suite_s": 3600.0,
+  "union_s": 10800.0
+ },
+ "repetir": [],
+ "excepciones": [],
+ "instalacion_identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+ "congelamiento_p3_sha256": "8e59ea4870c987ecca4ea1e5a8cb3f95581fcc1a64b3e7aa61c035a9b8e0dcfc",
+ "emitida_utc": "2026-10-30T18:52:17.383449+00:00",
+ "continua_alcance": null,
+ "lote_manifiesto_sha256": "8ae8f1ca1d23bcb6fb5e9ac3eff3cbc7b2495f9fb2d40b22f583157ecd67e224",
+ "b_official_run_authorized": false,
+ "freeze_run_authorized": false,
+ "official_export_authorized": false
+}

@@ -1,0 +1,2192 @@
+{
+ "kind": "manifiesto-b2-doce-cov-rem167",
+ "modo": "produccion",
+ "naturaleza": "MANIFIESTO REAL DOCUMENTAL del paquete B2 (rem167): fija la FUTURA evaluacion B2; no es un alcance ni una autorizacion",
+ "operacion": "B2",
+ "b1": {
+  "U_C2": 0.17312398870886692,
+  "U_C2_hex": "0x1.628ed46d42e18p-3",
+  "U_C2_exacto": "779681131038147/4503599627370496",
+  "libro_sha256": "649457712e6f3d33ca596021e5c4878782558579971c4f60a5048455cb1b4535",
+  "evidencia_sha256": "8bb0b86e213f88cd902a9a5f8ad6c4ea2f979ee8d948717362d9dc6c66f808c5",
+  "validacion_sha256": "a6806885bfcd47d399564080efe230269f04fd8ca485aa574f4d7b4fdc8d3540",
+  "lectura_sha256": "ec3db4e494caeb413407157ae0027c39da5e49f712bf83468d63c5c7e35df960",
+  "estado_sha256": "e01f4cf096d105728c67cd04db2bde6ae340aa5379b65a2e58dd4929311f81c6",
+  "acto_B1": {
+   "proveedor": "claude",
+   "transcripcion": "@@TRANSCRIPCION_CLAUDE_BS2@@\\fa99d748-337c-44a7-8d1d-ca7ced1b9871.jsonl",
+   "linea": 31088,
+   "uuid": "1bb5809b-ff5d-41fc-a6a0-6191394f32c1",
+   "session_id": "fa99d748-337c-44a7-8d1d-ca7ced1b9871",
+   "timestamp": "2026-11-08T01:21:57.799Z",
+   "registro_sha256": "1d65a70c2a5bb928a72e28b969165ad83a9f0c1dfdabdd01d410a7ab58a48b80",
+   "contenido": "AUTORIZO ALCANCE PASO4 alcance_sha256=150d4b71b6343af63655e239d70f0ee9b920a31edd244c2514096ef18854797e",
+   "mensaje_sha256": "1d65a70c2a5bb928a72e28b969165ad83a9f0c1dfdabdd01d410a7ab58a48b80",
+   "alcance_sha256": "150d4b71b6343af63655e239d70f0ee9b920a31edd244c2514096ef18854797e",
+   "modo_arnes": false
+  },
+  "alcance_B1_sha256": "150d4b71b6343af63655e239d70f0ee9b920a31edd244c2514096ef18854797e",
+  "afirmacion_grupo": {
+   "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda": "K1",
+   "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda": "K2",
+   "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda": "K1",
+   "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda": "K2",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda": "K3",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda": "K4",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda": "K3",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda": "K4",
+   "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda": "K5",
+   "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda": "K6",
+   "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda": "K5",
+   "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda": "K6"
+  },
+  "naturaleza": "cota superior certificada sobre la raiz fija; NO es maximo puntual, argmax ni prueba de alcanzabilidad"
+ },
+ "regla": {
+  "eps": "1/100",
+  "G_hi": "U_C2 - L_K1 (racionales exactos)",
+  "certifica": "G_hi <= -1/100 (borde incluido, como cobertura.classify)",
+  "no_certifica": "G_hi > -1/100: la afirmacion sigue desconocida",
+  "pendiente": "una premisa fallida o un contexto sin cota",
+  "prohibido": "usar K1_testigo como L_K1"
+ },
+ "afirmaciones": [
+  {
+   "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "grupo": "K1",
+   "diseno": "G",
+   "cota": "addback_completo",
+   "capa": "guardrail_deuda",
+   "pais": "COL",
+   "kind": "primary",
+   "pid": "PREG-COL-E2-2023",
+   "anios": [
+    2023
+   ],
+   "bloque": "macro",
+   "j": "f",
+   "ediciones": [
+    "2023p",
+    "2024p"
+   ],
+   "conjuntos": [
+    {
+     "conjunto_COV": "COL-E2-2023.2023p.macro.ABL-COV",
+     "edicion": "2023p",
+     "claves": [
+      "684f2a950ff0509c7a90f0752a1260976c30c21d31f78fbd719c01b7719b2428"
+     ],
+     "celdas": [
+      "EXT:COL:GMI:GMI_ideal_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:MUT:r0:debt_consistent:0.0",
+      "EXT:COL:MUT:r1:debt_consistent:0.0",
+      "EXT:COL:MUT:r2:debt_consistent:0.0",
+      "EXT:COL:MUT:r3:debt_consistent:0.0",
+      "EXT:COL:MUT:r4:debt_consistent:0.0",
+      "EXT:COL:PBI:r0:debt_consistent:0.0",
+      "EXT:COL:PBI:r1:debt_consistent:0.0",
+      "EXT:COL:PBI:r2:debt_consistent:0.0",
+      "EXT:COL:PBI:r3:debt_consistent:0.0",
+      "EXT:COL:PBI:r4:debt_consistent:0.0",
+      "EXT:COL:PEN:r0:debt_consistent:0.0",
+      "EXT:COL:PEN:r1:debt_consistent:0.0",
+      "EXT:COL:PEN:r2:debt_consistent:0.0",
+      "EXT:COL:PEN:r3:debt_consistent:0.0",
+      "EXT:COL:PEN:r4:debt_consistent:0.0",
+      "EXT:COL:UBI:r0:debt_consistent:0.0",
+      "EXT:COL:UBI:r1:debt_consistent:0.0",
+      "EXT:COL:UBI:r2:debt_consistent:0.0",
+      "EXT:COL:UBI:r3:debt_consistent:0.0",
+      "EXT:COL:UBI:r4:debt_consistent:0.0"
+     ],
+     "anios_estados": [
+      2023
+     ],
+     "descartados_por_anio": []
+    },
+    {
+     "conjunto_COV": "COL-E2-2023.2024p.macro.ABL-COV",
+     "edicion": "2024p",
+     "claves": [
+      "1c83aa01dc81d93dac101c9196e3a8a74c4f75ae9e8db7f7364940c44428b194"
+     ],
+     "celdas": [
+      "EXT:COL:GMI:GMI_ideal_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:MUT:r0:debt_consistent:0.0",
+      "EXT:COL:MUT:r1:debt_consistent:0.0",
+      "EXT:COL:MUT:r2:debt_consistent:0.0",
+      "EXT:COL:MUT:r3:debt_consistent:0.0",
+      "EXT:COL:MUT:r4:debt_consistent:0.0",
+      "EXT:COL:PBI:r0:debt_consistent:0.0",
+      "EXT:COL:PBI:r1:debt_consistent:0.0",
+      "EXT:COL:PBI:r2:debt_consistent:0.0",
+      "EXT:COL:PBI:r3:debt_consistent:0.0",
+      "EXT:COL:PBI:r4:debt_consistent:0.0",
+      "EXT:COL:PEN:r0:debt_consistent:0.0",
+      "EXT:COL:PEN:r1:debt_consistent:0.0",
+      "EXT:COL:PEN:r2:debt_consistent:0.0",
+      "EXT:COL:PEN:r3:debt_consistent:0.0",
+      "EXT:COL:PEN:r4:debt_consistent:0.0",
+      "EXT:COL:UBI:r0:debt_consistent:0.0",
+      "EXT:COL:UBI:r1:debt_consistent:0.0",
+      "EXT:COL:UBI:r2:debt_consistent:0.0",
+      "EXT:COL:UBI:r3:debt_consistent:0.0",
+      "EXT:COL:UBI:r4:debt_consistent:0.0"
+     ],
+     "anios_estados": [
+      2023
+     ],
+     "descartados_por_anio": []
+    }
+   ]
+  },
+  {
+   "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "grupo": "K2",
+   "diseno": "G",
+   "cota": "sin_addback",
+   "capa": "guardrail_deuda",
+   "pais": "COL",
+   "kind": "primary",
+   "pid": "PREG-COL-E2-2023",
+   "anios": [
+    2023
+   ],
+   "bloque": "macro",
+   "j": "f",
+   "ediciones": [
+    "2023p",
+    "2024p"
+   ],
+   "conjuntos": [
+    {
+     "conjunto_COV": "COL-E2-2023.2023p.macro.ABL-COV",
+     "edicion": "2023p",
+     "claves": [
+      "684f2a950ff0509c7a90f0752a1260976c30c21d31f78fbd719c01b7719b2428"
+     ],
+     "celdas": [
+      "EXT:COL:GMI:GMI_ideal_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:MUT:r0:debt_consistent:0.0",
+      "EXT:COL:MUT:r1:debt_consistent:0.0",
+      "EXT:COL:MUT:r2:debt_consistent:0.0",
+      "EXT:COL:MUT:r3:debt_consistent:0.0",
+      "EXT:COL:MUT:r4:debt_consistent:0.0",
+      "EXT:COL:PBI:r0:debt_consistent:0.0",
+      "EXT:COL:PBI:r1:debt_consistent:0.0",
+      "EXT:COL:PBI:r2:debt_consistent:0.0",
+      "EXT:COL:PBI:r3:debt_consistent:0.0",
+      "EXT:COL:PBI:r4:debt_consistent:0.0",
+      "EXT:COL:PEN:r0:debt_consistent:0.0",
+      "EXT:COL:PEN:r1:debt_consistent:0.0",
+      "EXT:COL:PEN:r2:debt_consistent:0.0",
+      "EXT:COL:PEN:r3:debt_consistent:0.0",
+      "EXT:COL:PEN:r4:debt_consistent:0.0",
+      "EXT:COL:UBI:r0:debt_consistent:0.0",
+      "EXT:COL:UBI:r1:debt_consistent:0.0",
+      "EXT:COL:UBI:r2:debt_consistent:0.0",
+      "EXT:COL:UBI:r3:debt_consistent:0.0",
+      "EXT:COL:UBI:r4:debt_consistent:0.0"
+     ],
+     "anios_estados": [
+      2023
+     ],
+     "descartados_por_anio": []
+    },
+    {
+     "conjunto_COV": "COL-E2-2023.2024p.macro.ABL-COV",
+     "edicion": "2024p",
+     "claves": [
+      "1c83aa01dc81d93dac101c9196e3a8a74c4f75ae9e8db7f7364940c44428b194"
+     ],
+     "celdas": [
+      "EXT:COL:GMI:GMI_ideal_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:MUT:r0:debt_consistent:0.0",
+      "EXT:COL:MUT:r1:debt_consistent:0.0",
+      "EXT:COL:MUT:r2:debt_consistent:0.0",
+      "EXT:COL:MUT:r3:debt_consistent:0.0",
+      "EXT:COL:MUT:r4:debt_consistent:0.0",
+      "EXT:COL:PBI:r0:debt_consistent:0.0",
+      "EXT:COL:PBI:r1:debt_consistent:0.0",
+      "EXT:COL:PBI:r2:debt_consistent:0.0",
+      "EXT:COL:PBI:r3:debt_consistent:0.0",
+      "EXT:COL:PBI:r4:debt_consistent:0.0",
+      "EXT:COL:PEN:r0:debt_consistent:0.0",
+      "EXT:COL:PEN:r1:debt_consistent:0.0",
+      "EXT:COL:PEN:r2:debt_consistent:0.0",
+      "EXT:COL:PEN:r3:debt_consistent:0.0",
+      "EXT:COL:PEN:r4:debt_consistent:0.0",
+      "EXT:COL:UBI:r0:debt_consistent:0.0",
+      "EXT:COL:UBI:r1:debt_consistent:0.0",
+      "EXT:COL:UBI:r2:debt_consistent:0.0",
+      "EXT:COL:UBI:r3:debt_consistent:0.0",
+      "EXT:COL:UBI:r4:debt_consistent:0.0"
+     ],
+     "anios_estados": [
+      2023
+     ],
+     "descartados_por_anio": []
+    }
+   ]
+  },
+  {
+   "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+   "grupo": "K1",
+   "diseno": "N",
+   "cota": "addback_completo",
+   "capa": "guardrail_deuda",
+   "pais": "COL",
+   "kind": "primary",
+   "pid": "PREG-COL-E2-2023",
+   "anios": [
+    2023
+   ],
+   "bloque": "macro",
+   "j": "f",
+   "ediciones": [
+    "2023p",
+    "2024p"
+   ],
+   "conjuntos": [
+    {
+     "conjunto_COV": "COL-E2-2023.2023p.macro.ABL-COV",
+     "edicion": "2023p",
+     "claves": [
+      "684f2a950ff0509c7a90f0752a1260976c30c21d31f78fbd719c01b7719b2428"
+     ],
+     "celdas": [
+      "EXT:COL:GMI:GMI_ideal_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:MUT:r0:debt_consistent:0.0",
+      "EXT:COL:MUT:r1:debt_consistent:0.0",
+      "EXT:COL:MUT:r2:debt_consistent:0.0",
+      "EXT:COL:MUT:r3:debt_consistent:0.0",
+      "EXT:COL:MUT:r4:debt_consistent:0.0",
+      "EXT:COL:PBI:r0:debt_consistent:0.0",
+      "EXT:COL:PBI:r1:debt_consistent:0.0",
+      "EXT:COL:PBI:r2:debt_consistent:0.0",
+      "EXT:COL:PBI:r3:debt_consistent:0.0",
+      "EXT:COL:PBI:r4:debt_consistent:0.0",
+      "EXT:COL:PEN:r0:debt_consistent:0.0",
+      "EXT:COL:PEN:r1:debt_consistent:0.0",
+      "EXT:COL:PEN:r2:debt_consistent:0.0",
+      "EXT:COL:PEN:r3:debt_consistent:0.0",
+      "EXT:COL:PEN:r4:debt_consistent:0.0",
+      "EXT:COL:UBI:r0:debt_consistent:0.0",
+      "EXT:COL:UBI:r1:debt_consistent:0.0",
+      "EXT:COL:UBI:r2:debt_consistent:0.0",
+      "EXT:COL:UBI:r3:debt_consistent:0.0",
+      "EXT:COL:UBI:r4:debt_consistent:0.0"
+     ],
+     "anios_estados": [
+      2023
+     ],
+     "descartados_por_anio": []
+    },
+    {
+     "conjunto_COV": "COL-E2-2023.2024p.macro.ABL-COV",
+     "edicion": "2024p",
+     "claves": [
+      "1c83aa01dc81d93dac101c9196e3a8a74c4f75ae9e8db7f7364940c44428b194"
+     ],
+     "celdas": [
+      "EXT:COL:GMI:GMI_ideal_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:MUT:r0:debt_consistent:0.0",
+      "EXT:COL:MUT:r1:debt_consistent:0.0",
+      "EXT:COL:MUT:r2:debt_consistent:0.0",
+      "EXT:COL:MUT:r3:debt_consistent:0.0",
+      "EXT:COL:MUT:r4:debt_consistent:0.0",
+      "EXT:COL:PBI:r0:debt_consistent:0.0",
+      "EXT:COL:PBI:r1:debt_consistent:0.0",
+      "EXT:COL:PBI:r2:debt_consistent:0.0",
+      "EXT:COL:PBI:r3:debt_consistent:0.0",
+      "EXT:COL:PBI:r4:debt_consistent:0.0",
+      "EXT:COL:PEN:r0:debt_consistent:0.0",
+      "EXT:COL:PEN:r1:debt_consistent:0.0",
+      "EXT:COL:PEN:r2:debt_consistent:0.0",
+      "EXT:COL:PEN:r3:debt_consistent:0.0",
+      "EXT:COL:PEN:r4:debt_consistent:0.0",
+      "EXT:COL:UBI:r0:debt_consistent:0.0",
+      "EXT:COL:UBI:r1:debt_consistent:0.0",
+      "EXT:COL:UBI:r2:debt_consistent:0.0",
+      "EXT:COL:UBI:r3:debt_consistent:0.0",
+      "EXT:COL:UBI:r4:debt_consistent:0.0"
+     ],
+     "anios_estados": [
+      2023
+     ],
+     "descartados_por_anio": []
+    }
+   ]
+  },
+  {
+   "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+   "grupo": "K2",
+   "diseno": "N",
+   "cota": "sin_addback",
+   "capa": "guardrail_deuda",
+   "pais": "COL",
+   "kind": "primary",
+   "pid": "PREG-COL-E2-2023",
+   "anios": [
+    2023
+   ],
+   "bloque": "macro",
+   "j": "f",
+   "ediciones": [
+    "2023p",
+    "2024p"
+   ],
+   "conjuntos": [
+    {
+     "conjunto_COV": "COL-E2-2023.2023p.macro.ABL-COV",
+     "edicion": "2023p",
+     "claves": [
+      "684f2a950ff0509c7a90f0752a1260976c30c21d31f78fbd719c01b7719b2428"
+     ],
+     "celdas": [
+      "EXT:COL:GMI:GMI_ideal_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:MUT:r0:debt_consistent:0.0",
+      "EXT:COL:MUT:r1:debt_consistent:0.0",
+      "EXT:COL:MUT:r2:debt_consistent:0.0",
+      "EXT:COL:MUT:r3:debt_consistent:0.0",
+      "EXT:COL:MUT:r4:debt_consistent:0.0",
+      "EXT:COL:PBI:r0:debt_consistent:0.0",
+      "EXT:COL:PBI:r1:debt_consistent:0.0",
+      "EXT:COL:PBI:r2:debt_consistent:0.0",
+      "EXT:COL:PBI:r3:debt_consistent:0.0",
+      "EXT:COL:PBI:r4:debt_consistent:0.0",
+      "EXT:COL:PEN:r0:debt_consistent:0.0",
+      "EXT:COL:PEN:r1:debt_consistent:0.0",
+      "EXT:COL:PEN:r2:debt_consistent:0.0",
+      "EXT:COL:PEN:r3:debt_consistent:0.0",
+      "EXT:COL:PEN:r4:debt_consistent:0.0",
+      "EXT:COL:UBI:r0:debt_consistent:0.0",
+      "EXT:COL:UBI:r1:debt_consistent:0.0",
+      "EXT:COL:UBI:r2:debt_consistent:0.0",
+      "EXT:COL:UBI:r3:debt_consistent:0.0",
+      "EXT:COL:UBI:r4:debt_consistent:0.0"
+     ],
+     "anios_estados": [
+      2023
+     ],
+     "descartados_por_anio": []
+    },
+    {
+     "conjunto_COV": "COL-E2-2023.2024p.macro.ABL-COV",
+     "edicion": "2024p",
+     "claves": [
+      "1c83aa01dc81d93dac101c9196e3a8a74c4f75ae9e8db7f7364940c44428b194"
+     ],
+     "celdas": [
+      "EXT:COL:GMI:GMI_ideal_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:MUT:r0:debt_consistent:0.0",
+      "EXT:COL:MUT:r1:debt_consistent:0.0",
+      "EXT:COL:MUT:r2:debt_consistent:0.0",
+      "EXT:COL:MUT:r3:debt_consistent:0.0",
+      "EXT:COL:MUT:r4:debt_consistent:0.0",
+      "EXT:COL:PBI:r0:debt_consistent:0.0",
+      "EXT:COL:PBI:r1:debt_consistent:0.0",
+      "EXT:COL:PBI:r2:debt_consistent:0.0",
+      "EXT:COL:PBI:r3:debt_consistent:0.0",
+      "EXT:COL:PBI:r4:debt_consistent:0.0",
+      "EXT:COL:PEN:r0:debt_consistent:0.0",
+      "EXT:COL:PEN:r1:debt_consistent:0.0",
+      "EXT:COL:PEN:r2:debt_consistent:0.0",
+      "EXT:COL:PEN:r3:debt_consistent:0.0",
+      "EXT:COL:PEN:r4:debt_consistent:0.0",
+      "EXT:COL:UBI:r0:debt_consistent:0.0",
+      "EXT:COL:UBI:r1:debt_consistent:0.0",
+      "EXT:COL:UBI:r2:debt_consistent:0.0",
+      "EXT:COL:UBI:r3:debt_consistent:0.0",
+      "EXT:COL:UBI:r4:debt_consistent:0.0"
+     ],
+     "anios_estados": [
+      2023
+     ],
+     "descartados_por_anio": []
+    }
+   ]
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "grupo": "K3",
+   "diseno": "G",
+   "cota": "addback_completo",
+   "capa": "guardrail_deuda",
+   "pais": "COL",
+   "kind": "historical_anchor",
+   "pid": "PREG-COMPARACION-E1",
+   "anios": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "bloque": "macro",
+   "j": "f",
+   "ediciones": [
+    "pub"
+   ],
+   "conjuntos": [
+    {
+     "conjunto_COV": "CMP-E1.macro.ABL-COV",
+     "edicion": "pub",
+     "claves": [
+      "21f5d2eb277c44361d4d686b5bbaf2cff3c4cce087ebfa19ead75992292022dc",
+      "f6a8e751a0eea1b8299458e33274b6e1520b01d007c9271aecb706f72e2af18a",
+      "4485d4dc5adcae6e512460efc541ed49c56083155417525cf9a6c58fd2bd2693",
+      "9f1eb6225d94c2b51b2b41d3411458c469bd326e3a8795777d7a03c4b3986206",
+      "e7a933bf7a187a06e63dd702b378ead341e5d2c7b4e71db76180dfc90a0361e4",
+      "3dc9250fd7147d1b733c6bf6e95628f5515f34bcc97c501e6b57d16e493f3d3a",
+      "b303eab9cf5b97be0d9ff54aa206dc84a8d3e357e7b5a3e60db27b687486d0ab",
+      "ec602cc1c9af527616cf0c2009e3944e8a105853a24d044ab531e6388f76f436",
+      "684f2a950ff0509c7a90f0752a1260976c30c21d31f78fbd719c01b7719b2428"
+     ],
+     "celdas": [
+      "EXT:COL:GMI:GMI_ideal_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:MUT:r0:debt_consistent:0.0",
+      "EXT:COL:MUT:r1:debt_consistent:0.0",
+      "EXT:COL:MUT:r2:debt_consistent:0.0",
+      "EXT:COL:MUT:r3:debt_consistent:0.0",
+      "EXT:COL:MUT:r4:debt_consistent:0.0",
+      "EXT:COL:PBI:r0:debt_consistent:0.0",
+      "EXT:COL:PBI:r1:debt_consistent:0.0",
+      "EXT:COL:PBI:r2:debt_consistent:0.0",
+      "EXT:COL:PBI:r3:debt_consistent:0.0",
+      "EXT:COL:PBI:r4:debt_consistent:0.0",
+      "EXT:COL:PEN:r0:debt_consistent:0.0",
+      "EXT:COL:PEN:r1:debt_consistent:0.0",
+      "EXT:COL:PEN:r2:debt_consistent:0.0",
+      "EXT:COL:PEN:r3:debt_consistent:0.0",
+      "EXT:COL:PEN:r4:debt_consistent:0.0",
+      "EXT:COL:UBI:r0:debt_consistent:0.0",
+      "EXT:COL:UBI:r1:debt_consistent:0.0",
+      "EXT:COL:UBI:r2:debt_consistent:0.0",
+      "EXT:COL:UBI:r3:debt_consistent:0.0",
+      "EXT:COL:UBI:r4:debt_consistent:0.0"
+     ],
+     "anios_estados": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "descartados_por_anio": []
+    }
+   ]
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "grupo": "K4",
+   "diseno": "G",
+   "cota": "sin_addback",
+   "capa": "guardrail_deuda",
+   "pais": "COL",
+   "kind": "historical_anchor",
+   "pid": "PREG-COMPARACION-E1",
+   "anios": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "bloque": "macro",
+   "j": "f",
+   "ediciones": [
+    "pub"
+   ],
+   "conjuntos": [
+    {
+     "conjunto_COV": "CMP-E1.macro.ABL-COV",
+     "edicion": "pub",
+     "claves": [
+      "21f5d2eb277c44361d4d686b5bbaf2cff3c4cce087ebfa19ead75992292022dc",
+      "f6a8e751a0eea1b8299458e33274b6e1520b01d007c9271aecb706f72e2af18a",
+      "4485d4dc5adcae6e512460efc541ed49c56083155417525cf9a6c58fd2bd2693",
+      "9f1eb6225d94c2b51b2b41d3411458c469bd326e3a8795777d7a03c4b3986206",
+      "e7a933bf7a187a06e63dd702b378ead341e5d2c7b4e71db76180dfc90a0361e4",
+      "3dc9250fd7147d1b733c6bf6e95628f5515f34bcc97c501e6b57d16e493f3d3a",
+      "b303eab9cf5b97be0d9ff54aa206dc84a8d3e357e7b5a3e60db27b687486d0ab",
+      "ec602cc1c9af527616cf0c2009e3944e8a105853a24d044ab531e6388f76f436",
+      "684f2a950ff0509c7a90f0752a1260976c30c21d31f78fbd719c01b7719b2428"
+     ],
+     "celdas": [
+      "EXT:COL:GMI:GMI_ideal_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:MUT:r0:debt_consistent:0.0",
+      "EXT:COL:MUT:r1:debt_consistent:0.0",
+      "EXT:COL:MUT:r2:debt_consistent:0.0",
+      "EXT:COL:MUT:r3:debt_consistent:0.0",
+      "EXT:COL:MUT:r4:debt_consistent:0.0",
+      "EXT:COL:PBI:r0:debt_consistent:0.0",
+      "EXT:COL:PBI:r1:debt_consistent:0.0",
+      "EXT:COL:PBI:r2:debt_consistent:0.0",
+      "EXT:COL:PBI:r3:debt_consistent:0.0",
+      "EXT:COL:PBI:r4:debt_consistent:0.0",
+      "EXT:COL:PEN:r0:debt_consistent:0.0",
+      "EXT:COL:PEN:r1:debt_consistent:0.0",
+      "EXT:COL:PEN:r2:debt_consistent:0.0",
+      "EXT:COL:PEN:r3:debt_consistent:0.0",
+      "EXT:COL:PEN:r4:debt_consistent:0.0",
+      "EXT:COL:UBI:r0:debt_consistent:0.0",
+      "EXT:COL:UBI:r1:debt_consistent:0.0",
+      "EXT:COL:UBI:r2:debt_consistent:0.0",
+      "EXT:COL:UBI:r3:debt_consistent:0.0",
+      "EXT:COL:UBI:r4:debt_consistent:0.0"
+     ],
+     "anios_estados": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "descartados_por_anio": []
+    }
+   ]
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+   "grupo": "K3",
+   "diseno": "N",
+   "cota": "addback_completo",
+   "capa": "guardrail_deuda",
+   "pais": "COL",
+   "kind": "historical_anchor",
+   "pid": "PREG-COMPARACION-E1",
+   "anios": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "bloque": "macro",
+   "j": "f",
+   "ediciones": [
+    "pub"
+   ],
+   "conjuntos": [
+    {
+     "conjunto_COV": "CMP-E1.macro.ABL-COV",
+     "edicion": "pub",
+     "claves": [
+      "21f5d2eb277c44361d4d686b5bbaf2cff3c4cce087ebfa19ead75992292022dc",
+      "f6a8e751a0eea1b8299458e33274b6e1520b01d007c9271aecb706f72e2af18a",
+      "4485d4dc5adcae6e512460efc541ed49c56083155417525cf9a6c58fd2bd2693",
+      "9f1eb6225d94c2b51b2b41d3411458c469bd326e3a8795777d7a03c4b3986206",
+      "e7a933bf7a187a06e63dd702b378ead341e5d2c7b4e71db76180dfc90a0361e4",
+      "3dc9250fd7147d1b733c6bf6e95628f5515f34bcc97c501e6b57d16e493f3d3a",
+      "b303eab9cf5b97be0d9ff54aa206dc84a8d3e357e7b5a3e60db27b687486d0ab",
+      "ec602cc1c9af527616cf0c2009e3944e8a105853a24d044ab531e6388f76f436",
+      "684f2a950ff0509c7a90f0752a1260976c30c21d31f78fbd719c01b7719b2428"
+     ],
+     "celdas": [
+      "EXT:COL:GMI:GMI_ideal_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:MUT:r0:debt_consistent:0.0",
+      "EXT:COL:MUT:r1:debt_consistent:0.0",
+      "EXT:COL:MUT:r2:debt_consistent:0.0",
+      "EXT:COL:MUT:r3:debt_consistent:0.0",
+      "EXT:COL:MUT:r4:debt_consistent:0.0",
+      "EXT:COL:PBI:r0:debt_consistent:0.0",
+      "EXT:COL:PBI:r1:debt_consistent:0.0",
+      "EXT:COL:PBI:r2:debt_consistent:0.0",
+      "EXT:COL:PBI:r3:debt_consistent:0.0",
+      "EXT:COL:PBI:r4:debt_consistent:0.0",
+      "EXT:COL:PEN:r0:debt_consistent:0.0",
+      "EXT:COL:PEN:r1:debt_consistent:0.0",
+      "EXT:COL:PEN:r2:debt_consistent:0.0",
+      "EXT:COL:PEN:r3:debt_consistent:0.0",
+      "EXT:COL:PEN:r4:debt_consistent:0.0",
+      "EXT:COL:UBI:r0:debt_consistent:0.0",
+      "EXT:COL:UBI:r1:debt_consistent:0.0",
+      "EXT:COL:UBI:r2:debt_consistent:0.0",
+      "EXT:COL:UBI:r3:debt_consistent:0.0",
+      "EXT:COL:UBI:r4:debt_consistent:0.0"
+     ],
+     "anios_estados": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "descartados_por_anio": []
+    }
+   ]
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+   "grupo": "K4",
+   "diseno": "N",
+   "cota": "sin_addback",
+   "capa": "guardrail_deuda",
+   "pais": "COL",
+   "kind": "historical_anchor",
+   "pid": "PREG-COMPARACION-E1",
+   "anios": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "bloque": "macro",
+   "j": "f",
+   "ediciones": [
+    "pub"
+   ],
+   "conjuntos": [
+    {
+     "conjunto_COV": "CMP-E1.macro.ABL-COV",
+     "edicion": "pub",
+     "claves": [
+      "21f5d2eb277c44361d4d686b5bbaf2cff3c4cce087ebfa19ead75992292022dc",
+      "f6a8e751a0eea1b8299458e33274b6e1520b01d007c9271aecb706f72e2af18a",
+      "4485d4dc5adcae6e512460efc541ed49c56083155417525cf9a6c58fd2bd2693",
+      "9f1eb6225d94c2b51b2b41d3411458c469bd326e3a8795777d7a03c4b3986206",
+      "e7a933bf7a187a06e63dd702b378ead341e5d2c7b4e71db76180dfc90a0361e4",
+      "3dc9250fd7147d1b733c6bf6e95628f5515f34bcc97c501e6b57d16e493f3d3a",
+      "b303eab9cf5b97be0d9ff54aa206dc84a8d3e357e7b5a3e60db27b687486d0ab",
+      "ec602cc1c9af527616cf0c2009e3944e8a105853a24d044ab531e6388f76f436",
+      "684f2a950ff0509c7a90f0752a1260976c30c21d31f78fbd719c01b7719b2428"
+     ],
+     "celdas": [
+      "EXT:COL:GMI:GMI_ideal_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:MUT:r0:debt_consistent:0.0",
+      "EXT:COL:MUT:r1:debt_consistent:0.0",
+      "EXT:COL:MUT:r2:debt_consistent:0.0",
+      "EXT:COL:MUT:r3:debt_consistent:0.0",
+      "EXT:COL:MUT:r4:debt_consistent:0.0",
+      "EXT:COL:PBI:r0:debt_consistent:0.0",
+      "EXT:COL:PBI:r1:debt_consistent:0.0",
+      "EXT:COL:PBI:r2:debt_consistent:0.0",
+      "EXT:COL:PBI:r3:debt_consistent:0.0",
+      "EXT:COL:PBI:r4:debt_consistent:0.0",
+      "EXT:COL:PEN:r0:debt_consistent:0.0",
+      "EXT:COL:PEN:r1:debt_consistent:0.0",
+      "EXT:COL:PEN:r2:debt_consistent:0.0",
+      "EXT:COL:PEN:r3:debt_consistent:0.0",
+      "EXT:COL:PEN:r4:debt_consistent:0.0",
+      "EXT:COL:UBI:r0:debt_consistent:0.0",
+      "EXT:COL:UBI:r1:debt_consistent:0.0",
+      "EXT:COL:UBI:r2:debt_consistent:0.0",
+      "EXT:COL:UBI:r3:debt_consistent:0.0",
+      "EXT:COL:UBI:r4:debt_consistent:0.0"
+     ],
+     "anios_estados": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "descartados_por_anio": []
+    }
+   ]
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "grupo": "K5",
+   "diseno": "G",
+   "cota": "addback_completo",
+   "capa": "guardrail_deuda",
+   "pais": "COL",
+   "kind": "primary",
+   "pid": "PREG-COMPARACION-E1",
+   "anios": [
+    2023
+   ],
+   "bloque": "macro",
+   "j": "f",
+   "ediciones": [
+    "pub"
+   ],
+   "conjuntos": [
+    {
+     "conjunto_COV": "CMP-E1.macro.ABL-COV",
+     "edicion": "pub",
+     "claves": [
+      "684f2a950ff0509c7a90f0752a1260976c30c21d31f78fbd719c01b7719b2428"
+     ],
+     "celdas": [
+      "EXT:COL:GMI:GMI_ideal_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:MUT:r0:debt_consistent:0.0",
+      "EXT:COL:MUT:r1:debt_consistent:0.0",
+      "EXT:COL:MUT:r2:debt_consistent:0.0",
+      "EXT:COL:MUT:r3:debt_consistent:0.0",
+      "EXT:COL:MUT:r4:debt_consistent:0.0",
+      "EXT:COL:PBI:r0:debt_consistent:0.0",
+      "EXT:COL:PBI:r1:debt_consistent:0.0",
+      "EXT:COL:PBI:r2:debt_consistent:0.0",
+      "EXT:COL:PBI:r3:debt_consistent:0.0",
+      "EXT:COL:PBI:r4:debt_consistent:0.0",
+      "EXT:COL:PEN:r0:debt_consistent:0.0",
+      "EXT:COL:PEN:r1:debt_consistent:0.0",
+      "EXT:COL:PEN:r2:debt_consistent:0.0",
+      "EXT:COL:PEN:r3:debt_consistent:0.0",
+      "EXT:COL:PEN:r4:debt_consistent:0.0",
+      "EXT:COL:UBI:r0:debt_consistent:0.0",
+      "EXT:COL:UBI:r1:debt_consistent:0.0",
+      "EXT:COL:UBI:r2:debt_consistent:0.0",
+      "EXT:COL:UBI:r3:debt_consistent:0.0",
+      "EXT:COL:UBI:r4:debt_consistent:0.0"
+     ],
+     "anios_estados": [
+      2023
+     ],
+     "descartados_por_anio": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+     ]
+    }
+   ]
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "grupo": "K6",
+   "diseno": "G",
+   "cota": "sin_addback",
+   "capa": "guardrail_deuda",
+   "pais": "COL",
+   "kind": "primary",
+   "pid": "PREG-COMPARACION-E1",
+   "anios": [
+    2023
+   ],
+   "bloque": "macro",
+   "j": "f",
+   "ediciones": [
+    "pub"
+   ],
+   "conjuntos": [
+    {
+     "conjunto_COV": "CMP-E1.macro.ABL-COV",
+     "edicion": "pub",
+     "claves": [
+      "684f2a950ff0509c7a90f0752a1260976c30c21d31f78fbd719c01b7719b2428"
+     ],
+     "celdas": [
+      "EXT:COL:GMI:GMI_ideal_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:MUT:r0:debt_consistent:0.0",
+      "EXT:COL:MUT:r1:debt_consistent:0.0",
+      "EXT:COL:MUT:r2:debt_consistent:0.0",
+      "EXT:COL:MUT:r3:debt_consistent:0.0",
+      "EXT:COL:MUT:r4:debt_consistent:0.0",
+      "EXT:COL:PBI:r0:debt_consistent:0.0",
+      "EXT:COL:PBI:r1:debt_consistent:0.0",
+      "EXT:COL:PBI:r2:debt_consistent:0.0",
+      "EXT:COL:PBI:r3:debt_consistent:0.0",
+      "EXT:COL:PBI:r4:debt_consistent:0.0",
+      "EXT:COL:PEN:r0:debt_consistent:0.0",
+      "EXT:COL:PEN:r1:debt_consistent:0.0",
+      "EXT:COL:PEN:r2:debt_consistent:0.0",
+      "EXT:COL:PEN:r3:debt_consistent:0.0",
+      "EXT:COL:PEN:r4:debt_consistent:0.0",
+      "EXT:COL:UBI:r0:debt_consistent:0.0",
+      "EXT:COL:UBI:r1:debt_consistent:0.0",
+      "EXT:COL:UBI:r2:debt_consistent:0.0",
+      "EXT:COL:UBI:r3:debt_consistent:0.0",
+      "EXT:COL:UBI:r4:debt_consistent:0.0"
+     ],
+     "anios_estados": [
+      2023
+     ],
+     "descartados_por_anio": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+     ]
+    }
+   ]
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+   "grupo": "K5",
+   "diseno": "N",
+   "cota": "addback_completo",
+   "capa": "guardrail_deuda",
+   "pais": "COL",
+   "kind": "primary",
+   "pid": "PREG-COMPARACION-E1",
+   "anios": [
+    2023
+   ],
+   "bloque": "macro",
+   "j": "f",
+   "ediciones": [
+    "pub"
+   ],
+   "conjuntos": [
+    {
+     "conjunto_COV": "CMP-E1.macro.ABL-COV",
+     "edicion": "pub",
+     "claves": [
+      "684f2a950ff0509c7a90f0752a1260976c30c21d31f78fbd719c01b7719b2428"
+     ],
+     "celdas": [
+      "EXT:COL:GMI:GMI_ideal_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:MUT:r0:debt_consistent:0.0",
+      "EXT:COL:MUT:r1:debt_consistent:0.0",
+      "EXT:COL:MUT:r2:debt_consistent:0.0",
+      "EXT:COL:MUT:r3:debt_consistent:0.0",
+      "EXT:COL:MUT:r4:debt_consistent:0.0",
+      "EXT:COL:PBI:r0:debt_consistent:0.0",
+      "EXT:COL:PBI:r1:debt_consistent:0.0",
+      "EXT:COL:PBI:r2:debt_consistent:0.0",
+      "EXT:COL:PBI:r3:debt_consistent:0.0",
+      "EXT:COL:PBI:r4:debt_consistent:0.0",
+      "EXT:COL:PEN:r0:debt_consistent:0.0",
+      "EXT:COL:PEN:r1:debt_consistent:0.0",
+      "EXT:COL:PEN:r2:debt_consistent:0.0",
+      "EXT:COL:PEN:r3:debt_consistent:0.0",
+      "EXT:COL:PEN:r4:debt_consistent:0.0",
+      "EXT:COL:UBI:r0:debt_consistent:0.0",
+      "EXT:COL:UBI:r1:debt_consistent:0.0",
+      "EXT:COL:UBI:r2:debt_consistent:0.0",
+      "EXT:COL:UBI:r3:debt_consistent:0.0",
+      "EXT:COL:UBI:r4:debt_consistent:0.0"
+     ],
+     "anios_estados": [
+      2023
+     ],
+     "descartados_por_anio": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+     ]
+    }
+   ]
+  },
+  {
+   "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+   "grupo": "K6",
+   "diseno": "N",
+   "cota": "sin_addback",
+   "capa": "guardrail_deuda",
+   "pais": "COL",
+   "kind": "primary",
+   "pid": "PREG-COMPARACION-E1",
+   "anios": [
+    2023
+   ],
+   "bloque": "macro",
+   "j": "f",
+   "ediciones": [
+    "pub"
+   ],
+   "conjuntos": [
+    {
+     "conjunto_COV": "CMP-E1.macro.ABL-COV",
+     "edicion": "pub",
+     "claves": [
+      "684f2a950ff0509c7a90f0752a1260976c30c21d31f78fbd719c01b7719b2428"
+     ],
+     "celdas": [
+      "EXT:COL:GMI:GMI_ideal_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_ideal_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r0:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r1:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r2:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r3:debt_consistent:0.0",
+      "EXT:COL:GMI:GMI_loaded_aggregate:r4:debt_consistent:0.0",
+      "EXT:COL:MUT:r0:debt_consistent:0.0",
+      "EXT:COL:MUT:r1:debt_consistent:0.0",
+      "EXT:COL:MUT:r2:debt_consistent:0.0",
+      "EXT:COL:MUT:r3:debt_consistent:0.0",
+      "EXT:COL:MUT:r4:debt_consistent:0.0",
+      "EXT:COL:PBI:r0:debt_consistent:0.0",
+      "EXT:COL:PBI:r1:debt_consistent:0.0",
+      "EXT:COL:PBI:r2:debt_consistent:0.0",
+      "EXT:COL:PBI:r3:debt_consistent:0.0",
+      "EXT:COL:PBI:r4:debt_consistent:0.0",
+      "EXT:COL:PEN:r0:debt_consistent:0.0",
+      "EXT:COL:PEN:r1:debt_consistent:0.0",
+      "EXT:COL:PEN:r2:debt_consistent:0.0",
+      "EXT:COL:PEN:r3:debt_consistent:0.0",
+      "EXT:COL:PEN:r4:debt_consistent:0.0",
+      "EXT:COL:UBI:r0:debt_consistent:0.0",
+      "EXT:COL:UBI:r1:debt_consistent:0.0",
+      "EXT:COL:UBI:r2:debt_consistent:0.0",
+      "EXT:COL:UBI:r3:debt_consistent:0.0",
+      "EXT:COL:UBI:r4:debt_consistent:0.0"
+     ],
+     "anios_estados": [
+      2023
+     ],
+     "descartados_por_anio": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+     ]
+    }
+   ]
+  }
+ ],
+ "grupos": [
+  {
+   "grupo": "K1",
+   "afirmaciones": [
+    "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+    "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "cota": "addback_completo",
+   "claves": [
+    "1c83aa01dc81d93dac101c9196e3a8a74c4f75ae9e8db7f7364940c44428b194",
+    "684f2a950ff0509c7a90f0752a1260976c30c21d31f78fbd719c01b7719b2428"
+   ],
+   "contextos_efectivos": 192
+  },
+  {
+   "grupo": "K2",
+   "afirmaciones": [
+    "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+    "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "cota": "sin_addback",
+   "claves": [
+    "1c83aa01dc81d93dac101c9196e3a8a74c4f75ae9e8db7f7364940c44428b194",
+    "684f2a950ff0509c7a90f0752a1260976c30c21d31f78fbd719c01b7719b2428"
+   ],
+   "contextos_efectivos": 192
+  },
+  {
+   "grupo": "K3",
+   "afirmaciones": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "cota": "addback_completo",
+   "claves": [
+    "21f5d2eb277c44361d4d686b5bbaf2cff3c4cce087ebfa19ead75992292022dc",
+    "3dc9250fd7147d1b733c6bf6e95628f5515f34bcc97c501e6b57d16e493f3d3a",
+    "4485d4dc5adcae6e512460efc541ed49c56083155417525cf9a6c58fd2bd2693",
+    "684f2a950ff0509c7a90f0752a1260976c30c21d31f78fbd719c01b7719b2428",
+    "9f1eb6225d94c2b51b2b41d3411458c469bd326e3a8795777d7a03c4b3986206",
+    "b303eab9cf5b97be0d9ff54aa206dc84a8d3e357e7b5a3e60db27b687486d0ab",
+    "e7a933bf7a187a06e63dd702b378ead341e5d2c7b4e71db76180dfc90a0361e4",
+    "ec602cc1c9af527616cf0c2009e3944e8a105853a24d044ab531e6388f76f436",
+    "f6a8e751a0eea1b8299458e33274b6e1520b01d007c9271aecb706f72e2af18a"
+   ],
+   "contextos_efectivos": 864
+  },
+  {
+   "grupo": "K4",
+   "afirmaciones": [
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+    "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "cota": "sin_addback",
+   "claves": [
+    "21f5d2eb277c44361d4d686b5bbaf2cff3c4cce087ebfa19ead75992292022dc",
+    "3dc9250fd7147d1b733c6bf6e95628f5515f34bcc97c501e6b57d16e493f3d3a",
+    "4485d4dc5adcae6e512460efc541ed49c56083155417525cf9a6c58fd2bd2693",
+    "684f2a950ff0509c7a90f0752a1260976c30c21d31f78fbd719c01b7719b2428",
+    "9f1eb6225d94c2b51b2b41d3411458c469bd326e3a8795777d7a03c4b3986206",
+    "b303eab9cf5b97be0d9ff54aa206dc84a8d3e357e7b5a3e60db27b687486d0ab",
+    "e7a933bf7a187a06e63dd702b378ead341e5d2c7b4e71db76180dfc90a0361e4",
+    "ec602cc1c9af527616cf0c2009e3944e8a105853a24d044ab531e6388f76f436",
+    "f6a8e751a0eea1b8299458e33274b6e1520b01d007c9271aecb706f72e2af18a"
+   ],
+   "contextos_efectivos": 864
+  },
+  {
+   "grupo": "K5",
+   "afirmaciones": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+    "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+   ],
+   "cota": "addback_completo",
+   "claves": [
+    "684f2a950ff0509c7a90f0752a1260976c30c21d31f78fbd719c01b7719b2428"
+   ],
+   "contextos_efectivos": 96
+  },
+  {
+   "grupo": "K6",
+   "afirmaciones": [
+    "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+    "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+   ],
+   "cota": "sin_addback",
+   "claves": [
+    "684f2a950ff0509c7a90f0752a1260976c30c21d31f78fbd719c01b7719b2428"
+   ],
+   "contextos_efectivos": 96
+  }
+ ],
+ "entradas_nacionales": {
+  "1c83aa01dc81d93dac101c9196e3a8a74c4f75ae9e8db7f7364940c44428b194": {
+   "usos": [
+    {
+     "preregistration_id": "PREG-COL-E2-2023",
+     "edicion": "2024p",
+     "d6_edicion": "COL_2024p",
+     "anchor_year": 2023,
+     "d2_vector_id": "COL_D2_2023_COL_2024p",
+     "d6_vector_id": "COL_D6_2023_COL_2024p",
+     "d2_vector_sha256": "138958ba42f3e85d5956e98ae8c8bb72798ded7fe0f67a7f344c89487ba6c3ab",
+     "d6_vector_sha256": "7b6d284a5c773576e704232c27125e1607f75e81db25443f66d446a977e550e3",
+     "d2_snapshot_sha256": "18de220550313fddd23e792bf08b5090867f6a7d24d50f9e23a55f7cab209613",
+     "bundle_sha256": "73cf4e4499eb2e3327a27e01f9e87e1fd6b14a160bee4718fc945636420ae48e",
+     "d6_component_sign_status": {
+      "iva": "positive_admissible",
+      "otros_productos": "positive_admissible",
+      "produccion": "positive_admissible"
+     },
+     "national_state_sha256_ligados_T7": []
+    }
+   ]
+  },
+  "21f5d2eb277c44361d4d686b5bbaf2cff3c4cce087ebfa19ead75992292022dc": {
+   "usos": [
+    {
+     "preregistration_id": "PREG-COMPARACION-E1",
+     "edicion": "pub",
+     "d6_edicion": "COL_2023",
+     "anchor_year": 2015,
+     "d2_vector_id": "COL_D2_2015_COL_2023",
+     "d6_vector_id": "COL_D6_2023_COL_2023",
+     "d2_vector_sha256": "6fc9f68d107b41fd93683f98005ae35fe7dd8e12c43c64b110bfdead4a6daa43",
+     "d6_vector_sha256": "fc1f1d5d11c03407cf245d4ce8fbb67b1d7276328c74490cd4a093e46254e3b4",
+     "d2_snapshot_sha256": "fa799bfe8e087ba1921a7c9623490748d0b24985fdf14acb0e53e155c125da5c",
+     "bundle_sha256": "b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151",
+     "d6_component_sign_status": {
+      "iva": "positive_admissible",
+      "otros_productos": "positive_admissible",
+      "produccion": "positive_admissible"
+     },
+     "national_state_sha256_ligados_T7": []
+    }
+   ]
+  },
+  "3dc9250fd7147d1b733c6bf6e95628f5515f34bcc97c501e6b57d16e493f3d3a": {
+   "usos": [
+    {
+     "preregistration_id": "PREG-COMPARACION-E1",
+     "edicion": "pub",
+     "d6_edicion": "COL_2023",
+     "anchor_year": 2020,
+     "d2_vector_id": "COL_D2_2020_COL_2023",
+     "d6_vector_id": "COL_D6_2023_COL_2023",
+     "d2_vector_sha256": "18c636995a30a0678695fb03780ee30883f4e56c16ca2baf28a7c1c2c4f3a90f",
+     "d6_vector_sha256": "fc1f1d5d11c03407cf245d4ce8fbb67b1d7276328c74490cd4a093e46254e3b4",
+     "d2_snapshot_sha256": "fa799bfe8e087ba1921a7c9623490748d0b24985fdf14acb0e53e155c125da5c",
+     "bundle_sha256": "b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151",
+     "d6_component_sign_status": {
+      "iva": "positive_admissible",
+      "otros_productos": "positive_admissible",
+      "produccion": "positive_admissible"
+     },
+     "national_state_sha256_ligados_T7": [
+      "2d924d0ea86f32688c544c7969e79d6e49441721aeb7ab72af38d4954a90b39e"
+     ]
+    }
+   ]
+  },
+  "4485d4dc5adcae6e512460efc541ed49c56083155417525cf9a6c58fd2bd2693": {
+   "usos": [
+    {
+     "preregistration_id": "PREG-COMPARACION-E1",
+     "edicion": "pub",
+     "d6_edicion": "COL_2023",
+     "anchor_year": 2017,
+     "d2_vector_id": "COL_D2_2017_COL_2023",
+     "d6_vector_id": "COL_D6_2023_COL_2023",
+     "d2_vector_sha256": "991b9add4818c63367bfbe6eea1af2c3b3735346ced3a8bdf39ad5134b101879",
+     "d6_vector_sha256": "fc1f1d5d11c03407cf245d4ce8fbb67b1d7276328c74490cd4a093e46254e3b4",
+     "d2_snapshot_sha256": "fa799bfe8e087ba1921a7c9623490748d0b24985fdf14acb0e53e155c125da5c",
+     "bundle_sha256": "b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151",
+     "d6_component_sign_status": {
+      "iva": "positive_admissible",
+      "otros_productos": "positive_admissible",
+      "produccion": "positive_admissible"
+     },
+     "national_state_sha256_ligados_T7": []
+    }
+   ]
+  },
+  "684f2a950ff0509c7a90f0752a1260976c30c21d31f78fbd719c01b7719b2428": {
+   "usos": [
+    {
+     "preregistration_id": "PREG-COL-E2-2023",
+     "edicion": "2023p",
+     "d6_edicion": "COL_2023",
+     "anchor_year": 2023,
+     "d2_vector_id": "COL_D2_2023_COL_2023",
+     "d6_vector_id": "COL_D6_2023_COL_2023",
+     "d2_vector_sha256": "25aac4fee46dd520025709858102fe11a95fdac9d77c93118c0d608101a18007",
+     "d6_vector_sha256": "fc1f1d5d11c03407cf245d4ce8fbb67b1d7276328c74490cd4a093e46254e3b4",
+     "d2_snapshot_sha256": "fa799bfe8e087ba1921a7c9623490748d0b24985fdf14acb0e53e155c125da5c",
+     "bundle_sha256": "73cf4e4499eb2e3327a27e01f9e87e1fd6b14a160bee4718fc945636420ae48e",
+     "d6_component_sign_status": {
+      "iva": "positive_admissible",
+      "otros_productos": "positive_admissible",
+      "produccion": "positive_admissible"
+     },
+     "national_state_sha256_ligados_T7": [
+      "b6f4233693926cf0c03537f5aeca1833b4ca7ce36eacbc3e2c4b0362718b1797"
+     ]
+    },
+    {
+     "preregistration_id": "PREG-COMPARACION-E1",
+     "edicion": "pub",
+     "d6_edicion": "COL_2023",
+     "anchor_year": 2023,
+     "d2_vector_id": "COL_D2_2023_COL_2023",
+     "d6_vector_id": "COL_D6_2023_COL_2023",
+     "d2_vector_sha256": "25aac4fee46dd520025709858102fe11a95fdac9d77c93118c0d608101a18007",
+     "d6_vector_sha256": "fc1f1d5d11c03407cf245d4ce8fbb67b1d7276328c74490cd4a093e46254e3b4",
+     "d2_snapshot_sha256": "fa799bfe8e087ba1921a7c9623490748d0b24985fdf14acb0e53e155c125da5c",
+     "bundle_sha256": "b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151",
+     "d6_component_sign_status": {
+      "iva": "positive_admissible",
+      "otros_productos": "positive_admissible",
+      "produccion": "positive_admissible"
+     },
+     "national_state_sha256_ligados_T7": [
+      "4d2b30c1666f903081fc8d47ed470d01aa3b64bbfa7ad933662baefd7efad752"
+     ]
+    }
+   ]
+  },
+  "9f1eb6225d94c2b51b2b41d3411458c469bd326e3a8795777d7a03c4b3986206": {
+   "usos": [
+    {
+     "preregistration_id": "PREG-COMPARACION-E1",
+     "edicion": "pub",
+     "d6_edicion": "COL_2023",
+     "anchor_year": 2018,
+     "d2_vector_id": "COL_D2_2018_COL_2023",
+     "d6_vector_id": "COL_D6_2023_COL_2023",
+     "d2_vector_sha256": "a2cf94b1ba42f16e72e4ce402047033aede32accb23b2f71b801da88d39d364a",
+     "d6_vector_sha256": "fc1f1d5d11c03407cf245d4ce8fbb67b1d7276328c74490cd4a093e46254e3b4",
+     "d2_snapshot_sha256": "fa799bfe8e087ba1921a7c9623490748d0b24985fdf14acb0e53e155c125da5c",
+     "bundle_sha256": "b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151",
+     "d6_component_sign_status": {
+      "iva": "positive_admissible",
+      "otros_productos": "positive_admissible",
+      "produccion": "positive_admissible"
+     },
+     "national_state_sha256_ligados_T7": []
+    }
+   ]
+  },
+  "b303eab9cf5b97be0d9ff54aa206dc84a8d3e357e7b5a3e60db27b687486d0ab": {
+   "usos": [
+    {
+     "preregistration_id": "PREG-COMPARACION-E1",
+     "edicion": "pub",
+     "d6_edicion": "COL_2023",
+     "anchor_year": 2021,
+     "d2_vector_id": "COL_D2_2021_COL_2023",
+     "d6_vector_id": "COL_D6_2023_COL_2023",
+     "d2_vector_sha256": "921ba936224ac50296584e89c080399a079385af1414dbd30340cac03bbb06d5",
+     "d6_vector_sha256": "fc1f1d5d11c03407cf245d4ce8fbb67b1d7276328c74490cd4a093e46254e3b4",
+     "d2_snapshot_sha256": "fa799bfe8e087ba1921a7c9623490748d0b24985fdf14acb0e53e155c125da5c",
+     "bundle_sha256": "b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151",
+     "d6_component_sign_status": {
+      "iva": "positive_admissible",
+      "otros_productos": "positive_admissible",
+      "produccion": "positive_admissible"
+     },
+     "national_state_sha256_ligados_T7": []
+    }
+   ]
+  },
+  "e7a933bf7a187a06e63dd702b378ead341e5d2c7b4e71db76180dfc90a0361e4": {
+   "usos": [
+    {
+     "preregistration_id": "PREG-COMPARACION-E1",
+     "edicion": "pub",
+     "d6_edicion": "COL_2023",
+     "anchor_year": 2019,
+     "d2_vector_id": "COL_D2_2019_COL_2023",
+     "d6_vector_id": "COL_D6_2023_COL_2023",
+     "d2_vector_sha256": "0804e50ba41d13ced423e000dae3dfa29ea3a5abb1e18122be1e96d5892b9918",
+     "d6_vector_sha256": "fc1f1d5d11c03407cf245d4ce8fbb67b1d7276328c74490cd4a093e46254e3b4",
+     "d2_snapshot_sha256": "fa799bfe8e087ba1921a7c9623490748d0b24985fdf14acb0e53e155c125da5c",
+     "bundle_sha256": "b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151",
+     "d6_component_sign_status": {
+      "iva": "positive_admissible",
+      "otros_productos": "positive_admissible",
+      "produccion": "positive_admissible"
+     },
+     "national_state_sha256_ligados_T7": []
+    }
+   ]
+  },
+  "ec602cc1c9af527616cf0c2009e3944e8a105853a24d044ab531e6388f76f436": {
+   "usos": [
+    {
+     "preregistration_id": "PREG-COMPARACION-E1",
+     "edicion": "pub",
+     "d6_edicion": "COL_2023",
+     "anchor_year": 2022,
+     "d2_vector_id": "COL_D2_2022_COL_2023",
+     "d6_vector_id": "COL_D6_2023_COL_2023",
+     "d2_vector_sha256": "cadd5fa8299fa058c26596bb786e3a9965a89542ea9068eb5626247bbd19bdb1",
+     "d6_vector_sha256": "fc1f1d5d11c03407cf245d4ce8fbb67b1d7276328c74490cd4a093e46254e3b4",
+     "d2_snapshot_sha256": "fa799bfe8e087ba1921a7c9623490748d0b24985fdf14acb0e53e155c125da5c",
+     "bundle_sha256": "b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151",
+     "d6_component_sign_status": {
+      "iva": "positive_admissible",
+      "otros_productos": "positive_admissible",
+      "produccion": "positive_admissible"
+     },
+     "national_state_sha256_ligados_T7": []
+    }
+   ]
+  },
+  "f6a8e751a0eea1b8299458e33274b6e1520b01d007c9271aecb706f72e2af18a": {
+   "usos": [
+    {
+     "preregistration_id": "PREG-COMPARACION-E1",
+     "edicion": "pub",
+     "d6_edicion": "COL_2023",
+     "anchor_year": 2016,
+     "d2_vector_id": "COL_D2_2016_COL_2023",
+     "d6_vector_id": "COL_D6_2023_COL_2023",
+     "d2_vector_sha256": "b0c4de39636ca18be5154f84016f875cf0151a2ac0689b5637a01df5b4e8691b",
+     "d6_vector_sha256": "fc1f1d5d11c03407cf245d4ce8fbb67b1d7276328c74490cd4a093e46254e3b4",
+     "d2_snapshot_sha256": "fa799bfe8e087ba1921a7c9623490748d0b24985fdf14acb0e53e155c125da5c",
+     "bundle_sha256": "b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151",
+     "d6_component_sign_status": {
+      "iva": "positive_admissible",
+      "otros_productos": "positive_admissible",
+      "produccion": "positive_admissible"
+     },
+     "national_state_sha256_ligados_T7": []
+    }
+   ]
+  }
+ },
+ "macro": {
+  "ejes": {
+   "eta_w": [
+    "0.4",
+    "1"
+   ],
+   "gain_share": [
+    "0.01",
+    "0.1"
+   ],
+   "pi_iva": [
+    "0.5",
+    "1.5"
+   ],
+   "pi_otros_productos": [
+    "0.5",
+    "1.5"
+   ],
+   "pi_produccion": [
+    "0.5",
+    "1.5"
+   ]
+  },
+  "eta_H": [
+   "-0.5",
+   "0.0",
+   "0.5"
+  ],
+  "vertices": [
+   {
+    "eta_w": "0.4",
+    "gain_share": "0.01",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "0.4",
+    "gain_share": "0.01",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "1.5"
+   },
+   {
+    "eta_w": "0.4",
+    "gain_share": "0.01",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "0.4",
+    "gain_share": "0.01",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "1.5"
+   },
+   {
+    "eta_w": "0.4",
+    "gain_share": "0.01",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "0.4",
+    "gain_share": "0.01",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "1.5"
+   },
+   {
+    "eta_w": "0.4",
+    "gain_share": "0.01",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "0.4",
+    "gain_share": "0.01",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "1.5"
+   },
+   {
+    "eta_w": "0.4",
+    "gain_share": "0.1",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "0.4",
+    "gain_share": "0.1",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "1.5"
+   },
+   {
+    "eta_w": "0.4",
+    "gain_share": "0.1",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "0.4",
+    "gain_share": "0.1",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "1.5"
+   },
+   {
+    "eta_w": "0.4",
+    "gain_share": "0.1",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "0.4",
+    "gain_share": "0.1",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "1.5"
+   },
+   {
+    "eta_w": "0.4",
+    "gain_share": "0.1",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "0.4",
+    "gain_share": "0.1",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "1.5"
+   },
+   {
+    "eta_w": "1",
+    "gain_share": "0.01",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "1",
+    "gain_share": "0.01",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "1.5"
+   },
+   {
+    "eta_w": "1",
+    "gain_share": "0.01",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "1",
+    "gain_share": "0.01",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "1.5"
+   },
+   {
+    "eta_w": "1",
+    "gain_share": "0.01",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "1",
+    "gain_share": "0.01",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "1.5"
+   },
+   {
+    "eta_w": "1",
+    "gain_share": "0.01",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "1",
+    "gain_share": "0.01",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "1.5"
+   },
+   {
+    "eta_w": "1",
+    "gain_share": "0.1",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "1",
+    "gain_share": "0.1",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "1.5"
+   },
+   {
+    "eta_w": "1",
+    "gain_share": "0.1",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "1",
+    "gain_share": "0.1",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "1.5"
+   },
+   {
+    "eta_w": "1",
+    "gain_share": "0.1",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "1",
+    "gain_share": "0.1",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "1.5"
+   },
+   {
+    "eta_w": "1",
+    "gain_share": "0.1",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "1",
+    "gain_share": "0.1",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "1.5"
+   }
+  ],
+  "vertices_puente": [
+   {
+    "eta_w": "0.4",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "0.4",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "1.5"
+   },
+   {
+    "eta_w": "0.4",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "0.4",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "1.5"
+   },
+   {
+    "eta_w": "0.4",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "0.4",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "1.5"
+   },
+   {
+    "eta_w": "0.4",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "0.4",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "1.5"
+   },
+   {
+    "eta_w": "1",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "1",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "1.5"
+   },
+   {
+    "eta_w": "1",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "1",
+    "pi_iva": "0.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "1.5"
+   },
+   {
+    "eta_w": "1",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "1",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "0.5",
+    "pi_produccion": "1.5"
+   },
+   {
+    "eta_w": "1",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "0.5"
+   },
+   {
+    "eta_w": "1",
+    "pi_iva": "1.5",
+    "pi_otros_productos": "1.5",
+    "pi_produccion": "1.5"
+   }
+  ],
+  "indice_puente": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "orden": "itertools.product sobre ['eta_w', 'gain_share', 'pi_iva', 'pi_otros_productos', 'pi_produccion']; puente = vertice sin gain_share"
+ },
+ "celdas": {
+  "capa": "guardrail_deuda",
+  "pais": "COL",
+  "ids": [
+   "EXT:COL:GMI:GMI_ideal_aggregate:r0:debt_consistent:0.0",
+   "EXT:COL:GMI:GMI_ideal_aggregate:r1:debt_consistent:0.0",
+   "EXT:COL:GMI:GMI_ideal_aggregate:r2:debt_consistent:0.0",
+   "EXT:COL:GMI:GMI_ideal_aggregate:r3:debt_consistent:0.0",
+   "EXT:COL:GMI:GMI_ideal_aggregate:r4:debt_consistent:0.0",
+   "EXT:COL:GMI:GMI_loaded_aggregate:r0:debt_consistent:0.0",
+   "EXT:COL:GMI:GMI_loaded_aggregate:r1:debt_consistent:0.0",
+   "EXT:COL:GMI:GMI_loaded_aggregate:r2:debt_consistent:0.0",
+   "EXT:COL:GMI:GMI_loaded_aggregate:r3:debt_consistent:0.0",
+   "EXT:COL:GMI:GMI_loaded_aggregate:r4:debt_consistent:0.0",
+   "EXT:COL:MUT:r0:debt_consistent:0.0",
+   "EXT:COL:MUT:r1:debt_consistent:0.0",
+   "EXT:COL:MUT:r2:debt_consistent:0.0",
+   "EXT:COL:MUT:r3:debt_consistent:0.0",
+   "EXT:COL:MUT:r4:debt_consistent:0.0",
+   "EXT:COL:PBI:r0:debt_consistent:0.0",
+   "EXT:COL:PBI:r1:debt_consistent:0.0",
+   "EXT:COL:PBI:r2:debt_consistent:0.0",
+   "EXT:COL:PBI:r3:debt_consistent:0.0",
+   "EXT:COL:PBI:r4:debt_consistent:0.0",
+   "EXT:COL:PEN:r0:debt_consistent:0.0",
+   "EXT:COL:PEN:r1:debt_consistent:0.0",
+   "EXT:COL:PEN:r2:debt_consistent:0.0",
+   "EXT:COL:PEN:r3:debt_consistent:0.0",
+   "EXT:COL:PEN:r4:debt_consistent:0.0",
+   "EXT:COL:UBI:r0:debt_consistent:0.0",
+   "EXT:COL:UBI:r1:debt_consistent:0.0",
+   "EXT:COL:UBI:r2:debt_consistent:0.0",
+   "EXT:COL:UBI:r3:debt_consistent:0.0",
+   "EXT:COL:UBI:r4:debt_consistent:0.0"
+  ],
+  "filas_sha256": {
+   "EXT:COL:GMI:GMI_ideal_aggregate:r0:debt_consistent:0.0": "a927bc42afb9454a3289740a4aef8809df5f68de94127c1b151da749207bea4f",
+   "EXT:COL:GMI:GMI_ideal_aggregate:r1:debt_consistent:0.0": "5ce215a0f7da60cca3b3e8dc0d18b1ba1b6093ba1b933e4365d9588a29155af0",
+   "EXT:COL:GMI:GMI_ideal_aggregate:r2:debt_consistent:0.0": "cfaa18e38438217cf5aad98619a642b2104fa85c5f7aaeb6ec035e68902eb40c",
+   "EXT:COL:GMI:GMI_ideal_aggregate:r3:debt_consistent:0.0": "101df0393bf5b28ae2ba27301f21d4d76fbf79625f76f2abb4c8c32fb849abf1",
+   "EXT:COL:GMI:GMI_ideal_aggregate:r4:debt_consistent:0.0": "8768de558fede68258b9956f86e0101df86807d19d33091569872b1b5ca01e28",
+   "EXT:COL:GMI:GMI_loaded_aggregate:r0:debt_consistent:0.0": "bd60f5e0de90d274c136c14d42c650a657fe6ad58f9f2bbe033d53bb2920157c",
+   "EXT:COL:GMI:GMI_loaded_aggregate:r1:debt_consistent:0.0": "536ed74ce62446fe01ad28147c242d80af7c1303d605be66ec6259731eb33609",
+   "EXT:COL:GMI:GMI_loaded_aggregate:r2:debt_consistent:0.0": "dd7c46caec79c9508aa29b31d53961f87ccc0e3db6afcd6e90bf8b46997373c2",
+   "EXT:COL:GMI:GMI_loaded_aggregate:r3:debt_consistent:0.0": "fd59df8a8ddaa28dd417824f23a0daa1e944d58e42ba21761181db2e1acac0c6",
+   "EXT:COL:GMI:GMI_loaded_aggregate:r4:debt_consistent:0.0": "ec3dfa47fc13c691c3c1039788670c68bf4c29e5989d7ff9480f82923ccf7a22",
+   "EXT:COL:MUT:r0:debt_consistent:0.0": "f95ee502e0cb0075600918abb674076ad599f8a67ad664bd907a3118b8b29c36",
+   "EXT:COL:MUT:r1:debt_consistent:0.0": "9a2b446b364709a5498f23b700f8dd55fd12b2f7e40428908b0a02577bcb5239",
+   "EXT:COL:MUT:r2:debt_consistent:0.0": "e76a4a37f6a4922aad9fc9cb20efc0d02b5a1396b1bd47ccc911472c12b50c68",
+   "EXT:COL:MUT:r3:debt_consistent:0.0": "8f7205bba4f5e5deae4c2a802f96fe235d748c9cf4b0bef63ca97391bfa31130",
+   "EXT:COL:MUT:r4:debt_consistent:0.0": "2f54c0a78611afdcf278c9782b570f8b01aec6d05e87d86e7e27a69bf180562d",
+   "EXT:COL:PBI:r0:debt_consistent:0.0": "1a8f39a085c91ef6e4c34fc52a7698976116a17761d2bdf1cdfb7f0706678775",
+   "EXT:COL:PBI:r1:debt_consistent:0.0": "e40a9d3bb9c5976d8d841c560bcfd0403243e3705d455340718e4d45f726747c",
+   "EXT:COL:PBI:r2:debt_consistent:0.0": "58eef652b0ca17b4595bb754c6497dd23183165d60743914c79fe0531494210d",
+   "EXT:COL:PBI:r3:debt_consistent:0.0": "b8676b5dd634989ca4ffd4cca6c51c29b850d1814335aaa1ca2aa74cae484132",
+   "EXT:COL:PBI:r4:debt_consistent:0.0": "00a1e379ce7840085108319df7a8dd32b96504d3aab01f4ed7efe0eb256fd6fa",
+   "EXT:COL:PEN:r0:debt_consistent:0.0": "16c805f8624cbc40c7e0b465b4396b05c8338b750a41eeb3b8977ff630bcdc10",
+   "EXT:COL:PEN:r1:debt_consistent:0.0": "746a43424ce54356b9c8cb9d13d4d32e3f2d01e1415d23062c0cea1a4a26e67b",
+   "EXT:COL:PEN:r2:debt_consistent:0.0": "fe198c41ebd8df7512f743142471096cda31f688fd3e34d1630cb0231543c1b8",
+   "EXT:COL:PEN:r3:debt_consistent:0.0": "d6bcb6248b54e3a5e0e56d1681d44bb4a1b86280fa59d8b6d45ec8bf5ab7adcd",
+   "EXT:COL:PEN:r4:debt_consistent:0.0": "69ec3bb52a6aeccfc9aca3a37cdfdb246ba554725693a8aac86eb9c9b09de425",
+   "EXT:COL:UBI:r0:debt_consistent:0.0": "802507f7acb40d0375a7b9afe2805a0f1b5f3ccce1aa678eecbfc02111342ce1",
+   "EXT:COL:UBI:r1:debt_consistent:0.0": "fd6da6b318e2ab61802d1652fdebbe540d8ac93575e40607a97dc88182cca45a",
+   "EXT:COL:UBI:r2:debt_consistent:0.0": "1bb0c449e199922e9f4d8c311fad51d5c204de8fb8516298ff369650f31d1383",
+   "EXT:COL:UBI:r3:debt_consistent:0.0": "eb94233f8436c99dec6bc78c194996b452d937295af9274b7a5d837af2a2702a",
+   "EXT:COL:UBI:r4:debt_consistent:0.0": "1bd979feaea9f983498b13430c0b33bf6dfc23371f0d03f194221cf299f2d78e"
+  },
+  "cotas": [
+   "addback_completo",
+   "sin_addback"
+  ]
+ },
+ "dme_gai": {
+  "valor": "0.0",
+  "por_cota": {
+   "addback_completo": "0.0",
+   "sin_addback": "0.0"
+  },
+  "evidencia": [
+   {
+    "fuente": "c0_contexto_s6",
+    "sha256": "618463864db1268678bdfd2d018aded56358411cda80f103dafc7cf1a648e107",
+    "lineas": {
+     "127": "crosswalk_sha256=ev[\"EV.CROSSWALK\"][\"payload_sha256\"], dme_gai=0.0, set_index=set_index,"
+    }
+   },
+   {
+    "fuente": "c0_run_py",
+    "sha256": "18abae7000d727c88dc7693db59c75a20ea79db7031b0c2e510d2b3af0058360",
+    "lineas": {
+     "163": "dme_gai: float = 0.0",
+     "1211": "min(ks) + self.inp.dme_gai))"
+    }
+   }
+  ],
+  "regla": "n_min = min_celda Q(cota) + DME_gAI (run.claim_contexts:1211); DME_gAI es el literal de ContextoS6 (contexto_s6.py:127), autenticado por bytes; el codigo lo trata como dato y no supone su valor"
+ },
+ "q": {
+  "lo": 0.0007142857142857133,
+  "hi": 0.2,
+  "lo_hex": "0x1.767dce434a9a8p-11",
+  "hi_hex": "0x1.999999999999ap-3",
+  "lo_exacto": "1298074214633704979591983567733/1817303900487189410578335178686464",
+  "hi_exacto": "3602879701896397/18014398509481984",
+  "premisas": {
+   "a_lo_mayor_1": true,
+   "rho_lo_positivo": true,
+   "rho_hi_le_1": true,
+   "a_lo_mayor_rho_hi": true,
+   "kappa_lo_positivo": true
+  },
+  "uno_menos_q_hi_positivo": true,
+  "metodo": "monotonia en kappa, a y rho; extremos exactos sobre la raiz BINARIA; redondeo hacia afuera"
+ },
+ "raiz_binaria": {
+  "a": [
+   1.0999999999999999,
+   2.5
+  ],
+  "beta_tilde": [
+   0.25,
+   4.0
+  ],
+  "eta_d": [
+   0.09999999999999999,
+   4.0
+  ],
+  "eta_f": [
+   0.09999999999999999,
+   8.0
+  ],
+  "kappa_tilde": [
+   0.004999999999999999,
+   0.2
+  ],
+  "phi": [
+   0.0,
+   0.5
+  ],
+  "rho": [
+   0.39999999999999997,
+   1.0
+  ],
+  "u_theta": [
+   0.09999999999999999,
+   0.9
+  ],
+  "z_cost": [
+   1.0,
+   100.0
+  ]
+ },
+ "forma": {
+  "k1": "K1 = n_min / ((s_Pi / (1 - q)) * gain) = n_min (1 - q) / (s_Pi gain), mismo orden que cobertura.g_enclosure:93-96",
+  "s_Pi": "macro.bridge (exacto): 1 - s_L_bar theta_W(eta_w, eta_H) - sum_j pi_j s_bar_j",
+  "n_min": "intervalo que contiene min Q exacto (literales) + DME y min GridCell.Q (float C0) + DME",
+  "gain": "gain_share decimal exacto, encerrado hacia afuera",
+  "reduccion": "s_Pi afin y gain lineal: s_Pi*gain multilineal; con P7 (s_Pi > 0 en los 16 vertices de puente por estado y nodo) s_Pi*gain > 0 en la caja y sus extremos estan en los 32 vertices; K1 es monotono en s_Pi*gain y en q para cualquier signo de n_min(1-q): inf K1 >= min de k1.lo en los vertices"
+ },
+ "premisas": {
+  "P1_a_mayor_1": true,
+  "P2_rho_en_0_1": true,
+  "P3_kappa_binario": "kappa.hi binario = 0.2 > 1/5: q.hi = 3602879701896397/18014398509481984",
+  "P4_a_mayor_rho": true,
+  "P5_eta_H_mayor_menos_1": true,
+  "P6_gain_positivo": true,
+  "P7_s_Pi_positivo": "PENDIENTE: obligatorio en el trabajo por estado y nodo; un fallo deja pendiente el estado",
+  "P8_s_T_no_negativo": "comprobado en el trabajo (documental: D6 positive_admissible)",
+  "P9_signo_n_min": "no autenticado: forma intervalar, sin factor 4/5",
+  "P10_afinidad_bridge": "macro.bridge exacto y afin"
+ },
+ "recuentos": {
+  "afirmaciones": 12,
+  "grupos": 6,
+  "contextos_antes_dedup": 4608,
+  "antes_dedup_por_kind": {
+   "E2_primary": 192,
+   "E1_historical_anchor": 864,
+   "E1_primary": 96
+  },
+  "contextos_efectivos": 1920,
+  "entradas_puente": 480,
+  "entradas_Q": 60,
+  "entradas_nacionales": 10,
+  "vertices_macro": 32,
+  "vertices_puente": 16,
+  "nodos_eta_H": 3,
+  "celdas_por_cota": 30,
+  "solicitudes_C2_nuevas": 0
+ },
+ "c0": {
+  "ruta": "@@R_BS2@@\\tmp\\paso4_raices_impacto_desde_rem116\\candidato_c0\\instalacion",
+  "identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+  "inventario_rem116_sha256": "609c6e4dc98cbb8e900e9fe5441feeaf506e22957947c927fb6073cec1cdba4a",
+  "cierre": {
+   "__init__.py": "89f7210e7c118c83eec9d73323491e0d8c778b76d1297f703dfca2b86069c72a",
+   "intervalos.py": "2607d0cf3f879316c699ec4cd73021bff9ae8f680f7c7c01facb84dfb65aa891",
+   "macro.py": "4a94661d1cd0f3fe654f2cf7ecaa740b860e1c735b1585d51fda8f56dd068b98",
+   "external.py": "0b14fc0ee0fe4b0bc6d28aebad717dc0e02af03d8b53007be00d7295b72c4a6b"
+  },
+  "orden_carga": [
+   "intervalos",
+   "macro",
+   "external"
+  ],
+  "lector_aprobacion_sha256": "631003ca87989ccd0189b33c9bd35e338a6f16fe4a0d50cbc2ccef0ee6f96467",
+  "fuera_del_cierre": "model, modelos, c2_normalizado, encierros_modelo, supremum, frontier, cobertura, run, claims, nacional, S6"
+ },
+ "proveedor_nacional": {
+  "produccion": "literales de los bundles CA2 y D6 tax_shares_marg fijados; clave_entrada_efectiva recomputada (enumerar_contextos_rem162.py:220-228) y shares exactos como nacional.conditional_states (s_L_bar = COE/PIB; s_bar_j = share_exact_json)",
+  "claim_contexts": "NO se llama"
+ },
+ "prohibido": [
+  "C2 nuevo",
+  "modelo",
+  "supremos",
+  "claim_contexts",
+  "S6",
+  "cobertura M4/M5",
+  "busqueda de testigos",
+  "subdivision",
+  "K1_testigo como L_K1",
+  "D-EXP8",
+  "N3"
+ ],
+ "fuentes": {
+  "a165_inventario": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_invocacion_procedencia_b1_desde_rem165\\audit\\entrega.json",
+   "sha256": "80d1b2cb1cd7187f8d767b928ac9f4994711a67a9d1ac4931fe499931bf9acf1"
+  },
+  "b1_estado": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_produccion_b1_doce_cov_desde_rem166\\b1_B1PROD166\\estado_b1.json",
+   "sha256": "e01f4cf096d105728c67cd04db2bde6ae340aa5379b65a2e58dd4929311f81c6"
+  },
+  "b1_evidencia": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_produccion_b1_doce_cov_desde_rem166\\b1_B1PROD166\\TRABAJO\\EVIDENCIA_B1.json",
+   "sha256": "8bb0b86e213f88cd902a9a5f8ad6c4ea2f979ee8d948717362d9dc6c66f808c5"
+  },
+  "b1_indice": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_invocacion_procedencia_b1_desde_rem165\\paquete_b1\\PAQUETE_B1.json",
+   "sha256": "9244a279c4b5ede08b9a48b9f2f0ebe99a22ed91cd137b8ae24aa7ae4aa3f13d"
+  },
+  "b1_lectura": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_produccion_b1_doce_cov_desde_rem166\\b1_B1PROD166\\VALIDACION\\LECTURA_B1.json",
+   "sha256": "ec3db4e494caeb413407157ae0027c39da5e49f712bf83468d63c5c7e35df960"
+  },
+  "b1_manifiesto": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_invocacion_procedencia_b1_desde_rem165\\paquete_b1\\MANIFIESTO_B1.json",
+   "sha256": "1194923c273da998db23a83700dac1669693490d01f7fc52668ae39c105fe33e"
+  },
+  "b1_validacion": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_produccion_b1_doce_cov_desde_rem166\\b1_B1PROD166\\VALIDACION\\VALIDACION_B1.json",
+   "sha256": "a6806885bfcd47d399564080efe230269f04fd8ca485aa574f4d7b4fdc8d3540"
+  },
+  "c0_cobertura": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_raices_impacto_desde_rem116\\candidato_c0\\instalacion\\src\\paper2b\\cobertura.py",
+   "sha256": "d6be53db849fbfaa1d11c3213cc25a0f86a990ef6b3198e36e6b56607f5d9381"
+  },
+  "c0_contexto_s6": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_raices_impacto_desde_rem116\\candidato_c0\\instalacion\\herramientas\\b\\contexto_s6.py",
+   "sha256": "618463864db1268678bdfd2d018aded56358411cda80f103dafc7cf1a648e107"
+  },
+  "c0_inventario_rem116": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_raices_impacto_desde_rem116\\audit\\entrega.json",
+   "sha256": "609c6e4dc98cbb8e900e9fe5441feeaf506e22957947c927fb6073cec1cdba4a"
+  },
+  "c0_run_py": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_raices_impacto_desde_rem116\\candidato_c0\\instalacion\\src\\paper2b\\run.py",
+   "sha256": "18abae7000d727c88dc7693db59c75a20ea79db7031b0c2e510d2b3af0058360"
+  },
+  "ca2_bundle_E1": {
+   "ruta": "@@R_BS2@@\\fase2_datos\\ca2_bundles\\bundles\\b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151.json",
+   "sha256": "b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151"
+  },
+  "ca2_bundle_E2": {
+   "ruta": "@@R_BS2@@\\fase2_datos\\ca2_bundles\\bundles\\73cf4e4499eb2e3327a27e01f9e87e1fd6b14a160bee4718fc945636420ae48e.json",
+   "sha256": "73cf4e4499eb2e3327a27e01f9e87e1fd6b14a160bee4718fc945636420ae48e"
+  },
+  "d6_tax_marg": {
+   "ruta": "@@R_BS2@@\\fase2_datos\\d6_tax_shares_v2\\versions\\8cea18486cdc83d6a2d25fd7060670cc229b80de2d61de4477ddb57613779441\\tax_shares_marg.csv",
+   "sha256": "83cb6b5659ec484de356b6d945b37668dd32bbaa401e59d49275af6cb8bdef88"
+  },
+  "d7_manifest": {
+   "ruta": "@@R_BS2@@\\salidas_s6\\d7\\versions\\2a25893b09c097b2af22ed2e5be9a4014851faf55bbaaf380c7a078f1a740591\\d7_manifest.json",
+   "sha256": "9faf63c3ce96ec0e18b7cbf6235bdf21fc6e8bd18ce2ed054e3eb7f7b3a04ff9"
+  },
+  "d7_support_set": {
+   "ruta": "@@R_BS2@@\\salidas_s6\\d7\\versions\\2a25893b09c097b2af22ed2e5be9a4014851faf55bbaaf380c7a078f1a740591\\support_set.csv",
+   "sha256": "91716f572a85dae4e57290efb3dad03ada588d7a6cfe037fd2e1ae5d40bd61c6"
+  },
+  "dictamen_rem167": {
+   "ruta": "@@W_BS2@@\\review_20261108_rem167_dictamen.txt",
+   "sha256": "516e65f9b44032584d8cba712d5ca648eaf28d07d39a583ec7b88afa7ac74cb0"
+  },
+  "grilla": {
+   "ruta": "@@R_BS2@@\\fase5_cuantificacion\\extraccion_grilla\\grilla_efectiva.csv",
+   "sha256": "b94b9eedeea87d08071366e2bd8a5b7cd9662ce6f9fd9d7bee42848d6c4c5f90"
+  },
+  "hallazgos_rem167": {
+   "ruta": "@@W_BS2@@\\review_20261108_rem167_findings.json",
+   "sha256": "005743341131d56daebe20137c3c15c6bd2b6c6384f1f81fedbdac20cc861b6b"
+  },
+  "libro_B1_rem167": {
+   "ruta": "@@W_BS2@@\\review_20261108_rem167_B1_aceptada.json",
+   "sha256": "649457712e6f3d33ca596021e5c4878782558579971c4f60a5048455cb1b4535"
+  },
+  "nacional_instalacion": {
+   "ruta": "@@R_BS2@@\\herramientas\\b\\nacional.py",
+   "sha256": "8b12df28cf317ed2d9f93ce48f1fa236e3c65edbc78c4a1df82490415828422b"
+  },
+  "x162_contexto_col": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_preparacion_precisa_doce_cov_desde_rem162\\soporte\\CONTEXTO_COL_POR_GRUPO.json",
+   "sha256": "5821bb3dae7d4c4dc93e8e956da8984dfeec931587b16b8e7329231c8819d810"
+  },
+  "x162_enumerador": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_preparacion_precisa_doce_cov_desde_rem162\\soporte\\enumerar_contextos_rem162.py",
+   "sha256": "0c57d9a922598a30fc6b09ccec9e21391a27249637cc6dad50cb18969a235c0c"
+  },
+  "x162_inventario": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_preparacion_precisa_doce_cov_desde_rem162\\audit\\entrega.json",
+   "sha256": "0ac16b19b91deda3c302f9c82b3be08a653576af20e998a07230cc0b2b026ab7"
+  },
+  "x162_ligadura": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_preparacion_precisa_doce_cov_desde_rem162\\soporte\\LIGADURA_SOPORTE.md",
+   "sha256": "bc40c57d0e857ff0dc03229a03d1ea65f732b10f232b22e8bad796f0c516ed64"
+  },
+  "x162_manifiesto_preparacion": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_preparacion_precisa_doce_cov_desde_rem162\\fuentes\\MANIFIESTO_PREPARACION.json",
+   "sha256": "a4c4ab04b19b62a3f80b351933e9c6d767229725db7d00912da39dc8bef97089"
+  },
+  "x162_mapa_derivado": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_preparacion_precisa_doce_cov_desde_rem162\\correcciones\\MAPA_SOPORTE_REUTILIZACION.derivado.jsonl",
+   "sha256": "92d5e082aa6d28e113fc16748998146bf999f3dcf07bf2a1184d6f68041eb502"
+  },
+  "x162_preparacion_b1_b2": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_preparacion_precisa_doce_cov_desde_rem162\\preparacion\\PREPARACION_B1_B2.json",
+   "sha256": "cc73465290d490f14a2b896ad89f6e4e42ca24480c182ea25958d4a2db0dd416"
+  },
+  "x162_presupuesto": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_preparacion_precisa_doce_cov_desde_rem162\\preparacion\\PRESUPUESTO_Y_PARADA.md",
+   "sha256": "b3f19d73f22123681035f694ccde6aa74f1040cbf3028693ffd3d3435a8644c1"
+  },
+  "x166_inventario": {
+   "ruta": "@@R_BS2@@\\tmp\\paso4_produccion_b1_doce_cov_desde_rem166\\audit\\entrega.json",
+   "sha256": "af7678fda72eca202a3fa0e369c35279f13cbc2241c84e702aadcbf4267b6f4c"
+  }
+ }
+}

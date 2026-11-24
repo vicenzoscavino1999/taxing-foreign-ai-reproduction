@@ -1,0 +1,1022 @@
+{
+ "T2_G": 0.0001,
+ "agregadas": {
+  "CLM:PREG-COMPARACION-E1:historical_anchor:c:COL:conditional_full:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634105054e-05,
+   "brecha_sup": 5.224057345876165e-05,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "coherente_v4": true,
+   "componentes_convergidas": {
+    "f": "convergida",
+    "inf_d": "convergida",
+    "inf_df": "convergida",
+    "sup_d": "convergida",
+    "sup_df": "convergida"
+   },
+   "convergida": true,
+   "inf_G": [
+    -2.659043273822143,
+    -2.6589535290358017
+   ],
+   "instrumento_inf": "f",
+   "instrumento_sup": "df",
+   "sup_G": [
+    0.6997791941740804,
+    0.6998314347475392
+   ],
+   "universo_igual_a_union": true
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:c:MEX:conditional_full:G:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 8.974478635170868e-05,
+   "brecha_sup": 5.224057345915023e-05,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "coherente_v4": true,
+   "componentes_convergidas": {
+    "f": "convergida",
+    "inf_d": "convergida",
+    "inf_df": "convergida",
+    "sup_d": "convergida",
+    "sup_df": "convergida"
+   },
+   "convergida": true,
+   "inf_G": [
+    -7.56070315994633,
+    -7.560613415159978
+   ],
+   "instrumento_inf": "f",
+   "instrumento_sup": "df",
+   "sup_G": [
+    0.42874904725791524,
+    0.4288012878313744
+   ],
+   "universo_igual_a_union": true
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:c:MEX:conditional_full:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634105054e-05,
+   "brecha_sup": 5.224057345876165e-05,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "coherente_v4": true,
+   "componentes_convergidas": {
+    "f": "convergida",
+    "inf_d": "convergida",
+    "inf_df": "convergida",
+    "sup_d": "convergida",
+    "sup_df": "convergida"
+   },
+   "convergida": true,
+   "inf_G": [
+    -2.375705224142845,
+    -2.375615479356504
+   ],
+   "instrumento_inf": "f",
+   "instrumento_sup": "df",
+   "sup_G": [
+    0.6776171989833801,
+    0.6776694395568389
+   ],
+   "universo_igual_a_union": true
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:c:PER:conditional_full:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478633771987e-05,
+   "brecha_sup": 5.224057345876165e-05,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "coherente_v4": true,
+   "componentes_convergidas": {
+    "f": "convergida",
+    "inf_d": "convergida",
+    "inf_df": "convergida",
+    "sup_d": "convergida",
+    "sup_df": "convergida"
+   },
+   "convergida": true,
+   "inf_G": [
+    -1.395381519191897,
+    -1.3952917744055593
+   ],
+   "instrumento_inf": "f",
+   "instrumento_sup": "df",
+   "sup_G": [
+    0.7306842499559636,
+    0.7307364905294224
+   ],
+   "universo_igual_a_union": true
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:c:PER:conditional_full:G:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 8.974478633660965e-05,
+   "brecha_sup": 5.224057345853961e-05,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "coherente_v4": true,
+   "componentes_convergidas": {
+    "f": "convergida",
+    "inf_d": "convergida",
+    "inf_df": "convergida",
+    "sup_d": "convergida",
+    "sup_df": "convergida"
+   },
+   "convergida": true,
+   "inf_G": [
+    -0.9933516818539208,
+    -0.9932619370675841
+   ],
+   "instrumento_inf": "f",
+   "instrumento_sup": "df",
+   "sup_G": [
+    0.7451721259717285,
+    0.7452243665451871
+   ],
+   "universo_igual_a_union": true
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:g:conditional_full:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 8.974478634105054e-05,
+   "brecha_sup": 5.224057345876165e-05,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "coherente_v4": true,
+   "convergida": true,
+   "inf_G": [
+    -2.659043273822143,
+    -2.6589535290358017
+   ],
+   "paises": [
+    "COL",
+    "MEX",
+    "PER"
+   ],
+   "sup_G": [
+    0.7306842499559636,
+    0.7307364905294224
+   ],
+   "universo_igual_a_union": true
+  }
+ },
+ "calcula_este_proceso": [
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:df:conditional_full:G:sin_addback:macro:buffer_destacado",
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:df:conditional_full:G:addback_completo:macro:guardrail_deuda",
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:df:conditional_full:G:sin_addback:macro:buffer_destacado",
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:df:conditional_full:G:sin_addback:macro:buffer_destacado",
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:df:conditional_full:G:sin_addback:micro:nucleo_contable"
+ ],
+ "ci_df": {
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:df:conditional_full:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 9.978643135877263e-05,
+   "brecha_sup": 5.224057345876165e-05,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "coherente_v4": true,
+   "contextos": 864,
+   "estado_inf": "convergida",
+   "estado_sup": "convergida",
+   "inf_G": [
+    -2.6510433987760234,
+    -2.6509436123446646
+   ],
+   "inf_bb": {
+    "L": -2.6510433987760234,
+    "caja_de_menor_cota": {
+     "a": [
+      2.49931640625,
+      2.5
+     ],
+     "beta_tilde": [
+      0.25,
+      4.0
+     ],
+     "eta_d": [
+      0.1,
+      4.0
+     ],
+     "eta_f": [
+      0.1,
+      1.0875
+     ],
+     "kappa_tilde": [
+      0.005,
+      0.005002252020346024
+     ],
+     "phi": [
+      0.625,
+      0.65625
+     ],
+     "rho": [
+      0.4,
+      0.40058593750000004
+     ],
+     "u_theta": [
+      0.1,
+      0.9
+     ],
+     "z_cost": [
+      1.0,
+      100.0
+     ]
+    },
+    "divisiones": 634,
+    "estado": "convergido",
+    "evaluaciones_cota": 72458,
+    "segundos": 58.5,
+    "tau": [
+     0.0003990524629937714,
+     0.0
+    ],
+    "usos_por_eje": {
+     "a": 270,
+     "eta_f": 32,
+     "kappa_tilde": 102,
+     "phi": 70,
+     "rho": 160
+    },
+    "vivas": 635
+   },
+   "inf_directo_g_enclosure": [
+    -2.65094427429605,
+    -2.650943612344664
+   ],
+   "k_max": 2.6609439480707624,
+   "k_min": 0.11483309028214672,
+   "punto_U_inf": {
+    "a": 2.5,
+    "beta_tilde": 4.0,
+    "eta_d": 4.0,
+    "eta_f": 8.0,
+    "kappa_tilde": 0.005,
+    "phi": 0.990234375,
+    "rho": 0.4,
+    "u_theta": 0.9,
+    "z_cost": 100.0
+   },
+   "sup_G": [
+    0.6997791941740804,
+    0.6998314347475392
+   ],
+   "sup_directo_g_enclosure": [
+    0.6997791941740804,
+    0.6998314347475392
+   ],
+   "testigo_inf": {
+    "contexto": [
+     "G",
+     "df",
+     [
+      0.6,
+      0.6
+     ],
+     0.4363292983116654,
+     0.19061229538509694,
+     -0.5,
+     0.01,
+     0.01161047805708388
+    ],
+    "indice_contexto": 212,
+    "punto": {
+     "a": 2.5,
+     "beta_tilde": 4.0,
+     "eta_d": 4.0,
+     "eta_f": 8.0,
+     "kappa_tilde": 0.005,
+     "phi": 0.990234375,
+     "rho": 0.4,
+     "u_theta": 0.9,
+     "z_cost": 100.0
+    }
+   },
+   "testigo_sup": {
+    "contexto": [
+     "G",
+     "df",
+     [
+      0.6,
+      0.6
+     ],
+     1.0110742494656153,
+     0.06353743179503232,
+     -0.5,
+     0.1,
+     0.01161047805708388
+    ],
+    "indice_contexto": 77,
+    "punto": {
+     "a": 1.1,
+     "beta_tilde": 0.25,
+     "eta_d": 0.10002975463867188,
+     "eta_f": 0.10012054443359375,
+     "kappa_tilde": 0.2,
+     "phi": 0.8755340576171875,
+     "rho": 1.0,
+     "u_theta": 0.5,
+     "z_cost": 1.0
+    }
+   }
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:df:conditional_full:G:addback_completo:macro:guardrail_deuda": {
+   "brecha_inf": 9.992760668531275e-05,
+   "brecha_sup": 5.224057345915023e-05,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "coherente_v4": true,
+   "contextos": 864,
+   "estado_inf": "convergida",
+   "estado_sup": "convergida",
+   "inf_G": [
+    -7.539573850465857,
+    -7.539473922859171
+   ],
+   "inf_bb": {
+    "L": -7.539573850465857,
+    "caja_de_menor_cota": {
+     "a": [
+      2.10625,
+      2.1076171875000003
+     ],
+     "beta_tilde": [
+      0.25,
+      4.0
+     ],
+     "eta_d": [
+      0.1,
+      4.0
+     ],
+     "eta_f": [
+      6.025,
+      8.0
+     ],
+     "kappa_tilde": [
+      0.005004505055011175,
+      0.00500901416912648
+     ],
+     "phi": [
+      0.75,
+      1.0
+     ],
+     "rho": [
+      0.4,
+      0.40234375
+     ],
+     "u_theta": [
+      0.1,
+      0.9
+     ],
+     "z_cost": [
+      1.0,
+      100.0
+     ]
+    },
+    "divisiones": 860,
+    "estado": "convergido",
+    "evaluaciones_cota": 98222,
+    "segundos": 98.7,
+    "tau": [
+     0.0018435457737736797,
+     0.11883508992870272
+    ],
+    "usos_por_eje": {
+     "a": 304,
+     "eta_f": 124,
+     "kappa_tilde": 229,
+     "phi": 70,
+     "rho": 133
+    },
+    "vivas": 861
+   },
+   "inf_directo_g_enclosure": [
+    -7.539475960031174,
+    -7.5394739228591705
+   ],
+   "k_max": 7.566107522462369,
+   "k_min": 0.4536207739273528,
+   "punto_U_inf": {
+    "a": 2.13,
+    "beta_tilde": 4.0,
+    "eta_d": 4.0,
+    "eta_f": 8.0,
+    "kappa_tilde": 0.005,
+    "phi": 0.99023,
+    "rho": 0.4,
+    "u_theta": 0.9,
+    "z_cost": 100.0
+   },
+   "sup_G": [
+    0.42874904725791524,
+    0.4288012878313744
+   ],
+   "sup_directo_g_enclosure": [
+    0.4287490472579152,
+    0.4288012878313745
+   ],
+   "testigo_inf": {
+    "contexto": [
+     "G",
+     "df",
+     [
+      0.6,
+      0.6
+     ],
+     0.6136567159191849,
+     0.10074014648175648,
+     -0.5,
+     0.01,
+     0.04642992694525696
+    ],
+    "indice_contexto": 215,
+    "punto": {
+     "a": 2.13,
+     "beta_tilde": 4.0,
+     "eta_d": 4.0,
+     "eta_f": 8.0,
+     "kappa_tilde": 0.005,
+     "phi": 0.99023,
+     "rho": 0.4,
+     "u_theta": 0.9,
+     "z_cost": 100.0
+    }
+   },
+   "testigo_sup": {
+    "contexto": [
+     "G",
+     "df",
+     [
+      0.6,
+      0.6
+     ],
+     1.0235405786925595,
+     0.033580048827252164,
+     -0.5,
+     0.1,
+     0.04642992694525696
+    ],
+    "indice_contexto": 80,
+    "punto": {
+     "a": 1.1,
+     "beta_tilde": 0.25,
+     "eta_d": 0.10002975463867188,
+     "eta_f": 0.10012054443359375,
+     "kappa_tilde": 0.2,
+     "phi": 0.8755340576171875,
+     "rho": 1.0,
+     "u_theta": 0.5,
+     "z_cost": 1.0
+    }
+   }
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:df:conditional_full:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 9.965453361493459e-05,
+   "brecha_sup": 5.224057345876165e-05,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "coherente_v4": true,
+   "contextos": 864,
+   "estado_inf": "convergida",
+   "estado_sup": "convergida",
+   "inf_G": [
+    -2.3685153331380224,
+    -2.3684156786044075
+   ],
+   "inf_bb": {
+    "L": -2.3685153331380224,
+    "caja_de_menor_cota": {
+     "a": [
+      2.49931640625,
+      2.5
+     ],
+     "beta_tilde": [
+      0.25,
+      4.0
+     ],
+     "eta_d": [
+      0.1,
+      4.0
+     ],
+     "eta_f": [
+      0.1,
+      1.0875
+     ],
+     "kappa_tilde": [
+      0.005,
+      0.005002252020346024
+     ],
+     "phi": [
+      0.625,
+      0.65625
+     ],
+     "rho": [
+      0.4,
+      0.40058593750000004
+     ],
+     "u_theta": [
+      0.1,
+      0.9
+     ],
+     "z_cost": [
+      1.0,
+      100.0
+     ]
+    },
+    "divisiones": 639,
+    "estado": "convergido",
+    "evaluaciones_cota": 73028,
+    "segundos": 58.6,
+    "tau": [
+     0.0003990524629937714,
+     0.0
+    ],
+    "usos_por_eje": {
+     "a": 259,
+     "eta_f": 32,
+     "kappa_tilde": 126,
+     "phi": 68,
+     "rho": 154
+    },
+    "vivas": 640
+   },
+   "inf_directo_g_enclosure": [
+    -2.368416340555792,
+    -2.368415678604407
+   ],
+   "k_max": 2.377403369406705,
+   "k_min": 0.14253558427052201,
+   "punto_U_inf": {
+    "a": 2.5,
+    "beta_tilde": 4.0,
+    "eta_d": 4.0,
+    "eta_f": 8.0,
+    "kappa_tilde": 0.005,
+    "phi": 0.990234375,
+    "rho": 0.4,
+    "u_theta": 0.9,
+    "z_cost": 100.0
+   },
+   "sup_G": [
+    0.6776171989833801,
+    0.6776694395568389
+   ],
+   "sup_directo_g_enclosure": [
+    0.6776171989833801,
+    0.6776694395568389
+   ],
+   "testigo_inf": {
+    "contexto": [
+     "G",
+     "df",
+     [
+      0.6,
+      0.6
+     ],
+     0.6136567159191849,
+     0.10074014648175648,
+     -0.5,
+     0.01,
+     0.014589095440853227
+    ],
+    "indice_contexto": 215,
+    "punto": {
+     "a": 2.5,
+     "beta_tilde": 4.0,
+     "eta_d": 4.0,
+     "eta_f": 8.0,
+     "kappa_tilde": 0.005,
+     "phi": 0.990234375,
+     "rho": 0.4,
+     "u_theta": 0.9,
+     "z_cost": 100.0
+    }
+   },
+   "testigo_sup": {
+    "contexto": [
+     "G",
+     "df",
+     [
+      0.6,
+      0.6
+     ],
+     1.0235405786925595,
+     0.033580048827252164,
+     -0.5,
+     0.1,
+     0.014589095440853227
+    ],
+    "indice_contexto": 80,
+    "punto": {
+     "a": 1.1,
+     "beta_tilde": 0.25,
+     "eta_d": 0.10002975463867188,
+     "eta_f": 0.10012054443359375,
+     "kappa_tilde": 0.2,
+     "phi": 0.8755340576171875,
+     "rho": 1.0,
+     "u_theta": 0.5,
+     "z_cost": 1.0
+    }
+   }
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:df:conditional_full:G:sin_addback:macro:buffer_destacado": {
+   "brecha_inf": 9.98481718834654e-05,
+   "brecha_sup": 5.224057345876165e-05,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "coherente_v4": true,
+   "contextos": 864,
+   "estado_inf": "convergida",
+   "estado_sup": "convergida",
+   "inf_G": [
+    -1.390994748787321,
+    -1.3908949006154376
+   ],
+   "inf_bb": {
+    "L": -1.390994748787321,
+    "caja_de_menor_cota": {
+     "a": [
+      2.4986328125,
+      2.5
+     ],
+     "beta_tilde": [
+      0.25,
+      4.0
+     ],
+     "eta_d": [
+      0.1,
+      4.0
+     ],
+     "eta_f": [
+      0.1,
+      1.0875
+     ],
+     "kappa_tilde": [
+      0.005,
+      0.005004505055011175
+     ],
+     "phi": [
+      0.625,
+      0.6875
+     ],
+     "rho": [
+      0.4,
+      0.40234375
+     ],
+     "u_theta": [
+      0.1,
+      0.9
+     ],
+     "z_cost": [
+      1.0,
+      100.0
+     ]
+    },
+    "divisiones": 345,
+    "estado": "convergido",
+    "evaluaciones_cota": 39512,
+    "segundos": 31.6,
+    "tau": [
+     0.0003990524629937714,
+     0.0
+    ],
+    "usos_por_eje": {
+     "a": 158,
+     "eta_f": 32,
+     "kappa_tilde": 83,
+     "phi": 18,
+     "rho": 54
+    },
+    "vivas": 346
+   },
+   "inf_directo_g_enclosure": [
+    -1.39089556256682,
+    -1.390894900615437
+   ],
+   "k_max": 1.3963789327152643,
+   "k_min": 0.07620177055479276,
+   "punto_U_inf": {
+    "a": 2.5,
+    "beta_tilde": 4.0,
+    "eta_d": 4.0,
+    "eta_f": 8.0,
+    "kappa_tilde": 0.005,
+    "phi": 0.990234375,
+    "rho": 0.4,
+    "u_theta": 0.9,
+    "z_cost": 100.0
+   },
+   "sup_G": [
+    0.7306842499559636,
+    0.7307364905294224
+   ],
+   "sup_directo_g_enclosure": [
+    0.7306842499559636,
+    0.7307364905294224
+   ],
+   "testigo_inf": {
+    "contexto": [
+     "G",
+     "df",
+     [
+      0.6,
+      0.6
+     ],
+     0.5579158174412138,
+     0.12384310356683366,
+     -0.5,
+     0.01,
+     0.0077906189370352584
+    ],
+    "indice_contexto": 207,
+    "punto": {
+     "a": 2.5,
+     "beta_tilde": 4.0,
+     "eta_d": 4.0,
+     "eta_f": 8.0,
+     "kappa_tilde": 0.005,
+     "phi": 0.990234375,
+     "rho": 0.4,
+     "u_theta": 0.9,
+     "z_cost": 100.0
+    }
+   },
+   "testigo_sup": {
+    "contexto": [
+     "G",
+     "df",
+     [
+      0.6,
+      0.6
+     ],
+     1.0223671812761126,
+     0.04128103452227789,
+     -0.5,
+     0.1,
+     0.0077906189370352584
+    ],
+    "indice_contexto": 72,
+    "punto": {
+     "a": 1.1,
+     "beta_tilde": 0.25,
+     "eta_d": 0.10002975463867188,
+     "eta_f": 0.10012054443359375,
+     "kappa_tilde": 0.2,
+     "phi": 0.8755340576171875,
+     "rho": 1.0,
+     "u_theta": 0.5,
+     "z_cost": 1.0
+    }
+   }
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:df:conditional_full:G:sin_addback:micro:nucleo_contable": {
+   "brecha_inf": 9.947374916818852e-05,
+   "brecha_sup": 5.224057345853961e-05,
+   "categoria_v4": "cambio_de_signo_certificado",
+   "coherente_v4": true,
+   "contextos": 864,
+   "estado_inf": "convergida",
+   "estado_sup": "convergida",
+   "inf_G": [
+    -0.9901140147602632,
+    -0.990014541011095
+   ],
+   "inf_bb": {
+    "L": -0.9901140147602632,
+    "caja_de_menor_cota": {
+     "a": [
+      2.4986328125,
+      2.5
+     ],
+     "beta_tilde": [
+      0.25,
+      4.0
+     ],
+     "eta_d": [
+      0.1,
+      4.0
+     ],
+     "eta_f": [
+      0.1,
+      1.0875
+     ],
+     "kappa_tilde": [
+      0.005,
+      0.005004505055011175
+     ],
+     "phi": [
+      0.625,
+      0.6875
+     ],
+     "rho": [
+      0.4,
+      0.40234375
+     ],
+     "u_theta": [
+      0.1,
+      0.9
+     ],
+     "z_cost": [
+      1.0,
+      100.0
+     ]
+    },
+    "divisiones": 365,
+    "estado": "convergido",
+    "evaluaciones_cota": 41792,
+    "segundos": 31.7,
+    "tau": [
+     0.0003990524629937714,
+     0.0
+    ],
+    "usos_por_eje": {
+     "a": 146,
+     "eta_f": 32,
+     "kappa_tilde": 115,
+     "phi": 18,
+     "rho": 54
+    },
+    "vivas": 366
+   },
+   "inf_directo_g_enclosure": [
+    -0.9900152029624764,
+    -0.9900145410110948
+   ],
+   "k_max": 0.9940617259438802,
+   "k_min": 0.05809192553508671,
+   "punto_U_inf": {
+    "a": 2.5,
+    "beta_tilde": 4.0,
+    "eta_d": 4.0,
+    "eta_f": 8.0,
+    "kappa_tilde": 0.005,
+    "phi": 0.990234375,
+    "rho": 0.4,
+    "u_theta": 0.9,
+    "z_cost": 100.0
+   },
+   "sup_G": [
+    0.7451721259717285,
+    0.7452243665451871
+   ],
+   "sup_directo_g_enclosure": [
+    0.7451721259717285,
+    0.7452243665451872
+   ],
+   "testigo_inf": {
+    "contexto": [
+     "G",
+     "df",
+     [
+      0.6,
+      0.6
+     ],
+     0.7276443929035885,
+     0.12384310356683366,
+     0.5,
+     0.01,
+     0.007233234410831278
+    ],
+    "indice_contexto": 783,
+    "punto": {
+     "a": 2.5,
+     "beta_tilde": 4.0,
+     "eta_d": 4.0,
+     "eta_f": 8.0,
+     "kappa_tilde": 0.005,
+     "phi": 0.990234375,
+     "rho": 0.4,
+     "u_theta": 0.9,
+     "z_cost": 100.0
+    }
+   },
+   "testigo_sup": {
+    "contexto": [
+     "G",
+     "df",
+     [
+      0.6,
+      0.6
+     ],
+     1.2451359365704795,
+     0.04128103452227789,
+     -0.5,
+     0.1,
+     0.007233234410831278
+    ],
+    "indice_contexto": 72,
+    "punto": {
+     "a": 1.1,
+     "beta_tilde": 0.25,
+     "eta_d": 0.10002975463867188,
+     "eta_f": 0.10012054443359375,
+     "kappa_tilde": 0.2,
+     "phi": 0.8755340576171875,
+     "rho": 1.0,
+     "u_theta": 0.5,
+     "z_cost": 1.0
+    }
+   }
+  }
+ },
+ "diseno": "G",
+ "etiqueta": "CIERRE G DF 3.7 NO OFICIAL",
+ "familias_instrumentos": {
+  "ci|df|usa_df": 320,
+  "ci|d|no_usa_df": 320,
+  "ci|f|no_usa_df": 320,
+  "c|conditional_full|usa_df": 320,
+  "c|conditional_none|no_usa_df": 320,
+  "g|conditional_full|usa_df": 64,
+  "g|conditional_none|no_usa_df": 64
+ },
+ "identidad_sha256": "5585279be7dbef81759c5678d91045f8f24ad6798bc279febeb8e298a9fd4f70",
+ "no_exportable": true,
+ "objeto": "propagación a extremos de G de ci-df, country y global (cf)",
+ "puntos_U": {
+  "fuentes": [
+   {
+    "archivo": "demo/hito2/previa_certificar_U_G_instantanea.json",
+    "sha256": "c9e6bc35f69cccf164484f2821329c755af51d045a5542c4563e4605a93eb3cd"
+   },
+   {
+    "archivo": "demo/hito2/previa_puntos_U_G.json",
+    "sha256": "a74204d7ca41c3177adcb48b68837a87dd94f6f37c91782aeb3508368076d938"
+   },
+   {
+    "archivo": "demo/hito2/puntos_U_G_a21.json",
+    "sha256": "b41cfc9b10f249bd91c3ba64378fd293ef20e333c734b26fe8ba20ab61a9aff5"
+   }
+  ],
+  "n": 13
+ },
+ "regla": "SEL-PROPAGACION-DF-v1",
+ "resumen": {
+  "agregadas": 6,
+  "agregadas_convergidas": 6,
+  "ci_df": 5,
+  "ci_df_inf_convergidas": 5,
+  "ci_df_sup_convergidas": 5,
+  "coherentes_v4": true,
+  "universos_iguales": true
+ },
+ "segundos": 377.3,
+ "seleccion": {
+  "ci_df": [
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:df:conditional_full:G:sin_addback:macro:buffer_destacado",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:df:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:df:conditional_full:G:sin_addback:macro:buffer_destacado",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:df:conditional_full:G:sin_addback:macro:buffer_destacado",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:df:conditional_full:G:sin_addback:micro:nucleo_contable"
+  ],
+  "country": [
+   "CLM:PREG-COMPARACION-E1:historical_anchor:c:COL:conditional_full:G:sin_addback:macro:buffer_destacado",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:c:MEX:conditional_full:G:sin_addback:macro:buffer_destacado",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:c:PER:conditional_full:G:sin_addback:macro:buffer_destacado",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:c:MEX:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:c:PER:conditional_full:G:sin_addback:micro:nucleo_contable"
+  ],
+  "dificiles": {
+   "k_max_mayor": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:df:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "k_min_menor": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:PER:df:conditional_full:G:sin_addback:micro:nucleo_contable"
+  },
+  "escrita_utc": "2026-10-06T13:21:17Z",
+  "g": "CLM:PREG-COMPARACION-E1:historical_anchor:g:conditional_full:G:sin_addback:macro:buffer_destacado"
+ },
+ "sup_C2": {
+  "L": 0.791645666399798,
+  "U": 0.7916979069732564,
+  "conjunta_igual_individual": true,
+  "p_mas": {
+   "a": 1.1,
+   "beta_tilde": 0.25,
+   "eta_d": 0.10002975463867188,
+   "eta_f": 0.10012054443359375,
+   "kappa_tilde": 0.2,
+   "phi": 0.8755340576171875,
+   "rho": 1.0,
+   "u_theta": 0.5,
+   "z_cost": 1.0
+  },
+  "s_max": 0.20000000000000015,
+  "s_p_mas": [
+   0.19999999999999987,
+   0.20000000000000018
+  ]
+ },
+ "universos": {
+  "CLM:PREG-COMPARACION-E1:historical_anchor:c:COL:conditional_full:G:sin_addback:macro:buffer_destacado": {
+   "contextos": 2592,
+   "iguales": true,
+   "union_de_ci": 2592
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:c:MEX:conditional_full:G:addback_completo:macro:guardrail_deuda": {
+   "contextos": 2592,
+   "iguales": true,
+   "union_de_ci": 2592
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:c:MEX:conditional_full:G:sin_addback:macro:buffer_destacado": {
+   "contextos": 2592,
+   "iguales": true,
+   "union_de_ci": 2592
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:c:PER:conditional_full:G:sin_addback:macro:buffer_destacado": {
+   "contextos": 2592,
+   "iguales": true,
+   "union_de_ci": 2592
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:c:PER:conditional_full:G:sin_addback:micro:nucleo_contable": {
+   "contextos": 2592,
+   "iguales": true,
+   "union_de_ci": 2592
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:g:conditional_full:G:sin_addback:macro:buffer_destacado": {
+   "contextos": 7776,
+   "iguales": true,
+   "union_de_ci": 7776
+  }
+ }
+}

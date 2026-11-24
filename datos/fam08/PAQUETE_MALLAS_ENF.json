@@ -1,0 +1,77 @@
+{
+ "kind": "paquete-mallas-abl-enf-rem126",
+ "estado": "CANDIDATO_NO_EMITIDO",
+ "piezas_nuevas": {
+  "CENSO_MALLAS_ENF.json": {
+   "sha256": "ed4f9b7243c664235f0fe12274e9cac128e36e10590705e1c3fdb7c5a96f5d16",
+   "bytes": 59631
+  },
+  "COBERTURA_MALLAS_ENF.json": {
+   "sha256": "a39438a13a2b4f479f60e73eb3ac4b1ae45e1482d9d00be8c18e8817132c899c",
+   "bytes": 305
+  },
+  "conciliar_mallas_enf.py": {
+   "sha256": "82d1a20beb01dd239bbe08f49174912c4810f209ea439fd1e1ee40c5e841fda7",
+   "bytes": 14998
+  },
+  "MANIFIESTO_MALLAS_ENF.json": {
+   "sha256": "8ae8f1ca1d23bcb6fb5e9ac3eff3cbc7b2495f9fb2d40b22f583157ecd67e224",
+   "bytes": 88736
+  },
+  "preparar_mallas_enf.py": {
+   "sha256": "f4514cf1f24dc41259e36f1d0751c5f9c31fad50b27070fee86d5a2f05de80d6",
+   "bytes": 11372
+  },
+  "receta_enf_completo.sh": {
+   "sha256": "751bbcffaa30a669cc097af90b21baa7b224145ad95936c9906d83ee0b004e25",
+   "bytes": 3210
+  }
+ },
+ "reutilizadas_sin_cambios": {
+  "paquete_mallas_rem119": {
+   "ruta": "tmp/paso4_suplemento_topologia_desde_rem119/lote2",
+   "indice_sha256": "265c29f43ac4ad9c16dfe70da7c830cd027e0bab6bd9dffa561536b114981f32",
+   "piezas": {
+    "conducir_lote.py": {
+     "sha256": "26e293e7231fff1e7099ce8384adaa3fabbca7e82296598af625aaac1a6a63b4",
+     "igual_al_indice": true
+    },
+    "tarea_lote.py": {
+     "sha256": "dca9d79b2d7c89bdd09e4e99293a158cb7fdc4cf8951df51561c68b019386456",
+     "igual_al_indice": true
+    },
+    "conexion_frontera.py": {
+     "sha256": "4fb1915d7cf7ca39bf9385f975665a75b32717558096870d7d9213d151be2527",
+     "igual_al_indice": true
+    },
+    "conexion_lambda.py": {
+     "sha256": "9dbdc7322e303f11f4b33897dd11de3e7ce8327636637e75bc246222391138b3",
+     "igual_al_indice": true
+    },
+    "validar_lote.py": {
+     "sha256": "d95e2beb0c0f67a96984d4346fe1c77e5b44539eb97769ba3f09ecbb67ea4f19",
+     "igual_al_indice": true
+    },
+    "emitir_alcance_lote.py": {
+     "sha256": "96d4c6fa293446831c687ff5033c97e53cd2e7c0851fa9bb6229e478f4edda71",
+     "igual_al_indice": true
+    },
+    "referencia_decision.py": {
+     "sha256": "039f6f6b490c81bd553f1a5c07fec848f15a8cdf0f6c70e6782511140abe7446",
+     "igual_al_indice": true
+    }
+   }
+  },
+  "paquete_techos_lote_enf_rem125": {
+   "ruta": "tmp/paso4_enforcement_desde_rem125/lote_enf",
+   "indice_sha256": "039c85beb88e5912867ef8ebadcf47995cc8f9a99a5fd92e20bc072a7abda57c",
+   "todas_iguales_al_indice": true,
+   "piezas": 19
+  }
+ },
+ "codigo_de_ejecucion_nuevo": "ninguno: las mallas usan el trabajador, la conexión de frontera, el validador ELAST, el conductor y el emisor rem119 aceptados; los techos, el paquete lote_enf rem125; nuevo solo el preparador, la conciliación de pares y la receta integrada",
+ "alcances_necesarios": [
+  "mallas: alcance v3 del paquete rem119 con MANIFIESTO_MALLAS_ENF.json, tarea L1-ELAST, anexo COBERTURA_MALLAS_ENF.json",
+  "techos: alcance v3 de lote_enf con MANIFIESTO_ABL_ENF.json, tareas ABL-ENF-T1…T6"
+ ]
+}

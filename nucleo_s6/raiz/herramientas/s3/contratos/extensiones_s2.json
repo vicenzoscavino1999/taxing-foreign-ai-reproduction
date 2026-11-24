@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "status": "candidate_unapproved",
+  "policy_fields": [
+    "active_plans",
+    "approval",
+    "compatibility_id",
+    "contract_sha256",
+    "created_at",
+    "files",
+    "freeze_mode",
+    "mex_authority",
+    "s1_manifest_sha256",
+    "s1_package_sha256",
+    "schema_version",
+    "scope",
+    "status",
+    "toolchain_sha256",
+    "v49_sha256"
+  ],
+  "policy_constants": {
+    "compatibility_id": "S2_INTEGRATED_PLANS_AND_SCOPED_V2_V1",
+    "freeze_mode": "successor_freeze_integrated_plans_S2_v1",
+    "scope": {
+      "countries": [
+        "CHL",
+        "COL",
+        "MEX",
+        "PER"
+      ],
+      "D2_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "D6_years": [
+        2023
+      ],
+      "quantitative_eligibility_authorized": false,
+      "source_admission_authorized": false,
+      "scientific_execution_authorized": false
+    },
+    "active_plans": [
+      "candidatos/PLAN_BASE_DE_DATOS_INTEGRADO_BORRADOR.md",
+      "candidatos/PLAN_DISENO_INTEGRADO_BORRADOR.md",
+      "candidatos/PLAN_REPRODUCCION_INTEGRADO_BORRADOR.md"
+    ]
+  },
+  "approval_fields": [
+    "status",
+    "author",
+    "approved_at",
+    "policy_sha256",
+    "s1_package_sha256",
+    "contract_sha256",
+    "scope"
+  ],
+  "macro_ca2_v1_fields": [
+    "kind",
+    "bundle_sha256",
+    "case_id",
+    "scenario",
+    "country_id",
+    "anchor_year",
+    "d2_vector_sha256",
+    "d6_vector_sha256",
+    "context_sha256",
+    "common_values_sha256",
+    "eta_w_block",
+    "protocol_sha256",
+    "technical"
+  ],
+  "literal_numbers": "finite exact decimal strings; bool and binary floats rejected",
+  "precision_domain": "pair of rational endpoints; null means unknown",
+  "legacy_catalog_unchanged_sha256": "6b0f5a3ba547ea340398e11d6b2f98686057b6d83ee46ac970bc4269c9c02e75",
+  "legacy_formulas_sha256": "db828d3c00b2fe09377489007b7a2097288b11ddce5c3630a9ea7174e2ca3ddd",
+  "legacy_keys_sha256": "23ad92b87b59a1cbec0d913d5b7fddbab4541b4847ce977c3baf7bfa0c58663b",
+  "macro_ca2_v2_fields": [
+    "kind",
+    "bundle_sha256",
+    "case_id",
+    "scenario",
+    "preregistration_id",
+    "case_type",
+    "country_set",
+    "country_id",
+    "anchor_year",
+    "d2_vector_sha256",
+    "d6_vector_sha256",
+    "context_sha256",
+    "common_values_sha256",
+    "eta_w_block",
+    "protocol_sha256",
+    "technical"
+  ]
+}

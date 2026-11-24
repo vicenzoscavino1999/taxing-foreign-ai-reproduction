@@ -1,0 +1,820 @@
+{
+ "descripcion": "Relación de piezas de FAM08 (ENF: 29 mallas y 26 pares padre/ENF, techos ABL-ENF T1–T6 con el caso no alcanzado, integración de 26 claves y 1.724 celdas) y su origen (tmp: = carpeta de entregas históricas del proyecto). Las ubicaciones de origen solo sirven para localizar; ninguna se usa al ejecutar. Copias exactas salvo cinco PROYECCIONES saneadas (certificado y censo, entradas; conciliación de mallas, ensamblado integral y conciliación integral, referencias) que restituyen el original. Código en nucleo_s6/enf, entradas en datos/fam08 (salidas guardadas en datos/fam08/guardadas), referencias en referencias/fam08. El núcleo C0, el código del lote 2 y las fuentes de las mallas padre son los de FAM04–FAM06.",
+ "herramienta": {
+  "archivo": "extraccion/extraer_fam08.py",
+  "sha256": "a59348f5f064c9e4b9e51d84a034fa37f18322b15772cbaa6bc785a7f0a2c56c"
+ },
+ "archivos": [
+  {
+   "archivo": "nucleo_s6/enf/mallas/conciliar_mallas_enf.py",
+   "origen": "tmp/paso4_mallas_enforcement_desde_rem126/mallas_enf/conciliar_mallas_enf.py (fijado por PAQUETE_MALLAS_ENF.json)",
+   "sha256": "82d1a20beb01dd239bbe08f49174912c4810f209ea439fd1e1ee40c5e841fda7",
+   "papel": "código F08-PARES: conciliador de los 26 pares padre/ENF (rem126) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/enf/techos/tarea_lote.py",
+   "origen": "tmp/paso4_enforcement_desde_rem125/lote_enf/tarea_lote.py (fijado por PAQUETE_ABL_ENF.json)",
+   "sha256": "1fbe5cbc0525428788ac775f1a2e8c5e55b03079cb37a195b5ad997ed7bc0b40",
+   "papel": "código F08-TECHOS: trabajador ABL-ENF (techos certificados y comparaciones) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/enf/techos/conexion_coord_cert.py",
+   "origen": "tmp/paso4_enforcement_desde_rem125/lote_enf/conexion_coord_cert.py (fijado por PAQUETE_ABL_ENF.json; = objeto del catálogo)",
+   "sha256": "e5776de970b72535ec7b72340604abfd9e8448479ea78dac4b714d870d273d61",
+   "papel": "código F08-TECHOS: conexión certificada (model.capture_ceiling de RUN.provider_for) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/enf/techos/validar_lote.py",
+   "origen": "tmp/paso4_enforcement_desde_rem125/lote_enf/validar_lote.py (fijado por PAQUETE_ABL_ENF.json; = objeto del catálogo)",
+   "sha256": "070ae81d15119735369b08bf083e9ff3b7652ca99a2956547b9f290db4022ee4",
+   "papel": "código F08-TECHOS: validador de tarea ABL-ENF (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/enf/techos/validar_coord_rec.py",
+   "origen": "tmp/paso4_enforcement_desde_rem125/lote_enf/validar_coord_rec.py (fijado por PAQUETE_ABL_ENF.json)",
+   "sha256": "086ea05688d9eb520982cc3e57a01eb5b45b37f3bb9b77503f3c0a2822ed0864",
+   "papel": "código F08-TECHOS/INTEGRAL: validación común ABL-ENF (techos, tarea, ensamblado) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/enf/integracion/validar_integracion.py",
+   "origen": "tmp/paso4_correcciones_integracion_enf_desde_rem130/lote_integracion_enf/validar_integracion.py (fijado por PAQUETE_INTEGRACION_ENF.json)",
+   "sha256": "107435df1c35fab654a665a256997dc0d52b22b6138c05d6667ead7398ddd494",
+   "papel": "código F08-INTEGRAL: ruta única de validación de la integración (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/enf/integracion/recuperar_t1.py",
+   "origen": "tmp/paso4_correcciones_integracion_enf_desde_rem130/lote_integracion_enf/recuperar_t1.py (fijado por PAQUETE_INTEGRACION_ENF.json)",
+   "sha256": "1a5108b2ed4ff78d5da200b50ccb733f35fdef30626928f14817cfe9af6e15b2",
+   "papel": "código F08-TECHOS: recuperación granular de T1 (rem130; deriva del objeto del catálogo 33f94a1e…) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/enf/integracion/certificado_salto.py",
+   "origen": "tmp/paso4_correcciones_integracion_enf_desde_rem130/lote_integracion_enf/certificado_salto.py (fijado por PAQUETE_INTEGRACION_ENF.json; = objeto del catálogo)",
+   "sha256": "a9b4e6ad712845e2452e40c727d31818927c2f5fe5a42c0feb9ade278ab43837",
+   "papel": "código F08-TECHOS: certificador de no alcance del supremo (I2) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/enf/integracion/ensamblar_integracion.py",
+   "origen": "tmp/paso4_correcciones_integracion_enf_desde_rem130/lote_integracion_enf/ensamblar_integracion.py (fijado por PAQUETE_INTEGRACION_ENF.json)",
+   "sha256": "7f04fafe4110bc22407c0016799b81832a78baa0aa736f60cea80b20e4a95522",
+   "papel": "código F08-INTEGRAL: ensamblado integral (1.724 celdas) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/enf/integracion/conciliar_integracion.py",
+   "origen": "tmp/paso4_correcciones_integracion_enf_desde_rem130/lote_integracion_enf/conciliar_integracion.py (fijado por PAQUETE_INTEGRACION_ENF.json)",
+   "sha256": "e97edc15bb4e458e5c4cb2f9aa38d2c5fe55fb3d07c2259ea9cb4d0f6cdc221a",
+   "papel": "código F08-INTEGRAL: conciliación integral (pares, techos y brechas) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/enf/integracion/pruebas_certificado.py",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/diagnostico/pruebas_certificado.py (fijado por nombrada por DECLARACION_PRUEBAS_DIAGNOSTICAS.json (rem128; sin huella); su salida aceptada fija el certificador a9b4e6ad…)",
+   "sha256": "194ec1c74c89f4754d2d25919f0f531c2428ae32307e68d474a8a2c998ffc9bc",
+   "papel": "código F08-TECHOS: comprobación aritmética existente del certificador (7 contrastes S1–S7) (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam08/MANIFIESTO_MALLAS_ENF.json",
+   "origen": "tmp/paso4_mallas_enforcement_desde_rem126/mallas_enf/MANIFIESTO_MALLAS_ENF.json (fijado por catálogo + manifiesto integral; = objeto del catálogo)",
+   "sha256": "8ae8f1ca1d23bcb6fb5e9ac3eff3cbc7b2495f9fb2d40b22f583157ecd67e224",
+   "papel": "entrada: manifiesto de las 29 mallas (26 ENF + 3 padres C0; 365 nodos) y de los 26 pares"
+  },
+  {
+   "archivo": "datos/fam08/COBERTURA_MALLAS_ENF.json",
+   "origen": "tmp/paso4_mallas_enforcement_desde_rem126/mallas_enf/COBERTURA_MALLAS_ENF.json (fijado por manifiesto integral)",
+   "sha256": "a39438a13a2b4f479f60e73eb3ac4b1ae45e1482d9d00be8c18e8817132c899c",
+   "papel": "entrada: anexo ligado al manifiesto de mallas (sin conjuntos λπ)"
+  },
+  {
+   "archivo": "datos/fam08/PAQUETE_MALLAS_ENF.json",
+   "origen": "tmp/paso4_mallas_enforcement_desde_rem126/mallas_enf/PAQUETE_MALLAS_ENF.json (fijado por índice integral (externas))",
+   "sha256": "c0bfe525f58825d7926b6ef9208ab77407170a0edaf9e0fb7aa43aac0d19b0ad",
+   "papel": "documento: índice del paquete de mallas ENF (fija conciliar_mallas_enf.py y el código del lote 2)"
+  },
+  {
+   "archivo": "datos/fam08/MANIFIESTO_ABL_ENF.json",
+   "origen": "tmp/paso4_enforcement_desde_rem125/lote_enf/MANIFIESTO_ABL_ENF.json (fijado por catálogo + índice ABL-ENF; = objeto del catálogo)",
+   "sha256": "0b27b32abdfb4eaf0db11427a8a8bb93c7d4014c6c7acd1bdbfbe6e32d28b3ad",
+   "papel": "entrada: manifiesto de techos ABL-ENF (26 claves, partición T1–T6, 1.724 celdas, motor y presupuestos)"
+  },
+  {
+   "archivo": "datos/fam08/COBERTURA_ABL_ENF.json",
+   "origen": "tmp/paso4_enforcement_desde_rem125/lote_enf/COBERTURA_ABL_ENF.json (fijado por índice ABL-ENF)",
+   "sha256": "b7b2616c4f89f15d5469ad460e71697af910a6a0c2a2a60390b6a0fe367772d9",
+   "papel": "entrada: anexo ligado al manifiesto de techos (lo exige validar_lote.py)"
+  },
+  {
+   "archivo": "datos/fam08/PAQUETE_ABL_ENF.json",
+   "origen": "tmp/paso4_enforcement_desde_rem125/lote_enf/PAQUETE_ABL_ENF.json (fijado por manifiesto e índice integrales)",
+   "sha256": "039c85beb88e5912867ef8ebadcf47995cc8f9a99a5fd92e20bc072a7abda57c",
+   "papel": "documento: índice del paquete lote_enf (fija trabajador, conexión, validadores, manifiesto y censo)"
+  },
+  {
+   "archivo": "datos/fam08/MANIFIESTO_INTEGRACION_ENF.json",
+   "origen": "tmp/paso4_correcciones_integracion_enf_desde_rem130/lote_integracion_enf/MANIFIESTO_INTEGRACION_ENF.json (fijado por catálogo; = objeto del catálogo)",
+   "sha256": "b752249a446ce4f16a4c4d80e6608811787b9b99d0c6fd6aef6480a6ace10b85",
+   "papel": "entrada: manifiesto de la integración (fuentes, pines, resolución y universo)"
+  },
+  {
+   "archivo": "datos/fam08/PAQUETE_INTEGRACION_ENF.json",
+   "origen": "tmp/paso4_correcciones_integracion_enf_desde_rem130/lote_integracion_enf/PAQUETE_INTEGRACION_ENF.json (fijado por catálogo; = objeto del catálogo)",
+   "sha256": "43b24726f76ead77717c642176fc0e2880e60db0e4ac1b44a30d803a5e0f1673",
+   "papel": "documento: índice del paquete de integración (piezas e índices externos)"
+  },
+  {
+   "archivo": "datos/fam08/alcance_mallas_enf.json",
+   "origen": "tmp/paso4_enforcement_completo_desde_rem127/alcance/alcance_mallas_enf.json (fijado por libro rem128)",
+   "sha256": "432e705246e5d19b5c58fb34414333caf9020358e60a833a5582357021147bf8",
+   "papel": "documento de autoridad (solo procedencia de las mallas guardadas; NO es una puerta y la ejecución limpia no lo usa)"
+  },
+  {
+   "archivo": "datos/fam08/alcance_abl_enf.json",
+   "origen": "tmp/paso4_enforcement_completo_desde_rem127/alcance/alcance_abl_enf.json (fijado por manifiesto integral (alcance de origen))",
+   "sha256": "5c64a6da4d9182f03e1739cf3ff006b14b23787db5b1076cf349df66f1be58cc",
+   "papel": "documento de autoridad (solo procedencia: su sha256 es el alcance_sha256 de T1–T6 guardadas; NO es una puerta)"
+  },
+  {
+   "archivo": "datos/fam08/pilotos.json",
+   "origen": "nuevo: src/fam08.py (fam08-listar)",
+   "sha256": "0768c8bff604e291194dbfd802570f42a29f016641073860221dc2a29cdc79f1",
+   "papel": "dato nuevo de la base limpia (selección fijada antes de calcular; sin resultados)"
+  },
+  {
+   "archivo": "datos/fam08/ejecucion_limpia.json",
+   "origen": "nuevo: src/fam08.py (fam08-listar)",
+   "sha256": "61ac1d74c7b31625191b69a0f21aa82d95c6b3d5529bdca53f2fae0aadd13330",
+   "papel": "dato nuevo de la base limpia: declaración de ejecución limpia NO OFICIAL (PUERTA-v1); su sha256 ocupa alcance_sha256"
+  },
+  {
+   "archivo": "datos/fam08/CERTIFICADO_d59edf8a_I2.json",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/diagnostico/CERTIFICADO_d59edf8a_I2.json (proyección del catálogo (REGLA-PROYECCION-1); original sha256 cc1aa49abf64585dd500838d1120d02c938a571f4be6fe159e3ab42fc697daaa; marcadores {'raíz del proyecto': 1})",
+   "sha256": "9e2ac47289e8c239c8352a70819babb285e28c03f3c3cfd906230950a9039f72",
+   "papel": "entrada: certificado de no alcance de d59edf8a (proyección del catálogo; restituye el original cc1aa49a…)"
+  },
+  {
+   "archivo": "datos/fam08/CENSO_REMANENTE.json",
+   "origen": "tmp/paso4_remanente_lotes_desde_rem113/censo/CENSO_REMANENTE.json (proyección propia con la regla del catálogo (raíz -> @@R_BS2@@); original sha256 78e51627014c11778b5388ee9aaa07074b3a33fbade09b226bd49933aa5d3129; marcadores {'raíz del proyecto': 1})",
+   "sha256": "f9940081b3fca85a6641443a340bbb73b7be5119b83434d87d9aca98876dab08",
+   "papel": "entrada: fuente de celdas del manifiesto ABL-ENF (familia ABL-ENF del censo rem113; proyección propia con la regla del catálogo: una ruta de procedencia; restituye el original 78e51627…)"
+  },
+  {
+   "archivo": "referencias/fam08/rem128/conciliacion_mallas/CONCILIACION_MALLAS_ENF.json",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_conciliacion_mallas_REM128/CONCILIACION_MALLAS_ENF.json (proyección del catálogo (REGLA-PROYECCION-1); original sha256 4d2b0748f686101636303703ac5ac02570aa6c457d727877a6fc7eab4994f1cb; marcadores {'raíz del proyecto': 1})",
+   "sha256": "c3e9cf5a78698a552b22cd22fec431c19fd5c9b1a6477b6a02ddac9f89ea3f2d",
+   "papel": "referencia F08-PARES: conciliación de mallas aceptada (proyección del catálogo)"
+  },
+  {
+   "archivo": "referencias/fam08/rem131/ensamblado/ENSAMBLADO_INTEGRAL.json",
+   "origen": "tmp/paso4_integracion_final_enf_desde_rem131/integ_ensamblado_ENF_INTEGRAL/ENSAMBLADO_INTEGRAL.json (proyección del catálogo (REGLA-PROYECCION-1); original sha256 544b7d770ac26ee5f0cbe8ab499fafe8a7430d9710d01c9d9f489f8a889d81ef; marcadores {'directorio privado de transcripciones': 1})",
+   "sha256": "f4ddf8c398420641b1978e22fed956671da24dcee7b77d1c07460c6f335a9959",
+   "papel": "referencia F08-INTEGRAL: ENSAMBLADO_INTEGRAL.json aceptado (proyección del catálogo)"
+  },
+  {
+   "archivo": "referencias/fam08/rem131/conciliacion/CONCILIACION_INTEGRAL_ENF.json",
+   "origen": "tmp/paso4_integracion_final_enf_desde_rem131/integ_conciliacion_ENF_INTEGRAL/CONCILIACION_INTEGRAL_ENF.json (proyección del catálogo (REGLA-PROYECCION-1); original sha256 8e97c9b5143f304d870d26785a67d1f5a5731c55338ba8dd9e105fd3ce12d33b; marcadores {'raíz del proyecto': 1})",
+   "sha256": "18a2cfdb65b5484333999e2456893232a7949f5f7fa8f3c8bc17301f31d7cd68",
+   "papel": "referencia F08-INTEGRAL: CONCILIACION_INTEGRAL_ENF.json aceptada (proyección del catálogo)"
+  },
+  {
+   "archivo": "datos/fam08/guardadas/mallas_rem127/L1-ELAST/resultado.json",
+   "origen": "tmp/paso4_enforcement_completo_desde_rem127/enf_mallas_REM127_ENF_COMPLETO/L1-ELAST/resultado.json (fijado por el manifiesto integral; = objeto del catálogo)",
+   "sha256": "96cec241d87c30e2745d376162fb5d6427c964a7f541dec2ad15f2ddfdc20d74",
+   "papel": "entrada guardada: resultado.json de la salida aceptada mallas_rem127/L1-ELAST (bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam08/guardadas/mallas_rem127/L1-ELAST/salida/frontier_result.jsonl",
+   "origen": "tmp/paso4_enforcement_completo_desde_rem127/enf_mallas_REM127_ENF_COMPLETO/L1-ELAST/salida/frontier_result.jsonl (fijado por el manifiesto integral; = objeto del catálogo)",
+   "sha256": "11d55c4423f1c8060f7637cd17edd247bb274481eab19edb138d56d17cbf31af",
+   "papel": "entrada guardada: salida/frontier_result.jsonl de la salida aceptada mallas_rem127/L1-ELAST (bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam08/guardadas/techos_rem127/ABL-ENF-T1/resultado.json",
+   "origen": "tmp/paso4_enforcement_completo_desde_rem127/enf_REM127_ENF_COMPLETO_TECHOS/ABL-ENF-T1/resultado.json (fijado por el manifiesto integral)",
+   "sha256": "0e1900aa5b4e0a6dcba4080a50d2587ba20cc5c3b93a1196b65eb13544064c68",
+   "papel": "entrada guardada: resultado.json de la salida aceptada techos_rem127/ABL-ENF-T1 (bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam08/guardadas/techos_rem127/ABL-ENF-T1/salida/enf_techos.jsonl",
+   "origen": "tmp/paso4_enforcement_completo_desde_rem127/enf_REM127_ENF_COMPLETO_TECHOS/ABL-ENF-T1/salida/enf_techos.jsonl (fijado por el manifiesto integral)",
+   "sha256": "ee76629337035a5c9179917b1dc3c076fe1ffb60accb358aa7e3d5393026ee74",
+   "papel": "entrada guardada: salida/enf_techos.jsonl de la salida aceptada techos_rem127/ABL-ENF-T1 (bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam08/guardadas/techos_rem127/ABL-ENF-T1/salida/enf_comparacion.jsonl",
+   "origen": "tmp/paso4_enforcement_completo_desde_rem127/enf_REM127_ENF_COMPLETO_TECHOS/ABL-ENF-T1/salida/enf_comparacion.jsonl (fijado por el manifiesto integral)",
+   "sha256": "69c2a48a213b50eb682c25796dc777f84aab0fd4f019016fb1d4a4a0d4d574fa",
+   "papel": "entrada guardada: salida/enf_comparacion.jsonl de la salida aceptada techos_rem127/ABL-ENF-T1 (bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam08/guardadas/techos_rem128/ABL-ENF-T2/resultado.json",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T2/resultado.json (fijado por el manifiesto integral)",
+   "sha256": "c1a4db0277a323de09675b01de5798b3beb07e8cd9e924785805816e3130227c",
+   "papel": "entrada guardada: resultado.json de la salida aceptada techos_rem128/ABL-ENF-T2 (bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam08/guardadas/techos_rem128/ABL-ENF-T2/salida/enf_techos.jsonl",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T2/salida/enf_techos.jsonl (fijado por el manifiesto integral)",
+   "sha256": "263ecb9ce3781bc555bdab174067c10293b55c68a703704283bcb128ae454204",
+   "papel": "entrada guardada: salida/enf_techos.jsonl de la salida aceptada techos_rem128/ABL-ENF-T2 (bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam08/guardadas/techos_rem128/ABL-ENF-T2/salida/enf_comparacion.jsonl",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T2/salida/enf_comparacion.jsonl (fijado por el manifiesto integral)",
+   "sha256": "d92e85ce117a9543b94ed1b5b96f16158470622d4a3bcf232c24eb606d84c224",
+   "papel": "entrada guardada: salida/enf_comparacion.jsonl de la salida aceptada techos_rem128/ABL-ENF-T2 (bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam08/guardadas/techos_rem128/ABL-ENF-T3/resultado.json",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T3/resultado.json (fijado por el manifiesto integral)",
+   "sha256": "63f0d2820a6d645cd3f1c56ea677311a5d49deeedc1d86487db6b56959a2a97d",
+   "papel": "entrada guardada: resultado.json de la salida aceptada techos_rem128/ABL-ENF-T3 (bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam08/guardadas/techos_rem128/ABL-ENF-T3/salida/enf_techos.jsonl",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T3/salida/enf_techos.jsonl (fijado por el manifiesto integral)",
+   "sha256": "7e106a4efa638ba63acfc6c540070a12bea09772f2667dd4bbac8c7a7d92685c",
+   "papel": "entrada guardada: salida/enf_techos.jsonl de la salida aceptada techos_rem128/ABL-ENF-T3 (bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam08/guardadas/techos_rem128/ABL-ENF-T3/salida/enf_comparacion.jsonl",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T3/salida/enf_comparacion.jsonl (fijado por el manifiesto integral)",
+   "sha256": "07e1e6a5d2712c9cd85852ebcbba5f56d8fae9cf308485f5c7df9511391585eb",
+   "papel": "entrada guardada: salida/enf_comparacion.jsonl de la salida aceptada techos_rem128/ABL-ENF-T3 (bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam08/guardadas/techos_rem128/ABL-ENF-T4/resultado.json",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T4/resultado.json (fijado por el manifiesto integral)",
+   "sha256": "e087d50f48bf81d0a1904a807f90e9ac6ea114862793bb69ce1d293b6d61e07e",
+   "papel": "entrada guardada: resultado.json de la salida aceptada techos_rem128/ABL-ENF-T4 (bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam08/guardadas/techos_rem128/ABL-ENF-T4/salida/enf_techos.jsonl",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T4/salida/enf_techos.jsonl (fijado por el manifiesto integral)",
+   "sha256": "af2bc95723263f8a2656d86cd288b0dfa2ecc004ce4dfbe8fa72289111343a24",
+   "papel": "entrada guardada: salida/enf_techos.jsonl de la salida aceptada techos_rem128/ABL-ENF-T4 (bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam08/guardadas/techos_rem128/ABL-ENF-T4/salida/enf_comparacion.jsonl",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T4/salida/enf_comparacion.jsonl (fijado por el manifiesto integral)",
+   "sha256": "4cf6f739a7dc11e10d55e15157db0ecb9f017a4c30009406c266b8e91a0d14fc",
+   "papel": "entrada guardada: salida/enf_comparacion.jsonl de la salida aceptada techos_rem128/ABL-ENF-T4 (bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam08/guardadas/techos_rem128/ABL-ENF-T5/resultado.json",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T5/resultado.json (fijado por el manifiesto integral)",
+   "sha256": "d350770f2eed742ed5c94cc300ca05d5a5f274ac1ee2167464f9a6cc69bc1cc0",
+   "papel": "entrada guardada: resultado.json de la salida aceptada techos_rem128/ABL-ENF-T5 (bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam08/guardadas/techos_rem128/ABL-ENF-T5/salida/enf_techos.jsonl",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T5/salida/enf_techos.jsonl (fijado por el manifiesto integral)",
+   "sha256": "d1310475f6fb2dbda3803ab9b14eba89c3e1fecf89272bd94d3dd06b4e18d2b5",
+   "papel": "entrada guardada: salida/enf_techos.jsonl de la salida aceptada techos_rem128/ABL-ENF-T5 (bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam08/guardadas/techos_rem128/ABL-ENF-T5/salida/enf_comparacion.jsonl",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T5/salida/enf_comparacion.jsonl (fijado por el manifiesto integral)",
+   "sha256": "5847b186d235100f440d1775b9d8b9f7d21da148ef058256cfa94898f84ff445",
+   "papel": "entrada guardada: salida/enf_comparacion.jsonl de la salida aceptada techos_rem128/ABL-ENF-T5 (bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam08/guardadas/techos_rem128/ABL-ENF-T6/resultado.json",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T6/resultado.json (fijado por el manifiesto integral)",
+   "sha256": "bb4c9a9f4d0974581777adf2c60ced943335c3e23fcd07302e7f8577f031e121",
+   "papel": "entrada guardada: resultado.json de la salida aceptada techos_rem128/ABL-ENF-T6 (bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam08/guardadas/techos_rem128/ABL-ENF-T6/salida/enf_techos.jsonl",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T6/salida/enf_techos.jsonl (fijado por el manifiesto integral)",
+   "sha256": "a067e6b2de6e28958323084ded12e981787ccab263fc3da209848ad0fb9aa801",
+   "papel": "entrada guardada: salida/enf_techos.jsonl de la salida aceptada techos_rem128/ABL-ENF-T6 (bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "datos/fam08/guardadas/techos_rem128/ABL-ENF-T6/salida/enf_comparacion.jsonl",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T6/salida/enf_comparacion.jsonl (fijado por el manifiesto integral)",
+   "sha256": "a45fcf8f18e142f5a0f15492782ba01ab20024a02ff11ef30928f743deeff0bc",
+   "papel": "entrada guardada: salida/enf_comparacion.jsonl de la salida aceptada techos_rem128/ABL-ENF-T6 (bytes guardados; la regeneración la lee; no es cálculo nuevo)"
+  },
+  {
+   "archivo": "referencias/fam08/rem127/L1-ELAST/trabajo_stdout.txt",
+   "origen": "tmp/paso4_enforcement_completo_desde_rem127/enf_mallas_REM127_ENF_COMPLETO/L1-ELAST/trabajo_stdout.txt",
+   "sha256": "74334ddaa64e0968d067136cb5a3dd63369d69d85061e58c6494fd152e4f6dc5",
+   "papel": "referencia: salida de terminal de la tarea de mallas aceptada (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem127/L1-ELAST/validacion_stdout.txt",
+   "origen": "tmp/paso4_enforcement_completo_desde_rem127/enf_mallas_REM127_ENF_COMPLETO/L1-ELAST/validacion_stdout.txt",
+   "sha256": "e37790b3c4b41ff7cedae15e91a417f937ddd85a95d073a421442d09a797ae09",
+   "papel": "referencia: veredicto histórico del validador de mallas (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem127/ABL-ENF-T1/trabajo_stdout.txt",
+   "origen": "tmp/paso4_enforcement_completo_desde_rem127/enf_REM127_ENF_COMPLETO_TECHOS/ABL-ENF-T1/trabajo_stdout.txt",
+   "sha256": "ca7f603c19bc759049af7f44740b3413b52b6999f435d43cac1a3994ec872e51",
+   "papel": "referencia: salida de terminal de T1 (incompleta; el conductor no la validó) (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem128/conciliacion_mallas/pares_puntos.jsonl",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_conciliacion_mallas_REM128/pares_puntos.jsonl (= objeto del catálogo)",
+   "sha256": "11a9d2d73574243e4665afdaef5b8f61fcfae7022ac08df5325b5b4c473f8aa9",
+   "papel": "referencia: referencia F08-PARES: 330 puntos emparejados (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem128/REM128_CONC_MALLAS.txt",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/logs/REM128_CONC_MALLAS.txt",
+   "sha256": "621da44f9a09b792c5fd319114d0f4178bc8464af8197f276f3d407b20c819f5",
+   "papel": "referencia: veredicto de la conciliación de mallas aceptada (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem128/REM128_DIAG_CERTIFICADO_I2.txt",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/logs/REM128_DIAG_CERTIFICADO_I2.txt",
+   "sha256": "8b95c0ae1d21b353852a556dd49283c2c587e8ae1a7c170e099f915fda222ad1",
+   "papel": "referencia: veredicto del certificador I2 (diagnóstico rem128) (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem128/REM128_DIAG_CONTRASTES.txt",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/logs/REM128_DIAG_CONTRASTES.txt",
+   "sha256": "1efac15e367dfd7f0a65924c95c5c5348a8fb8944d266d9e5f8d90f539761ab0",
+   "papel": "referencia: veredicto de las pruebas del certificador (7/7) (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem128/diagnostico/PRUEBAS_CERTIFICADO_REM128.json",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/diagnostico/PRUEBAS_CERTIFICADO_REM128.json",
+   "sha256": "dae673535ccab961a4cf70d8664c72cefa8cd1e286f52e03ae2aa52b99fc7607",
+   "papel": "referencia: salida aceptada de pruebas_certificado.py (7 contrastes) (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem128/diagnostico/DECLARACION_PRUEBAS_DIAGNOSTICAS.json",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/diagnostico/DECLARACION_PRUEBAS_DIAGNOSTICAS.json",
+   "sha256": "5cee3c2f9e700228615264b6799e696623cb0b19174406be197ee42f07fe4179",
+   "papel": "referencia: declaración rem128 de las pruebas diagnósticas (nombra pruebas_certificado.py) (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem131/ensamblado/enf_brechas_resueltas.jsonl",
+   "origen": "tmp/paso4_integracion_final_enf_desde_rem131/integ_ensamblado_ENF_INTEGRAL/enf_brechas_resueltas.jsonl (= objeto del catálogo)",
+   "sha256": "b987ec77948c5ad5c3859305a1b9ea688f8a56cd07c497b78fa8c6f3eb4148ab",
+   "papel": "referencia: referencia F08-INTEGRAL (144 celdas resueltas) (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem131/ensamblado/enf_comparacion_ensamblada.jsonl",
+   "origen": "tmp/paso4_integracion_final_enf_desde_rem131/integ_ensamblado_ENF_INTEGRAL/enf_comparacion_ensamblada.jsonl (= objeto del catálogo)",
+   "sha256": "504f0b28b4d60c29421f0b4cc893d24af4fdbb3c67b9390b7070636c2a1a58cc",
+   "papel": "referencia: referencia F08-INTEGRAL (1.724) (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem131/ensamblado/enf_comparacion_integral.jsonl",
+   "origen": "tmp/paso4_integracion_final_enf_desde_rem131/integ_ensamblado_ENF_INTEGRAL/enf_comparacion_integral.jsonl",
+   "sha256": "0220543dce3b4187b557d0ca6175513b88037408146a8d7f6968b29e585fed1b",
+   "papel": "referencia: referencia F08-INTEGRAL (1.724) (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem131/ensamblado/enf_techos_integrados.jsonl",
+   "origen": "tmp/paso4_integracion_final_enf_desde_rem131/integ_ensamblado_ENF_INTEGRAL/enf_techos_integrados.jsonl (= objeto del catálogo)",
+   "sha256": "31ee1d746870391f227c11df28035b2299ed33a7493f978be9cb111607baac28",
+   "papel": "referencia: referencia F08-INTEGRAL (26 techos) (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem131/conciliacion/brechas_celdas.jsonl",
+   "origen": "tmp/paso4_integracion_final_enf_desde_rem131/integ_conciliacion_ENF_INTEGRAL/brechas_celdas.jsonl (= objeto del catálogo)",
+   "sha256": "0220543dce3b4187b557d0ca6175513b88037408146a8d7f6968b29e585fed1b",
+   "papel": "referencia: referencia F08-INTEGRAL (1.724 brechas) (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem131/conciliacion/techos_pares.jsonl",
+   "origen": "tmp/paso4_integracion_final_enf_desde_rem131/integ_conciliacion_ENF_INTEGRAL/techos_pares.jsonl (= objeto del catálogo)",
+   "sha256": "3d8aa516c64f7c24d6e6dbe4ea0301c64c37ddf0950e952a840def684e356d1f",
+   "papel": "referencia: referencia F08-TECHOS/INTEGRAL (26 pares con techo) (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem131/ENF_INTEGRAL_ENSAMBLADO.txt",
+   "origen": "tmp/paso4_integracion_final_enf_desde_rem131/logs/ENF_INTEGRAL_ENSAMBLADO.txt",
+   "sha256": "14524a8a1fec42a7b071f9c8c90e11f5292488c1427ef45dc1d9538dad07b4d7",
+   "papel": "referencia: veredicto del ensamblado integral aceptado (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem131/ENF_INTEGRAL_CONCILIACION.txt",
+   "origen": "tmp/paso4_integracion_final_enf_desde_rem131/logs/ENF_INTEGRAL_CONCILIACION.txt",
+   "sha256": "5635c624f8a9314dce048b98ae4d1c301ad7eb3f541c46f5b7569e6cfbd95230",
+   "papel": "referencia: veredicto de la conciliación integral aceptada (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem128/ABL-ENF-T2/trabajo_stdout.txt",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T2/trabajo_stdout.txt",
+   "sha256": "364f79c26a9f0199a4ba6b38160048f4da1e478735f667b09b715244f05ce3e8",
+   "papel": "referencia: salida de terminal / veredicto histórico de ABL-ENF-T2 (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem128/ABL-ENF-T2/validacion_stdout.txt",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T2/validacion_stdout.txt",
+   "sha256": "ee6e980a6b60ce568996639eb51cd10fd6f46afac37b51e7241a9338ee956325",
+   "papel": "referencia: salida de terminal / veredicto histórico de ABL-ENF-T2 (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem128/ABL-ENF-T3/trabajo_stdout.txt",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T3/trabajo_stdout.txt",
+   "sha256": "6ec072499cf4f15453d227cc32862a95422b94499cc7ba0001f6f482d2577ec2",
+   "papel": "referencia: salida de terminal / veredicto histórico de ABL-ENF-T3 (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem128/ABL-ENF-T3/validacion_stdout.txt",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T3/validacion_stdout.txt",
+   "sha256": "576406318cfe3e33353921a9263b70b74994005601f0bbc4e6aefa9d65842f5a",
+   "papel": "referencia: salida de terminal / veredicto histórico de ABL-ENF-T3 (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem128/ABL-ENF-T4/trabajo_stdout.txt",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T4/trabajo_stdout.txt",
+   "sha256": "573094b97bb814b7e58f3277db8cc3d792e65ba80296cffbe8f3bb513246a397",
+   "papel": "referencia: salida de terminal / veredicto histórico de ABL-ENF-T4 (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem128/ABL-ENF-T4/validacion_stdout.txt",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T4/validacion_stdout.txt",
+   "sha256": "64a1b12647013b6742c9600e1fd061d5503fe65b63508925290d8c0c58fa929d",
+   "papel": "referencia: salida de terminal / veredicto histórico de ABL-ENF-T4 (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem128/ABL-ENF-T5/trabajo_stdout.txt",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T5/trabajo_stdout.txt",
+   "sha256": "c446d1c2715595332e3b66239e8a1830d84ac106772a3aaf2cd9c7e9475cf7d9",
+   "papel": "referencia: salida de terminal / veredicto histórico de ABL-ENF-T5 (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem128/ABL-ENF-T5/validacion_stdout.txt",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T5/validacion_stdout.txt",
+   "sha256": "d1d9d5dcfaff7fcba9bb06731ded1a907d019c44fad85184810c16039670c5cc",
+   "papel": "referencia: salida de terminal / veredicto histórico de ABL-ENF-T5 (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem128/ABL-ENF-T6/trabajo_stdout.txt",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T6/trabajo_stdout.txt",
+   "sha256": "5e8b3bfed002d9312526835f90fce4e95175dafb97eb1bc6d4918cad3ba6df21",
+   "papel": "referencia: salida de terminal / veredicto histórico de ABL-ENF-T6 (solo para comparar; nunca se lee para producir)"
+  },
+  {
+   "archivo": "referencias/fam08/rem128/ABL-ENF-T6/validacion_stdout.txt",
+   "origen": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T6/validacion_stdout.txt",
+   "sha256": "9b5187814c99f8f47a0ec608cee20f4f4d424c4357f4b759f75e7ae9c283cb12",
+   "papel": "referencia: salida de terminal / veredicto histórico de ABL-ENF-T6 (solo para comparar; nunca se lee para producir)"
+  }
+ ],
+ "reutilizados": [
+  {
+   "archivo": "datos/fam05/LOTE2_MANIFIESTO.json",
+   "sha256": "b1cf8af5eab8aa22c53ec279bd5660dbf57847b6be8f874c56af7d71f9cd4bab",
+   "papel": "fuente lote2_manifiesto (mallas padre reutilizadas)",
+   "declarada_en": "fuentes_fam05.json"
+  },
+  {
+   "archivo": "datos/fam05/PAQUETE_LOTE1.json",
+   "sha256": "265c29f43ac4ad9c16dfe70da7c830cd027e0bab6bd9dffa561536b114981f32",
+   "papel": "índice del código del lote 2 (externa del índice integral)",
+   "declarada_en": "fuentes_fam05.json"
+  },
+  {
+   "archivo": "referencias/fam05/rem120/L1-ELAST/salida/frontier_result.jsonl",
+   "sha256": "007095a94b7d1fce18aea6214c56c45b370e9a6eb5b0e415da6a0cc09a26ea8c",
+   "papel": "fuente elast_lote2_rem120: filas de las 23 mallas padre reutilizadas",
+   "declarada_en": "fuentes_fam05.json"
+  },
+  {
+   "archivo": "referencias/fam05/rem120/L1-ELAST/salida/suplemento_procedencia.jsonl",
+   "sha256": "d6a12af3818993288d8b1f1cbbb87eb7cb64bf2ee25492ae4ff1d95cc2e55b39",
+   "papel": "fuente procedencia_suplemento_rem120 (control de mezcla de núcleos)",
+   "declarada_en": "fuentes_fam05.json"
+  },
+  {
+   "archivo": "datos/fam06/LOTE2E4_MANIFIESTO.json",
+   "sha256": "d430b39db2cea7801cdcf8b55f0455063270d58f5aebea57776241fcde04b4af",
+   "papel": "fuente e4_manifiesto (declarada; ningún par la usa)",
+   "declarada_en": "fuentes_fam06.json"
+  },
+  {
+   "archivo": "referencias/fam06/rem121/L1-ELAST/salida/frontier_result.jsonl",
+   "sha256": "cf711accc908ffb10e190424e0f207b55b69f719585458b734d711be09142f0d",
+   "papel": "fuente elast_e4_rem121 (declarada; ningún par la usa)",
+   "declarada_en": "fuentes_fam06.json"
+  },
+  {
+   "archivo": "datos/fam04/LOTE1_MANIFIESTO.json",
+   "sha256": "19ecd7d3eb0e42a67d46678a6b447f064c8011a27361c8777330ddade9e8ebb9",
+   "papel": "fuente lote1_manifiesto (declarada; ningún par la usa)",
+   "declarada_en": "fuentes_fam04.json"
+  },
+  {
+   "archivo": "referencias/fam04/rem112/L1-ELAST/salida/frontier_result.jsonl",
+   "sha256": "dba33b473db7e6f82b56e30d5086c84298bff48ee1427dfbdfffb98fdf97997b",
+   "papel": "fuente elast_lote1_rem112 (declarada; ningún par la usa)",
+   "declarada_en": "fuentes_fam04.json"
+  },
+  {
+   "archivo": "nucleo_s6/lote2/conexion_frontera.py",
+   "sha256": "4fb1915d7cf7ca39bf9385f975665a75b32717558096870d7d9213d151be2527",
+   "papel": "código del lote 2 (trabajador y validador de mallas; fijado por PAQUETE_LOTE1.json)",
+   "declarada_en": "fuentes_fam05.json"
+  },
+  {
+   "archivo": "nucleo_s6/lote2/conexion_lambda.py",
+   "sha256": "9dbdc7322e303f11f4b33897dd11de3e7ce8327636637e75bc246222391138b3",
+   "papel": "código del lote 2 (trabajador y validador de mallas; fijado por PAQUETE_LOTE1.json)",
+   "declarada_en": "fuentes_fam05.json"
+  },
+  {
+   "archivo": "nucleo_s6/lote2/tarea_lote.py",
+   "sha256": "dca9d79b2d7c89bdd09e4e99293a158cb7fdc4cf8951df51561c68b019386456",
+   "papel": "código del lote 2 (trabajador y validador de mallas; fijado por PAQUETE_LOTE1.json)",
+   "declarada_en": "fuentes_fam05.json"
+  },
+  {
+   "archivo": "nucleo_s6/lote2/validar_lote.py",
+   "sha256": "d95e2beb0c0f67a96984d4346fe1c77e5b44539eb97769ba3f09ecbb67ea4f19",
+   "papel": "código del lote 2 (trabajador y validador de mallas; fijado por PAQUETE_LOTE1.json)",
+   "declarada_en": "fuentes_fam05.json"
+  }
+ ],
+ "referencias_con_los_mismos_bytes": [
+  {
+   "referencia": "referencias/fam08/rem131/conciliacion/pares_puntos.jsonl",
+   "origen": "tmp/paso4_integracion_final_enf_desde_rem131/integ_conciliacion_ENF_INTEGRAL/pares_puntos.jsonl",
+   "sha256": "11a9d2d73574243e4665afdaef5b8f61fcfae7022ac08df5325b5b4c473f8aa9",
+   "misma_copia_que": "referencias/fam08/rem128/conciliacion_mallas/pares_puntos.jsonl"
+  }
+ ],
+ "saneado": [
+  {
+   "archivo": "datos/fam08/CERTIFICADO_d59edf8a_I2.json",
+   "sha256": "9e2ac47289e8c239c8352a70819babb285e28c03f3c3cfd906230950a9039f72",
+   "sha256_original": "cc1aa49abf64585dd500838d1120d02c938a571f4be6fe159e3ab42fc697daaa",
+   "regla": "proyección del catálogo (REGLA-PROYECCION-1)",
+   "marcadores": {
+    "raíz del proyecto": 1
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "datos/fam08/CENSO_REMANENTE.json",
+   "sha256": "f9940081b3fca85a6641443a340bbb73b7be5119b83434d87d9aca98876dab08",
+   "sha256_original": "78e51627014c11778b5388ee9aaa07074b3a33fbade09b226bd49933aa5d3129",
+   "regla": "proyección propia con la regla del catálogo (raíz -> @@R_BS2@@)",
+   "marcadores": {
+    "raíz del proyecto": 1
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "referencias/fam08/rem128/conciliacion_mallas/CONCILIACION_MALLAS_ENF.json",
+   "sha256": "c3e9cf5a78698a552b22cd22fec431c19fd5c9b1a6477b6a02ddac9f89ea3f2d",
+   "sha256_original": "4d2b0748f686101636303703ac5ac02570aa6c457d727877a6fc7eab4994f1cb",
+   "regla": "proyección del catálogo (REGLA-PROYECCION-1)",
+   "marcadores": {
+    "raíz del proyecto": 1
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "referencias/fam08/rem131/ensamblado/ENSAMBLADO_INTEGRAL.json",
+   "sha256": "f4ddf8c398420641b1978e22fed956671da24dcee7b77d1c07460c6f335a9959",
+   "sha256_original": "544b7d770ac26ee5f0cbe8ab499fafe8a7430d9710d01c9d9f489f8a889d81ef",
+   "regla": "proyección del catálogo (REGLA-PROYECCION-1)",
+   "marcadores": {
+    "directorio privado de transcripciones": 1
+   },
+   "restituye_el_original": true
+  },
+  {
+   "archivo": "referencias/fam08/rem131/conciliacion/CONCILIACION_INTEGRAL_ENF.json",
+   "sha256": "18a2cfdb65b5484333999e2456893232a7949f5f7fa8f3c8bc17301f31d7cd68",
+   "sha256_original": "8e97c9b5143f304d870d26785a67d1f5a5731c55338ba8dd9e105fd3ce12d33b",
+   "regla": "proyección del catálogo (REGLA-PROYECCION-1)",
+   "marcadores": {
+    "raíz del proyecto": 1
+   },
+   "restituye_el_original": true
+  }
+ ],
+ "autenticacion": {
+  "catalogo": {
+   "indice_integral": "43b24726f76ead77717c642176fc0e2880e60db0e4ac1b44a30d803a5e0f1673",
+   "manifiesto_integral": "b752249a446ce4f16a4c4d80e6608811787b9b99d0c6fd6aef6480a6ace10b85"
+  },
+  "indices_externos": {
+   "lote_enf (rem125)": "039c85beb88e5912867ef8ebadcf47995cc8f9a99a5fd92e20bc072a7abda57c",
+   "rem119 lote2": "265c29f43ac4ad9c16dfe70da7c830cd027e0bab6bd9dffa561536b114981f32",
+   "mallas_enf (rem126)": "c0bfe525f58825d7926b6ef9208ab77407170a0edaf9e0fb7aa43aac0d19b0ad"
+  },
+  "u22_del_catalogo_igual_a_c0": true,
+  "u22": {
+   "elementales.py": "c71faf35370fa2329db69802f03f52d9bc72566a2d9fa50a9ca8dbea1eb6f82b",
+   "encierros_modelo.py": "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53",
+   "frontier.py": "709f51b21188ff8d4638d7eadf535dd3f8307f2e1ce995a49539fe7bfcd36ed2",
+   "intervalos.py": "2607d0cf3f879316c699ec4cd73021bff9ae8f680f7c7c01facb84dfb65aa891",
+   "model.py": "b8541045ce2db793e3acfba5e84053edc185a7f8cdfc5c1b535d1452ebde9b04",
+   "modelos.py": "7f0dd31cacf431fb421e2c5047aa5b750cbecfc1064e3374c4247dcd40c93fda",
+   "supremum.py": "2c246c8be6d4437892cd951cc0acaaac6e5d8ea7a921de2e13f560caf8dfebbb"
+  },
+  "recuperar_t1": "objeto del catálogo 33f94a1e… = fuente rem128; la pieza aceptada es 1a5108b2… (rem130, P4-ENF-T1-BYTES; diferencial declarado en el índice integral)"
+ },
+ "nucleo_c0": {
+  "identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+  "declarado_en": "fuentes_fam05.json (nucleo_c0)",
+  "nota": "el mismo núcleo C0 de FAM05–FAM07"
+ },
+ "libros": {
+  "rem128": {
+   "presente": true,
+   "archivo": "review_20261030_rem128_mallas_ENF_aceptadas.json",
+   "sha256": "9150266d3393a484b901c26d98f4f37292bf451ba561c9325ffba76cd3ac5701",
+   "kind": "ledger-aceptacion-mallas-ENF-rem128",
+   "identidad_c0": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+   "uso": "solo fuente de extracción (recuentos y huellas); nunca dependencia de ejecución; sin rutas, transcripciones ni referencia de la decisión",
+   "dictamen": {
+    "archivo": "review_20261030_rem128_dictamen.txt",
+    "sha256_en_el_libro": "920d8956fc911412f12f006919df232b5888004b1818130d0e352979eeabe035",
+    "sha256_del_archivo": "920d8956fc911412f12f006919df232b5888004b1818130d0e352979eeabe035"
+   },
+   "producto": {
+    "result_sha256": "96cec241d87c30e2745d376162fb5d6427c964a7f541dec2ad15f2ddfdc20d74",
+    "product_sha256": "11d55c4423f1c8060f7637cd17edd247bb274481eab19edb138d56d17cbf31af",
+    "manifest_sha256": "8ae8f1ca1d23bcb6fb5e9ac3eff3cbc7b2495f9fb2d40b22f583157ecd67e224",
+    "grids": 29,
+    "point_rows": 365,
+    "lateral_rows": 0,
+    "regimes": {
+     "origen": 29,
+     "esquina_d": 64,
+     "esquina_f": 96,
+     "interior": 99,
+     "borde": 77
+    },
+    "topologies": {
+     "FF": 144,
+     "II->IF->FF": 220,
+     "NF": 1
+    },
+    "validation": {
+     "tarea": "L1-ELAST",
+     "sintetico": false,
+     "fallos": [],
+     "n_fallos": 0,
+     "aceptada": true,
+     "dictamen": "completa_validada"
+    }
+   },
+   "mallas_nuevas": 29,
+   "filas_de_puntos": 365,
+   "filas_laterales": 0
+  },
+  "rem129": {
+   "presente": true,
+   "archivo": "review_20261030_rem129_ENF_parcial_aceptado.json",
+   "sha256": "83cf6bafd63632b54f2298f567dbd51a41503e7a81a6bb7de9390763e725f06f",
+   "kind": "ledger-aceptacion-ENF-parcial-rem129",
+   "identidad_c0": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+   "uso": "solo fuente de extracción (recuentos y huellas); nunca dependencia de ejecución; sin rutas, transcripciones ni referencia de la decisión",
+   "dictamen": {
+    "archivo": "review_20261030_rem129_dictamen.txt",
+    "sha256_en_el_libro": "886d92021b4c7e94869354f5592622fa072770f0bb53395f8f07224bc559bcff",
+    "sha256_del_archivo": "886d92021b4c7e94869354f5592622fa072770f0bb53395f8f07224bc559bcff"
+   },
+   "conciliacion_mallas": {
+    "accepted": true,
+    "files": {
+     "CONCILIACION_MALLAS_ENF.json": "4d2b0748f686101636303703ac5ac02570aa6c457d727877a6fc7eab4994f1cb",
+     "pares_puntos.jsonl": "11a9d2d73574243e4665afdaef5b8f61fcfae7022ac08df5325b5b4c473f8aa9"
+    },
+    "pairs": 26,
+    "points": 330,
+    "controls_d": 12,
+    "controls_exact": true,
+    "topology_changes": 1
+   },
+   "techos_nuevos": {
+    "tareas": 5,
+    "techos": 8,
+    "pared_s": 3560.7
+   },
+   "recuperacion_T1": {
+    "accepted_reuse_17": true,
+    "adapter_sha256": "33f94a1e62f3b9b28c701d806f21d0fdb441a5afdd91b6b01492105439932ed8",
+    "roofs": 17,
+    "comparisons": 1294,
+    "byte_exact": true,
+    "original_T1_complete": false,
+    "resolution_accepted_for_key": "d59edf8a9d1461d1"
+   },
+   "certificado": {
+    "accepted_for_exact_key": true,
+    "key": "d59edf8a9d1461d1",
+    "document_sha256": "cc1aa49abf64585dd500838d1120d02c938a571f4be6fe159e3ab42fc697daaa",
+    "certifier_sha256": "a9b4e6ad712845e2452e40c727d31818927c2f5fe5a42c0feb9ade278ab43837",
+    "fresh_exact_match": true
+   },
+   "certificado_estado": "no_alcanzado_demostrado",
+   "comprobacion_decimal_independiente": {
+    "precision": 90,
+    "root": "0.59374432033431117062600516769185243176043477548996753065449651757568520458744143312899114",
+    "R": "8.78074346561010608141999434129248071755413411590013053605854342474253642515414208456233128",
+    "inside_reported_enclosures": true
+   },
+   "recuentos": {
+    "roof_count_total_available_for_integration": 26,
+    "new_roofs_accepted": 8,
+    "historical_roofs_reuse_accepted": 17,
+    "nonattained_suprema_resolved": 1,
+    "original_T1_complete": false,
+    "rule_accepted_for_exact_key": true
+   }
+  },
+  "rem132": {
+   "presente": true,
+   "archivo": "review_20261101_rem132_ENF_integral_aceptado.json",
+   "sha256": "500537615c2c0deebebec90165f6aae5fe2e7272b8fe1976ca00376a8c34debf",
+   "kind": "ledger-aceptacion-integracion-ENF-rem132",
+   "identidad_c0": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+   "uso": "solo fuente de extracción (recuentos y huellas); nunca dependencia de ejecución; sin rutas, transcripciones ni referencia de la decisión",
+   "dictamen": {
+    "archivo": "review_20261101_rem132_dictamen.txt",
+    "sha256_en_el_libro": "d4dc8e9948624a3a9b50dcf39e96e37be48a78d9ac6259a7b90c6d50dfa4a057",
+    "sha256_del_archivo": "d4dc8e9948624a3a9b50dcf39e96e37be48a78d9ac6259a7b90c6d50dfa4a057"
+   },
+   "indice_sha256": "43b24726f76ead77717c642176fc0e2880e60db0e4ac1b44a30d803a5e0f1673",
+   "manifiesto_sha256": "b752249a446ce4f16a4c4d80e6608811787b9b99d0c6fd6aef6480a6ace10b85",
+   "productos_aceptados": {
+    "integ_ensamblado_ENF_INTEGRAL/enf_brechas_resueltas.jsonl": "b987ec77948c5ad5c3859305a1b9ea688f8a56cd07c497b78fa8c6f3eb4148ab",
+    "integ_ensamblado_ENF_INTEGRAL/enf_comparacion_ensamblada.jsonl": "504f0b28b4d60c29421f0b4cc893d24af4fdbb3c67b9390b7070636c2a1a58cc",
+    "integ_ensamblado_ENF_INTEGRAL/enf_comparacion_integral.jsonl": "0220543dce3b4187b557d0ca6175513b88037408146a8d7f6968b29e585fed1b",
+    "integ_ensamblado_ENF_INTEGRAL/enf_techos_integrados.jsonl": "31ee1d746870391f227c11df28035b2299ed33a7493f978be9cb111607baac28",
+    "integ_ensamblado_ENF_INTEGRAL/ENSAMBLADO_INTEGRAL.json": "544b7d770ac26ee5f0cbe8ab499fafe8a7430d9710d01c9d9f489f8a889d81ef",
+    "integ_conciliacion_ENF_INTEGRAL/brechas_celdas.jsonl": "0220543dce3b4187b557d0ca6175513b88037408146a8d7f6968b29e585fed1b",
+    "integ_conciliacion_ENF_INTEGRAL/CONCILIACION_INTEGRAL_ENF.json": "8e97c9b5143f304d870d26785a67d1f5a5731c55338ba8dd9e105fd3ce12d33b",
+    "integ_conciliacion_ENF_INTEGRAL/pares_puntos.jsonl": "11a9d2d73574243e4665afdaef5b8f61fcfae7022ac08df5325b5b4c473f8aa9",
+    "integ_conciliacion_ENF_INTEGRAL/techos_pares.jsonl": "3d8aa516c64f7c24d6e6dbe4ea0301c64c37ddf0950e952a840def684e356d1f"
+   },
+   "cobertura": {
+    "claves": 26,
+    "por_origen": {
+     "T1_recuperado": 17,
+     "tarea_completa": 8,
+     "resolucion_no_alcanzado": 1
+    },
+    "duplicadas": []
+   },
+   "estadisticas": {
+    "cells": 1724,
+    "G_enf_negative": 870,
+    "G_parent_negative": 870,
+    "sign_changes": 0,
+    "dG_min": 0.0,
+    "dG_max": 0.012832670219052933,
+    "countries": {
+     "MEX": 190,
+     "COL": 574,
+     "PER": 960
+    },
+    "resolved_countries": {
+     "PER": 80,
+     "COL": 48,
+     "MEX": 16
+    },
+    "menus": {
+     "d": 575,
+     "f": 575,
+     "df": 574
+    },
+    "sets": {
+     "CMP-E1.macro.ABL-ENF": 478,
+     "CMP-E1.micro.ABL-ENF": 478,
+     "COL-E2-2023.2023p.macro.ABL-ENF": 96,
+     "COL-E2-2023.2023p.micro.ABL-ENF": 96,
+     "PER-E0E3.macro.ABL-ENF": 96,
+     "PER-E0E3.micro.ABL-ENF": 96,
+     "PER-E1.macro.ABL-ENF": 192,
+     "PER-E1.micro.ABL-ENF": 192
+    }
+   },
+   "resolucion": {
+    "clave": "d59edf8a9d1461d1",
+    "clave_completa_sha256": "d59edf8a9d1461d135ecb84f7cf0fbf1a332ea182ad1acde96113702f4a8d40e",
+    "tarea_origen": "ABL-ENF-T1",
+    "estado_historico": "incomplete",
+    "motivo_historico": "SUP_ATTAINMENT_UNDECIDED_AT_JUMP_CURVE",
+    "attained_historico": false,
+    "resolucion": "no_alcanzado_demostrado",
+    "C2_para_brecha": 0.7982494059645469
+   },
+   "recuentos": {
+    "historical_T1_remains_incomplete": true,
+    "no_argmax_created": true,
+    "mesh_pairs": 26,
+    "paired_points": 330,
+    "cells": 1724,
+    "resolved_cells": 144,
+    "new_roofs_computed_in_round": 0,
+    "new_meshes_computed_in_round": 0,
+    "excluded": [
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro"
+    ],
+    "exclusion_reason": "Sin testigos, exclusión de alcance adoptada; no NA ni resultado negativo."
+   }
+  }
+ }
+}

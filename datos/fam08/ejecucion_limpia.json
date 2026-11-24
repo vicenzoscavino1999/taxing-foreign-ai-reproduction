@@ -1,0 +1,38 @@
+{
+ "codigo": {
+  "integracion/certificado_salto.py": "a9b4e6ad712845e2452e40c727d31818927c2f5fe5a42c0feb9ade278ab43837",
+  "integracion/conciliar_integracion.py": "e97edc15bb4e458e5c4cb2f9aa38d2c5fe55fb3d07c2259ea9cb4d0f6cdc221a",
+  "integracion/ensamblar_integracion.py": "7f04fafe4110bc22407c0016799b81832a78baa0aa736f60cea80b20e4a95522",
+  "integracion/pruebas_certificado.py": "194ec1c74c89f4754d2d25919f0f531c2428ae32307e68d474a8a2c998ffc9bc",
+  "integracion/recuperar_t1.py": "1a5108b2ed4ff78d5da200b50ccb733f35fdef30626928f14817cfe9af6e15b2",
+  "integracion/validar_integracion.py": "107435df1c35fab654a665a256997dc0d52b22b6138c05d6667ead7398ddd494",
+  "mallas/conciliar_mallas_enf.py": "82d1a20beb01dd239bbe08f49174912c4810f209ea439fd1e1ee40c5e841fda7",
+  "techos/conexion_coord_cert.py": "e5776de970b72535ec7b72340604abfd9e8448479ea78dac4b714d870d273d61",
+  "techos/tarea_lote.py": "1fbe5cbc0525428788ac775f1a2e8c5e55b03079cb37a195b5ad997ed7bc0b40",
+  "techos/validar_coord_rec.py": "086ea05688d9eb520982cc3e57a01eb5b45b37f3bb9b77503f3c0a2822ed0864",
+  "techos/validar_lote.py": "070ae81d15119735369b08bf083e9ff3b7652ca99a2956547b9f290db4022ee4"
+ },
+ "etiqueta": "REPRODUCCION LIMPIA FAM08 NO OFICIAL",
+ "instalacion_identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+ "integracion": [
+  "ENF-ENSAMBLADO-INTEGRAL",
+  "ENF-CONCILIACION-INTEGRAL"
+ ],
+ "kind": "declaracion-ejecucion-limpia-fam08",
+ "manifiestos": {
+  "integracion": "b752249a446ce4f16a4c4d80e6608811787b9b99d0c6fd6aef6480a6ace10b85",
+  "mallas": "8ae8f1ca1d23bcb6fb5e9ac3eff3cbc7b2495f9fb2d40b22f583157ecd67e224",
+  "techos": "0b27b32abdfb4eaf0db11427a8a8bb93c7d4014c6c7acd1bdbfbe6e32d28b3ad"
+ },
+ "naturaleza": "PUERTA-v1: las puertas de producción del trabajador ABL-ENF y de la integración (alcance v3 verificado y decisión humana nativa) no se ejecutan ni se reconstruyen. El sha256 de este documento ocupa el campo alcance_sha256 que el trabajador escribe tras su puerta y el de la puerta de integración. No es un alcance ni una decisión; no autoriza producción oficial ni sustituye a los alcances históricos (5c64a6da… y 432e7052…, que solo se usan para cruzar huellas).",
+ "oficial": false,
+ "tareas": [
+  "L1-ELAST",
+  "ABL-ENF-T1",
+  "ABL-ENF-T2",
+  "ABL-ENF-T3",
+  "ABL-ENF-T4",
+  "ABL-ENF-T5",
+  "ABL-ENF-T6"
+ ]
+}

@@ -1,0 +1,260 @@
+{
+ "kind": "evidencia-b1-rem163",
+ "tarea": "B1-TRABAJO",
+ "modo": "produccion",
+ "sintetico": false,
+ "manifiesto_sha256": "1194923c273da998db23a83700dac1669693490d01f7fc52668ae39c105fe33e",
+ "alcance_sha256": "150d4b71b6343af63655e239d70f0ee9b920a31edd244c2514096ef18854797e",
+ "puerta_nativa": {
+  "proveedor": "claude",
+  "transcripcion": "@@TRANSCRIPCION_CLAUDE_BS2@@\\fa99d748-337c-44a7-8d1d-ca7ced1b9871.jsonl",
+  "linea": 31088,
+  "uuid": "1bb5809b-ff5d-41fc-a6a0-6191394f32c1",
+  "session_id": "fa99d748-337c-44a7-8d1d-ca7ced1b9871",
+  "timestamp": "2026-11-08T01:21:57.799Z",
+  "registro_sha256": "1d65a70c2a5bb928a72e28b969165ad83a9f0c1dfdabdd01d410a7ab58a48b80",
+  "contenido": "AUTORIZO ALCANCE PASO4 alcance_sha256=150d4b71b6343af63655e239d70f0ee9b920a31edd244c2514096ef18854797e",
+  "mensaje_sha256": "1d65a70c2a5bb928a72e28b969165ad83a9f0c1dfdabdd01d410a7ab58a48b80",
+  "alcance_sha256": "150d4b71b6343af63655e239d70f0ee9b920a31edd244c2514096ef18854797e",
+  "modo_arnes": false
+ },
+ "indice_sha256": "9244a279c4b5ede08b9a48b9f2f0ebe99a22ed91cd137b8ae24aa7ae4aa3f13d",
+ "inicio_utc": "2026-11-08T01:23:28.800334+00:00",
+ "raiz_binaria": {
+  "a": [
+   1.0999999999999999,
+   2.5
+  ],
+  "beta_tilde": [
+   0.25,
+   4.0
+  ],
+  "eta_d": [
+   0.09999999999999999,
+   4.0
+  ],
+  "eta_f": [
+   0.09999999999999999,
+   8.0
+  ],
+  "kappa_tilde": [
+   0.004999999999999999,
+   0.2
+  ],
+  "phi": [
+   0.0,
+   0.5
+  ],
+  "rho": [
+   0.39999999999999997,
+   1.0
+  ],
+  "u_theta": [
+   0.09999999999999999,
+   0.9
+  ],
+  "z_cost": [
+   1.0,
+   100.0
+  ]
+ },
+ "raiz_binaria_hex": {
+  "a": [
+   "0x1.1999999999999p+0",
+   "0x1.4000000000000p+1"
+  ],
+  "beta_tilde": [
+   "0x1.0000000000000p-2",
+   "0x1.0000000000000p+2"
+  ],
+  "eta_d": [
+   "0x1.9999999999999p-4",
+   "0x1.0000000000000p+2"
+  ],
+  "eta_f": [
+   "0x1.9999999999999p-4",
+   "0x1.0000000000000p+3"
+  ],
+  "kappa_tilde": [
+   "0x1.47ae147ae147ap-8",
+   "0x1.999999999999ap-3"
+  ],
+  "phi": [
+   "0x0.0p+0",
+   "0x1.0000000000000p-1"
+  ],
+  "rho": [
+   "0x1.9999999999999p-2",
+   "0x1.0000000000000p+0"
+  ],
+  "u_theta": [
+   "0x1.9999999999999p-4",
+   "0x1.ccccccccccccdp-1"
+  ],
+  "z_cost": [
+   "0x1.0000000000000p+0",
+   "0x1.9000000000000p+6"
+  ]
+ },
+ "fijos": {
+  "c_legal": 1.0,
+  "gamma": 1.0,
+  "t": 0.0,
+  "z_m": 1.0
+ },
+ "cotas": [
+  0.6000000000000001,
+  0.6000000000000001
+ ],
+ "cotas_hex": [
+  "0x1.3333333333334p-1",
+  "0x1.3333333333334p-1"
+ ],
+ "diseno": "G",
+ "j": "f",
+ "no_medido": [
+  "memoria de la solicitud",
+  "evaluaciones internas por caja",
+  "tiempo de importación separado del de la solicitud"
+ ],
+ "pieza": {
+  "tipo": "c0",
+  "ruta": "@@R_BS2@@\\tmp\\paso4_raices_impacto_desde_rem116\\candidato_c0\\instalacion\\src\\paper2b",
+  "identidad": {
+   "modulos": {
+    "paper2b": {
+     "archivo": "src/paper2b/__init__.py",
+     "sha256": "89f7210e7c118c83eec9d73323491e0d8c778b76d1297f703dfca2b86069c72a",
+     "registrado_es_el_cargado": true
+    },
+    "paper2b.c2_normalizado": {
+     "archivo": "src/paper2b/c2_normalizado.py",
+     "sha256": "31d247eeb0368a38aa90ea8c262e3ea55cdfa62d312fe68024969b54670ab785",
+     "registrado_es_el_cargado": true
+    },
+    "paper2b.cobertura": {
+     "archivo": "src/paper2b/cobertura.py",
+     "sha256": "d6be53db849fbfaa1d11c3213cc25a0f86a990ef6b3198e36e6b56607f5d9381",
+     "registrado_es_el_cargado": true
+    },
+    "paper2b.elementales": {
+     "archivo": "src/paper2b/elementales.py",
+     "sha256": "c71faf35370fa2329db69802f03f52d9bc72566a2d9fa50a9ca8dbea1eb6f82b",
+     "registrado_es_el_cargado": true
+    },
+    "paper2b.encierros_modelo": {
+     "archivo": "src/paper2b/encierros_modelo.py",
+     "sha256": "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53",
+     "registrado_es_el_cargado": true
+    },
+    "paper2b.frontier": {
+     "archivo": "src/paper2b/frontier.py",
+     "sha256": "709f51b21188ff8d4638d7eadf535dd3f8307f2e1ce995a49539fe7bfcd36ed2",
+     "registrado_es_el_cargado": true
+    },
+    "paper2b.intervalos": {
+     "archivo": "src/paper2b/intervalos.py",
+     "sha256": "2607d0cf3f879316c699ec4cd73021bff9ae8f680f7c7c01facb84dfb65aa891",
+     "registrado_es_el_cargado": true
+    },
+    "paper2b.model": {
+     "archivo": "src/paper2b/model.py",
+     "sha256": "b8541045ce2db793e3acfba5e84053edc185a7f8cdfc5c1b535d1452ebde9b04",
+     "registrado_es_el_cargado": true
+    },
+    "paper2b.modelos": {
+     "archivo": "src/paper2b/modelos.py",
+     "sha256": "7f0dd31cacf431fb421e2c5047aa5b750cbecfc1064e3374c4247dcd40c93fda",
+     "registrado_es_el_cargado": true
+    },
+    "paper2b.numeric": {
+     "archivo": "src/paper2b/numeric.py",
+     "sha256": "4b19f4cb45a637c3a3370ca95059bc4f94feb71649a9f54fd5ac8c33c941c98e",
+     "registrado_es_el_cargado": true
+    },
+    "paper2b.supremum": {
+     "archivo": "src/paper2b/supremum.py",
+     "sha256": "2c246c8be6d4437892cd951cc0acaaac6e5d8ea7a921de2e13f560caf8dfebbb",
+     "registrado_es_el_cargado": true
+    }
+   },
+   "meta_path": [
+    "BuiltinImporter",
+    "FrozenImporter",
+    "PathFinder"
+   ],
+   "precargados": [],
+   "fuente_bytes": "compilados desde los bytes autenticados"
+  },
+  "identidad_posterior": []
+ },
+ "plataforma": {
+  "garantia": "ieee754_binary64_rn",
+  "controles": {
+   "binary64": true,
+   "redondeo_al_mas_cercano_par": true,
+   "division_correcta": true,
+   "subnormales": true,
+   "nextafter": true
+  }
+ },
+ "configuracion_efectiva": {
+  "proveedor": "modelo_teorico_v2_2",
+  "param_budget_s": 3600.0,
+  "struct_tol": 0.0001,
+  "struct_max_boxes": 400,
+  "sup_max_boxes": 20000,
+  "jump_budget_modelo": 600,
+  "jump_budget_encierro": 0,
+  "certificado": true,
+  "garantia": "ieee754_binary64_rn"
+ },
+ "solicitud": {
+  "funcion": "paper2b.c2_normalizado.c2_normalizado",
+  "inicio_utc": "2026-11-08T01:23:28.974373+00:00",
+  "fin_utc": "2026-11-08T01:23:29.832035+00:00",
+  "pared_s": 0.858,
+  "contador": 1
+ },
+ "sup_bound": [
+  {
+   "instrument": "f",
+   "bar_d": 0.6000000000000001,
+   "bar_f": 0.6000000000000001,
+   "tol": 0.0692009464669117,
+   "max_boxes": 400,
+   "jump_budget": 0,
+   "otros": [],
+   "lower": -1.5e-323,
+   "upper": 0.17312398870886686,
+   "approx": 0.0,
+   "point": [
+    0.0,
+    0.0
+   ],
+   "boxes": 53,
+   "jump_live": false,
+   "live": 53
+  }
+ ],
+ "bloqueadas": {},
+ "prohibidas_cargadas": [],
+ "estadisticas": {
+  "normalizado": true,
+  "evaluaciones": 13860,
+  "segundos": 0.858
+ },
+ "intervalo_normalizado": {
+  "lo": -2e-323,
+  "hi": 0.17312398870886692,
+  "lo_hex": "-0x0.0000000000004p-1022",
+  "hi_hex": "0x1.628ed46d42e18p-3"
+ },
+ "U_C2": 0.17312398870886692,
+ "U_C2_hex": "0x1.628ed46d42e18p-3",
+ "parada_motor": "tolerancia_o_caja_no_refinable",
+ "precision_real": 0.17312398870886692,
+ "estado": "complete",
+ "motivo": null,
+ "fin_utc": "2026-11-08T01:23:29.832035+00:00"
+}

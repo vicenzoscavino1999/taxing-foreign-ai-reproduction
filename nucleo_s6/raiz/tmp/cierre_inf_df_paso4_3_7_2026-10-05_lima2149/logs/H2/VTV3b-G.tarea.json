@@ -1,0 +1,27 @@
+{
+ "cpu_usuario_s": 0.84375,
+ "cpu_nucleo_s": 0.15625,
+ "procesos_totales": 6,
+ "procesos_activos": 0,
+ "memoria_pico_job_mb": 31.4,
+ "memoria_pico_proceso_mb": 24.2,
+ "id": "VTV3b-G",
+ "comando": [
+  "bash",
+  "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149/../pilotos_b36_b37_2026-10-02/entorno/py_integracion.sh",
+  "-m",
+  "codigo.certificar_inf_df",
+  "validar",
+  "G",
+  "demo/hito2/validar_techo_v3_G.json",
+  "600"
+ ],
+ "cwd": "tmp/cierre_inf_df_paso4_3_7_2026-10-05_lima2149",
+ "limite_duro_s": 700.0,
+ "inicio_utc": "2026-10-06T03:02:02Z",
+ "pared_s": 1.1,
+ "codigo_salida": 1,
+ "estado": "FALLO",
+ "cpu_total_s": 1.0,
+ "cpu_por_pared": 0.91
+}

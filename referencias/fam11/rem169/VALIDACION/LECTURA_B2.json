@@ -1,0 +1,318 @@
+{
+ "kind": "lectura-b2-rem167",
+ "modo": "produccion",
+ "manifiesto_sha256": "0f1582cc3718f2f5545ab4a112d108d7e4d4639505dec4826d21d22045664d7b",
+ "alcance_sha256": "848e11532851b2e432557c0560c6514ee116844b9456660185b95d4f16599974",
+ "evidencia_sha256": "dfbe7e6cb7c1c2c97c408797ddb9634be9704ab91892fb3df349f2cc50b0f56d",
+ "indice_sha256": "5f7ec64bc4027aa9dd2893042622a027a480ba410474d01041938cb56295f9de",
+ "procedencia": {
+  "tipo": "lanzamiento",
+  "modo": "produccion",
+  "area": "@@R_BS2@@\\tmp\\paso4_produccion_b2_doce_cov_desde_rem169",
+  "lanzamiento": "B2PROD169",
+  "eventos_sha256": "1bbb39711e73c4cc2db24c976dabf0743fa9bfe9c36f40fdc4edca903045c9d3",
+  "evento_inicio_sha256": "b17e9ecd9d21cb86fb8f4bead77192be7155f5211f1399689a7c1f66c4f8c552",
+  "evento_fin_sha256": "1161d40227e4fdc6429356ab967183a678498e6ae1aa039061c11f5098105623",
+  "trabajo_id": "B2PROD169_TRABAJO",
+  "trabajo_dir": "@@R_BS2@@\\tmp\\paso4_produccion_b2_doce_cov_desde_rem169\\b2_B2PROD169\\TRABAJO",
+  "salida_trabajador_sha256": "964747c10f7c8d4108602e9b8790bd14513ad5e2a988a1e8ca9712c59acf9dff",
+  "evidencia_sha256": "dfbe7e6cb7c1c2c97c408797ddb9634be9704ab91892fb3df349f2cc50b0f56d",
+  "validacion_id": "B2PROD169_VALIDACION"
+ },
+ "datos_validados": {
+  "grupos": {
+   "K1": {
+    "contextos": 192,
+    "pendientes": 0,
+    "L_K1": 0.21560005716016342,
+    "L_K1_hex": "0x1.b98c85d42628dp-3",
+    "minimo_parcial_hex": "0x1.b98c85d42628dp-3"
+   },
+   "K2": {
+    "contextos": 192,
+    "pendientes": 0,
+    "L_K1": 0.21521705657251128,
+    "L_K1_hex": "0x1.b8c3b85c299c6p-3",
+    "minimo_parcial_hex": "0x1.b8c3b85c299c6p-3"
+   },
+   "K3": {
+    "contextos": 864,
+    "pendientes": 0,
+    "L_K1": 0.2137950304234,
+    "L_K1_hex": "0x1.b5da2b3dba041p-3",
+    "minimo_parcial_hex": "0x1.b5da2b3dba041p-3"
+   },
+   "K4": {
+    "contextos": 864,
+    "pendientes": 0,
+    "L_K1": 0.2134152363576292,
+    "L_K1_hex": "0x1.b5130c24fe36ap-3",
+    "minimo_parcial_hex": "0x1.b5130c24fe36ap-3"
+   },
+   "K5": {
+    "contextos": 96,
+    "pendientes": 0,
+    "L_K1": 0.21560005716016342,
+    "L_K1_hex": "0x1.b98c85d42628dp-3",
+    "minimo_parcial_hex": "0x1.b98c85d42628dp-3"
+   },
+   "K6": {
+    "contextos": 96,
+    "pendientes": 0,
+    "L_K1": 0.21521705657251128,
+    "L_K1_hex": "0x1.b8c3b85c299c6p-3",
+    "minimo_parcial_hex": "0x1.b8c3b85c299c6p-3"
+   }
+  },
+  "U_C2": 0.17312398870886692,
+  "holgura_relativa_max_k1": 1.3217340403513923e-15,
+  "contextos_acotados": 1920,
+  "contextos_pendientes": 0,
+  "n_min": {
+   "addback_completo": {
+    "lo": 0.027020331240602217,
+    "hi": 0.02702033124060222,
+    "lo_hex": "0x1.bab37bc059ae1p-6",
+    "hi_hex": "0x1.bab37bc059ae2p-6",
+    "exacto": "67550828101505543/2500000000000000000",
+    "float_c0_hex": "0x1.bab37bc059ae1p-6",
+    "dme": "0.0",
+    "signo": "positivo"
+   },
+   "sin_addback": {
+    "lo": 0.02697233124060213,
+    "hi": 0.026972331240602134,
+    "lo_hex": "0x1.b9ea2824d1256p-6",
+    "hi_hex": "0x1.b9ea2824d1257p-6",
+    "exacto": "269723312406021323/10000000000000000000",
+    "float_c0_hex": "0x1.b9ea2824d1256p-6",
+    "dme": "0.0",
+    "signo": "positivo"
+   }
+  }
+ },
+ "lectura": {
+  "valida": true,
+  "eps": "1/100",
+  "U_C2": 0.17312398870886692,
+  "grupos": [
+   {
+    "grupo": "K1",
+    "cota": "addback_completo",
+    "L_K1": 0.21560005716016342,
+    "L_K1_hex": "0x1.b98c85d42628dp-3",
+    "U_C2": 0.17312398870886692,
+    "U_C2_hex": "0x1.628ed46d42e18p-3",
+    "G_hi_exacto": "-1530361648395381/36028797018963968",
+    "comparacion": "<=",
+    "lectura": "certifica_G_negativo",
+    "pendientes": 0,
+    "significado": "U_C2 - L_K1 <= -1/100: g.hi <= -eps en todo el dominio COV del grupo (lectura 'infeasible' de cobertura.classify); la categoria la decide el revisor",
+    "afirmaciones": [
+     "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+     "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+    ]
+   },
+   {
+    "grupo": "K2",
+    "cota": "sin_addback",
+    "L_K1": 0.21521705657251128,
+    "L_K1_hex": "0x1.b8c3b85c299c6p-3",
+    "U_C2": 0.17312398870886692,
+    "U_C2_hex": "0x1.628ed46d42e18p-3",
+    "G_hi_exacto": "-758281298982359/18014398509481984",
+    "comparacion": "<=",
+    "lectura": "certifica_G_negativo",
+    "pendientes": 0,
+    "significado": "U_C2 - L_K1 <= -1/100: g.hi <= -eps en todo el dominio COV del grupo (lectura 'infeasible' de cobertura.classify); la categoria la decide el revisor",
+    "afirmaciones": [
+     "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+     "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+    ]
+   },
+   {
+    "grupo": "K3",
+    "cota": "addback_completo",
+    "L_K1": 0.2137950304234,
+    "L_K1_hex": "0x1.b5da2b3dba041p-3",
+    "U_C2": 0.17312398870886692,
+    "U_C2_hex": "0x1.628ed46d42e18p-3",
+    "G_hi_exacto": "-1465328706482729/36028797018963968",
+    "comparacion": "<=",
+    "lectura": "certifica_G_negativo",
+    "pendientes": 0,
+    "significado": "U_C2 - L_K1 <= -1/100: g.hi <= -eps en todo el dominio COV del grupo (lectura 'infeasible' de cobertura.classify); la categoria la decide el revisor",
+    "afirmaciones": [
+     "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+     "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+    ]
+   },
+   {
+    "grupo": "K4",
+    "cota": "sin_addback",
+    "L_K1": 0.2134152363576292,
+    "L_K1_hex": "0x1.b5130c24fe36ap-3",
+    "U_C2": 0.17312398870886692,
+    "U_C2_hex": "0x1.628ed46d42e18p-3",
+    "G_hi_exacto": "-725822591589033/18014398509481984",
+    "comparacion": "<=",
+    "lectura": "certifica_G_negativo",
+    "pendientes": 0,
+    "significado": "U_C2 - L_K1 <= -1/100: g.hi <= -eps en todo el dominio COV del grupo (lectura 'infeasible' de cobertura.classify); la categoria la decide el revisor",
+    "afirmaciones": [
+     "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+     "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+    ]
+   },
+   {
+    "grupo": "K5",
+    "cota": "addback_completo",
+    "L_K1": 0.21560005716016342,
+    "L_K1_hex": "0x1.b98c85d42628dp-3",
+    "U_C2": 0.17312398870886692,
+    "U_C2_hex": "0x1.628ed46d42e18p-3",
+    "G_hi_exacto": "-1530361648395381/36028797018963968",
+    "comparacion": "<=",
+    "lectura": "certifica_G_negativo",
+    "pendientes": 0,
+    "significado": "U_C2 - L_K1 <= -1/100: g.hi <= -eps en todo el dominio COV del grupo (lectura 'infeasible' de cobertura.classify); la categoria la decide el revisor",
+    "afirmaciones": [
+     "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+     "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+    ]
+   },
+   {
+    "grupo": "K6",
+    "cota": "sin_addback",
+    "L_K1": 0.21521705657251128,
+    "L_K1_hex": "0x1.b8c3b85c299c6p-3",
+    "U_C2": 0.17312398870886692,
+    "U_C2_hex": "0x1.628ed46d42e18p-3",
+    "G_hi_exacto": "-758281298982359/18014398509481984",
+    "comparacion": "<=",
+    "lectura": "certifica_G_negativo",
+    "pendientes": 0,
+    "significado": "U_C2 - L_K1 <= -1/100: g.hi <= -eps en todo el dominio COV del grupo (lectura 'infeasible' de cobertura.classify); la categoria la decide el revisor",
+    "afirmaciones": [
+     "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+     "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+    ]
+   }
+  ],
+  "afirmaciones": [
+   {
+    "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+    "grupo": "K1",
+    "lectura": "certifica_G_negativo",
+    "estado_cientifico": "desconocida (sin cambio)"
+   },
+   {
+    "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+    "grupo": "K2",
+    "lectura": "certifica_G_negativo",
+    "estado_cientifico": "desconocida (sin cambio)"
+   },
+   {
+    "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+    "grupo": "K1",
+    "lectura": "certifica_G_negativo",
+    "estado_cientifico": "desconocida (sin cambio)"
+   },
+   {
+    "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+    "grupo": "K2",
+    "lectura": "certifica_G_negativo",
+    "estado_cientifico": "desconocida (sin cambio)"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+    "grupo": "K3",
+    "lectura": "certifica_G_negativo",
+    "estado_cientifico": "desconocida (sin cambio)"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+    "grupo": "K4",
+    "lectura": "certifica_G_negativo",
+    "estado_cientifico": "desconocida (sin cambio)"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+    "grupo": "K3",
+    "lectura": "certifica_G_negativo",
+    "estado_cientifico": "desconocida (sin cambio)"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+    "grupo": "K4",
+    "lectura": "certifica_G_negativo",
+    "estado_cientifico": "desconocida (sin cambio)"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+    "grupo": "K5",
+    "lectura": "certifica_G_negativo",
+    "estado_cientifico": "desconocida (sin cambio)"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+    "grupo": "K6",
+    "lectura": "certifica_G_negativo",
+    "estado_cientifico": "desconocida (sin cambio)"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+    "grupo": "K5",
+    "lectura": "certifica_G_negativo",
+    "estado_cientifico": "desconocida (sin cambio)"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+    "grupo": "K6",
+    "lectura": "certifica_G_negativo",
+    "estado_cientifico": "desconocida (sin cambio)"
+   }
+  ],
+  "no_clasifica": true,
+  "no_robustez": true,
+  "K1_testigo_no_usado": true,
+  "N3A_no_adoptada": true
+ },
+ "conciliacion": {
+  "conforme": true,
+  "fallos": [],
+  "comprobaciones": {
+   "inclusiones": 4,
+   "afirmaciones": 12,
+   "grupos": 6
+  }
+ },
+ "recuentos": {
+  "trabajo": {
+   "macro.bridge": 480,
+   "GridCell.Q": 60,
+   "Q_exacto": 60,
+   "k1_intervalar": 1920,
+   "contextos_pendientes": 0,
+   "C2": 0,
+   "modelo": 0,
+   "supremos": 0,
+   "claim_contexts": 0
+  },
+  "validacion": {
+   "s_Pi_exacto": 480,
+   "Q_exacto": 60,
+   "Q_float_replica": 60,
+   "k1_intervalar": 1920,
+   "k1_referencia_exacta": 1920,
+   "macro.bridge": 0,
+   "GridCell.Q": 0,
+   "bloqueadas": {}
+  },
+  "conciliacion": {
+   "inclusiones": 4,
+   "afirmaciones": 12,
+   "grupos": 6
+  }
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "kind": "prerregistro-E1-i2-rem107",
+ "registrado_utc": "2026-10-28T23:40:49.246083+00:00",
+ "base": "prerregistro_E1235.json (9f9846e7…)",
+ "fijado_tras_observar_i1": true,
+ "metodo": "cocientes unilaterales D(h) con h=2^-8..2^-18 (los mismos de i1); tabla de Romberg de 3 niveles (elimina O(h), O(h²), O(h³)) con h_min=2^-18",
+ "criterios": {
+  "B_f0": "igualdad exacta (como i1)",
+  "tasa_O_h": "el cociente entre dispersiones relativas sucesivas (h→h/2) está en [0.45, 0.55] para todo h: el desacuerdo entre η_f desaparece linealmente",
+  "romberg": 1e-08,
+  "razon_romberg": "resto O(h³) + amplificación del redondeo (≈3·ε·|R|/h) con h≈2^-15..2^-18: cota prudente 1e-8 relativa"
+ }
+}

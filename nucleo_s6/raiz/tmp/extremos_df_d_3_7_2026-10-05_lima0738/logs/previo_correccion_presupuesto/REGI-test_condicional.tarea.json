@@ -1,0 +1,26 @@
+{
+ "cpu_usuario_s": 0.40625,
+ "cpu_nucleo_s": 0.203125,
+ "procesos_totales": 6,
+ "procesos_activos": 0,
+ "memoria_pico_job_mb": 32.0,
+ "memoria_pico_proceso_mb": 24.8,
+ "id": "REGI-test_condicional",
+ "comando": [
+  "bash",
+  "tmp/extremos_df_d_3_7_2026-10-05_lima0738/../pilotos_b36_b37_2026-10-02/entorno/py_integracion.sh",
+  "-m",
+  "codigo.regresion",
+  "integracion",
+  "demo/regresion/integracion_test_condicional.json",
+  "test_condicional"
+ ],
+ "cwd": "tmp/extremos_df_d_3_7_2026-10-05_lima0738",
+ "limite_duro_s": 3600.0,
+ "inicio_utc": "2026-10-05T14:46:59Z",
+ "pared_s": 0.7,
+ "codigo_salida": 0,
+ "estado": "TERMINO",
+ "cpu_total_s": 0.6,
+ "cpu_por_pared": 0.86
+}

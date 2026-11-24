@@ -1,0 +1,800 @@
+{
+ "descripcion": "Relación de piezas de FAM07 (COORD del lote 2: seis techos certificados recalculados, 20 reutilizados, ensamblado de 1.532 comparaciones y 192 previas aparte) y su origen (tmp: = carpeta de entregas históricas del proyecto). Las ubicaciones de origen solo sirven para localizar; ninguna se usa al ejecutar. Todas son copias exactas y ninguna contiene rutas absolutas (ENSAMBLADO.json de referencia es la proyección del catálogo). Código en nucleo_s6/coord, entradas en datos/fam07, referencias (solo para comparar; las tres tareas guardadas son también las entradas de la regeneración del ensamblado) en referencias/fam07. El núcleo C0, el manifiesto del lote 2, las fuentes rem112 y el manifiesto del lote 1, y las filas padre de las 30 celdas afectadas son los de FAM05, FAM04 y FAM01 y se declaran en «reutilizados».",
+ "herramienta": {
+  "archivo": "extraccion/extraer_fam07.py",
+  "sha256": "2c07771de07223e8c993937438ea9d6e46c18e9fb77dd5d5ae76a069bfa9b4a4"
+ },
+ "archivos": [
+  {
+   "archivo": "nucleo_s6/coord/tarea_lote.py",
+   "origen": "tmp/paso4_ensamblado_coord_desde_rem123/lote_rec/tarea_lote.py (= objeto del catálogo objetos/ffd44b60534922410fbbb99c7c68064ffc84b7e7b467d9b30510cbd06e852ed4/tarea_lote.py)",
+   "sha256": "ffd44b60534922410fbbb99c7c68064ffc84b7e7b467d9b30510cbd06e852ed4",
+   "papel": "código U20: trabajador de la recuperación COORD (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/coord/conexion_coord_cert.py",
+   "origen": "tmp/paso4_ensamblado_coord_desde_rem123/lote_rec/conexion_coord_cert.py (= objeto del catálogo objetos/e5776de970b72535ec7b72340604abfd9e8448479ea78dac4b714d870d273d61/conexion_coord_cert.py)",
+   "sha256": "e5776de970b72535ec7b72340604abfd9e8448479ea78dac4b714d870d273d61",
+   "papel": "código U20: conexión certificada (model.capture_ceiling de RUN.provider_for; nunca frontier.capture_ceiling) (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/coord/ensamblar_coord.py",
+   "origen": "tmp/paso4_ensamblado_coord_desde_rem123/lote_rec/ensamblar_coord.py (= objeto del catálogo objetos/fcb4046962a930aea76495a59bee861882336df4cd97686c8ad0c59607825793/ensamblar_coord.py)",
+   "sha256": "fcb4046962a930aea76495a59bee861882336df4cd97686c8ad0c59607825793",
+   "papel": "código U20: ensamblador de las 1.532 comparaciones (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/coord/validar_lote.py",
+   "origen": "tmp/paso4_ensamblado_coord_desde_rem123/lote_rec/validar_lote.py (= objeto del catálogo objetos/070ae81d15119735369b08bf083e9ff3b7652ca99a2956547b9f290db4022ee4/validar_lote.py)",
+   "sha256": "070ae81d15119735369b08bf083e9ff3b7652ca99a2956547b9f290db4022ee4",
+   "papel": "código U21: validador de tarea COORD (copia exacta)"
+  },
+  {
+   "archivo": "nucleo_s6/coord/validar_coord_rec.py",
+   "origen": "tmp/paso4_ensamblado_coord_desde_rem123/lote_rec/validar_coord_rec.py (= objeto del catálogo objetos/cc83b778cfc4d7f56417084cb9222a4c40d8c097138eaf519aedf94ee37fa0a8/validar_coord_rec.py)",
+   "sha256": "cc83b778cfc4d7f56417084cb9222a4c40d8c097138eaf519aedf94ee37fa0a8",
+   "papel": "código U21: validación COORD de recuperación (techos, reutilizados, ensamblado) (copia exacta)"
+  },
+  {
+   "archivo": "datos/fam07/MANIFIESTO_COORD_REC_B.json",
+   "origen": "tmp/paso4_ensamblado_coord_desde_rem123/lote_rec/MANIFIESTO_COORD_REC_B.json (= objeto del catálogo)",
+   "sha256": "108bf2edc0261769e3f8a3d962c12610c9045b5898dfbfe70409607c278979e6",
+   "papel": "entrada: manifiesto de la recuperación COORD variante B (26 claves, partición R1/R2/R3, 30 celdas afectadas, fuentes de los reutilizados, motor y configuración certificada)"
+  },
+  {
+   "archivo": "datos/fam07/COBERTURA_COORD_REC_B.json",
+   "origen": "tmp/paso4_ensamblado_coord_desde_rem123/lote_rec/COBERTURA_COORD_REC_B.json",
+   "sha256": "a4d8c58e7dcf3403b388737ba0e2bfc75055673af374ea21c20d64626c72260e",
+   "papel": "entrada: anexo ligado al manifiesto B (sin conjuntos); lo exige el ensamblador"
+  },
+  {
+   "archivo": "datos/fam07/PAQUETE_COORD_REC.json",
+   "origen": "tmp/paso4_ensamblado_coord_desde_rem123/lote_rec/PAQUETE_COORD_REC.json (= objeto del catálogo)",
+   "sha256": "644876a1aba23e9c5214dc01fccd9b5dc2bf06a699cb058ec7d109f46897f042",
+   "papel": "documento: índice del paquete lote_rec (cruza huellas de piezas, núcleo y fuentes)"
+  },
+  {
+   "archivo": "datos/fam07/alcance_coord_rec_B.json",
+   "origen": "tmp/paso4_coord_b_desde_rem124/alcance/alcance_coord_rec_B.json (= objeto del catálogo)",
+   "sha256": "0555825f50439fcf0b7c9cdafe011c2570fe017c23c416576a7ab5052c3af227",
+   "papel": "documento de autoridad (solo procedencia: fija manifiesto, código e instalación; NO es una puerta: la decisión humana no se copia ni se reconstruye y la ejecución limpia no usa su huella)"
+  },
+  {
+   "archivo": "datos/fam07/rem120/L1-COORD/salida/coord_techos.jsonl",
+   "origen": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-COORD/salida/coord_techos.jsonl",
+   "sha256": "f6d24054583baa6919641385527e31ff206c3de20a6469b3d79d763348cde4dd",
+   "papel": "entrada histórica (fuente autenticada por el manifiesto: rem120_coord_techos): 8 techos reutilizados de rem120"
+  },
+  {
+   "archivo": "datos/fam07/rem120/L1-COORD/salida/coord_comparacion.jsonl",
+   "origen": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-COORD/salida/coord_comparacion.jsonl",
+   "sha256": "6b6baca8e8346837b758b713e1fb24e8e1cc1d95511c68da8645455e70c18bad",
+   "papel": "entrada histórica (fuente autenticada por el manifiesto: rem120_coord_comparacion): el ensamblado coteja con ella las filas de claves reutilizadas"
+  },
+  {
+   "archivo": "datos/fam07/pilotos.json",
+   "origen": "nuevo: src/fam07.py (fam07-listar)",
+   "sha256": "2cec212a357c2b1be43e1d1c69f83da2ae0a59e0376f21de808727150bc2d696",
+   "papel": "dato nuevo de la base limpia (sin resultados)"
+  },
+  {
+   "archivo": "datos/fam07/ejecucion_limpia.json",
+   "origen": "nuevo: src/fam07.py (fam07-listar)",
+   "sha256": "717cd955df1e855d57c4d05675b756441387511cd22a29c44b7e2b988a116dca",
+   "papel": "dato nuevo de la base limpia: declaración de ejecución limpia NO OFICIAL (PUERTA-v1); su sha256 ocupa alcance_sha256"
+  },
+  {
+   "archivo": "referencias/fam07/rem124/L1-COORD-R1/resultado.json",
+   "origen": "tmp/paso4_coord_b_desde_rem124/coord_rec_B_REM124_COORD_B/L1-COORD-R1/resultado.json (= objeto del catálogo objetos/b0985048096b0f8982287fe333ae623e2f91f03b1dae91c85d63d40fc64f0617/resultado.json)",
+   "sha256": "b0985048096b0f8982287fe333ae623e2f91f03b1dae91c85d63d40fc64f0617",
+   "papel": "referencia: resultado.json de la tarea aceptada L1-COORD-R1 (rem124; solo para comparar y, como tarea guardada, entrada de la regeneración del ensamblado)"
+  },
+  {
+   "archivo": "referencias/fam07/rem124/L1-COORD-R1/salida/coord_techos_rec.jsonl",
+   "origen": "tmp/paso4_coord_b_desde_rem124/coord_rec_B_REM124_COORD_B/L1-COORD-R1/salida/coord_techos_rec.jsonl (= objeto del catálogo objetos/fc31df89db2859d284246722641ca608fd23ab7abbdc8b25719aa1b0c2236654/coord_techos_rec.jsonl)",
+   "sha256": "fc31df89db2859d284246722641ca608fd23ab7abbdc8b25719aa1b0c2236654",
+   "papel": "referencia: salida/coord_techos_rec.jsonl de la tarea aceptada L1-COORD-R1 (rem124; solo para comparar y, como tarea guardada, entrada de la regeneración del ensamblado)"
+  },
+  {
+   "archivo": "referencias/fam07/rem124/L1-COORD-R1/salida/coord_comparacion_rec.jsonl",
+   "origen": "tmp/paso4_coord_b_desde_rem124/coord_rec_B_REM124_COORD_B/L1-COORD-R1/salida/coord_comparacion_rec.jsonl (= objeto del catálogo objetos/711d6211b4a51d310ab2105bc72a87c408ec3ef1a195153f960353985b66b40a/coord_comparacion_rec.jsonl)",
+   "sha256": "711d6211b4a51d310ab2105bc72a87c408ec3ef1a195153f960353985b66b40a",
+   "papel": "referencia: salida/coord_comparacion_rec.jsonl de la tarea aceptada L1-COORD-R1 (rem124; solo para comparar y, como tarea guardada, entrada de la regeneración del ensamblado)"
+  },
+  {
+   "archivo": "referencias/fam07/rem124/L1-COORD-R1/validacion_stdout.txt",
+   "origen": "tmp/paso4_coord_b_desde_rem124/coord_rec_B_REM124_COORD_B/L1-COORD-R1/validacion_stdout.txt",
+   "sha256": "e805fc85b215d4c9eab76e0278939d603d9c2ccd24389f8545cba95ae60f0225",
+   "papel": "referencia: validacion_stdout.txt de la tarea aceptada L1-COORD-R1 (rem124; solo para comparar y, como tarea guardada, entrada de la regeneración del ensamblado)"
+  },
+  {
+   "archivo": "referencias/fam07/rem124/L1-COORD-R1/trabajo_stdout.txt",
+   "origen": "tmp/paso4_coord_b_desde_rem124/coord_rec_B_REM124_COORD_B/L1-COORD-R1/trabajo_stdout.txt",
+   "sha256": "ae1d13622026e131d1fb476ebf2410cd0f0349caa28cf04d5fab757ca50ab2f9",
+   "papel": "referencia: trabajo_stdout.txt de la tarea aceptada L1-COORD-R1 (rem124; solo para comparar y, como tarea guardada, entrada de la regeneración del ensamblado)"
+  },
+  {
+   "archivo": "referencias/fam07/rem124/L1-COORD-R2/resultado.json",
+   "origen": "tmp/paso4_coord_b_desde_rem124/coord_rec_B_REM124_COORD_B/L1-COORD-R2/resultado.json (= objeto del catálogo objetos/d347d884d02452074395b798be3cc9701fa47f716e9d44b29015140c3afedec3/resultado.json)",
+   "sha256": "d347d884d02452074395b798be3cc9701fa47f716e9d44b29015140c3afedec3",
+   "papel": "referencia: resultado.json de la tarea aceptada L1-COORD-R2 (rem124; solo para comparar y, como tarea guardada, entrada de la regeneración del ensamblado)"
+  },
+  {
+   "archivo": "referencias/fam07/rem124/L1-COORD-R2/salida/coord_techos_rec.jsonl",
+   "origen": "tmp/paso4_coord_b_desde_rem124/coord_rec_B_REM124_COORD_B/L1-COORD-R2/salida/coord_techos_rec.jsonl (= objeto del catálogo objetos/ee736350e0ddb508e15db7d4a7887fbbc7fa30efea34774f79430728488fb395/coord_techos_rec.jsonl)",
+   "sha256": "ee736350e0ddb508e15db7d4a7887fbbc7fa30efea34774f79430728488fb395",
+   "papel": "referencia: salida/coord_techos_rec.jsonl de la tarea aceptada L1-COORD-R2 (rem124; solo para comparar y, como tarea guardada, entrada de la regeneración del ensamblado)"
+  },
+  {
+   "archivo": "referencias/fam07/rem124/L1-COORD-R2/salida/coord_comparacion_rec.jsonl",
+   "origen": "tmp/paso4_coord_b_desde_rem124/coord_rec_B_REM124_COORD_B/L1-COORD-R2/salida/coord_comparacion_rec.jsonl (= objeto del catálogo objetos/afaaa73a955e5183b157ce839c3f3b1b38af84af6486be0db574bf1bc2ea214e/coord_comparacion_rec.jsonl)",
+   "sha256": "afaaa73a955e5183b157ce839c3f3b1b38af84af6486be0db574bf1bc2ea214e",
+   "papel": "referencia: salida/coord_comparacion_rec.jsonl de la tarea aceptada L1-COORD-R2 (rem124; solo para comparar y, como tarea guardada, entrada de la regeneración del ensamblado)"
+  },
+  {
+   "archivo": "referencias/fam07/rem124/L1-COORD-R2/validacion_stdout.txt",
+   "origen": "tmp/paso4_coord_b_desde_rem124/coord_rec_B_REM124_COORD_B/L1-COORD-R2/validacion_stdout.txt",
+   "sha256": "75a1bfe7e3442cc2f3e00373603eb02a408c912d28da0d3727828310032d6b04",
+   "papel": "referencia: validacion_stdout.txt de la tarea aceptada L1-COORD-R2 (rem124; solo para comparar y, como tarea guardada, entrada de la regeneración del ensamblado)"
+  },
+  {
+   "archivo": "referencias/fam07/rem124/L1-COORD-R2/trabajo_stdout.txt",
+   "origen": "tmp/paso4_coord_b_desde_rem124/coord_rec_B_REM124_COORD_B/L1-COORD-R2/trabajo_stdout.txt",
+   "sha256": "6daa6938c7fa6a7107c74994ef8f290b66d9e3e69c002c3727a615b0eaa22deb",
+   "papel": "referencia: trabajo_stdout.txt de la tarea aceptada L1-COORD-R2 (rem124; solo para comparar y, como tarea guardada, entrada de la regeneración del ensamblado)"
+  },
+  {
+   "archivo": "referencias/fam07/rem124/L1-COORD-R3/resultado.json",
+   "origen": "tmp/paso4_coord_b_desde_rem124/coord_rec_B_REM124_COORD_B/L1-COORD-R3/resultado.json (= objeto del catálogo objetos/597ea1317497aafb3fd845e1a79e06d748c60d961971e11e9a85ce3e254bdc96/resultado.json)",
+   "sha256": "597ea1317497aafb3fd845e1a79e06d748c60d961971e11e9a85ce3e254bdc96",
+   "papel": "referencia: resultado.json de la tarea aceptada L1-COORD-R3 (rem124; solo para comparar y, como tarea guardada, entrada de la regeneración del ensamblado)"
+  },
+  {
+   "archivo": "referencias/fam07/rem124/L1-COORD-R3/salida/coord_techos_rec.jsonl",
+   "origen": "tmp/paso4_coord_b_desde_rem124/coord_rec_B_REM124_COORD_B/L1-COORD-R3/salida/coord_techos_rec.jsonl (= objeto del catálogo objetos/b5ca52f9c765a9b187cbb67fee7987674377d6d77c4431458c1faac8ff9e9afa/coord_techos_rec.jsonl)",
+   "sha256": "b5ca52f9c765a9b187cbb67fee7987674377d6d77c4431458c1faac8ff9e9afa",
+   "papel": "referencia: salida/coord_techos_rec.jsonl de la tarea aceptada L1-COORD-R3 (rem124; solo para comparar y, como tarea guardada, entrada de la regeneración del ensamblado)"
+  },
+  {
+   "archivo": "referencias/fam07/rem124/L1-COORD-R3/salida/coord_comparacion_rec.jsonl",
+   "origen": "tmp/paso4_coord_b_desde_rem124/coord_rec_B_REM124_COORD_B/L1-COORD-R3/salida/coord_comparacion_rec.jsonl (= objeto del catálogo objetos/5cfa53b9d14888b80aa72848bd52296a6113d315b7dde311f972e94dcab832b8/coord_comparacion_rec.jsonl)",
+   "sha256": "5cfa53b9d14888b80aa72848bd52296a6113d315b7dde311f972e94dcab832b8",
+   "papel": "referencia: salida/coord_comparacion_rec.jsonl de la tarea aceptada L1-COORD-R3 (rem124; solo para comparar y, como tarea guardada, entrada de la regeneración del ensamblado)"
+  },
+  {
+   "archivo": "referencias/fam07/rem124/L1-COORD-R3/validacion_stdout.txt",
+   "origen": "tmp/paso4_coord_b_desde_rem124/coord_rec_B_REM124_COORD_B/L1-COORD-R3/validacion_stdout.txt",
+   "sha256": "44bd18c418a0857b1cff7b4c88a18f7d3082786a11d4af399c5b3274f18fc557",
+   "papel": "referencia: validacion_stdout.txt de la tarea aceptada L1-COORD-R3 (rem124; solo para comparar y, como tarea guardada, entrada de la regeneración del ensamblado)"
+  },
+  {
+   "archivo": "referencias/fam07/rem124/L1-COORD-R3/trabajo_stdout.txt",
+   "origen": "tmp/paso4_coord_b_desde_rem124/coord_rec_B_REM124_COORD_B/L1-COORD-R3/trabajo_stdout.txt",
+   "sha256": "11d2f6ee5818d8ad57b6f95b4a7a0036b0e77a46d735c22b755552baf5060e82",
+   "papel": "referencia: trabajo_stdout.txt de la tarea aceptada L1-COORD-R3 (rem124; solo para comparar y, como tarea guardada, entrada de la regeneración del ensamblado)"
+  },
+  {
+   "archivo": "referencias/fam07/rem124/ENSAMBLADO/coord_comparacion_ensamblada.jsonl",
+   "origen": "tmp/paso4_coord_b_desde_rem124/coord_rec_B_REM124_COORD_B/ENSAMBLADO/coord_comparacion_ensamblada.jsonl (= objeto del catálogo)",
+   "sha256": "7e45e7e694255ee7d97491b6a0e06adbf509f18f81c33a0c750b4775616bf2e7",
+   "papel": "referencia: ENSAMBLADO/coord_comparacion_ensamblada.jsonl del ensamblado aceptado rem124 (solo para comparar; el ensamblado nunca la lee)"
+  },
+  {
+   "archivo": "referencias/fam07/rem124/ENSAMBLADO/coord_techos_ensamblados.jsonl",
+   "origen": "tmp/paso4_coord_b_desde_rem124/coord_rec_B_REM124_COORD_B/ENSAMBLADO/coord_techos_ensamblados.jsonl (= objeto del catálogo)",
+   "sha256": "f1889ee6d05fd102d3d1995d9e25fc2b7376af83130c252165225d2de42d6568",
+   "papel": "referencia: ENSAMBLADO/coord_techos_ensamblados.jsonl del ensamblado aceptado rem124 (solo para comparar; el ensamblado nunca la lee)"
+  },
+  {
+   "archivo": "referencias/fam07/rem124/ensamblado_stdout.txt",
+   "origen": "tmp/paso4_coord_b_desde_rem124/coord_rec_B_REM124_COORD_B/ensamblado_stdout.txt",
+   "sha256": "da472b730d24601c933d221d21469c32112acdf2d3efadd4ca15de909d845bf9",
+   "papel": "referencia: ensamblado_stdout.txt del ensamblado aceptado rem124 (solo para comparar; el ensamblado nunca la lee)"
+  },
+  {
+   "archivo": "referencias/fam07/rem124/ENSAMBLADO/ENSAMBLADO.json",
+   "origen": "tmp/correccion_procedencia_historica_exp8_desde_rem197/paquete/proyecciones/962be1dcbc53bbe189df0a0fd5105c7ea4712209821072f7194bd29b7e0e609e/ENSAMBLADO.json (proyección del catálogo de tmp/paso4_coord_b_desde_rem124/coord_rec_B_REM124_COORD_B/ENSAMBLADO/ENSAMBLADO.json, sha256 4ef5820dd8ccdccb15a84af402b2a7faaf70e95901efa5dde6e3e4ee3b3f8eae; marcador @@R_BS2@@ en lugar de la raíz)",
+   "sha256": "962be1dcbc53bbe189df0a0fd5105c7ea4712209821072f7194bd29b7e0e609e",
+   "papel": "referencia: ENSAMBLADO.json aceptado (proyección sin rutas; se compara salvo directorio y lanzamiento por tarea, que se muestran)"
+  }
+ ],
+ "reutilizados": [
+  {
+   "archivo": "datos/fam05/LOTE2_MANIFIESTO.json",
+   "sha256": "b1cf8af5eab8aa22c53ec279bd5660dbf57847b6be8f874c56af7d71f9cd4bab",
+   "papel": "entrada: manifiesto del lote 2 (fuente lote2_manifiesto del manifiesto B: 1.532 celdas L1-COORD y conjuntos fuera del lote)",
+   "declarada_en": "fuentes_fam05.json"
+  },
+  {
+   "archivo": "referencias/fam04/rem112/L1-COORD/salida/coord_techos.jsonl",
+   "sha256": "f3aa14936af061ecb3d924c2085baca5aa993445245661bc0588e7cc5c0faf10",
+   "papel": "entrada histórica (fuente rem112_coord_techos): 12 techos reutilizados del lote 1",
+   "declarada_en": "fuentes_fam04.json"
+  },
+  {
+   "archivo": "referencias/fam04/rem112/L1-COORD/salida/coord_comparacion.jsonl",
+   "sha256": "9de71ea11467bdedfe9584cc6eaf9bc325500fdb621c4d929d4739bc2820f999",
+   "papel": "F07-PREVIAS-192: las 192 comparaciones previas aceptadas (comparaciones_previas_aceptadas del manifiesto B)",
+   "declarada_en": "fuentes_fam04.json"
+  },
+  {
+   "archivo": "datos/fam04/LOTE1_MANIFIESTO.json",
+   "sha256": "19ecd7d3eb0e42a67d46678a6b447f064c8011a27361c8777330ddade9e8ebb9",
+   "papel": "F07-PREVIAS-192: celdas del lote 1 (K1, G padre y clave de las 192 previas)",
+   "declarada_en": "fuentes_fam04.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/4c1da6eeab8a93db6e1ba17a6bb5b330c666990b2263c6c236c12615388a2ff2_filas.json",
+   "sha256": "847881e8e7b1c8de4051ec3c280059e1bbfdfaff3816bd431056a8c6620d472b",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/619174f4b0d878db73a9eccbda3eba7328e141cac6a041fa2680adc7113cca39_filas.json",
+   "sha256": "b97b52631026a85542dc008eb7b42278603df68a36f4290ee5b59522c36cb02b",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/6c595e65e0397e83b8633df7528f9c11c99f52350a938e971b669a8f31a656ef_filas.json",
+   "sha256": "11d929a24e8488a7193ce442d984509503ee6df4136d47b9f5584a1ddc712a7c",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/7157afd0e8943f515a4815ccccd3d94b0eaff471345f281bde2096bf3a5b6abd_filas.json",
+   "sha256": "e01b442f15c1f7cd669dc10e0567825d5413def6d0b46d2ecd96d094779d762e",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/82ba9370ece0cd5ae47e90c60129249d8afe347cd6d8455e468005d54028ac6e_filas.json",
+   "sha256": "95721704cc2077afe32679cf8851e2bf7d0fde4a48b08ce77e09f3cba56e9139",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/a40db813199d0176cf67d3542a6abc8f0a165f868beaa017a79450d7dad94ada_filas.json",
+   "sha256": "f5ebb00caa47702e15c15a027c9160a67fc05c278933539da8c54fb7122960a8",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/c3491d60668cd12a03b6eb92ae13136fe135e5c12aeed4b04f482d8142ad1541_filas.json",
+   "sha256": "65045957411378fa9cf81c640749e797a16df3fd4769fadbbb98db59e7faca09",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/d2b1adbf46fde7f8fd625f8a8e921aeefcdb3e974e95bbd6e649370204497ee7_filas.json",
+   "sha256": "ed8a88e9070620aa60572abe5a7ed131ec0e53cbe56d1dc1638b3b54229a6029",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/f11a4d77003387337cb7eff2c19fecdb98db67b9d121feee998d59bb53f6a3ae_filas.json",
+   "sha256": "8dc16db8ae9b7ab4477f3530afa01a3e391be63e0562536be463153fab6ad080",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/f2f133d07b4b4e44945ba35f853af4a3deeb9111af53905f4d93bf20a8a5a2c7_filas.json",
+   "sha256": "4204708ce68f31c67b4ff115bd8a32f2b6aaafe61a581a1bef7f95fe86d6e38c",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/14ec82a1cacfeeb5987db76a76b581a60d8f596e6c77d2a6fb74882d3504f9db_filas.json",
+   "sha256": "46a8a3abe0c04d6e55272a4547b9697352df17a0b0894da50a5e96f906e92d67",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/18374566287cebbf8fa75c7d348420611b474a08fb675c145a33afeb32025df9_filas.json",
+   "sha256": "116202931dd65a45b6e3b6b5ef2fc9f3b686d3cd299792229d56414a7600c43c",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/255479cab2f5ad0ac45f6de26ef6098817b3028007d27cb232eb6911c39991ef_filas.json",
+   "sha256": "c793068a048706fb289a0822952228eda72b14b1a751893faebc40bc4f9672b1",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/31aa820eb6379a5a369146a62bf5d66ac941d515074e8c4a17d58bcb3ab41db5_filas.json",
+   "sha256": "c41b7f9e16fc8679d34c4f224ebfac0cc751be86f7d562c95bab0c48a70297be",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/6ddbd067d11c1658fcfc96e9b28a5d935a7142dc02d7c0f4e71eb368ffae3fc4_filas.json",
+   "sha256": "9d8c1291cf744aa9eedd731abfcc81cd253d45ecaf7bb8b6fba50c05ce9b5a9d",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/7fa3170f47322a38e23811e88778fe74fc826ed5bce93e0b4f31943c6198c642_filas.json",
+   "sha256": "0c2009c80ffdbf081e84a6cf14870515735f9e4920b3dad70ca1fbf9150ac974",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/8a28e3689c607d8828ff57ec1dbb657b2466df28f18f44874dcc7036f7c7736c_filas.json",
+   "sha256": "6b7d2d4241cc65f4f89842cb58e4163de936208dca32a3d4e26d0f5da99895f2",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/9fb9d56b909e47f40d103811356ac1537b6fd5b999e516fffbf446a493aa521b_filas.json",
+   "sha256": "2d43b1591e0ff59984d37479e6af2e25dc18316f07691d37f64ffa156b35e917",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/b7cb6ef747cb18e1554e8462930426cd2794a16a414ce88192c715680d507e6f_filas.json",
+   "sha256": "7d8a2a1cc307ebb29284d83172bda9b67e4dff7914192a024fb93aeb1e7ae6a7",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/c02617adc3c9973d2baf1bd3556cb310c34e73e8a561ded72d2cdebf0913b738_filas.json",
+   "sha256": "429deca9580bc7e3508fc73f92ff6745f96e3d2ccdc9a3becd0b618f1dbfd024",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/cb77bafeab6084aac3c471fd5a277a9b411d4928b96e6a12a48124c866fc479f_filas.json",
+   "sha256": "07fc12776fc90caef8dda4ca4109f3d30d025b2dba1b553f022ae842517522a8",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/e0032fc820e4dc94eae6f7fe39343a49e2c8545ad1015dd14b1387d239319c18_filas.json",
+   "sha256": "fd88af4fdc77a97e8a871d711f0c00936eced5307faa00c75bbc53ff87541145",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/51dc3e55a2151d7bd3f4f36f0840da144e72914e50f8ffc2c2396539792d247a_filas.json",
+   "sha256": "88eaea3b1396c48c2d6391bf435272e1823ab74b18dd65321b4509774b045acb",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/783df3d19d6eef7e4168f5ecb7ee3ef0974200df1765aea4d466679a90c86fd6_filas.json",
+   "sha256": "d4b4f2cdd73d41c3d44e09d00eb186103cc43e9f47cdfc0d56fe64e5bc107c93",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/d182c22595bceaf87a4daa3a7ee72dd2a8a7e588be7a32a18a485564808ab9de_filas.json",
+   "sha256": "dffb3d3dea89016141519f4e0562cff41ac7c34d265bb4813778f6f032918cf7",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/f17ab948b00e72a9addbe7b603eee9e457e49801d45f433f16f7cf92bdc8462b_filas.json",
+   "sha256": "0980ff66c49baf92ed0b3a95e714178bf715088c5d4583cae1ba79397842a28c",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/1261a4bd83d748327c21a2cf049faf15abf016bcee897c1e6a3faf75420282c3_filas.json",
+   "sha256": "7af87b0bdd78c5ee51a41f322cab92a629b924e4cc1d2ef503c6f928a0764c8a",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/242b5e3985bc520615cf350a9935900b10046c0297588871aa75c2c6d19dfb06_filas.json",
+   "sha256": "c0dff0e0ca0e7504c0f6291fa004e08f909c0b7669631287d2ae130b37ee1125",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/6a4bc4d9e6ff4f0bde054657237fcec06733a306707f8babea6c56e79a407171_filas.json",
+   "sha256": "a6633577485c161ffac229b330082c88fbd02d1b30da360720eb806232c8f8cb",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  },
+  {
+   "archivo": "referencias/fam01/originales/c15d197a4e921459b165f33dc0ff94b79cf5fdd7698c5be221f8d308da7e4e3e_filas.json",
+   "sha256": "80b5ec5a25b50b50f3f9a3c86b2e34976710b93395e5121b38d2a0838fdca581",
+   "papel": "fila padre de una celda afectada (K1 y G padre; se autentica sin cálculo)",
+   "declarada_en": "fuentes_fam01.json"
+  }
+ ],
+ "nucleo_c0": {
+  "identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+  "archivos_copiados": 37,
+  "declarado_en": "fuentes_fam05.json (nucleo_c0)",
+  "nota": "el mismo núcleo C0 auténtico de FAM05/FAM06; no se copia otro"
+ },
+ "manifiesto": {
+  "claves": 26,
+  "recalculadas": 6,
+  "reutilizadas": 20,
+  "tareas": {
+   "L1-COORD-R1": [
+    "141cd6fb73fd5f82",
+    "6f8e6a5a9bb213af"
+   ],
+   "L1-COORD-R2": [
+    "417758d2de6c36a4",
+    "b7942a4fa1116665"
+   ],
+   "L1-COORD-R3": [
+    "ee2fad1eefdcb23d",
+    "8ea5c3c2e761a339"
+   ]
+  },
+  "celdas_afectadas": 30,
+  "celdas_total": 1532,
+  "previas": 192
+ },
+ "libro_rem125": {
+  "presente": true,
+  "archivo": "review_20261030_rem125_COORD_aceptada.json",
+  "sha256": "60c40537c363f76ee41452ad82a9384255a8d9590592c9ce012e130a19d639a3",
+  "kind": "ledger-aceptacion-COORD-recuperacion-rem125",
+  "uso": "solo fuente de extracción (recuentos y huellas); nunca dependencia de ejecución; sin rutas, transcripciones ni referencia de la decisión",
+  "manifiesto_sha256": "108bf2edc0261769e3f8a3d962c12610c9045b5898dfbfe70409607c278979e6",
+  "indice_del_paquete_sha256": "644876a1aba23e9c5214dc01fccd9b5dc2bf06a699cb058ec7d109f46897f042",
+  "variante": "B",
+  "identidad_c0": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+  "alcance_de_la_decision_sha256": "0555825f50439fcf0b7c9cdafe011c2570fe017c23c416576a7ab5052c3af227",
+  "tareas": {
+   "L1-COORD-R1": {
+    "resultado_sha256": "b0985048096b0f8982287fe333ae623e2f91f03b1dae91c85d63d40fc64f0617",
+    "productos_sha256": {
+     "coord_techos_rec.jsonl": "fc31df89db2859d284246722641ca608fd23ab7abbdc8b25719aa1b0c2236654",
+     "coord_comparacion_rec.jsonl": "711d6211b4a51d310ab2105bc72a87c408ec3ef1a195153f960353985b66b40a"
+    },
+    "dictamen": "completa_validada",
+    "techos": 2,
+    "comparaciones": 16
+   },
+   "L1-COORD-R2": {
+    "resultado_sha256": "d347d884d02452074395b798be3cc9701fa47f716e9d44b29015140c3afedec3",
+    "productos_sha256": {
+     "coord_techos_rec.jsonl": "ee736350e0ddb508e15db7d4a7887fbbc7fa30efea34774f79430728488fb395",
+     "coord_comparacion_rec.jsonl": "afaaa73a955e5183b157ce839c3f3b1b38af84af6486be0db574bf1bc2ea214e"
+    },
+    "dictamen": "completa_validada",
+    "techos": 2,
+    "comparaciones": 12
+   },
+   "L1-COORD-R3": {
+    "resultado_sha256": "597ea1317497aafb3fd845e1a79e06d748c60d961971e11e9a85ce3e254bdc96",
+    "productos_sha256": {
+     "coord_techos_rec.jsonl": "b5ca52f9c765a9b187cbb67fee7987674377d6d77c4431458c1faac8ff9e9afa",
+     "coord_comparacion_rec.jsonl": "5cfa53b9d14888b80aa72848bd52296a6113d315b7dde311f972e94dcab832b8"
+    },
+    "dictamen": "completa_validada",
+    "techos": 2,
+    "comparaciones": 2
+   }
+  },
+  "techos_certificados_nuevos": [
+   {
+    "clave_transformada_sha256": "141cd6fb73fd5f82",
+    "tarea": "L1-COORD-R1",
+    "diseno": "N",
+    "C_2": 0.0016060650647440795,
+    "error_kind": "certified_bound",
+    "garantia": "ieee754_binary64_rn",
+    "error_normalizado": 4.514596679957781e-08,
+    "final_n": 5186,
+    "segundos": 692.257
+   },
+   {
+    "clave_transformada_sha256": "6f8e6a5a9bb213af",
+    "tarea": "L1-COORD-R1",
+    "diseno": "G",
+    "C_2": 0.001609511873008437,
+    "error_kind": "certified_bound",
+    "garantia": "ieee754_binary64_rn",
+    "error_normalizado": 4.954892675128852e-08,
+    "final_n": 5078,
+    "segundos": 367.4
+   },
+   {
+    "clave_transformada_sha256": "417758d2de6c36a4",
+    "tarea": "L1-COORD-R2",
+    "diseno": "N",
+    "C_2": 0.0011493247893949472,
+    "error_kind": "certified_bound",
+    "garantia": "ieee754_binary64_rn",
+    "error_normalizado": 1.8343994549491902e-08,
+    "final_n": 7292,
+    "segundos": 463.941
+   },
+   {
+    "clave_transformada_sha256": "b7942a4fa1116665",
+    "tarea": "L1-COORD-R2",
+    "diseno": "G",
+    "C_2": 0.0011516623425220944,
+    "error_kind": "certified_bound",
+    "garantia": "ieee754_binary64_rn",
+    "error_normalizado": 4.892298883347156e-08,
+    "final_n": 7293,
+    "segundos": 457.554
+   },
+   {
+    "clave_transformada_sha256": "ee2fad1eefdcb23d",
+    "tarea": "L1-COORD-R3",
+    "diseno": "N",
+    "C_2": 0.0022976805171578186,
+    "error_kind": "certified_bound",
+    "garantia": "ieee754_binary64_rn",
+    "error_normalizado": 3.40924078854818e-08,
+    "final_n": 5320,
+    "segundos": 352.15
+   },
+   {
+    "clave_transformada_sha256": "8ea5c3c2e761a339",
+    "tarea": "L1-COORD-R3",
+    "diseno": "G",
+    "C_2": 0.0020639711003754787,
+    "error_kind": "certified_bound",
+    "garantia": "ieee754_binary64_rn",
+    "error_normalizado": 1.7946725207503015e-08,
+    "final_n": 5627,
+    "segundos": 371.638
+   }
+  ],
+  "techos_certificados_nuevos_n": 6,
+  "reutilizados": {
+   "0d6e8d99b88056cb": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 0.5644760616763769,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate"
+   },
+   "19dabac4b3fe72f8": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 0.0003290820325159279,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate"
+   },
+   "290f05fba91231b7": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 0.18124008197966945,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate"
+   },
+   "3b614618733eb5d4": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 0.5474661219332885,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate"
+   },
+   "3f6f9fa2bb45df9c": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 0.718636026171834,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate"
+   },
+   "70319476fc60caab": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 0.0003289207019029628,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate"
+   },
+   "75a283726bb5e755": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 5.851428571428577e-05,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate"
+   },
+   "80da8806d0147799": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 0.18124008197966945,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate"
+   },
+   "85546786e31a1a4b": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 0.4379728975466308,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate"
+   },
+   "8a9fbd6ddd9bf9c4": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 5.851428571428577e-05,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate"
+   },
+   "a78f71124ed232dd": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 0.00039745283924131264,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate"
+   },
+   "faf90f87a7f2edc0": {
+    "fuente": "rem112_coord_techos",
+    "C_2": 0.0003984793480698084,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate"
+   },
+   "0abfd6e52f0f2fba": {
+    "fuente": "rem120_coord_techos",
+    "C_2": 0.0009495957168395439,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate"
+   },
+   "3bb32b65b550e433": {
+    "fuente": "rem120_coord_techos",
+    "C_2": 0.0012677573387297602,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate"
+   },
+   "444310abef34942d": {
+    "fuente": "rem120_coord_techos",
+    "C_2": 0.0007093133120033414,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate"
+   },
+   "450f65a8510f2487": {
+    "fuente": "rem120_coord_techos",
+    "C_2": 0.0007110736140261224,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate"
+   },
+   "b3d8f27909f71615": {
+    "fuente": "rem120_coord_techos",
+    "C_2": 0.0016879716875601097,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate"
+   },
+   "c58a483e8b99de2d": {
+    "fuente": "rem120_coord_techos",
+    "C_2": 0.0009472976408770098,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate"
+   },
+   "def7a30615dd4066": {
+    "fuente": "rem120_coord_techos",
+    "C_2": 0.0012647646431561146,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate"
+   },
+   "f8055631a4a348af": {
+    "fuente": "rem120_coord_techos",
+    "C_2": 0.0016918576268753435,
+    "estado": "complete",
+    "error": 0.0,
+    "motivo": null,
+    "error_kind_original": "convergence_estimate"
+   }
+  },
+  "reutilizados_por_fuente": {
+   "previously_accepted_rem112": 12,
+   "rem120_d_accepted_now_for_reuse": 8
+  },
+  "garantia_de_los_reutilizados": "Original convergence_estimate; not promoted to certified_bound.",
+  "fuentes": {
+   "rem112_coord_techos": {
+    "ruta": "tmp/paso4_lote1_desde_rem112/lote1_LOTE1_REM112/L1-COORD/salida/coord_techos.jsonl",
+    "sha256": "f3aa14936af061ecb3d924c2085baca5aa993445245661bc0588e7cc5c0faf10"
+   },
+   "rem120_coord_techos": {
+    "ruta": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-COORD/salida/coord_techos.jsonl",
+    "sha256": "f6d24054583baa6919641385527e31ff206c3de20a6469b3d79d763348cde4dd"
+   },
+   "rem120_coord_comparacion": {
+    "ruta": "tmp/paso4_lote2_e4_desde_rem120/lote2_REM120_LOTE2/L1-COORD/salida/coord_comparacion.jsonl",
+    "sha256": "6b6baca8e8346837b758b713e1fb24e8e1cc1d95511c68da8645455e70c18bad"
+   }
+  },
+  "claves_total": 26,
+  "claves": [
+   "0abfd6e52f0f2fba",
+   "0d6e8d99b88056cb",
+   "141cd6fb73fd5f82",
+   "19dabac4b3fe72f8",
+   "290f05fba91231b7",
+   "3b614618733eb5d4",
+   "3bb32b65b550e433",
+   "3f6f9fa2bb45df9c",
+   "417758d2de6c36a4",
+   "444310abef34942d",
+   "450f65a8510f2487",
+   "6f8e6a5a9bb213af",
+   "70319476fc60caab",
+   "75a283726bb5e755",
+   "80da8806d0147799",
+   "85546786e31a1a4b",
+   "8a9fbd6ddd9bf9c4",
+   "8ea5c3c2e761a339",
+   "a78f71124ed232dd",
+   "b3d8f27909f71615",
+   "b7942a4fa1116665",
+   "c58a483e8b99de2d",
+   "def7a30615dd4066",
+   "ee2fad1eefdcb23d",
+   "f8055631a4a348af",
+   "faf90f87a7f2edc0"
+  ],
+  "ensamblado": {
+   "dictamen": "completa_validada",
+   "filas": 1532,
+   "con_techo_incompleto": 0,
+   "por_origen": {
+    "recalculado": 30,
+    "reutilizado": 1502
+   },
+   "fuera_del_lote": {
+    "COL-E2-2023.2024p.macro.COORD": "pendiente (sin testigos), no NA",
+    "COL-E2-2023.2024p.micro.COORD": "pendiente (sin testigos), no NA"
+   },
+   "unique_rows": 1532,
+   "sha256": "4ef5820dd8ccdccb15a84af402b2a7faaf70e95901efa5dde6e3e4ee3b3f8eae",
+   "products": {
+    "coord_techos_ensamblados.jsonl": "f1889ee6d05fd102d3d1995d9e25fc2b7376af83130c252165225d2de42d6568",
+    "coord_comparacion_ensamblada.jsonl": "7e45e7e694255ee7d97491b6a0e06adbf509f18f81c33a0c750b4775616bf2e7"
+   },
+   "reused_roofs": 20
+  },
+  "previas_192": {
+   "sha256": "9de71ea11467bdedfe9584cc6eaf9bc325500fdb621c4d929d4739bc2820f999",
+   "count": 192,
+   "disjoint_from_new_1532": true,
+   "total_declared_coord_cells": 1724
+  },
+  "comparaciones_declaradas_total": 1724,
+  "fuera_del_universo": {
+   "COL-E2-2023.2024p.macro.COORD": "pendiente (sin testigos), no NA",
+   "COL-E2-2023.2024p.micro.COORD": "pendiente (sin testigos), no NA"
+  },
+  "pendiente": [
+   "enforcement/D-EXP9i",
+   "D-COORD-ALCANCE: COL-2024p sin testigos"
+  ],
+  "el_revisor_recalculo_ciencia": false,
+  "dictamen": {
+   "archivo": "review_20261030_rem125_dictamen.txt",
+   "sha256_en_el_libro": "3730f7163d41e840f3f9370b95cb5d05ed77e6708af25554801d87e0a974d793",
+   "sha256_del_archivo": "3730f7163d41e840f3f9370b95cb5d05ed77e6708af25554801d87e0a974d793",
+   "uso": "consultado para confirmar el alcance (seis techos certificados nuevos, 20 reutilizados con su garantía original, ensamblado de 1.532 y 192 previas aparte); no se copia"
+  }
+ }
+}

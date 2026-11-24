@@ -1,0 +1,52 @@
+{
+ "tarea": "R1-C1",
+ "hoja": "CLM:PREG-COL-E2-2023:primary:ci:COL:df:conditional_full:G:addback_completo:macro:buffer_destacado",
+ "sentido": "inf",
+ "extreme_id": "e4bb0cc0e78a9fc7",
+ "requeridos_de_la_tarea": 54,
+ "hojas_numericas_de_la_tarea": 54,
+ "regla": "primera tarea C del plan con hojas numéricas (ci-df, ruta calculo_v5_ci_df); su primera hoja por identificador estable (orden de (afirmación, sentido) de los requeridos de la cobertura autenticada)",
+ "fijado_utc": "2026-11-16T20:32:06Z",
+ "fuentes": {
+  "plan": {
+   "entrega": "validacion_evidencia_comparador_paso4_3_7_2026-10-12_lima1857",
+   "archivo": "demo/plan15/presupuesto_lotes.json",
+   "sha256": "f967020b74f5ec10109505a4221e1cae0e9b9b6efedb5e22086e183d09ec2772"
+  },
+  "cobertura": {
+   "entrega": "validacion_evidencia_comparador_paso4_3_7_2026-10-12_lima1857",
+   "archivo": "demo/plan15/cobertura_r1.json",
+   "sha256": "f0244f230e63afb477c0df965d90767d5735864d46b862252db57d67b2e0e422"
+  },
+  "registro_v4": {
+   "entrega": "resolucion_3_7_2026-10-04_lima1941",
+   "archivo": "demo/registro/registro_candidato_v4.json",
+   "sha256": "4cf24bc0d9a407db3afa81042419add41256366311d38f36b0a329384ac7ba31"
+  }
+ },
+ "orden_de_tareas_c": [
+  "R1-C1",
+  "R1-C2",
+  "R1-C3",
+  "R1-C4",
+  "R1-C5",
+  "R1-C6"
+ ],
+ "unidad": {
+  "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:df:conditional_full:G:addback_completo:macro:buffer_destacado",
+  "sentido_requerido": "inf",
+  "familia": "ci",
+  "pais": "COL",
+  "menu": "df",
+  "diseno": "G",
+  "ruta": "calculo_v5_ci_df (orquestador_b.ejecutar)",
+  "aislamiento": "hoja ci-df: sin dependencias en el plan del orquestador (preflight: cierre 1, dependencias en otras tareas 0). Su cálculo usa los contextos de los conjuntos de soporte de la propia afirmación (extremos_G.preparar), el dominio COMPLETO del grupo df del diseño (extremos_dfd.grupo(d, 'df')['full']), todos los puntos U certificados del diseño y el presupuesto del B&B por afirmación del método (300 s). No depende de las demás hojas de la tarea; el otro sentido (sup, forma cerrada) se calcula como subproducto y no cuenta."
+ },
+ "limites": {
+  "externo_s": 600,
+  "tope_afirmacion_s": 300,
+  "tope_proceso_s": 300.0,
+  "regla": "tarea_r1: --tope-afirmacion 300 y --tope-proceso max(60, tope − 300) con tope = límite externo (600 s)"
+ },
+ "nota": "Selección fijada ANTES de calcular. No contiene resultados ni referencias numéricas."
+}

@@ -1,0 +1,690 @@
+{
+ "kind": "h4-literales-rem134",
+ "objetos_9_3": [
+  "a",
+  "c_legal",
+  "s_AI",
+  "s_FN",
+  "s_T^marg",
+  "s̄_L",
+  "t_F,eff",
+  "t_I,eff",
+  "z_m",
+  "β̃",
+  "δ̃",
+  "ε_econ",
+  "ε_num",
+  "η_H",
+  "η_d",
+  "η_f",
+  "η_w",
+  "θ",
+  "κ̃_0",
+  "ρ",
+  "τ̄_d",
+  "τ̄_f",
+  "φ",
+  "ω_tail"
+ ],
+ "versiones_por_archivo": {
+  "candidato/src/paper2b/__init__.py": 1,
+  "candidato/src/paper2b/c2_normalizado.py": 1,
+  "candidato/src/paper2b/claims.py": 1,
+  "candidato/src/paper2b/claves_condicionales.py": 1,
+  "candidato/src/paper2b/cobertura.py": 1,
+  "candidato/src/paper2b/contexto.py": 1,
+  "candidato/src/paper2b/contour.py": 1,
+  "candidato/src/paper2b/contrato_paquete.py": 1,
+  "candidato/src/paper2b/convergencia.py": 1,
+  "candidato/src/paper2b/cota_fiscal.py": 1,
+  "candidato/src/paper2b/d7build.py": 1,
+  "candidato/src/paper2b/d7view.py": 1,
+  "candidato/src/paper2b/elementales.py": 1,
+  "candidato/src/paper2b/encierros_modelo.py": 1,
+  "candidato/src/paper2b/external.py": 1,
+  "candidato/src/paper2b/frontier.py": 1,
+  "candidato/src/paper2b/intervalos.py": 1,
+  "candidato/src/paper2b/inversion.py": 1,
+  "candidato/src/paper2b/keys.py": 1,
+  "candidato/src/paper2b/macro.py": 1,
+  "candidato/src/paper2b/model.py": 1,
+  "candidato/src/paper2b/modelos.py": 1,
+  "candidato/src/paper2b/motor_theta.py": 1,
+  "candidato/src/paper2b/niveles.py": 1,
+  "candidato/src/paper2b/numeric.py": 1,
+  "candidato/src/paper2b/r1_local.py": 1,
+  "candidato/src/paper2b/r1_reanudable.py": 1,
+  "candidato/src/paper2b/raices.py": 1,
+  "candidato/src/paper2b/robustness.py": 1,
+  "candidato/src/paper2b/rules.py": 1,
+  "candidato/src/paper2b/run.py": 1,
+  "candidato/src/paper2b/sections.py": 1,
+  "candidato/src/paper2b/seleccion_valores.py": 1,
+  "candidato/src/paper2b/supports.py": 1,
+  "candidato/src/paper2b/supremum.py": 1,
+  "candidato/src/paper2b/tables.py": 1,
+  "candidato/herramientas/b/contexto_s5.py": 1,
+  "candidato/herramientas/b/ejecutar_b.py": 1,
+  "candidato/herramientas/b/generador_seleccion.py": 1,
+  "candidato/herramientas/b/regla_b_v2.py": 1,
+  "candidato/herramientas/b/seleccion_paso4.py": 1,
+  "candidato/herramientas/b/soporte_global.py": 1,
+  "candidato/herramientas/b/techos_persistentes.py": 1,
+  "candidato/herramientas/b/unidades.py": 1,
+  "candidato/herramientas/b/e12_celda.py": 1
+ },
+ "originales": {
+  "herramientas/b/nacional.py": {
+   "sha256": "8b12df28cf317ed2d9f93ce48f1fa236e3c65edbc78c4a1df82490415828422b",
+   "igual_toolchain_S5": true
+  },
+  "herramientas/b/ejecutar_b.py": {
+   "sha256": "9c96d3f40f871994bb4e16d2ff81b024bc79c8eebe025b68c2a3942e6c7e8d80",
+   "igual_toolchain_S5": false
+  },
+  "herramientas/d7/construir_d7.py (productor D7)": {
+   "sha256": "5f15b2193f3caff1da735e6133a71370fae8d907cb9a8477b5d43f9b3eed0ce6",
+   "igual_toolchain_S5": true
+  }
+ },
+ "conteo": {
+  "argumento_literal|φ": 3,
+  "asignacion_literal|c_legal": 1,
+  "comparacion_dominio_o_caso_limite|a": 13,
+  "comparacion_dominio_o_caso_limite|c_legal": 2,
+  "comparacion_dominio_o_caso_limite|z_m": 2,
+  "comparacion_dominio_o_caso_limite|β̃": 2,
+  "comparacion_dominio_o_caso_limite|η_H": 4,
+  "comparacion_dominio_o_caso_limite|η_d": 2,
+  "comparacion_dominio_o_caso_limite|η_f": 1,
+  "comparacion_dominio_o_caso_limite|θ": 2,
+  "comparacion_dominio_o_caso_limite|κ̃_0": 2,
+  "comparacion_dominio_o_caso_limite|ρ": 7,
+  "comparacion_dominio_o_caso_limite|τ̄_d": 1,
+  "comparacion_dominio_o_caso_limite|φ": 1
+ },
+ "revision": {
+  "eta_w_bloques_en_d7build": {
+   "lineas": [
+    21
+   ],
+   "valores_codigo": {
+    "micro": [
+     "0.05",
+     "0.2"
+    ],
+    "macro": [
+     "0.4",
+     "1"
+    ]
+   },
+   "formulas_json_eta_w": {
+    "role": "primitive",
+    "unit": "dimensionless",
+    "primary_blocks": {
+     "micro": [
+      0.05,
+      0.2
+     ],
+     "macro": [
+      0.4,
+      1
+     ]
+    },
+    "source": "bloques separados; no colapsar hueco"
+   },
+   "soportes_D7_eta_w": [
+    "[\"0.05\", \"0.2\"]",
+    "[\"0.4\", \"1\"]"
+   ],
+   "lectura": "los soportes de η_w por bloque los fija el PRODUCTOR de D7 desde un literal de código (BLOCKS), no desde formulas.json; D7 los registra (support_set) y las corridas los LEEN de D7: el núcleo de corrida no esconde el valor, pero su origen es código del productor, no el registro documentado"
+  },
+  "eta_w_umbral_de_bloque_en_run": {
+   "lineas": [
+    321,
+    323
+   ],
+   "lectura": "run.py clasifica el bloque micro/macro de η_w con literales: 0.4 y 1 coinciden con el bloque macro registrado (formulas.json primary_blocks y D7); 0.3 NO está registrado: parte el hueco (0.2, 0.4) entre bloques. Caso mínimo: un η_w en (0.2, 0.4) se clasificaría por un literal no registrado. Alcance: ningún soporte registrado tiene valores en ese hueco (micro [0.05,0.2], macro [0.4,1]), así que no cambia ninguna clasificación de las corridas; es contradicción FORMAL con §9.3, sin impacto numérico"
+  },
+  "eta_w_bloques_documentados": {
+   "formulas_json_primary_blocks": {
+    "micro": [
+     0.05,
+     0.2
+    ],
+    "macro": [
+     0.4,
+     1
+    ]
+   },
+   "coinciden_con_BLOCKS_del_productor": true
+  },
+  "tolerancias_eps_num": {
+   "hits": 0,
+   "lectura": "las tolerancias numéricas viven en ejecutar_b.TOLERANCES (literal del original) y se fijan en la identidad técnica (tolerances_sha256 de cada corrida); el registro D7 no las contiene"
+  }
+ },
+ "hallazgos": [
+  {
+   "archivo": "contrato_paquete.py",
+   "linea": 560,
+   "objeto": "η_H",
+   "identificador": "eta_H",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "v[\"eta_H\"] > -1",
+   "ruta": "candidato/src/paper2b/contrato_paquete.py",
+   "sha256": "6705b2467fce21dc5517b2648f80fa6857423f7239222bd224a112f2294c4538",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "d7build.py",
+   "linea": 442,
+   "objeto": "ρ",
+   "identificador": "rho",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "0 <= v[\"rho\"] <= 1",
+   "ruta": "candidato/src/paper2b/d7build.py",
+   "sha256": "e0dbe9562617642a08dcfd4dae5afafaef5b13df9a45f4c66e68967f6654013b",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "d7build.py",
+   "linea": 446,
+   "objeto": "η_H",
+   "identificador": "eta_H",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "v[\"eta_H\"] > -1",
+   "ruta": "candidato/src/paper2b/d7build.py",
+   "sha256": "e0dbe9562617642a08dcfd4dae5afafaef5b13df9a45f4c66e68967f6654013b",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "d7build.py",
+   "linea": 443,
+   "objeto": "a",
+   "identificador": "a",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "v[\"a\"] > 1",
+   "ruta": "candidato/src/paper2b/d7build.py",
+   "sha256": "e0dbe9562617642a08dcfd4dae5afafaef5b13df9a45f4c66e68967f6654013b",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "d7build.py",
+   "linea": 444,
+   "objeto": "κ̃_0",
+   "identificador": "kappa_tilde",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "v[\"kappa_tilde\"] > 0",
+   "ruta": "candidato/src/paper2b/d7build.py",
+   "sha256": "e0dbe9562617642a08dcfd4dae5afafaef5b13df9a45f4c66e68967f6654013b",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "d7build.py",
+   "linea": 444,
+   "objeto": "β̃",
+   "identificador": "beta_tilde",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "v[\"beta_tilde\"] > 0",
+   "ruta": "candidato/src/paper2b/d7build.py",
+   "sha256": "e0dbe9562617642a08dcfd4dae5afafaef5b13df9a45f4c66e68967f6654013b",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "elementales.py",
+   "linea": 268,
+   "objeto": "a",
+   "identificador": "a",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "a == 0.0",
+   "ruta": "candidato/src/paper2b/elementales.py",
+   "sha256": "c71faf35370fa2329db69802f03f52d9bc72566a2d9fa50a9ca8dbea1eb6f82b",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "encierros_modelo.py",
+   "linea": 295,
+   "objeto": "a",
+   "identificador": "a",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "a == 0.0",
+   "ruta": "candidato/src/paper2b/encierros_modelo.py",
+   "sha256": "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "encierros_modelo.py",
+   "linea": 423,
+   "objeto": "a",
+   "identificador": "a",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "a < 0.0",
+   "ruta": "candidato/src/paper2b/encierros_modelo.py",
+   "sha256": "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "encierros_modelo.py",
+   "linea": 416,
+   "objeto": "a",
+   "identificador": "a",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "a > 0.0",
+   "ruta": "candidato/src/paper2b/encierros_modelo.py",
+   "sha256": "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "encierros_modelo.py",
+   "linea": 404,
+   "objeto": "a",
+   "identificador": "a",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "a >= 0.0",
+   "ruta": "candidato/src/paper2b/encierros_modelo.py",
+   "sha256": "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "encierros_modelo.py",
+   "linea": 402,
+   "objeto": "a",
+   "identificador": "a",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "a >= 0.0",
+   "ruta": "candidato/src/paper2b/encierros_modelo.py",
+   "sha256": "549228d005ec77888ff467259b9846c0213d667923559e2e020706194e3acb53",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "macro.py",
+   "linea": 35,
+   "objeto": "η_H",
+   "identificador": "eta_H",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "eta_H > -1",
+   "ruta": "candidato/src/paper2b/macro.py",
+   "sha256": "4a94661d1cd0f3fe654f2cf7ecaa740b860e1c735b1585d51fda8f56dd068b98",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "macro.py",
+   "linea": 42,
+   "objeto": "a",
+   "identificador": "a",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "a > 1",
+   "ruta": "candidato/src/paper2b/macro.py",
+   "sha256": "4a94661d1cd0f3fe654f2cf7ecaa740b860e1c735b1585d51fda8f56dd068b98",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "model.py",
+   "linea": 46,
+   "objeto": "c_legal",
+   "identificador": "c_legal",
+   "clase": "asignacion_literal",
+   "codigo": "c_legal: float = 1.0",
+   "ruta": "candidato/src/paper2b/model.py",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+   "entregas": 14,
+   "anotacion": "valor por defecto del campo State.c_legal = 1.0, igual a la constante institucional fija del registro; la corrida lo pasa desde D7 (run.py: values['c_legal']) y comprueba c_legal != 1 → no es calibración oculta",
+   "clase_final": "no_calibracion_oculta"
+  },
+  {
+   "archivo": "model.py",
+   "linea": 89,
+   "objeto": "ρ",
+   "identificador": "rho",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "rho > 1.0",
+   "ruta": "candidato/src/paper2b/model.py",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "model.py",
+   "linea": 130,
+   "objeto": "η_d",
+   "identificador": "eta_d",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "eta_d == 0.0",
+   "ruta": "candidato/src/paper2b/model.py",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "model.py",
+   "linea": 213,
+   "objeto": "ρ",
+   "identificador": "rho",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "rho == 1.0",
+   "ruta": "candidato/src/paper2b/model.py",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "model.py",
+   "linea": 440,
+   "objeto": "ρ",
+   "identificador": "rho",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "s.rho != 1.0",
+   "ruta": "candidato/src/paper2b/model.py",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "model.py",
+   "linea": 63,
+   "objeto": "c_legal",
+   "identificador": "c_legal",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "self.c_legal != 1.0",
+   "ruta": "candidato/src/paper2b/model.py",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+   "entregas": 14,
+   "anotacion": "valor por defecto del campo State.c_legal = 1.0, igual a la constante institucional fija del registro; la corrida lo pasa desde D7 (run.py: values['c_legal']) y comprueba c_legal != 1 → no es calibración oculta",
+   "clase_final": "no_calibracion_oculta"
+  },
+  {
+   "archivo": "model.py",
+   "linea": 85,
+   "objeto": "a",
+   "identificador": "a",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "a > 1.0",
+   "ruta": "candidato/src/paper2b/model.py",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "model.py",
+   "linea": 91,
+   "objeto": "ρ",
+   "identificador": "rho",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "rho > 0.0",
+   "ruta": "candidato/src/paper2b/model.py",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "model.py",
+   "linea": 96,
+   "objeto": "θ",
+   "identificador": "theta",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "1.0 < theta < a",
+   "ruta": "candidato/src/paper2b/model.py",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "model.py",
+   "linea": 49,
+   "objeto": "a",
+   "identificador": "a",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "self.a > 1.0",
+   "ruta": "candidato/src/paper2b/model.py",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "model.py",
+   "linea": 51,
+   "objeto": "ρ",
+   "identificador": "rho",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "0.0 <= self.rho <= 1.0",
+   "ruta": "candidato/src/paper2b/model.py",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "model.py",
+   "linea": 53,
+   "objeto": "θ",
+   "identificador": "theta",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "self.theta > 1.0",
+   "ruta": "candidato/src/paper2b/model.py",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "model.py",
+   "linea": 83,
+   "objeto": "z_m",
+   "identificador": "z_m",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "z_m > 0",
+   "ruta": "candidato/src/paper2b/model.py",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "model.py",
+   "linea": 57,
+   "objeto": "z_m",
+   "identificador": "z_m",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "self.z_m > 0",
+   "ruta": "candidato/src/paper2b/model.py",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "model.py",
+   "linea": 57,
+   "objeto": "κ̃_0",
+   "identificador": "kappa0",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "self.kappa0 > 0",
+   "ruta": "candidato/src/paper2b/model.py",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "model.py",
+   "linea": 57,
+   "objeto": "β̃",
+   "identificador": "beta",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "self.beta >= 0",
+   "ruta": "candidato/src/paper2b/model.py",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "model.py",
+   "linea": 59,
+   "objeto": "η_d",
+   "identificador": "eta_d",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "self.eta_d >= 0",
+   "ruta": "candidato/src/paper2b/model.py",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "model.py",
+   "linea": 59,
+   "objeto": "η_f",
+   "identificador": "eta_f",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "self.eta_f > 0",
+   "ruta": "candidato/src/paper2b/model.py",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "model.py",
+   "linea": 59,
+   "objeto": "φ",
+   "identificador": "phi",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "0.0 <= self.phi <= 1.0",
+   "ruta": "candidato/src/paper2b/model.py",
+   "sha256": "24af1c4222a25a6e569cb42311406ffeb6d5df0603d3abe15eb34e10bcbaf4d9",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "modelos.py",
+   "linea": 637,
+   "objeto": "φ",
+   "identificador": "phi",
+   "clase": "argumento_literal",
+   "codigo": "dict(values, phi=0.0)",
+   "ruta": "candidato/src/paper2b/modelos.py",
+   "sha256": "7f0dd31cacf431fb421e2c5047aa5b750cbecfc1064e3374c4247dcd40c93fda",
+   "entregas": 14,
+   "anotacion": "proveedor SUSTITUTO sintético (SURROGATE_TAG): intercepto de C2 afín en φ=0 → punto de evaluación matemático de un sustituto, no del modelo teórico certificado",
+   "clase_final": "no_calibracion_oculta"
+  },
+  {
+   "archivo": "modelos.py",
+   "linea": 229,
+   "objeto": "φ",
+   "identificador": "phi",
+   "clase": "argumento_literal",
+   "codigo": "dict(values, phi=0.5)",
+   "ruta": "candidato/src/paper2b/modelos.py",
+   "sha256": "7f0dd31cacf431fb421e2c5047aa5b750cbecfc1064e3374c4247dcd40c93fda",
+   "entregas": 14,
+   "anotacion": "estado de RELLENO con φ=0.5 para obtener B_pot (que no depende de φ); φ se recorre después como argumento del motor en la cota por φ → no fija el valor de φ",
+   "clase_final": "no_calibracion_oculta"
+  },
+  {
+   "archivo": "modelos.py",
+   "linea": 539,
+   "objeto": "a",
+   "identificador": "a",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "a <= 0.5 <= b",
+   "ruta": "candidato/src/paper2b/modelos.py",
+   "sha256": "7f0dd31cacf431fb421e2c5047aa5b750cbecfc1064e3374c4247dcd40c93fda",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "motor_theta.py",
+   "linea": 454,
+   "objeto": "ρ",
+   "identificador": "rho",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "rho >= 1.0",
+   "ruta": "candidato/src/paper2b/motor_theta.py",
+   "sha256": "a5ab3b74321e35fdf59afcbeb992b9053acf7d7b9742f2ff4c14ff70cab27a42",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "run.py",
+   "linea": 288,
+   "objeto": "c_legal",
+   "identificador": "c_legal",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "values[\"c_legal\"] != 1",
+   "ruta": "candidato/src/paper2b/run.py",
+   "sha256": "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "run.py",
+   "linea": 654,
+   "objeto": "η_H",
+   "identificador": "eta_H",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "v[\"eta_H\"] > -1",
+   "ruta": "candidato/src/paper2b/run.py",
+   "sha256": "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "run.py",
+   "linea": 833,
+   "objeto": "φ",
+   "identificador": "phi",
+   "clase": "argumento_literal",
+   "codigo": "dict(_to_state_prim(v), phi=0.5)",
+   "ruta": "candidato/src/paper2b/run.py",
+   "sha256": "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1",
+   "entregas": 14,
+   "anotacion": "phi_fiscal: mismo estado de relleno φ=0.5 para B_pot; la partición recorre φ en [0, 1] → no fija φ",
+   "clase_final": "no_calibracion_oculta"
+  },
+  {
+   "archivo": "sections.py",
+   "linea": 61,
+   "objeto": "τ̄_d",
+   "identificador": "bar_d",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "0.0 <= rate <= bar_d",
+   "ruta": "candidato/src/paper2b/sections.py",
+   "sha256": "0505b0df978fa31719332359b73bfb81d5413ad71b2331b247290ca2c481bd61",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "supremum.py",
+   "linea": 287,
+   "objeto": "a",
+   "identificador": "a",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "a == 0.0",
+   "ruta": "candidato/src/paper2b/supremum.py",
+   "sha256": "2c246c8be6d4437892cd951cc0acaaac6e5d8ea7a921de2e13f560caf8dfebbb",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  },
+  {
+   "archivo": "supremum.py",
+   "linea": 287,
+   "objeto": "a",
+   "identificador": "a",
+   "clase": "comparacion_dominio_o_caso_limite",
+   "codigo": "a > 0",
+   "ruta": "candidato/src/paper2b/supremum.py",
+   "sha256": "2c246c8be6d4437892cd951cc0acaaac6e5d8ea7a921de2e13f560caf8dfebbb",
+   "entregas": 14,
+   "clase_final": "comparacion_dominio_o_caso_limite"
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "claves": [
+  "CMP-E1.macro|COL",
+  "CMP-E1.macro|MEX",
+  "CMP-E1.macro|PER",
+  "CMP-E1.micro|COL",
+  "CMP-E1.micro|MEX",
+  "CMP-E1.micro|PER",
+  "COL-E2-2023.2023p.macro|COL",
+  "COL-E2-2023.2023p.micro|COL",
+  "COL-E2-2023.2024p.macro|COL",
+  "COL-E2-2023.2024p.micro|COL",
+  "PER-E0E3.macro|PER",
+  "PER-E0E3.micro|PER",
+  "PER-E1.macro|PER",
+  "PER-E1.micro|PER"
+ ],
+ "control": {
+  "admision_cierre": {
+   "origen": "tmp/paso4_correcciones_integracion_enf_desde_rem130/lote_integracion_enf/admision_integracion.py",
+   "sha256": "7304ac8be5e2d2c33fd16ccf79611285aba2baf4ebd089ba73f33679363603c9"
+  },
+  "p3ctl": "codigo/p3ctl.py",
+  "sha256": "546271b057a9635ab39ca3f94e0fd79da46cc7091a4bff873ab8c54e6d875841"
+ },
+ "corridas": [
+  "BRUN-050091213b198d7cd7ba9ea2",
+  "BRUN-1368187e9a43de0d95926dca",
+  "BRUN-47e3d9f48d2b65e9ddeed02f",
+  "BRUN-4ef8507fcdefbddc55dbc3b7",
+  "BRUN-5b35ba3f51bc08bd48b384bd",
+  "BRUN-612818cb081c6797d4923b4d",
+  "BRUN-63a9e9ea157b2faaf317ae61",
+  "BRUN-7bdfe0a1bee57298e31e1b34",
+  "BRUN-991c466a1938ddbf2192eefb",
+  "BRUN-9c6c66e7af8b139a613b1c3f",
+  "BRUN-a81e3f45f7111e18b1f39370",
+  "BRUN-c5af32a993773f5258ce570f",
+  "BRUN-cb33e6b24039acc84fb1a065",
+  "BRUN-f5f58960bbf9017776d3d7fc"
+ ],
+ "destinos": {
+  "estado": "<area>/lambda_estado_<etiqueta>.json",
+  "producto": "<area>/lambda_producto_<etiqueta>/"
+ },
+ "entrada": {
+  "inventario": {
+   "ruta": "tmp/paso4_exp0_lambda_autenticada_desde_rem134/audit/entrega.json",
+   "sha256": "ba6c922eb5b60a1e138803e36279060bedfb59d92699827de6ec8149d8688fce"
+  },
+  "ruta": "tmp/paso4_exp0_lambda_autenticada_desde_rem134/b_lambda/entrada/entrada_lambda_autenticada.py",
+  "sha256": "295b13b5d8d156385d759c4afc7b92c3d1d18de8d14770e52163f55d049707d8"
+ },
+ "esperado": {
+  "cambios": 68,
+  "captura_pendiente": 2111,
+  "definitivas_preservadas": 9434,
+  "filas": 13656,
+  "lambda_computed": 69,
+  "lambda_finalizadas": 2111,
+  "lambda_outside_support": 2042
+ },
+ "finalizador": {
+  "ruta": "paso4/instalacion/herramientas/b/unidades.py",
+  "sha256": "a8aded1db50f80feffd62bcb655e62e5f93487364a3c4e625f47dcdbd1f17c86",
+  "sys_path": [
+   "paso4/instalacion/src",
+   "paso4/instalacion"
+  ]
+ },
+ "helper": {
+  "sha256": "4fd3a4163dc609f6de92e144e158b78e35323655e5a16904d7830c6d2c2ae2af"
+ },
+ "kind": "manifiesto-emision-lambda-v1",
+ "limites": {
+  "procesos": 3,
+  "suite_s": 3600.0,
+  "tope_s": 2400.0,
+  "union_s": 10800.0
+ },
+ "manifiesto_fuentes": {
+  "ruta": "tmp/paso4_exp0_lambda_autenticada_desde_rem134/b_lambda/entrada/MANIFIESTO_ENTRADA_LAMBDA.json",
+  "sha256": "647744d0ffd26284bf2008d4c1b7bbccabaa5471bbb16a1e039a6321e282e9a1"
+ },
+ "nota": "el soporte λ procede de la demostración aceptada (rem133/rem135); no se enumeran unidades ejecutadas ni se fabrica soporte",
+ "nucleo": {
+  "identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+  "ruta": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion"
+ },
+ "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+ "produccion_habilitada": false,
+ "tareas": [
+  "LAMBDA-T8-MATERIALIZAR",
+  "LAMBDA-T8-VERIFICAR"
+ ]
+}

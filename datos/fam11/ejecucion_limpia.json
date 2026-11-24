@@ -1,0 +1,50 @@
+{
+ "codigo": {
+  "nucleo_s6/b1/b1_trabajo.py": "2ddd202c6ef1cee2f15a0bfde4a561730586349f7677bbf423a5c9f4e43c7799",
+  "nucleo_s6/b1/comun_b1.py": "076dbc26ef0546044f4d048b281bda466c9f2faca4d01799126b156423bb7f2c",
+  "nucleo_s6/b1/puerta_b1.py": "a24bdb76c6af381236af544e2c2a678eddd76ac8abb1ba230b9c5f8fa69ba260",
+  "nucleo_s6/b1/validar_b1.py": "a43114db4540c2ccf0627878f4d54559e3a97d44df6a9571285073834b10bacd",
+  "nucleo_s6/b2/b2_trabajo.py": "3b9cb6c7c1c73f7a59fd4f5da0b5833bf5db2eef8e95bdbb70c51691398e00a1",
+  "nucleo_s6/b2/comun_b2.py": "105172d887de5b8d8f20963dd75fb32f9865b71170db635f11f6c62c966fce1d",
+  "nucleo_s6/b2/puerta_b2.py": "1e43464b30fd0d79f91c02096f86b91e9ad3864c7f7ee7de575ec7244c6e2300",
+  "nucleo_s6/b2/validar_b2.py": "de51d0cf2f0ad7c8bf2a9cd855ccf568ff2c24c8a1ba77c5b4f2dc2add629be9",
+  "nucleo_s6/cov/conexion_coord_cert.py": "e5776de970b72535ec7b72340604abfd9e8448479ea78dac4b714d870d273d61",
+  "nucleo_s6/cov/ensamblar_coord.py": "5115ba4eb430a0b09c65d7a6b9375a156e15aa376863c782e11648233d1e0c93",
+  "nucleo_s6/cov/tarea_lote.py": "9ba4ce357423167dc34a2ae1c15517b053fd3e33f7fef3720d14f9941bd8d1b1",
+  "nucleo_s6/cov/validar_coord_rec.py": "be36386430764fd9c1b487f0485e3c4fa3a0282edd7f4f18baa27e18a3a7bbe3",
+  "nucleo_s6/cov/validar_lote.py": "070ae81d15119735369b08bf083e9ff3b7652ca99a2956547b9f290db4022ee4",
+  "src/conciliar_cov.py": "fef92f1c34b314021f0ecc3ff7f4a990686ff2f2c318c233968bc9dbe4ef7161"
+ },
+ "decision": null,
+ "etiqueta": "REPRODUCCION LIMPIA FAM11 NO OFICIAL",
+ "indices": {
+  "b1": "9244a279c4b5ede08b9a48b9f2f0ebe99a22ed91cd137b8ae24aa7ae4aa3f13d",
+  "b2": "5f7ec64bc4027aa9dd2893042622a027a480ba410474d01041938cb56295f9de",
+  "cov": "cd197300152b73d391b2b9a223bd9585425618ae2a383df7004804a232e94ec1"
+ },
+ "instalacion_identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae",
+ "integracion": [
+  "COV-ENSAMBLADO",
+  "COV-CONCILIACION"
+ ],
+ "kind": "declaracion-ejecucion-limpia-fam11",
+ "manifiestos": {
+  "b1": "1194923c273da998db23a83700dac1669693490d01f7fc52668ae39c105fe33e",
+  "b2": "0f1582cc3718f2f5545ab4a112d108d7e4d4639505dec4826d21d22045664d7b",
+  "cov": "a38f9e95b83af3fd921f240f26fd1d8a242f46009c770c5123a8b7c72932c9c3"
+ },
+ "naturaleza": "PUERTA-v1: las puertas de producción de COV, B1 y B2 (alcance verificado y decisión humana nativa) no se ejecutan ni se reconstruyen. El sha256 de este documento ocupa el alcance que escriben los trabajadores y que exigen los validadores. No es un alcance ni una decisión; no autoriza producción oficial ni sustituye a los alcances históricos (69900e10… de COV y los de B1/B2, que solo se usan para cruzar huellas).",
+ "oficial": false,
+ "tareas": [
+  "ABL-COV-T1",
+  "ABL-COV-T2",
+  "ABL-COV-T3",
+  "ABL-COV-T4",
+  "ABL-COV-T5",
+  "ABL-COV-T6",
+  "B1-TRABAJO",
+  "B1-VALIDACION",
+  "B2-TRABAJO",
+  "B2-VALIDACION"
+ ]
+}

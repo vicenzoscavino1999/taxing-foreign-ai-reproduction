@@ -1,0 +1,40 @@
+{
+ "pilotos": [
+  {
+   "clave": "N|df|FRN:0163dbf31c02c91fe7e4c79dd86b7582200a4b7d",
+   "cobertura": "malla nueva completa: 25 nodos (frontier_n = 4) con sus filas laterales si hay kink y su topología",
+   "operacion": "F05-ELAST-C0",
+   "tarea": "L1-ELAST",
+   "unidad": "FRN:0163dbf31c02c91fe7e4c79dd86b7582200a4b7d"
+  },
+  {
+   "cobertura": "par completo de dominio publicado: variantes con y sin, testigos de máximo y mínimo y los 9 estados nacionales del anexo",
+   "operacion": "F05-LAMBDA",
+   "pais": "COL",
+   "tarea": "L1-LAMBDA",
+   "unidad": "CMP-E1.macro|COL"
+  },
+  {
+   "cobertura": "par completo de dominio estricto: variantes con y sin, testigos de máximo y mínimo y los 32 candidatos de la enumeración de su definición (6c745c5d…)",
+   "operacion": "F05-LAMBDA",
+   "pais": "PER",
+   "tarea": "L1-LAMBDA",
+   "unidad": "PER-E0E3.macro|PER"
+  }
+ ],
+ "regla": "fijados por identificador desde el MANIFIESTO (entrada), antes de calcular y sin mirar resultados: ELAST, la primera malla nueva bidimensional (dimension_malla = 2, sin suplemento_topologia) en el orden del manifiesto; LAMBDA no estricto, el primer par de dominio nacional publicado; LAMBDA estricto, el primer par PER-E0E3 de dominio estricto. Además, la unidad SUPLEMENTO (las 6 mallas históricas) como reutilización y verificación, sin recalcular valores numéricos",
+ "verificacion_historica": {
+  "cobertura": "las 70 filas aceptadas del lote 1 copiadas sin cambios, con la topología del núcleo C0 y la compatibilidad del estencil; procedencia de 70 filas",
+  "mallas": [
+   "FRN:094c65fde3996666c7adee026433a19678f800ae",
+   "FRN:09c72876468fe62aaf395071c1c2825d22435ff9",
+   "FRN:0a52090fda32b5e93985970817d4d97810837cdf",
+   "FRN:111c9516ac5307c36f535d6a2ec7d6c19e6e0412",
+   "FRN:30fda18328b9ca52a35faa9bf9a88caa72f55ced",
+   "FRN:339fcdf381352b3d9b92e336fe7b7c23a1e2c7cf"
+  ],
+  "operacion": "F05-ELAST-HIST",
+  "tarea": "L1-ELAST",
+  "unidad": "SUPLEMENTO"
+ }
+}

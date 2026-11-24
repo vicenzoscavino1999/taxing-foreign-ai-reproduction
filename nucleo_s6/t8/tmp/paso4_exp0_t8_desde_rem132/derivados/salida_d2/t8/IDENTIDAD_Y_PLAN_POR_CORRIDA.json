@@ -1,0 +1,2144 @@
+{
+ "kind": "identidad-plan-t8-rem132",
+ "corridas": {
+  "BRUN-050091213b198d7cd7ba9ea2": {
+   "entrega": "fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201",
+   "entregas": [
+    "fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201"
+   ],
+   "run_ids_en_filas": [
+    "BRUN-050091213b198d7cd7ba9ea2"
+   ],
+   "run_id_unico_y_propio": true,
+   "tecnicas_distintas": 1,
+   "configuraciones_distintas": [
+    "10daa8a48711984f3c1a58ae9ce1a8a920db0ef53d46b425d18e3aa65be82107"
+   ],
+   "contratos_distintos": [
+    "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220"
+   ],
+   "tecnicas": [
+    {
+     "code_sha256": "037d20d3d02128752e7f2650d9b023fb13de5d205afb506e9f0e832510f172aa",
+     "configuration_sha256": "10daa8a48711984f3c1a58ae9ce1a8a920db0ef53d46b425d18e3aa65be82107",
+     "contract_sha256": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+     "environment_sha256": "41b467a1cf2a28b3a3b0dcbacaa3da9e84352d37837d13e2c3aa2638046881c4",
+     "method_sha256": "bd60f441b7f6cfe60c3858425107d9bb7603596dbc8d7b657bf319590a09b49e",
+     "tolerances_sha256": "0fc40e7d83d4ac51828b409b05a582f9bfd93542bde44aeb1e83d404476b4066"
+    }
+   ],
+   "d7_tree": "10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739",
+   "nucleo_de_la_entrega": "fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201\\candidato\\src",
+   "run_py_sha256": "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1",
+   "STRUCT": [
+    "a",
+    "beta_tilde",
+    "eta_d",
+    "eta_f",
+    "kappa_tilde",
+    "phi",
+    "rho",
+    "u_theta",
+    "z_cost"
+   ],
+   "run_class": "fase_detallada_piloto_h4_3_7",
+   "run_class_hallada_en": "fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201\\demo\\detallado\\resultados\\trabajador_0.json",
+   "configuracion_reconstruida": true,
+   "configuracion_plan": {
+    "base_sets": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "derived_suffixes": [],
+    "level": 0,
+    "max_unit_nodes": 64,
+    "designs": [
+     "G",
+     "N"
+    ]
+   },
+   "productores_que_reproducen_run_id": [
+    {
+     "archivo": "candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1a/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1b/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    }
+   ],
+   "run_id_recalculado": true,
+   "plan": {
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "unidades": 187500,
+    "regla": "unidades.plan_units (unidades.py:81-94) reimplementada sin evaluar el modelo: nodos L0 de D7 por eje STRUCT, prefijo mínimo con resto <= max_unit_nodes",
+    "puntos_estructurales_coinciden_con_universo_b37": true
+   },
+   "evidencia": {
+    "celdas_aceptadas": 11,
+    "celdas_sobre_reticula_L0": 5,
+    "celdas_fuera_de_reticula": 6,
+    "ejemplo_fuera": {
+     "cell_id": "CEL:e25b77ebf883d2c9697e3b982936b8ac9833f6790868",
+     "conjunto": "COL-E2-2023.2023p.macro",
+     "ejes_fuera_de_nodos": [
+      "a",
+      "eta_f"
+     ],
+     "valores": {
+      "a": "2.499658203125",
+      "beta_tilde": "4",
+      "eta_d": "4",
+      "eta_f": "4.05",
+      "kappa_tilde": "0.2",
+      "phi": "0.5",
+      "rho": "1",
+      "u_theta": "0.9",
+      "z_cost": "100"
+     }
+    },
+    "unidades_del_plan_tocadas": 5,
+    "filas_lambda_pi_conservadas": 11,
+    "techos_conservados": 11,
+    "sets": {
+     "COL-E2-2023.2023p.macro": 3,
+     "CMP-E1.macro": 2,
+     "CMP-E1.micro": 3,
+     "COL-E2-2023.2024p.macro": 1,
+     "COL-E2-2023.2024p.micro": 1,
+     "PER-E0E3.micro": 1
+    }
+   },
+   "run_readiness_flag_en_celdas": {
+    "False": 11
+   }
+  },
+  "BRUN-1368187e9a43de0d95926dca": {
+   "entrega": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738",
+   "entregas": [
+    "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738"
+   ],
+   "run_ids_en_filas": [
+    "BRUN-1368187e9a43de0d95926dca"
+   ],
+   "run_id_unico_y_propio": true,
+   "tecnicas_distintas": 1,
+   "configuraciones_distintas": [
+    "c9fd618f60dec30f180c9e470c51ce941cadddc3e353504a0f59819a6631ad75"
+   ],
+   "contratos_distintos": [
+    "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220"
+   ],
+   "tecnicas": [
+    {
+     "code_sha256": "037d20d3d02128752e7f2650d9b023fb13de5d205afb506e9f0e832510f172aa",
+     "configuration_sha256": "c9fd618f60dec30f180c9e470c51ce941cadddc3e353504a0f59819a6631ad75",
+     "contract_sha256": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+     "environment_sha256": "41b467a1cf2a28b3a3b0dcbacaa3da9e84352d37837d13e2c3aa2638046881c4",
+     "method_sha256": "4f271c4a2209e8a45663536e46bb31f3f59e4c73f436a15fe35d92505a848e50",
+     "tolerances_sha256": "0fc40e7d83d4ac51828b409b05a582f9bfd93542bde44aeb1e83d404476b4066"
+    }
+   ],
+   "d7_tree": "10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739",
+   "nucleo_de_la_entrega": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738\\candidato\\src",
+   "run_py_sha256": "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1",
+   "STRUCT": [
+    "a",
+    "beta_tilde",
+    "eta_d",
+    "eta_f",
+    "kappa_tilde",
+    "phi",
+    "rho",
+    "u_theta",
+    "z_cost"
+   ],
+   "run_class": "remanente_s1df_s2_r3_identidad_h4_3_7",
+   "run_class_hallada_en": "remanente_s1df_s2_r3_identidad_h4_paso4_3_7_2026-10-11_lima1738\\demo\\rem9\\resultados\\trabajador_L10.json",
+   "configuracion_reconstruida": true,
+   "configuracion_plan": {
+    "base_sets": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "derived_suffixes": [],
+    "level": 0,
+    "max_unit_nodes": 64,
+    "designs": [
+     "G",
+     "N"
+    ]
+   },
+   "productores_que_reproducen_run_id": [
+    {
+     "archivo": "candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/integracion/relf/destino/integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/integracion/relf3/destino/integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/integracion/relff/destino/integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/integracion/relff9/destino/integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1a/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1b/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    }
+   ],
+   "run_id_recalculado": true,
+   "plan": {
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "unidades": 187500,
+    "regla": "unidades.plan_units (unidades.py:81-94) reimplementada sin evaluar el modelo: nodos L0 de D7 por eje STRUCT, prefijo mínimo con resto <= max_unit_nodes",
+    "puntos_estructurales_coinciden_con_universo_b37": true
+   },
+   "evidencia": {
+    "celdas_aceptadas": 114,
+    "celdas_sobre_reticula_L0": 46,
+    "celdas_fuera_de_reticula": 68,
+    "ejemplo_fuera": {
+     "cell_id": "CEL:627f870d92c02cdbe98cfb18343ac34810abff8be65f",
+     "conjunto": "COL-E2-2023.2023p.macro",
+     "ejes_fuera_de_nodos": [
+      "eta_d",
+      "eta_f",
+      "phi"
+     ],
+     "valores": {
+      "a": "1.1",
+      "beta_tilde": "0.25",
+      "eta_d": "0.10002975463867188",
+      "eta_f": "0.10012054443359375",
+      "kappa_tilde": "0.2",
+      "phi": "0.8755340576171875",
+      "rho": "1",
+      "u_theta": "0.5",
+      "z_cost": "1"
+     }
+    },
+    "unidades_del_plan_tocadas": 46,
+    "filas_lambda_pi_conservadas": 114,
+    "techos_conservados": 114,
+    "sets": {
+     "COL-E2-2023.2023p.macro": 21,
+     "CMP-E1.macro": 38,
+     "COL-E2-2023.2023p.micro": 13,
+     "CMP-E1.micro": 19,
+     "PER-E1.micro": 6,
+     "PER-E0E3.micro": 2,
+     "COL-E2-2023.2024p.macro": 4,
+     "COL-E2-2023.2024p.micro": 3,
+     "PER-E0E3.macro": 4,
+     "PER-E1.macro": 4
+    }
+   },
+   "run_readiness_flag_en_celdas": {
+    "False": 114
+   }
+  },
+  "BRUN-47e3d9f48d2b65e9ddeed02f": {
+   "entrega": "remanente_s2_diagnostico_e6a4_r3_incorporacion_paso4_3_7_2026-10-11_lima2059",
+   "entregas": [
+    "remanente_s2_diagnostico_e6a4_r3_incorporacion_paso4_3_7_2026-10-11_lima2059"
+   ],
+   "run_ids_en_filas": [
+    "BRUN-47e3d9f48d2b65e9ddeed02f"
+   ],
+   "run_id_unico_y_propio": true,
+   "tecnicas_distintas": 1,
+   "configuraciones_distintas": [
+    "f4fedb58e998d98773ba754800843a25ff9d8b2bd8fba7ee2b77f844da241c7a"
+   ],
+   "contratos_distintos": [
+    "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220"
+   ],
+   "tecnicas": [
+    {
+     "code_sha256": "037d20d3d02128752e7f2650d9b023fb13de5d205afb506e9f0e832510f172aa",
+     "configuration_sha256": "f4fedb58e998d98773ba754800843a25ff9d8b2bd8fba7ee2b77f844da241c7a",
+     "contract_sha256": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+     "environment_sha256": "41b467a1cf2a28b3a3b0dcbacaa3da9e84352d37837d13e2c3aa2638046881c4",
+     "method_sha256": "f7f3bb036313d5604d9f1dc6d2bfb85820297bb49766f77139db090dfc59863e",
+     "tolerances_sha256": "0fc40e7d83d4ac51828b409b05a582f9bfd93542bde44aeb1e83d404476b4066"
+    }
+   ],
+   "d7_tree": "10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739",
+   "nucleo_de_la_entrega": "remanente_s2_diagnostico_e6a4_r3_incorporacion_paso4_3_7_2026-10-11_lima2059\\candidato\\src",
+   "run_py_sha256": "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1",
+   "STRUCT": [
+    "a",
+    "beta_tilde",
+    "eta_d",
+    "eta_f",
+    "kappa_tilde",
+    "phi",
+    "rho",
+    "u_theta",
+    "z_cost"
+   ],
+   "run_class": "remanente_s2_diagnostico_e6a4_r3_incorporacion_3_7",
+   "run_class_hallada_en": "remanente_s2_diagnostico_e6a4_r3_incorporacion_paso4_3_7_2026-10-11_lima2059\\demo\\rem10\\resultados\\trabajador_L10.json",
+   "configuracion_reconstruida": true,
+   "configuracion_plan": {
+    "base_sets": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "derived_suffixes": [],
+    "level": 0,
+    "max_unit_nodes": 64,
+    "designs": [
+     "G",
+     "N"
+    ]
+   },
+   "productores_que_reproducen_run_id": [
+    {
+     "archivo": "candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/integracion/relf/destino/integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/integracion/relf3/destino/integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/integracion/relff/destino/integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/integracion/relff10/destino/integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/integracion/relff9/destino/integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1a/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1b/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    }
+   ],
+   "run_id_recalculado": true,
+   "plan": {
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "unidades": 187500,
+    "regla": "unidades.plan_units (unidades.py:81-94) reimplementada sin evaluar el modelo: nodos L0 de D7 por eje STRUCT, prefijo mínimo con resto <= max_unit_nodes",
+    "puntos_estructurales_coinciden_con_universo_b37": true
+   },
+   "evidencia": {
+    "celdas_aceptadas": 2,
+    "celdas_sobre_reticula_L0": 2,
+    "celdas_fuera_de_reticula": 0,
+    "ejemplo_fuera": null,
+    "unidades_del_plan_tocadas": 2,
+    "filas_lambda_pi_conservadas": 2,
+    "techos_conservados": 2,
+    "sets": {
+     "CMP-E1.macro": 1,
+     "PER-E0E3.micro": 1
+    }
+   },
+   "run_readiness_flag_en_celdas": {
+    "False": 2
+   }
+  },
+  "BRUN-4ef8507fcdefbddc55dbc3b7": {
+   "entrega": "remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200",
+   "entregas": [
+    "remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200"
+   ],
+   "run_ids_en_filas": [
+    "BRUN-4ef8507fcdefbddc55dbc3b7"
+   ],
+   "run_id_unico_y_propio": true,
+   "tecnicas_distintas": 1,
+   "configuraciones_distintas": [
+    "fc59b4ec9a0aa17ed7e56d298e2f550c3f0876bf2aab355dd4f05ef431813216"
+   ],
+   "contratos_distintos": [
+    "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220"
+   ],
+   "tecnicas": [
+    {
+     "code_sha256": "037d20d3d02128752e7f2650d9b023fb13de5d205afb506e9f0e832510f172aa",
+     "configuration_sha256": "fc59b4ec9a0aa17ed7e56d298e2f550c3f0876bf2aab355dd4f05ef431813216",
+     "contract_sha256": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+     "environment_sha256": "41b467a1cf2a28b3a3b0dcbacaa3da9e84352d37837d13e2c3aa2638046881c4",
+     "method_sha256": "06c6cf0ab9df75f833a199120b59d7dbe2a1de4ceec736bb8cdd322dcc557b1a",
+     "tolerances_sha256": "0fc40e7d83d4ac51828b409b05a582f9bfd93542bde44aeb1e83d404476b4066"
+    }
+   ],
+   "d7_tree": "10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739",
+   "nucleo_de_la_entrega": "remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200\\candidato\\src",
+   "run_py_sha256": "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1",
+   "STRUCT": [
+    "a",
+    "beta_tilde",
+    "eta_d",
+    "eta_f",
+    "kappa_tilde",
+    "phi",
+    "rho",
+    "u_theta",
+    "z_cost"
+   ],
+   "run_class": "remanente_s1df_s2_ensamblaje_h4_3_7",
+   "run_class_hallada_en": "remanente_s1df_s2_ensamblaje_h4_paso4_3_7_2026-10-11_lima0200\\demo\\rem5\\resultados\\trabajador_L10.json",
+   "configuracion_reconstruida": true,
+   "configuracion_plan": {
+    "base_sets": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "derived_suffixes": [],
+    "level": 0,
+    "max_unit_nodes": 64,
+    "designs": [
+     "G",
+     "N"
+    ]
+   },
+   "productores_que_reproducen_run_id": [
+    {
+     "archivo": "candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1a/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1b/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    }
+   ],
+   "run_id_recalculado": true,
+   "plan": {
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "unidades": 187500,
+    "regla": "unidades.plan_units (unidades.py:81-94) reimplementada sin evaluar el modelo: nodos L0 de D7 por eje STRUCT, prefijo mínimo con resto <= max_unit_nodes",
+    "puntos_estructurales_coinciden_con_universo_b37": true
+   },
+   "evidencia": {
+    "celdas_aceptadas": 169,
+    "celdas_sobre_reticula_L0": 57,
+    "celdas_fuera_de_reticula": 112,
+    "ejemplo_fuera": {
+     "cell_id": "CEL:2eb536518770ffff0362bbb70dde5ad2b0c1fa22ca9f",
+     "conjunto": "CMP-E1.macro",
+     "ejes_fuera_de_nodos": [
+      "phi"
+     ],
+     "valores": {
+      "a": "2.5",
+      "beta_tilde": "4",
+      "eta_d": "4",
+      "eta_f": "8",
+      "kappa_tilde": "0.005",
+      "phi": "0.994140625",
+      "rho": "0.4",
+      "u_theta": "0.9",
+      "z_cost": "100"
+     }
+    },
+    "unidades_del_plan_tocadas": 57,
+    "filas_lambda_pi_conservadas": 169,
+    "techos_conservados": 169,
+    "sets": {
+     "CMP-E1.macro": 45,
+     "PER-E1.macro": 20,
+     "CMP-E1.micro": 48,
+     "PER-E1.micro": 35,
+     "COL-E2-2023.2023p.micro": 3,
+     "COL-E2-2023.2023p.macro": 3,
+     "COL-E2-2023.2024p.micro": 5,
+     "COL-E2-2023.2024p.macro": 3,
+     "PER-E0E3.macro": 5,
+     "PER-E0E3.micro": 2
+    }
+   },
+   "run_readiness_flag_en_celdas": {
+    "False": 169
+   }
+  },
+  "BRUN-5b35ba3f51bc08bd48b384bd": {
+   "entrega": "validacion_detallada_d_s1_d_h4_paso4_3_7_2026-10-09_lima2331",
+   "entregas": [
+    "validacion_detallada_d_s1_d_h4_paso4_3_7_2026-10-09_lima2331"
+   ],
+   "run_ids_en_filas": [
+    "BRUN-5b35ba3f51bc08bd48b384bd"
+   ],
+   "run_id_unico_y_propio": true,
+   "tecnicas_distintas": 1,
+   "configuraciones_distintas": [
+    "11941c616f64039ceb86aecacbb59852628e0ade05664a40e3cfa3b848d470e5"
+   ],
+   "contratos_distintos": [
+    "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220"
+   ],
+   "tecnicas": [
+    {
+     "code_sha256": "037d20d3d02128752e7f2650d9b023fb13de5d205afb506e9f0e832510f172aa",
+     "configuration_sha256": "11941c616f64039ceb86aecacbb59852628e0ade05664a40e3cfa3b848d470e5",
+     "contract_sha256": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+     "environment_sha256": "41b467a1cf2a28b3a3b0dcbacaa3da9e84352d37837d13e2c3aa2638046881c4",
+     "method_sha256": "9dea344664d1bbca36c6e061560a9f55671434a56ee723238c32e7c06df26c7a",
+     "tolerances_sha256": "0fc40e7d83d4ac51828b409b05a582f9bfd93542bde44aeb1e83d404476b4066"
+    }
+   ],
+   "d7_tree": "10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739",
+   "nucleo_de_la_entrega": "validacion_detallada_d_s1_d_h4_paso4_3_7_2026-10-09_lima2331\\candidato\\src",
+   "run_py_sha256": "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1",
+   "STRUCT": [
+    "a",
+    "beta_tilde",
+    "eta_d",
+    "eta_f",
+    "kappa_tilde",
+    "phi",
+    "rho",
+    "u_theta",
+    "z_cost"
+   ],
+   "run_class": "validacion_detallada_s1d_h4_3_7",
+   "run_class_hallada_en": "validacion_detallada_d_s1_d_h4_paso4_3_7_2026-10-09_lima2331\\demo\\d_s1_d\\resultados\\trabajador_A0.json",
+   "configuracion_reconstruida": true,
+   "configuracion_plan": {
+    "base_sets": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "derived_suffixes": [],
+    "level": 0,
+    "max_unit_nodes": 64,
+    "designs": [
+     "G",
+     "N"
+    ]
+   },
+   "productores_que_reproducen_run_id": [
+    {
+     "archivo": "candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1a/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1b/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    }
+   ],
+   "run_id_recalculado": true,
+   "plan": {
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "unidades": 187500,
+    "regla": "unidades.plan_units (unidades.py:81-94) reimplementada sin evaluar el modelo: nodos L0 de D7 por eje STRUCT, prefijo mínimo con resto <= max_unit_nodes",
+    "puntos_estructurales_coinciden_con_universo_b37": true
+   },
+   "evidencia": {
+    "celdas_aceptadas": 576,
+    "celdas_sobre_reticula_L0": 1,
+    "celdas_fuera_de_reticula": 575,
+    "ejemplo_fuera": {
+     "cell_id": "CEL:c3c4d9efefe0a7add06df6ffa5d77033ccfc8c65f8fc",
+     "conjunto": "CMP-E1.macro",
+     "ejes_fuera_de_nodos": [
+      "eta_f"
+     ],
+     "valores": {
+      "a": "1.1",
+      "beta_tilde": "0.25",
+      "eta_d": "0.1",
+      "eta_f": "4.05",
+      "kappa_tilde": "0.2",
+      "phi": "0.5",
+      "rho": "1",
+      "u_theta": "0.5",
+      "z_cost": "1"
+     }
+    },
+    "unidades_del_plan_tocadas": 1,
+    "filas_lambda_pi_conservadas": 576,
+    "techos_conservados": 576,
+    "sets": {
+     "CMP-E1.macro": 161,
+     "PER-E1.micro": 64,
+     "PER-E1.macro": 64,
+     "CMP-E1.micro": 159,
+     "PER-E0E3.macro": 32,
+     "COL-E2-2023.2023p.macro": 32,
+     "PER-E0E3.micro": 32,
+     "COL-E2-2023.2023p.micro": 32
+    }
+   },
+   "run_readiness_flag_en_celdas": {
+    "False": 576
+   }
+  },
+  "BRUN-612818cb081c6797d4923b4d": {
+   "entrega": "s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800",
+   "entregas": [
+    "s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800"
+   ],
+   "run_ids_en_filas": [
+    "BRUN-612818cb081c6797d4923b4d"
+   ],
+   "run_id_unico_y_propio": true,
+   "tecnicas_distintas": 1,
+   "configuraciones_distintas": [
+    "b986522b53194e638f95d7110e12ab6febcb2905270695bb6856b4dc92a33670"
+   ],
+   "contratos_distintos": [
+    "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220"
+   ],
+   "tecnicas": [
+    {
+     "code_sha256": "037d20d3d02128752e7f2650d9b023fb13de5d205afb506e9f0e832510f172aa",
+     "configuration_sha256": "b986522b53194e638f95d7110e12ab6febcb2905270695bb6856b4dc92a33670",
+     "contract_sha256": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+     "environment_sha256": "41b467a1cf2a28b3a3b0dcbacaa3da9e84352d37837d13e2c3aa2638046881c4",
+     "method_sha256": "2ba08c91f23c2f6a1c1bda825a2b4356c7b190df8ea92ee30369b9d8c7a5a34a",
+     "tolerances_sha256": "0fc40e7d83d4ac51828b409b05a582f9bfd93542bde44aeb1e83d404476b4066"
+    }
+   ],
+   "d7_tree": "10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739",
+   "nucleo_de_la_entrega": "s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800\\candidato\\src",
+   "run_py_sha256": "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1",
+   "STRUCT": [
+    "a",
+    "beta_tilde",
+    "eta_d",
+    "eta_f",
+    "kappa_tilde",
+    "phi",
+    "rho",
+    "u_theta",
+    "z_cost"
+   ],
+   "run_class": "s1f_validacion_h4_3_7",
+   "run_class_hallada_en": "s1f_validacion_h4_paso4_3_7_2026-10-10_lima0800\\autorizacion\\despliegue_candidato.json",
+   "configuracion_reconstruida": true,
+   "configuracion_plan": {
+    "base_sets": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "derived_suffixes": [],
+    "level": 0,
+    "max_unit_nodes": 64,
+    "designs": [
+     "G",
+     "N"
+    ]
+   },
+   "productores_que_reproducen_run_id": [
+    {
+     "archivo": "candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1a/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1b/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    }
+   ],
+   "run_id_recalculado": true,
+   "plan": {
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "unidades": 187500,
+    "regla": "unidades.plan_units (unidades.py:81-94) reimplementada sin evaluar el modelo: nodos L0 de D7 por eje STRUCT, prefijo mínimo con resto <= max_unit_nodes",
+    "puntos_estructurales_coinciden_con_universo_b37": true
+   },
+   "evidencia": {
+    "celdas_aceptadas": 380,
+    "celdas_sobre_reticula_L0": 0,
+    "celdas_fuera_de_reticula": 380,
+    "ejemplo_fuera": {
+     "cell_id": "CEL:0e5d49ccf3033d724b78801808a21d32375d31ee9155",
+     "conjunto": "CMP-E1.micro",
+     "ejes_fuera_de_nodos": [
+      "beta_tilde",
+      "eta_d"
+     ],
+     "valores": {
+      "a": "1.1",
+      "beta_tilde": "2.125",
+      "eta_d": "2.05",
+      "eta_f": "8",
+      "kappa_tilde": "0.005",
+      "phi": "0",
+      "rho": "0.4",
+      "u_theta": "0.9",
+      "z_cost": "1"
+     }
+    },
+    "unidades_del_plan_tocadas": 0,
+    "filas_lambda_pi_conservadas": 380,
+    "techos_conservados": 380,
+    "sets": {
+     "CMP-E1.micro": 136,
+     "PER-E0E3.macro": 32,
+     "PER-E1.micro": 45,
+     "CMP-E1.macro": 64,
+     "PER-E1.macro": 32,
+     "COL-E2-2023.2023p.micro": 16,
+     "PER-E0E3.micro": 31,
+     "COL-E2-2023.2023p.macro": 24
+    }
+   },
+   "run_readiness_flag_en_celdas": {
+    "False": 380
+   }
+  },
+  "BRUN-63a9e9ea157b2faaf317ae61": {
+   "entrega": "remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324",
+   "entregas": [
+    "remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324"
+   ],
+   "run_ids_en_filas": [
+    "BRUN-63a9e9ea157b2faaf317ae61"
+   ],
+   "run_id_unico_y_propio": true,
+   "tecnicas_distintas": 1,
+   "configuraciones_distintas": [
+    "320962be4c7ee4478c12a900c3feeb117f2b273ab3ef4ba336ed09e37fdc5908"
+   ],
+   "contratos_distintos": [
+    "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220"
+   ],
+   "tecnicas": [
+    {
+     "code_sha256": "037d20d3d02128752e7f2650d9b023fb13de5d205afb506e9f0e832510f172aa",
+     "configuration_sha256": "320962be4c7ee4478c12a900c3feeb117f2b273ab3ef4ba336ed09e37fdc5908",
+     "contract_sha256": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+     "environment_sha256": "41b467a1cf2a28b3a3b0dcbacaa3da9e84352d37837d13e2c3aa2638046881c4",
+     "method_sha256": "323117fb4e162b448f768be3bd84bf21e3771585b00ed2b1ab0d007a97edf77b",
+     "tolerances_sha256": "0fc40e7d83d4ac51828b409b05a582f9bfd93542bde44aeb1e83d404476b4066"
+    }
+   ],
+   "d7_tree": "10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739",
+   "nucleo_de_la_entrega": "remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324\\candidato\\src",
+   "run_py_sha256": "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1",
+   "STRUCT": [
+    "a",
+    "beta_tilde",
+    "eta_d",
+    "eta_f",
+    "kappa_tilde",
+    "phi",
+    "rho",
+    "u_theta",
+    "z_cost"
+   ],
+   "run_class": "remanente_s1df_s2_integracion_r3_h4_3_7",
+   "run_class_hallada_en": "remanente_s1df_s2_integracion_r3_h4_paso4_3_7_2026-10-11_lima1324\\demo\\rem8\\resultados\\trabajador_L11.json",
+   "configuracion_reconstruida": true,
+   "configuracion_plan": {
+    "base_sets": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "derived_suffixes": [],
+    "level": 0,
+    "max_unit_nodes": 64,
+    "designs": [
+     "G",
+     "N"
+    ]
+   },
+   "productores_que_reproducen_run_id": [
+    {
+     "archivo": "candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/integracion/relf/destino/integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/integracion/relf3/destino/integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/integracion/relff/destino/integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1a/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1b/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    }
+   ],
+   "run_id_recalculado": true,
+   "plan": {
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "unidades": 187500,
+    "regla": "unidades.plan_units (unidades.py:81-94) reimplementada sin evaluar el modelo: nodos L0 de D7 por eje STRUCT, prefijo mínimo con resto <= max_unit_nodes",
+    "puntos_estructurales_coinciden_con_universo_b37": true
+   },
+   "evidencia": {
+    "celdas_aceptadas": 133,
+    "celdas_sobre_reticula_L0": 39,
+    "celdas_fuera_de_reticula": 94,
+    "ejemplo_fuera": {
+     "cell_id": "CEL:8ce1888171977a3b2beb5d46102b1eb0583ad63f6369",
+     "conjunto": "PER-E0E3.micro",
+     "ejes_fuera_de_nodos": [
+      "eta_d",
+      "eta_f",
+      "phi"
+     ],
+     "valores": {
+      "a": "1.1",
+      "beta_tilde": "0.25",
+      "eta_d": "0.10002975463867188",
+      "eta_f": "0.10012054443359375",
+      "kappa_tilde": "0.2",
+      "phi": "0.8755340576171875",
+      "rho": "1",
+      "u_theta": "0.5",
+      "z_cost": "1"
+     }
+    },
+    "unidades_del_plan_tocadas": 39,
+    "filas_lambda_pi_conservadas": 133,
+    "techos_conservados": 133,
+    "sets": {
+     "PER-E0E3.micro": 27,
+     "CMP-E1.micro": 33,
+     "PER-E0E3.macro": 17,
+     "COL-E2-2023.2023p.micro": 17,
+     "CMP-E1.macro": 17,
+     "COL-E2-2023.2023p.macro": 8,
+     "PER-E1.macro": 3,
+     "PER-E1.micro": 3,
+     "COL-E2-2023.2024p.micro": 5,
+     "COL-E2-2023.2024p.macro": 3
+    }
+   },
+   "run_readiness_flag_en_celdas": {
+    "False": 133
+   }
+  },
+  "BRUN-7bdfe0a1bee57298e31e1b34": {
+   "entrega": "remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533",
+   "entregas": [
+    "remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533"
+   ],
+   "run_ids_en_filas": [
+    "BRUN-7bdfe0a1bee57298e31e1b34"
+   ],
+   "run_id_unico_y_propio": true,
+   "tecnicas_distintas": 1,
+   "configuraciones_distintas": [
+    "dce95085b14e6d0b952714ab6ab653234a6039a786e26625e569f93a5250109c"
+   ],
+   "contratos_distintos": [
+    "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220"
+   ],
+   "tecnicas": [
+    {
+     "code_sha256": "037d20d3d02128752e7f2650d9b023fb13de5d205afb506e9f0e832510f172aa",
+     "configuration_sha256": "dce95085b14e6d0b952714ab6ab653234a6039a786e26625e569f93a5250109c",
+     "contract_sha256": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+     "environment_sha256": "41b467a1cf2a28b3a3b0dcbacaa3da9e84352d37837d13e2c3aa2638046881c4",
+     "method_sha256": "4f0b83873fc423f6294caf9cc6515ae5197478d822a37eba4cc8f964727c484f",
+     "tolerances_sha256": "0fc40e7d83d4ac51828b409b05a582f9bfd93542bde44aeb1e83d404476b4066"
+    }
+   ],
+   "d7_tree": "10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739",
+   "nucleo_de_la_entrega": "remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533\\candidato\\src",
+   "run_py_sha256": "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1",
+   "STRUCT": [
+    "a",
+    "beta_tilde",
+    "eta_d",
+    "eta_f",
+    "kappa_tilde",
+    "phi",
+    "rho",
+    "u_theta",
+    "z_cost"
+   ],
+   "run_class": "remanente_detallado_h4_3_7",
+   "run_class_hallada_en": "remanente_detallado_h4_paso4_3_7_2026-10-10_lima1533\\demo\\rem\\resultados\\trabajador_L12.json",
+   "configuracion_reconstruida": true,
+   "configuracion_plan": {
+    "base_sets": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "derived_suffixes": [],
+    "level": 0,
+    "max_unit_nodes": 64,
+    "designs": [
+     "G",
+     "N"
+    ]
+   },
+   "productores_que_reproducen_run_id": [
+    {
+     "archivo": "candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1a/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1b/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    }
+   ],
+   "run_id_recalculado": true,
+   "plan": {
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "unidades": 187500,
+    "regla": "unidades.plan_units (unidades.py:81-94) reimplementada sin evaluar el modelo: nodos L0 de D7 por eje STRUCT, prefijo mínimo con resto <= max_unit_nodes",
+    "puntos_estructurales_coinciden_con_universo_b37": true
+   },
+   "evidencia": {
+    "celdas_aceptadas": 101,
+    "celdas_sobre_reticula_L0": 27,
+    "celdas_fuera_de_reticula": 74,
+    "ejemplo_fuera": {
+     "cell_id": "CEL:6b9fcfd7c626f62838640df72f0f642598ff6060beab",
+     "conjunto": "PER-E1.macro",
+     "ejes_fuera_de_nodos": [
+      "phi"
+     ],
+     "valores": {
+      "a": "2.5",
+      "beta_tilde": "4",
+      "eta_d": "4",
+      "eta_f": "8",
+      "kappa_tilde": "0.005",
+      "phi": "0.994140625",
+      "rho": "0.4",
+      "u_theta": "0.9",
+      "z_cost": "100"
+     }
+    },
+    "unidades_del_plan_tocadas": 27,
+    "filas_lambda_pi_conservadas": 101,
+    "techos_conservados": 101,
+    "sets": {
+     "PER-E1.macro": 33,
+     "COL-E2-2023.2023p.micro": 10,
+     "CMP-E1.micro": 23,
+     "PER-E1.micro": 9,
+     "COL-E2-2023.2023p.macro": 14,
+     "CMP-E1.macro": 6,
+     "PER-E0E3.micro": 2,
+     "COL-E2-2023.2024p.micro": 3,
+     "PER-E0E3.macro": 1
+    }
+   },
+   "run_readiness_flag_en_celdas": {
+    "False": 101
+   }
+  },
+  "BRUN-991c466a1938ddbf2192eefb": {
+   "entrega": "remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213",
+   "entregas": [
+    "remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213"
+   ],
+   "run_ids_en_filas": [
+    "BRUN-991c466a1938ddbf2192eefb"
+   ],
+   "run_id_unico_y_propio": true,
+   "tecnicas_distintas": 1,
+   "configuraciones_distintas": [
+    "dfa86816b5dec51a3bc841d49119ee015f568fa5d2fcbbe74f397f1ddf01e511"
+   ],
+   "contratos_distintos": [
+    "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220"
+   ],
+   "tecnicas": [
+    {
+     "code_sha256": "037d20d3d02128752e7f2650d9b023fb13de5d205afb506e9f0e832510f172aa",
+     "configuration_sha256": "dfa86816b5dec51a3bc841d49119ee015f568fa5d2fcbbe74f397f1ddf01e511",
+     "contract_sha256": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+     "environment_sha256": "41b467a1cf2a28b3a3b0dcbacaa3da9e84352d37837d13e2c3aa2638046881c4",
+     "method_sha256": "94604212213ad8e539dbc036a1bc569db35fefa60ef4a19320a0058c2020de38",
+     "tolerances_sha256": "0fc40e7d83d4ac51828b409b05a582f9bfd93542bde44aeb1e83d404476b4066"
+    }
+   ],
+   "d7_tree": "10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739",
+   "nucleo_de_la_entrega": "remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213\\candidato\\src",
+   "run_py_sha256": "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1",
+   "STRUCT": [
+    "a",
+    "beta_tilde",
+    "eta_d",
+    "eta_f",
+    "kappa_tilde",
+    "phi",
+    "rho",
+    "u_theta",
+    "z_cost"
+   ],
+   "run_class": "remanente_s3_ensamblaje_h4_3_7",
+   "run_class_hallada_en": "remanente_s3_ensamblaje_h4_paso4_3_7_2026-10-10_lima2213\\demo\\rem4\\resultados\\trabajador_L10.json",
+   "configuracion_reconstruida": true,
+   "configuracion_plan": {
+    "base_sets": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "derived_suffixes": [],
+    "level": 0,
+    "max_unit_nodes": 64,
+    "designs": [
+     "G",
+     "N"
+    ]
+   },
+   "productores_que_reproducen_run_id": [
+    {
+     "archivo": "candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1a/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1b/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    }
+   ],
+   "run_id_recalculado": true,
+   "plan": {
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "unidades": 187500,
+    "regla": "unidades.plan_units (unidades.py:81-94) reimplementada sin evaluar el modelo: nodos L0 de D7 por eje STRUCT, prefijo mínimo con resto <= max_unit_nodes",
+    "puntos_estructurales_coinciden_con_universo_b37": true
+   },
+   "evidencia": {
+    "celdas_aceptadas": 188,
+    "celdas_sobre_reticula_L0": 108,
+    "celdas_fuera_de_reticula": 80,
+    "ejemplo_fuera": {
+     "cell_id": "CEL:3e1b967a680e5b809585141474e5058064f165304eb8",
+     "conjunto": "CMP-E1.micro",
+     "ejes_fuera_de_nodos": [
+      "phi"
+     ],
+     "valores": {
+      "a": "2.5",
+      "beta_tilde": "4",
+      "eta_d": "4",
+      "eta_f": "8",
+      "kappa_tilde": "0.005",
+      "phi": "0.994140625",
+      "rho": "0.4",
+      "u_theta": "0.9",
+      "z_cost": "100"
+     }
+    },
+    "unidades_del_plan_tocadas": 108,
+    "filas_lambda_pi_conservadas": 188,
+    "techos_conservados": 188,
+    "sets": {
+     "CMP-E1.micro": 70,
+     "PER-E1.micro": 21,
+     "CMP-E1.macro": 40,
+     "PER-E1.macro": 5,
+     "COL-E2-2023.2024p.micro": 8,
+     "COL-E2-2023.2023p.macro": 8,
+     "COL-E2-2023.2023p.micro": 7,
+     "COL-E2-2023.2024p.macro": 6,
+     "PER-E0E3.macro": 15,
+     "PER-E0E3.micro": 8
+    }
+   },
+   "run_readiness_flag_en_celdas": {
+    "False": 188
+   }
+  },
+  "BRUN-9c6c66e7af8b139a613b1c3f": {
+   "entrega": "remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009",
+   "entregas": [
+    "remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009"
+   ],
+   "run_ids_en_filas": [
+    "BRUN-9c6c66e7af8b139a613b1c3f"
+   ],
+   "run_id_unico_y_propio": true,
+   "tecnicas_distintas": 1,
+   "configuraciones_distintas": [
+    "bf5726ef41cba7dd9317c3d652adce45cde25ab4b7b364ce9fc7db9cd4ced36d"
+   ],
+   "contratos_distintos": [
+    "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220"
+   ],
+   "tecnicas": [
+    {
+     "code_sha256": "037d20d3d02128752e7f2650d9b023fb13de5d205afb506e9f0e832510f172aa",
+     "configuration_sha256": "bf5726ef41cba7dd9317c3d652adce45cde25ab4b7b364ce9fc7db9cd4ced36d",
+     "contract_sha256": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+     "environment_sha256": "41b467a1cf2a28b3a3b0dcbacaa3da9e84352d37837d13e2c3aa2638046881c4",
+     "method_sha256": "f9b3399d1957739c87546f237caa5c06dd50c2ec5b8b8837dffbf89efe66eace",
+     "tolerances_sha256": "0fc40e7d83d4ac51828b409b05a582f9bfd93542bde44aeb1e83d404476b4066"
+    }
+   ],
+   "d7_tree": "10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739",
+   "nucleo_de_la_entrega": "remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009\\candidato\\src",
+   "run_py_sha256": "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1",
+   "STRUCT": [
+    "a",
+    "beta_tilde",
+    "eta_d",
+    "eta_f",
+    "kappa_tilde",
+    "phi",
+    "rho",
+    "u_theta",
+    "z_cost"
+   ],
+   "run_class": "remanente_s1df_s2_integracion_h4_3_7",
+   "run_class_hallada_en": "remanente_s1df_s2_integracion_h4_paso4_3_7_2026-10-11_lima1009\\demo\\rem7\\resultados\\trabajador_L10.json",
+   "configuracion_reconstruida": true,
+   "configuracion_plan": {
+    "base_sets": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "derived_suffixes": [],
+    "level": 0,
+    "max_unit_nodes": 64,
+    "designs": [
+     "G",
+     "N"
+    ]
+   },
+   "productores_que_reproducen_run_id": [
+    {
+     "archivo": "candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/integracion/relf/destino/integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1a/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1b/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    }
+   ],
+   "run_id_recalculado": true,
+   "plan": {
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "unidades": 187500,
+    "regla": "unidades.plan_units (unidades.py:81-94) reimplementada sin evaluar el modelo: nodos L0 de D7 por eje STRUCT, prefijo mínimo con resto <= max_unit_nodes",
+    "puntos_estructurales_coinciden_con_universo_b37": true
+   },
+   "evidencia": {
+    "celdas_aceptadas": 162,
+    "celdas_sobre_reticula_L0": 38,
+    "celdas_fuera_de_reticula": 124,
+    "ejemplo_fuera": {
+     "cell_id": "CEL:cfa8d9a3d13a5ef523f1a24ede0d5018e69dc071c2cf",
+     "conjunto": "PER-E0E3.macro",
+     "ejes_fuera_de_nodos": [
+      "eta_d",
+      "eta_f",
+      "phi"
+     ],
+     "valores": {
+      "a": "1.1",
+      "beta_tilde": "0.25",
+      "eta_d": "0.10002975463867188",
+      "eta_f": "0.10012054443359375",
+      "kappa_tilde": "0.2",
+      "phi": "0.8755340576171875",
+      "rho": "1",
+      "u_theta": "0.5",
+      "z_cost": "1"
+     }
+    },
+    "unidades_del_plan_tocadas": 38,
+    "filas_lambda_pi_conservadas": 162,
+    "techos_conservados": 162,
+    "sets": {
+     "PER-E0E3.macro": 17,
+     "PER-E1.macro": 19,
+     "CMP-E1.micro": 47,
+     "CMP-E1.macro": 39,
+     "COL-E2-2023.2023p.micro": 10,
+     "PER-E0E3.micro": 12,
+     "COL-E2-2023.2023p.macro": 12,
+     "PER-E1.micro": 5,
+     "COL-E2-2023.2024p.macro": 1
+    }
+   },
+   "run_readiness_flag_en_celdas": {
+    "False": 162
+   }
+  },
+  "BRUN-a81e3f45f7111e18b1f39370": {
+   "entrega": "remanente_s1df_s2_consumidor_h4_paso4_3_7_2026-10-11_lima0604",
+   "entregas": [
+    "remanente_s1df_s2_consumidor_h4_paso4_3_7_2026-10-11_lima0604"
+   ],
+   "run_ids_en_filas": [
+    "BRUN-a81e3f45f7111e18b1f39370"
+   ],
+   "run_id_unico_y_propio": true,
+   "tecnicas_distintas": 1,
+   "configuraciones_distintas": [
+    "35c1f64761cff12544d84b18ae29df1f675cf6a8abcb244f94ad1415ee4f0460"
+   ],
+   "contratos_distintos": [
+    "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220"
+   ],
+   "tecnicas": [
+    {
+     "code_sha256": "037d20d3d02128752e7f2650d9b023fb13de5d205afb506e9f0e832510f172aa",
+     "configuration_sha256": "35c1f64761cff12544d84b18ae29df1f675cf6a8abcb244f94ad1415ee4f0460",
+     "contract_sha256": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+     "environment_sha256": "41b467a1cf2a28b3a3b0dcbacaa3da9e84352d37837d13e2c3aa2638046881c4",
+     "method_sha256": "51937f21e5133b5b280feef307ae97284c1e4c031ed0d3cb49802aec4f0c4678",
+     "tolerances_sha256": "0fc40e7d83d4ac51828b409b05a582f9bfd93542bde44aeb1e83d404476b4066"
+    }
+   ],
+   "d7_tree": "10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739",
+   "nucleo_de_la_entrega": "remanente_s1df_s2_consumidor_h4_paso4_3_7_2026-10-11_lima0604\\candidato\\src",
+   "run_py_sha256": "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1",
+   "STRUCT": [
+    "a",
+    "beta_tilde",
+    "eta_d",
+    "eta_f",
+    "kappa_tilde",
+    "phi",
+    "rho",
+    "u_theta",
+    "z_cost"
+   ],
+   "run_class": "remanente_s1df_s2_consumidor_h4_3_7",
+   "run_class_hallada_en": "remanente_s1df_s2_consumidor_h4_paso4_3_7_2026-10-11_lima0604\\demo\\rem6\\resultados\\trabajador_L11.json",
+   "configuracion_reconstruida": true,
+   "configuracion_plan": {
+    "base_sets": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "derived_suffixes": [],
+    "level": 0,
+    "max_unit_nodes": 64,
+    "designs": [
+     "G",
+     "N"
+    ]
+   },
+   "productores_que_reproducen_run_id": [
+    {
+     "archivo": "candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1a/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1b/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    }
+   ],
+   "run_id_recalculado": true,
+   "plan": {
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "unidades": 187500,
+    "regla": "unidades.plan_units (unidades.py:81-94) reimplementada sin evaluar el modelo: nodos L0 de D7 por eje STRUCT, prefijo mínimo con resto <= max_unit_nodes",
+    "puntos_estructurales_coinciden_con_universo_b37": true
+   },
+   "evidencia": {
+    "celdas_aceptadas": 22,
+    "celdas_sobre_reticula_L0": 8,
+    "celdas_fuera_de_reticula": 14,
+    "ejemplo_fuera": {
+     "cell_id": "CEL:933648e11eb75c82ef286a235694ae8e4d942fdf8562",
+     "conjunto": "CMP-E1.micro",
+     "ejes_fuera_de_nodos": [
+      "phi"
+     ],
+     "valores": {
+      "a": "2.5",
+      "beta_tilde": "4",
+      "eta_d": "4",
+      "eta_f": "8",
+      "kappa_tilde": "0.005",
+      "phi": "0.990234375",
+      "rho": "0.4",
+      "u_theta": "0.9",
+      "z_cost": "100"
+     }
+    },
+    "unidades_del_plan_tocadas": 8,
+    "filas_lambda_pi_conservadas": 22,
+    "techos_conservados": 22,
+    "sets": {
+     "CMP-E1.micro": 6,
+     "CMP-E1.macro": 11,
+     "COL-E2-2023.2024p.macro": 1,
+     "COL-E2-2023.2023p.macro": 2,
+     "PER-E1.macro": 1,
+     "COL-E2-2023.2023p.micro": 1
+    }
+   },
+   "run_readiness_flag_en_celdas": {
+    "False": 22
+   }
+  },
+  "BRUN-c5af32a993773f5258ce570f": {
+   "entrega": "s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125",
+   "entregas": [
+    "s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125"
+   ],
+   "run_ids_en_filas": [
+    "BRUN-c5af32a993773f5258ce570f"
+   ],
+   "run_id_unico_y_propio": true,
+   "tecnicas_distintas": 1,
+   "configuraciones_distintas": [
+    "339c900e2d0c53f2350a571099d4e39a31339cb455fd2e40e3ae3124269abe4f"
+   ],
+   "contratos_distintos": [
+    "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220"
+   ],
+   "tecnicas": [
+    {
+     "code_sha256": "037d20d3d02128752e7f2650d9b023fb13de5d205afb506e9f0e832510f172aa",
+     "configuration_sha256": "339c900e2d0c53f2350a571099d4e39a31339cb455fd2e40e3ae3124269abe4f",
+     "contract_sha256": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+     "environment_sha256": "41b467a1cf2a28b3a3b0dcbacaa3da9e84352d37837d13e2c3aa2638046881c4",
+     "method_sha256": "c08fb77e93a0c0743af18a378b79e1d07c4a5757ed974e52d1de2cc060e217f2",
+     "tolerances_sha256": "0fc40e7d83d4ac51828b409b05a582f9bfd93542bde44aeb1e83d404476b4066"
+    }
+   ],
+   "d7_tree": "10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739",
+   "nucleo_de_la_entrega": "s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125\\candidato\\src",
+   "run_py_sha256": "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1",
+   "STRUCT": [
+    "a",
+    "beta_tilde",
+    "eta_d",
+    "eta_f",
+    "kappa_tilde",
+    "phi",
+    "rho",
+    "u_theta",
+    "z_cost"
+   ],
+   "run_class": "s1f_remanente_h4_3_7",
+   "run_class_hallada_en": "s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125\\demo\\d_s1f_r\\resultados\\trabajador_R10.json",
+   "configuracion_reconstruida": true,
+   "configuracion_plan": {
+    "base_sets": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "derived_suffixes": [],
+    "level": 0,
+    "max_unit_nodes": 64,
+    "designs": [
+     "G",
+     "N"
+    ]
+   },
+   "productores_que_reproducen_run_id": [
+    {
+     "archivo": "candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1a/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1b/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    }
+   ],
+   "run_id_recalculado": true,
+   "plan": {
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "unidades": 187500,
+    "regla": "unidades.plan_units (unidades.py:81-94) reimplementada sin evaluar el modelo: nodos L0 de D7 por eje STRUCT, prefijo mínimo con resto <= max_unit_nodes",
+    "puntos_estructurales_coinciden_con_universo_b37": true
+   },
+   "evidencia": {
+    "celdas_aceptadas": 149,
+    "celdas_sobre_reticula_L0": 0,
+    "celdas_fuera_de_reticula": 149,
+    "ejemplo_fuera": {
+     "cell_id": "CEL:21dbc0c07c798486ee3bb21ce852fd93d597f97522c5",
+     "conjunto": "PER-E1.macro",
+     "ejes_fuera_de_nodos": [
+      "beta_tilde",
+      "eta_d"
+     ],
+     "valores": {
+      "a": "1.1",
+      "beta_tilde": "2.125",
+      "eta_d": "2.05",
+      "eta_f": "8",
+      "kappa_tilde": "0.005",
+      "phi": "0",
+      "rho": "0.4",
+      "u_theta": "0.9",
+      "z_cost": "1"
+     }
+    },
+    "unidades_del_plan_tocadas": 0,
+    "filas_lambda_pi_conservadas": 149,
+    "techos_conservados": 149,
+    "sets": {
+     "PER-E1.macro": 16,
+     "CMP-E1.macro": 96,
+     "PER-E1.micro": 12,
+     "COL-E2-2023.2023p.micro": 8,
+     "CMP-E1.micro": 9,
+     "COL-E2-2023.2023p.macro": 7,
+     "PER-E0E3.micro": 1
+    }
+   },
+   "run_readiness_flag_en_celdas": {
+    "False": 149
+   }
+  },
+  "BRUN-cb33e6b24039acc84fb1a065": {
+   "entrega": "remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855",
+   "entregas": [
+    "remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855"
+   ],
+   "run_ids_en_filas": [
+    "BRUN-cb33e6b24039acc84fb1a065"
+   ],
+   "run_id_unico_y_propio": true,
+   "tecnicas_distintas": 1,
+   "configuraciones_distintas": [
+    "71e369bba5f05ce6de8a03b933d5929909a964307499884cf23b0330479aa843"
+   ],
+   "contratos_distintos": [
+    "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220"
+   ],
+   "tecnicas": [
+    {
+     "code_sha256": "037d20d3d02128752e7f2650d9b023fb13de5d205afb506e9f0e832510f172aa",
+     "configuration_sha256": "71e369bba5f05ce6de8a03b933d5929909a964307499884cf23b0330479aa843",
+     "contract_sha256": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+     "environment_sha256": "41b467a1cf2a28b3a3b0dcbacaa3da9e84352d37837d13e2c3aa2638046881c4",
+     "method_sha256": "e6e019c3882b544524b22b106632a7c4e4af0e51790bfe1670dd54b66859519b",
+     "tolerances_sha256": "0fc40e7d83d4ac51828b409b05a582f9bfd93542bde44aeb1e83d404476b4066"
+    }
+   ],
+   "d7_tree": "10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739",
+   "nucleo_de_la_entrega": "remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855\\candidato\\src",
+   "run_py_sha256": "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1",
+   "STRUCT": [
+    "a",
+    "beta_tilde",
+    "eta_d",
+    "eta_f",
+    "kappa_tilde",
+    "phi",
+    "rho",
+    "u_theta",
+    "z_cost"
+   ],
+   "run_class": "remanente_s1df_s2_s3_h4_3_7",
+   "run_class_hallada_en": "remanente_s1df_s2_s3_h4_paso4_3_7_2026-10-10_lima1855\\demo\\rem3\\resultados\\trabajador_L10.json",
+   "configuracion_reconstruida": true,
+   "configuracion_plan": {
+    "base_sets": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "derived_suffixes": [],
+    "level": 0,
+    "max_unit_nodes": 64,
+    "designs": [
+     "G",
+     "N"
+    ]
+   },
+   "productores_que_reproducen_run_id": [
+    {
+     "archivo": "candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1a/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1b/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    }
+   ],
+   "run_id_recalculado": true,
+   "plan": {
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "unidades": 187500,
+    "regla": "unidades.plan_units (unidades.py:81-94) reimplementada sin evaluar el modelo: nodos L0 de D7 por eje STRUCT, prefijo mínimo con resto <= max_unit_nodes",
+    "puntos_estructurales_coinciden_con_universo_b37": true
+   },
+   "evidencia": {
+    "celdas_aceptadas": 268,
+    "celdas_sobre_reticula_L0": 204,
+    "celdas_fuera_de_reticula": 64,
+    "ejemplo_fuera": {
+     "cell_id": "CEL:ab6a04ac9dd8731dd1b33789c40d2620ee7c5931e7ae",
+     "conjunto": "PER-E1.micro",
+     "ejes_fuera_de_nodos": [
+      "phi"
+     ],
+     "valores": {
+      "a": "1.1",
+      "beta_tilde": "0.25",
+      "eta_d": "0.1",
+      "eta_f": "0.1",
+      "kappa_tilde": "0.2",
+      "phi": "0.667",
+      "rho": "1",
+      "u_theta": "0.5",
+      "z_cost": "1"
+     }
+    },
+    "unidades_del_plan_tocadas": 204,
+    "filas_lambda_pi_conservadas": 268,
+    "techos_conservados": 268,
+    "sets": {
+     "PER-E1.micro": 31,
+     "CMP-E1.macro": 77,
+     "PER-E1.macro": 32,
+     "CMP-E1.micro": 42,
+     "COL-E2-2023.2024p.macro": 18,
+     "COL-E2-2023.2023p.micro": 17,
+     "COL-E2-2023.2024p.micro": 14,
+     "PER-E0E3.micro": 15,
+     "COL-E2-2023.2023p.macro": 12,
+     "PER-E0E3.macro": 10
+    }
+   },
+   "run_readiness_flag_en_celdas": {
+    "False": 268
+   }
+  },
+  "BRUN-f5f58960bbf9017776d3d7fc": {
+   "entrega": "remanente_e6a4_correccion_cierre_paso4_3_7_2026-10-11_lima2330",
+   "entregas": [
+    "remanente_e6a4_correccion_cierre_paso4_3_7_2026-10-11_lima2330"
+   ],
+   "run_ids_en_filas": [
+    "BRUN-f5f58960bbf9017776d3d7fc"
+   ],
+   "run_id_unico_y_propio": true,
+   "tecnicas_distintas": 1,
+   "configuraciones_distintas": [
+    "e3f87cae48287703adeb06ec42ded827ec80b76ca4ffb81ede024995acc1e09c"
+   ],
+   "contratos_distintos": [
+    "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220"
+   ],
+   "tecnicas": [
+    {
+     "code_sha256": "037d20d3d02128752e7f2650d9b023fb13de5d205afb506e9f0e832510f172aa",
+     "configuration_sha256": "e3f87cae48287703adeb06ec42ded827ec80b76ca4ffb81ede024995acc1e09c",
+     "contract_sha256": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+     "environment_sha256": "41b467a1cf2a28b3a3b0dcbacaa3da9e84352d37837d13e2c3aa2638046881c4",
+     "method_sha256": "c3ba3ac8cb684b8c4492432a5a984d134ca7fa75e66797a2dc459047be0f7412",
+     "tolerances_sha256": "0fc40e7d83d4ac51828b409b05a582f9bfd93542bde44aeb1e83d404476b4066"
+    }
+   ],
+   "d7_tree": "10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739",
+   "nucleo_de_la_entrega": "remanente_e6a4_correccion_cierre_paso4_3_7_2026-10-11_lima2330\\candidato\\src",
+   "run_py_sha256": "3af84a1d6fa84727e3567bc2cf450b859eecc944f41ac2c0907eb4397303b9d1",
+   "STRUCT": [
+    "a",
+    "beta_tilde",
+    "eta_d",
+    "eta_f",
+    "kappa_tilde",
+    "phi",
+    "rho",
+    "u_theta",
+    "z_cost"
+   ],
+   "run_class": "remanente_e6a4_correccion_cierre_3_7",
+   "run_class_hallada_en": "remanente_e6a4_correccion_cierre_paso4_3_7_2026-10-11_lima2330\\demo\\rem11\\resultados\\trabajador_E10.json",
+   "configuracion_reconstruida": true,
+   "configuracion_plan": {
+    "base_sets": [
+     "CMP-E1.macro",
+     "CMP-E1.micro",
+     "COL-E2-2023.2023p.macro",
+     "COL-E2-2023.2023p.micro",
+     "COL-E2-2023.2024p.macro",
+     "COL-E2-2023.2024p.micro",
+     "PER-E0E3.macro",
+     "PER-E0E3.micro",
+     "PER-E1.macro",
+     "PER-E1.micro"
+    ],
+    "derived_suffixes": [],
+    "level": 0,
+    "max_unit_nodes": 64,
+    "designs": [
+     "G",
+     "N"
+    ]
+   },
+   "productores_que_reproducen_run_id": [
+    {
+     "archivo": "candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/integracion/relf/destino/integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/integracion/relf3/destino/integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/integracion/relff/destino/integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/integracion/relff10/destino/integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/integracion/relff11/destino/integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/integracion/relff9/destino/integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1a/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "demo/relocalizacion_p1b/destino/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    },
+    {
+     "archivo": "integracion_consumidor/candidato/herramientas/b/seleccion_paso4.py",
+     "sha256": "9c5a1bcb75cee6f5fa96d81f91079b375b2a628dd2cf99fa09f05fb6b0c93528",
+     "en_inventario": true
+    }
+   ],
+   "run_id_recalculado": true,
+   "plan": {
+    "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+    "unidades": 187500,
+    "regla": "unidades.plan_units (unidades.py:81-94) reimplementada sin evaluar el modelo: nodos L0 de D7 por eje STRUCT, prefijo mínimo con resto <= max_unit_nodes",
+    "puntos_estructurales_coinciden_con_universo_b37": true
+   },
+   "evidencia": {
+    "celdas_aceptadas": 1,
+    "celdas_sobre_reticula_L0": 1,
+    "celdas_fuera_de_reticula": 0,
+    "ejemplo_fuera": null,
+    "unidades_del_plan_tocadas": 1,
+    "filas_lambda_pi_conservadas": 1,
+    "techos_conservados": 1,
+    "sets": {
+     "PER-E0E3.macro": 1
+    }
+   },
+   "run_readiness_flag_en_celdas": {
+    "False": 1
+   }
+  }
+ },
+ "plan": {
+  "{\"base_sets\": [\"CMP-E1.macro\", \"CMP-E1.micro\", \"COL-E2-2023.2023p.macro\", \"COL-E2-2023.2023p.micro\", \"COL-E2-2023.2024p.macro\", \"COL-E2-2023.2024p.micro\", \"PER-E0E3.macro\", \"PER-E0E3.micro\", \"PER-E1.macro\", \"PER-E1.micro\"], \"derived_suffixes\": [], \"designs\": [\"G\", \"N\"], \"level\": 0, \"max_unit_nodes\": 64}[\"a\", \"beta_tilde\", \"eta_d\", \"eta_f\", \"kappa_tilde\", \"phi\", \"rho\", \"u_theta\", \"z_cost\"]": {
+   "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42",
+   "unidades": 187500,
+   "por_set": {
+    "CMP-E1.macro": {
+     "nodos_por_eje": {
+      "a": 5,
+      "beta_tilde": 5,
+      "eta_d": 5,
+      "eta_f": 5,
+      "kappa_tilde": 6,
+      "phi": 5,
+      "rho": 5,
+      "u_theta": 3,
+      "z_cost": 3
+     },
+     "puntos_estructurales": 843750,
+     "k_prefijo": 6,
+     "puntos_por_unidad": 45,
+     "unidades": 18750,
+     "puntos_L0_universo_b37": 843750
+    },
+    "CMP-E1.micro": {
+     "nodos_por_eje": {
+      "a": 5,
+      "beta_tilde": 5,
+      "eta_d": 5,
+      "eta_f": 5,
+      "kappa_tilde": 6,
+      "phi": 5,
+      "rho": 5,
+      "u_theta": 3,
+      "z_cost": 3
+     },
+     "puntos_estructurales": 843750,
+     "k_prefijo": 6,
+     "puntos_por_unidad": 45,
+     "unidades": 18750,
+     "puntos_L0_universo_b37": 843750
+    },
+    "COL-E2-2023.2023p.macro": {
+     "nodos_por_eje": {
+      "a": 5,
+      "beta_tilde": 5,
+      "eta_d": 5,
+      "eta_f": 5,
+      "kappa_tilde": 6,
+      "phi": 5,
+      "rho": 5,
+      "u_theta": 3,
+      "z_cost": 3
+     },
+     "puntos_estructurales": 843750,
+     "k_prefijo": 6,
+     "puntos_por_unidad": 45,
+     "unidades": 18750,
+     "puntos_L0_universo_b37": 843750
+    },
+    "COL-E2-2023.2023p.micro": {
+     "nodos_por_eje": {
+      "a": 5,
+      "beta_tilde": 5,
+      "eta_d": 5,
+      "eta_f": 5,
+      "kappa_tilde": 6,
+      "phi": 5,
+      "rho": 5,
+      "u_theta": 3,
+      "z_cost": 3
+     },
+     "puntos_estructurales": 843750,
+     "k_prefijo": 6,
+     "puntos_por_unidad": 45,
+     "unidades": 18750,
+     "puntos_L0_universo_b37": 843750
+    },
+    "COL-E2-2023.2024p.macro": {
+     "nodos_por_eje": {
+      "a": 5,
+      "beta_tilde": 5,
+      "eta_d": 5,
+      "eta_f": 5,
+      "kappa_tilde": 6,
+      "phi": 5,
+      "rho": 5,
+      "u_theta": 3,
+      "z_cost": 3
+     },
+     "puntos_estructurales": 843750,
+     "k_prefijo": 6,
+     "puntos_por_unidad": 45,
+     "unidades": 18750,
+     "puntos_L0_universo_b37": 843750
+    },
+    "COL-E2-2023.2024p.micro": {
+     "nodos_por_eje": {
+      "a": 5,
+      "beta_tilde": 5,
+      "eta_d": 5,
+      "eta_f": 5,
+      "kappa_tilde": 6,
+      "phi": 5,
+      "rho": 5,
+      "u_theta": 3,
+      "z_cost": 3
+     },
+     "puntos_estructurales": 843750,
+     "k_prefijo": 6,
+     "puntos_por_unidad": 45,
+     "unidades": 18750,
+     "puntos_L0_universo_b37": 843750
+    },
+    "PER-E0E3.macro": {
+     "nodos_por_eje": {
+      "a": 5,
+      "beta_tilde": 5,
+      "eta_d": 5,
+      "eta_f": 5,
+      "kappa_tilde": 6,
+      "phi": 5,
+      "rho": 5,
+      "u_theta": 3,
+      "z_cost": 3
+     },
+     "puntos_estructurales": 843750,
+     "k_prefijo": 6,
+     "puntos_por_unidad": 45,
+     "unidades": 18750,
+     "puntos_L0_universo_b37": 843750
+    },
+    "PER-E0E3.micro": {
+     "nodos_por_eje": {
+      "a": 5,
+      "beta_tilde": 5,
+      "eta_d": 5,
+      "eta_f": 5,
+      "kappa_tilde": 6,
+      "phi": 5,
+      "rho": 5,
+      "u_theta": 3,
+      "z_cost": 3
+     },
+     "puntos_estructurales": 843750,
+     "k_prefijo": 6,
+     "puntos_por_unidad": 45,
+     "unidades": 18750,
+     "puntos_L0_universo_b37": 843750
+    },
+    "PER-E1.macro": {
+     "nodos_por_eje": {
+      "a": 5,
+      "beta_tilde": 5,
+      "eta_d": 5,
+      "eta_f": 5,
+      "kappa_tilde": 6,
+      "phi": 5,
+      "rho": 5,
+      "u_theta": 3,
+      "z_cost": 3
+     },
+     "puntos_estructurales": 843750,
+     "k_prefijo": 6,
+     "puntos_por_unidad": 45,
+     "unidades": 18750,
+     "puntos_L0_universo_b37": 843750
+    },
+    "PER-E1.micro": {
+     "nodos_por_eje": {
+      "a": 5,
+      "beta_tilde": 5,
+      "eta_d": 5,
+      "eta_f": 5,
+      "kappa_tilde": 6,
+      "phi": 5,
+      "rho": 5,
+      "u_theta": 3,
+      "z_cost": 3
+     },
+     "puntos_estructurales": 843750,
+     "k_prefijo": 6,
+     "puntos_por_unidad": 45,
+     "unidades": 18750,
+     "puntos_L0_universo_b37": 843750
+    }
+   }
+  }
+ }
+}

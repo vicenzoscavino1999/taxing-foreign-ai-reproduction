@@ -1,0 +1,105 @@
+{
+ "kind": "verificacion-vista-t8-captura",
+ "utc": "2026-11-02T01:03:58.924372+00:00",
+ "modo": "produccion",
+ "puerta": {
+  "modo": "produccion",
+  "manifiesto_captura_sha256": "952c6512db0bcf81cca0c53a15342f444262405cb66cfad8f85a5c898d77aba7",
+  "indice_sha256": "7d58938e308fd63536925c6ef8b39fbafb6ab46706d70853e45821466d054ee0",
+  "alcance_sha256": "01b9633aa382b49dce7af78a8af8ec939c88aaffb0175ab91b8edec94991e4bd",
+  "decision": {
+   "proveedor": "claude",
+   "transcripcion": "@@TRANSCRIPCION_CLAUDE_BS2@@\\fa99d748-337c-44a7-8d1d-ca7ced1b9871.jsonl",
+   "linea": 23094,
+   "uuid": "dc51bf73-f623-4b4b-a074-2bf66d958cfd",
+   "session_id": "fa99d748-337c-44a7-8d1d-ca7ced1b9871",
+   "timestamp": "2026-11-02T01:03:23.512Z",
+   "registro_sha256": "b9815ee71f5902344d382edd1417b7fae98f4fcbff4363382492b6b2b8f748ac",
+   "contenido": "AUTORIZO ALCANCE PASO4 alcance_sha256=01b9633aa382b49dce7af78a8af8ec939c88aaffb0175ab91b8edec94991e4bd",
+   "mensaje_sha256": "b9815ee71f5902344d382edd1417b7fae98f4fcbff4363382492b6b2b8f748ac",
+   "alcance_sha256": "01b9633aa382b49dce7af78a8af8ec939c88aaffb0175ab91b8edec94991e4bd",
+   "modo_arnes": false
+  },
+  "tarea": "CAPTURA-T8-VERIFICAR",
+  "entradas": {
+   "alcance": "@@R_FS@@/tmp/paso4_emision_captura_correcciones_testigo_desde_rem139/alcance/alcance_captura.json",
+   "decision": "@@R_FS@@/tmp/paso4_emision_captura_correcciones_testigo_desde_rem139/alcance/decision_ref_captura.json"
+  }
+ },
+ "manifiesto_captura_sha256": "952c6512db0bcf81cca0c53a15342f444262405cb66cfad8f85a5c898d77aba7",
+ "conforme": true,
+ "fallos": [],
+ "detalle": {
+  "resumen": {
+   "filas": 13656,
+   "definitivas_preservadas": 9434,
+   "lambda_finalizadas": 2111,
+   "captura_filas": 2111,
+   "captura_computed": 928,
+   "captura_outside_support": 1143,
+   "captura_pendiente": 40,
+   "captura_por_tipo": {
+    "exclusion_cota_33_10": 264,
+    "exclusion_cota_U": 879,
+    "pertenencia_misma_corrida": 365,
+    "pertenencia_transferida": 563
+   },
+   "captura_pendientes_por_causa": {
+    "SIN_PRUEBA_POR_FILA": 40
+   },
+   "captura_cambios": 928,
+   "corridas": [
+    "BRUN-050091213b198d7cd7ba9ea2",
+    "BRUN-1368187e9a43de0d95926dca",
+    "BRUN-47e3d9f48d2b65e9ddeed02f",
+    "BRUN-4ef8507fcdefbddc55dbc3b7",
+    "BRUN-5b35ba3f51bc08bd48b384bd",
+    "BRUN-612818cb081c6797d4923b4d",
+    "BRUN-63a9e9ea157b2faaf317ae61",
+    "BRUN-7bdfe0a1bee57298e31e1b34",
+    "BRUN-991c466a1938ddbf2192eefb",
+    "BRUN-9c6c66e7af8b139a613b1c3f",
+    "BRUN-a81e3f45f7111e18b1f39370",
+    "BRUN-c5af32a993773f5258ce570f",
+    "BRUN-cb33e6b24039acc84fb1a065",
+    "BRUN-f5f58960bbf9017776d3d7fc"
+   ],
+   "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42"
+  },
+  "producto_sha256": "66891b45282cae1c08c0a86131d194631e1d9a39351e26cfc137255e6b489992",
+  "filas_distintas": 0,
+  "base_lambda_sha256": "1b4881c3211263909e5aafedef7b5a56b2147143853c43a1e38e12dd772e6996",
+  "procedencia": {
+   "cotejados": [
+    "modo",
+    "manifiesto_captura_sha256",
+    "indice_sha256",
+    "alcance_sha256",
+    "decision",
+    "kind",
+    "productivo",
+    "modo",
+    "manifiesto_captura_sha256"
+   ],
+   "contexto": {
+    "modo": "produccion",
+    "manifiesto_captura_sha256": "952c6512db0bcf81cca0c53a15342f444262405cb66cfad8f85a5c898d77aba7",
+    "indice_sha256": "7d58938e308fd63536925c6ef8b39fbafb6ab46706d70853e45821466d054ee0",
+    "alcance_sha256": "01b9633aa382b49dce7af78a8af8ec939c88aaffb0175ab91b8edec94991e4bd",
+    "decision": {
+     "proveedor": "claude",
+     "transcripcion": "@@TRANSCRIPCION_CLAUDE_BS2@@\\fa99d748-337c-44a7-8d1d-ca7ced1b9871.jsonl",
+     "linea": 23094,
+     "uuid": "dc51bf73-f623-4b4b-a074-2bf66d958cfd",
+     "session_id": "fa99d748-337c-44a7-8d1d-ca7ced1b9871",
+     "timestamp": "2026-11-02T01:03:23.512Z",
+     "registro_sha256": "b9815ee71f5902344d382edd1417b7fae98f4fcbff4363382492b6b2b8f748ac",
+     "contenido": "AUTORIZO ALCANCE PASO4 alcance_sha256=01b9633aa382b49dce7af78a8af8ec939c88aaffb0175ab91b8edec94991e4bd",
+     "mensaje_sha256": "b9815ee71f5902344d382edd1417b7fae98f4fcbff4363382492b6b2b8f748ac",
+     "alcance_sha256": "01b9633aa382b49dce7af78a8af8ec939c88aaffb0175ab91b8edec94991e4bd",
+     "modo_arnes": false
+    }
+   }
+  }
+ }
+}

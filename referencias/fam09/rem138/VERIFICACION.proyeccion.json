@@ -1,0 +1,94 @@
+{
+ "kind": "verificacion-producto-t8-lambda",
+ "utc": "2026-11-01T19:40:56.627296+00:00",
+ "modo": "produccion",
+ "puerta": {
+  "modo": "produccion",
+  "manifiesto_emision_sha256": "e6207fa8ec6a9402c2b86d67ea0d91a7b2eff9c010e2f34139e00a3f44875474",
+  "indice_sha256": "0810343938e877d92872aca7e46005c7d84ffe3270b323553d1204d20bd6b073",
+  "alcance_sha256": "d3076d0d501e76f716eb1ef7afe4d2a88b1023acab05fd9418cdd509e670d379",
+  "decision": {
+   "proveedor": "claude",
+   "transcripcion": "@@TRANSCRIPCION_CLAUDE_BS2@@\\fa99d748-337c-44a7-8d1d-ca7ced1b9871.jsonl",
+   "linea": 20460,
+   "uuid": "f15a48cd-3666-4731-bff0-c62593379278",
+   "session_id": "fa99d748-337c-44a7-8d1d-ca7ced1b9871",
+   "timestamp": "2026-11-01T19:40:05.286Z",
+   "registro_sha256": "4e3aca1ff835b48d9a358fa08a9d95c389aeeb64019bdb4edc43ddc26ed35b72",
+   "contenido": "AUTORIZO ALCANCE PASO4 alcance_sha256=d3076d0d501e76f716eb1ef7afe4d2a88b1023acab05fd9418cdd509e670d379",
+   "mensaje_sha256": "4e3aca1ff835b48d9a358fa08a9d95c389aeeb64019bdb4edc43ddc26ed35b72",
+   "alcance_sha256": "d3076d0d501e76f716eb1ef7afe4d2a88b1023acab05fd9418cdd509e670d379",
+   "modo_arnes": false
+  },
+  "tarea": "LAMBDA-T8-VERIFICAR",
+  "entradas": {
+   "alcance": "@@R_FS@@/tmp/paso4_emision_lambda_conexion_captura_desde_rem137/alcance/alcance_emision_lambda.json",
+   "decision": "@@R_FS@@/tmp/paso4_emision_lambda_conexion_captura_desde_rem137/alcance/decision_ref_emision_lambda.json"
+  }
+ },
+ "manifiesto_emision_sha256": "e6207fa8ec6a9402c2b86d67ea0d91a7b2eff9c010e2f34139e00a3f44875474",
+ "conforme": true,
+ "fallos": [],
+ "detalle": {
+  "resumen": {
+   "filas": 13656,
+   "definitivas_preservadas": 9434,
+   "captura_pendiente": 2111,
+   "lambda_finalizadas": 2111,
+   "lambda_outside_support": 2042,
+   "lambda_computed": 69,
+   "cambios": 68,
+   "corridas": [
+    "BRUN-050091213b198d7cd7ba9ea2",
+    "BRUN-1368187e9a43de0d95926dca",
+    "BRUN-47e3d9f48d2b65e9ddeed02f",
+    "BRUN-4ef8507fcdefbddc55dbc3b7",
+    "BRUN-5b35ba3f51bc08bd48b384bd",
+    "BRUN-612818cb081c6797d4923b4d",
+    "BRUN-63a9e9ea157b2faaf317ae61",
+    "BRUN-7bdfe0a1bee57298e31e1b34",
+    "BRUN-991c466a1938ddbf2192eefb",
+    "BRUN-9c6c66e7af8b139a613b1c3f",
+    "BRUN-a81e3f45f7111e18b1f39370",
+    "BRUN-c5af32a993773f5258ce570f",
+    "BRUN-cb33e6b24039acc84fb1a065",
+    "BRUN-f5f58960bbf9017776d3d7fc"
+   ],
+   "plan_sha256": "6cec0a6d662104dab6a490cea647cd24ae995819a416eaf3cfd4fd9f3c060e42"
+  },
+  "producto_sha256": "1b4881c3211263909e5aafedef7b5a56b2147143853c43a1e38e12dd772e6996",
+  "filas_distintas": 0,
+  "procedencia": {
+   "cotejados": [
+    "modo",
+    "manifiesto_emision_sha256",
+    "indice_sha256",
+    "alcance_sha256",
+    "decision",
+    "kind",
+    "productivo",
+    "modo",
+    "manifiesto_emision_sha256"
+   ],
+   "contexto": {
+    "modo": "produccion",
+    "manifiesto_emision_sha256": "e6207fa8ec6a9402c2b86d67ea0d91a7b2eff9c010e2f34139e00a3f44875474",
+    "indice_sha256": "0810343938e877d92872aca7e46005c7d84ffe3270b323553d1204d20bd6b073",
+    "alcance_sha256": "d3076d0d501e76f716eb1ef7afe4d2a88b1023acab05fd9418cdd509e670d379",
+    "decision": {
+     "proveedor": "claude",
+     "transcripcion": "@@TRANSCRIPCION_CLAUDE_BS2@@\\fa99d748-337c-44a7-8d1d-ca7ced1b9871.jsonl",
+     "linea": 20460,
+     "uuid": "f15a48cd-3666-4731-bff0-c62593379278",
+     "session_id": "fa99d748-337c-44a7-8d1d-ca7ced1b9871",
+     "timestamp": "2026-11-01T19:40:05.286Z",
+     "registro_sha256": "4e3aca1ff835b48d9a358fa08a9d95c389aeeb64019bdb4edc43ddc26ed35b72",
+     "contenido": "AUTORIZO ALCANCE PASO4 alcance_sha256=d3076d0d501e76f716eb1ef7afe4d2a88b1023acab05fd9418cdd509e670d379",
+     "mensaje_sha256": "4e3aca1ff835b48d9a358fa08a9d95c389aeeb64019bdb4edc43ddc26ed35b72",
+     "alcance_sha256": "d3076d0d501e76f716eb1ef7afe4d2a88b1023acab05fd9418cdd509e670d379",
+     "modo_arnes": false
+    }
+   }
+  }
+ }
+}

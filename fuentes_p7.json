@@ -1,0 +1,53 @@
+{
+  "origen": "rem197/paquete/INDICE_PAQUETE.json",
+  "indice_sha256": "886114789a26da2f03b92e79a980e16e47dec8cd0cc7dc0c5bd53de61bdab450",
+  "archivos_locales": {
+    "src/external.py": "0b14fc0ee0fe4b0bc6d28aebad717dc0e02af03d8b53007be00d7295b72c4a6b",
+    "src/macro.py": "4a94661d1cd0f3fe654f2cf7ecaa740b860e1c735b1585d51fda8f56dd068b98",
+    "src/p7_calculo.py": "4c025f7bf1972a1b0b52b0c29214c19c45b141c5db600dde1853b41cce232aaf",
+    "datos/p7.json": "98d081100f67333b64534bf2befacb6c3883e9ba46e0ef53f6d4a7c1bae1ac9a",
+    "referencias/p7.json": "05fe10aa4d020919ed8d50e5de099bb2193a402d7c9a7cfef2cc7ea9c95a7eda"
+  },
+  "extracciones": [
+    {
+      "archivo": "src/external.py",
+      "fuente": "objetos/0b14fc0ee0fe4b0bc6d28aebad717dc0e02af03d8b53007be00d7295b72c4a6b/external.py",
+      "transformacion": "copia exacta"
+    },
+    {
+      "archivo": "src/macro.py",
+      "fuente": "objetos/4a94661d1cd0f3fe654f2cf7ecaa740b860e1c735b1585d51fda8f56dd068b98/macro.py",
+      "transformacion": "copia exacta"
+    },
+    {
+      "archivo": "src/p7_calculo.py",
+      "fuente": "rem153/paquete_p7/comun_p7.py",
+      "fuente_sha256": "3702da399cc8370feab8d2ad1bfb738050b47bf7c5e7c7568b962594ff54bfef",
+      "transformacion": "función derivar_k1 extraída sin cambios"
+    },
+    {
+      "unidad": "S1-N-df",
+      "fuente": "proyecciones/2c21325e7fd4bf7962e45b2fe6e3f5701d937c43372e3c6be4329290efa34ba2/resultado.json",
+      "proyeccion_sha256": "2c21325e7fd4bf7962e45b2fe6e3f5701d937c43372e3c6be4329290efa34ba2",
+      "original_aceptado_sha256": "e608aac7c1c0e50d041e1e1203da7ecf63e7fb7a983ac81aa3ffb47444b9ed57",
+      "entradas": "/entradas",
+      "referencias": [
+        "/K1",
+        "/K1_hex",
+        "/derivadas"
+      ]
+    },
+    {
+      "unidad": "S1-G-df",
+      "fuente": "proyecciones/645e1a34e043b023b7675b6e2117d1b2a41fdc583d4861086854d7975ca91501/resultado.json",
+      "proyeccion_sha256": "645e1a34e043b023b7675b6e2117d1b2a41fdc583d4861086854d7975ca91501",
+      "original_aceptado_sha256": "f5036f8a88cd4a40a9bae5a1fcd5d0923c7cdf6cce02fd7b9ddf2ee6bc5969ef",
+      "entradas": "/entradas",
+      "referencias": [
+        "/K1",
+        "/K1_hex",
+        "/derivadas"
+      ]
+    }
+  ]
+}

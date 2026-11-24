@@ -1,0 +1,756 @@
+{
+  "schema_version": 1,
+  "product_type": "ca2_bundles_1_5",
+  "authority_package_sha256": "8aaa27cf12dfe435512ccd60245cc1ed4c70dbf28421eee5aec7c38814fab7b9",
+  "contract_sha256": "eda3d6e5a0c0c0c318bb075c3314f7c927382c955d76e2dcdd3b5c1f4659af32",
+  "reception_tree_sha256": "f56f23cf7f61e36c46f8a720f8b6eb5976153b4d5cc75136c0669755a8624bc2",
+  "registry_sha256": "18344e5fff14865f35c47d24babee4edd9840316c36d11e038f4f0de2288c95d",
+  "d4": {
+    "pointer_sha256": "537903c8ce9764f51f985f755d89e4fdaa37a5b458455d5d93bec0ea122d5dc5",
+    "tree_sha256": "cb5446f861610c767c7200a2a46c637c9c46c64ecb99fef05a132ef3f8534006",
+    "availability_matrix_sha256": "cd478ad637830d32e6c2b9d5f66dbb2ecbf7e6cc37e52051d999e022bdcae026",
+    "model_case_map_sha256": "d792d1049b31ab78d6f344576c44e3a8a32181335411271de3278766ec3ba9f7"
+  },
+  "components": {
+    "structural_state_sha256": {
+      "path": "fase2_datos/ca2_bundles/componentes/c14d1a8a19e29f2999b82dddcc08072a511cfd00fdd8e90d1faa8ad74654498a.json",
+      "sha256": "c14d1a8a19e29f2999b82dddcc08072a511cfd00fdd8e90d1faa8ad74654498a",
+      "coordinate": "structural_state"
+    },
+    "labor_block_sha256": {
+      "path": "fase2_datos/ca2_bundles/componentes/58d94a387dddbda45e40b74bf52e5c870573d8f44ddb09e45a31b2ee7e2c4247.json",
+      "sha256": "58d94a387dddbda45e40b74bf52e5c870573d8f44ddb09e45a31b2ee7e2c4247",
+      "coordinate": "labor_block"
+    },
+    "pi_sha256": {
+      "path": "fase2_datos/ca2_bundles/componentes/e498e98d0a7118a6979aae3ea60a172a3f46c08a0165c1736ddcdecedde19405.json",
+      "sha256": "e498e98d0a7118a6979aae3ea60a172a3f46c08a0165c1736ddcdecedde19405",
+      "coordinate": "pi"
+    },
+    "external_requirement_sha256": {
+      "path": "fase2_datos/ca2_bundles/componentes/4f81b8656b2b2ef00ceb336790141342370123374953e072ca5b5a1bf38f53c6.json",
+      "sha256": "4f81b8656b2b2ef00ceb336790141342370123374953e072ca5b5a1bf38f53c6",
+      "coordinate": "external_requirement"
+    },
+    "gain_share_sha256": {
+      "path": "fase2_datos/ca2_bundles/componentes/3b2676ede1690489493dbeaa8ca0f6868bd58a1569cb2104833fb1a8d7471db5.json",
+      "sha256": "3b2676ede1690489493dbeaa8ca0f6868bd58a1569cb2104833fb1a8d7471db5",
+      "coordinate": "gain_share"
+    }
+  },
+  "contexts": {
+    "COL": [
+      {
+        "label": "G-d-domestic_unchanged",
+        "path": "fase2_datos/ca2_bundles/contextos/c68e79cfc4b273417053d473f382984dc72b37391ee7ec4d001a63b26f79f771.json",
+        "sha256": "c68e79cfc4b273417053d473f382984dc72b37391ee7ec4d001a63b26f79f771",
+        "d4_row": {
+          "model_menu": "j_d",
+          "case_id": "domestic_unchanged",
+          "availability_assumed": "false",
+          "quantitative_use": "domestic_menu_unchanged"
+        }
+      },
+      {
+        "label": "G-df-conditional_full",
+        "path": "fase2_datos/ca2_bundles/contextos/0f49c9238bc976720bdc8481cd5fef676e5f13195ce46da852bd8d75d51868df.json",
+        "sha256": "0f49c9238bc976720bdc8481cd5fef676e5f13195ce46da852bd8d75d51868df",
+        "d4_row": {
+          "model_menu": "j_df",
+          "case_id": "conditional_full",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_foreign_leg_enabled"
+        }
+      },
+      {
+        "label": "G-df-conditional_none",
+        "path": "fase2_datos/ca2_bundles/contextos/dda362d1c81729bdcb531a0524f04f05f5c4a0d5256b0fbed4e021fc8fc8b0dc.json",
+        "sha256": "dda362d1c81729bdcb531a0524f04f05f5c4a0d5256b0fbed4e021fc8fc8b0dc",
+        "d4_row": {
+          "model_menu": "j_df",
+          "case_id": "conditional_none",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_no_foreign_leg"
+        }
+      },
+      {
+        "label": "G-f-conditional_full",
+        "path": "fase2_datos/ca2_bundles/contextos/98f39e43cb7d78d48869d7e27f71a0c48e64af8a5e3d0e7291c6caf3c200795f.json",
+        "sha256": "98f39e43cb7d78d48869d7e27f71a0c48e64af8a5e3d0e7291c6caf3c200795f",
+        "d4_row": {
+          "model_menu": "j_f",
+          "case_id": "conditional_full",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_foreign_leg_enabled"
+        }
+      },
+      {
+        "label": "G-f-conditional_none",
+        "path": "fase2_datos/ca2_bundles/contextos/c920fefbe0bc08274214a4e5f81b6ac7e2ec5f612df4dcec4bec38fb4164c556.json",
+        "sha256": "c920fefbe0bc08274214a4e5f81b6ac7e2ec5f612df4dcec4bec38fb4164c556",
+        "d4_row": {
+          "model_menu": "j_f",
+          "case_id": "conditional_none",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_no_foreign_leg"
+        }
+      },
+      {
+        "label": "N-d-domestic_unchanged",
+        "path": "fase2_datos/ca2_bundles/contextos/7e717f12022d7c6b6a774d7e39f33fe5f8b41c99c303f06bb519ca930a663ed8.json",
+        "sha256": "7e717f12022d7c6b6a774d7e39f33fe5f8b41c99c303f06bb519ca930a663ed8",
+        "d4_row": {
+          "model_menu": "j_d",
+          "case_id": "domestic_unchanged",
+          "availability_assumed": "false",
+          "quantitative_use": "domestic_menu_unchanged"
+        }
+      },
+      {
+        "label": "N-df-conditional_full",
+        "path": "fase2_datos/ca2_bundles/contextos/409f00026c074bfdc892e79c33d460cdc2af13ea4a1004e4cfb660748655a732.json",
+        "sha256": "409f00026c074bfdc892e79c33d460cdc2af13ea4a1004e4cfb660748655a732",
+        "d4_row": {
+          "model_menu": "j_df",
+          "case_id": "conditional_full",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_foreign_leg_enabled"
+        }
+      },
+      {
+        "label": "N-df-conditional_none",
+        "path": "fase2_datos/ca2_bundles/contextos/82832543e81d77fa27e2334e10d1076fbebd8fcb53b9ada74be5eec1b2a053e9.json",
+        "sha256": "82832543e81d77fa27e2334e10d1076fbebd8fcb53b9ada74be5eec1b2a053e9",
+        "d4_row": {
+          "model_menu": "j_df",
+          "case_id": "conditional_none",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_no_foreign_leg"
+        }
+      },
+      {
+        "label": "N-f-conditional_full",
+        "path": "fase2_datos/ca2_bundles/contextos/613844d504ff81d9f31499740dba7ba5190210bf8690f1b8e28eccba94291e78.json",
+        "sha256": "613844d504ff81d9f31499740dba7ba5190210bf8690f1b8e28eccba94291e78",
+        "d4_row": {
+          "model_menu": "j_f",
+          "case_id": "conditional_full",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_foreign_leg_enabled"
+        }
+      },
+      {
+        "label": "N-f-conditional_none",
+        "path": "fase2_datos/ca2_bundles/contextos/c22b874a47351cc4fb6293d9f60d016f76b15e1b0d03bf172b10aed169da4e66.json",
+        "sha256": "c22b874a47351cc4fb6293d9f60d016f76b15e1b0d03bf172b10aed169da4e66",
+        "d4_row": {
+          "model_menu": "j_f",
+          "case_id": "conditional_none",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_no_foreign_leg"
+        }
+      }
+    ],
+    "MEX": [
+      {
+        "label": "G-d-domestic_unchanged",
+        "path": "fase2_datos/ca2_bundles/contextos/c68e79cfc4b273417053d473f382984dc72b37391ee7ec4d001a63b26f79f771.json",
+        "sha256": "c68e79cfc4b273417053d473f382984dc72b37391ee7ec4d001a63b26f79f771",
+        "d4_row": {
+          "model_menu": "j_d",
+          "case_id": "domestic_unchanged",
+          "availability_assumed": "false",
+          "quantitative_use": "domestic_menu_unchanged"
+        }
+      },
+      {
+        "label": "G-df-conditional_full",
+        "path": "fase2_datos/ca2_bundles/contextos/0f49c9238bc976720bdc8481cd5fef676e5f13195ce46da852bd8d75d51868df.json",
+        "sha256": "0f49c9238bc976720bdc8481cd5fef676e5f13195ce46da852bd8d75d51868df",
+        "d4_row": {
+          "model_menu": "j_df",
+          "case_id": "conditional_full",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_foreign_leg_enabled"
+        }
+      },
+      {
+        "label": "G-df-conditional_none",
+        "path": "fase2_datos/ca2_bundles/contextos/dda362d1c81729bdcb531a0524f04f05f5c4a0d5256b0fbed4e021fc8fc8b0dc.json",
+        "sha256": "dda362d1c81729bdcb531a0524f04f05f5c4a0d5256b0fbed4e021fc8fc8b0dc",
+        "d4_row": {
+          "model_menu": "j_df",
+          "case_id": "conditional_none",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_no_foreign_leg"
+        }
+      },
+      {
+        "label": "G-f-conditional_full",
+        "path": "fase2_datos/ca2_bundles/contextos/98f39e43cb7d78d48869d7e27f71a0c48e64af8a5e3d0e7291c6caf3c200795f.json",
+        "sha256": "98f39e43cb7d78d48869d7e27f71a0c48e64af8a5e3d0e7291c6caf3c200795f",
+        "d4_row": {
+          "model_menu": "j_f",
+          "case_id": "conditional_full",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_foreign_leg_enabled"
+        }
+      },
+      {
+        "label": "G-f-conditional_none",
+        "path": "fase2_datos/ca2_bundles/contextos/c920fefbe0bc08274214a4e5f81b6ac7e2ec5f612df4dcec4bec38fb4164c556.json",
+        "sha256": "c920fefbe0bc08274214a4e5f81b6ac7e2ec5f612df4dcec4bec38fb4164c556",
+        "d4_row": {
+          "model_menu": "j_f",
+          "case_id": "conditional_none",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_no_foreign_leg"
+        }
+      },
+      {
+        "label": "N-d-domestic_unchanged",
+        "path": "fase2_datos/ca2_bundles/contextos/7e717f12022d7c6b6a774d7e39f33fe5f8b41c99c303f06bb519ca930a663ed8.json",
+        "sha256": "7e717f12022d7c6b6a774d7e39f33fe5f8b41c99c303f06bb519ca930a663ed8",
+        "d4_row": {
+          "model_menu": "j_d",
+          "case_id": "domestic_unchanged",
+          "availability_assumed": "false",
+          "quantitative_use": "domestic_menu_unchanged"
+        }
+      },
+      {
+        "label": "N-df-conditional_full",
+        "path": "fase2_datos/ca2_bundles/contextos/409f00026c074bfdc892e79c33d460cdc2af13ea4a1004e4cfb660748655a732.json",
+        "sha256": "409f00026c074bfdc892e79c33d460cdc2af13ea4a1004e4cfb660748655a732",
+        "d4_row": {
+          "model_menu": "j_df",
+          "case_id": "conditional_full",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_foreign_leg_enabled"
+        }
+      },
+      {
+        "label": "N-df-conditional_none",
+        "path": "fase2_datos/ca2_bundles/contextos/82832543e81d77fa27e2334e10d1076fbebd8fcb53b9ada74be5eec1b2a053e9.json",
+        "sha256": "82832543e81d77fa27e2334e10d1076fbebd8fcb53b9ada74be5eec1b2a053e9",
+        "d4_row": {
+          "model_menu": "j_df",
+          "case_id": "conditional_none",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_no_foreign_leg"
+        }
+      },
+      {
+        "label": "N-f-conditional_full",
+        "path": "fase2_datos/ca2_bundles/contextos/613844d504ff81d9f31499740dba7ba5190210bf8690f1b8e28eccba94291e78.json",
+        "sha256": "613844d504ff81d9f31499740dba7ba5190210bf8690f1b8e28eccba94291e78",
+        "d4_row": {
+          "model_menu": "j_f",
+          "case_id": "conditional_full",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_foreign_leg_enabled"
+        }
+      },
+      {
+        "label": "N-f-conditional_none",
+        "path": "fase2_datos/ca2_bundles/contextos/c22b874a47351cc4fb6293d9f60d016f76b15e1b0d03bf172b10aed169da4e66.json",
+        "sha256": "c22b874a47351cc4fb6293d9f60d016f76b15e1b0d03bf172b10aed169da4e66",
+        "d4_row": {
+          "model_menu": "j_f",
+          "case_id": "conditional_none",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_no_foreign_leg"
+        }
+      }
+    ],
+    "PER": [
+      {
+        "label": "G-d-domestic_unchanged",
+        "path": "fase2_datos/ca2_bundles/contextos/c68e79cfc4b273417053d473f382984dc72b37391ee7ec4d001a63b26f79f771.json",
+        "sha256": "c68e79cfc4b273417053d473f382984dc72b37391ee7ec4d001a63b26f79f771",
+        "d4_row": {
+          "model_menu": "j_d",
+          "case_id": "domestic_unchanged",
+          "availability_assumed": "false",
+          "quantitative_use": "domestic_menu_unchanged"
+        }
+      },
+      {
+        "label": "G-df-conditional_full",
+        "path": "fase2_datos/ca2_bundles/contextos/0f49c9238bc976720bdc8481cd5fef676e5f13195ce46da852bd8d75d51868df.json",
+        "sha256": "0f49c9238bc976720bdc8481cd5fef676e5f13195ce46da852bd8d75d51868df",
+        "d4_row": {
+          "model_menu": "j_df",
+          "case_id": "conditional_full",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_foreign_leg_enabled"
+        }
+      },
+      {
+        "label": "G-df-conditional_none",
+        "path": "fase2_datos/ca2_bundles/contextos/dda362d1c81729bdcb531a0524f04f05f5c4a0d5256b0fbed4e021fc8fc8b0dc.json",
+        "sha256": "dda362d1c81729bdcb531a0524f04f05f5c4a0d5256b0fbed4e021fc8fc8b0dc",
+        "d4_row": {
+          "model_menu": "j_df",
+          "case_id": "conditional_none",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_no_foreign_leg"
+        }
+      },
+      {
+        "label": "G-f-conditional_full",
+        "path": "fase2_datos/ca2_bundles/contextos/98f39e43cb7d78d48869d7e27f71a0c48e64af8a5e3d0e7291c6caf3c200795f.json",
+        "sha256": "98f39e43cb7d78d48869d7e27f71a0c48e64af8a5e3d0e7291c6caf3c200795f",
+        "d4_row": {
+          "model_menu": "j_f",
+          "case_id": "conditional_full",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_foreign_leg_enabled"
+        }
+      },
+      {
+        "label": "G-f-conditional_none",
+        "path": "fase2_datos/ca2_bundles/contextos/c920fefbe0bc08274214a4e5f81b6ac7e2ec5f612df4dcec4bec38fb4164c556.json",
+        "sha256": "c920fefbe0bc08274214a4e5f81b6ac7e2ec5f612df4dcec4bec38fb4164c556",
+        "d4_row": {
+          "model_menu": "j_f",
+          "case_id": "conditional_none",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_no_foreign_leg"
+        }
+      },
+      {
+        "label": "N-d-domestic_unchanged",
+        "path": "fase2_datos/ca2_bundles/contextos/7e717f12022d7c6b6a774d7e39f33fe5f8b41c99c303f06bb519ca930a663ed8.json",
+        "sha256": "7e717f12022d7c6b6a774d7e39f33fe5f8b41c99c303f06bb519ca930a663ed8",
+        "d4_row": {
+          "model_menu": "j_d",
+          "case_id": "domestic_unchanged",
+          "availability_assumed": "false",
+          "quantitative_use": "domestic_menu_unchanged"
+        }
+      },
+      {
+        "label": "N-df-conditional_full",
+        "path": "fase2_datos/ca2_bundles/contextos/409f00026c074bfdc892e79c33d460cdc2af13ea4a1004e4cfb660748655a732.json",
+        "sha256": "409f00026c074bfdc892e79c33d460cdc2af13ea4a1004e4cfb660748655a732",
+        "d4_row": {
+          "model_menu": "j_df",
+          "case_id": "conditional_full",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_foreign_leg_enabled"
+        }
+      },
+      {
+        "label": "N-df-conditional_none",
+        "path": "fase2_datos/ca2_bundles/contextos/82832543e81d77fa27e2334e10d1076fbebd8fcb53b9ada74be5eec1b2a053e9.json",
+        "sha256": "82832543e81d77fa27e2334e10d1076fbebd8fcb53b9ada74be5eec1b2a053e9",
+        "d4_row": {
+          "model_menu": "j_df",
+          "case_id": "conditional_none",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_no_foreign_leg"
+        }
+      },
+      {
+        "label": "N-f-conditional_full",
+        "path": "fase2_datos/ca2_bundles/contextos/613844d504ff81d9f31499740dba7ba5190210bf8690f1b8e28eccba94291e78.json",
+        "sha256": "613844d504ff81d9f31499740dba7ba5190210bf8690f1b8e28eccba94291e78",
+        "d4_row": {
+          "model_menu": "j_f",
+          "case_id": "conditional_full",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_foreign_leg_enabled"
+        }
+      },
+      {
+        "label": "N-f-conditional_none",
+        "path": "fase2_datos/ca2_bundles/contextos/c22b874a47351cc4fb6293d9f60d016f76b15e1b0d03bf172b10aed169da4e66.json",
+        "sha256": "c22b874a47351cc4fb6293d9f60d016f76b15e1b0d03bf172b10aed169da4e66",
+        "d4_row": {
+          "model_menu": "j_f",
+          "case_id": "conditional_none",
+          "availability_assumed": "true",
+          "quantitative_use": "conditional_scenario_no_foreign_leg"
+        }
+      }
+    ]
+  },
+  "bundles": [
+    {
+      "preregistration_id": "PREG-COL-E2-2023",
+      "path": "fase2_datos/ca2_bundles/bundles/196cbe33b09f569adddce219bee72a1cd3a671eb77e3fdf2a179d4d4b004cd87.json",
+      "sha256": "196cbe33b09f569adddce219bee72a1cd3a671eb77e3fdf2a179d4d4b004cd87",
+      "bytes": 50208,
+      "tables": {
+        "ca2_vectors": 4,
+        "ca2_members": 22,
+        "ca2_evidence": 28,
+        "ca2_cases": 20,
+        "ca2_inputs": 20,
+        "ca2_claims": 10
+      },
+      "case_admissibility": {
+        "conditional_metadata": 20
+      },
+      "evidence_outcomes": {
+        "EV_COL_D2_2023_COL_2023_comparability": "pass",
+        "EV_COL_D2_2023_COL_2023_concept": "pass",
+        "EV_COL_D2_2023_COL_2023_coverage": "pass",
+        "EV_COL_D2_2023_COL_2023_orientation": "pass",
+        "EV_COL_D2_2023_COL_2023_precision": "unknown",
+        "EV_COL_D2_2023_COL_2023_provenance": "pass",
+        "EV_COL_D2_2023_COL_2023_reconciliation": "pass",
+        "EV_COL_D2_2023_COL_2024p_comparability": "pass",
+        "EV_COL_D2_2023_COL_2024p_concept": "pass",
+        "EV_COL_D2_2023_COL_2024p_coverage": "pass",
+        "EV_COL_D2_2023_COL_2024p_orientation": "pass",
+        "EV_COL_D2_2023_COL_2024p_precision": "unknown",
+        "EV_COL_D2_2023_COL_2024p_provenance": "pass",
+        "EV_COL_D2_2023_COL_2024p_reconciliation": "pass",
+        "EV_COL_D6_2023_COL_2023_comparability": "pass",
+        "EV_COL_D6_2023_COL_2023_concept": "pass",
+        "EV_COL_D6_2023_COL_2023_coverage": "pass",
+        "EV_COL_D6_2023_COL_2023_orientation": "pass",
+        "EV_COL_D6_2023_COL_2023_precision": "unknown",
+        "EV_COL_D6_2023_COL_2023_provenance": "pass",
+        "EV_COL_D6_2023_COL_2023_reconciliation": "pass",
+        "EV_COL_D6_2023_COL_2024p_comparability": "pass",
+        "EV_COL_D6_2023_COL_2024p_concept": "pass",
+        "EV_COL_D6_2023_COL_2024p_coverage": "pass",
+        "EV_COL_D6_2023_COL_2024p_orientation": "pass",
+        "EV_COL_D6_2023_COL_2024p_precision": "unknown",
+        "EV_COL_D6_2023_COL_2024p_provenance": "pass",
+        "EV_COL_D6_2023_COL_2024p_reconciliation": "pass"
+      },
+      "metadata_validation": "pass",
+      "real_source_admission": false,
+      "numerical_validation": false,
+      "production_activation": false
+    },
+    {
+      "preregistration_id": "PREG-COMPARACION-E1",
+      "path": "fase2_datos/ca2_bundles/bundles/1db27c4250edc46fb636693855ca93b0df2f3aeaa4b8a71f8384d30a38a60734.json",
+      "sha256": "1db27c4250edc46fb636693855ca93b0df2f3aeaa4b8a71f8384d30a38a60734",
+      "bytes": 373457,
+      "tables": {
+        "ca2_vectors": 30,
+        "ca2_members": 151,
+        "ca2_evidence": 180,
+        "ca2_cases": 90,
+        "ca2_inputs": 270,
+        "ca2_claims": 20
+      },
+      "case_admissibility": {
+        "conditional_metadata": 90
+      },
+      "evidence_outcomes": {
+        "EV_COL_D2_2015_COL_2023_concept": "pass",
+        "EV_COL_D2_2015_COL_2023_coverage": "pass",
+        "EV_COL_D2_2015_COL_2023_orientation": "pass",
+        "EV_COL_D2_2015_COL_2023_precision": "unknown",
+        "EV_COL_D2_2015_COL_2023_provenance": "pass",
+        "EV_COL_D2_2015_COL_2023_reconciliation": "pass",
+        "EV_COL_D2_2016_COL_2023_concept": "pass",
+        "EV_COL_D2_2016_COL_2023_coverage": "pass",
+        "EV_COL_D2_2016_COL_2023_orientation": "pass",
+        "EV_COL_D2_2016_COL_2023_precision": "unknown",
+        "EV_COL_D2_2016_COL_2023_provenance": "pass",
+        "EV_COL_D2_2016_COL_2023_reconciliation": "pass",
+        "EV_COL_D2_2017_COL_2023_concept": "pass",
+        "EV_COL_D2_2017_COL_2023_coverage": "pass",
+        "EV_COL_D2_2017_COL_2023_orientation": "pass",
+        "EV_COL_D2_2017_COL_2023_precision": "unknown",
+        "EV_COL_D2_2017_COL_2023_provenance": "pass",
+        "EV_COL_D2_2017_COL_2023_reconciliation": "pass",
+        "EV_COL_D2_2018_COL_2023_concept": "pass",
+        "EV_COL_D2_2018_COL_2023_coverage": "pass",
+        "EV_COL_D2_2018_COL_2023_orientation": "pass",
+        "EV_COL_D2_2018_COL_2023_precision": "unknown",
+        "EV_COL_D2_2018_COL_2023_provenance": "pass",
+        "EV_COL_D2_2018_COL_2023_reconciliation": "pass",
+        "EV_COL_D2_2019_COL_2023_concept": "pass",
+        "EV_COL_D2_2019_COL_2023_coverage": "pass",
+        "EV_COL_D2_2019_COL_2023_orientation": "pass",
+        "EV_COL_D2_2019_COL_2023_precision": "unknown",
+        "EV_COL_D2_2019_COL_2023_provenance": "pass",
+        "EV_COL_D2_2019_COL_2023_reconciliation": "pass",
+        "EV_COL_D2_2020_COL_2023_concept": "pass",
+        "EV_COL_D2_2020_COL_2023_coverage": "pass",
+        "EV_COL_D2_2020_COL_2023_orientation": "pass",
+        "EV_COL_D2_2020_COL_2023_precision": "unknown",
+        "EV_COL_D2_2020_COL_2023_provenance": "pass",
+        "EV_COL_D2_2020_COL_2023_reconciliation": "pass",
+        "EV_COL_D2_2021_COL_2023_concept": "pass",
+        "EV_COL_D2_2021_COL_2023_coverage": "pass",
+        "EV_COL_D2_2021_COL_2023_orientation": "pass",
+        "EV_COL_D2_2021_COL_2023_precision": "unknown",
+        "EV_COL_D2_2021_COL_2023_provenance": "pass",
+        "EV_COL_D2_2021_COL_2023_reconciliation": "pass",
+        "EV_COL_D2_2022_COL_2023_concept": "pass",
+        "EV_COL_D2_2022_COL_2023_coverage": "pass",
+        "EV_COL_D2_2022_COL_2023_orientation": "pass",
+        "EV_COL_D2_2022_COL_2023_precision": "unknown",
+        "EV_COL_D2_2022_COL_2023_provenance": "pass",
+        "EV_COL_D2_2022_COL_2023_reconciliation": "pass",
+        "EV_COL_D2_2023_COL_2023_concept": "pass",
+        "EV_COL_D2_2023_COL_2023_coverage": "pass",
+        "EV_COL_D2_2023_COL_2023_orientation": "pass",
+        "EV_COL_D2_2023_COL_2023_precision": "unknown",
+        "EV_COL_D2_2023_COL_2023_provenance": "pass",
+        "EV_COL_D2_2023_COL_2023_reconciliation": "pass",
+        "EV_COL_D6_2023_COL_2023_concept": "pass",
+        "EV_COL_D6_2023_COL_2023_coverage": "pass",
+        "EV_COL_D6_2023_COL_2023_orientation": "pass",
+        "EV_COL_D6_2023_COL_2023_precision": "unknown",
+        "EV_COL_D6_2023_COL_2023_provenance": "pass",
+        "EV_COL_D6_2023_COL_2023_reconciliation": "pass",
+        "EV_MEX_D2_2015_MEX_2015_concept": "pass",
+        "EV_MEX_D2_2015_MEX_2015_coverage": "pass",
+        "EV_MEX_D2_2015_MEX_2015_orientation": "pass",
+        "EV_MEX_D2_2015_MEX_2015_precision": "unknown",
+        "EV_MEX_D2_2015_MEX_2015_provenance": "pass",
+        "EV_MEX_D2_2015_MEX_2015_reconciliation": "pass",
+        "EV_MEX_D2_2016_MEX_2016_concept": "pass",
+        "EV_MEX_D2_2016_MEX_2016_coverage": "pass",
+        "EV_MEX_D2_2016_MEX_2016_orientation": "pass",
+        "EV_MEX_D2_2016_MEX_2016_precision": "unknown",
+        "EV_MEX_D2_2016_MEX_2016_provenance": "pass",
+        "EV_MEX_D2_2016_MEX_2016_reconciliation": "pass",
+        "EV_MEX_D2_2017_MEX_2017_concept": "pass",
+        "EV_MEX_D2_2017_MEX_2017_coverage": "pass",
+        "EV_MEX_D2_2017_MEX_2017_orientation": "pass",
+        "EV_MEX_D2_2017_MEX_2017_precision": "unknown",
+        "EV_MEX_D2_2017_MEX_2017_provenance": "pass",
+        "EV_MEX_D2_2017_MEX_2017_reconciliation": "pass",
+        "EV_MEX_D2_2018_MEX_2018_concept": "pass",
+        "EV_MEX_D2_2018_MEX_2018_coverage": "pass",
+        "EV_MEX_D2_2018_MEX_2018_orientation": "pass",
+        "EV_MEX_D2_2018_MEX_2018_precision": "unknown",
+        "EV_MEX_D2_2018_MEX_2018_provenance": "pass",
+        "EV_MEX_D2_2018_MEX_2018_reconciliation": "pass",
+        "EV_MEX_D2_2019_MEX_2019_concept": "pass",
+        "EV_MEX_D2_2019_MEX_2019_coverage": "pass",
+        "EV_MEX_D2_2019_MEX_2019_orientation": "pass",
+        "EV_MEX_D2_2019_MEX_2019_precision": "unknown",
+        "EV_MEX_D2_2019_MEX_2019_provenance": "pass",
+        "EV_MEX_D2_2019_MEX_2019_reconciliation": "pass",
+        "EV_MEX_D2_2020_MEX_2020_concept": "pass",
+        "EV_MEX_D2_2020_MEX_2020_coverage": "pass",
+        "EV_MEX_D2_2020_MEX_2020_orientation": "pass",
+        "EV_MEX_D2_2020_MEX_2020_precision": "unknown",
+        "EV_MEX_D2_2020_MEX_2020_provenance": "pass",
+        "EV_MEX_D2_2020_MEX_2020_reconciliation": "pass",
+        "EV_MEX_D2_2021_MEX_2021_concept": "pass",
+        "EV_MEX_D2_2021_MEX_2021_coverage": "pass",
+        "EV_MEX_D2_2021_MEX_2021_orientation": "pass",
+        "EV_MEX_D2_2021_MEX_2021_precision": "unknown",
+        "EV_MEX_D2_2021_MEX_2021_provenance": "pass",
+        "EV_MEX_D2_2021_MEX_2021_reconciliation": "pass",
+        "EV_MEX_D2_2022_MEX_2022_concept": "pass",
+        "EV_MEX_D2_2022_MEX_2022_coverage": "pass",
+        "EV_MEX_D2_2022_MEX_2022_orientation": "pass",
+        "EV_MEX_D2_2022_MEX_2022_precision": "unknown",
+        "EV_MEX_D2_2022_MEX_2022_provenance": "pass",
+        "EV_MEX_D2_2022_MEX_2022_reconciliation": "pass",
+        "EV_MEX_D2_2023_MEX_2023_concept": "pass",
+        "EV_MEX_D2_2023_MEX_2023_coverage": "pass",
+        "EV_MEX_D2_2023_MEX_2023_orientation": "pass",
+        "EV_MEX_D2_2023_MEX_2023_precision": "unknown",
+        "EV_MEX_D2_2023_MEX_2023_provenance": "pass",
+        "EV_MEX_D2_2023_MEX_2023_reconciliation": "pass",
+        "EV_MEX_D6_2023_MEX_2023_concept": "pass",
+        "EV_MEX_D6_2023_MEX_2023_coverage": "pass",
+        "EV_MEX_D6_2023_MEX_2023_orientation": "pass",
+        "EV_MEX_D6_2023_MEX_2023_precision": "unknown",
+        "EV_MEX_D6_2023_MEX_2023_provenance": "pass",
+        "EV_MEX_D6_2023_MEX_2023_reconciliation": "pass",
+        "EV_PER_D2_2015_PER_PDF_concept": "pass",
+        "EV_PER_D2_2015_PER_PDF_coverage": "pass",
+        "EV_PER_D2_2015_PER_PDF_orientation": "pass",
+        "EV_PER_D2_2015_PER_PDF_precision": "unknown",
+        "EV_PER_D2_2015_PER_PDF_provenance": "pass",
+        "EV_PER_D2_2015_PER_PDF_reconciliation": "pass",
+        "EV_PER_D2_2016_PER_PDF_concept": "pass",
+        "EV_PER_D2_2016_PER_PDF_coverage": "pass",
+        "EV_PER_D2_2016_PER_PDF_orientation": "pass",
+        "EV_PER_D2_2016_PER_PDF_precision": "unknown",
+        "EV_PER_D2_2016_PER_PDF_provenance": "pass",
+        "EV_PER_D2_2016_PER_PDF_reconciliation": "pass",
+        "EV_PER_D2_2017_PER_PDF_concept": "pass",
+        "EV_PER_D2_2017_PER_PDF_coverage": "pass",
+        "EV_PER_D2_2017_PER_PDF_orientation": "pass",
+        "EV_PER_D2_2017_PER_PDF_precision": "unknown",
+        "EV_PER_D2_2017_PER_PDF_provenance": "pass",
+        "EV_PER_D2_2017_PER_PDF_reconciliation": "pass",
+        "EV_PER_D2_2018_PER_PDF_concept": "pass",
+        "EV_PER_D2_2018_PER_PDF_coverage": "pass",
+        "EV_PER_D2_2018_PER_PDF_orientation": "pass",
+        "EV_PER_D2_2018_PER_PDF_precision": "unknown",
+        "EV_PER_D2_2018_PER_PDF_provenance": "pass",
+        "EV_PER_D2_2018_PER_PDF_reconciliation": "pass",
+        "EV_PER_D2_2019_PER_PDF_concept": "pass",
+        "EV_PER_D2_2019_PER_PDF_coverage": "pass",
+        "EV_PER_D2_2019_PER_PDF_orientation": "pass",
+        "EV_PER_D2_2019_PER_PDF_precision": "unknown",
+        "EV_PER_D2_2019_PER_PDF_provenance": "pass",
+        "EV_PER_D2_2019_PER_PDF_reconciliation": "pass",
+        "EV_PER_D2_2020_PER_PDF_concept": "pass",
+        "EV_PER_D2_2020_PER_PDF_coverage": "pass",
+        "EV_PER_D2_2020_PER_PDF_orientation": "pass",
+        "EV_PER_D2_2020_PER_PDF_precision": "unknown",
+        "EV_PER_D2_2020_PER_PDF_provenance": "pass",
+        "EV_PER_D2_2020_PER_PDF_reconciliation": "pass",
+        "EV_PER_D2_2021_PER_PDF_concept": "pass",
+        "EV_PER_D2_2021_PER_PDF_coverage": "pass",
+        "EV_PER_D2_2021_PER_PDF_orientation": "pass",
+        "EV_PER_D2_2021_PER_PDF_precision": "unknown",
+        "EV_PER_D2_2021_PER_PDF_provenance": "pass",
+        "EV_PER_D2_2021_PER_PDF_reconciliation": "pass",
+        "EV_PER_D2_2022_PER_PDF_concept": "pass",
+        "EV_PER_D2_2022_PER_PDF_coverage": "pass",
+        "EV_PER_D2_2022_PER_PDF_orientation": "pass",
+        "EV_PER_D2_2022_PER_PDF_precision": "unknown",
+        "EV_PER_D2_2022_PER_PDF_provenance": "pass",
+        "EV_PER_D2_2022_PER_PDF_reconciliation": "pass",
+        "EV_PER_D2_2023_PER_2023_concept": "pass",
+        "EV_PER_D2_2023_PER_2023_coverage": "pass",
+        "EV_PER_D2_2023_PER_2023_orientation": "pass",
+        "EV_PER_D2_2023_PER_2023_precision": "pass",
+        "EV_PER_D2_2023_PER_2023_provenance": "pass",
+        "EV_PER_D2_2023_PER_2023_reconciliation": "pass",
+        "EV_PER_D6_2023_PER_2023_concept": "pass",
+        "EV_PER_D6_2023_PER_2023_coverage": "pass",
+        "EV_PER_D6_2023_PER_2023_orientation": "pass",
+        "EV_PER_D6_2023_PER_2023_precision": "pass",
+        "EV_PER_D6_2023_PER_2023_provenance": "pass",
+        "EV_PER_D6_2023_PER_2023_reconciliation": "pass"
+      },
+      "metadata_validation": "pass",
+      "real_source_admission": false,
+      "numerical_validation": false,
+      "production_activation": false
+    },
+    {
+      "preregistration_id": "PREG-PER-APLICACION-E0E3",
+      "path": "fase2_datos/ca2_bundles/bundles/33aaafd09857f6a8b47b486d58e78131e54a791d5619c70513f08285d5be94f5.json",
+      "sha256": "33aaafd09857f6a8b47b486d58e78131e54a791d5619c70513f08285d5be94f5",
+      "bytes": 32716,
+      "tables": {
+        "ca2_vectors": 2,
+        "ca2_members": 9,
+        "ca2_evidence": 12,
+        "ca2_cases": 20,
+        "ca2_inputs": 20,
+        "ca2_claims": 10
+      },
+      "case_admissibility": {
+        "strict_metadata": 20
+      },
+      "evidence_outcomes": {
+        "EV_PER_D2_2023_PER_2023_concept": "pass",
+        "EV_PER_D2_2023_PER_2023_coverage": "pass",
+        "EV_PER_D2_2023_PER_2023_orientation": "pass",
+        "EV_PER_D2_2023_PER_2023_precision": "pass",
+        "EV_PER_D2_2023_PER_2023_provenance": "pass",
+        "EV_PER_D2_2023_PER_2023_reconciliation": "pass",
+        "EV_PER_D6_2023_PER_2023_concept": "pass",
+        "EV_PER_D6_2023_PER_2023_coverage": "pass",
+        "EV_PER_D6_2023_PER_2023_orientation": "pass",
+        "EV_PER_D6_2023_PER_2023_precision": "pass",
+        "EV_PER_D6_2023_PER_2023_provenance": "pass",
+        "EV_PER_D6_2023_PER_2023_reconciliation": "pass"
+      },
+      "metadata_validation": "pass",
+      "real_source_admission": false,
+      "numerical_validation": false,
+      "production_activation": false
+    },
+    {
+      "preregistration_id": "PREG-PER-APLICACION-E1",
+      "path": "fase2_datos/ca2_bundles/bundles/49a05dcc055b1abf5fe3e79add89da0b9eced89318164468fa2819394a1221f6.json",
+      "sha256": "49a05dcc055b1abf5fe3e79add89da0b9eced89318164468fa2819394a1221f6",
+      "bytes": 159289,
+      "tables": {
+        "ca2_vectors": 10,
+        "ca2_members": 49,
+        "ca2_evidence": 60,
+        "ca2_cases": 90,
+        "ca2_inputs": 90,
+        "ca2_claims": 20
+      },
+      "case_admissibility": {
+        "conditional_metadata": 90
+      },
+      "evidence_outcomes": {
+        "EV_PER_D2_2015_PER_PDF_concept": "pass",
+        "EV_PER_D2_2015_PER_PDF_coverage": "pass",
+        "EV_PER_D2_2015_PER_PDF_orientation": "pass",
+        "EV_PER_D2_2015_PER_PDF_precision": "unknown",
+        "EV_PER_D2_2015_PER_PDF_provenance": "pass",
+        "EV_PER_D2_2015_PER_PDF_reconciliation": "pass",
+        "EV_PER_D2_2016_PER_PDF_concept": "pass",
+        "EV_PER_D2_2016_PER_PDF_coverage": "pass",
+        "EV_PER_D2_2016_PER_PDF_orientation": "pass",
+        "EV_PER_D2_2016_PER_PDF_precision": "unknown",
+        "EV_PER_D2_2016_PER_PDF_provenance": "pass",
+        "EV_PER_D2_2016_PER_PDF_reconciliation": "pass",
+        "EV_PER_D2_2017_PER_PDF_concept": "pass",
+        "EV_PER_D2_2017_PER_PDF_coverage": "pass",
+        "EV_PER_D2_2017_PER_PDF_orientation": "pass",
+        "EV_PER_D2_2017_PER_PDF_precision": "unknown",
+        "EV_PER_D2_2017_PER_PDF_provenance": "pass",
+        "EV_PER_D2_2017_PER_PDF_reconciliation": "pass",
+        "EV_PER_D2_2018_PER_PDF_concept": "pass",
+        "EV_PER_D2_2018_PER_PDF_coverage": "pass",
+        "EV_PER_D2_2018_PER_PDF_orientation": "pass",
+        "EV_PER_D2_2018_PER_PDF_precision": "unknown",
+        "EV_PER_D2_2018_PER_PDF_provenance": "pass",
+        "EV_PER_D2_2018_PER_PDF_reconciliation": "pass",
+        "EV_PER_D2_2019_PER_PDF_concept": "pass",
+        "EV_PER_D2_2019_PER_PDF_coverage": "pass",
+        "EV_PER_D2_2019_PER_PDF_orientation": "pass",
+        "EV_PER_D2_2019_PER_PDF_precision": "unknown",
+        "EV_PER_D2_2019_PER_PDF_provenance": "pass",
+        "EV_PER_D2_2019_PER_PDF_reconciliation": "pass",
+        "EV_PER_D2_2020_PER_PDF_concept": "pass",
+        "EV_PER_D2_2020_PER_PDF_coverage": "pass",
+        "EV_PER_D2_2020_PER_PDF_orientation": "pass",
+        "EV_PER_D2_2020_PER_PDF_precision": "unknown",
+        "EV_PER_D2_2020_PER_PDF_provenance": "pass",
+        "EV_PER_D2_2020_PER_PDF_reconciliation": "pass",
+        "EV_PER_D2_2021_PER_PDF_concept": "pass",
+        "EV_PER_D2_2021_PER_PDF_coverage": "pass",
+        "EV_PER_D2_2021_PER_PDF_orientation": "pass",
+        "EV_PER_D2_2021_PER_PDF_precision": "unknown",
+        "EV_PER_D2_2021_PER_PDF_provenance": "pass",
+        "EV_PER_D2_2021_PER_PDF_reconciliation": "pass",
+        "EV_PER_D2_2022_PER_PDF_concept": "pass",
+        "EV_PER_D2_2022_PER_PDF_coverage": "pass",
+        "EV_PER_D2_2022_PER_PDF_orientation": "pass",
+        "EV_PER_D2_2022_PER_PDF_precision": "unknown",
+        "EV_PER_D2_2022_PER_PDF_provenance": "pass",
+        "EV_PER_D2_2022_PER_PDF_reconciliation": "pass",
+        "EV_PER_D2_2023_PER_2023_concept": "pass",
+        "EV_PER_D2_2023_PER_2023_coverage": "pass",
+        "EV_PER_D2_2023_PER_2023_orientation": "pass",
+        "EV_PER_D2_2023_PER_2023_precision": "pass",
+        "EV_PER_D2_2023_PER_2023_provenance": "pass",
+        "EV_PER_D2_2023_PER_2023_reconciliation": "pass",
+        "EV_PER_D6_2023_PER_2023_concept": "pass",
+        "EV_PER_D6_2023_PER_2023_coverage": "pass",
+        "EV_PER_D6_2023_PER_2023_orientation": "pass",
+        "EV_PER_D6_2023_PER_2023_precision": "pass",
+        "EV_PER_D6_2023_PER_2023_provenance": "pass",
+        "EV_PER_D6_2023_PER_2023_reconciliation": "pass"
+      },
+      "metadata_validation": "pass",
+      "real_source_admission": false,
+      "numerical_validation": false,
+      "production_activation": false
+    }
+  ],
+  "claims_inner_quantifier": "'forall' declarado de forma conservadora; el cuantificador del titular lo fijará el registro de claims de D7/D8",
+  "macro_ca2_v2": "adoptada y probada; ninguna clave real calculada (valores comunes, protocolo y huellas técnicas son de la corrida del modelo)",
+  "model_execution": false
+}

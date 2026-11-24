@@ -1,0 +1,42 @@
+{
+ "kind": "inicio-testigo-alto-c3-v2",
+ "modo": "produccion",
+ "clave": "e8b1f7fdb9c7017605e0a4162fc6688e7b6ed01d2308ff72106ed6cf6834a97b",
+ "manifiesto_sha256": "3ed91d323c7f0f0e56eb31b01b41ef864c68bea029936afd4d090f36c9939ad4",
+ "puerta": {
+  "modo": "produccion",
+  "alcance_sha256": "210015d7b949ba0eff708c082c25536bcabe80ca70a8c5351df701611978895a",
+  "fixture": false,
+  "decision": {
+   "proveedor": "claude",
+   "transcripcion": "@@TRANSCRIPCION_CLAUDE_BS2@@",
+   "linea": 25769,
+   "uuid": "57f5d10b-896f-44f2-b8df-013abaae1d30",
+   "session_id": "fa99d748-337c-44a7-8d1d-ca7ced1b9871",
+   "timestamp": "2026-11-04T14:40:45.655Z",
+   "registro_sha256": "07a86b69d3414908ad2389a4c1cf174467222bbb2549aad3de2ac4f477e3722f",
+   "contenido": "AUTORIZO ALCANCE PASO4 alcance_sha256=210015d7b949ba0eff708c082c25536bcabe80ca70a8c5351df701611978895a",
+   "mensaje_sha256": "07a86b69d3414908ad2389a4c1cf174467222bbb2549aad3de2ac4f477e3722f",
+   "alcance_sha256": "210015d7b949ba0eff708c082c25536bcabe80ca70a8c5351df701611978895a",
+   "modo_arnes": false
+  },
+  "rol": "trabajador",
+  "ejecutado": {
+   "testigo_comun.py": "3f8ec27b92c9e04c6d1b5e688f38fe3663440c1e3aa54a9fd9392e6617f28b52",
+   "trabajador_testigo.py": "fefa171c21f74248860a7ac984d562d21ee74a0f7b5d47a3058c40554a4741fa",
+   "validar_testigo.py": "69989e41136706f995d4e24b33fbde0c8e63d98440b61d7cdc9b5b7fe5fb80fe",
+   "receta_testigo.sh": "abd0a83ccc5e6f77f56c21b8c02caf1801b2a89d2844542ef0080240b0ff753c",
+   "emitir_alcance_testigo.py": "18ebe2994ef21b7d2306ac8f5f10d6ac55e0c28e0fc3f7ae2b0703ad6e37f22f"
+  },
+  "piezas_alcance": {
+   "testigo_comun.py": "3f8ec27b92c9e04c6d1b5e688f38fe3663440c1e3aa54a9fd9392e6617f28b52",
+   "trabajador_testigo.py": "fefa171c21f74248860a7ac984d562d21ee74a0f7b5d47a3058c40554a4741fa",
+   "validar_testigo.py": "69989e41136706f995d4e24b33fbde0c8e63d98440b61d7cdc9b5b7fe5fb80fe",
+   "receta_testigo.sh": "abd0a83ccc5e6f77f56c21b8c02caf1801b2a89d2844542ef0080240b0ff753c",
+   "emitir_alcance_testigo.py": "18ebe2994ef21b7d2306ac8f5f10d6ac55e0c28e0fc3f7ae2b0703ad6e37f22f"
+  },
+  "decision_ref_sha256": "7555e9a3828afce65881bd105fd9bbc3006417474d1614ff2aae8523b5813bf8"
+ },
+ "inicio_utc": "2026-11-04T14:43:01.239116+00:00",
+ "doble_sintetico": null
+}

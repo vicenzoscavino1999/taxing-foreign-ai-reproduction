@@ -1,0 +1,2278 @@
+{
+ "tipo": "paquete por procedencia de celdas detalladas (alternativa A; preparación, NO aprobado ni incorporado)",
+ "lote": "S1-f-lima1125",
+ "entrega": "s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125",
+ "autoridad": {
+  "sha256": "3f62b34c51e82dafb77b199c9ea3f99177b46535d782c869eed9ead80be910cc",
+  "archivo": "audit/entrega.json",
+  "estado": "autenticada por la cadena de custodia"
+ },
+ "productor": {
+  "archivo": "codigo/bloque_s1.py",
+  "sha256": "73a052d00070e9a1c01e3865bd20dcb6e91dd247a6531ce3a62c080943e2779b"
+ },
+ "contrato": "v3",
+ "run_class": "s1f_remanente_h4_3_7",
+ "etiqueta": "S1-f REMANENTE Y VALIDACION H4 3.7 NO OFICIAL",
+ "carpeta_resultados": "demo/d_s1f_r/resultados",
+ "validacion": {
+  "entrega": "s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125",
+  "archivo": "demo/d_s1f_r/validacion_final_R.json",
+  "sha256": "9486cb3ff08dd771def56f52e7fd446caabb47b7500325c7f63551188408b374",
+  "autoridad": {
+   "sha256": "3f62b34c51e82dafb77b199c9ea3f99177b46535d782c869eed9ead80be910cc",
+   "archivo": "audit/entrega.json",
+   "estado": "autenticada por la cadena de custodia"
+  }
+ },
+ "unidades": [
+  {
+   "unidad": "0096e720c657a1505dc247068aff6d3888123e0f67cff9ccbac799274b143bf2",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "001915bc066ed69cf81101a9ae3e5693f53527705fd968a9b8c3a146604e740c",
+   "filas_sha256": "71f60e3914775be9e848baa55605dca4043278addd1f35375aa2707eb9c7ce53",
+   "cell_id_e12": "CEL:21dbc0c07c798486ee3bb21ce852fd93d597f97522c5",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "03563e60bd6ed63cdcd673012ec822f6eec210cb1fb67b262ca8b2c18ea5ce00",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "025718c5acc9723b334921f5373c4b250b652674af1f2b2be2b19fb190563613",
+   "filas_sha256": "da6c2d6890fbf24348c7879c66d5c60fb57adca689f47cd474a7d07d03f5589b",
+   "cell_id_e12": "CEL:c92a1cda82ca251d4df12f58ef6cbe83029fcd71a3bd",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "0402d6004643f9018baea5285a53d99ffaaefee4f8fea9446d0424fd4d9c98d6",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "b3d7c6aa975dc2625ce15d76f82687c25f3384e931eed9f7251e94d88a63fa45",
+   "filas_sha256": "110907206171b5db5d35bc816a9543b74e314c32fb800f782381f767faafe964",
+   "cell_id_e12": "CEL:6d3f7f8c384b0ede644eeb82f39add7c075a6a5e9455",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "053ee9fa5f0ccfcac4a5e9cad6484b8f1b429bfd85640ee3931a428c7bc31688",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "ee566115fe9e57911db28f8aad0cdf8741eb63112da7ae6cfa40d1bf130cc8b3",
+   "filas_sha256": "d05c23c6345b2a77b679c89803212350339d72c971a8d1252d7c93d6fe72373c",
+   "cell_id_e12": "CEL:18d9401a9e54f7e2bf053e53f1bf106dc76a6ae7a343",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "0661b86ab7cba12acf4405be2c1b6d4d2446f591f5f2f15dbc5355a2d64bab41",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "0e5005b3043c457e18312e15684209a2b8b828da10081aef1acfb14223c5e66a",
+   "filas_sha256": "b5d71a70bf3fbf47087dedb03b5e890a75a519e107f19a661817969ec2b0bbab",
+   "cell_id_e12": "CEL:9bc6224cb6ff96ffaf2c0a91f16114dff3ade36a42a2",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "079343850d7ba18cd872dd7f62ecb033511f945b1d9f9c6735515986c706da6a",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "ab396ca832dc04cc8556d06b1a1c3b3ca67b6751ff7ebb59aa15e062bfc12286",
+   "filas_sha256": "2a0883fb653a3849a3541f51dd62d111273bb27a3fd6ddf7144ae6e12a98b150",
+   "cell_id_e12": "CEL:b1157e67e2d75f64e3cf77c2464fbc93b7e44d78e25b",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "0a424215d62127b762e4360aff4247ed0d878190b726257f421f05b081eca48f",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "1e0c6e7b748c1126f407c0d7967d09b653a6ee3bda3fd2980d5b58d2bbf32be6",
+   "filas_sha256": "a3cf660a7a761fc72513ff0cc4d11c16589bfcd58daf07162a7b4fae849ca339",
+   "cell_id_e12": "CEL:f62f9082047a59ae94d6c9ba6e6a0bf652780982326a",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "0db42956ff9cb192857aaa4a2e23f5f1f8ebe5c5413a1d79309310f7c7655dac",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "2045b0a37363b651f95ac8f0478fa97178a64249617b7fb399f4ce543db7db84",
+   "filas_sha256": "3f9e5407e835bae860286f92a51873dd5abdcefce2de6b863863adf0d40828e3",
+   "cell_id_e12": "CEL:3c8cd4c59d5d7094b196202e840a4abbec92608c74eb",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "0e6b56e86c550fd6328b2a78a355e26bf5f2249bfd30a523b3e4b8d0aba67552",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "6c1b5d9597a408fb9138fd3a6c947d6694f08a5b4c24cfc8bbf177dcf2ff8ae4",
+   "filas_sha256": "4ec720f149a0e04b289b02b8ce10387c6decfc8d92f2091f7cdc54e7ef29ec58",
+   "cell_id_e12": "CEL:d1ac90d194713a05aafbd684608310a2e96bad67e2a4",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "103804dc9fdcea9880177f524155a102796f14be4c810af4fee029a1fbfe3bd4",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "951b5b2776a6cc76d77074abb749484250d59240fb24242fe280e2345deb863b",
+   "filas_sha256": "00a81e4ad9235aefcb6d19e4d65bb4067f3e30f8c505c4c4bd25aa0cdf27565a",
+   "cell_id_e12": "CEL:d83576e05647dd774a60b9fd84c38749c857600af24d",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "106f9cf36263449ecd538017fbd38453e071f8a675dd3381ac8225c2d7fbd224",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "9e516386ecc314ddc16e03e5eefa8d94c5c762654e60c9b5b51f7a625c098b5a",
+   "filas_sha256": "5e18f2a2ce1f55d8245006e6823936ce495485a740e2eb3fb5c4665c052982e6",
+   "cell_id_e12": "CEL:408b2b7bd4bd127c80f4a86f8d09cd68ed440261032f",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "107378cae77bb791ae7fb912c76c2b75befcd3659225be2755f1630413579d61",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "40680fe634e51e0663afd3f98a4d6ec1601781049e8b909522ce0468d4a004c5",
+   "filas_sha256": "4e8f88cefecf64f7298fb01648265d34134f06ca42914ca84cfc9df63e1302db",
+   "cell_id_e12": "CEL:8a6a2e396940dff114810102f312581e5674b4f3727c",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "1154f1f7ef1a42ed11e47ed5fceeac82e8d561f8b837b05d975151243ca5bee3",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "933a99b5efe7a29f39022e90c6d886d12805d26717dd9ccf60b6395a797827b7",
+   "filas_sha256": "c6ca943e5e4cf079e4ae511cd61c0f9deacc3e10e71dccaa4649e4dea15a3581",
+   "cell_id_e12": "CEL:b6259ab88dae8cb8b0c1b9f3c56c556cb1e235d642aa",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "12c2bba8bb9e53d8630173c11fe830ffe350e55a6ff203cb7b4bf23b5941e14a",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "363df1623f2da0518bec7a4279136bf67e32667c44bd82919cf7ee86cf6a99da",
+   "filas_sha256": "7ae86cc8b37dd524f679b61ae7ad587978aa6dd7b462dce5c007e64aafa0a54f",
+   "cell_id_e12": "CEL:9f6b5a8c828ffdd032baf2143d3ab6b5ecbd18dfd708",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "1354536cd89a737102d24c240fa8e48d27015ca1c5ae2c8554113911e53e94e6",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "af6005a71e76518ef69da7a821d24089095e502b6a6216160cad70f0abfbaf99",
+   "filas_sha256": "148731dafad16647f1aa72f490e40871ab8fc5fb2e890161ce7ed96622d3d93c",
+   "cell_id_e12": "CEL:92a3e143f0fd1331c6e48908dcc56858a9d27b41994c",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "144f53432bc04662782396436150bfea6a1ac179c6c9c4e2de0a83f3d99ac017",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "2044f92b2225d64062a74064840b83383ecd4204f1d3240935936885658f8753",
+   "filas_sha256": "611e2e67e35321eda55dba54aa8bd4d528a5ade67963d0fc6f27ce59935534ff",
+   "cell_id_e12": "CEL:b3416f70a409e13fbeeb9f294bb676a57a7b13fb7af2",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "154c84e825e68d83ae1713605db6b4799991fe3526a6b9d73993971c624c0779",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "d36d019e073ef29c9c43fbbbb0bd39db985f19ea5d7dc25aafc8e90659342b9d",
+   "filas_sha256": "c86f42ff6690800d716fee068311436728fdfa3167f0fbe4e42b7db605909820",
+   "cell_id_e12": "CEL:cc3cb3714841b4eff9605fe6912b8992598677fb6355",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "17a71096054dedb202bf152d66b36925437239d61eac27c25de08f6ad02beddf",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "f9063766b0b228e0c6a610d599f1ddaea0dcf552f8e96dfe0aecbf45b7c8e521",
+   "filas_sha256": "c8ccb0d1cf0fb6c3780dfa2511565e994b9b63b3587f808df8d819c559e216a8",
+   "cell_id_e12": "CEL:03cb4dbf1f900b6c669b80af7b59f6851558c1dc8e2d",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "1b0b63213e429a15d0a46d5046ae2a432603bc6f907a84e04175ebf7ca823260",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "f10e575841457b53bea1e86bfef6a4868c463484cdcd6330d2613a568ff6c750",
+   "filas_sha256": "2d88bcdf4b18c4246585b0548e3aa4ce7c0e3eb42c0ddaf54867dc1ab553de18",
+   "cell_id_e12": "CEL:35df8c132ee16670cf7466ce2eebc619eb449aad7791",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "1e26adac1da094a1e6fb6052304da2a71cd1baf152a0a88ce73911ea0236c6d7",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "bd8ea232163632d37234d21f0be18ef7694dfd7245ff59bce83693ea54d1fdb3",
+   "filas_sha256": "a6dd4b716345ccd101c529f7051bf8578e463d04e10f9d5ee4244ff656ff81c1",
+   "cell_id_e12": "CEL:d624a4ad91602b97e14eadf99f9b9cc85d4e07ddbe8e",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "1f464ee1b19f797a5a912eca4803e91fe7e4a9fe431be04adf212b4b296500f0",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "6207ce6a0045e31eaa785b56d33909462b4a5304810476c1eafa8259ffdee521",
+   "filas_sha256": "f6c5d7b90e41f777550fd560d64729e932a89425f9bed8e5ccf92cbc83d04499",
+   "cell_id_e12": "CEL:9c5bcde3d8a0bd0a9891be292afe4b4b0ebde409e87e",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "1f76ef3c4eba40dcec725d507a7d16e1541140f6494be90e6ebda569b6e8ad46",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "23f002bcc77f8a9e493849662204be70d73cb1529456391ac5a7c06fea9cac1b",
+   "filas_sha256": "a532c2c921f5af94061652e01363d2547bc7dbdbc9d017294ebf144659b2fe14",
+   "cell_id_e12": "CEL:c1dc58cab5b1e1c65515bb9970b9da4563c5dd05a50c",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "1fdc13e5d545ec4184f70660322b6a3dff0ea725bfc1c33822ffe056cb6940f4",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "5b00df8f64428290ad3bf323a7cc4a5961019d18297a901acf0ebd4dda0669b6",
+   "filas_sha256": "667fd2d82374ddfbcd523c7c809a218591e4cc379230c6dc143504849aa4385a",
+   "cell_id_e12": "CEL:54215efccad39f0b675192d77d685695c6584795293e",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "204b77797addc4da20b078b5b6e95c662957d8708cb452f8c5a3dcb90da3891c",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "4b02e03e19dcde20eb0070ae215fe2261929366c519edb284ba7c0c1211e9add",
+   "filas_sha256": "f5165fad3bc31e63d0f441bef452ff6cc4600bfb3cb6bc592eb8e4cbd6cff143",
+   "cell_id_e12": "CEL:2858d2879e6cc966ca3dca97e574a41e7bdadeab0216",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "21c3dc52717b83999fd7179238ad5832a736a66518d283a335e30a1495a0f210",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "9a6900c722e554b83cb2b9e9fe46f477f0432bc13a16761e5297658a50a5092f",
+   "filas_sha256": "009ac422f828df7c407fd7f8cab49db1129084a295431100aff8ab5da894c01a",
+   "cell_id_e12": "CEL:56497bf553b1c1897dac6f8c2986d166720d3c468242",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "23bb38bc63d3d7df0234179b3aa3c2fb70aa154473eaaaaa89b277e2d0579a5a",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "f9e6bc6cc8291574bd32d6b1a4263c9a395b633b26f7daaf7b0da9afd147e72c",
+   "filas_sha256": "ab18a9161fd68ddcbaeab649cf5fb81ed18771eb34c87008d45c08431df092b1",
+   "cell_id_e12": "CEL:b4b2d59134deb8e5b0300729771b27e615d0c8e6f0a7",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "255d0168ebe7f6e7b3fb96fddb3b217a29797a3950735508acc497e1eea0e718",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "9e5c63325061205858dcb4c3f27c0c4080c65c58ed027038240b8a3b374ed7fc",
+   "filas_sha256": "7058fbc5c047bc280d2b8ea3555ea29e947b2984efebb041da24aaef75adb077",
+   "cell_id_e12": "CEL:9d03ceda1481b66957ddcbba51bdc55a128698ec6b79",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "25a8fffaffb917d508daf59467765c64f16de710758cdc83ced3848af340140d",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "090a9e91a351cbf34f6d0e7f2d7202ac42d131142a5a5951014da6aa1d92e34c",
+   "filas_sha256": "3d61b8b1f3eba2e6c69e5436201afd975c9df879cc00f12e88812398cbce7c2b",
+   "cell_id_e12": "CEL:017ec2c069c2fe38a62b8afba56029c06e33f9e2ec6a",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "265e1d84a59a35cd7cce28714895c46279a5175b7ee95ceea5795886e914f7de",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "bb00989293888e26f2707b775b6c9920e28a10421a277b675003054991e3f10b",
+   "filas_sha256": "b364510f3692f3e316d67656127bbfe44cea0fb037a793624ed7d3d3b361409a",
+   "cell_id_e12": "CEL:372a4a5837b5ddf10e4ee661be2585402ccc16362642",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "27ef89250e4c787320df4c826496eb18f4a32d1b13452337c95eb7f56f8f8a20",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "a99f9aa44a3b79e84ae1ece95a9f1f5edacf90ea1e2b2d912699c2ad369b951e",
+   "filas_sha256": "33efc959ce0778e724d0a2994c3a82ffadedddca3c09ffb5de7580b2e9f4adf0",
+   "cell_id_e12": "CEL:ff553b842e151a76956e1b1938055dd932fae8a1dc31",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "2989be6e6527416ffff749749bf0a888ef4116326b50088d10378dc0c4df59f3",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "3ea9ff23579b670b288fe8e9d625cff88adeebecf3569ff924c291dad4466263",
+   "filas_sha256": "79bac94b9c460019e7e5ee7ec64e502f6f5437f603cb66cb6d4db4b3a481fb7e",
+   "cell_id_e12": "CEL:4ad4b7142f7f6ba4ba9813195b4e286e4d26a806f444",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "2d16f87cae128d88e99bb1336dc18efabe67857cccb4469efe68228684d432ce",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "9130a50c3544fddefbbeedbfefdb43d9713b30604a2425c9444489cbcd1361cb",
+   "filas_sha256": "b32f5c90b7a34bcb15051b89a7a8231b18b77cc1a0f9df79a032ae19c722c270",
+   "cell_id_e12": "CEL:103c95da0c0186cda599f375ab7067c1c23dd13e3c9c",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "2dc497af8b14994ac7b10659fc9330b5d567a598b9a2dace02c4f0114d0778b4",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "909fae91b6a35525a60ffd20fa71b33f0e6690ac4ef266a09e6bfd7a0f2e04f8",
+   "filas_sha256": "fe235e302f2b076e1f7cad48d90ebe5ebf325daa72898cebb6530687675e1dce",
+   "cell_id_e12": "CEL:89a880916d95f7952bb99037d6e6dfb3768aa9b91f0c",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "2ec2d18481160d0d089c8aa6be8558ed34c2fa05d9a01461089b1ee0a2a27dc2",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "76637a675b318f07fc496bf182396fdb46a54ce0c79e635839b0bf1d1efae0b4",
+   "filas_sha256": "27148c74a9e413d8c440f8ba9744bc9ac4e681bd9d380582b04bd1f80da96e92",
+   "cell_id_e12": "CEL:9507f5fbb0daf16cb7992868ec10af8ec542655082e1",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "2edfa863d1fd4594baec54cae85ac35a60b99712a61da965685d46e8d7b1d7fc",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "d793a416d268c210ab27470b4d5547c6defe5191e02d25b8eefbb4b58f4a7a1d",
+   "filas_sha256": "88a6a7f243929f0dd22360494acb8cb2318c3edb1494883ccf3aa50f6164e19e",
+   "cell_id_e12": "CEL:9062959acea3629daf71867f06c0ad0997a6e2385440",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "327ea989520ae4809bc95aa133da53ba3a5b5a31520daacb23a2c44e1a64e75b",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "5ae7187ac51835a33ab3e0203e9f129071264546a9d10f08a88eaffc572b9596",
+   "filas_sha256": "513160e79656a95d343dd043188c372d150399a187e2c9b519ed8bbd71f39630",
+   "cell_id_e12": "CEL:d0304b460907537871fc51a30095265d9055993c2f3b",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "34272ab22155c4058be7a7f8829b47bf3dc27e9bb6c7b8987c2c80c450f79ad8",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "1045d2983a9e00898aaeddc32c1c8699c9d3e70b128b50250b94a89c73af4e36",
+   "filas_sha256": "0107049844e1039a6569255f05ed82bce76646e52dfec418401dce9861625296",
+   "cell_id_e12": "CEL:9e1b25b513e2144430699cc3a43fad1f1d47dbf30a8b",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "3797fe8e2ac617cef5d0831d6364b93f88ee20861420bbc1410ec5009b04f647",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "a409e67a14bec6c0a2df597910b37e860621c049b15e951b2fb46d55092b0304",
+   "filas_sha256": "77fd4138b6d4667a1f62c26f34e51f21f8288c51d0d48c465307e40f07ece033",
+   "cell_id_e12": "CEL:1d2727056d832268a0904bf5392ff8e06c4ae9a47a92",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "397fe0e888493351793d35b4108621c504d171aba57fc0263817aed119b86463",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "295c76ade2a6fae09f0bb4077e427dcf038aacab11c63ae38982544c4764ed45",
+   "filas_sha256": "24e4af58137e65d8953af8805bc0a8b7bc057ef333e1a2837d88fa1bc44d7859",
+   "cell_id_e12": "CEL:7ae33c24ab1351ea3696e105582a132a792c95f9a08b",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "3afa25992d528ab9b05a95be3211f4a6811a0338b3b3083d8c8549fc519c42f9",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "d39fd54b7fd784f312620c05d534ed3c72128e08907077aa975db48115a994cb",
+   "filas_sha256": "5db3b8fe78602df749d10a66c3c11fcbfc720a7f052cfce8772e2beb047cf8ca",
+   "cell_id_e12": "CEL:e2849b34bc22a6159316cd11350f3489b1b9b5ca6e33",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "3d2b3f882531bf3d27448a33bb5762f34978dea2640894bb567e6b8857e7f51a",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "7c49e046ae44291137b94e05f8ef6e22fa79371869e2486ade0a7aa4b814318b",
+   "filas_sha256": "c9806967e00bd94fdc9636c6898b8a99cc503187276aaa804f1013a62f26d6fe",
+   "cell_id_e12": "CEL:4ce7caff731a7c7e85cd4cbcf0a7f4fe2b6861f9da5c",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "3e02a2cb893be1e07a3a3e621785648ee47685198e5ce79dd1ed9f9531987666",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "cd94e748dd400eccdcdfb8ec59e044d7a4bc94ddafd384ea1c7d780b959e21cd",
+   "filas_sha256": "c7d7ab6f1e23002f343fa4c15d11765cae9de9c2c6c4534ec21abd1027a971b7",
+   "cell_id_e12": "CEL:e89d79dd1866289117c40505edcfbd9a9216072cfd35",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "3e6fe1fc767bd95169183b4e4855f4981c0111f42d62c32cef33804019bb44e6",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "ccae9b40403e6239cf2713c038c0398addd0baa25613e6f9ded473748b33b756",
+   "filas_sha256": "53579b1c454b20517c8701191f26acbcac24703539bb47343b7be70a51b46b04",
+   "cell_id_e12": "CEL:4434bd9006ffda0dcb4004539019b6395b4adb628f84",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "3e7e2fe0f3b7d0a73cf02e0eac90d89ff1f99a11942911cec171e378d6d03ce1",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "56b000559b0db1ed8707283b4e28c69dd6fcc6df543d02c54386dd755c202a84",
+   "filas_sha256": "91a756df1705e3339958da1deec9ec63e4b87e9fb2f9ca89273163c4367383df",
+   "cell_id_e12": "CEL:ec59a1864a425620818290e13178c3ce6877b93d397b",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "3ed90bafec4165eb07ca9e9ad8eeff90b44b44f3f66ceb993603005e46742084",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "d5b821ffbdac978994e3086c6869e8e84a2d37d64ec0b6c761ed33574132c6b3",
+   "filas_sha256": "e7a205738b0cb2f849a9495fac383575e4b27d5f76e73a82738f82603f0020ed",
+   "cell_id_e12": "CEL:97b0358f1659225c611cfb3afa888a7cdae27a90cbbf",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "3f82e810cf4cca31e18bfa6551120d3620f3eb346f6a6d6ae5c4867d0a71052c",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "74faa811783bf7f18b16484443f61b3eca90390c49108db9833f3eb65b341f3a",
+   "filas_sha256": "d626284fc7eb5cb6a333907421813aff6beb540706f4bb39cd952fd72e565692",
+   "cell_id_e12": "CEL:1947396b38e02d473c02f1ea094094b0a7d89242b5aa",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "4131d9d2c1fefa34dd1c9ed6866b45ae89a966b9a9cd9808969cad0d2c72ed94",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "5ea0b7f6b14c52c1459c971a5d2723092d0cfee1207416fb3b4bc90ee37c0112",
+   "filas_sha256": "aa10d22f6f1385ba2f3608e7d2a33bbce71d0da5e180ad87720b7e8896b4b3a5",
+   "cell_id_e12": "CEL:94a1d61ce8fb81d9426c8d1a7a99257dc56b5faaf2c7",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "418a40b8edb52910d2c84eb3f7b1afae16b04c5a1cd8c51ec6632e988c988df3",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "9bf6c47ab491c92059a1aacc637c0e5af4975bc5fd46c2fbd956fe1adb03eb84",
+   "filas_sha256": "657a29c716c1bf643e1013eab4a85d9dbd7c8da8dacd0a42b66f9b8c24d00afe",
+   "cell_id_e12": "CEL:b8364331ba940edfa0b7f8c3f4ff6ab807ce58812475",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "43d37dde3cff6553332770a911a7f9b02c7d3647f37f27c9474a6489c70f3271",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "1b4eb21e190aa6d9ceb2b6bb10c8693db4570ae7ac5a592bca74f7d1425743b5",
+   "filas_sha256": "bb6c424156f33857f6865831e1898d13566454bbd50e2d56910f0750b8262456",
+   "cell_id_e12": "CEL:819d8649c6cf336b895dadf287c0f8bf3a86f5d1f555",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "47fa456e54f2122a79f585c268c472275dea736be90427d87d394b0fe310f197",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "d2bb3f5d6f26f74ae79580f1f072e70b2e9e7a490d18a5f285681644073d00d1",
+   "filas_sha256": "84a841686dfef92ae21ebfe4d009fff35242106261f39c5662cbc2e9aa019d0d",
+   "cell_id_e12": "CEL:2eba972fe23ac2f57e968e2496721598e922ac7614d9",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "49014a27c241f0575cb900d9851e980f052e10cab58d5d108779e1c8a15e41e4",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "c46d2bd946617180a6371e71a2b4a573f0936e80c3b39554545e3da74a7bca9b",
+   "filas_sha256": "7ac9d8b581a451fa8dca590be69d64799ec4118da811e720bae6ea78aa24fade",
+   "cell_id_e12": "CEL:f7188fa8cbf05acb79725a4783a0f0a9f14e3a9baf1f",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "494d3d50fdb4652dae4769fbd9418da31b7cd2da3f4d9036672d1afeae42375d",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "60ce18c627c7a294ec5b79ee2e65a593c592321a6baf5b9fbfd5b2f13f057c80",
+   "filas_sha256": "ff0cc328b07de572aeedb20e2fe759791d67f4ae0a82155a17e66dd05718ea32",
+   "cell_id_e12": "CEL:35af0e087e086da7ca47e6333f9896cc322c3227f1b4",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "49550f51cad15fc0b6eca77de2beb5a56898f87a5d759da21ab6666c6dca46df",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "fa86bd44a28ccd12c3f3f68ba2d75d46d17ec727423a1fec3a0420616589d512",
+   "filas_sha256": "11b75396b6666bb60b575197a05f1bb75e21f8ea3c4b12db6362083afd2e0d78",
+   "cell_id_e12": "CEL:43360b1743d70587b743410042ef361abfe13bbcdb42",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "49ee3bcd48cb37e3bec9e6cf452624532f633d8a4e8ba88b0848bb00278c6778",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "943fe9ad58f41d9ff4ac4adf15fd11e927c59f06c6620d6279a88a3a45171fc7",
+   "filas_sha256": "eee967d1977ca65da78b061ded952b5ed7e5f73de90201e708db75917e814fc6",
+   "cell_id_e12": "CEL:977f8d2a4b06293db122302a3add48109d37012dde64",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "4ac831215eef92142f58fe81f9ce2c4c1a9e0b205cb9daa41208df1b381a86f9",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "a75a0c439d46dfa6a5733945362e3495c2821f7363533412b88f36f955b449a1",
+   "filas_sha256": "ae8698512c7fb6d08ebe5afa73a0550c53ca546b24072d3c875b3175435ef6f6",
+   "cell_id_e12": "CEL:ac17810b986dc09458dcca3d5e01434c8c8912f45b0e",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "4c874fb2a66feaadf059a989c7c709de40cc1dc159b6e65a687eadc1ee7acdb1",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "67875f07a8f16858bf7dd52af8842df28001ee5b636ead416b63ff639c39f92d",
+   "filas_sha256": "0cf696abdffe8c795319c79cb2528c3f95bf58541bfa9d1c64ccb0254e3e4f15",
+   "cell_id_e12": "CEL:9ec44f1a26a9b80486b379c28b994a62bca73ad0b002",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "4c9954d08c5d2bd006451cabf2b95ecd32d0afdff3391a23fb9f2f71aa1753cc",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "60bfd94f84f04b68018b0260ce10bb32ee94d5171d10323f15da261e0f27abfa",
+   "filas_sha256": "076ecba341698958f649bf627c7b0e617dc1255ed6926ac0c3ec2b1e6d9a0422",
+   "cell_id_e12": "CEL:32612f2e7a66787615dd4c454322d33ddd14c07aac0c",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "4f67b67a37f62755f17687850beefb6b49be2f79d2c6766a388ebc7279ee708a",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "dd5010ab713ebf5d94e6f7c38eba9c7aa71877c64d48007c7d7be880b9acd0bf",
+   "filas_sha256": "125e038569c762db4f7570466bf81c7963da82a6dc7b020e091729837a357e7d",
+   "cell_id_e12": "CEL:f2c0401aebf468d0c611bc03683d1c22c5803f6747bc",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "511f87abe788bc9c44811abe523a3cccce5975848af2e18206073ac794c96c7d",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "42e65b783c7556ac321078aaa043cf194e1f5d4510f1a742c95d391ac005da33",
+   "filas_sha256": "df0974889faf0e6e9394083c6ba4668e0024bd4ba80a3885c07f9ff5b0659232",
+   "cell_id_e12": "CEL:c1861c869172e499e4fa9ef1e998b08c4a7f1c04f81b",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "5203ea6207ef12610e50e854ee59f7b5688524d9929c41d0b309d6d91758c11f",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "669aff3d4cd4188f613e296ea2050ed66ea3e5be8e5cf4a57dd4c8d4603de4c5",
+   "filas_sha256": "c086a8da18aeafa0a90d2fe3e692291722088107c99798277d3744b6a2be1ada",
+   "cell_id_e12": "CEL:a3eb5c296a25c6bfebaa4a6d9c4da171f498436a1ccd",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "545c15010dac0de90e312968a6faccede95a3a8bd84557d6004465ac33359291",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "cd74a8e5f5b8a9931177f87c22f05b73d4172780167b1ee3d20ea2bacabbcdb0",
+   "filas_sha256": "6c058a8bb8b1f2ccdfb55985b2f6a8b691d29d92dcde0dea115bf9e4e983c1aa",
+   "cell_id_e12": "CEL:cdcbf8dde9b707adc22b93833bc9744a3c408c13b16a",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "565e73e5bd97c065a2282f2c73ab8999a8a69f172439c18c375aefc73e6c69de",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "a0de74c6c37b0a3bbc5754b71c82ac94d059c79c6ff8fb0167f6ea80247fda3e",
+   "filas_sha256": "8c85b560722549f53a12f9c16a30c3e272c663d8dab08713324646133fba896d",
+   "cell_id_e12": "CEL:841d6b6003e1c2eab3bfa4c038bf9959c71ca59b7746",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "59c4435dfb84f1b35b687ebd23a0a479165ae72c62597c7ac7270b2363eeaf61",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "983ef53d2dc495d9753d22d0ae364795aba2cfa5574579271be8057787fcc573",
+   "filas_sha256": "977812137cd2799f370e5fd2aa81aebf39eebcc9129c5d51133d103a2f3ca9bc",
+   "cell_id_e12": "CEL:e4e7ee35cd85717cf8750226b953d438e18eea8329d8",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "5a947df1a03efb4f4c0c713e261054317e90afdc38c117032810cfe73175426b",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "ffd9f0e39055d659d2547674800dff4956e6a0c8d43bb7247a30fdab33d93245",
+   "filas_sha256": "31f7250efaf31eae69c98202f30d08c9d44f8346dd612482d2e3731f87073d82",
+   "cell_id_e12": "CEL:08c01d8754dd6ab9aa7b39c63b010b4674e49e5e8a68",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "5cce1a9f3ba534f2a46e990646fe9c229b907eb231384f0c5d07febe9d8a726a",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "78e9ddddf8a0b7dc0311757862592f50ef206b3ee497be224640e82e7d17b617",
+   "filas_sha256": "9984f7ac4cf8cb400893f94c1ec4344c9f4a269e84e63c8edc7f979a48ce079c",
+   "cell_id_e12": "CEL:cbf2d43bab41778bb887de9a17cdf59c74c3343c1f45",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "5d7369cc29380e7082709285fe16b7f7bb61fbfccd6c0f36f88185abba7f4d25",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "f2de3b64568243b751eb5f7a3d5187690e449518a11ee92a6a4daae2f19dc5dc",
+   "filas_sha256": "0b3a2a9fe84ec9a5644acd8046e088acdeba147ec86a08861913ce6073bb4f01",
+   "cell_id_e12": "CEL:0c401c47ec5a44675a3405237505cb78d0256537d65c",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "62ac945ab7ac8944bb1d3c7f21add3000cdbc6c73fb4ad50c05e740e51ed7f77",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "35b66d4047a2ee0a342b13a504eed48b6e0c379d89a08dd77ea5e78860277b95",
+   "filas_sha256": "fe73b133e3364f9a0123ba87a05cf6072722c64623465bdb4d7eccfeed1339d4",
+   "cell_id_e12": "CEL:3ddf3d8e7ab56201cd4b8061141c7efa2bd0f403a5df",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "653575451ece3f9740290a833fa72264ea5dfc891f7c5d256aeeca11439effcb",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "bdc64e8dc1845562c08f1f293d9cffae4bc47d975c6fedc02adde05deaee8aec",
+   "filas_sha256": "25ee76b44a68522aa5756dd886448f31f6f4a7f4fea12f83893fcc470b05b852",
+   "cell_id_e12": "CEL:5a0a9eaf82c9eec56c1a61587c0b5770e770def3f32e",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "66435a6fc1634e797b95969650cf9901eed4c7c272c25580908bad267350d35a",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "be74efdc290c9619b7d441c1c750f7d6a21879ad96ec941b2797c17b81422eef",
+   "filas_sha256": "3e686e826bcff001c770b6fef83ca58a53261280e168b668f70263eb5363f462",
+   "cell_id_e12": "CEL:cd412d630c15f066b22f0a58a100aaec0b30d2d0efb1",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "66c8ba5f138deaf8d5ecc7584eb12aa1cf982e6c22680d267c946b3e74848378",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "16304210688b541c3e2a1e511b68f819c522545bef1278d54b12000f1a87ee2c",
+   "filas_sha256": "ac3b2e75108e781cf487be6d920e51cfdb4e36577ec4cf76d2f5f542695e3a79",
+   "cell_id_e12": "CEL:f3f422a2e81a0fdb1d9d5a181f60db3b569ea0635baf",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "6714e427183cedc70de88b8bebd30a38fdb5e8778146bc1fc88402c5b9b6665c",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "b51c7f4b0a7dc3204126439eb55664f593c923eef360b14e8be2b25cd15eb467",
+   "filas_sha256": "2c686f1511ebf214d96a7df594772e1112a984ecf58d8b3ab01d2e9d62b443cd",
+   "cell_id_e12": "CEL:f809be207893b4e15d44868a2b5d63e0cf894f3bd522",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "6a77e414d3e8793df35f56bd33876333488ba94994fcda10d97b666eccecb8eb",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "ea1a71594f5f8b088a9d4b401cf79e051b2e375e02bc8d87ac061f97d62585da",
+   "filas_sha256": "0f7707dcc23c0e2fe052d36b232a47c02b5500e2ca0d6a2e2e10da958fdc623a",
+   "cell_id_e12": "CEL:c6d390b38883c929b4b0f71718c6c4939a5741f5d968",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "6babed188a273a01ea9bd025da7a7190cdd1c271244b8a5e910f88036923f25b",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "dcda581bc1e0de636c21ef78218d9860a776052b18eb0b0164f7f3e68a1b4c2b",
+   "filas_sha256": "f006ff2b08b77b4293f52f541a667c5bceb1f9597eaed8754ba9d2e08815835f",
+   "cell_id_e12": "CEL:ddcdc11dca42bda0a3a4e60ee132ec17f93c72ffe351",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "6fabbbe64052723c746b90a026cfc5733dc54b0b4a776353df04d8383264ae9b",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "cfa7056d2d8e8a0453088e456ff92874e8a38fa78101077b0b47d0b8abb6159b",
+   "filas_sha256": "4c5dffa1230228d05195a90b17974e6085af3aea69534d0fc7ab5b5bb024704b",
+   "cell_id_e12": "CEL:8d3fc18631162d4cbbe3b7fbbc59b9ed4498ed425e70",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "6fb45a8106e8d682976b153ceea606c6088bb382afa6c601ca36f50eeb8e1bb6",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "4f2f589ecaf8076814c70b9139b8f22af93b3347acdd8eada51b24c0a45d00c7",
+   "filas_sha256": "1db138bc028bcfad25997833e624d3aa96356da784a4d981d719af3eee9f89cc",
+   "cell_id_e12": "CEL:eb4af1fef8c1233a1a4973805d63e6e02f39597602f9",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "72504342bd80a522b2803cee5be1b1b18de09d08a7339062774b61397021ecea",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "4d6870763e54e3355d0fa66926af574754570fae0d8c90aa1a61fde20c7c57cf",
+   "filas_sha256": "d9eb34901b7b831d52233d39e8266e5f6de9ea39ed0635873bd5673f5a365b09",
+   "cell_id_e12": "CEL:8f90c7d10aeeec113c6415a90f7e66768a05c81e1a92",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "742a24a801039860192054f0664726bdcbaf390655f71e3433a464bc1c7bc6a9",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "0570bf66143d55073d1b77dcffcd778273764ba7b2d52d9f2cb1282db7e248b3",
+   "filas_sha256": "fb348774d462db928e033661f3094f6e9418b557a47c4b7c7001f7e941cc49a4",
+   "cell_id_e12": "CEL:4f8df3e40f38800623a26deebb8dc9745e938285efc1",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "742c80529d80bd9166be4fd6250af2dac5cfe32e180d36ee36bb7739e0fd130c",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "a7f9efcb37fd7921929f2978f45ae3c453880c7256a4a809bbd1460824e39203",
+   "filas_sha256": "7c8a562b63ae072370a8188f78525a07c68af0a2acf83e51770376dda9bd04e1",
+   "cell_id_e12": "CEL:d08f6df60f43b4c966693673d2b06231bf0ee4c844ee",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "77a99aa5db524249f4fe755f1a24cef7721d04a44ba847fbf34cad95c3671c2f",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "3c6934851da7e58b39be2b9e211c2b7e31a8a683c60f77595ef44b3efb381293",
+   "filas_sha256": "556840544e8631a49116e15911abf8b9168d5074dfcfd0ff19bc0b56821f66a7",
+   "cell_id_e12": "CEL:5058a5a3c1ff2815b45ada2c7d2a8628c092a5cc9f37",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "77c686d1fb9d0d884d1d85ba1dc73498eded0e17621ce225666af70bcce57222",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "bb46314db30d9e8c59925ce174ae944555373ffe19897f1620aa10e22f481351",
+   "filas_sha256": "14e6f2e4e01c22f3736b8d4aa75c526f6f50e36b1c0448d1a9c0e15bdcf9b31a",
+   "cell_id_e12": "CEL:ac20edf91806a7c7b69e118c6fdc09c23b370896b898",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "798075fedf323a1f025afc1a0b5192f0d9c06ba44dd9e4bc7592e231c57ade61",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "20efb0a2a9d25fa022e8db8eb49bb975020ca0bb49b0fab6dd49e8cca3cd505e",
+   "filas_sha256": "a0223c98c94f3c02de84f373f49192df2a809a19c08cbc59da04db9130e64f25",
+   "cell_id_e12": "CEL:85198eae7b48b0c9aeb1cd8fa24386fe58c4fdeff4ec",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "7aafb7e8f1e6fcaeffed097b3c3f9d7fe754c5e0fad07c2c411b8933522bfdc1",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "9405b6c4b0365abf607d22ea4ddc227da8039ffbb25c7788f447dac67199512a",
+   "filas_sha256": "be007dea1006557068f281b7e8046daedc9257f54c952e8d2eff9189ddc689fb",
+   "cell_id_e12": "CEL:c1edeab3b93808b643f6d96046b863f7856030c29ad6",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "7b68f0eac521249108b17cd108012e5a9cfa00038031d38c5f5cf17c45135acf",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "265927d77311928891fe45efb42eec2924dc996199c83f51add5577f9da57332",
+   "filas_sha256": "322f82ab9a1f58a1a0ddd88ab68869c5fe1c2caf75b2e5fc6a766f82e0e802af",
+   "cell_id_e12": "CEL:724ce9d07ffb377fab9ee6d3eed1e9de5f0f353c4d91",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "80768ee2a84af3fbb0870ea9f547c2d44fe9ac59fd7864657c838627b79b0e8c",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "4868f608009ce90fe762a8e7e352ed6bf726675d3cb2b6089533132be436048d",
+   "filas_sha256": "c0ae8af9157bd44c7652b7db6fa582e20beba041843640f338de2e6847b96bb6",
+   "cell_id_e12": "CEL:4afa3e40d90eb7bee15f89683b457dc3ade405ce1cbd",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "830902d060c08d47a2a0b721131db919fe1183f0979793245311bf096cf971ad",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "446ccd0995e5e3c93e4e329bbb1fd5b037803d0ca81fdce479e8d4f138f76798",
+   "filas_sha256": "635e40c74e31d572b99752d895441629a4d822803d96b94c0c95dfca5613f6b6",
+   "cell_id_e12": "CEL:90e7c9c559ea052a2cb3e0945fbe65d29ad5794e234c",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "84e90268b803c6cea7d47fbd48a0e3a3a4a433581f3aa243806bded066a44c24",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "3e151e8ec920b1e615fa32e81c1cbba80b92fb86e95433c92d535a3c4e002889",
+   "filas_sha256": "06b2e9eab4d7b51c83829f06553a36978ae1541442c651b4660b1656a6fd484e",
+   "cell_id_e12": "CEL:1b0f2614f3d811c5651fbcab8e8bc5ac47130eebf6d2",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "860735a316fb44f7fde000ae28eaeb84c8b3cd142f65179955626c4411cdd3c6",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "2bb9275b3b25bdc7efe1d929b087b15fc7179fc655e340a9a3cb5ccc7b8be5eb",
+   "filas_sha256": "5faeeb2388dbdb05987c931e18cce5cb7bd01f263ff7e54025beea0046a4bb5b",
+   "cell_id_e12": "CEL:f9ddc9a91ae381e17eb452b66705efd5a342bed28a64",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "86d05c8208ef7325a86184b0189850f7aa43b2834b45a360eb84045adf93a701",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "3e7c49b37e21622cd8375df3efb919bb97cb627f04e51ad37f321d2f2b37d472",
+   "filas_sha256": "36872cf5afff18b6fcdb7cc5fc60d681db30ba8e27ee25bda883631bfc3b18d7",
+   "cell_id_e12": "CEL:4fe4e485d6368230b80d92347ba10e16e6e66ce72948",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "887bd759fc5cfd602a71bc27c334a362ee6ef6e5c6d01df5b40ae1c609a8900d",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "da013560f618cccd0fd75648c33c1404be7c47d9f2340adf1121130483c8bfda",
+   "filas_sha256": "b9d39d2b6fcc4d5eef39d99e578ecff17e41e253cb1d3ef662842f58df290213",
+   "cell_id_e12": "CEL:d877a794fe1cce8c81565259bf9965cbf8300af137b8",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "88a1217d9616025cdf4b3e160d5bb29a9b0bde44a12585661d26ed54cd1c88bc",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "939880fd22fb5f1e8ec1bc2cd892699e1f6664ade6073c0aa9bb0badbd02b60a",
+   "filas_sha256": "5fcd1b68ba6c4613470a289413264f60a42254f906a259dbd52a879eaabdfab1",
+   "cell_id_e12": "CEL:ea684c8c33defeb02101b4bdd57404f020350e0158c8",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "8b05c2151ac823ecc2f8e493e56e73a379eda17b9ec9f1a245f261481b7a6f22",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "13ffce5d2da614ce217d21deb26d0a0f22ade7f6134cdcacd66d1a06c6ba0959",
+   "filas_sha256": "da01d2de45a0c61b7107192d1c25c79b31e158ad6374d015c147a29213e99470",
+   "cell_id_e12": "CEL:9e8069987e8a4973cb138a991ca43a59e79bbce6376a",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "8bb5bafdea7ccb6019cfdda022ff0b3b10baee708a99594651ab7918fd338c0e",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "1e8ce64c8587ff28d6e60f8944cace25e1fd51d53a6ea883f5f7c161f84ebf24",
+   "filas_sha256": "7a72f7060f0c1d1d46fe27a7ac1703597629509592a7026413c32f14581f95f5",
+   "cell_id_e12": "CEL:1c059ef8ffbf8278c02d50e6f970b2ee28717b119312",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "8e99e2ebb90f761b2d2c7b68e91a7257d8b7041a1923022ad2d5551d91ccc777",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "247c1a98b05a534046c49a54c1336fc87d041265683b8f8a0a679939a22fd49a",
+   "filas_sha256": "fc580dae40f70ceb74a7dd9b514875cc78e8b40d261eaecb110997a467e8f605",
+   "cell_id_e12": "CEL:58809d2dc5eee6d254745fe0775d62d092af3f66634b",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "8f1437d24ec319257cb978d17c7573da19e2fb7ad48ffb8c0718196172f85deb",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "1e9f7ba5e4300650f817d9dcea5335222a3bcdb896404efd9ebaaedd387b77ee",
+   "filas_sha256": "6bd3787d7a50d0551388da8f6a011655b7cf2b19a3acb090360c1b8ac65261e1",
+   "cell_id_e12": "CEL:2f3f7b0c6bf32f4219dd9b30242adc0f13ea8728978d",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "91a50e4dd07dc974117f2927d562689bf690c2bf7ac3270d4558f19f31a58752",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "9a4cc3b6e861776243dd662abd53ad00954945e1bacbf6b4ed33ed92eecf9233",
+   "filas_sha256": "52c9c2b04f8f2b128e5aa912c986e36e9a957118abdfd5c2c386ea0d6a615cd0",
+   "cell_id_e12": "CEL:5de6070312ab7ff00078d595d27cf123f4940892d7df",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "9271ca628038101dbc79a612790063f67e024e8789c95d254d78eb33cd4eafb7",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "9684954e446ad0a40563908658aa3e523a90e3157db8a74bfaf094d01b6ac57d",
+   "filas_sha256": "d0a99c619998dfb86b9e44543f34803fe039e5727bb0f2d01f7cc0a5f4e12df4",
+   "cell_id_e12": "CEL:d0c96e80640acb913a9a352ab070c6af5e79e7f13aff",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "96923f8ff5da8cb23298f4d20722f0cae22e279bceb0241ec0a89321dc558b91",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "9b14402fb61a123e28d5236393e00c91a41923a812682b7efe12f41b443f84a8",
+   "filas_sha256": "4b72265cbe0257d30db3aa1a353e629c27b149d07da0c39d89d26d4bca3edca8",
+   "cell_id_e12": "CEL:2247578c5ef9d50e5b612c8061108f07eb4a31280974",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "9725b79267708c279dc26cd377afab24649cf22343bdfaecd0108701f0bf5c62",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "e2486eaf5ec3971f566cab45bc50d1863059828632f6c287a55a16c9db745bc4",
+   "filas_sha256": "8579441350c1c1a4a360251433f40d5c8cac0e39c91003d3fbc6679e7f02f9dc",
+   "cell_id_e12": "CEL:279ff82d6d5753ed697b869d6b9d58bb1b6c7c24f274",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "9d2e4fa6fe7c0dada00516c2420a7b64a816dbcebb4e356990c4963e7efb6616",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "0786f2fca865913dc36a5df47c0a0aa0175fd4dab597533f2a06889eb92ffaf4",
+   "filas_sha256": "4de678dcb743fa6c4eaaf0a2162bbfaa965ded7109568f4b346fe8f871103997",
+   "cell_id_e12": "CEL:e730f1e922aec35d87cebb08f15cc5ef2bf0e8b92f1e",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "9e7aaab3c385372ac32aa2c909c0018059f2a52eacbd667ff41e3e392e41eb2d",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "5fc9f52891631d9ba3be3cbba4c637d23a884832610daccf10997a768f974eab",
+   "filas_sha256": "e58c09f184e886bd66096b6b8b6da1840859e24ecce771a79384fcad45429a9e",
+   "cell_id_e12": "CEL:2561b524db4ba64e3cd367d9977a5514e4e7058481f9",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "a5663cca1f988f715599642dc7404e755f64619dcb87bdafd1a3e23fd8cf70a8",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "57fb91319fdb125c8be32408deb0fd1e1d13dcaa2ea8ef76ceaa8f8e5e2f8a00",
+   "filas_sha256": "17d6d5e7dc4f3d48b3a1133c55f10fec5e93b609f76c46eb21290d2e6924517e",
+   "cell_id_e12": "CEL:659bdc081d2138d388d66ece6b9f23ae6cb958c2313f",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "a80deba18f0ae8396f71a430a47af25a660b3163f7c8faaedefa642eac73330e",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "2262d93051c3258cd50cafd64624d22807985a5f7dd8be9b12a6607d0388a88e",
+   "filas_sha256": "8553719196981d07194f8ee4f54aa50f173d8cf09b348df8ffa92f3f7607b6ae",
+   "cell_id_e12": "CEL:0d5e1587e54605a4506886e7883895c0cc9333421f8a",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "a85d045720182a238e2f7ab3c9a4f196c67e0be08e36f245c15bde9c1e0132e0",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "eaf32723ab118979502090235d68de84710182fef6d33cfee7cd929c79113c03",
+   "filas_sha256": "9250dc7bf522f1e69546105ef931d3200075b7121e86d9714da095737705b246",
+   "cell_id_e12": "CEL:f54f2a33fb397670bfc8c2a795a06d38016505dfab84",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "a863563eca7d536e4c9dd8332f6aa79e15174e3edde707dd24dd60c7b4ac5bd2",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "d6971070fc1888639fdab0348c13f0a707379bee7fe2b3437a9d505a5a14adc5",
+   "filas_sha256": "e660d13e01821a15dd8a18f782fd605bac5cf3cf1a9ff3775471ee5347047698",
+   "cell_id_e12": "CEL:2594d16561c8c235a007f299864096663da17b0c1a81",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "ac015667b4121bda97a8fc7893e46d7c52906f4fc474f77b9ba3c3e8e0974586",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "14627cc427d01b6e1e3d6f025006d12b31316f9fab4be5e4cfce2dde75d35092",
+   "filas_sha256": "190cc88a167bc65b33d75cd22cf58963e76b01b02328dc912a351e00eeb1498f",
+   "cell_id_e12": "CEL:8472a449313fef6a358c673ce321678cac37b02c53e0",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "ad18f8167cad12cdb6c9b589b80b0849676c9cfca0914ae04e4afce69961628b",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "896940fb1de9eb5ccbbd641a49b7573c4c0fef4a4ce6e347916c8fd0396255a3",
+   "filas_sha256": "6d8bcc3223bee5f1b0b2e4d74ed21cf36beeb14fde83502cd4e213389e8356d6",
+   "cell_id_e12": "CEL:79a8d48d9bc1f1e3f49fd5f2f2ae51fb3c09a773e843",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "ae0c083ed9e425871c5243308737528436d5059247f63e43c4bdb6d425d08890",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "98cb181e0c7e3a7e52e90e5e23c5c465a68509e9f601567d8184fb47212de078",
+   "filas_sha256": "3e6fd0c48f47b5ada6b618e41cbb7ee2435aa2cee7b66670fc17153377db865c",
+   "cell_id_e12": "CEL:f0724fc2d81ee158d57272904dc0d489c4725bc830d0",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "b10fce975ebeb16e3fb15fe136d372419f5df97f693d18df4362766f0eb6d576",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "440874aba6b0b29bd29b2f8ffa7a521c7c4ec6638710a408627f2484717aeab6",
+   "filas_sha256": "d6b7767c62bb750f495fa8ef63e38c4c904b040f3d2c7d60cfbbe243ffa5e156",
+   "cell_id_e12": "CEL:ef7a5fc8b58fa8c90cd082115513ec9f41fbac0b1ad2",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "b1bd13cf637106227163f7fb3707a46b9e1563703f937594c6ecba811c1844d4",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "962130be552436e708e94107578bbdea8d5f23419d36f9b32cb0911ec92272f7",
+   "filas_sha256": "b6effb2e18c7557aac2c4047f550225442cf2cb97151dca3a8b5950ae124f5c1",
+   "cell_id_e12": "CEL:40241630038c730fdd8357db9424e1632d6ea0fd86b4",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "b3524da856dc1447951dd62e8c4e301404a011c2b0fed1ceb16ef551bd577bbb",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "be0027f5208cc14a57ebb503d0a1d4ac2cbbdb57cf118a3a854bd5d1f0028b1e",
+   "filas_sha256": "816e8793cb09942ef732cb22d4296cbb699f67584c71430c3b41ef39dcb5075e",
+   "cell_id_e12": "CEL:a0163faff99ad1f88f1c0d9cec98314c008e183aec13",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "b5b80dee63461a5fbd4f03cfecf0a89a0bd4f5e59486d0bf3b6a9e09372ecc74",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "c0dc11721fa5350b467906988a9db00e208b21cbae85188786d743462a93ac0e",
+   "filas_sha256": "6b77fc6843056601ff8a69d1ca0c310ea1f5171938210784f52e24e73b30f9df",
+   "cell_id_e12": "CEL:f4736f1d2b22bc3788732cb2c2a8c2d1f1de80b3c968",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "b61758060b41fae0de111ca41e82e616d99f11b321f6218c6d10de28e691f7a8",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "5096f03ff199c95f3c4bdac464ef55f65b9e96b0f3ba07826d215862aeee9f3b",
+   "filas_sha256": "fbf60e1a9e154730be7849170d693e26e3e41b7d113afe8a3f6595971023628d",
+   "cell_id_e12": "CEL:4d32e78bbe35aaee8523b7511ad5cf1286d664b72d03",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "bb0b76c7ec5df37f1ee1cad74d20e880f445509c5292d1be63decd0905064c8a",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "3bd44bc212d81c4841975d35ad196d8aa7234b1fcc62879d4bb29c9241376b77",
+   "filas_sha256": "faf43a83b3ca5758cae2bb9fa94f87a3ae2aec32af15c63412a8ff3e23d15abf",
+   "cell_id_e12": "CEL:2fce2fb961b712d668a654a866b4f8e5c0b4f126b436",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "bcbfadd12524c16dd385da9e179c81b057bd5d4cd68b7919c8c0232313c0dac5",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "bcec9f2d1c78643a8b58d9ae73e63dc87be8e77f9d3b079cb764ba7f651ea406",
+   "filas_sha256": "ec32534942bffeabeb0dd653e271a8386a0b2b0ed7b8312ac182d6f75059476e",
+   "cell_id_e12": "CEL:d4e037c43ef6148ecad597bf8db970c5fb4db77dceb1",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "bd5cbfd96572857deb8543f6b0ea5bf71d756aad78d10d739160f550eea94c5e",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "555a1db9c71962587dbaaf345f6e57bc61490e12ad739caf5005ae5c78a1f82b",
+   "filas_sha256": "bc18283a11cb8d45aaf7c203b60624e0768d893061bf3b66c3202e960786846c",
+   "cell_id_e12": "CEL:63472e6bcf6b688d863e35f1c98cb1f63cbb1458167a",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "befa5badcfee1dbc1023efc5f13a0bfe84cb5269ee17aad4a6eb303549f6ccde",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "79ad9b79957ba99ee45f41838b7f53573ede40eafcc1c8ab488a68877dff969c",
+   "filas_sha256": "d6c0d7351f4cf2aebbc8c525450b70d3b37e3523f32f4b4faa869b4526f36916",
+   "cell_id_e12": "CEL:2c9212ca4492a103462062c7bb67daf879bc497d5cda",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "c0af41c8c5eb1119d7365e83772d159860e26e9616848843322d4500cc8f07f3",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "508b9bf64624070061c79fe5c48daa2644069d63e3bd37bac29b3de408c3143b",
+   "filas_sha256": "f10e3d1d126f5769ce2d7030f1732710756fbe616d4e8df5acd15f2215a95e71",
+   "cell_id_e12": "CEL:041971a43e5b7a4dc48a0dd24ec59f7a56787712684f",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "cd04f73e03d5178255f0a379d1e084e208d7b8851f70ec8563f72f6755cc5f1e",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "baf4d29d9965c0601251aa3ce4f8fed94e4d2396cef3d1cb350f77cb9ce85515",
+   "filas_sha256": "1bc54d4b2ba993ffd775e135a1fdd59837afac2270ce523d1d6f8058797e8227",
+   "cell_id_e12": "CEL:d10524f30a7f61eb722e17c79672c6d2bc365464beab",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "cf385e14fd335e1cca5c37d0c783e346a71d93a0fc6bafb2c5661e7ca1a82d10",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "31d598de357ab4690d4eabab1eba88b960428d1cbc174bf7a5214d35e9ab486d",
+   "filas_sha256": "0e01c80a81acb1ca906041d824959b8d945a11c12b50b19135063e5526d6b3f2",
+   "cell_id_e12": "CEL:5150f07d6e56b73e9e0c6e240e5e66e861b890e63109",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "cfca41f674953c3b53e779a17ed51cf527c9e70376e8e0c9bf3f75fb302f535a",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "3b6400a34c000297b7766481b8d45d3388511d8406f19c0d18b7a3ef42e87218",
+   "filas_sha256": "bdef1bee00cbd6fad61893e384c2241e2dae5c4ec384ab09cc018039e1735936",
+   "cell_id_e12": "CEL:233377015eea0f1aaef4e79a970bc7a5ab1d785bef50",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "d056399560d9d55e94d912796d50188aa0f16b017b0cc2d6f9964d407cd74204",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "4e40c1b38cb7f077902c9acffe2c0dd179a6d1b2d91615e18abc86197b4343d3",
+   "filas_sha256": "518b55df4abd4186babc458a6df3ecb40827ca0efa70fba27ad965e4eff2af7b",
+   "cell_id_e12": "CEL:15e02e3b970861231a035874271d631b75aa00ec2c7c",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "d0722140be5fa029e950c03d6fee05b07d3038156a04478b10c377405a817232",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "56229bc9c9163e9b9ebb32a11b9d18353e5f86ae14297bd4c69d7288c9fb34c5",
+   "filas_sha256": "66e192f6fe47f579f1b15a0d41022916139168b13dae0c445bd88a17c7b04920",
+   "cell_id_e12": "CEL:a099e6b10fbbc322215cca10ba700906fe03ed769ced",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "d1789ac766a36b85d297a10196541da87389a882d7ed9322d07561427ce522f2",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "d289b4f4bf895b02b02ab87ce630c70d7cd424c93918d32f45d12481e49499ab",
+   "filas_sha256": "0ab0090e4a61ae42f62b7e09522761ea55765d01a7cf4a56e32d11fdf701a928",
+   "cell_id_e12": "CEL:d354b9c82420177d2509ed7eca79cb70452af1a995ed",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "d2656cfb93d4473944ec760f3a68b6bc76069eac1a2b7cc1ced2d8cfb33a27b8",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "750e42d820116da8c41d91b51772dddbceaf6542262d476cfdb0dd3b1d24da64",
+   "filas_sha256": "9c712c06da9796c7d92fa75e65320392d3ee39e3e4b3150a35ae3ae9bbfa0e08",
+   "cell_id_e12": "CEL:aa89ee558562d95df1a55158fb948d770db62a52faea",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "d4f2fe05ec9a0c8aad1e639435a1c7fa05a2d924c9c8caeae8bfb0072f798df4",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "c9ff069e3fc88ff2d6fdaba84d1e0fc9c76177e1d4d619b666484dd101b30a37",
+   "filas_sha256": "772c9f3fedfcd176a007c3ba3f4abb9049ad47354223aabab60d4976055044f7",
+   "cell_id_e12": "CEL:08cece4f081636ec9150563f0510dcb403faa4b2e047",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "d838cba00f091c691553afc135dc22324133575657884f3035b77d3e7b679b01",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "baae77c7427105c59000b926707149ee3af9ec701dbc7f11de6a3c5f1863b83a",
+   "filas_sha256": "d56c86646892a2948b66b03170f75449a58726d0be56381561ae63ad421c6370",
+   "cell_id_e12": "CEL:3f8024deaf491030240f784b66b98c7032146f41c73e",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "d8c53036140e5cb168ea934d15c3f9c519cc8b5f379e8ecc79ec1bbad94d1c52",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "ae34c1231e8a8bcdb7d74ce095659fe4d99924095eade410d72bff69e80d6dd5",
+   "filas_sha256": "2960833f95e3c4885d0225af0421cf8ffb5fb4c080ad2a936c9f48e7e3652b7c",
+   "cell_id_e12": "CEL:abfae1d4f94fd73ce95eba9fc2d8740e2d06588463dd",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "d9e36e9db921c618af767992ecca39a53eed93ae60c45213d5ef143614bf65fd",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "43b114e191b8a3c167ee9375ed072e73bc9a1d48de68b6c4cb1507a05a751837",
+   "filas_sha256": "319ebbf9e38782bc766c2be92ae7a806a3a3f0ad3b1d59e11fd38d49455e3e4e",
+   "cell_id_e12": "CEL:97b3b019af762de12ff07f85afbbfa928e276b65fb6e",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "dd1c6b4c7be8a3890f6ad486dd6aade51f3123580d001b885cf0c0e4f3e3d01f",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "bfcb0120a4ffb2e14de2324cb198d22c1fd0841a830c7fa2a87970e4c21bb72f",
+   "filas_sha256": "622e283b9718f540f50b97e5bc5721f957ed336aed682a44fbb6c4e30db2fd5f",
+   "cell_id_e12": "CEL:0028b1b0a9a9bf708bdcc23523250672d89f9fc005a9",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "de302e8244b9f46195f8486bd3dd1aa645df2dbb9d46df59fe92b84da604b97d",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "ec4660947ab22fdb9eb6ebf6daa146f34373e6ca010cc2111078f17ba5029184",
+   "filas_sha256": "7f5a73829b5ac5e03f676879cd6b6abc25152375f91d0031ef3e7fb20019c75c",
+   "cell_id_e12": "CEL:02b5b741315f1b63f8d60d80f0b0bb12d09243b12a8f",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "df0223c88b66657b33b2d3261f842c48b44c52a0249e15bff711262cd7820c89",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "13f3ccf38a03d8a5fc0bed8ff08b1409324afbd8b54442679511c04969456677",
+   "filas_sha256": "137e931798ecc8e98968e687e6f9e31fc2a96361d23e23497894346f0a422db2",
+   "cell_id_e12": "CEL:67b0f889c5abe7765219f5af4769850a9eb4f5561fc9",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "df39817cca71aac7d77c0cc8e9882ce5acedeca367077b0a43ab08e30122f6c7",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "8f215f808d99e7795351acdf0848f5b638af9619ff1e16573ef6dd52f49f49a4",
+   "filas_sha256": "cfbd09a4d2dce069b36961ea9fb7bc396cf3bad8f9cf934069d145a222d72ec0",
+   "cell_id_e12": "CEL:9adec56e43bebc165f291252c93cbdb8161f6a06dec9",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "e0e00e6b94a79c4accf2829d37d586e0b2547227122c26a1afb16d361b7f598d",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "5ca284f5822d80a8945d59557c4c4ef6c70b5fab85acf5cec39c7c5dad16f68e",
+   "filas_sha256": "401331caec563941b8005e829dc67585538c49c101c9f748d705d16cbf092835",
+   "cell_id_e12": "CEL:c133887100a5de9c16528fa101e3a4d9d82ea37c51b7",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "e23ab352d2116fd4780819cfbd744038218ffdadbed2af3d0accc1c743fae9e2",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "d8995718056e6f1c5db8150dc3822e1f1e1ce74b2a80497aa3c02a4f743cb68a",
+   "filas_sha256": "fed415a58d109862ddebf1effeb751e720c2c5ccdcaa0b81f206d0a62e8ae4ef",
+   "cell_id_e12": "CEL:456638b137bc18b9b4cbb15e74f3fbdc28649c0e77d7",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "e4fc11405d7c9fae5245245ecca2d9e6f7e2ffb2bdcc6b4b12c8c7784e61e6e1",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "ceb9e8cc102def1c33f2a89eea54f9d7e50ce79826a90c2dcfa4419a4d479b4a",
+   "filas_sha256": "7545ea0d51be7767c231b6b05bb9267662d44ec4f95fa39679fb9d285a254866",
+   "cell_id_e12": "CEL:a0101cc0cc119bdb25a8ea3ca2e9304a5c001bb25e20",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "e623d31aaddbaa1cf9d7254b414c3b882660b25d1444e5c04a1d1faadeb010b9",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "63061c5b49a9ef68502a2b1726543c8b14d0466f5b59e9f6ed4cf22279c29160",
+   "filas_sha256": "4b209b30b6b6831e48d4bb9f77cd5c1e9c0bb616da7c5361b736ba80fc63c111",
+   "cell_id_e12": "CEL:5e0b1240fa98f85caf52f1205dad565b6a641f7645e5",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "e6a00ca16d251780c7fa088a1f37c3c59f30e5ffe4de113a78656e19de8326b0",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "ad28fc56248d4923aaad3bc277dd0bc84fca97bc06ceb69dd656666b2c72faa5",
+   "filas_sha256": "c9d20f6da04d3ac94c58fec9f359366cd07c36a4972a70f1acf0dc5143c0e3d8",
+   "cell_id_e12": "CEL:419b7bf247944a6259bb648689707b3d1de59282fbaa",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "e76f4d7bffe072e45db3a818f199f2df30e160bec45ce1ac65d7cb0db802e886",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "b5ddfeb7b1904b11cab11591059f7cbd0d49df8aafa4a7f59f154e782c1f42f6",
+   "filas_sha256": "d10892fd4249686dfec1cb7ddfc853f399ad87c0a771cc5705977600a44cdb0b",
+   "cell_id_e12": "CEL:12ca276d3f0c2876019b81d44779b8ae32cdb2d3bbe9",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "ea03583dfe1a29a648c506262830af635a93070b8f4171e5cc4555e82cb8456b",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "48c0bbc260bf53c3faf21867d1cd3dbbf7525f6fb320ac0b515560bfccce0825",
+   "filas_sha256": "e8e8c1bdf2d3edc36eb983041f92a5f6c0c133ea79affc748070d2d1e2750bdd",
+   "cell_id_e12": "CEL:235b633a60fa36486e3f118f1220e5c602107a801aa1",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "ed5558f8866d1d11b9ab23c1890310a81f3b81c2ae2f6e4f3325234a959afc5f",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "3147dab5b9f6457cc157191ca1a98cb06c8aa3c2e5565f52de2809bfa481d81e",
+   "filas_sha256": "0af15dd36bc781d0c67ced28559a4d9b7c8169d82e0a1a3b9ca0601c6c794ca5",
+   "cell_id_e12": "CEL:854e1720a78aa46855a331ac0a71e89fb39f976755e2",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "ee21b4b7fbc7de6a8da3cd52eeca3a0ed1543b0bede0ae720b75dcf882e495d9",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "8370c90197fecec8abaf21430a8eef889a98d976ae6f6ba6978cfef76ece747c",
+   "filas_sha256": "c893ae70926a2b2358b275e2484ed7510811e3657af3e7825c0c5b6016a31ad6",
+   "cell_id_e12": "CEL:7bd7bb00e2e27a387a1115a09fe7c9e66ae91a1a9cb3",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "eeb7f7f03bdd7a4f26dc642e09d6a15201e52a6587226360d5c972d3e6e2b84a",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "d4a14e91223d4b3d105889e6b0d78139392c58a05899b3fdd8c8a6d892a845f2",
+   "filas_sha256": "a0cc9e62e43764f99bfdcf9c2accfb4750598b68b21334811463e579f8107964",
+   "cell_id_e12": "CEL:defe2eecb384631ac262733ea14f03883fdb73adb9d5",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "ef65152010ec94b8ae0c74e39a08ee2b7447c47fd6bc9efdf52aa5de70284c55",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "cf69276f422dd7aaa2737af36aab1c7eb139a0e5a29e7f2cd455b5dcfd0efd45",
+   "filas_sha256": "34c9be1ff79be35262235b2d60ad8f2ab94005ba68b67b59f05b95f018aafc33",
+   "cell_id_e12": "CEL:c3912a9f7e151d5d9eaf48dab2c66b69041bb600eeb0",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "f235905d3655b836118f67e3a9c49217121f0db4ec0895f5f16f0b2c86f3b235",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "562a8b064fdc0b847cb59dee15f2251ee4b609eea2ab13d3f2d8225cc6791ef8",
+   "filas_sha256": "a6c7544537a41baa13c5552cdd6e6432aae3c0b2aeda07ab9c98799b0a1e28dc",
+   "cell_id_e12": "CEL:d3b085341ea065634361a9de797e6644c4f13b187873",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "f4e117e0ebfa7747ca06bf9dc6fddb7c0300bb1afc6f8c8672fe50a0c799f2f3",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "fc54fa380b7528fdf00cd1308a74d35687f7c25b4c4a2b61c02daceaa1755b9a",
+   "filas_sha256": "c53f9f2fe728ca6cef791cc76fd3e75ee9ab468d64a9eacd6aacd8a25e0ce124",
+   "cell_id_e12": "CEL:d2dba0c0e9c23f58d1fad769fde9344e17523bf56752",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "f5632a1a0cede493ba7988d8e174bae0e1f2c8786e3fe79a93c2b14c8b247951",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "f2a27f4b8ac1777c485334b48e9c3f0ff096d57f5e29ea53a036654d7834516e",
+   "filas_sha256": "35f0bfb9ef8ee4bb5b1c00c5c10c3e4477c70f456388b9909b114e042c56abb4",
+   "cell_id_e12": "CEL:a695907bd56b50bcac663d136d4eea9fe300315436c4",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "f5d32995cbd952814c3084a4c0fb234508234893b5f45ace27bad913a53b0ad5",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "a5a46b95ddbb66d6a4a6267060dc86994a15b5694833b9bf400d7ea3ec37d4d2",
+   "filas_sha256": "cb8aa0ecdd4da1c61789f6f2527408997070e3a4ce49112d887380a7eca846f3",
+   "cell_id_e12": "CEL:cb8289e8f0003e2fe82241cc9f0e0548849712160e17",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "f9b03116b59c97d74342a82f42e6fa7417f1e4f1ac3e42088343f63b13256525",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "226a5db4e88ca8d6667f5e573c0e25dcdd415704bcb81d5e491ef1aeda329c17",
+   "filas_sha256": "bee6c03e87bf04b3eaa63b45a4ce34f0e2b559c30daf119f615d230f4b422d14",
+   "cell_id_e12": "CEL:4e8b599c4489c97bd6592cc168fac71a0d7b73f23a1c",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "fad42a28ec9f58d3695545d2fffa80b3ddc50f3e32961e9fce70cd3311945677",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "bd5aca57d17d3c06601c6c3144a5587cef91a990c43c54c5fa4c686e62e3aa55",
+   "filas_sha256": "d61499b1f686717b1d5fad11424ccd3aa00ac942fa00205fee9cbcc967eacad4",
+   "cell_id_e12": "CEL:a8efcdf5ceccaa01d902c1477e3c6ada184d342f3c65",
+   "garantias": "v3: tablas E12 + hijas + fila C2; testigos laterales y evidencia numérica exportados",
+   "evidencia_ausente": [],
+   "huecos_de_identidad": [],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  }
+ ],
+ "propuesta_registro_consumidor": {
+  "area": "s1f_remanente_h4_paso4_3_7_2026-10-10_lima1125",
+  "inventario": "3f62b34c51e82dafb77b199c9ea3f99177b46535d782c869eed9ead80be910cc",
+  "codigo": [
+   "codigo/bloque_s1.py"
+  ],
+  "run_class": "s1f_remanente_h4_3_7",
+  "etiqueta": "S1-f REMANENTE Y VALIDACION H4 3.7 NO OFICIAL",
+  "encargo": "autorizacion/encargo.txt",
+  "contrato": "v3",
+  "productor": "codigo/bloque_s1.py",
+  "nota": "NO aplicada: el consumidor del candidato solo registra productores de paquetes de selección del paso 4; aceptar celdas detalladas por procedencia es un cambio del candidato"
+ }
+}

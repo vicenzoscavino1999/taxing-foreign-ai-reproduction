@@ -1,0 +1,1198 @@
+{
+ "kind": "congelamiento-testigo-alto-v3-rem140",
+ "productivo": false,
+ "conforme": true,
+ "fallos": [],
+ "paquete": {
+  "ruta": "tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3",
+  "piezas_alcance": {
+   "testigo_comun.py": "3f8ec27b92c9e04c6d1b5e688f38fe3663440c1e3aa54a9fd9392e6617f28b52",
+   "trabajador_testigo.py": "fefa171c21f74248860a7ac984d562d21ee74a0f7b5d47a3058c40554a4741fa",
+   "validar_testigo.py": "69989e41136706f995d4e24b33fbde0c8e63d98440b61d7cdc9b5b7fe5fb80fe",
+   "receta_testigo.sh": "abd0a83ccc5e6f77f56c21b8c02caf1801b2a89d2844542ef0080240b0ff753c",
+   "emitir_alcance_testigo.py": "18ebe2994ef21b7d2306ac8f5f10d6ac55e0c28e0fc3f7ae2b0703ad6e37f22f"
+  },
+  "piezas_rem139": {
+   "testigo_comun.py": "9d36aa03d59882ff167e53acc6db38689043bda019d1128654ce36ac0e4312d1",
+   "trabajador_testigo.py": "fefa171c21f74248860a7ac984d562d21ee74a0f7b5d47a3058c40554a4741fa",
+   "validar_testigo.py": "69989e41136706f995d4e24b33fbde0c8e63d98440b61d7cdc9b5b7fe5fb80fe",
+   "receta_testigo.sh": "abd0a83ccc5e6f77f56c21b8c02caf1801b2a89d2844542ef0080240b0ff753c",
+   "emitir_alcance_testigo.py": "18ebe2994ef21b7d2306ac8f5f10d6ac55e0c28e0fc3f7ae2b0703ad6e37f22f"
+  },
+  "piezas_cambiadas": [
+   "testigo_comun.py"
+  ],
+  "doble": {
+   "rem139": "1237133a5ed6f3b582c889ff9f8f05c41b936d1296433016bed6d2e66e61526b",
+   "rem140": "dd6652c81465fda809fd368c90ccef2c493b6f20679db37113b1819dda120bd6"
+  },
+  "alcance_fixture_v3": {
+   "ruta": "tmp/paso4_estado_testigo_lector_desde_rem140/testigo_alto_v3/fixture/ALCANCE_TESTIGO_FIXTURE_v3.json",
+   "sha256": "65a9539e14400b77b4e80375f35e9fc5db37f8678d884fa23298c4897af227bb",
+   "piezas_iguales_a_los_bytes_finales": true
+  }
+ },
+ "manifiesto": {
+  "base": "tmp/paso4_emision_captura_correcciones_testigo_desde_rem139",
+  "inventario_sha256": "794841511784da49ab9d357db7de4bdbf4ff967ab02570c475d0d182af2ce5fd",
+  "rel": "testigo_alto_corregido/MANIFIESTO_TESTIGO_v2.json",
+  "sha256": "3ed91d323c7f0f0e56eb31b01b41ef864c68bea029936afd4d090f36c9939ad4"
+ },
+ "lector_candidato": {
+  "piezas": {
+   "lector_fuente_testigo.py": "9e25706026743e1b92221029f0e30faaf3c64df703f8c07451848b9696ad7d7a",
+   "adaptador_fila_testigo.py": "7cbebc7691c68d7d902d4c0944f30f8b3b4a1844c409a9f089f88fd7da60b0e2",
+   "construir_incorporacion.py": "bfa2d5ba3f41b4f8aa4ade3c4243c4d045388a008e24e3b7f5fff8262fe4d775"
+  },
+  "contrato_entrada": {
+   "kind": "incorporacion-fuente-testigo-alto-v1",
+   "campos": [
+    "clave",
+    "codigo_productor",
+    "dictamen",
+    "ejecucion_declarada",
+    "etiqueta",
+    "fuente",
+    "grupo",
+    "inferior",
+    "kind",
+    "manifiesto",
+    "modo",
+    "plantilla_equivalencia"
+   ],
+   "archivos_fuente": [
+    "alcance",
+    "decision_ref",
+    "inicio",
+    "resultado",
+    "resultado_sello",
+    "validacion",
+    "estado_receta"
+   ],
+   "ejecucion_declarada": [
+    "base",
+    "alcance_sha256",
+    "decision_uuid",
+    "inicio_utc",
+    "fin_utc"
+   ],
+   "modos": [
+    "produccion",
+    "sintetico"
+   ],
+   "prefijo_sintetico": "SINTETICO — fuente de prueba, NO productiva: "
+  },
+  "fijados": {
+   "clave": "e8b1f7fdb9c7017605e0a4162fc6688e7b6ed01d2308ff72106ed6cf6834a97b",
+   "grupo": "EQ-TECHO-T8-1",
+   "plantilla_equivalencia": "BRUN-cb33e6b24039acc84fb1a065",
+   "testigo_inferior": "CEI:dc4e1ba95f168fdd846cb39a44b404f204efbb47",
+   "fila_inferior": 9638,
+   "vista": {
+    "base": "tmp/paso4_emision_captura_correcciones_testigo_desde_rem139",
+    "inventario_sha256": "794841511784da49ab9d357db7de4bdbf4ff967ab02570c475d0d182af2ce5fd",
+    "rel": "captura_vista_CAPTURA_T8/VISTA_T8_CAPTURA.jsonl",
+    "sha256": "66891b45282cae1c08c0a86131d194631e1d9a39351e26cfc137255e6b489992"
+   },
+   "pruebas_fila": {
+    "base": "tmp/paso4_emision_lambda_conexion_captura_desde_rem137",
+    "inventario_sha256": "59188e65c2d8dd665679f3b47780e2859633505b260127cc435c772431bf92b2",
+    "rel": "c2_conexion/candidato_v3/PRUEBAS_FILA_v3.json",
+    "sha256": "690dfef933447410fd9653201ec92631cb7af52a6364db4b70606833e8be5efa"
+   },
+   "certificacion_fila_sha256": "4741b4ea3b72fc2f754cc2d8c79dd9dd718f8e37205bf3e4ee5c0c539be60f4b"
+  },
+  "salidas_prohibidas": [
+   "tmp/paso4_emision_lambda_conexion_captura_desde_rem137/c2_conexion/candidato_v3",
+   "tmp/paso4_emision_captura_correcciones_testigo_desde_rem139",
+   "tmp/paso4_emision_lambda_conexion_captura_desde_rem137",
+   "paso4/instalacion",
+   "fase2_datos",
+   "@@W_BS2@@"
+  ]
+ },
+ "aceptados_de_captura_intactos": {
+  "certificacion_fila.py": {
+   "sha256": "4741b4ea3b72fc2f754cc2d8c79dd9dd718f8e37205bf3e4ee5c0c539be60f4b",
+   "inventario_rem137": "4741b4ea3b72fc2f754cc2d8c79dd9dd718f8e37205bf3e4ee5c0c539be60f4b"
+  },
+  "conexion_captura.py": {
+   "sha256": "f7a8d23f5d2558843f4620052b49d20250cf23c67ac8a02d54ea57db1c05dba7",
+   "inventario_rem137": "f7a8d23f5d2558843f4620052b49d20250cf23c67ac8a02d54ea57db1c05dba7"
+  }
+ },
+ "inventarios_de_partida": {
+  "rem139": "794841511784da49ab9d357db7de4bdbf4ff967ab02570c475d0d182af2ce5fd",
+  "rem137": "59188e65c2d8dd665679f3b47780e2859633505b260127cc435c772431bf92b2"
+ },
+ "diferenciales": {
+  "testigo_comun.py": {
+   "archivo": "DIFERENCIAL_v3/testigo_comun.py.diff",
+   "sha256": "28e0adb051dabaa7a4cab3abfc940d4e31bc1873496246c6ae1863f252866374",
+   "lineas_quitadas": 17,
+   "lineas_añadidas": 86
+  },
+  "doble_sintetico.py": {
+   "archivo": "DIFERENCIAL_v3/doble_sintetico.py.diff",
+   "sha256": "93a90b424953e15b61481e1ecee691017d219264cbb2db89fba813f8ad8a8b89",
+   "lineas_quitadas": 2,
+   "lineas_añadidas": 17
+  },
+  "pruebas_testigo_v2_a_v3": {
+   "archivo": "DIFERENCIAL_v3/pruebas_testigo_v2_a_v3.diff",
+   "sha256": "b765e6350da319704aa85c87d121555a50f9390ffab2dbc4bb270e2725b2e5ad",
+   "lineas_quitadas": 7,
+   "lineas_añadidas": 140
+  },
+  "adaptador_frente_a_validar": {
+   "archivo": "DIFERENCIAL_v3/adaptador_frente_a_validar.diff",
+   "sha256": "bb1c62e119fba3bb4f37df4ac7a909a2cfdeeba123955bf5dd258028e391503b",
+   "lineas_quitadas": 56,
+   "lineas_añadidas": 30
+  }
+ },
+ "sondas": {
+  "antes": {
+   "inner_status_incomplete": true,
+   "inner_not_converged": true,
+   "both_not_converged": true,
+   "instrument_unavailable": true,
+   "inner_reason_failure": true
+  },
+  "despues": {
+   "inner_status_incomplete": false,
+   "inner_not_converged": false,
+   "both_not_converged": false,
+   "instrument_unavailable": false,
+   "inner_reason_failure": false
+  },
+  "checks_despues": {
+   "positive_control": true,
+   "six_authority_mutations_rejected": true,
+   "old_numeric_and_modules_mutations_rejected": true,
+   "incomplete_top_rejected": true,
+   "residual_inner_status_reproduced": false,
+   "residual_convergence_reproduced": false,
+   "residual_availability_reproduced": false,
+   "residual_reason_reproduced": false
+  },
+  "derivacion_despues": {
+   "sha256": "a9604a884be7bf69e8ac86294a79087abe4f81944c800023cfcf9eefd2d22dbf",
+   "sustituciones": 5
+  }
+ },
+ "baterias": {
+  "testigo_v3": {
+   "documento_sha256": "fa80de96aa1bd7d7d934bda046ed493cbef59607853618dbebfefef53f94cfaf",
+   "casos": 125,
+   "conformes": 125,
+   "por_bloque": {
+    "A": [
+     38,
+     38
+    ],
+    "N": [
+     31,
+     31
+    ],
+    "E": [
+     43,
+     43
+    ],
+    "F": [
+     3,
+     3
+    ],
+    "P": [
+     10,
+     10
+    ]
+   }
+  },
+  "lector_v1": {
+   "documento": "lector_pruebas_3/PRUEBAS_LECTOR_v1.json",
+   "documento_sha256": "d1ee3f74c0eb117d7160f64e153e35de0078bfdabcc97c19d14fbc3074546bcf",
+   "casos": 39,
+   "conformes": 39
+  },
+  "intentos_fallidos_conservados": {
+   "lector_pruebas": "sin documento (la batería se detuvo antes de escribirlo)",
+   "lector_pruebas_2": [
+    "L00",
+    "L00b",
+    "L00c",
+    "L01",
+    "L01b",
+    "L27",
+    "L18-ERROR"
+   ]
+  }
+ },
+ "recetas": {
+  "FIXTURE_POSITIVO_V3": {
+   "estado_final": "completo",
+   "causa": null,
+   "rc_final_esperado": 0,
+   "validacion": {
+    "clase": "complete",
+    "cumple_garantia": true,
+    "fallos": []
+   },
+   "resultado_sha256": "07a53c144b11b5bb936ca62ffb4edb569c2bbeb2139c46ed1b44e804b6510b59"
+  },
+  "FIXTURE_ESTADO_CONTRADICTORIO_V3": {
+   "estado_final": "incompleto",
+   "causa": "ETAPA_rc_4",
+   "rc_final_esperado": 4,
+   "validacion": {
+    "clase": "incomplete",
+    "cumple_garantia": false,
+    "fallos": [
+     "ESTADO_DUPLICADO_INCOHERENTE",
+     "ESTADO_DEL_MOTOR_INCOHERENTE",
+     "NO_COMPLETO:incomplete"
+    ]
+   },
+   "resultado_sha256": "de8901c72c238620fe15b33e7bdaaa1af97df0b855f13016f01a8754d12eb390"
+  },
+  "FIXTURE_TECHO_PARCIAL_V3": {
+   "estado_final": "completo",
+   "causa": null,
+   "rc_final_esperado": 0,
+   "validacion": {
+    "clase": "complete",
+    "cumple_garantia": true,
+    "fallos": []
+   },
+   "resultado_sha256": "161ce1ad1b7e959576c9c2568a2e8e67be14195ca87a70ac02d19ec1bd967409"
+  }
+ },
+ "comandos": {
+  "ruta": "COMANDOS_TESTIGO_v3.md",
+  "sha256": "8bd518ffc0663b534fe8289357ead13b8fc9faa5cae9d05e755e1ce7247e3e7a"
+ },
+ "limites": {
+  "tope_por_etapa_s": 600,
+  "reserva_s": 690,
+  "via_2400_s": false
+ },
+ "indice": {
+  "adaptador_fila_testigo.py": {
+   "bytes": 6434,
+   "sha256": "7cbebc7691c68d7d902d4c0944f30f8b3b4a1844c409a9f089f88fd7da60b0e2"
+  },
+  "COMANDOS_TESTIGO_v2.md": {
+   "bytes": 4228,
+   "sha256": "e498719cb99f962bc80a3a10d5376befa15a651328548bf759398ad883d18d8c"
+  },
+  "COMANDOS_TESTIGO_v3.md": {
+   "bytes": 5833,
+   "sha256": "8bd518ffc0663b534fe8289357ead13b8fc9faa5cae9d05e755e1ce7247e3e7a"
+  },
+  "congelar_testigo_v2.py": {
+   "bytes": 9943,
+   "sha256": "c0cc0a5466a1c148c01b991121dc4b7398cc4e228b7262eb7c872d2c4e23bb16"
+  },
+  "congelar_testigo_v3.py": {
+   "bytes": 11835,
+   "sha256": "198c99af9ca60942f57e56d66c81eb3bd34815e53cf88326d2eb657a8c5d5f2a"
+  },
+  "construir_incorporacion.py": {
+   "bytes": 4569,
+   "sha256": "bfa2d5ba3f41b4f8aa4ade3c4243c4d045388a008e24e3b7f5fff8262fe4d775"
+  },
+  "DERIVACION_PRUEBAS_v3.json": {
+   "bytes": 2251,
+   "sha256": "1e8b743bfb8dd9ecdbefb315f8850e4225e24e9a7d2c64599a0fe5cfe8d4912c"
+  },
+  "derivar_pruebas_v3.py": {
+   "bytes": 14936,
+   "sha256": "b1e12fe870d85514ae0c5e635af0bf9f8fc23acf7d474cb6b73d257bcf14842a"
+  },
+  "emitir_alcance_testigo.py": {
+   "bytes": 3287,
+   "sha256": "18ebe2994ef21b7d2306ac8f5f10d6ac55e0c28e0fc3f7ae2b0703ad6e37f22f"
+  },
+  "fixture/ALCANCE_TESTIGO_FIXTURE_v3.json": {
+   "bytes": 2520,
+   "sha256": "65a9539e14400b77b4e80375f35e9fc5db37f8678d884fa23298c4897af227bb"
+  },
+  "fixture/ALCANCE_TESTIGO_FIXTURE_v3.json.decision.txt": {
+   "bytes": 198,
+   "sha256": "d0d24563b34e044431727cb516098a66b6a29a2f5d375fdc849252634b4dc728"
+  },
+  "fixture/ALCANCE_TESTIGO_FIXTURE_v3.json.sha256": {
+   "bytes": 99,
+   "sha256": "ffcad6b8919974398a37b7f7c41acd78ea1c2f1dcf123a78bf5746fdb326f5d8"
+  },
+  "lector_fuente_testigo.py": {
+   "bytes": 22928,
+   "sha256": "9e25706026743e1b92221029f0e30faaf3c64df703f8c07451848b9696ad7d7a"
+  },
+  "pruebas/casos_v3/alcance_acta_ajena.json": {
+   "bytes": 2520,
+   "sha256": "6a69b26a109bd7ce12f8e6942f33067bac324ba84f36916d8add9f1000a02891"
+  },
+  "pruebas/casos_v3/alcance_all_code_pins_omitted.json": {
+   "bytes": 2023,
+   "sha256": "92705502e7bd637f5efc232290deb9c552f3d7821eb930471ba05c0f221a84d1"
+  },
+  "pruebas/casos_v3/alcance_asignacion_tope_2400.json": {
+   "bytes": 2521,
+   "sha256": "9880179044d51647761319902bd1e914388ffe5ddf32779ab6efa26019299972"
+  },
+  "pruebas/casos_v3/alcance_asignacion_trabajador_cambiada.json": {
+   "bytes": 2517,
+   "sha256": "18176088796b56966454aba260dba754eab3c697fa974c96e99a7132c0db62b4"
+  },
+  "pruebas/casos_v3/alcance_bandera_oficial.json": {
+   "bytes": 2519,
+   "sha256": "1f5cfc7c09a04100f2e86f4677372d6725e8a1d4cf85b259603675ce61134157"
+  },
+  "pruebas/casos_v3/alcance_campo_extra.json": {
+   "bytes": 2543,
+   "sha256": "15d0f1534dad258a599da34c05efa55570d5e036e40da3fcdc039a686e0a0a2d"
+  },
+  "pruebas/casos_v3/alcance_clave_ajena.json": {
+   "bytes": 2520,
+   "sha256": "c4f1abce8d6622a27317301978c6bc49d59ef549712ff3a0c76b543950d940e2"
+  },
+  "pruebas/casos_v3/alcance_code_pin_changed.json": {
+   "bytes": 2520,
+   "sha256": "67c621d3e0df37033fb3f72eb2155261350d90e985e08321233a31c17768f5bc"
+  },
+  "pruebas/casos_v3/alcance_controles_ajenos.json": {
+   "bytes": 2520,
+   "sha256": "fcdc502c373d8fbb8e7f26eb2a1c60d0b2b11faacdd779163a515ee914095531"
+  },
+  "pruebas/casos_v3/alcance_d7_ajeno.json": {
+   "bytes": 2520,
+   "sha256": "93422c228f80bf4701ae280144981b844b2d8bb29c98ca5fbf26a733822af6ea"
+  },
+  "pruebas/casos_v3/alcance_deployment_pin_changed.json": {
+   "bytes": 2520,
+   "sha256": "158d3696e10dfab9b9103810427e3a9cd5822e6b308bfb3e5a2da5f7f4980258"
+  },
+  "pruebas/casos_v3/alcance_despliegue_prefijo.json": {
+   "bytes": 2464,
+   "sha256": "32f9dbf6b10f96a4aa443ea512a60b7cba8970268ac5f8610a9c5a401ff0c167"
+  },
+  "pruebas/casos_v3/alcance_entrada_extra.json": {
+   "bytes": 2600,
+   "sha256": "a1e6bc17a7373579a400a60577e601b950df0e5392befc3b296e37ea09f37912"
+  },
+  "pruebas/casos_v3/alcance_grupo_ajeno.json": {
+   "bytes": 2520,
+   "sha256": "1a5f883b969acaa1cb097a701fbee081ec172c7bf5cc50dd255b2f6e4b5f99d5"
+  },
+  "pruebas/casos_v3/alcance_installation_pin_changed.json": {
+   "bytes": 2520,
+   "sha256": "b793a7abef6c18853e133333926c436dc1522f650b6bf75605587d8b14a10ce2"
+  },
+  "pruebas/casos_v3/alcance_limites_ampliados.json": {
+   "bytes": 2521,
+   "sha256": "c1fd99d30acf4209cab9775ee1ae8d9d1a20096e39a894ca7214a55b782ea056"
+  },
+  "pruebas/casos_v3/alcance_manifest_changed_control.json": {
+   "bytes": 2520,
+   "sha256": "e10dc2c3a364a1fc4cdca237991b558d1e4900eacbdac5f4b2cd28e7215c3645"
+  },
+  "pruebas/casos_v3/alcance_modulos_requeridos_ajenos.json": {
+   "bytes": 2520,
+   "sha256": "8acc6beeb2e55253499729b41b523caa50932237b26b0075e6d36ab72f9cfda8"
+  },
+  "pruebas/casos_v3/alcance_nucleo_ajeno.json": {
+   "bytes": 2520,
+   "sha256": "ff900658272c95b29b4ed91f25786f83f803ce30c71df5f215b8de295793b63d"
+  },
+  "pruebas/casos_v3/alcance_pieza_de_mas.json": {
+   "bytes": 2603,
+   "sha256": "9d998a86dd6b3aba9db0582d12be10fd5e5d9e5cb58df9a35b71b39036030b91"
+  },
+  "pruebas/casos_v3/alcance_pieza_de_menos.json": {
+   "bytes": 2427,
+   "sha256": "3d010d97920c55853f746182e63db732ca35e0b67d9002d9735da8a83fcd0069"
+  },
+  "pruebas/casos_v3/alcance_pieza_huella_prefijo.json": {
+   "bytes": 2464,
+   "sha256": "fd41d1da621611fddb6151646e34c536902744e8062608387435982d2ad4ce47"
+  },
+  "pruebas/casos_v3/alcance_plan_pin_changed.json": {
+   "bytes": 2520,
+   "sha256": "b2c412b58a90615facc134ef76670c138c7030077725079f95da5699a43a3622"
+  },
+  "pruebas/casos_v3/alcance_puente_ausente.json": {
+   "bytes": 2439,
+   "sha256": "e1c57b53eac82f4de8c403fa4e9c9545312e510badd8a009561708b40875a419"
+  },
+  "pruebas/casos_v3/alcance_repetir_no_vacio.json": {
+   "bytes": 2549,
+   "sha256": "c919fad762ee9518d663e332e78cda99c35b0add5649cf7f95063ec0e9563f4c"
+  },
+  "pruebas/casos_v3/E01/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/E01/salida/RESULTADO.json": {
+   "bytes": 5200,
+   "sha256": "2f7a6674ff7953a64643fdc4f9a9f8139db3d9605d69033d7b3c5cd605fbbd25"
+  },
+  "pruebas/casos_v3/E01/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "0e5557d93751864ba81dfed59d5f816618db3a05af0e879b691d9701b70b4ffd"
+  },
+  "pruebas/casos_v3/E01/salida/VALIDACION.json": {
+   "bytes": 2099,
+   "sha256": "fa87ea91a349a1d4339ddcf23d7481f78c9a660fd139a27908de385101b52fee"
+  },
+  "pruebas/casos_v3/E02/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/E02/salida/RESULTADO.json": {
+   "bytes": 5199,
+   "sha256": "a6e8720b2af150bb42ee21fd06b8a5e55e6105f8a0255389aa582d3d74df6a77"
+  },
+  "pruebas/casos_v3/E02/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "defd0db520b6a785f4dc0348430bfb8f2552f56c0b627e3a572627550efd8a2c"
+  },
+  "pruebas/casos_v3/E02/salida/VALIDACION.json": {
+   "bytes": 2098,
+   "sha256": "fa7fe6420a1a3d5f90d8add62370100962b3cc757671635691e9dcc67518d4e1"
+  },
+  "pruebas/casos_v3/E03/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/E03/salida/RESULTADO.json": {
+   "bytes": 5200,
+   "sha256": "910760f71cb3c94e7209a8f8ccac7547f34bb2cff991643f75847cfcbd1b1569"
+  },
+  "pruebas/casos_v3/E03/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "45de0aa2f75acb6fa3f9ac1b2d0585f3e74010936c076b4d3826300d4ff7f728"
+  },
+  "pruebas/casos_v3/E03/salida/VALIDACION.json": {
+   "bytes": 2064,
+   "sha256": "83b0ca408b17f4e0105a8129e9d24bf229fafbc4920b899c85d9044bbcc97605"
+  },
+  "pruebas/casos_v3/E04/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/E04/salida/RESULTADO.json": {
+   "bytes": 5199,
+   "sha256": "9c7b04222c546936ca4b170f2e3ab067775f5c8b190b8b3868935079580e10b0"
+  },
+  "pruebas/casos_v3/E04/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "9def42c4f244cb115c37c08b72fcc182a2746b0815d6d20a1874a40fbf381237"
+  },
+  "pruebas/casos_v3/E04/salida/VALIDACION.json": {
+   "bytes": 2060,
+   "sha256": "ec1a5212e57facfe87320b28cebbd4519a425ab555866586c36d8a3ab83d5c8d"
+  },
+  "pruebas/casos_v3/E05/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/E05/salida/RESULTADO.json": {
+   "bytes": 5234,
+   "sha256": "ed6af0e78b8f603bf349fdbb35803e49ff3acd6a7c0c450ed34ffe593529d7c7"
+  },
+  "pruebas/casos_v3/E05/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "0e4f46ae9fdd364910fa7cefb973aeb79e1ece3e70065b76811fad42e79180d3"
+  },
+  "pruebas/casos_v3/E05/salida/VALIDACION.json": {
+   "bytes": 2133,
+   "sha256": "2464054d00ded111e2f193d0a01554b85e3422edc2e2e0cedff37f4f45c367ed"
+  },
+  "pruebas/casos_v3/E42/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "d381b969b37cb536ac7c13be846fee0d01b26a5fb0608607694b6e3fb70eb44c"
+  },
+  "pruebas/casos_v3/E42/salida/RESULTADO.json": {
+   "bytes": 5277,
+   "sha256": "38d4ed0a1b9b80c94bdc72cdf1a7bcffc456d294796cf29f7c4e6c603edd93e1"
+  },
+  "pruebas/casos_v3/E42/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "207097efd66307d9f6a3c995d26e9f102906c84bb99123fd1a6416a52cc78699"
+  },
+  "pruebas/casos_v3/E42/salida/VALIDACION.json": {
+   "bytes": 2107,
+   "sha256": "7c9f8913993fbffc605043ecbe46fed24d40125843c38fa734e2449fd030b0df"
+  },
+  "pruebas/casos_v3/E43/salida/FALLO.json": {
+   "bytes": 93,
+   "sha256": "9bf1e9f57806d1c2f7603d558473a74ae15d57e29a1fda980a493528b1c2751b"
+  },
+  "pruebas/casos_v3/E43/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "e808c4fd7366c42e7059fb474bd1828433b800589d605d621482837de42df2e9"
+  },
+  "pruebas/casos_v3/E43/salida/VALIDACION.json": {
+   "bytes": 1474,
+   "sha256": "5bb4645c9e28c455dca9640d630b5801f4e33d380ad9985a11e19df86d57ec96"
+  },
+  "pruebas/casos_v3/E44/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8ca306b29465e7c3b99e05d0cc5cff54e0280374f463c58677051aea5567f0af"
+  },
+  "pruebas/casos_v3/E44/salida/RESULTADO.json": {
+   "bytes": 5226,
+   "sha256": "3cc11fbbc80ee654ced9ec150e98a7e027398f750a079ef7da5c248553cd3a21"
+  },
+  "pruebas/casos_v3/E44/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "73e253d48e3d06df3d9ff614021206f0ffc5bd18734c12341a97997abbfe6ffb"
+  },
+  "pruebas/casos_v3/E44/salida/VALIDACION.json": {
+   "bytes": 2125,
+   "sha256": "9abcf94f3c9e2fcbf7c69ee9272287f360b30054eb3a78c8cf5868757d321043"
+  },
+  "pruebas/casos_v3/F03/salida/FALLO.json": {
+   "bytes": 736,
+   "sha256": "dc73bc3e9c1683b44ceb6e2969b64c38d6e1eb62b1465c9dc1ce847254f145c4"
+  },
+  "pruebas/casos_v3/F03/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "e09adb3c3ecacba81ca0d18e21550de28a3da5119909ba713ce2d6a38b47dd40"
+  },
+  "pruebas/casos_v3/F03/salida/VALIDACION.json": {
+   "bytes": 1474,
+   "sha256": "26d75d37f058195c23df9840d4c7ab2981709ffa43c18c7e71b7a9bd5ee2ca98"
+  },
+  "pruebas/casos_v3/N00/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N00/salida/RESULTADO.json": {
+   "bytes": 5198,
+   "sha256": "3a57419cc7aac57590ea5678922273a7893e382d81d17b7b733d45967b460308"
+  },
+  "pruebas/casos_v3/N00/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "48e094e843956e4d955c4d796ab500590124b61f3fccc7163f82285545b637da"
+  },
+  "pruebas/casos_v3/N00/salida/VALIDACION.json": {
+   "bytes": 2310,
+   "sha256": "8953de41cf0c149ec247f26abcab1f3dabe88274bffb8872af88608238266b18"
+  },
+  "pruebas/casos_v3/N01/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N01/salida/RESULTADO.json": {
+   "bytes": 5200,
+   "sha256": "d5cd69a1b22a9cd2d9b2395cebaebe1183900131252e6c61c56139a7495e52be"
+  },
+  "pruebas/casos_v3/N01/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "841e2fd0526ab54888f150fd35871383f3f84309f7fc44687bbfefd50e2922bf"
+  },
+  "pruebas/casos_v3/N01/salida/VALIDACION.json": {
+   "bytes": 2131,
+   "sha256": "f2c92c75bef3949ed6204068f81adf79f757218233e254a2927ff55bb48c58fb"
+  },
+  "pruebas/casos_v3/N02/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N02/salida/RESULTADO.json": {
+   "bytes": 5204,
+   "sha256": "ee4e464ae92b87812e046e318f599e7dc829192092dced00f069dd7df7884e7f"
+  },
+  "pruebas/casos_v3/N02/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "2afc912656a53b56e0c633cd55673f59803b1fdac9aa23f2bc38b76f5ad1557a"
+  },
+  "pruebas/casos_v3/N02/salida/VALIDACION.json": {
+   "bytes": 2044,
+   "sha256": "89a913da977adc2ce6accb4196a29cc3ffa830c7260285851b089e3f9267392a"
+  },
+  "pruebas/casos_v3/N03/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N03/salida/RESULTADO.json": {
+   "bytes": 5198,
+   "sha256": "ed973eeb925e764849d0f573acee5612405bab4932ad0ecbea946ea68037114f"
+  },
+  "pruebas/casos_v3/N03/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "a8343d68cc122d21cb0ed2854b74daa642f1cc2475c63f283b5ad086faa7f371"
+  },
+  "pruebas/casos_v3/N03/salida/VALIDACION.json": {
+   "bytes": 2025,
+   "sha256": "b31610290e81729f61c05bf807bbff210f38df5f48d2013915b3535a504e7da4"
+  },
+  "pruebas/casos_v3/N04/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N04/salida/RESULTADO.json": {
+   "bytes": 5194,
+   "sha256": "2a8d566c6e519170755079929ba1049b7e7172c4c259687424b3cb9781e4913e"
+  },
+  "pruebas/casos_v3/N04/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "5d9280974afc8f9b48c0a4f0690f267501c5bec4537e0d20d405ff943cd2e5c3"
+  },
+  "pruebas/casos_v3/N04/salida/VALIDACION.json": {
+   "bytes": 2039,
+   "sha256": "b32622309db5d674fcb90cef776f3ef3855942c06bb46c8b5d88ac9f4d781a00"
+  },
+  "pruebas/casos_v3/N05/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N05/salida/RESULTADO.json": {
+   "bytes": 5187,
+   "sha256": "36ad9ec77d43376fa3f0a593a5030f3d3d13e904a997c85aece30c0010afe78b"
+  },
+  "pruebas/casos_v3/N05/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "983ae2072fa542ecdad75a88df269a5570ee65ffb3cb63e3abbbc6d5c5903276"
+  },
+  "pruebas/casos_v3/N05/salida/VALIDACION.json": {
+   "bytes": 2090,
+   "sha256": "cb377ac0e526d84ccf9974f26fe770092fe636c6b25564d0f4f1c1c0b0efe0b4"
+  },
+  "pruebas/casos_v3/N06/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N06/salida/RESULTADO.json": {
+   "bytes": 5198,
+   "sha256": "6943f7a5e7453455e0748bc7dba3239b9bb17270aa1a4c26164e91e81efe2eb7"
+  },
+  "pruebas/casos_v3/N06/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "5036be4fc6c3ce33c3943e99a6de6e4423e17e0bceafe875833cc1520c0b4be1"
+  },
+  "pruebas/casos_v3/N06/salida/VALIDACION.json": {
+   "bytes": 2021,
+   "sha256": "6d9b467c0841061f8054e88747932a28bd71704ee0dab31b957682712ac025e7"
+  },
+  "pruebas/casos_v3/N07/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N07/salida/RESULTADO.json": {
+   "bytes": 5197,
+   "sha256": "dace6f9a37a94674158e92dadfe0956f1773310d3d7f44750156383f33620dd2"
+  },
+  "pruebas/casos_v3/N07/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "ef7adc6cba83e2e3bfac9f66f05d8291608f1e06c6bf06922f59a61e58f2ee67"
+  },
+  "pruebas/casos_v3/N07/salida/VALIDACION.json": {
+   "bytes": 2047,
+   "sha256": "6570fb535ddf299fddf2b5992050cd58e1456ea2a36d93a96c8bd8f7defb9bc5"
+  },
+  "pruebas/casos_v3/N08/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N08/salida/RESULTADO.json": {
+   "bytes": 5202,
+   "sha256": "ae5b4ba4bc443c420b9c8c614126ed0bff4ec1ee32aeb6ed8c7a5b0daef17244"
+  },
+  "pruebas/casos_v3/N08/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "05e336290d93f103b4117bffc46756574621f0eed8dced65a7b2c942f36190c4"
+  },
+  "pruebas/casos_v3/N08/salida/VALIDACION.json": {
+   "bytes": 2026,
+   "sha256": "16432e8ece2e59fff81cc79c1ee15c58a171637198341102ae671ae451bc5578"
+  },
+  "pruebas/casos_v3/N09/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N09/salida/RESULTADO.json": {
+   "bytes": 5205,
+   "sha256": "9a1027b7b583a6a325bc8f732cc90b81e3ef4ca4f3f995191b6383fb4b1a7ba9"
+  },
+  "pruebas/casos_v3/N09/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "853d48f5f61fec0922c2f5ac46716e297e95917ebd5d93e93c2564a286a6e00a"
+  },
+  "pruebas/casos_v3/N09/salida/VALIDACION.json": {
+   "bytes": 2020,
+   "sha256": "21e89bd5eab934aabc67424fd1be6aa3aa3b0113c3356c0e636e27bc5fb8361c"
+  },
+  "pruebas/casos_v3/N10/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N10/salida/RESULTADO.json": {
+   "bytes": 5198,
+   "sha256": "753a7f85449734d99f4f0e6658f82fb729f06b5b871df0055f62cf6b84590adb"
+  },
+  "pruebas/casos_v3/N10/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "31b26fd9a6bb42cd726dbf8ebb4362ebf4d590dbdbf8e9a7db27c2287573ae0d"
+  },
+  "pruebas/casos_v3/N10/salida/VALIDACION.json": {
+   "bytes": 2030,
+   "sha256": "6a1b75cce72f1fd14d0121bbd30643fa9f9e94e0fa22b14b218a31e01c3387cf"
+  },
+  "pruebas/casos_v3/N11/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N11/salida/RESULTADO.json": {
+   "bytes": 5226,
+   "sha256": "f0c823044c205f97352281643531934d8f1f73fa45a4be2b0d0b96ab83d281cb"
+  },
+  "pruebas/casos_v3/N11/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "8646fa747805ce2de4e946e062158f085bcd21f25eb56cdd45242722cfc880ac"
+  },
+  "pruebas/casos_v3/N11/salida/VALIDACION.json": {
+   "bytes": 2028,
+   "sha256": "724b11b5caac8a4f0caf4219de62730506ed591ad590297e3ce63b2b90b34761"
+  },
+  "pruebas/casos_v3/N12/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N12/salida/RESULTADO.json": {
+   "bytes": 5198,
+   "sha256": "9e1923d33b68c4e4815a200de9dd8436e71ca056e3d819198c675c9ebb49184a"
+  },
+  "pruebas/casos_v3/N12/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "b88a36e312d1a8e9f331a35ab01e518476cecd8873264ecef51eed486d627c48"
+  },
+  "pruebas/casos_v3/N12/salida/VALIDACION.json": {
+   "bytes": 2022,
+   "sha256": "0817c02807be72c03974c4fecdd5763d1b8b674884f5aace16ad28a97d3d0523"
+  },
+  "pruebas/casos_v3/N13/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N13/salida/RESULTADO.json": {
+   "bytes": 5164,
+   "sha256": "bbe9265c3427e88092c2c7bbde4e9107f28ab86f3ce38bac592b9e3673c23263"
+  },
+  "pruebas/casos_v3/N13/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "8d3b207bbaeafa7d721318c4f4fb509383bfed27b7bb2ca6ae7dc28d61f36960"
+  },
+  "pruebas/casos_v3/N13/salida/VALIDACION.json": {
+   "bytes": 1823,
+   "sha256": "1cf28b9b6612518382cddd3d1957a7b5f306d260cdf5237638f5d3666902356f"
+  },
+  "pruebas/casos_v3/N14/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N14/salida/RESULTADO.json": {
+   "bytes": 3298,
+   "sha256": "15193098f6e4e874ecdf4c60acdb98b9b681ace3dd3c53457b86f1112c034bc1"
+  },
+  "pruebas/casos_v3/N14/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "c1db46f442362119ff7276c69efb369c166a91dd375cee303db338270993033e"
+  },
+  "pruebas/casos_v3/N14/salida/VALIDACION.json": {
+   "bytes": 2024,
+   "sha256": "0df2a48cd32fad8166f113cbee442ac31f82439e3fdc8461a75403e8eb043e4a"
+  },
+  "pruebas/casos_v3/N15/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N15/salida/RESULTADO.json": {
+   "bytes": 5103,
+   "sha256": "65bbe8f1439589194d4f8093c2fc338913c95e4962cd352fecd3d1511a6ffab4"
+  },
+  "pruebas/casos_v3/N15/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "721bac8d3744e4945192d1a8fffceae08aa732619c20435823842a838dba8963"
+  },
+  "pruebas/casos_v3/N15/salida/VALIDACION.json": {
+   "bytes": 2024,
+   "sha256": "15dfa91e433fee9adf415c45d3457f577002048ab0d247529734e511b79ff5e6"
+  },
+  "pruebas/casos_v3/N16/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N16/salida/RESULTADO.json": {
+   "bytes": 5291,
+   "sha256": "8a7fc036fbb4968b8af74ac83b8b0ce6beb2030a94708300d5fa1acc5fb82415"
+  },
+  "pruebas/casos_v3/N16/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "d44db9849e5aebe3e7c1c9b19673b8c70f0cfe8f80d6204fc27280364375ac2b"
+  },
+  "pruebas/casos_v3/N16/salida/VALIDACION.json": {
+   "bytes": 2021,
+   "sha256": "4d48d3ef5cc5915075769ebcdbaaa0d66fec87371502bbe37b3a81aff54b5945"
+  },
+  "pruebas/casos_v3/N17/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N17/salida/RESULTADO.json": {
+   "bytes": 5194,
+   "sha256": "9151efc9adc7b21de735e912cb435fca6c0188185a81e95e4c28c3be39b677f1"
+  },
+  "pruebas/casos_v3/N17/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "b7998ce3181c6257cfa1cdc659adba9703485b275dd8dffb41da706ceffbf95e"
+  },
+  "pruebas/casos_v3/N17/salida/VALIDACION.json": {
+   "bytes": 2036,
+   "sha256": "3b3430a8f370fafd00324b0e20f9ee4f352a2a6ad03ce55ca4cf31ef2997c432"
+  },
+  "pruebas/casos_v3/N18/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N18/salida/RESULTADO.json": {
+   "bytes": 4675,
+   "sha256": "733b9b866801d053a0cb55b78aa8d8702e534bc7278b6502c6c4a3a2b8c3acef"
+  },
+  "pruebas/casos_v3/N18/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "fbbd9164188bae3324d8da3bc62c070c7b18f8066cd4e2b34cdf28e68ba58387"
+  },
+  "pruebas/casos_v3/N18/salida/VALIDACION.json": {
+   "bytes": 2029,
+   "sha256": "116e0471d6e2f5ad2ed9819b5d6adb627fa2da3c79045d122b81b79658ab63e8"
+  },
+  "pruebas/casos_v3/N19/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N19/salida/RESULTADO.json": {
+   "bytes": 5198,
+   "sha256": "2aac28990bee2bd26fe595e6b7782c78e809f4f2116395cc9f289cd47a080779"
+  },
+  "pruebas/casos_v3/N19/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "883747e1962a11c7c82e3a6fc2214e5429d2977f1a3ff5858b560dcfb7f30ab3"
+  },
+  "pruebas/casos_v3/N19/salida/VALIDACION.json": {
+   "bytes": 2034,
+   "sha256": "69b320c4be3769b140ef492f905399654e5c40a7068688bf9dca3dc2db0b59ac"
+  },
+  "pruebas/casos_v3/N20/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N20/salida/RESULTADO.json": {
+   "bytes": 5197,
+   "sha256": "6f5c860f73bebd48c3407e8a9572713f9fcaf0c77649ae1e387cd0c0100afe79"
+  },
+  "pruebas/casos_v3/N20/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "5fb14ee67467fe0c0bf04995221ee28585e94946cd16d01a3052ac9a7ef22913"
+  },
+  "pruebas/casos_v3/N20/salida/VALIDACION.json": {
+   "bytes": 2075,
+   "sha256": "3f8cb189ea0143c8eb9de1cf318cdd4ac941afa29c78ab498db6c57321e99508"
+  },
+  "pruebas/casos_v3/N21/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N21/salida/RESULTADO.json": {
+   "bytes": 5198,
+   "sha256": "ae0fd0648a85f64891b8cb8da7ef098a2f8a79c0ce7611bf874c12513058da3a"
+  },
+  "pruebas/casos_v3/N21/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "48e094e843956e4d955c4d796ab500590124b61f3fccc7163f82285545b637da"
+  },
+  "pruebas/casos_v3/N21/salida/VALIDACION.json": {
+   "bytes": 2071,
+   "sha256": "15edf667e7f1200d9c39136c4d7fa5304afaf5e63397634ea58cc8425c6a9253"
+  },
+  "pruebas/casos_v3/N30/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "6c26b38f2185e68b16f33289fab5603be1aa32fa5f3a8cd02e738b3c4936dc42"
+  },
+  "pruebas/casos_v3/N30/salida/RESULTADO.json": {
+   "bytes": 5198,
+   "sha256": "304fc6589f160de07b9ee1d3f793c6c202bbfd0b2030e7a169ac89bbd3ad96d4"
+  },
+  "pruebas/casos_v3/N30/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "a4275c143442721eff8691c6e918ccee3f58ba1ea9d2b9455d57c604ee7a5d2c"
+  },
+  "pruebas/casos_v3/N30/salida/VALIDACION.json": {
+   "bytes": 2022,
+   "sha256": "830b6c9b7fcb547409550466d8731c6e64b960b7104abf018958bb99bff3f6f9"
+  },
+  "pruebas/casos_v3/N31/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "1966e83b9b53667c62aa8c00422440791b41c0d5bde316efebca834359156ed7"
+  },
+  "pruebas/casos_v3/N31/salida/RESULTADO.json": {
+   "bytes": 5252,
+   "sha256": "f50d3d24475af49d954dcc087ef85ca08f2b7f6a3509ce306d8e8c7284192145"
+  },
+  "pruebas/casos_v3/N31/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "0c745578c7226c255d70a4f7c91b0a7da7ba70eedf80a76555818cde475377d9"
+  },
+  "pruebas/casos_v3/N31/salida/VALIDACION.json": {
+   "bytes": 2081,
+   "sha256": "0b98f4c7b0ab4222cbea56bdf5a1615f1fc2eb4fd6e5fa604b00ec97345e4b33"
+  },
+  "pruebas/casos_v3/N32/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "7f4fbee33ff8a5b0a4e3b301b9d451979b8b65704b86311d689173164c66cdd2"
+  },
+  "pruebas/casos_v3/N32/salida/RESULTADO.json": {
+   "bytes": 5199,
+   "sha256": "4eed705a5ea2f9d88a60630555a41c4214124c217bd7453f911eaa80ca3fa603"
+  },
+  "pruebas/casos_v3/N32/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "bb3ec43207b1e4ae94cf3dde3367439421b327c9c683a6efdce36fb36ec189c2"
+  },
+  "pruebas/casos_v3/N32/salida/VALIDACION.json": {
+   "bytes": 2041,
+   "sha256": "30096eb1d1e4a737a2500db66f3029cbec2c943c90c641588ac95b1ef3b14c03"
+  },
+  "pruebas/casos_v3/N33/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "fe0915f8bbf3d272fa046fff032c523df115c191657cc9bb67268f821a10c7d6"
+  },
+  "pruebas/casos_v3/N33/salida/RESULTADO.json": {
+   "bytes": 5226,
+   "sha256": "c49221ce9d5e694a6221d3981fffced6632d5d0ca803899c2354788910a1ed26"
+  },
+  "pruebas/casos_v3/N33/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "5f30ae2a4506c9cc70eb74bd833dbb2115de9ac2fe45e33a92cc57509ecb27ce"
+  },
+  "pruebas/casos_v3/N33/salida/VALIDACION.json": {
+   "bytes": 2028,
+   "sha256": "2b062561cdfeae3e437aaf3e040df24706d081aa87906f2dda38047a48761b0f"
+  },
+  "pruebas/casos_v3/N34/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "0017d9e31218dd6260334238c00c13bdb711297f1ccde895b6dd6afc6869126d"
+  },
+  "pruebas/casos_v3/N34/salida/RESULTADO.json": {
+   "bytes": 5197,
+   "sha256": "2a4d4b250c69c3f62708ed61adb2548025d9acc30b2bc500e36c9dc183ac732b"
+  },
+  "pruebas/casos_v3/N34/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "ed88e41ab125e2fb458ed373b97aae6606b2cfc628039c8865d67daa1a9eae16"
+  },
+  "pruebas/casos_v3/N34/salida/VALIDACION.json": {
+   "bytes": 2026,
+   "sha256": "4fc6f98c9b39eb4ef66573678075e755ee2aca1eff7c9a1c7304183ed45e55c6"
+  },
+  "pruebas/casos_v3/N40/salida/INICIO.json": {
+   "bytes": 522,
+   "sha256": "b50056449688fa08824ec822ea8e043f1f1c5c8975c3026b71155e869cb63d7f"
+  },
+  "pruebas/casos_v3/N40/salida/RESULTADO.json": {
+   "bytes": 1956,
+   "sha256": "ad9d5f86dad52002c401e90a5e2a1ed4026f867f554c94122b4d41f4e3942703"
+  },
+  "pruebas/casos_v3/N40/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "ffa2c970af13fefa325bfefce9c385d6e2ad430773b87d036af8d26ecf5299d4"
+  },
+  "pruebas/casos_v3/N40/salida/VALIDACION.json": {
+   "bytes": 1818,
+   "sha256": "5169e05f3ec5a53616c84c230e2c158d101430c8218c65091bcffde1d240000b"
+  },
+  "pruebas/casos_v3/N42/salida/INICIO.json": {
+   "bytes": 1640,
+   "sha256": "8840f45b32704789f4c0eacb4713ebae7621c73b1b15f62f0f2d2db37443cd07"
+  },
+  "pruebas/casos_v3/N42/salida/RESULTADO.json": {
+   "bytes": 5198,
+   "sha256": "3a57419cc7aac57590ea5678922273a7893e382d81d17b7b733d45967b460308"
+  },
+  "pruebas/casos_v3/N42/salida/RESULTADO.json.sha256": {
+   "bytes": 82,
+   "sha256": "48e094e843956e4d955c4d796ab500590124b61f3fccc7163f82285545b637da"
+  },
+  "pruebas/casos_v3/N42/salida/RESULTADO_2.json": {
+   "bytes": 5198,
+   "sha256": "3a57419cc7aac57590ea5678922273a7893e382d81d17b7b733d45967b460308"
+  },
+  "pruebas/casos_v3/N42/salida/VALIDACION.json": {
+   "bytes": 2012,
+   "sha256": "524f615afc60858e4b96a8583bb985901a8a801da482b840168a4ab068c0f69a"
+  },
+  "pruebas/casos_v3/pkg_A40/emitir_alcance_testigo.py": {
+   "bytes": 3287,
+   "sha256": "18ebe2994ef21b7d2306ac8f5f10d6ac55e0c28e0fc3f7ae2b0703ad6e37f22f"
+  },
+  "pruebas/casos_v3/pkg_A40/pruebas/doble_sintetico.py": {
+   "bytes": 5326,
+   "sha256": "dd6652c81465fda809fd368c90ccef2c493b6f20679db37113b1819dda120bd6"
+  },
+  "pruebas/casos_v3/pkg_A40/receta_testigo.sh": {
+   "bytes": 3329,
+   "sha256": "abd0a83ccc5e6f77f56c21b8c02caf1801b2a89d2844542ef0080240b0ff753c"
+  },
+  "pruebas/casos_v3/pkg_A40/testigo_comun.py": {
+   "bytes": 28813,
+   "sha256": "280958d77496a540d1628ed1ec2a4c764dad981b4a160e5a77521174ff012946"
+  },
+  "pruebas/casos_v3/pkg_A40/trabajador_testigo.py": {
+   "bytes": 9031,
+   "sha256": "fefa171c21f74248860a7ac984d562d21ee74a0f7b5d47a3058c40554a4741fa"
+  },
+  "pruebas/casos_v3/pkg_A40/validar_testigo.py": {
+   "bytes": 2030,
+   "sha256": "69989e41136706f995d4e24b33fbde0c8e63d98440b61d7cdc9b5b7fe5fb80fe"
+  },
+  "pruebas/casos_v3/pkg_A41/emitir_alcance_testigo.py": {
+   "bytes": 3287,
+   "sha256": "18ebe2994ef21b7d2306ac8f5f10d6ac55e0c28e0fc3f7ae2b0703ad6e37f22f"
+  },
+  "pruebas/casos_v3/pkg_A41/pruebas/doble_sintetico.py": {
+   "bytes": 5326,
+   "sha256": "dd6652c81465fda809fd368c90ccef2c493b6f20679db37113b1819dda120bd6"
+  },
+  "pruebas/casos_v3/pkg_A41/receta_testigo.sh": {
+   "bytes": 3329,
+   "sha256": "abd0a83ccc5e6f77f56c21b8c02caf1801b2a89d2844542ef0080240b0ff753c"
+  },
+  "pruebas/casos_v3/pkg_A41/testigo_comun.py": {
+   "bytes": 28741,
+   "sha256": "3f8ec27b92c9e04c6d1b5e688f38fe3663440c1e3aa54a9fd9392e6617f28b52"
+  },
+  "pruebas/casos_v3/pkg_A41/trabajador_testigo.py": {
+   "bytes": 9103,
+   "sha256": "2a32c65ab40fb5eb12c4d800a14d540a0ef95e9a4fd9c4ae55a44c8ed7554d18"
+  },
+  "pruebas/casos_v3/pkg_A41/validar_testigo.py": {
+   "bytes": 2030,
+   "sha256": "69989e41136706f995d4e24b33fbde0c8e63d98440b61d7cdc9b5b7fe5fb80fe"
+  },
+  "pruebas/casos_v3/pkg_A42/emitir_alcance_testigo.py": {
+   "bytes": 3287,
+   "sha256": "18ebe2994ef21b7d2306ac8f5f10d6ac55e0c28e0fc3f7ae2b0703ad6e37f22f"
+  },
+  "pruebas/casos_v3/pkg_A42/pruebas/doble_sintetico.py": {
+   "bytes": 5326,
+   "sha256": "dd6652c81465fda809fd368c90ccef2c493b6f20679db37113b1819dda120bd6"
+  },
+  "pruebas/casos_v3/pkg_A42/receta_testigo.sh": {
+   "bytes": 3404,
+   "sha256": "9e54a39925fb55ca88aa869d79ddabfdf9401a072e56a0bcea58321ac1cefdd1"
+  },
+  "pruebas/casos_v3/pkg_A42/testigo_comun.py": {
+   "bytes": 28741,
+   "sha256": "3f8ec27b92c9e04c6d1b5e688f38fe3663440c1e3aa54a9fd9392e6617f28b52"
+  },
+  "pruebas/casos_v3/pkg_A42/trabajador_testigo.py": {
+   "bytes": 9031,
+   "sha256": "fefa171c21f74248860a7ac984d562d21ee74a0f7b5d47a3058c40554a4741fa"
+  },
+  "pruebas/casos_v3/pkg_A42/validar_testigo.py": {
+   "bytes": 2030,
+   "sha256": "69989e41136706f995d4e24b33fbde0c8e63d98440b61d7cdc9b5b7fe5fb80fe"
+  },
+  "pruebas/casos_v3/pkg_A43/emitir_alcance_testigo.py": {
+   "bytes": 3359,
+   "sha256": "b6090d616a5ecb93e9a377fc436f35a47fe4b08846c562423ae6392c21f89e37"
+  },
+  "pruebas/casos_v3/pkg_A43/pruebas/doble_sintetico.py": {
+   "bytes": 5326,
+   "sha256": "dd6652c81465fda809fd368c90ccef2c493b6f20679db37113b1819dda120bd6"
+  },
+  "pruebas/casos_v3/pkg_A43/receta_testigo.sh": {
+   "bytes": 3329,
+   "sha256": "abd0a83ccc5e6f77f56c21b8c02caf1801b2a89d2844542ef0080240b0ff753c"
+  },
+  "pruebas/casos_v3/pkg_A43/testigo_comun.py": {
+   "bytes": 28741,
+   "sha256": "3f8ec27b92c9e04c6d1b5e688f38fe3663440c1e3aa54a9fd9392e6617f28b52"
+  },
+  "pruebas/casos_v3/pkg_A43/trabajador_testigo.py": {
+   "bytes": 9031,
+   "sha256": "fefa171c21f74248860a7ac984d562d21ee74a0f7b5d47a3058c40554a4741fa"
+  },
+  "pruebas/casos_v3/pkg_A43/validar_testigo.py": {
+   "bytes": 2030,
+   "sha256": "69989e41136706f995d4e24b33fbde0c8e63d98440b61d7cdc9b5b7fe5fb80fe"
+  },
+  "pruebas/casos_v3/pkg_A44/emitir_alcance_testigo.py": {
+   "bytes": 3287,
+   "sha256": "18ebe2994ef21b7d2306ac8f5f10d6ac55e0c28e0fc3f7ae2b0703ad6e37f22f"
+  },
+  "pruebas/casos_v3/pkg_A44/pruebas/doble_sintetico.py": {
+   "bytes": 5326,
+   "sha256": "dd6652c81465fda809fd368c90ccef2c493b6f20679db37113b1819dda120bd6"
+  },
+  "pruebas/casos_v3/pkg_A44/receta_testigo.sh": {
+   "bytes": 3329,
+   "sha256": "abd0a83ccc5e6f77f56c21b8c02caf1801b2a89d2844542ef0080240b0ff753c"
+  },
+  "pruebas/casos_v3/pkg_A44/testigo_comun.py": {
+   "bytes": 28741,
+   "sha256": "3f8ec27b92c9e04c6d1b5e688f38fe3663440c1e3aa54a9fd9392e6617f28b52"
+  },
+  "pruebas/casos_v3/pkg_A44/trabajador_testigo.py": {
+   "bytes": 9031,
+   "sha256": "fefa171c21f74248860a7ac984d562d21ee74a0f7b5d47a3058c40554a4741fa"
+  },
+  "pruebas/casos_v3/pkg_A44/validar_testigo.py": {
+   "bytes": 2102,
+   "sha256": "4ef95e604ec3db27aaaf9028191a82574af4697a416e4b8ca293bc4be6e369e1"
+  },
+  "pruebas/casos_v3/review_rem139_testigo_comun_changed.py": {
+   "bytes": 28808,
+   "sha256": "a68a137e61b2d0098371232adec6c832c2ce7500d29d823b089db3153d6919b6"
+  },
+  "pruebas/doble_sintetico.py": {
+   "bytes": 5326,
+   "sha256": "dd6652c81465fda809fd368c90ccef2c493b6f20679db37113b1819dda120bd6"
+  },
+  "pruebas/PRUEBAS_TESTIGO_v3.json": {
+   "bytes": 45219,
+   "sha256": "fa80de96aa1bd7d7d934bda046ed493cbef59607853618dbebfefef53f94cfaf"
+  },
+  "pruebas_lector_v1.py": {
+   "bytes": 27671,
+   "sha256": "f41f3dad5068ff490d054254a42c0e5ac7e68e48bf2859674f404ef74438e2e5"
+  },
+  "pruebas_testigo_v2.py": {
+   "bytes": 25408,
+   "sha256": "441017b82fa736c1260912ac5c708bf759b6ce206599e2b0ee210084e3d5be0d"
+  },
+  "pruebas_testigo_v3.py": {
+   "bytes": 37835,
+   "sha256": "0c0b16c2829190678aff57b62ed4dea97dcbf275c5b47ed3fca943f42402aab7"
+  },
+  "receta_testigo.sh": {
+   "bytes": 3329,
+   "sha256": "abd0a83ccc5e6f77f56c21b8c02caf1801b2a89d2844542ef0080240b0ff753c"
+  },
+  "testigo_comun.py": {
+   "bytes": 28741,
+   "sha256": "3f8ec27b92c9e04c6d1b5e688f38fe3663440c1e3aa54a9fd9392e6617f28b52"
+  },
+  "trabajador_testigo.py": {
+   "bytes": 9031,
+   "sha256": "fefa171c21f74248860a7ac984d562d21ee74a0f7b5d47a3058c40554a4741fa"
+  },
+  "validar_testigo.py": {
+   "bytes": 2030,
+   "sha256": "69989e41136706f995d4e24b33fbde0c8e63d98440b61d7cdc9b5b7fe5fb80fe"
+  }
+ },
+ "indice_sha256": "a30db705e0ae9cc7e63af10fa3a52d3876ccdf3b900372f061897ce1318c78a3"
+}

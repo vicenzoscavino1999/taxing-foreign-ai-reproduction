@@ -1,0 +1,27 @@
+{
+ "descripcion": "Valores fijos que en la ruta original aportaban la autoridad S6 viva y el despliegue (contexto_s6.ContextoS6, seleccion_paso4.contexto). Se comprueban por hash al cargar (contrato, D7, paquete S6 del D7). run_class es el de la ÚNICA tupla técnica S6 admitida por DR-1 (datos/paso4/dr1_tecnicas_admitidas.json, 'nuevas'); con él la configuración y el método coinciden con esa tupla. El perfil de entorno aprobado es el que declara el documento de entorno original 41b467a1… ('approved'). Contratos: contract_sha256 es la huella REAL del contrato G-NA-1 en el paquete público (copia SAN-RUTAS-v1: 4 archivos con la procedencia saneada y su manifiesto derivado); la histórica queda como referencia (contract_sha256_historico) y fam01.correspondencia_saneamiento comprueba que solo cambió la procedencia.",
+ "s6_package": "dccdfe0adb8663907f84c984b62b1da9cf6b6a31d9d691e17b00e47f4d940104",
+ "manifest_sha256": "79ed9af518385d40a5c936f1c3ab76037374afa2cc956634dc09ee93dce656e2",
+ "contract_root": "herramientas/bloque2/contratos_g_na_1/",
+ "contract_sha256": "f3dd49eb1e2f2f8f882f2ff442c1282b1b08eb50d5f331a9311db9b67dfd27c4",
+ "contract_sha256_historico": "7bde9f1549e7c3903a88b41ac1896d81bf8c5eeb1ebee7bd6e960bb5ea2286bb",
+ "d7_dir": "salidas_s6/d7",
+ "d7_tree": "2a25893b09c097b2af22ed2e5be9a4014851faf55bbaaf380c7a078f1a740591",
+ "run_class": "paso4_lote1_c1t001_s6_candidato",
+ "etiqueta": "REPRODUCCION LIMPIA FAM01 NO OFICIAL",
+ "productor": "herramientas/b/seleccion_paso4.py",
+ "entorno_aprobado": {
+  "manifest_path": "environment/sucesor_b3/integracion/environment_manifest.json",
+  "manifest_sha256": "a44e3c8e93be710e1451bcb72f0920c6a84a1bcb1ee6e4be82ebfad2f0e4b90a",
+  "lock_path": "environment/sucesor_b3/integracion/requirements.lock",
+  "lock_sha256": "942a4138192e12eb149343fbf12e1b0856591094ba0da4e28dfc97d4a1c28a2f"
+ },
+ "originales": {
+  "descripcion": "Contrato y D7 con que el comparador valida los ORIGINALES (antecedente S5 de la cadena S6): los declara el manifiesto del D7 10a0bd5b… (dependencia contrato_normativo y authority_package_sha256). contract_sha256 es la identidad histórica que declaran los originales; el comparador carga la copia pública del mismo contrato (contract_publico_sha256, SAN-RUTAS-v1) solo si su correspondencia con la histórica se comprueba.",
+  "contract_root": "fase6_planes/integracion_s4/versions/560026466c07259d759cdd435a80e37561b0226228383a5a2c1fef5d501fa4d2/contratos_enmienda/",
+  "contract_sha256": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+  "contract_publico_sha256": "8e44cfa738e844e11edc76984a7daa205626ddf37a983c4aaba2bb9519c100c2",
+  "d7_tree": "10a0bd5bb8ea48d54d1bd0916b072afcf8cd5a4eed9c5ec16a90a728f021b739",
+  "s5_package": "93c625a40772f3d278183cd738f454cc47345c1a52e71dc9f47342352d2aba09"
+ }
+}

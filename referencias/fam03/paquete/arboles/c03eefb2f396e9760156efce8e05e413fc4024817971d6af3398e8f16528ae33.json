@@ -1,0 +1,34 @@
+{
+ "kind": "manifiesto-arbol-rem191",
+ "tarea": "PROD1-T003",
+ "familia": "PROD1",
+ "tree_sha256": "c03eefb2f396e9760156efce8e05e413fc4024817971d6af3398e8f16528ae33",
+ "formula": "sha256(canon({rel: sha256}))",
+ "aceptacion": "libro rem105 (accepted_review review_20261027_rem95_dictamen.txt)",
+ "archivos": {
+  "dictamen_validacion.json": {
+   "sha256": "b4d71795c78a04b65934478a74d669dc5e4bbb933c88174c95dd65b204a4288b",
+   "bytes": 446,
+   "objeto": "objetos/b4d71795c78a04b65934478a74d669dc5e4bbb933c88174c95dd65b204a4288b/dictamen_validacion.json",
+   "tipo": "copia_exacta"
+  },
+  "registro_productivo.json": {
+   "sha256": "f5ad7110cca021f5588fd526bb40d6110cd47010c5ef4578acbb823a0288c3b1",
+   "bytes": 1722,
+   "objeto": "proyecciones/dff84781f521f00219381fa25afaa7c770f0853adf378559afb21fd31f1b564d/registro_productivo.json",
+   "tipo": "proyeccion"
+  },
+  "unidades/PROD1_PREG-COMPARACION-E1_historical_anchor_ci_MEX_f_conditional_full_G_addback_completo_macro_guardrail_deuda_rho_inferior.json": {
+   "sha256": "f48ad62d4f455bedeeb3fac909b4dc95498ebbca2eab045ba19dbed4d77e473b",
+   "bytes": 4011,
+   "objeto": "objetos/f48ad62d4f455bedeeb3fac909b4dc95498ebbca2eab045ba19dbed4d77e473b/PROD1_PREG-COMPARACION-E1_historical_anchor_ci_MEX_f_conditional_full_G_addback_completo_macro_guardrail_deuda_rho_inferior.json",
+   "tipo": "copia_exacta"
+  },
+  "unidades/PROD1_PREG-COMPARACION-E1_historical_anchor_ci_MEX_f_conditional_full_G_addback_completo_macro_guardrail_deuda_rho_inferior_filas.json": {
+   "sha256": "7061fb724fa46f35fc0693e2c48a1d120a9525ae969843f83aca897e4c09d937",
+   "bytes": 2413,
+   "objeto": "objetos/7061fb724fa46f35fc0693e2c48a1d120a9525ae969843f83aca897e4c09d937/PROD1_PREG-COMPARACION-E1_historical_anchor_ci_MEX_f_conditional_full_G_addback_completo_macro_guardrail_deuda_rho_inferior_filas.json",
+   "tipo": "copia_exacta"
+  }
+ }
+}

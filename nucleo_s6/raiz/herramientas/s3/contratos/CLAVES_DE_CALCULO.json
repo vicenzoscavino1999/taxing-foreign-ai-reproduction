@@ -1,0 +1,266 @@
+{
+  "status": "BORRADOR NO APROBADO",
+  "version": "key-contract-2",
+  "hash": "SHA256(UTF8(JSON sorted_keys=true,ensure_ascii=false,separators=(comma,colon),allow_nan=false)); sin LF ni BOM en preimagen; hexadecimal minúscula",
+  "normalization": {
+    "decimal": "Entrada decimal exacta o shortest-roundtrip del cálculo autenticado; convertir a decimal finito y formato fijo sin ceros finales ni punto vacío; -0=>0; 1,1.0,1e0=>cadena 1. No redondear.",
+    "text": "ASCII para IDs/unidades/roles y rutas POSIX; ningún espacio o Unicode ambiguo; textos libres no entran a claves",
+    "objects": "campos exactos, todos obligatorios y sin nulos salvo especificación explícita; claves orden ASCII recursivo; bool JSON nativo",
+    "arrays": "filas valores orden parameter_id ASCII, IDs únicos; dependencias orden role ASCII; resto según lista fija",
+    "paths": "rutas de dependencias relativas a raíz original autenticada del proyecto, sin .. ni backslash. Inventario normativo usa UNA base distinta declarada: raíz de esta entrega. No se mezclan ambos espacios."
+  },
+  "common_primitive_ids": [
+    "a",
+    "bar_tau_d",
+    "bar_tau_f",
+    "beta_tilde",
+    "c_legal",
+    "eta_H",
+    "eta_d",
+    "eta_f",
+    "eta_w",
+    "gain_share",
+    "gamma",
+    "kappa_tilde",
+    "phi",
+    "pi_iva",
+    "pi_otros_productos",
+    "pi_produccion",
+    "rho",
+    "t",
+    "u_theta",
+    "z_cost",
+    "z_m"
+  ],
+  "structural_primitive_ids": [
+    "a",
+    "beta_tilde",
+    "c_legal",
+    "eta_d",
+    "eta_f",
+    "gamma",
+    "kappa_tilde",
+    "phi",
+    "rho",
+    "t",
+    "u_theta",
+    "z_cost",
+    "z_m"
+  ],
+  "macro_primitive_ids": [
+    "a",
+    "eta_H",
+    "eta_w",
+    "kappa_tilde",
+    "pi_iva",
+    "pi_otros_productos",
+    "pi_produccion",
+    "rho"
+  ],
+  "common_derived_ids": [
+    "B_pot",
+    "beta",
+    "delta",
+    "delta_tilde",
+    "kappa0",
+    "q_pot",
+    "theta"
+  ],
+  "schemas": {
+    "common_values": {
+      "fields": {
+        "kind": "literal:common-values-v2",
+        "values": "value_rows"
+      },
+      "rules": [
+        "exact common_primitive_ids; no datos nacionales,derivados,resultados,tasas optimizadas ni hashes de código"
+      ]
+    },
+    "omega_identity": {
+      "fields": {
+        "kind": "literal:omega-identity-v2",
+        "support_set_id": "atom",
+        "scenario_id": "id",
+        "primitive_values_sha256": "sha"
+      },
+      "rules": [
+        "omega_id=OMG:+H(payload); primitive_values_sha256=H(common_values); contexto de declaración distingue sets/escenarios"
+      ]
+    },
+    "structural": {
+      "fields": {
+        "kind": "literal:structural-v2",
+        "values": "value_rows",
+        "design_v": "design",
+        "instrument_j": "instrument",
+        "tau_domain": "tau_domain",
+        "theory_sha256": "sha",
+        "technical": "technical"
+      },
+      "rules": [
+        "values exact structural_primitive_ids",
+        "tau_domain límites efectivos del menú; d fija f=0,f fija d=0; las otras tasas usan sus topes; no país/omega_id/snapshot; no se elimina la comprobación D4 al consumir",
+        "code/method/tolerances/configuration/environment/contract changes invalidate; documentos nacionales no entran"
+      ]
+    },
+    "point": {
+      "fields": {
+        "kind": "literal:point-v2",
+        "structural_key_sha256": "sha",
+        "tau_d": "canonical_decimal",
+        "tau_f": "canonical_decimal",
+        "side": "side",
+        "branch_id": "id"
+      },
+      "rules": [
+        "tasas/lado/rama validados en el dominio y contexto estructural"
+      ]
+    },
+    "national_state": {
+      "fields": {
+        "kind": "literal:national-state-v2",
+        "primitive_values": "value_rows",
+        "shares": "national_shares",
+        "joint_domain_sha256": "sha"
+      },
+      "rules": [
+        "primitivas fuente completas identificadas en D2/D6, incluidas denominadores comunes; cada share se reproduce de ellas con precisión y correlación documentadas",
+        "joint_domain_sha256 coincide con artifact_sha256 del role joint_domain"
+      ]
+    },
+    "macro": {
+      "fields": {
+        "kind": "literal:macro-v2",
+        "country_id": "country",
+        "eta_w_block": "block",
+        "values": "value_rows",
+        "national_state": "national_state",
+        "national_dependencies": "national_dependencies",
+        "protocol_sha256": "sha",
+        "technical": "technical"
+      },
+      "rules": [
+        "values exact macro_primitive_ids",
+        "exactamente roles d2_snapshot,d6_snapshot,precision,joint_domain; cada manifest autentica archivo,PK y país; no deducir fuente de nombre del archivo",
+        "cada columna de lambda con input común/nacional coincide con su payload; national_state hash se conserva en lambda y cell",
+        "sin structural_key ni C2: macro depende de a/rho/kappa y coordenadas laborales/tributarias, no del techo; mismo omega puede tener cuatro contextos nacionales"
+      ]
+    },
+    "external": {
+      "fields": {
+        "kind": "literal:external-v2",
+        "macro_key_sha256": "sha",
+        "external_dependency": "dependency",
+        "external_cell_id": "id",
+        "crosswalk_sha256": "sha",
+        "policy_variant_id": "id",
+        "regime_id": "id",
+        "requirement_basis": "text",
+        "xi": "canonical_decimal",
+        "layer": "text",
+        "bound_variant": "text",
+        "gain_share": "canonical_decimal",
+        "DME_gAI": "canonical_decimal",
+        "technical": "technical"
+      },
+      "rules": [
+        "registra cada valor consumido de la celda; Ffix dentro de Q una vez; no método diferente al vigente"
+      ]
+    },
+    "confrontation": {
+      "fields": {
+        "kind": "literal:confrontation-v2",
+        "run_id": "id",
+        "omega_id": "id",
+        "country_id": "country",
+        "eta_w_block": "block",
+        "design_v": "design",
+        "instrument_j": "instrument",
+        "availability_case_id": "id",
+        "availability_matrix_hash": "sha",
+        "structural_key_sha256": "sha",
+        "macro_key_sha256": "sha",
+        "external_key_sha256": "sha",
+        "technical": "technical"
+      },
+      "rules": [
+        "referencias resueltas y compatibles antes de H; no unir claves de países/omegas distintos"
+      ]
+    }
+  },
+  "shapes": {
+    "value_rows": {
+      "items": {
+        "parameter_id": "atom",
+        "value": "canonical_decimal",
+        "value_unit": "text"
+      },
+      "order": "parameter_id",
+      "unique": "parameter_id"
+    },
+    "dependency": {
+      "fields": {
+        "role": "text",
+        "manifest_path": "project_relative_path",
+        "manifest_sha256": "sha",
+        "artifact_path": "project_relative_path",
+        "artifact_sha256": "sha",
+        "record_pk": "typed_pk_object"
+      }
+    },
+    "national_dependencies": {
+      "items": {
+        "role": "text",
+        "manifest_path": "project_relative_path",
+        "manifest_sha256": "sha",
+        "artifact_path": "project_relative_path",
+        "artifact_sha256": "sha",
+        "record_pk": "typed_pk_object"
+      },
+      "roles": [
+        "d2_snapshot",
+        "d6_snapshot",
+        "precision",
+        "joint_domain"
+      ],
+      "order": "role",
+      "unique": "role"
+    },
+    "technical": {
+      "fields": {
+        "contract_sha256": "sha",
+        "code_sha256": "sha",
+        "method_sha256": "sha",
+        "tolerances_sha256": "sha",
+        "configuration_sha256": "sha",
+        "environment_sha256": "sha"
+      },
+      "resolution": "Cada hash resuelve por role homónimo en dependencias del run_manifest/family_manifest fijado: contract a contract_manifest; code/method/tolerances/configuration/environment a artefactos de ese tipo. Verificar bytes,autoridad y scope. No se aceptan seis cadenas sin objetos autenticados."
+    },
+    "tau_domain": {
+      "fields": {
+        "tau_d_lower": "canonical_decimal",
+        "tau_d_upper": "canonical_decimal",
+        "tau_f_lower": "canonical_decimal",
+        "tau_f_upper": "canonical_decimal",
+        "tau_d_lower_closed": "bool",
+        "tau_d_upper_closed": "bool",
+        "tau_f_lower_closed": "bool",
+        "tau_f_upper_closed": "bool"
+      }
+    },
+    "national_shares": {
+      "fields": {
+        "s_L_bar": "canonical_decimal",
+        "s_bar_iva": "canonical_decimal",
+        "s_bar_otros_productos": "canonical_decimal",
+        "s_bar_produccion": "canonical_decimal"
+      }
+    },
+    "typed_pk_object": {
+      "rule": "exact PK del archivo referido, tipos de su contrato, null prohibido; enteros JSON,IDs ASCII,decimales canónicos"
+    }
+  },
+  "cache_vs_authority": "Igualdad de clave permite reutilizar un objeto numérico, no autoriza su publicación. Autoridades nacionales/jurídicas se validan por contexto aunque no entren al cálculo estructural; no invalidar identidad común para ocultar una dependencia nacional.",
+  "no_hash_cycles": "Claves de cálculo incluyen contract_sha256 futuro. El manifiesto contiene las ESPECIFICACIONES de claves, no instancias ni valores de claves que dependan de ese manifiesto. No se incluye resultados/logs/tests con hash concreto en contract_manifest."
+}

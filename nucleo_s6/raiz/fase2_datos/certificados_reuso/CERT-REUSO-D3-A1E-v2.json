@@ -1,0 +1,167 @@
+{
+  "active_tree_sha256": "6e2ac8eb42f85ca36bffcdaebab3a7762c10cc42457b7874b5537e98f69b2236",
+  "authority": {
+    "author_authorization_sha256": "b29ec1b186ef972d4cca9883ee50e62fe0230289fd47e6c0ca6bc7af74ceb7b2",
+    "compatibility_basis": "las ediciones A1-E v2/D-02/D-03 no tocan reglas de D3-D5 (R09) y sus insumos fijados siguen intactos (R04-R06)",
+    "new_authority": "paquete S3 emitido (planes y contratos sucesores aprobados por el autor; A-03)",
+    "new_authority_manifest_sha256": "0cc606177b865ec58d5bee1a68fb6143dae7a9be4a3cde5c95eb8df54b103ddc",
+    "new_authority_sha256": "8aaa27cf12dfe435512ccd60245cc1ed4c70dbf28421eee5aec7c38814fab7b9",
+    "pinned_plans": {
+      "fase6_planes/PLAN_BASE_DE_DATOS_v4_1_24.md": {
+        "current_sha256": "2c8ec1c0ae25f026cefcd137896385460b077e06cfb949258357984aa924b284",
+        "exists": true,
+        "pinned_sha256": null
+      },
+      "fase6_planes/PLAN_DISENO_v2_2_27.md": {
+        "current_sha256": "216f0a55cffb19d3cea3fcb68a7180cdd020013b81afbf63b65470415e300b6f",
+        "exists": true,
+        "pinned_sha256": null
+      },
+      "fase6_planes/PLAN_REPRODUCCION_v2_3_24.md": {
+        "current_sha256": "b64a44d8773baae48e8ca237e09c3c3ca08b6d07e821697a8da1bde5f07cf576",
+        "exists": true,
+        "pinned_sha256": null
+      }
+    }
+  },
+  "certificate_id": "CERT-REUSO-D3-A1E-v2",
+  "checks": [
+    {
+      "detail": "5 archivos verificados contra los hashes del d3_phase_report",
+      "id": "R01_files_match_manifest",
+      "result": true
+    },
+    {
+      "detail": "constructor fase2_datos/d3_universo/construir_d3.py: rutas D2/D6 referidas = ninguna",
+      "id": "R02_builder_reads_no_D2_D6",
+      "result": true
+    },
+    {
+      "detail": "columnas numéricas con conceptos de cuentas nacionales o impuestos: ninguna; etiquetas categóricas: ninguna",
+      "id": "R03_product_has_no_D2_D6_values",
+      "result": true
+    },
+    {
+      "detail": "los planes fijados por el producto existen y conservan su hash (autoridad histórica intacta)",
+      "id": "R04_pinned_plans_unchanged",
+      "result": true
+    },
+    {
+      "detail": "manifiesto de adquisición b2caad587d20… igual al fijado",
+      "id": "R05_acquisition_manifest_unchanged",
+      "result": true
+    },
+    {
+      "detail": "árboles aguas arriba fijados = activos: sin dependencias de producto",
+      "id": "R06_upstream_trees_current",
+      "result": true
+    },
+    {
+      "detail": "D3 compara el hash del protocolo v1.2.7 (que incrusta valores D2) con el manifiesto congelado; no lee sus números: dependencia de autoridad, no numérica",
+      "id": "R07_protocol_is_authority_pin_only",
+      "result": true
+    },
+    {
+      "detail": "filas por país {'CHL': 26, 'COL': 26, 'MEX': 26, 'PER': 26}; filas sin un único país clave: ninguna; filas con clave de un país que citan una fuente multipaís: 0",
+      "id": "R08_rows_indexed_by_single_country",
+      "result": true
+    },
+    {
+      "detail": "d3_phase_report.expected_gate_rows=12 = filas de d3_gate_report.csv por país {'CHL': 3, 'COL': 3, 'MEX': 3, 'PER': 3}: la completitud de un caso se deriva de sus miembros; el resumen describe el dominio de cuatro países",
+      "id": "R10_domain_summary_is_sum_of_country_rows",
+      "result": true
+    },
+    {
+      "detail": "ninguna de las ediciones A1-E v2/D-02/D-03 modifica reglas de D3, D4 o D5",
+      "id": "R09_A1E_edits_do_not_touch_D3_D5_rules",
+      "result": true
+    }
+  ],
+  "classification": "reutilizable_sin_cambio_numerico_con_compatibilidad_de_autoridad",
+  "consequence_A1E": "ninguna sobre los bytes; filas por país independientes (R08): no hay agregados de cuatro países que recalcular",
+  "consequence_D02_net_route_PER": "ninguna: D3-D5 no consumen componentes tributarios D6",
+  "consumer_adaptations": [
+    {
+      "action": "COUNTRIES fijo de cuatro países -> miembros del caso preregistrado; gate ==12 -> 3x|country_set|; pin del manifiesto D2 legado -> versión D2 candidata sucesora; representación neta PER (D-02) y recibos CA2-2X-PRECISION-2; D3-D5 se consumen solo como pines de autoridad/inmutabilidad",
+      "classification": "requiere_adaptacion_y_recalculo_de_D6 (no de D3-D5)",
+      "consumer": "herramientas/d6/construir_d6.py",
+      "four_country_constant": true,
+      "implemented_by": "herramientas/d6/construir_d6_v2.py (versión nueva; v1 intacta)",
+      "pins_legacy_D2_manifest": true,
+      "reads_products": [
+        "D3",
+        "D4",
+        "D5"
+      ],
+      "twelve_row_gate": true
+    },
+    {
+      "action": "indexa punteros D3-D5 y la documentación dependiente: actualizar la autoridad (planes sucesores aprobados) sin tocar los productos",
+      "classification": "requiere_adaptacion_de_metadatos",
+      "consumer": "herramientas/dependent_documentation/dependent_documentation_v2.py",
+      "four_country_constant": false,
+      "implemented_by": "herramientas/dependent_documentation/dependent_documentation_v3.py (versión nueva; v2 intacta)",
+      "pins_legacy_D2_manifest": false,
+      "reads_products": [
+        "D3",
+        "D4",
+        "D5"
+      ],
+      "twelve_row_gate": false
+    }
+  ],
+  "country_scope": {
+    "consumption_rule": "los consumidores seleccionan los miembros de cada caso preregistrado; las filas de CHL se conservan sin consumirse",
+    "domain_kept": true,
+    "not_consumed_this_version": [
+      "CHL"
+    ],
+    "rows_per_country": {
+      "CHL": 26,
+      "COL": 26,
+      "MEX": 26,
+      "PER": 26
+    }
+  },
+  "issuance": {
+    "approval": "A-05",
+    "candidate_certificate_id": "CERT-REUSO-D3-A1E-v2-CANDIDATO",
+    "candidate_certificate_sha256": "1d76605ed98352606f2ad249e37acaab5813698c7f5652d589d19f96ac8473dd",
+    "data_and_previous_versions_untouched": true,
+    "issued_at": "2026-09-28T21:35:47.668227+00:00",
+    "issued_by": "agente ejecutor por la aprobación A-05 del autor; no es firma",
+    "reinspection": {
+      "files": {
+        "crosswalk_evidence.csv": "2f84669b8f7399508f35eacc21a4d0f625a594e2de20cad84b04db52b309af83",
+        "d3_gate_checks.csv": "02c5117c27188e7168fee36d32daf0f32e74d11d9233fd19542187030c088d4b",
+        "d3_gate_evidence.csv": "c76f4900daa55a2299b6cef75a6a2a7c9c7db25a96f55554f28483b18992c0a0",
+        "d3_gate_report.csv": "cfde26b853369c84417f2035eaf7f097f3a68d76ca0554efe90faa6fab4c23d7",
+        "d3_phase_report.csv": "83b7e473cee05bf802a6a5c41a6cbf35fa068201332f65f6a8594393da85688b",
+        "derivation_manifests_index.json": "2affd40089fc71588ad86fb3dc0077c9eb7e7506b57b0b62908239a3a3cfd380",
+        "firm_universe.csv": "f68542c1dab0a7b496d0aec00e4f8501ef64d914bdc0d10990cbb22f75d13192",
+        "size_distribution.csv": "a121c6ff4d62944af678df3cdca9fbc91ce92bdccfc3de2411e3ff92ac54f553",
+        "universe_crosswalk.csv": "03c4c4f8bfd83af3d6f71dbb1d4cf5087f3287ea42d219e0f535b126a65462fc"
+      },
+      "immutable_trees": [
+        "a9597ab0e1cee95beb22a8346a42ae58d0af7f0e1d6937be83a7c68563282c3b",
+        "6e2ac8eb42f85ca36bffcdaebab3a7762c10cc42457b7874b5537e98f69b2236"
+      ],
+      "matches_candidate": true
+    }
+  },
+  "issued": true,
+  "numeric_dependency_on_D2_D6": {
+    "direct": false,
+    "evidence": [
+      "R02_builder_reads_no_D2_D6",
+      "R03_product_has_no_D2_D6_values",
+      "R06_upstream_trees_current",
+      "R07_protocol_is_authority_pin_only"
+    ],
+    "transitive": false
+  },
+  "pointer_sha256": "e4efba38080774355727fe81e1afa8b1b79da65929346f9ee8532d4791bd4dac",
+  "product": "D3",
+  "signature": null,
+  "status": "issued"
+}

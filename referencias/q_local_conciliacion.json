@@ -1,0 +1,63 @@
+{
+  "aceptada": true,
+  "categorias_originales_intactas": true,
+  "conciliacion_sha256_aceptado": "38f99a45561574e2a6cb2fb31ebc9315dd56659d706d3a142200a0bc2f87a9f2",
+  "dictamen": "conciliada",
+  "diferencias_contrato_vs_conservadora": [],
+  "lectura": "las categorías originales no cambian (incluidas las 16 robustas); el canal i5 en m es una lectura diagnóstica del contraste",
+  "m": "1/2",
+  "tareas": {
+    "Q-MAT-CONSERVADORA": {
+      "conteos": {
+        "inconclusa": {
+          "afirmaciones": 1712,
+          "canal": {
+            "inconclusa_preservada": 1712
+          },
+          "region": {
+            "ambos": 1712,
+            "ninguno": 0,
+            "uno": 0
+          }
+        },
+        "robusta": {
+          "afirmaciones": 16,
+          "canal": {
+            "robustez_refutada_por_testigo_sup": 16
+          },
+          "region": {
+            "ambos": 16,
+            "ninguno": 0,
+            "uno": 0
+          }
+        }
+      }
+    },
+    "Q-MAT-CONTRATO": {
+      "conteos": {
+        "inconclusa": {
+          "afirmaciones": 1712,
+          "canal": {
+            "inconclusa_preservada": 1712
+          },
+          "region": {
+            "ambos": 1712,
+            "ninguno": 0,
+            "uno": 0
+          }
+        },
+        "robusta": {
+          "afirmaciones": 16,
+          "canal": {
+            "robustez_refutada_por_testigo_sup": 16
+          },
+          "region": {
+            "ambos": 16,
+            "ninguno": 0,
+            "uno": 0
+          }
+        }
+      }
+    }
+  }
+}

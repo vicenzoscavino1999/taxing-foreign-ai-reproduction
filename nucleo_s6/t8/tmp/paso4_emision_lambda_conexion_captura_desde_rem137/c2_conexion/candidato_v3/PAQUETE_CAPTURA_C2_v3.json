@@ -1,0 +1,61 @@
+{
+ "datos": {
+  "MANIFIESTO_CAPTURA-ENSAYO.json": {
+   "bytes": 3042,
+   "sha256": "03150b0dbd5ab943972454de695f7358f3057d32c428d9c67386b482b46a6d94"
+  },
+  "MANIFIESTO_CAPTURA.json": {
+   "bytes": 3175,
+   "sha256": "952c6512db0bcf81cca0c53a15342f444262405cb66cfad8f85a5c898d77aba7"
+  },
+  "PRUEBAS_FILA_v3.json": {
+   "bytes": 4104396,
+   "sha256": "690dfef933447410fd9653201ec92631cb7af52a6364db4b70606833e8be5efa"
+  }
+ },
+ "deriva_de": {
+  "admision_integracion": "7304ac8be5e2d2c33fd16ccf79611285aba2baf4ebd089ba73f33679363603c9",
+  "certificacion_v2": "7f15b5b60e5bc6da084e8404b2bc7621dba6427d8622e5573b8574df9635ce17",
+  "entrega_rem136": {
+   "ruta": "tmp/paso4_procedencia_cota_desde_rem136/audit/entrega.json",
+   "sha256": "16a2e53e21ba1d3615616bc598ea281ec078f55a5bd97b96a4ae9746934a4087"
+  },
+  "fuentes_v2": "d9572f12f6aa6e2c66e4c999c03ba4186c6a764cd11e72357296986dfd4b7426",
+  "nucleo_emision_lambda_patron": "4fd9d680247c6d9d464698e78c545580f357623a3c0ee88ada69f875682cffdb",
+  "receta_emision_lambda": "55cc9c749c8ce0409004bc7481bd76aaa5e202a0449f0bfe52057258103d8363"
+ },
+ "kind": "paquete-captura-c2-v3",
+ "nota": "candidato aislado; la autenticación de la puerta cubre las siete piezas; los datos se fijan por el manifiesto",
+ "piezas": {
+  "FUENTES_CAPTURA.json": {
+   "bytes": 11146,
+   "sha256": "77d9a10b409416a0f148ff665584c20e4a8f8d997862e4b79cc7f8b5f1c506e1"
+  },
+  "admision_integracion.py": {
+   "bytes": 6979,
+   "sha256": "7304ac8be5e2d2c33fd16ccf79611285aba2baf4ebd089ba73f33679363603c9"
+  },
+  "certificacion_fila.py": {
+   "bytes": 26346,
+   "sha256": "4741b4ea3b72fc2f754cc2d8c79dd9dd718f8e37205bf3e4ee5c0c539be60f4b"
+  },
+  "conexion_captura.py": {
+   "bytes": 20862,
+   "sha256": "f7a8d23f5d2558843f4620052b49d20250cf23c67ac8a02d54ea57db1c05dba7"
+  },
+  "materializar_captura.py": {
+   "bytes": 3064,
+   "sha256": "8ef790ffccbc4b8875f29f986fcca36c8d184ef7b1d6066fe696387236786263"
+  },
+  "receta_captura.sh": {
+   "bytes": 3382,
+   "sha256": "5e30fe8ab7a28ce3abdf92926ab0c86993b4c1ea7c880d07a5aada9cafa90894"
+  },
+  "verificar_captura.py": {
+   "bytes": 2303,
+   "sha256": "18d6872a13527aa590406db33d9e6e901fb8e9596b301d1a60f09d14051c6860"
+  }
+ },
+ "produccion_habilitada": false,
+ "productivo": false
+}

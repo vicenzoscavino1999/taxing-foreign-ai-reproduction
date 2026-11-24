@@ -1,0 +1,174 @@
+{
+ "kind": "manifiesto-integracion-enf-rem129",
+ "estado": "CANDIDATO_NO_EMITIDO",
+ "descripcion": "Integración final del contraste ABL-ENF (eta_f/2): autenticación, recuperación de T1, validación, resolución de la clave del salto y derivación del ensamblado y la conciliación integrales a partir de resultados ya calculados; sin techos ni mallas nuevos",
+ "nucleo": {
+  "ruta": "tmp/paso4_raices_impacto_desde_rem116/candidato_c0/instalacion",
+  "identidad": "d0bf5cd6e413ae4dcdd18eafb0bf7269cac22a487b4d46cb6b1737b5e5c971ae"
+ },
+ "paquete_historico_techos": {
+  "indice": {
+   "ruta": "tmp/paso4_enforcement_desde_rem125/lote_enf/PAQUETE_ABL_ENF.json",
+   "sha256": "039c85beb88e5912867ef8ebadcf47995cc8f9a99a5fd92e20bc072a7abda57c"
+  },
+  "manifiesto": {
+   "ruta": "tmp/paso4_enforcement_desde_rem125/lote_enf/MANIFIESTO_ABL_ENF.json",
+   "sha256": "0b27b32abdfb4eaf0db11427a8a8bb93c7d4014c6c7acd1bdbfbe6e32d28b3ad"
+  },
+  "cobertura": {
+   "ruta": "tmp/paso4_enforcement_desde_rem125/lote_enf/COBERTURA_ABL_ENF.json",
+   "sha256": "b7b2616c4f89f15d5469ad460e71697af910a6a0c2a2a60390b6a0fe367772d9"
+  }
+ },
+ "t1": {
+  "tarea": "ABL-ENF-T1",
+  "directorio": "tmp/paso4_enforcement_completo_desde_rem127/enf_REM127_ENF_COMPLETO_TECHOS/ABL-ENF-T1",
+  "resultado_sha256": "0e1900aa5b4e0a6dcba4080a50d2587ba20cc5c3b93a1196b65eb13544064c68",
+  "alcance_origen_sha256": "5c64a6da4d9182f03e1739cf3ff006b14b23787db5b1076cf349df66f1be58cc",
+  "productos": {
+   "enf_techos.jsonl": "ee76629337035a5c9179917b1dc3c076fe1ffb60accb358aa7e3d5393026ee74",
+   "enf_comparacion.jsonl": "69c2a48a213b50eb682c25796dc777f84aab0fd4f019016fb1d4a4a0d4d574fa"
+  }
+ },
+ "tareas_completas": [
+  {
+   "tarea": "ABL-ENF-T2",
+   "directorio": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T2",
+   "resultado_sha256": "c1a4db0277a323de09675b01de5798b3beb07e8cd9e924785805816e3130227c",
+   "alcance_origen_sha256": "5c64a6da4d9182f03e1739cf3ff006b14b23787db5b1076cf349df66f1be58cc",
+   "productos": {
+    "enf_techos.jsonl": "263ecb9ce3781bc555bdab174067c10293b55c68a703704283bcb128ae454204",
+    "enf_comparacion.jsonl": "d92e85ce117a9543b94ed1b5b96f16158470622d4a3bcf232c24eb606d84c224"
+   }
+  },
+  {
+   "tarea": "ABL-ENF-T3",
+   "directorio": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T3",
+   "resultado_sha256": "63f0d2820a6d645cd3f1c56ea677311a5d49deeedc1d86487db6b56959a2a97d",
+   "alcance_origen_sha256": "5c64a6da4d9182f03e1739cf3ff006b14b23787db5b1076cf349df66f1be58cc",
+   "productos": {
+    "enf_techos.jsonl": "7e106a4efa638ba63acfc6c540070a12bea09772f2667dd4bbac8c7a7d92685c",
+    "enf_comparacion.jsonl": "07e1e6a5d2712c9cd85852ebcbba5f56d8fae9cf308485f5c7df9511391585eb"
+   }
+  },
+  {
+   "tarea": "ABL-ENF-T4",
+   "directorio": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T4",
+   "resultado_sha256": "e087d50f48bf81d0a1904a807f90e9ac6ea114862793bb69ce1d293b6d61e07e",
+   "alcance_origen_sha256": "5c64a6da4d9182f03e1739cf3ff006b14b23787db5b1076cf349df66f1be58cc",
+   "productos": {
+    "enf_techos.jsonl": "af2bc95723263f8a2656d86cd288b0dfa2ecc004ce4dfbe8fa72289111343a24",
+    "enf_comparacion.jsonl": "4cf6f739a7dc11e10d55e15157db0ecb9f017a4c30009406c266b8e91a0d14fc"
+   }
+  },
+  {
+   "tarea": "ABL-ENF-T5",
+   "directorio": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T5",
+   "resultado_sha256": "d350770f2eed742ed5c94cc300ca05d5a5f274ac1ee2167464f9a6cc69bc1cc0",
+   "alcance_origen_sha256": "5c64a6da4d9182f03e1739cf3ff006b14b23787db5b1076cf349df66f1be58cc",
+   "productos": {
+    "enf_techos.jsonl": "d1310475f6fb2dbda3803ab9b14eba89c3e1fecf89272bd94d3dd06b4e18d2b5",
+    "enf_comparacion.jsonl": "5847b186d235100f440d1775b9d8b9f7d21da148ef058256cfa94898f84ff445"
+   }
+  },
+  {
+   "tarea": "ABL-ENF-T6",
+   "directorio": "tmp/paso4_enf_continuacion_salto_desde_rem128/enf_REM128_T2_T6/ABL-ENF-T6",
+   "resultado_sha256": "bb4c9a9f4d0974581777adf2c60ced943335c3e23fcd07302e7f8577f031e121",
+   "alcance_origen_sha256": "5c64a6da4d9182f03e1739cf3ff006b14b23787db5b1076cf349df66f1be58cc",
+   "productos": {
+    "enf_techos.jsonl": "a067e6b2de6e28958323084ded12e981787ccab263fc3da209848ad0fb9aa801",
+    "enf_comparacion.jsonl": "a45fcf8f18e142f5a0f15492782ba01ab20024a02ff11ef30928f743deeff0bc"
+   }
+  }
+ ],
+ "resolucion": {
+  "clave": "d59edf8a9d1461d1",
+  "clave_completa_sha256": "d59edf8a9d1461d135ecb84f7cf0fbf1a332ea182ad1acde96113702f4a8d40e",
+  "certificado": {
+   "ruta": "tmp/paso4_enf_continuacion_salto_desde_rem128/diagnostico/CERTIFICADO_d59edf8a_I2.json",
+   "sha256": "cc1aa49abf64585dd500838d1120d02c938a571f4be6fe159e3ab42fc697daaa"
+  },
+  "regla": "supremo no alcanzado demostrado (G, rho = 1, S13, caja cerrada [0; 0,6]^2); aceptación rem129 limitada a esta clave exacta"
+ },
+ "mallas": {
+  "manifiesto": {
+   "ruta": "tmp/paso4_mallas_enforcement_desde_rem126/mallas_enf/MANIFIESTO_MALLAS_ENF.json",
+   "sha256": "8ae8f1ca1d23bcb6fb5e9ac3eff3cbc7b2495f9fb2d40b22f583157ecd67e224"
+  },
+  "cobertura": {
+   "ruta": "tmp/paso4_mallas_enforcement_desde_rem126/mallas_enf/COBERTURA_MALLAS_ENF.json",
+   "sha256": "a39438a13a2b4f479f60e73eb3ac4b1ae45e1482d9d00be8c18e8817132c899c"
+  },
+  "lanzamiento": "tmp/paso4_enforcement_completo_desde_rem127/enf_mallas_REM127_ENF_COMPLETO",
+  "resultado_sha256": "96cec241d87c30e2745d376162fb5d6427c964a7f541dec2ad15f2ddfdc20d74",
+  "producto_sha256": "11d55c4423f1c8060f7637cd17edd247bb274481eab19edb138d56d17cbf31af",
+  "conciliacion_interior_aceptada": {
+   "CONCILIACION_MALLAS_ENF.json": "4d2b0748f686101636303703ac5ac02570aa6c457d727877a6fc7eab4994f1cb",
+   "pares_puntos.jsonl": "11a9d2d73574243e4665afdaef5b8f61fcfae7022ac08df5325b5b4c473f8aa9"
+  }
+ },
+ "universo": {
+  "claves": [
+   "075cb6d4080fc856",
+   "0f8b40d7eee99925",
+   "230651ca1f231278",
+   "28497604b356680c",
+   "29f1e9137a358a6f",
+   "2ad72b91ffbc2d92",
+   "334b9a1c0f334ab1",
+   "3fa7da47337aa0f2",
+   "4e183af386348a3d",
+   "567a527b8daa7445",
+   "57e622fb22a3ad95",
+   "5c72a56472225d7b",
+   "6fe85b6df4c7433a",
+   "75a283726bb5e755",
+   "7c16ddb2712795a1",
+   "8437b741f27bef3a",
+   "85e2bb7b2279bcad",
+   "8a9fbd6ddd9bf9c4",
+   "8af179a6f3885ace",
+   "a53bc6985b309381",
+   "cc2ebecde85bf358",
+   "d59edf8a9d1461d1",
+   "dff097a9f2c3bfcd",
+   "e7b02a2faa6c5ce0",
+   "f1cdb2b49894f2e9",
+   "fecc3d29aefc48fb"
+  ],
+  "celdas_total": 1724,
+  "fuera_del_nivel": {
+   "COL-E2-2023.2024p.macro.ABL-ENF": "SIN_CELDAS_PADRE_TESTIGO",
+   "COL-E2-2023.2024p.micro.ABL-ENF": "SIN_CELDAS_PADRE_TESTIGO"
+  },
+  "nota": "COL-2024p fuera del nivel acordado por falta de testigos: exclusión de alcance, no NA"
+ },
+ "decisiones_adoptadas": {
+  "D-EXP9i": "adoptada (actos rem127, líneas 11911 y 11929)",
+  "D-COORD-ALCANCE": "adoptada (ídem)"
+ },
+ "productos_esperados": {
+  "ensamblado": [
+   "enf_techos_integrados.jsonl (26)",
+   "enf_comparacion_ensamblada.jsonl (1.724; clave resuelta con G = null histórico)",
+   "enf_brechas_resueltas.jsonl (144)",
+   "enf_comparacion_integral.jsonl (1.724)",
+   "ENSAMBLADO_INTEGRAL.json"
+  ],
+  "conciliacion": [
+   "pares_puntos.jsonl (330; idéntico al aceptado)",
+   "techos_pares.jsonl (26)",
+   "brechas_celdas.jsonl (1.724)",
+   "CONCILIACION_INTEGRAL_ENF.json"
+  ]
+ },
+ "criterio_cierre_PROD4_4": [
+  "ensamblado y conciliación integrales con dictamen integral_validada/completa_validada_con_resolucion bajo el alcance de integración y su acto",
+  "26 claves (17 recuperadas + 8 completas + 1 resuelta) y 1.724 celdas, sin duplicadas, faltantes ni ajenas",
+  "garantías y procedencias por clave conformes (alcance y tarea de origen conservados)",
+  "resolución de d59edf8a separada: estado histórico incomplete, no_alcanzado_demostrado, cota inferior factible y valor límite con testigo lateral; sin argmax",
+  "conciliación interior idéntica a la aceptada; diferencias de techo y brecha por par y por celda con K1 fijo",
+  "D-EXP9i y D-COORD-ALCANCE ya adoptadas; COL-2024p fuera del nivel declarada; ninguna omisión sin declarar"
+ ]
+}

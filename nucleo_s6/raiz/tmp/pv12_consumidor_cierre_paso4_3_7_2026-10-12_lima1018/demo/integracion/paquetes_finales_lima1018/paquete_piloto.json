@@ -1,0 +1,307 @@
+{
+ "tipo": "paquete por procedencia de celdas detalladas (alternativa A; preparación, NO aprobado ni incorporado)",
+ "lote": "piloto",
+ "entrega": "fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201",
+ "autoridad": {
+  "sha256": "1f81beca84009c710fe23a427644f4c15260475fb70052862a89613596ebf3a8",
+  "archivo": "audit/entrega.json",
+  "estado": "autenticada por la cadena de custodia"
+ },
+ "productor": {
+  "archivo": "codigo/piloto_detallado.py",
+  "sha256": "9e180c117885621b07867fcf8d0a3fe53b73de681c78066933b0589a737a6cfe"
+ },
+ "contrato": "v2",
+ "run_class": "fase_detallada_piloto_h4_3_7",
+ "etiqueta": "FASE DETALLADA PILOTO H4 3.7 NO OFICIAL",
+ "carpeta_resultados": "demo/detallado/resultados",
+ "validacion": {
+  "entrega": "validacion_detallada_d_s1_d_h4_paso4_3_7_2026-10-09_lima2331",
+  "archivo": "demo/validacion_v2/positivos_lima2201.json",
+  "sha256": "7d2b3e944cd0166e4d85219feacd0471b1c7ce54e07cabd8615ca19a2f1d2ff9",
+  "autoridad": {
+   "sha256": "4caedd3bb0901bc678193035422d673bd41be6a8abcba6184a982f8638a1b7f1",
+   "archivo": "audit/entrega.json",
+   "estado": "autenticada por la cadena de custodia"
+  }
+ },
+ "unidades": [
+  {
+   "unidad": "C2-G-d-inf",
+   "familia": "C2",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "a0f352c83413d640e14f50af0e6c9c35310aea9dbbe78c89907815b46ee0e0f9",
+   "filas_sha256": "d962137d1c94eda822757146e3e02e1529ea0b253232cd5723c9a8d6b7d8974c",
+   "cell_id_e12": "CEL:e25b77ebf883d2c9697e3b982936b8ac9833f6790868",
+   "garantias": "v2: tablas E12 validadas por contenido (techo alcanzado, error <= 1e-7, identidad, macro, inversiones)",
+   "evidencia_ausente": [
+    "sup_witness",
+    "scalar_inversion_roots",
+    "scalar_inversion_intervals",
+    "inversion_targets",
+    "numerical_evidence",
+    "convergence_result:C2"
+   ],
+   "huecos_de_identidad": [
+    "validación v2 del piloto (lima2331 sobre lima2201): sin campos copiados del documento ni índice encadenado; el vínculo es resultado_autenticado y filas_autenticadas de su procedencia"
+   ],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "C2-N-d-inf",
+   "familia": "C2",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "19853951029fc7f48ad6a8340383b8913d044df46f1bedb99db66bf7b27df011",
+   "filas_sha256": "5e9f1512c1b2b7a8a4deb5cf357c0689fd58e369360d660a00451f6a872d81dd",
+   "cell_id_e12": "CEL:ad3d9df5eb1787f3480780439b4620360623484a0a82",
+   "garantias": "v2: tablas E12 validadas por contenido (techo alcanzado, error <= 1e-7, identidad, macro, inversiones)",
+   "evidencia_ausente": [
+    "sup_witness",
+    "scalar_inversion_roots",
+    "scalar_inversion_intervals",
+    "inversion_targets",
+    "numerical_evidence",
+    "convergence_result:C2"
+   ],
+   "huecos_de_identidad": [
+    "validación v2 del piloto (lima2331 sobre lima2201): sin campos copiados del documento ni índice encadenado; el vínculo es resultado_autenticado y filas_autenticadas de su procedencia"
+   ],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "S1-G-d",
+   "familia": "S1-d",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "be76bc7f969b8b06407f6ba7c3ee99d5b72fb9672c1809e9008e3389b6cc4a54",
+   "filas_sha256": "10fc91346481541a4ddcb5faad2e261a4ad3d24205c5ead926f1ddf35150fe03",
+   "cell_id_e12": "CEL:0a78787867a78d889ab438431aa38ac1f8f6daea79a8",
+   "garantias": "v2: tablas E12 validadas por contenido (techo alcanzado, error <= 1e-7, identidad, macro, inversiones)",
+   "evidencia_ausente": [
+    "sup_witness",
+    "scalar_inversion_roots",
+    "scalar_inversion_intervals",
+    "inversion_targets",
+    "numerical_evidence",
+    "convergence_result:C2"
+   ],
+   "huecos_de_identidad": [
+    "validación v2 del piloto (lima2331 sobre lima2201): sin campos copiados del documento ni índice encadenado; el vínculo es resultado_autenticado y filas_autenticadas de su procedencia"
+   ],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "S1-G-df",
+   "familia": "S1-df",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "5f0cc3d8ab74ec8948c2e989ce625d18ba8663461a884fac78a84ee4d0c3407e",
+   "filas_sha256": "3b6c5289be088771e2799903d813c2235269e8082ae9f80e23e52520d5a161e5",
+   "cell_id_e12": "CEL:17f4550f7fd79cf8d51aeebcfdb74fa1e414baff76e2",
+   "garantias": "v2: tablas E12 validadas por contenido (techo alcanzado, error <= 1e-7, identidad, macro, inversiones)",
+   "evidencia_ausente": [
+    "sup_witness",
+    "scalar_inversion_roots",
+    "scalar_inversion_intervals",
+    "inversion_targets",
+    "numerical_evidence",
+    "convergence_result:C2"
+   ],
+   "huecos_de_identidad": [
+    "validación v2 del piloto (lima2331 sobre lima2201): sin campos copiados del documento ni índice encadenado; el vínculo es resultado_autenticado y filas_autenticadas de su procedencia"
+   ],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "S1-N-df",
+   "familia": "S1-df",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "1932ae5a0ea18fc205dbbb06c651d43a1b430b751f07c33952c70bea8e7dcbc4",
+   "filas_sha256": "361a28190361977466f03b1a62a0b519b2f164ecc0b9f31152ed0561267c7298",
+   "cell_id_e12": "CEL:cb64b71ca529ceb2a233c3b2ffdd5f5908d70d36e730",
+   "garantias": "v2: tablas E12 validadas por contenido (techo alcanzado, error <= 1e-7, identidad, macro, inversiones)",
+   "evidencia_ausente": [
+    "sup_witness",
+    "scalar_inversion_roots",
+    "scalar_inversion_intervals",
+    "inversion_targets",
+    "numerical_evidence",
+    "convergence_result:C2"
+   ],
+   "huecos_de_identidad": [
+    "validación v2 del piloto (lima2331 sobre lima2201): sin campos copiados del documento ni índice encadenado; el vínculo es resultado_autenticado y filas_autenticadas de su procedencia"
+   ],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "S1-N-f",
+   "familia": "S1-f",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "10bfb02e5fc66899de41e018b4042f322652f4efbe0e5d0c4e284d04d99f5617",
+   "filas_sha256": "4c393300f459c5047dbb03fb85714b3af3abc15060e12402ee73862e30c4c1e8",
+   "cell_id_e12": "CEL:6f743e74b7814d1c1a4301a3801ebfa0192b39a53d0a",
+   "garantias": "v2: tablas E12 validadas por contenido (techo alcanzado, error <= 1e-7, identidad, macro, inversiones)",
+   "evidencia_ausente": [
+    "sup_witness",
+    "scalar_inversion_roots",
+    "scalar_inversion_intervals",
+    "inversion_targets",
+    "numerical_evidence",
+    "convergence_result:C2"
+   ],
+   "huecos_de_identidad": [
+    "validación v2 del piloto (lima2331 sobre lima2201): sin campos copiados del documento ni índice encadenado; el vínculo es resultado_autenticado y filas_autenticadas de su procedencia"
+   ],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "S2-G-f",
+   "familia": "S2",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "8184d61ff4afb85702d97d880d99d28d36bc563ab01a965d9ef3fa53d93ddfa4",
+   "filas_sha256": "dea9fad3317f8f69a8067072f2f652de7d53f45c5310b8572fa710b64ad2bc6f",
+   "cell_id_e12": "CEL:1c96b7addc7630c34e8b786b4958959b499e3ad2a358",
+   "garantias": "v2: tablas E12 validadas por contenido (techo alcanzado, error <= 1e-7, identidad, macro, inversiones)",
+   "evidencia_ausente": [
+    "sup_witness",
+    "scalar_inversion_roots",
+    "scalar_inversion_intervals",
+    "inversion_targets",
+    "numerical_evidence",
+    "convergence_result:C2"
+   ],
+   "huecos_de_identidad": [
+    "validación v2 del piloto (lima2331 sobre lima2201): sin campos copiados del documento ni índice encadenado; el vínculo es resultado_autenticado y filas_autenticadas de su procedencia"
+   ],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "S2-N-d",
+   "familia": "S2",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "7d8a43a7565e22690c9cbd77e66e67e1b52d4380577a41203c3347cde693d929",
+   "filas_sha256": "fdd8e82ed4ee476745aeeab8463bada1c67cc16fe5221ad64ed05f7fcfc33336",
+   "cell_id_e12": "CEL:b561aea707f07f498f72c744788156bf54e104deed10",
+   "garantias": "v2: tablas E12 validadas por contenido (techo alcanzado, error <= 1e-7, identidad, macro, inversiones)",
+   "evidencia_ausente": [
+    "sup_witness",
+    "scalar_inversion_roots",
+    "scalar_inversion_intervals",
+    "inversion_targets",
+    "numerical_evidence",
+    "convergence_result:C2"
+   ],
+   "huecos_de_identidad": [
+    "validación v2 del piloto (lima2331 sobre lima2201): sin campos copiados del documento ni índice encadenado; el vínculo es resultado_autenticado y filas_autenticadas de su procedencia"
+   ],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "S2-N-df",
+   "familia": "S2",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "baa43f1bbd4f1fb0ce1cc638b953402676e808bb895d4bfbc69a9e541ac71fe3",
+   "filas_sha256": "ab1d4bcc99ab28e0b3ca531dadd835b0a581f7d5b485433dc47978314e40b704",
+   "cell_id_e12": "CEL:9b9374e34d65628c5c9bcf7db9ab563753dd7a70345f",
+   "garantias": "v2: tablas E12 validadas por contenido (techo alcanzado, error <= 1e-7, identidad, macro, inversiones)",
+   "evidencia_ausente": [
+    "sup_witness",
+    "scalar_inversion_roots",
+    "scalar_inversion_intervals",
+    "inversion_targets",
+    "numerical_evidence",
+    "convergence_result:C2"
+   ],
+   "huecos_de_identidad": [
+    "validación v2 del piloto (lima2331 sobre lima2201): sin campos copiados del documento ni índice encadenado; el vínculo es resultado_autenticado y filas_autenticadas de su procedencia"
+   ],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "S3-P1",
+   "familia": "S3",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "23e5769520b7d0b452153c4bc0851724efba7736ac4dfbaed7aa7f7498ba64fb",
+   "filas_sha256": "38f205014b83197314eb50acf404b359f0dba7a30ac40cd5e3d7b85084ee713e",
+   "cell_id_e12": "CEL:6ea98f85eb6290ed01f3708d0177c13a3725e7710d39",
+   "garantias": "v2: tablas E12 validadas por contenido (techo alcanzado, error <= 1e-7, identidad, macro, inversiones)",
+   "evidencia_ausente": [
+    "sup_witness",
+    "scalar_inversion_roots",
+    "scalar_inversion_intervals",
+    "inversion_targets",
+    "numerical_evidence",
+    "convergence_result:C2"
+   ],
+   "huecos_de_identidad": [
+    "validación v2 del piloto (lima2331 sobre lima2201): sin campos copiados del documento ni índice encadenado; el vínculo es resultado_autenticado y filas_autenticadas de su procedencia"
+   ],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  },
+  {
+   "unidad": "S3-P2",
+   "familia": "S3",
+   "clasificacion": "completa_validada",
+   "numerico": true,
+   "documento_sha256": "1e6cba8e44474d7d1f886523e77e0b12c81cbb740e2d30d2fab54d0d83226c25",
+   "filas_sha256": "b66c5a609462bda918c72ec5e69b869ec4849a7f1a682700ca16c449ce5d49ac",
+   "cell_id_e12": "CEL:423ad4d6079370118a71b42576d579478d850f23b9b7",
+   "garantias": "v2: tablas E12 validadas por contenido (techo alcanzado, error <= 1e-7, identidad, macro, inversiones)",
+   "evidencia_ausente": [
+    "sup_witness",
+    "scalar_inversion_roots",
+    "scalar_inversion_intervals",
+    "inversion_targets",
+    "numerical_evidence",
+    "convergence_result:C2"
+   ],
+   "huecos_de_identidad": [
+    "validación v2 del piloto (lima2331 sobre lima2201): sin campos copiados del documento ni índice encadenado; el vínculo es resultado_autenticado y filas_autenticadas de su procedencia"
+   ],
+   "limitaciones": [
+    "fila completa de la selección no disponible en D-REM-v1/v4 (aceptada antes de D-REM-v1): identidad por contenido vía cell_id del censo verificado en su validación"
+   ]
+  }
+ ],
+ "propuesta_registro_consumidor": {
+  "area": "fase_detallada_piloto_h4_paso4_3_7_2026-10-09_lima2201",
+  "inventario": "1f81beca84009c710fe23a427644f4c15260475fb70052862a89613596ebf3a8",
+  "codigo": [
+   "codigo/piloto_detallado.py"
+  ],
+  "run_class": "fase_detallada_piloto_h4_3_7",
+  "etiqueta": "FASE DETALLADA PILOTO H4 3.7 NO OFICIAL",
+  "encargo": "autorizacion/encargo.txt",
+  "contrato": "v2",
+  "productor": "codigo/piloto_detallado.py",
+  "nota": "NO aplicada: el consumidor del candidato solo registra productores de paquetes de selección del paso 4; aceptar celdas detalladas por procedencia es un cambio del candidato"
+ }
+}

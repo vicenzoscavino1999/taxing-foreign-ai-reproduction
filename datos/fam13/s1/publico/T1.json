@@ -1,0 +1,287 @@
+{
+ "kind": "tabla-T1-rem183",
+ "objeto": "T1",
+ "titulo_diseno": "Los nueve números: soporte, naturaleza y estado",
+ "cita_diseno": {
+  "documento": "PLAN_DISENO_v2_2_30.md",
+  "sha256": "08fc62957ca33f413cb0c82760426b4d57b7d37f24421d6c35d5670a23e47c9a",
+  "linea": 2688
+ },
+ "estado": "candidato de preparación editorial S1 (rem183); fuera del manuscrito; no aceptado; no es exportación oficial",
+ "obligacion_posterior": "T1.tabla_cuerpo",
+ "estado_obligacion_posterior": "etapa_posterior",
+ "fuentes": [
+  {
+   "id": "P_t1",
+   "ruta": "tmp/paso4_conciliacion_portabilidad_desde_rem107/conciliacion/ensamblajes/T1.csv",
+   "sha256": "f20d0e928e6e2cee0c045ecb9f29697e08b807ed18b6797bd7eb84c7b54b9d39",
+   "bytes": 2074,
+   "autoridad": [
+    "D_rem108"
+   ]
+  }
+ ],
+ "controles_selector": [
+  {
+   "selector": "S_T1",
+   "producto": "P_t1",
+   "filas": 9,
+   "cardinalidad": 9,
+   "duplicados": 0,
+   "huella_claves": "7fe68dfaa41c5e797423b2c6ddcccb8eec425f16bd3018edb82635ce8c40ed6f",
+   "huella_mapa": "7fe68dfaa41c5e797423b2c6ddcccb8eec425f16bd3018edb82635ce8c40ed6f",
+   "filas_mapa": 9,
+   "igual_al_mapa": true
+  }
+ ],
+ "limites_mapa": [
+  "un soporte no es una estimación puntual",
+  "C8: nivel puntual no identificado; Gate 0 sin PASS global"
+ ],
+ "notas_de_garantia": "evidencia_documental: extracción de valores existentes (D_rem108 l.54); no es calibración nueva",
+ "transformaciones_mapa": {
+  "evaluacion_cientifica": "ninguna: el ensamblado solo selecciona, une, agrupa por claves declaradas y da formato a valores aceptados; no recalcula, no reclasifica, no promedia (H12) y no elige celda de referencia",
+  "seleccion": "las 9 filas de S_T1 (clave parametro)",
+  "union": "ninguna",
+  "agregacion": "ninguna",
+  "redondeo": "ninguno: los soportes se copian como texto de D7 (lower/upper/nodos)",
+  "formato": "una fila por parámetro; soportes como intervalo y nodos"
+ },
+ "condicion_firewall": "Insertar la tabla en main.tex (secciones Quantitative Results/Discussion, marcadas FROZEN en l.720 y l.723) exige la condición del firewall: diseño §8.4, §12.5 (Gate 5), §12.6 (Gate 6), §12.7 (Fase 7, Gate 7) y H11 (l.2090). La preparación fuera del .tex no lo levanta.",
+ "notas": [
+  "extracción documentada de valores existentes (D_rem108 l.54)"
+ ],
+ "cuerpo": {
+  "filas": 9,
+  "columnas": [
+   "activo_primario_D7",
+   "gobierna",
+   "motivo_inactivo_D7",
+   "n",
+   "naturaleza_diseno",
+   "parametro",
+   "parametro_D7",
+   "relacion",
+   "rol_D7",
+   "soportes_base_D7"
+  ]
+ },
+ "filas": [
+  {
+   "activo_primario_D7": "true",
+   "gobierna": "Cola Pareto de tamaños",
+   "motivo_inactivo_D7": "",
+   "n": "1",
+   "naturaleza_diseno": "Declarado con soporte",
+   "parametro": "a",
+   "parametro_D7": "a",
+   "relacion": "directo",
+   "rol_D7": "primitive",
+   "soportes_base_D7": "[{\"lower\": \"1.1\", \"upper\": \"2.5\", \"nodos\": \"[1.1,1.3,1.5,2.0,2.5]\", \"central\": null, \"conjuntos\": 10}]",
+   "_traza": {
+    "producto": "P_t1",
+    "sha256": "f20d0e928e6e2cee0c045ecb9f29697e08b807ed18b6797bd7eb84c7b54b9d39",
+    "fila": 2,
+    "clave": [
+     "a"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "fila T1 (parámetro)",
+    "clase_garantia": "evidencia_documental",
+    "fila_csv_nota": "fila = línea del CSV (cabecera = 1)"
+   }
+  },
+  {
+   "activo_primario_D7": "true",
+   "gobierna": "Curvatura del ocultamiento",
+   "motivo_inactivo_D7": "",
+   "n": "2",
+   "naturaleza_diseno": "Declarado",
+   "parametro": "θ",
+   "parametro_D7": "u_theta",
+   "relacion": "θ = 1 + u_θ(a−1) (model.derive)",
+   "rol_D7": "primitive",
+   "soportes_base_D7": "[{\"lower\": \"0.1\", \"upper\": \"0.9\", \"nodos\": \"[0.1,0.5,0.9]\", \"central\": null, \"conjuntos\": 10}]",
+   "_traza": {
+    "producto": "P_t1",
+    "sha256": "f20d0e928e6e2cee0c045ecb9f29697e08b807ed18b6797bd7eb84c7b54b9d39",
+    "fila": 3,
+    "clave": [
+     "θ"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "fila T1 (parámetro)",
+    "clase_garantia": "evidencia_documental",
+    "fila_csv_nota": "fila = línea del CSV (cabecera = 1)"
+   }
+  },
+  {
+   "activo_primario_D7": "true",
+   "gobierna": "Elasticidad del pago al tamaño; la de pagos es a−ρ",
+   "motivo_inactivo_D7": "",
+   "n": "3",
+   "naturaleza_diseno": "Declarado, conjunto con κ̃_0",
+   "parametro": "ρ",
+   "parametro_D7": "rho",
+   "relacion": "directo",
+   "rol_D7": "primitive",
+   "soportes_base_D7": "[{\"lower\": \"0.4\", \"upper\": \"1\", \"nodos\": \"[0.4,0.6,0.8,0.9,1.0]\", \"central\": null, \"conjuntos\": 10}]",
+   "_traza": {
+    "producto": "P_t1",
+    "sha256": "f20d0e928e6e2cee0c045ecb9f29697e08b807ed18b6797bd7eb84c7b54b9d39",
+    "fila": 4,
+    "clave": [
+     "ρ"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "fila T1 (parámetro)",
+    "clase_garantia": "evidencia_documental",
+    "fila_csv_nota": "fila = línea del CSV (cabecera = 1)"
+   }
+  },
+  {
+   "activo_primario_D7": "true",
+   "gobierna": "Nivel del costo de ocultamiento",
+   "motivo_inactivo_D7": "",
+   "n": "4",
+   "naturaleza_diseno": "Declarado",
+   "parametro": "β̃",
+   "parametro_D7": "beta_tilde",
+   "relacion": "directo",
+   "rol_D7": "primitive",
+   "soportes_base_D7": "[{\"lower\": \"0.25\", \"upper\": \"4\", \"nodos\": \"[0.25,0.5,1.0,2.0,4.0]\", \"central\": null, \"conjuntos\": 10}]",
+   "_traza": {
+    "producto": "P_t1",
+    "sha256": "f20d0e928e6e2cee0c045ecb9f29697e08b807ed18b6797bd7eb84c7b54b9d39",
+    "fila": 5,
+    "clave": [
+     "β̃"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "fila T1 (parámetro)",
+    "clase_garantia": "evidencia_documental",
+    "fila_csv_nota": "fila = línea del CSV (cabecera = 1)"
+   }
+  },
+  {
+   "activo_primario_D7": "true",
+   "gobierna": "Escala del ocultamiento, normalizada",
+   "motivo_inactivo_D7": "",
+   "n": "5",
+   "naturaleza_diseno": "Declarado",
+   "parametro": "δ̃",
+   "parametro_D7": "z_cost",
+   "relacion": "δ̃ = z_cost^(1−θ) (model.derive)",
+   "rol_D7": "primitive",
+   "soportes_base_D7": "[{\"lower\": \"1\", \"upper\": \"100\", \"nodos\": \"[1.0,10.0,100.0]\", \"central\": null, \"conjuntos\": 10}]",
+   "_traza": {
+    "producto": "P_t1",
+    "sha256": "f20d0e928e6e2cee0c045ecb9f29697e08b807ed18b6797bd7eb84c7b54b9d39",
+    "fila": 6,
+    "clave": [
+     "δ̃"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "fila T1 (parámetro)",
+    "clase_garantia": "evidencia_documental",
+    "fila_csv_nota": "fila = línea del CSV (cabecera = 1)"
+   }
+  },
+  {
+   "activo_primario_D7": "true",
+   "gobierna": "Nivel de gasto en IA, normalizado",
+   "motivo_inactivo_D7": "",
+   "n": "6",
+   "naturaleza_diseno": "Declarado, conjunto con a, ρ",
+   "parametro": "κ̃_0",
+   "parametro_D7": "kappa_tilde",
+   "relacion": "directo",
+   "rol_D7": "primitive",
+   "soportes_base_D7": "[{\"lower\": \"0.005\", \"upper\": \"0.2\", \"nodos\": \"[0.005,0.01,0.02,0.05,0.1,0.2]\", \"central\": null, \"conjuntos\": 10}]",
+   "_traza": {
+    "producto": "P_t1",
+    "sha256": "f20d0e928e6e2cee0c045ecb9f29697e08b807ed18b6797bd7eb84c7b54b9d39",
+    "fila": 7,
+    "clave": [
+     "κ̃_0"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "fila T1 (parámetro)",
+    "clase_garantia": "evidencia_documental",
+    "fila_csv_nota": "fila = línea del CSV (cabecera = 1)"
+   }
+  },
+  {
+   "activo_primario_D7": "true",
+   "gobierna": "Elasticidad de reporte doméstico",
+   "motivo_inactivo_D7": "",
+   "n": "7",
+   "naturaleza_diseno": "Declarado",
+   "parametro": "η_d",
+   "parametro_D7": "eta_d",
+   "relacion": "directo",
+   "rol_D7": "primitive",
+   "soportes_base_D7": "[{\"lower\": \"0.1\", \"upper\": \"4\", \"nodos\": \"[0.1,0.5,1.0,2.0,4.0]\", \"central\": null, \"conjuntos\": 10}]",
+   "_traza": {
+    "producto": "P_t1",
+    "sha256": "f20d0e928e6e2cee0c045ecb9f29697e08b807ed18b6797bd7eb84c7b54b9d39",
+    "fila": 8,
+    "clave": [
+     "η_d"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "fila T1 (parámetro)",
+    "clase_garantia": "evidencia_documental",
+    "fila_csv_nota": "fila = línea del CSV (cabecera = 1)"
+   }
+  },
+  {
+   "activo_primario_D7": "true",
+   "gobierna": "Elasticidad de reporte transfronterizo",
+   "motivo_inactivo_D7": "",
+   "n": "8",
+   "naturaleza_diseno": "Declarado",
+   "parametro": "η_f",
+   "parametro_D7": "eta_f",
+   "relacion": "directo",
+   "rol_D7": "primitive",
+   "soportes_base_D7": "[{\"lower\": \"0.1\", \"upper\": \"8\", \"nodos\": \"[0.1,0.8,1.2,4.0,8.0]\", \"central\": null, \"conjuntos\": 10}]",
+   "_traza": {
+    "producto": "P_t1",
+    "sha256": "f20d0e928e6e2cee0c045ecb9f29697e08b807ed18b6797bd7eb84c7b54b9d39",
+    "fila": 9,
+    "clave": [
+     "η_f"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "fila T1 (parámetro)",
+    "clase_garantia": "evidencia_documental",
+    "fila_csv_nota": "fila = línea del CSV (cabecera = 1)"
+   }
+  },
+  {
+   "activo_primario_D7": "true",
+   "gobierna": "Incidencia proveedor→usuario",
+   "motivo_inactivo_D7": "",
+   "n": "9",
+   "naturaleza_diseno": "Escenario recorrido",
+   "parametro": "φ",
+   "parametro_D7": "phi",
+   "relacion": "directo",
+   "rol_D7": "primitive",
+   "soportes_base_D7": "[{\"lower\": \"0\", \"upper\": \"1\", \"nodos\": \"[0.0,0.25,0.5,0.75,1.0]\", \"central\": null, \"conjuntos\": 10}]",
+   "_traza": {
+    "producto": "P_t1",
+    "sha256": "f20d0e928e6e2cee0c045ecb9f29697e08b807ed18b6797bd7eb84c7b54b9d39",
+    "fila": 10,
+    "clave": [
+     "φ"
+    ],
+    "escenario": "padre (escenario base aceptado)",
+    "unidad": "fila T1 (parámetro)",
+    "clase_garantia": "evidencia_documental",
+    "fila_csv_nota": "fila = línea del CSV (cabecera = 1)"
+   }
+  }
+ ]
+}

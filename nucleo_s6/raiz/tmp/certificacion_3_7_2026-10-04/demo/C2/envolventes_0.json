@@ -1,0 +1,241 @@
+{
+ "T2": 0.0001,
+ "consumido_s": 1061.0,
+ "de": 2,
+ "etiqueta": "CERTIFICACIÓN 3.7 NO OFICIAL",
+ "grupos": [
+  {
+   "caja": {
+    "encierro": [
+     -2e-323,
+     0.2737330609666464
+    ],
+    "normalizado": true,
+    "segundos": 5.269
+   },
+   "conjunto_ref": "CMP-E1.macro",
+   "diseno": "G",
+   "grupo": "3605ae8a25ea7d3343ddb5b05c40f4d3839a2a9ca1197868bcdb3f32ab1d8a87",
+   "inf": {
+    "L": -2e-323,
+    "U": 8.974478633468374e-05,
+    "brecha": 8.974478633468374e-05,
+    "estado": "encerrado_a_tolerancia",
+    "punto_U": {
+     "a": 1.1,
+     "beta_tilde": 2.125,
+     "eta_d": 2.05,
+     "eta_f": 8.0,
+     "kappa_tilde": 0.005,
+     "phi": 0.0,
+     "rho": 0.4,
+     "u_theta": 0.9,
+     "z_cost": 1.0
+    }
+   },
+   "instrumento": "f",
+   "objetos": [
+    {
+     "conjunto": "CMP-E1.macro",
+     "diseno": "G",
+     "fijos_multiples": false,
+     "instrumento": "f"
+    },
+    {
+     "conjunto": "CMP-E1.micro",
+     "diseno": "G",
+     "fijos_multiples": false,
+     "instrumento": "f"
+    },
+    {
+     "conjunto": "COL-E2-2023.2023p.macro",
+     "diseno": "G",
+     "fijos_multiples": false,
+     "instrumento": "f"
+    },
+    {
+     "conjunto": "COL-E2-2023.2023p.micro",
+     "diseno": "G",
+     "fijos_multiples": false,
+     "instrumento": "f"
+    },
+    {
+     "conjunto": "COL-E2-2023.2024p.macro",
+     "diseno": "G",
+     "fijos_multiples": false,
+     "instrumento": "f"
+    },
+    {
+     "conjunto": "COL-E2-2023.2024p.micro",
+     "diseno": "G",
+     "fijos_multiples": false,
+     "instrumento": "f"
+    },
+    {
+     "conjunto": "PER-E0E3.macro",
+     "diseno": "G",
+     "fijos_multiples": false,
+     "instrumento": "f"
+    },
+    {
+     "conjunto": "PER-E0E3.micro",
+     "diseno": "G",
+     "fijos_multiples": false,
+     "instrumento": "f"
+    },
+    {
+     "conjunto": "PER-E1.macro",
+     "diseno": "G",
+     "fijos_multiples": false,
+     "instrumento": "f"
+    },
+    {
+     "conjunto": "PER-E1.micro",
+     "diseno": "G",
+     "fijos_multiples": false,
+     "instrumento": "f"
+    }
+   ],
+   "puntos_evaluados": 57,
+   "segundos": 9.7,
+   "sup": {
+    "L": 0.27373306096664307,
+    "U": 0.2737330609666464,
+    "brecha": 3.3306690738754696e-15,
+    "estado": "encerrado_a_tolerancia",
+    "punto_L": {
+     "a": 1.1,
+     "beta_tilde": 2.125,
+     "eta_d": 2.05,
+     "eta_f": 0.1,
+     "kappa_tilde": 0.2,
+     "phi": 1.0,
+     "rho": 1.0,
+     "u_theta": 0.5,
+     "z_cost": 1.0
+    }
+   },
+   "vertices": false
+  },
+  {
+   "caja": {
+    "encierro": [
+     -2e-323,
+     3.221199182899945
+    ],
+    "normalizado": true,
+    "segundos": 26.32
+   },
+   "conjunto_ref": "CMP-E1.macro",
+   "diseno": "N",
+   "grupo": "0b0acb24e312358e8acdbc34c02d4d1814d6acfe91a71cc7e100a64e8ceb8b4d",
+   "inf": {
+    "L": -2e-323,
+    "U": 0.023375448316803275,
+    "brecha": 0.023375448316803275,
+    "estado": "acotado",
+    "punto_U": {
+     "a": 2.5,
+     "beta_tilde": 2.125,
+     "eta_d": 2.05,
+     "eta_f": 4.05,
+     "kappa_tilde": 0.10250000000000001,
+     "phi": 1.0,
+     "rho": 0.7,
+     "u_theta": 0.5,
+     "z_cost": 50.5
+    }
+   },
+   "instrumento": "df",
+   "objetos": [
+    {
+     "conjunto": "CMP-E1.macro",
+     "diseno": "N",
+     "fijos_multiples": false,
+     "instrumento": "df"
+    },
+    {
+     "conjunto": "CMP-E1.micro",
+     "diseno": "N",
+     "fijos_multiples": false,
+     "instrumento": "df"
+    },
+    {
+     "conjunto": "COL-E2-2023.2023p.macro",
+     "diseno": "N",
+     "fijos_multiples": false,
+     "instrumento": "df"
+    },
+    {
+     "conjunto": "COL-E2-2023.2023p.micro",
+     "diseno": "N",
+     "fijos_multiples": false,
+     "instrumento": "df"
+    },
+    {
+     "conjunto": "COL-E2-2023.2024p.macro",
+     "diseno": "N",
+     "fijos_multiples": false,
+     "instrumento": "df"
+    },
+    {
+     "conjunto": "COL-E2-2023.2024p.micro",
+     "diseno": "N",
+     "fijos_multiples": false,
+     "instrumento": "df"
+    },
+    {
+     "conjunto": "PER-E0E3.macro",
+     "diseno": "N",
+     "fijos_multiples": false,
+     "instrumento": "df"
+    },
+    {
+     "conjunto": "PER-E0E3.micro",
+     "diseno": "N",
+     "fijos_multiples": false,
+     "instrumento": "df"
+    },
+    {
+     "conjunto": "PER-E1.macro",
+     "diseno": "N",
+     "fijos_multiples": false,
+     "instrumento": "df"
+    },
+    {
+     "conjunto": "PER-E1.micro",
+     "diseno": "N",
+     "fijos_multiples": false,
+     "instrumento": "df"
+    }
+   ],
+   "puntos_evaluados": 39,
+   "segundos": 1046.7,
+   "sup": {
+    "L": 0.561506953430998,
+    "U": 3.221199182899945,
+    "brecha": 2.6596922294689467,
+    "estado": "acotado",
+    "punto_L": {
+     "a": 1.1,
+     "beta_tilde": 0.25,
+     "eta_d": 0.1,
+     "eta_f": 0.1,
+     "kappa_tilde": 0.2,
+     "phi": 0.5,
+     "rho": 1.0,
+     "u_theta": 0.1,
+     "z_cost": 50.5
+    }
+   },
+   "vertices": false
+  }
+ ],
+ "identidad_sha256": "07771847c6e420445de7b8e1cf44952f8d03515b15005e0ea025c5bb0142a2a5",
+ "no_exportable": true,
+ "parte": 0,
+ "pendientes_por_tope": [
+  "0b7bcb7993dc90ea9c8a6e3502879a3b9de77f6adfa306b907fdcc3829b8ef42"
+ ],
+ "plan_sha256": "cbe40f29bdb7de5818231aa094c34e0be9400f0d063b1ef1daaafe9ecf983164"
+}

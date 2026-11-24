@@ -1,0 +1,16 @@
+{
+  "db02_registry": "afirmaciones/recibos/vinculos/sucesion carried unchanged from the 2026-09-26 candidate; B3-5 (2026-10-01) appends only the DANE 202610074537 rows (COL 2023p), no existing row modified",
+  "files": {
+    "afirmaciones_db02.json": "e66b67a158edd1383f17531515c62065aa8e1b3f0dbfaadff882901b01dd8089",
+    "correspondencias_primitivas.json": "9f8f03c2f381b848bf6e7c10427e0859b5b7385b57b8d9a68dddaf2b06d11df0",
+    "recibos_db02.json": "9387e7720acf00faaf297364e60f9f50872d2785cff859e9897ebe23be296b38",
+    "reglas_publicacion.json": "ea482669c653cb6123eaf18e134fe565982a9f70df734734f10cab7aa74584a9",
+    "sucesion_evidencia.json": "421cd1ba927c1f9c46b96b95df1d41f756d36f94fb14a194cbd7feaf570f46db",
+    "verificacion_privada_hashes.json": "6f4a64a84dadc4aaa1a6796b68eae8fb64c0485f11341de8bed6a781e1a91294",
+    "vinculos_afirmacion_snapshot.json": "afceb7f2f29ee5d65f4247c12ada33a2d28a884533b08249e5ae0bb097148b5a"
+  },
+  "origin_link": "claims -> receipts -> message_sha256 verified against the private originals when recorded (verificacion_privada_hashes.json); originals are not distributed",
+  "predecessor_seal_sha256": "d2adfdc090d34c3c03ecd6f70e318352b18dc9c2b56a9da4c611e2c70b2d1b6c",
+  "private_bodies_included": false,
+  "schema": "SEALED_SANITIZED_DOSSIER_1"
+}

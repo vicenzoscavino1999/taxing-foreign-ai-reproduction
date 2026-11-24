@@ -1,0 +1,1187 @@
+{
+ "kind": "resumen-exp8-rem170",
+ "candidato_para_revision": true,
+ "produccion": false,
+ "afirmaciones": 1728,
+ "categoria_original": {
+  "cambio_de_signo_certificado": 1524,
+  "inconclusa_por_testigos_en_tolerancia": 188,
+  "robusta_infactible_certificada": 16
+ },
+ "conjunto_padre": {
+  "inconclusa": 1712,
+  "robusta": 16
+ },
+ "ENF": {
+  "final_con_P7": {
+   "inconclusa_preservada": 1712,
+   "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 16
+  },
+  "historico_sin_P7": {
+   "inconclusa_preservada": 1705,
+   "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 16,
+   "parcial_no_robusta_factible": 3,
+   "parcial_no_robusta_infactible": 4
+  },
+  "final_por_conjunto_padre": {
+   "inconclusa": {
+    "inconclusa_preservada": 1712
+   },
+   "robusta": {
+    "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 16
+   }
+  },
+  "final_por_categoria_original": {
+   "cambio_de_signo_certificado": {
+    "inconclusa_preservada": 1524
+   },
+   "inconclusa_por_testigos_en_tolerancia": {
+    "inconclusa_preservada": 188
+   },
+   "robusta_infactible_certificada": {
+    "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 16
+   }
+  },
+  "suplemento_P7_aplicado": 7
+ },
+ "COV": {
+  "final_con_P7": {
+   "inconclusa_preservada": 1700,
+   "no_decidida_por_testigos": 16,
+   "robust_infeasible": 12
+  },
+  "historico_sin_P7": {
+   "inconclusa_preservada": 1693,
+   "no_decidida_por_testigos": 28,
+   "parcial_no_robusta_factible": 3,
+   "parcial_no_robusta_infactible": 4
+  },
+  "final_por_conjunto_padre": {
+   "inconclusa": {
+    "inconclusa_preservada": 1700,
+    "robust_infeasible": 12
+   },
+   "robusta": {
+    "no_decidida_por_testigos": 16
+   }
+  },
+  "final_por_categoria_original": {
+   "cambio_de_signo_certificado": {
+    "inconclusa_preservada": 1524
+   },
+   "inconclusa_por_testigos_en_tolerancia": {
+    "inconclusa_preservada": 176,
+    "robust_infeasible": 12
+   },
+   "robusta_infactible_certificada": {
+    "no_decidida_por_testigos": 16
+   }
+  },
+  "suplemento_P7_aplicado": 7
+ },
+ "Q": {
+  "contrato": {
+   "canal": {
+    "inconclusa_preservada": 1712,
+    "robustez_refutada_por_testigo_sup": 16
+   },
+   "canal_por_conjunto_padre": {
+    "inconclusa": {
+     "inconclusa_preservada": 1712
+    },
+    "robusta": {
+     "robustez_refutada_por_testigo_sup": 16
+    }
+   },
+   "region": {
+    "ambos": 1728
+   }
+  },
+  "conservadora": {
+   "canal": {
+    "inconclusa_preservada": 1712,
+    "robustez_refutada_por_testigo_sup": 16
+   },
+   "canal_por_conjunto_padre": {
+    "inconclusa": {
+     "inconclusa_preservada": 1712
+    },
+    "robusta": {
+     "robustez_refutada_por_testigo_sup": 16
+    }
+   },
+   "region": {
+    "ambos": 1728
+   }
+  },
+  "m": "1/2",
+  "veredictos_distintos_entre_versiones": 0,
+  "diagnostico_general": {
+   "libro": "review_20261106_rem156_Q_diagnostico.json",
+   "dominio": "0 < m <= 1; m=0 limite algebraico, no productivo",
+   "m_estrella_contrato": {
+    "exacto": "-29631728656581536186343/28491468583357561333350400",
+    "aprox": -0.0010400211056122964
+   },
+   "m_estrella_conservadora": {
+    "exacto": "-1058276023447533041831/1017552449405627190476800",
+    "aprox": -0.00104002110561052
+   }
+  }
+ },
+ "posiciones_Q": {
+  "total": 3456,
+  "por_origen": {
+   "filas_padre_aceptadas": 3449,
+   "suplemento_P7_lado_padre_faltante": 7
+  },
+  "nota": "3.456 posiciones Q no son 3.456 afirmaciones ni celdas distintas"
+ },
+ "celdas": {
+  "unidades_padre_base_distintas": 1724,
+  "unidades_P7": [
+   "S1-G-d",
+   "S1-G-df",
+   "S1-N-df",
+   "S1-N-f"
+  ],
+  "afirmaciones_con_P7": 7,
+  "afirmaciones_sin_P7": 1721,
+  "nota": "las cuatro unidades P7 siguen separadas del censo base; COL-2024p queda fuera de este nivel (exclusión de alcance)"
+ },
+ "COV_cambios_de_signo_certificados": {
+  "ocurrencias": 20,
+  "afirmaciones": 20,
+  "celdas": 20,
+  "claves": [
+   "22d6a8dcf42be6fb",
+   "6072bd5d08a5a2b8"
+  ],
+  "direcciones": {
+   "1->-1": 20
+  },
+  "lados": {
+   "sup": 20
+  },
+  "por_categoria_original": {
+   "cambio_de_signo_certificado": 8,
+   "inconclusa_por_testigos_en_tolerancia": 12
+  },
+  "conclusion_COV": {
+   "inconclusa_preservada": 8,
+   "robust_infeasible": 12
+  },
+  "nota": "evidencia de posiciones/celdas/afirmaciones; no son cambios de categoría ni prueba de un canal dominante",
+  "filas": [
+   {
+    "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+    "lado": "sup",
+    "clave_cov": "6072bd5d08a5a2b8",
+    "cell_id": "CEL:221bd879ba0f209ae86703c687500b45cd64c9a85025",
+    "signo_padre": 1,
+    "signo_cov": -1,
+    "g_lo": "-12837611541603970711553/302231454903657293676544",
+    "g_hi": "-12837596391642295697407/302231454903657293676544"
+   },
+   {
+    "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+    "lado": "sup",
+    "clave_cov": "6072bd5d08a5a2b8",
+    "cell_id": "CEL:2c9ad0ea9e0a440711214d296b9bf32cacc183da430e",
+    "signo_padre": 1,
+    "signo_cov": -1,
+    "g_lo": "-613784172988081373185/302231454903657293676544",
+    "g_hi": "-613769023026406359039/302231454903657293676544"
+   },
+   {
+    "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+    "lado": "sup",
+    "clave_cov": "6072bd5d08a5a2b8",
+    "cell_id": "CEL:b04db965b2eb261d9a35a1afb4919f24242b11124649",
+    "signo_padre": 1,
+    "signo_cov": -1,
+    "g_lo": "-12721856716768907624449/302231454903657293676544",
+    "g_hi": "-12721841566807232610303/302231454903657293676544"
+   },
+   {
+    "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+    "lado": "sup",
+    "clave_cov": "6072bd5d08a5a2b8",
+    "cell_id": "CEL:d0304b460907537871fc51a30095265d9055993c2f3b",
+    "signo_padre": 1,
+    "signo_cov": -1,
+    "g_lo": "-519744245297315840001/302231454903657293676544",
+    "g_hi": "-519729095335640825855/302231454903657293676544"
+   },
+   {
+    "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+    "lado": "sup",
+    "clave_cov": "22d6a8dcf42be6fb",
+    "cell_id": "CEL:d0dc073f4570420f4cb844b418fe2f5d420d5de52075",
+    "signo_padre": 1,
+    "signo_cov": -1,
+    "g_lo": "-12837611541603970711553/302231454903657293676544",
+    "g_hi": "-12837596391642295697407/302231454903657293676544"
+   },
+   {
+    "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:micro:guardrail_deuda",
+    "lado": "sup",
+    "clave_cov": "22d6a8dcf42be6fb",
+    "cell_id": "CEL:e223687617fc5b820c28722db053435974ff7104ef2b",
+    "signo_padre": 1,
+    "signo_cov": -1,
+    "g_lo": "-613784172988081373185/302231454903657293676544",
+    "g_hi": "-613769023026406359039/302231454903657293676544"
+   },
+   {
+    "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+    "lado": "sup",
+    "clave_cov": "22d6a8dcf42be6fb",
+    "cell_id": "CEL:e358015e68eb300d2849714d8998ac3ad5b9a5d258f0",
+    "signo_padre": 1,
+    "signo_cov": -1,
+    "g_lo": "-12721856716768907624449/302231454903657293676544",
+    "g_hi": "-12721841566807232610303/302231454903657293676544"
+   },
+   {
+    "afirmacion": "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:micro:guardrail_deuda",
+    "lado": "sup",
+    "clave_cov": "22d6a8dcf42be6fb",
+    "cell_id": "CEL:288a33c4ffd879170ecbb78a319f8ea013e0ef7de544",
+    "signo_padre": 1,
+    "signo_cov": -1,
+    "g_lo": "-519744245297315840001/302231454903657293676544",
+    "g_hi": "-519729095335640825855/302231454903657293676544"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+    "lado": "sup",
+    "clave_cov": "6072bd5d08a5a2b8",
+    "cell_id": "CEL:a3eb5c296a25c6bfebaa4a6d9c4da171f498436a1ccd",
+    "signo_padre": 1,
+    "signo_cov": -1,
+    "g_lo": "-12292075684811962843137/302231454903657293676544",
+    "g_hi": "-12292060534850287828991/302231454903657293676544"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+    "lado": "sup",
+    "clave_cov": "6072bd5d08a5a2b8",
+    "cell_id": "CEL:32612f2e7a66787615dd4c454322d33ddd14c07aac0c",
+    "signo_padre": 1,
+    "signo_cov": -1,
+    "g_lo": "-12177289971750280364033/302231454903657293676544",
+    "g_hi": "-12177274821788605349887/302231454903657293676544"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+    "lado": "sup",
+    "clave_cov": "22d6a8dcf42be6fb",
+    "cell_id": "CEL:3f52386637f9f033f1652dcee90b4850f57f0c1de408",
+    "signo_padre": 1,
+    "signo_cov": -1,
+    "g_lo": "-12292075684811962843137/302231454903657293676544",
+    "g_hi": "-12292060534850287828991/302231454903657293676544"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+    "lado": "sup",
+    "clave_cov": "22d6a8dcf42be6fb",
+    "cell_id": "CEL:48f9b14ccfb50cbc083599e0905d0584cb162c0c3075",
+    "signo_padre": 1,
+    "signo_cov": -1,
+    "g_lo": "-12177289971750280364033/302231454903657293676544",
+    "g_hi": "-12177274821788605349887/302231454903657293676544"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+    "lado": "sup",
+    "clave_cov": "6072bd5d08a5a2b8",
+    "cell_id": "CEL:f3f422a2e81a0fdb1d9d5a181f60db3b569ea0635baf",
+    "signo_padre": 1,
+    "signo_cov": -1,
+    "g_lo": "-12837611541603970711553/302231454903657293676544",
+    "g_hi": "-12837596391642295697407/302231454903657293676544"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+    "lado": "sup",
+    "clave_cov": "6072bd5d08a5a2b8",
+    "cell_id": "CEL:c3131888a591ce9070bbeaaa8314691baed1dcb95009",
+    "signo_padre": 1,
+    "signo_cov": -1,
+    "g_lo": "-613784172988081373185/302231454903657293676544",
+    "g_hi": "-613769023026406359039/302231454903657293676544"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+    "lado": "sup",
+    "clave_cov": "6072bd5d08a5a2b8",
+    "cell_id": "CEL:d4e037c43ef6148ecad597bf8db970c5fb4db77dceb1",
+    "signo_padre": 1,
+    "signo_cov": -1,
+    "g_lo": "-12721856716768907624449/302231454903657293676544",
+    "g_hi": "-12721841566807232610303/302231454903657293676544"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+    "lado": "sup",
+    "clave_cov": "6072bd5d08a5a2b8",
+    "cell_id": "CEL:ca325fa96c0d616b3a7ecdf4997e798014269a51d30d",
+    "signo_padre": 1,
+    "signo_cov": -1,
+    "g_lo": "-519744245297315840001/302231454903657293676544",
+    "g_hi": "-519729095335640825855/302231454903657293676544"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+    "lado": "sup",
+    "clave_cov": "22d6a8dcf42be6fb",
+    "cell_id": "CEL:7497070e548629a986a76eaf2dd7e587c9d8b0e6e389",
+    "signo_padre": 1,
+    "signo_cov": -1,
+    "g_lo": "-12837611541603970711553/302231454903657293676544",
+    "g_hi": "-12837596391642295697407/302231454903657293676544"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:micro:guardrail_deuda",
+    "lado": "sup",
+    "clave_cov": "22d6a8dcf42be6fb",
+    "cell_id": "CEL:1372f7cc924ddb75af576abece73193a47c7f5103945",
+    "signo_padre": 1,
+    "signo_cov": -1,
+    "g_lo": "-613784172988081373185/302231454903657293676544",
+    "g_hi": "-613769023026406359039/302231454903657293676544"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+    "lado": "sup",
+    "clave_cov": "22d6a8dcf42be6fb",
+    "cell_id": "CEL:64fa73a111efcfd0ed4c575d129213a8af1a21aeb72c",
+    "signo_padre": 1,
+    "signo_cov": -1,
+    "g_lo": "-12721856716768907624449/302231454903657293676544",
+    "g_hi": "-12721841566807232610303/302231454903657293676544"
+   },
+   {
+    "afirmacion": "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:micro:guardrail_deuda",
+    "lado": "sup",
+    "clave_cov": "22d6a8dcf42be6fb",
+    "cell_id": "CEL:aeea1fbaa5c8bbbd9d3b091a0fc878724f6622400a48",
+    "signo_padre": 1,
+    "signo_cov": -1,
+    "g_lo": "-519744245297315840001/302231454903657293676544",
+    "g_hi": "-519729095335640825855/302231454903657293676544"
+   }
+  ]
+ },
+ "ENF_descomposicion_rem108": {
+  "descompuestas_true": 1705,
+  "inconclusas_sin_descomposicion_rem108": [
+   "CLM:PREG-COMPARACION-E1:historical_anchor:c:COL:conditional_none:G:addback_completo:micro:sensibilidad",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:G:addback_completo:micro:sensibilidad",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:df:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:df:conditional_full:N:sin_addback:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:micro:sensibilidad",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:df:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:df:conditional_full:N:sin_addback:macro:guardrail_deuda"
+  ],
+  "nota": "las descomposiciones históricas rem108 no se renombran como 1.712; las siete restantes se completan por el suplemento P7 sin convertirse en descomposiciones rem108"
+ },
+ "ENF_resoluciones": {
+  "lados_con_resolucion": 352,
+  "estado_techo_historico": {
+   "incomplete": 352
+  },
+  "claves": {
+   "d59edf8a9d1461d1": 352
+  },
+  "tipos": {
+   "\"no_alcanzado_demostrado\"": 352
+  },
+  "estado_techo_historico_todas_las_claves": {
+   "null": 7,
+   "complete": 3097,
+   "incomplete": 352
+  },
+  "nota": "se conservan tal como están: cotas y testigos laterales, historial incomplete, sin argmax ni tasas de maximizador"
+ },
+ "por_dimension": {
+  "pais": {
+   "COL": {
+    "denominador": 480,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 396,
+     "inconclusa_por_testigos_en_tolerancia": 84
+    },
+    "ENF": {
+     "inconclusa_preservada": 480
+    },
+    "COV": {
+     "inconclusa_preservada": 468,
+     "robust_infeasible": 12
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 480
+    }
+   },
+   "MEX": {
+    "denominador": 320,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 256,
+     "inconclusa_por_testigos_en_tolerancia": 48,
+     "robusta_infactible_certificada": 16
+    },
+    "ENF": {
+     "inconclusa_preservada": 304,
+     "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 16
+    },
+    "COV": {
+     "inconclusa_preservada": 304,
+     "no_decidida_por_testigos": 16
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 304,
+     "robustez_refutada_por_testigo_sup": 16
+    }
+   },
+   "None": {
+    "denominador": 128,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 128
+    },
+    "ENF": {
+     "inconclusa_preservada": 128
+    },
+    "COV": {
+     "inconclusa_preservada": 128
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 128
+    }
+   },
+   "PER": {
+    "denominador": 800,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 744,
+     "inconclusa_por_testigos_en_tolerancia": 56
+    },
+    "ENF": {
+     "inconclusa_preservada": 800
+    },
+    "COV": {
+     "inconclusa_preservada": 800
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 800
+    }
+   }
+  },
+  "kind": {
+   "historical_anchor": {
+    "denominador": 704,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 624,
+     "inconclusa_por_testigos_en_tolerancia": 72,
+     "robusta_infactible_certificada": 8
+    },
+    "ENF": {
+     "inconclusa_preservada": 696,
+     "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 8
+    },
+    "COV": {
+     "inconclusa_preservada": 692,
+     "no_decidida_por_testigos": 8,
+     "robust_infeasible": 4
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 696,
+     "robustez_refutada_por_testigo_sup": 8
+    }
+   },
+   "primary": {
+    "denominador": 1024,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 900,
+     "inconclusa_por_testigos_en_tolerancia": 116,
+     "robusta_infactible_certificada": 8
+    },
+    "ENF": {
+     "inconclusa_preservada": 1016,
+     "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 8
+    },
+    "COV": {
+     "inconclusa_preservada": 1008,
+     "no_decidida_por_testigos": 8,
+     "robust_infeasible": 8
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 1016,
+     "robustez_refutada_por_testigo_sup": 8
+    }
+   }
+  },
+  "familia": {
+   "c": {
+    "denominador": 640,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 640
+    },
+    "ENF": {
+     "inconclusa_preservada": 640
+    },
+    "COV": {
+     "inconclusa_preservada": 640
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 640
+    }
+   },
+   "ci": {
+    "denominador": 960,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 756,
+     "inconclusa_por_testigos_en_tolerancia": 188,
+     "robusta_infactible_certificada": 16
+    },
+    "ENF": {
+     "inconclusa_preservada": 944,
+     "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 16
+    },
+    "COV": {
+     "inconclusa_preservada": 932,
+     "no_decidida_por_testigos": 16,
+     "robust_infeasible": 12
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 944,
+     "robustez_refutada_por_testigo_sup": 16
+    }
+   },
+   "g": {
+    "denominador": 128,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 128
+    },
+    "ENF": {
+     "inconclusa_preservada": 128
+    },
+    "COV": {
+     "inconclusa_preservada": 128
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 128
+    }
+   }
+  },
+  "j": {
+   "None": {
+    "denominador": 768,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 768
+    },
+    "ENF": {
+     "inconclusa_preservada": 768
+    },
+    "COV": {
+     "inconclusa_preservada": 768
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 768
+    }
+   },
+   "d": {
+    "denominador": 320,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 320
+    },
+    "ENF": {
+     "inconclusa_preservada": 320
+    },
+    "COV": {
+     "inconclusa_preservada": 320
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 320
+    }
+   },
+   "df": {
+    "denominador": 320,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 320
+    },
+    "ENF": {
+     "inconclusa_preservada": 320
+    },
+    "COV": {
+     "inconclusa_preservada": 320
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 320
+    }
+   },
+   "f": {
+    "denominador": 320,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 116,
+     "inconclusa_por_testigos_en_tolerancia": 188,
+     "robusta_infactible_certificada": 16
+    },
+    "ENF": {
+     "inconclusa_preservada": 304,
+     "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 16
+    },
+    "COV": {
+     "inconclusa_preservada": 292,
+     "no_decidida_por_testigos": 16,
+     "robust_infeasible": 12
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 304,
+     "robustez_refutada_por_testigo_sup": 16
+    }
+   }
+  },
+  "escenario": {
+   "None": {
+    "denominador": 960,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 756,
+     "inconclusa_por_testigos_en_tolerancia": 188,
+     "robusta_infactible_certificada": 16
+    },
+    "ENF": {
+     "inconclusa_preservada": 944,
+     "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 16
+    },
+    "COV": {
+     "inconclusa_preservada": 932,
+     "no_decidida_por_testigos": 16,
+     "robust_infeasible": 12
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 944,
+     "robustez_refutada_por_testigo_sup": 16
+    }
+   },
+   "conditional_full": {
+    "denominador": 384,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 384
+    },
+    "ENF": {
+     "inconclusa_preservada": 384
+    },
+    "COV": {
+     "inconclusa_preservada": 384
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 384
+    }
+   },
+   "conditional_none": {
+    "denominador": 384,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 384
+    },
+    "ENF": {
+     "inconclusa_preservada": 384
+    },
+    "COV": {
+     "inconclusa_preservada": 384
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 384
+    }
+   }
+  },
+  "diseno": {
+   "G": {
+    "denominador": 864,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 762,
+     "inconclusa_por_testigos_en_tolerancia": 94,
+     "robusta_infactible_certificada": 8
+    },
+    "ENF": {
+     "inconclusa_preservada": 856,
+     "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 8
+    },
+    "COV": {
+     "inconclusa_preservada": 850,
+     "no_decidida_por_testigos": 8,
+     "robust_infeasible": 6
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 856,
+     "robustez_refutada_por_testigo_sup": 8
+    }
+   },
+   "N": {
+    "denominador": 864,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 762,
+     "inconclusa_por_testigos_en_tolerancia": 94,
+     "robusta_infactible_certificada": 8
+    },
+    "ENF": {
+     "inconclusa_preservada": 856,
+     "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 8
+    },
+    "COV": {
+     "inconclusa_preservada": 850,
+     "no_decidida_por_testigos": 8,
+     "robust_infeasible": 6
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 856,
+     "robustez_refutada_por_testigo_sup": 8
+    }
+   }
+  },
+  "cota": {
+   "addback_completo": {
+    "denominador": 864,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 760,
+     "inconclusa_por_testigos_en_tolerancia": 96,
+     "robusta_infactible_certificada": 8
+    },
+    "ENF": {
+     "inconclusa_preservada": 856,
+     "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 8
+    },
+    "COV": {
+     "inconclusa_preservada": 850,
+     "no_decidida_por_testigos": 8,
+     "robust_infeasible": 6
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 856,
+     "robustez_refutada_por_testigo_sup": 8
+    }
+   },
+   "sin_addback": {
+    "denominador": 864,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 764,
+     "inconclusa_por_testigos_en_tolerancia": 92,
+     "robusta_infactible_certificada": 8
+    },
+    "ENF": {
+     "inconclusa_preservada": 856,
+     "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 8
+    },
+    "COV": {
+     "inconclusa_preservada": 850,
+     "no_decidida_por_testigos": 8,
+     "robust_infeasible": 6
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 856,
+     "robustez_refutada_por_testigo_sup": 8
+    }
+   }
+  },
+  "bloque": {
+   "macro": {
+    "denominador": 864,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 748,
+     "inconclusa_por_testigos_en_tolerancia": 108,
+     "robusta_infactible_certificada": 8
+    },
+    "ENF": {
+     "inconclusa_preservada": 856,
+     "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 8
+    },
+    "COV": {
+     "inconclusa_preservada": 844,
+     "no_decidida_por_testigos": 8,
+     "robust_infeasible": 12
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 856,
+     "robustez_refutada_por_testigo_sup": 8
+    }
+   },
+   "micro": {
+    "denominador": 864,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 776,
+     "inconclusa_por_testigos_en_tolerancia": 80,
+     "robusta_infactible_certificada": 8
+    },
+    "ENF": {
+     "inconclusa_preservada": 856,
+     "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 8
+    },
+    "COV": {
+     "inconclusa_preservada": 856,
+     "no_decidida_por_testigos": 8
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 856,
+     "robustez_refutada_por_testigo_sup": 8
+    }
+   }
+  },
+  "capa": {
+   "buffer_destacado": {
+    "denominador": 432,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 376,
+     "inconclusa_por_testigos_en_tolerancia": 56
+    },
+    "ENF": {
+     "inconclusa_preservada": 432
+    },
+    "COV": {
+     "inconclusa_preservada": 432
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 432
+    }
+   },
+   "guardrail_deuda": {
+    "denominador": 432,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 364,
+     "inconclusa_por_testigos_en_tolerancia": 52,
+     "robusta_infactible_certificada": 16
+    },
+    "ENF": {
+     "inconclusa_preservada": 416,
+     "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 16
+    },
+    "COV": {
+     "inconclusa_preservada": 404,
+     "no_decidida_por_testigos": 16,
+     "robust_infeasible": 12
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 416,
+     "robustez_refutada_por_testigo_sup": 16
+    }
+   },
+   "nucleo_contable": {
+    "denominador": 432,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 392,
+     "inconclusa_por_testigos_en_tolerancia": 40
+    },
+    "ENF": {
+     "inconclusa_preservada": 432
+    },
+    "COV": {
+     "inconclusa_preservada": 432
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 432
+    }
+   },
+   "sensibilidad": {
+    "denominador": 432,
+    "categoria_original": {
+     "cambio_de_signo_certificado": 392,
+     "inconclusa_por_testigos_en_tolerancia": 40
+    },
+    "ENF": {
+     "inconclusa_preservada": 432
+    },
+    "COV": {
+     "inconclusa_preservada": 432
+    },
+    "Q_contrato": {
+     "inconclusa_preservada": 432
+    }
+   }
+  }
+ },
+ "por_pais_y_bloque": {
+  "COL|macro": {
+   "denominador": 240,
+   "ENF": {
+    "inconclusa_preservada": 240
+   },
+   "COV": {
+    "inconclusa_preservada": 228,
+    "robust_infeasible": 12
+   },
+   "Q_contrato": {
+    "inconclusa_preservada": 240
+   }
+  },
+  "COL|micro": {
+   "denominador": 240,
+   "ENF": {
+    "inconclusa_preservada": 240
+   },
+   "COV": {
+    "inconclusa_preservada": 240
+   },
+   "Q_contrato": {
+    "inconclusa_preservada": 240
+   }
+  },
+  "MEX|macro": {
+   "denominador": 160,
+   "ENF": {
+    "inconclusa_preservada": 152,
+    "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 8
+   },
+   "COV": {
+    "inconclusa_preservada": 152,
+    "no_decidida_por_testigos": 8
+   },
+   "Q_contrato": {
+    "inconclusa_preservada": 152,
+    "robustez_refutada_por_testigo_sup": 8
+   }
+  },
+  "MEX|micro": {
+   "denominador": 160,
+   "ENF": {
+    "inconclusa_preservada": 152,
+    "no_decidida_por_testigos (mantener la robustez exige el supremo ENF sobre todo el soporte)": 8
+   },
+   "COV": {
+    "inconclusa_preservada": 152,
+    "no_decidida_por_testigos": 8
+   },
+   "Q_contrato": {
+    "inconclusa_preservada": 152,
+    "robustez_refutada_por_testigo_sup": 8
+   }
+  },
+  "None|macro": {
+   "denominador": 64,
+   "ENF": {
+    "inconclusa_preservada": 64
+   },
+   "COV": {
+    "inconclusa_preservada": 64
+   },
+   "Q_contrato": {
+    "inconclusa_preservada": 64
+   }
+  },
+  "None|micro": {
+   "denominador": 64,
+   "ENF": {
+    "inconclusa_preservada": 64
+   },
+   "COV": {
+    "inconclusa_preservada": 64
+   },
+   "Q_contrato": {
+    "inconclusa_preservada": 64
+   }
+  },
+  "PER|macro": {
+   "denominador": 400,
+   "ENF": {
+    "inconclusa_preservada": 400
+   },
+   "COV": {
+    "inconclusa_preservada": 400
+   },
+   "Q_contrato": {
+    "inconclusa_preservada": 400
+   }
+  },
+  "PER|micro": {
+   "denominador": 400,
+   "ENF": {
+    "inconclusa_preservada": 400
+   },
+   "COV": {
+    "inconclusa_preservada": 400
+   },
+   "Q_contrato": {
+    "inconclusa_preservada": 400
+   }
+  }
+ },
+ "nota_dimensiones": "conteos documentales con denominador explícito; no son probabilidades ni tasas; pais '-' o None se conserva tal como lo da la fuente (no se deduce); bloque macro/micro no se mezcla en por_pais_y_bloque; ninguna celda de referencia elegida a posteriori",
+ "listas": {
+  "COV_no_decididas_inconclusas": [],
+  "robustas_padre": [
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+  ],
+  "P7": [
+   "CLM:PREG-COMPARACION-E1:historical_anchor:c:COL:conditional_none:G:addback_completo:micro:sensibilidad",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:d:domestic_unchanged:G:addback_completo:micro:sensibilidad",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:df:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:df:conditional_full:N:sin_addback:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:micro:sensibilidad",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:df:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:df:conditional_full:N:sin_addback:macro:guardrail_deuda"
+  ],
+  "ENF_no_alcanzadas_preservadas_rem155": [
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:df:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:df:conditional_full:G:addback_completo:macro:guardrail_deuda"
+  ],
+  "COV_robust_infeasible_desde_inconclusas": [
+   "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+  ],
+  "COV_no_decididas_robustas_padre": [
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:historical_anchor:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:addback_completo:micro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:G:sin_addback:micro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:addback_completo:micro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:macro:guardrail_deuda",
+   "CLM:PREG-COMPARACION-E1:primary:ci:MEX:f:conditional_full:N:sin_addback:micro:guardrail_deuda"
+  ]
+ },
+ "COV_resolucion_global": {
+  "afirmaciones": 12,
+  "grupos": {
+   "K1": 2,
+   "K2": 2,
+   "K3": 2,
+   "K4": 2,
+   "K5": 2,
+   "K6": 2
+  },
+  "veredicto": {
+   "robust_infeasible": 12
+  },
+  "por_grupo": {
+   "K1": {
+    "contextos": 192,
+    "L_K1_hex": "0x1.b98c85d42628dp-3",
+    "G_hi_exacto": "-1530361648395381/36028797018963968",
+    "afirmaciones": [
+     "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+     "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+    ]
+   },
+   "K2": {
+    "contextos": 192,
+    "L_K1_hex": "0x1.b8c3b85c299c6p-3",
+    "G_hi_exacto": "-758281298982359/18014398509481984",
+    "afirmaciones": [
+     "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+     "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+    ]
+   },
+   "K3": {
+    "contextos": 864,
+    "L_K1_hex": "0x1.b5da2b3dba041p-3",
+    "G_hi_exacto": "-1465328706482729/36028797018963968",
+    "afirmaciones": [
+     "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+     "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+    ]
+   },
+   "K4": {
+    "contextos": 864,
+    "L_K1_hex": "0x1.b5130c24fe36ap-3",
+    "G_hi_exacto": "-725822591589033/18014398509481984",
+    "afirmaciones": [
+     "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+     "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+    ]
+   },
+   "K5": {
+    "contextos": 96,
+    "L_K1_hex": "0x1.b98c85d42628dp-3",
+    "G_hi_exacto": "-1530361648395381/36028797018963968",
+    "afirmaciones": [
+     "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+     "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+    ]
+   },
+   "K6": {
+    "contextos": 96,
+    "L_K1_hex": "0x1.b8c3b85c299c6p-3",
+    "G_hi_exacto": "-758281298982359/18014398509481984",
+    "afirmaciones": [
+     "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+     "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+    ]
+   }
+  },
+  "U_C2_hex": "0x1.628ed46d42e18p-3",
+  "U_C2_exacto": "779681131038147/4503599627370496",
+  "eps": "1/100",
+  "contextos": {
+   "suma_tamanos_grupo": 2304,
+   "union_efectiva": 1920,
+   "antes_dedup_doce": 4608,
+   "inclusiones": {
+    "K5": [
+     "K1",
+     "K3"
+    ],
+    "K6": [
+     "K2",
+     "K4"
+    ]
+   }
+  },
+  "libro": "review_20261108_rem170_B2_COV12_aceptada.json",
+  "libro_sha256": "d53bbe822a4df76f57e2826da6786914338dff15671a72d73521f2ee848c80cd",
+  "nota": "doce afirmaciones en seis grupos G/N con soportes solapados; no son doce observaciones independientes; la prueba es la cota global B1+B2, no el cambio de signo de los testigos"
+ },
+ "derivado_de": {
+  "area": "@@R_BS2@@\\tmp\\paso4_correcciones_sintesis_exp8_desde_rem160",
+  "inventario_sha256": "3bcebf129042e5006519de16ca205d21cc07db8c5c6a189e4a5abd365cccc4de",
+  "resumen_sha256": "1dc9d778b6dcaec13d5f19c8cf9fb8e447e15dc65a1752e13f912da892ea2751",
+  "filas_sha256": "816209e40007471265f0a06e529d1d30ed60ca80d445594ce43b57bbdede113f",
+  "nota": "fuente histórica de la base; las claves no declaradas en el esquema son idénticas a las del resumen rem160"
+ },
+ "cotejos_esperados_del_encargo": {
+  "padre_1712_inconclusas_16_robustas": true,
+  "categorias_1524_188_16": true,
+  "ENF_1712_preservadas_16_no_decididas": true,
+  "COV_1700_preservadas_12_robust_infeasible_16_no_decididas": true,
+  "COV_historico_sin_cambios": true,
+  "Q_1712_preservadas_16_refutadas_ambas_versiones": true,
+  "COV_20_cambios_de_signo_8_preservadas_12_resueltas": true,
+  "P7_siete_una_vez_cuatro_unidades": true,
+  "posiciones_3456_3449_7": true,
+  "ENF_descompuestas_1705": true,
+  "doce_en_seis_grupos_2304_1920_4608": true,
+  "nota": "valores comparados con los recuentos DERIVADOS de las filas; no se escriben en las filas"
+ },
+ "filas_sha256": "b4abf72c532431b6f2d221d2f354e5f0f34de04fc75e3d9b6e7f255e47bb6276",
+ "utc": "2026-11-08T12:17:17.004619+00:00"
+}

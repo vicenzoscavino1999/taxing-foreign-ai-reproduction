@@ -1,0 +1,115 @@
+{
+ "campos_de_ubicacion": [
+  "fingerprint.executable.path",
+  "fingerprint.executable.base_path",
+  "fingerprint.packages.*.record_sha256 -> record_sin_lanzadores_sha256 (RECORD sin las líneas ../../Scripts/*.exe)",
+  "fingerprint_sha256 (derivado del fingerprint completo)"
+ ],
+ "descripcion": "Proyección F2 (candidata) del documento de entorno de la tupla S6 admitida: el documento completo, cuyo sha256(canon + salto) es environment_sha256, se regeneró con el venv histórico que lo produjo y se comprobó contra la tupla admitida; aquí se guarda sin los campos que dependen de la ubicación.",
+ "environment_sha256_admitido": "41b467a1cf2a28b3a3b0dcbacaa3da9e84352d37837d13e2c3aa2638046881c4",
+ "proyeccion": {
+  "approved": {
+   "lock_path": "environment/sucesor_b3/integracion/requirements.lock",
+   "lock_sha256": "942a4138192e12eb149343fbf12e1b0856591094ba0da4e28dfc97d4a1c28a2f",
+   "manifest_path": "environment/sucesor_b3/integracion/environment_manifest.json",
+   "manifest_sha256": "a44e3c8e93be710e1451bcb72f0920c6a84a1bcb1ee6e4be82ebfad2f0e4b90a"
+  },
+  "conforms": true,
+  "fingerprint": {
+   "architecture": "AMD64-64bit",
+   "blas": {
+    "dynamic_arch": true,
+    "implementation": "OpenBLAS",
+    "integer_width": "ILP64",
+    "max_threads": 24,
+    "version": "0.3.27"
+   },
+   "executable": {
+    "base_sha256": "fd5c46d73d29ba21b04c844bbaf9096066136526911230645a2a040d23fb612b",
+    "runtime_dll_sha256": "21700f0bad5769a1b61ea408dc0a140ffd0a356a774c6eb0cc70e574b929d2e2",
+    "sha256": "41123879d2e991377997acadf5f0cf8f34fa10d86362eded8c69b6041e2893b5"
+   },
+   "hash_seed": "0",
+   "lapack": {
+    "dynamic_arch": true,
+    "implementation": "OpenBLAS",
+    "integer_width": "ILP64",
+    "max_threads": 24,
+    "version": "0.3.27"
+   },
+   "locale": "C",
+   "numpy_version": "2.0.2",
+   "packages": {
+    "et_xmlfile": {
+     "archive_sha256": "7a91720bc756843502c3b7504c77b8fe44217c85c537d85037f0f536151b2caa",
+     "record_sin_lanzadores_sha256": "b94ab53532ff5004861c8a44d9ac5897c3c5eccd624b1294bb9828f8adf6b4b2",
+     "version": "2.0.0"
+    },
+    "numpy": {
+     "archive_sha256": "cfd41e13fdc257aa5778496b8caa5e856dc4896d4ccf01841daee1d96465467a",
+     "record_sin_lanzadores_sha256": "03a65672b206a5bda135391a41f071863e821a262f2d06c5e4ac1b909300ebc5",
+     "version": "2.0.2"
+    },
+    "openpyxl": {
+     "archive_sha256": "5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2",
+     "record_sin_lanzadores_sha256": "5e3772fb1b85bb7eeb4e4fecd0424578c99ac4620703d7906378af756b19b4ec",
+     "version": "3.1.5"
+    },
+    "pandas": {
+     "archive_sha256": "d187d355ecec3629624fccb01d104da7d7f391db0311145817525281e2804d23",
+     "record_sin_lanzadores_sha256": "73d5282742c5b0ed797a85f5bd032507e24456fd24efd7062a3ac0947c9df80b",
+     "version": "2.2.2"
+    },
+    "pip": {
+     "archive_sha256": "382ff9f685ee3bc25864f820aa50505825f10f5458ffff07e30a6d96e5715cab",
+     "record_sin_lanzadores_sha256": "b60f9a7029fb904354354fbb778fe88d81df97a2713fa25152099bc7715b19c7",
+     "version": "26.1.2"
+    },
+    "pymupdf": {
+     "archive_sha256": "d20f68ef15195e073071dbc4ae7455257c7889af7584e39df490c0a92728526e",
+     "record_sin_lanzadores_sha256": "2ea1c7cbcd127cd177cc7657cd36c0b054c70196dd7767dd0f92f920b6a40191",
+     "version": "1.27.2.3"
+    },
+    "python-dateutil": {
+     "archive_sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427",
+     "record_sin_lanzadores_sha256": "c118bb81006472bdae8fd4fbd5515649a9482943610ea251e2934f3b09570cd4",
+     "version": "2.9.0.post0"
+    },
+    "pytz": {
+     "archive_sha256": "dd95840dd199baea12d9cc096a1d452caa6596a1c1e4b5f3dbd1541855d5e815",
+     "record_sin_lanzadores_sha256": "34b5e77aa6cb69ee07d48e6ab04873be7e31405fd39cc04c46c6a09dce0ddf57",
+     "version": "2026.3.post1"
+    },
+    "six": {
+     "archive_sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+     "record_sin_lanzadores_sha256": "755815113fb41ff22768701f473523972ac68e7ae8c3d05cbfe034fc0887d228",
+     "version": "1.17.0"
+    },
+    "tzdata": {
+     "archive_sha256": "dc096730c87af6cab1b171c9d532be840741ff5d459015e7f6947bd7d7e54931",
+     "record_sin_lanzadores_sha256": "e609b523a609a8f358c20a6b7b509021a8027157a2d01f8d74c2d225c51df15e",
+     "version": "2026.3"
+    }
+   },
+   "pip_version": "26.1.2",
+   "platform": "Windows-11-build-26200",
+   "python_implementation": "CPython",
+   "python_version": "3.12.4",
+   "schema": "paper2b-environment-fingerprint-v1",
+   "thread_policy": {
+    "BLIS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+   },
+   "timezone": "UTC"
+  },
+  "mismatches": [],
+  "note": "evidencia de entorno; conforms=false significa que NO es el entorno aprobado (desarrollo)",
+  "schema": "paper2b-environment-fingerprint-v1"
+ },
+ "proyeccion_sha256": "b6db2964e04dcd0de2d6574ce9b218d05625454ab5faef08ab719585d33e9f01",
+ "regla": "F2-CANDIDATA-ENTORNO-PORTABLE-v1 (propuesta; NO adoptada; no sustituye DR-1). Un entorno nuevo E' es equivalente al entorno E de la tupla S6 admitida si: (1) entorno.assessment de E' con el perfil aprobado da conforms = true y mismatches = [] (Python, plataforma validada, arquitectura, pip, BLAS/LAPACK, hilos, locale, zona horaria, semilla, versión y sha256 de archivo de cada paquete del lock y ningún paquete fuera de él); y (2) su documento de entorno es IDÉNTICO al de E salvo los campos de ubicación: rutas del intérprete del venv y del intérprete base (sus sha256 se conservan) y, en el RECORD de cada paquete, las líneas de los lanzadores Scripts/*.exe, que contienen la ruta absoluta del intérprete. Se exige la huella real de E' (environment_sha256 de su ejecución, sin copiar la de E) y no cambia ninguna tolerancia ni otro requisito de DR-1."
+}

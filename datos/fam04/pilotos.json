@@ -1,0 +1,42 @@
+{
+ "pilotos": [
+  {
+   "clave": "G|df",
+   "cobertura": "frontera completa: 25 nodos de malla (frontier_n = 4) con sus filas laterales si hay kink",
+   "tarea": "L1-ELAST",
+   "unidad": "FRN:09c72876468fe62aaf395071c1c2825d22435ff9"
+  },
+  {
+   "cobertura": "conjunto completo: variantes con y sin, testigos de máximo y mínimo y todos los estados nacionales del anexo; en la variante sin, el testigo de λ_max del manifiesto está en la frontera θ_W = 0",
+   "pais": "PER",
+   "tarea": "L1-LAMBDA",
+   "unidad": "PER-E1.macro"
+  },
+  {
+   "celdas_padre": [
+    "03dbf7641298b854a760ee15dc5572e3871d998e27b95ed4056267b2c76fa46b",
+    "0ddea17623fad036db893384b61036e2c360718f409f4e579aa12d98ccac560e",
+    "0de5e0de4d64f58062265176b2203384c7888f04c038053ae5b9e03704d70a45",
+    "1233f52733bb4e2d62170b1331d5a8f28d51ec2db537af231869a387594ab3a5",
+    "211e5be56be1e1d5af39c2bff02da4be545610298d15a1af1b000f19774a337d",
+    "2ce553c93009835f4ccbc237e44f45385ee42908bc5f794b3e0b269528d7f724",
+    "55c0c37df08bf105e0c6826d81a3457570143627c1fb6b39bf3a0b5a1214b5be",
+    "598adb448357d690938d29929bc223cd03fce20510da69234e28af44db4b2082",
+    "5ed4209544756606adbd3bdc202d1c9bff9566a3f02b3c59c24ca8f3842fbce8",
+    "7a95425aa59d21d62e91313ad3b08f8cd0a2c5ded2cd4f32ff50078f46a26a9c",
+    "7af1f4046bd8b400e8c52524d2b541f4d32e379f6652da6e46fcc0cb8c1ba977",
+    "b1ffdc54ca7adbf78c5d68a29e78236d7902687c4eaf524bb52a52a63d122227",
+    "cd5cae8540d2cf7a463c806f16dea8a46b531665652920533d1fdec86d077347",
+    "dd471e4872f6daca9568a9d1f39032d3740b91c13a65c1922760df695003c38a",
+    "ee111a2d4110204cedeaff4c9d66c16d50b0d7306fde69a6763c387ee8bc38b7",
+    "fa8f8dbcfa99f958fa9c829799c8e8c126728f79feaebb1d8ae950a5cb344629"
+   ],
+   "cobertura": "clave completa: un techo C2' sobre todo su dominio τ y las comparaciones de sus 16 celdas padre",
+   "diseno": "N",
+   "j": "df",
+   "tarea": "L1-COORD",
+   "unidad": "19dabac4b3fe72f8"
+  }
+ ],
+ "regla": "fijados por identificador desde el MANIFIESTO (entrada), antes de calcular y sin mirar resultados: ELAST, la primera frontera bidimensional (dimension_malla = 2: τ_d y τ_f); LAMBDA, el primer conjunto nacional; COORD, la primera clave transformada con j = df (dominio τ bidimensional) en el orden de las celdas del manifiesto"
+}

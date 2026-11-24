@@ -1,0 +1,618 @@
+{
+ "etiqueta": "LISTA CANDIDATA R3 — PROPUESTA NO ADOPTADA (convención B + NA en N_h); SIN sello de selección y SIN lanzamiento",
+ "estado": "provisional: depende de las decisiones reservadas D2/D3 (convención A/B y NA); no es la selección oficial",
+ "regla": "SEL-PASO4-B-v2 §2.7 (q_h = 0,05·N_h; n = ⌈Σ q_h⌉; resto mayor con desempate por sha256('SEL-PASO4-B-v2|repro|'+h); dentro del estrato, menor sha256('SEL-PASO4-B-v2|repro|'+h+'|'+cell_id_B))",
+ "comprobaciones": {
+  "marco": 536,
+  "numericas": 371,
+  "no_aplicables": 165,
+  "estratos": 169,
+  "estratos_cerrados_en_la_preparacion": 169,
+  "n_recalculado": 27,
+  "n_preparado": 27,
+  "n_h_igual_al_preparado": true,
+  "orden_B_igual_al_preparado": true,
+  "lista": 27,
+  "estratos_con_1_o_mas": 26,
+  "duplicadas": 0,
+  "fuera_del_marco": [],
+  "solape_con_R2_contractual_B": 0,
+  "solape_con_R2_contractual_A": 0,
+  "solape_con_R2_e12": 0,
+  "solape_marco_R2_e12": 0,
+  "no_aplicables_en_la_lista": 5,
+  "por_familia": {
+   "S3": 2,
+   "S2": 25
+  },
+  "contratos_en_la_lista": {
+   "v3": 27
+  },
+  "incluye_la_unidad_de_la_variante": false,
+  "propuesta_B_C1_C6": true,
+  "alternativas_solo_tamano_y_solape": {
+   "A_con_NA": {
+    "n": 27,
+    "comunes_con_B_con_NA": 9
+   },
+   "B_sin_NA": {
+    "n": 19,
+    "comunes_con_B_con_NA": 12
+   },
+   "A_sin_NA": {
+    "n": 19,
+    "comunes_con_B_con_NA": 2
+   }
+  },
+  "cumple": true
+ },
+ "unidades": [
+  {
+   "unidad": "S3:P1-PER-N-f-1",
+   "fila": "S3:P1-PER-N-f-1",
+   "familia": "S3",
+   "estrato": "S3",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "057913d46102b3d50619599c30f9b292f3079ecc26a6cbf27e8b3d24c4418f08",
+   "cell_id_B": "343aebbcf068f2a02bfc80e58a13ad341636d980ce6e444982694166deb65554",
+   "cell_id_A": "35fb9689ee4456e83641ff13c7654ec156dad0c264513fc978cca5c6e7506410",
+   "cell_id_e12": "CEL:0c56491ecea4cba5669ca94d88b807f7120ae8f9cd42",
+   "numerico": true,
+   "contrato": "v3",
+   "lote_original": "rem-lima1533",
+   "registro": {
+    "pared_s": 352.05,
+    "cpu_s": 336.66,
+    "techo_s": 0.066,
+    "macro_s": 231.935,
+    "resto_celda_s": 120.003
+   }
+  },
+  {
+   "unidad": "S3:P1-PER-G-df-0",
+   "fila": "S3:P1-PER-G-df-0",
+   "familia": "S3",
+   "estrato": "S3",
+   "rango_en_el_estrato": 1,
+   "hash_de_orden": "111244c11429a95c5fe128693c10a017c4cfd0212522c489bc6a6931a814a843",
+   "cell_id_B": "49d3e35feb27b1cc0564ac68d6cf70f6e035d7c8a26e0a94db31ac4018bd5088",
+   "cell_id_A": "d4fb27fb0d552d7aa0a146190836d12d1b3008ed9c7e3d45da6f00aa5bc44666",
+   "cell_id_e12": "CEL:963654f3cc052594f6532650da991c23a8f0696e647b",
+   "numerico": true,
+   "contrato": "v3",
+   "lote_original": "rem-lima1855",
+   "registro": {
+    "pared_s": 521.68,
+    "cpu_s": 519.5,
+    "techo_s": 1.384,
+    "macro_s": 129.329,
+    "resto_celda_s": 390.932
+   }
+  },
+  {
+   "unidad": "S2:61848836758cc95f:1",
+   "fila": "S2:61848836758cc95f:1",
+   "familia": "S2",
+   "estrato": "[\"CMP-E1.macro\", \"COL\", \"G\", \"df\", \"sin_addback\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "0cee28e295cd8952c2fe6dd5617b5a5b277e74814d040e0862de59d94af2133f",
+   "cell_id_B": "2372e137ccfde8e033bec3689c68146f4efeefe93cc688d10d062ba5a7e3ce89",
+   "cell_id_A": "b382f0a23466a7eb22955b6f4f36f3b4768f0af52d24879c94892c36bd235e7a",
+   "cell_id_e12": "CEL:88f2e7d49a437573d1c2340d9610b74af2f8171bbf40",
+   "numerico": false,
+   "contrato": "v3",
+   "lote_original": "rem-lima1855",
+   "registro": {
+    "pared_s": 0.1,
+    "cpu_s": 0.08,
+    "techo_s": 0.0,
+    "macro_s": 0.031,
+    "resto_celda_s": 0.0
+   }
+  },
+  {
+   "unidad": "S2:5ec593aaf0eb801d:0",
+   "fila": "S2:5ec593aaf0eb801d:0",
+   "familia": "S2",
+   "estrato": "[\"CMP-E1.macro\", \"COL\", \"G\", \"f\", \"sin_addback\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "61a4fe09e414e78bf9e17d3b818ce70c4ee1ae9247845d334f67421d2e884d73",
+   "cell_id_B": "9eaf1e9bc00533f0ceb8030665f272b84830bfe06e0ffcf74891001bd9a10e82",
+   "cell_id_A": "2460df29196c614129bfbd8dd61f40dc4d288d4d5e378b3d67c454bc029f40e7",
+   "cell_id_e12": "CEL:511a98ce38c80cb3f2acf8d746503b2afa4353c2be8d",
+   "numerico": true,
+   "contrato": "v3",
+   "lote_original": "rem-lima0200",
+   "registro": {
+    "pared_s": 172.68,
+    "cpu_s": 171.08,
+    "techo_s": 0.098,
+    "macro_s": 138.753,
+    "resto_celda_s": 33.78
+   }
+  },
+  {
+   "unidad": "S2:800cc95239532b15:2",
+   "fila": "S2:800cc95239532b15:2",
+   "familia": "S2",
+   "estrato": "[\"CMP-E1.macro\", \"COL\", \"N\", \"d\", \"sin_addback\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "0d14037d3cbf5acd6a9d4bbef775e7829ac484795ac324f842b321410ff56877",
+   "cell_id_B": "43d07aee8d66760f1b5e5c59856aea4ddc119ba401d200e34bddad7cb49cb679",
+   "cell_id_A": "38b2df1300110b148d9413d23d20e874c2b3c61c9db725b977713d523744a35d",
+   "cell_id_e12": "CEL:fa860a073c9464fb28da51b6f8f3cad951e0a6903d92",
+   "numerico": true,
+   "contrato": "v3",
+   "lote_original": "rem-lima0200",
+   "registro": {
+    "pared_s": 131.38,
+    "cpu_s": 130.78,
+    "techo_s": 0.488,
+    "macro_s": 130.852,
+    "resto_celda_s": 0.0
+   }
+  },
+  {
+   "unidad": "S2:306ff8f9bf7434da:0",
+   "fila": "S2:306ff8f9bf7434da:0",
+   "familia": "S2",
+   "estrato": "[\"CMP-E1.macro\", \"COL\", \"N\", \"df\", \"sin_addback\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "52b8a82475d1905bf6cfae97dac416012809159df73dd88103d83ed55e4281f4",
+   "cell_id_B": "7319686a517980d98bb179f806c3b86e092c974929bdccd3b231268ee7d7b59d",
+   "cell_id_A": "7319686a517980d98bb179f806c3b86e092c974929bdccd3b231268ee7d7b59d",
+   "cell_id_e12": "CEL:351301eba058ce473957e1e3a941e1250a3361ad44f6",
+   "numerico": false,
+   "contrato": "v3",
+   "lote_original": "rem-lima1855",
+   "registro": {
+    "pared_s": 0.06,
+    "cpu_s": 0.06,
+    "techo_s": 0.0,
+    "macro_s": 0.017,
+    "resto_celda_s": 0.0
+   }
+  },
+  {
+   "unidad": "S2:c7e80942cfd4687e:2",
+   "fila": "S2:c7e80942cfd4687e:2",
+   "familia": "S2",
+   "estrato": "[\"CMP-E1.macro\", \"MEX\", \"N\", \"d\", \"sin_addback\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "2ddc5c27502a9d99524a79e462a3ba74c6a0cb4e5530f05ee4aacfd94ee0df9e",
+   "cell_id_B": "10259463badd954bc9a7b4f7cb2027980d0c7b74281e538840debe2f8154c9aa",
+   "cell_id_A": "ae9af5c9c3c954c091b6d31a6fadab012fbac495e83587fd6286cd81014aadb8",
+   "cell_id_e12": "CEL:a1f1cc4d7cdd291a996cf91b8e41c448bc56e5fe4ba0",
+   "numerico": true,
+   "contrato": "v3",
+   "lote_original": "rem-lima1324",
+   "registro": {
+    "pared_s": 3.27,
+    "cpu_s": 3.27,
+    "techo_s": 3.21,
+    "macro_s": 0.017,
+    "resto_celda_s": 0.001
+   }
+  },
+  {
+   "unidad": "S2:f0ecefec1f01fedf:0",
+   "fila": "S2:f0ecefec1f01fedf:0",
+   "familia": "S2",
+   "estrato": "[\"CMP-E1.macro\", \"PER\", \"N\", \"f\", \"addback_completo\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "1da31c0fbaef5d92ea746712de0a3bd55d1e55ceb0ed3f1dd74ab2bc4cec3d68",
+   "cell_id_B": "dbfa846b14270b939ce79b3aed5b0156cdbb2312be5b13f9947091cdcf8c64d2",
+   "cell_id_A": "bb39be5afd8cb3c25b49458d0ff736facba566a324fbf1955bd4c997b9ec85c6",
+   "cell_id_e12": "CEL:2dff8c364690ac8b1c8d8d5dddfaafe2ed019c556303",
+   "numerico": true,
+   "contrato": "v3",
+   "lote_original": "rem-lima1855",
+   "registro": {
+    "pared_s": 241.44,
+    "cpu_s": 240.39,
+    "techo_s": 0.104,
+    "macro_s": 152.119,
+    "resto_celda_s": 89.156
+   }
+  },
+  {
+   "unidad": "S2:47d5ec4a82c442fb:1",
+   "fila": "S2:47d5ec4a82c442fb:1",
+   "familia": "S2",
+   "estrato": "[\"CMP-E1.micro\", \"COL\", \"G\", \"df\", \"addback_completo\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "00d3e55c203a54f9fb64722e2ab2097a5f72bac7a294b1dce78ca9ec925d1dd7",
+   "cell_id_B": "ead4bef3e350a5ff002c76a2ab25390a4d3487f4b8ec7af160970cb17dad33f8",
+   "cell_id_A": "51bcebf4ffd1fa54bae337062d19c1ce0c97a21d59959785398e3d12c1a8309e",
+   "cell_id_e12": "CEL:3739fa8c73280756ad80d5e791ee74687a3cd0d705b3",
+   "numerico": false,
+   "contrato": "v3",
+   "lote_original": "rem-lima1855",
+   "registro": {
+    "pared_s": 0.06,
+    "cpu_s": 0.06,
+    "techo_s": 0.0,
+    "macro_s": 0.02,
+    "resto_celda_s": 0.0
+   }
+  },
+  {
+   "unidad": "S2:fd55d9b890f75895:1",
+   "fila": "S2:fd55d9b890f75895:1",
+   "familia": "S2",
+   "estrato": "[\"CMP-E1.micro\", \"COL\", \"N\", \"f\", \"addback_completo\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "3155e2dd06e3218dfa762540d3ae5545cf3d461d4ae916dd22dd0fc99f2eebf7",
+   "cell_id_B": "5e0b99680be3cece586d8ea2f7b9fea4e56d1172c7d7646e58def44a89005f8b",
+   "cell_id_A": "5a1fe05b667a78bab07b583d7fbbae5d0a265490304a58331170a0c84667185a",
+   "cell_id_e12": "CEL:f2227a33f9adad2d1ede3a55737d7182eef29a58c091",
+   "numerico": true,
+   "contrato": "v3",
+   "lote_original": "rem-lima2213",
+   "registro": {
+    "pared_s": 264.14,
+    "cpu_s": 261.78,
+    "techo_s": 0.193,
+    "macro_s": 143.896,
+    "resto_celda_s": 120.009
+   }
+  },
+  {
+   "unidad": "S2:30c4012d8bec9fcf:2",
+   "fila": "S2:30c4012d8bec9fcf:2",
+   "familia": "S2",
+   "estrato": "[\"CMP-E1.micro\", \"MEX\", \"G\", \"d\", \"sin_addback\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "7101eee7109fd6dec0457f5a1aa3e4f36f6ab8d80a892cd20d7605b7340b50e2",
+   "cell_id_B": "ea61b538e96012517607d20d5c75fad72526943a9ce76dad2b25ff43fcfecd4c",
+   "cell_id_A": "8e11f846ef0daeb58718986e6db587546e46e02850568f66a0172fc4fb41df0e",
+   "cell_id_e12": "CEL:d057b529c199bbfc284b7973312fb8d091fc4d3c62d4",
+   "numerico": true,
+   "contrato": "v3",
+   "lote_original": "rem-lima1855",
+   "registro": {
+    "pared_s": 155.42,
+    "cpu_s": 154.66,
+    "techo_s": 2.106,
+    "macro_s": 153.273,
+    "resto_celda_s": 0.001
+   }
+  },
+  {
+   "unidad": "S2:93fbf35867d38bd7:2",
+   "fila": "S2:93fbf35867d38bd7:2",
+   "familia": "S2",
+   "estrato": "[\"CMP-E1.micro\", \"MEX\", \"N\", \"df\", \"addback_completo\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "4e89adfa71497a7ff2f56585068ef67153c6d0183810ff96aa80de83b6d096e2",
+   "cell_id_B": "6b6e8e5fd2d842384b1e1e99d1a1cf7f4ba512b28b2f5bd56f48967f4af11ce6",
+   "cell_id_A": "030ed4bc920fc2fd69ecb49a508660451a3297852680cded5adeea92ab6d87fc",
+   "cell_id_e12": "CEL:a9094c3392321fb54331871bfeaa27b8925bfd5dda80",
+   "numerico": true,
+   "contrato": "v3",
+   "lote_original": "rem-lima2213",
+   "registro": {
+    "pared_s": 478.94,
+    "cpu_s": 460.22,
+    "techo_s": 113.701,
+    "macro_s": 244.857,
+    "resto_celda_s": 120.29
+   }
+  },
+  {
+   "unidad": "S2:025e0f5007f04a2c:2",
+   "fila": "S2:025e0f5007f04a2c:2",
+   "familia": "S2",
+   "estrato": "[\"CMP-E1.micro\", \"MEX\", \"N\", \"f\", \"addback_completo\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "4b3ea03dd3fcb09b65dfe19e03fd362d27e379d5a10c77daddba62af37d89062",
+   "cell_id_B": "e985b5fa741d0b466542cb37a37b4a8a0a71771e175d26455e16a481f9b6c8d6",
+   "cell_id_A": "bbea575c11fa3fdc8022e6887c04737084b75bbe2e2eb96be0207f5dbcfc2c8a",
+   "cell_id_e12": "CEL:fc77fe5aff54a92f737ab05c556d1a51fa3c6bccfca5",
+   "numerico": true,
+   "contrato": "v3",
+   "lote_original": "rem-lima1009",
+   "registro": {
+    "pared_s": 280.14,
+    "cpu_s": 278.7,
+    "techo_s": 0.179,
+    "macro_s": 159.902,
+    "resto_celda_s": 120.006
+   }
+  },
+  {
+   "unidad": "S2:92cffe8233af11bf:0",
+   "fila": "S2:92cffe8233af11bf:0",
+   "familia": "S2",
+   "estrato": "[\"CMP-E1.micro\", \"PER\", \"N\", \"d\", \"sin_addback\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "14c1289290d103477a78e23d972d4728c297691e7f14d383f90b028f63cdd321",
+   "cell_id_B": "ff15ae1f998a91193d3ac2fd8c506217fcefbec9823cdb124e96a63278101514",
+   "cell_id_A": "0710b010ae1a7562e617949cad4bbe476cd1b581523be0d377e99e20d018fad1",
+   "cell_id_e12": "CEL:c38d2f3a87347fcc8858139ddbcd27ad999b7d045e79",
+   "numerico": true,
+   "contrato": "v3",
+   "lote_original": "rem-lima2213",
+   "registro": {
+    "pared_s": 132.88,
+    "cpu_s": 132.45,
+    "techo_s": 1.137,
+    "macro_s": 131.684,
+    "resto_celda_s": 0.016
+   }
+  },
+  {
+   "unidad": "S2:ac39ab642995deca:2",
+   "fila": "S2:ac39ab642995deca:2",
+   "familia": "S2",
+   "estrato": "[\"COL-E2-2023.2023p.macro\", \"COL\", \"N\", \"d\", \"addback_completo\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "9c9eeee38aef87a624a46781610c9e88e395f10874a9aee1189cf0394869d475",
+   "cell_id_B": "5a0df43a7a57bbc2de40017261b0a594871a48b140d0fa7a6036f39901858947",
+   "cell_id_A": "3a09af738ba44e051409fbffa6336401029315e80da61c04701dea59b94a8bbc",
+   "cell_id_e12": "CEL:4b38f9d3a14e010467849a2df0fad14762b5fb819a4d",
+   "numerico": true,
+   "contrato": "v3",
+   "lote_original": "rem-lima2213",
+   "registro": {
+    "pared_s": 1.71,
+    "cpu_s": 1.7,
+    "techo_s": 1.644,
+    "macro_s": 0.002,
+    "resto_celda_s": 0.0
+   }
+  },
+  {
+   "unidad": "S2:0b37095cd76e955a:2",
+   "fila": "S2:0b37095cd76e955a:2",
+   "familia": "S2",
+   "estrato": "[\"COL-E2-2023.2023p.micro\", \"COL\", \"G\", \"df\", \"sin_addback\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "c4d3eb294c17a243a126e92ca3e6d3c662e2ca5668a237b90276a9b0bcbdaa9c",
+   "cell_id_B": "d5d701e6e9b7260703e46ebc43dca93e064ba1e12230599013a1326928c1df82",
+   "cell_id_A": "9798a67fd55e537b5b359d5bac47ffc3fc6f2cff6918a9d21b474bd3ce2579a6",
+   "cell_id_e12": "CEL:445e14105092110e4a439751e0b5a325efc189c6eb63",
+   "numerico": true,
+   "contrato": "v3",
+   "lote_original": "rem-lima0200",
+   "registro": {
+    "pared_s": 129.33,
+    "cpu_s": 127.7,
+    "techo_s": 8.874,
+    "macro_s": 0.366,
+    "resto_celda_s": 120.049
+   }
+  },
+  {
+   "unidad": "S2:e1dfc15eee4185a6:0",
+   "fila": "S2:e1dfc15eee4185a6:0",
+   "familia": "S2",
+   "estrato": "[\"COL-E2-2023.2023p.micro\", \"COL\", \"G\", \"f\", \"addback_completo\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "0d95a19004de9481e8a6712bb37157763f4c6016fc0ac9e4a46844af608fc161",
+   "cell_id_B": "69335ca2fcde88e35df245dc394f4dc29479c35fd451c74993189d2fdf25c979",
+   "cell_id_A": "b253b1310d008ab6bc7a52b5aafa088d9988af9a3f725e119b2d741f9be872ea",
+   "cell_id_e12": "CEL:29f3101a6e8798896b0824dfd8eb53a9eab352456b2f",
+   "numerico": true,
+   "contrato": "v3",
+   "lote_original": "rem-lima1855",
+   "registro": {
+    "pared_s": 120.91,
+    "cpu_s": 119.2,
+    "techo_s": 0.166,
+    "macro_s": 0.635,
+    "resto_celda_s": 120.029
+   }
+  },
+  {
+   "unidad": "S2:57fbf4daac6cf5cd:0",
+   "fila": "S2:57fbf4daac6cf5cd:0",
+   "familia": "S2",
+   "estrato": "[\"COL-E2-2023.2024p.micro\", \"COL\", \"N\", \"d\", \"addback_completo\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "221a5c49e71ced86f0a35f979b9481d9403fb50aa98e32636d4bdedf434c8d43",
+   "cell_id_B": "ebb2d1d812b7f8ffa38245c2476f16531f6b7cced498276116b9ae29a6446e2e",
+   "cell_id_A": "42b778cd17a75fbf716b012b788c1af77f67f2436c3f4df1679ad2720c631171",
+   "cell_id_e12": "CEL:d34dd57240d525fe2939064ed669389217bd8da3a7b8",
+   "numerico": true,
+   "contrato": "v3",
+   "lote_original": "rem-lima1855",
+   "registro": {
+    "pared_s": 1.07,
+    "cpu_s": 1.09,
+    "techo_s": 1.028,
+    "macro_s": 0.0,
+    "resto_celda_s": 0.0
+   }
+  },
+  {
+   "unidad": "S2:6559e286451019fc:2",
+   "fila": "S2:6559e286451019fc:2",
+   "familia": "S2",
+   "estrato": "[\"PER-E0E3.macro\", \"PER\", \"G\", \"d\", \"sin_addback\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "082aa782476d2489de314e720044f5040770aa43fbb1b6d7cb89f79b78234a1c",
+   "cell_id_B": "354a91c0c711c603cddc1f14056659bc90ac547c05eac0ff4dda56cab2cd42bc",
+   "cell_id_A": "9555aa6d0485191f23608f3c85794362667c9163c04846f1348dbee2af2d3f54",
+   "cell_id_e12": "CEL:ff745edb1387924c2accd2078467994cd8ecc09cdfaf",
+   "numerico": true,
+   "contrato": "v3",
+   "lote_original": "rem-lima1738",
+   "registro": {
+    "pared_s": 3.0,
+    "cpu_s": 2.89,
+    "techo_s": 2.914,
+    "macro_s": 0.016,
+    "resto_celda_s": 0.0
+   }
+  },
+  {
+   "unidad": "S2:6a79ce0ff19f97a1:1",
+   "fila": "S2:6a79ce0ff19f97a1:1",
+   "familia": "S2",
+   "estrato": "[\"PER-E0E3.macro\", \"PER\", \"G\", \"f\", \"addback_completo\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "339f5ea142f4ab9b42d3bf49c7be0854a3671e0be06630fe6cea7002b576c279",
+   "cell_id_B": "740aee76302ab8fea7d5cb8a510e9233df5865cf06df5bdb42d95c52a86bcc4f",
+   "cell_id_A": "740aee76302ab8fea7d5cb8a510e9233df5865cf06df5bdb42d95c52a86bcc4f",
+   "cell_id_e12": "CEL:b04900f804056f13e9832c8dd817398ab7f2cdba9cf4",
+   "numerico": true,
+   "contrato": "v3",
+   "lote_original": "rem-lima1738",
+   "registro": {
+    "pared_s": 110.86,
+    "cpu_s": 110.44,
+    "techo_s": 0.066,
+    "macro_s": 0.0,
+    "resto_celda_s": 110.746
+   }
+  },
+  {
+   "unidad": "S2:94622ebbe718c0b3:1",
+   "fila": "S2:94622ebbe718c0b3:1",
+   "familia": "S2",
+   "estrato": "[\"PER-E0E3.macro\", \"PER\", \"G\", \"f\", \"sin_addback\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "6ca1a087088126f55fefb75136ffc0b9d9ce5715920454656ee9a2f1ebc4d5cc",
+   "cell_id_B": "82a0ac7174b88cf3987ba7465547f113825f022774682234c266c9475d231694",
+   "cell_id_A": "1b9db0223380d7360ee82990fee3c0decb4ca1f6c03a420b524f06d3988cda68",
+   "cell_id_e12": "CEL:b92dae22331b1562712c06c241011203785a83a68c74",
+   "numerico": false,
+   "contrato": "v3",
+   "lote_original": "rem-lima2213",
+   "registro": {
+    "pared_s": 0.06,
+    "cpu_s": 0.05,
+    "techo_s": 0.0,
+    "macro_s": 0.01,
+    "resto_celda_s": 0.0
+   }
+  },
+  {
+   "unidad": "S2:4780ca870be95c8d:2",
+   "fila": "S2:4780ca870be95c8d:2",
+   "familia": "S2",
+   "estrato": "[\"PER-E0E3.macro\", \"PER\", \"N\", \"df\", \"sin_addback\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "1b2cfed17c0d607432159fdd0634abd0c535c70b317bbd44976fc0b914edc3bc",
+   "cell_id_B": "f9fd25d5ecd722e8be9def41caa971409a16a4c1fb24b3abf416dbfd59219d11",
+   "cell_id_A": "f1b0f356fc848b0f108ef9a8beccae5b8ed2ad28ef265c650e4c5c5638303bd0",
+   "cell_id_e12": "CEL:a945597a187de8bb6f34ee056cc51e13242f3289cf4c",
+   "numerico": false,
+   "contrato": "v3",
+   "lote_original": "rem-lima2213",
+   "registro": {
+    "pared_s": 0.05,
+    "cpu_s": 0.05,
+    "techo_s": 0.001,
+    "macro_s": 0.01,
+    "resto_celda_s": 0.0
+   }
+  },
+  {
+   "unidad": "S2:f55078d9bc0a4585:2",
+   "fila": "S2:f55078d9bc0a4585:2",
+   "familia": "S2",
+   "estrato": "[\"PER-E0E3.micro\", \"PER\", \"N\", \"d\", \"addback_completo\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "2e76776a68f10c4f2e8dbaa6d6f9da88ed8ea5adb25c8af6982dcd8b632013d3",
+   "cell_id_B": "bba1a2ebb00947f8040e17387ef6ad1b146f5657d83fd4060cd046ac9f3e74a0",
+   "cell_id_A": "11544e5af19eb2b3e1d926d15c44378159c471de08bed60274586cad8de46ed4",
+   "cell_id_e12": "CEL:5f6ec05b3a28e4ec11438472ee4fcf16651cdca65d74",
+   "numerico": true,
+   "contrato": "v3",
+   "lote_original": "rem-lima1324",
+   "registro": {
+    "pared_s": 1.77,
+    "cpu_s": 1.78,
+    "techo_s": 1.704,
+    "macro_s": 0.016,
+    "resto_celda_s": 0.0
+   }
+  },
+  {
+   "unidad": "S2:a5d1035f1b379bb2:1",
+   "fila": "S2:a5d1035f1b379bb2:1",
+   "familia": "S2",
+   "estrato": "[\"PER-E0E3.micro\", \"PER\", \"N\", \"df\", \"sin_addback\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "4a6314fdb07cb2794682dd3c9e97d4d301fca5538f86b1f7aa8df453c01ba5aa",
+   "cell_id_B": "c179082b5a56267e7a476d50efe39e8f3a8542b5cc21347461b91be33608f7ff",
+   "cell_id_A": "c179082b5a56267e7a476d50efe39e8f3a8542b5cc21347461b91be33608f7ff",
+   "cell_id_e12": "CEL:14943dd2d9a19a21bdec5c22ea6bd95c75fff36427f8",
+   "numerico": true,
+   "contrato": "v3",
+   "lote_original": "rem-lima1855",
+   "registro": {
+    "pared_s": 107.19,
+    "cpu_s": 105.23,
+    "techo_s": 7.45,
+    "macro_s": 0.021,
+    "resto_celda_s": 99.674
+   }
+  },
+  {
+   "unidad": "S2:9c4aeddd04739e47:2",
+   "fila": "S2:9c4aeddd04739e47:2",
+   "familia": "S2",
+   "estrato": "[\"PER-E1.micro\", \"PER\", \"G\", \"f\", \"addback_completo\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "43c04adc704312704e250f2fdc46d4de4e9ee9f5d32479baf6bb564314d90b05",
+   "cell_id_B": "d1ee950830b13bf4c14d5e3a498fa1423e5fba10cb0fb03280c3017f6011616f",
+   "cell_id_A": "a978266d6fe5422e20fd5d42d3f27c4a7bcef6ecb549fe1fb715e417b925773f",
+   "cell_id_e12": "CEL:67e0e7c5ea01752012aea77d83656326b54a525559a6",
+   "numerico": true,
+   "contrato": "v3",
+   "lote_original": "rem-lima1855",
+   "registro": {
+    "pared_s": 175.53,
+    "cpu_s": 174.58,
+    "techo_s": 0.216,
+    "macro_s": 132.95,
+    "resto_celda_s": 42.311
+   }
+  },
+  {
+   "unidad": "S2:02193cdff172d31c:1",
+   "fila": "S2:02193cdff172d31c:1",
+   "familia": "S2",
+   "estrato": "[\"PER-E1.micro\", \"PER\", \"N\", \"d\", \"addback_completo\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "00e9ad96150a579479500c7fd1aafc67f625641a11375b493d117a0ac06c21cc",
+   "cell_id_B": "733e454672a0267751982ae7752e306f7f3801ce81acb35805cafb6e4691af92",
+   "cell_id_A": "2dba209d3843186ad6d87b7ba2e4ef258ad38a36b8f0ef2362f08ff250669811",
+   "cell_id_e12": "CEL:b66984646091b3936a3f6b7af7e05e223ecd01160fee",
+   "numerico": true,
+   "contrato": "v3",
+   "lote_original": "rem-lima1009",
+   "registro": {
+    "pared_s": 115.57,
+    "cpu_s": 115.19,
+    "techo_s": 3.129,
+    "macro_s": 112.411,
+    "resto_celda_s": 0.0
+   }
+  },
+  {
+   "unidad": "S2:3445f00ca86b3f40:1",
+   "fila": "S2:3445f00ca86b3f40:1",
+   "familia": "S2",
+   "estrato": "[\"PER-E1.micro\", \"PER\", \"N\", \"f\", \"sin_addback\"]",
+   "rango_en_el_estrato": 0,
+   "hash_de_orden": "329b9a1973b08a0e6e715a1da914ed8839787e8a312e3329ab131a0dc761ef35",
+   "cell_id_B": "95c51bc3fa915111e511a836064fe8f8b3d90ef6181af4dc29b3b9898225491c",
+   "cell_id_A": "6ba28d295bf78c3d968235fa40eab3e0da49624252c3efab5f2a7b4369f2394f",
+   "cell_id_e12": "CEL:0f28fff44d91f73fc0baed768e26fdd6bf1515f2c0d5",
+   "numerico": true,
+   "contrato": "v3",
+   "lote_original": "rem-lima1855",
+   "registro": {
+    "pared_s": 223.79,
+    "cpu_s": 223.2,
+    "techo_s": 0.138,
+    "macro_s": 117.099,
+    "resto_celda_s": 106.494
+   }
+  }
+ ]
+}

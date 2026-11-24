@@ -1,0 +1,266 @@
+{
+  "S1-G-d": {
+    "bound": "addback_completo",
+    "cell_id": "CEL:0a78787867a78d889ab438431aa38ac1f8f6daea79a8",
+    "dme_gai": "0",
+    "estado_nacional": {
+      "joint_domain_sha256": "b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151",
+      "primitive_values": [
+        {
+          "parameter_id": "COL_D2_2020_COL_2023_COE",
+          "value": "372488",
+          "value_unit": "COP"
+        },
+        {
+          "parameter_id": "COL_D2_2020_COL_2023_GOS",
+          "value": "319473",
+          "value_unit": "COP"
+        },
+        {
+          "parameter_id": "COL_D2_2020_COL_2023_MI",
+          "value": "193901",
+          "value_unit": "COP"
+        },
+        {
+          "parameter_id": "COL_D2_2020_COL_2023_PIB",
+          "value": "998471",
+          "value_unit": "COP"
+        },
+        {
+          "parameter_id": "COL_D2_2020_COL_2023_TAX_NET",
+          "value": "112609",
+          "value_unit": "COP"
+        },
+        {
+          "parameter_id": "COL_D6_2023_COL_2023_D21",
+          "value": "154642",
+          "value_unit": "COP"
+        },
+        {
+          "parameter_id": "COL_D6_2023_COL_2023_D211",
+          "value": "102414",
+          "value_unit": "COP"
+        },
+        {
+          "parameter_id": "COL_D6_2023_COL_2023_D29",
+          "value": "46954",
+          "value_unit": "COP"
+        },
+        {
+          "parameter_id": "COL_D6_2023_COL_2023_D31",
+          "value": "0",
+          "value_unit": "COP"
+        },
+        {
+          "parameter_id": "COL_D6_2023_COL_2023_D39",
+          "value": "-238",
+          "value_unit": "COP"
+        },
+        {
+          "parameter_id": "COL_D6_2023_COL_2023_PIB",
+          "value": "1584562",
+          "value_unit": "COP"
+        }
+      ]
+    },
+    "grid": {
+      "F_admin": "0.0012",
+      "F_fix": "0.0017073891487915632",
+      "F_fix_perp": "0.0016593891487914783",
+      "F_leak": "4.8e-05",
+      "F_trans": "0.0004593891487914784",
+      "Q_grid": "0.0112061558339798",
+      "cost_gross": "0.009046444462084",
+      "country_id": "COL",
+      "policy_variant_id": "PEN",
+      "regime_id": "r4",
+      "requirement_basis": "baseline",
+      "s_PB": "0.0",
+      "xi": "0.05"
+    },
+    "omega": {
+      "a": "1.1",
+      "bar_tau_d": "0.6",
+      "bar_tau_f": "0.6",
+      "beta_tilde": "0.25",
+      "c_legal": "1",
+      "eta_H": "-0.5",
+      "eta_d": "0.1",
+      "eta_f": "4.05",
+      "eta_w": "0.05",
+      "gain_share": "0.1",
+      "gamma": "1",
+      "kappa_tilde": "0.2",
+      "phi": "0.5",
+      "pi_iva": "0.5",
+      "pi_otros_productos": "0.5",
+      "pi_produccion": "0.5",
+      "rho": "1",
+      "t": "0",
+      "u_theta": "0.5",
+      "z_cost": "1",
+      "z_m": "1"
+    },
+    "omega_identidad": {
+      "scenario_id": "SCN:CMP-E1.micro",
+      "support_set_id": "CMP-E1.micro"
+    },
+    "procedencia": {
+      "contexto": "CUATRO_CELDAS_REM149_I2 1ac4ac8aaac2bd4b169e5c065a38e07a1ea4b7619e336a01c3b7ced71ba3f768 = MANIFIESTO_P7 rem153 f3d4a848f1ba88f30462877f130275ae3f2eb7d4587055d171277515decfaeeb",
+      "contrato_s6": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+      "d7_manifest": "9faf63c3ce96ec0e18b7cbf6235bdf21fc6e8bd18ce2ed054e3eb7f7b3a04ff9",
+      "dme_gai": "D7 parameter_bindings BND:CMP-E1.micro:DME_gAI:global = 0 (EV.DME); contexto_s6.py:127 dme_gai=0.0",
+      "estado_nacional": "NAT.Providers.national(CMP-E1.micro, COL) -> run.py:642-646; 1 de 9 estados",
+      "estado_nacional_meta": {
+        "anchor_year": 2020,
+        "channel": "conditional",
+        "country_id": "COL",
+        "edition": "pub",
+        "joint_domain_sha256": "b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151",
+        "label": "published_vector",
+        "preregistration_id": "PREG-COMPARACION-E1"
+      },
+      "metodo": "ligadura rem153 reutilizada para una celda de K1 reutilizado (extraccion/ligar_k1_reutilizados.py)",
+      "omega": "Run.omega_points(CMP-E1.micro, overrides=9 estructurales del padre I2) -> K.omega_id; 1 de 96 puntos",
+      "rejilla": "D7 external_grid fase5_cuantificacion/extraccion_grilla/grilla_efectiva.csv sha256 b94b9eedeea87d08071366e2bd8a5b7cd9662ce6f9fd9d7bee42848d6c4c5f90"
+    },
+    "shares": {
+      "s_L_bar": "372488/998471",
+      "s_bar_iva": "51207/792281",
+      "s_bar_otros_productos": "26114/792281",
+      "s_bar_produccion": "23358/792281"
+    }
+  },
+  "S1-N-f": {
+    "bound": "addback_completo",
+    "cell_id": "CEL:6f743e74b7814d1c1a4301a3801ebfa0192b39a53d0a",
+    "dme_gai": "0",
+    "estado_nacional": {
+      "joint_domain_sha256": "b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151",
+      "primitive_values": [
+        {
+          "parameter_id": "COL_D2_2023_COL_2023_COE",
+          "value": "524069",
+          "value_unit": "COP"
+        },
+        {
+          "parameter_id": "COL_D2_2023_COL_2023_GOS",
+          "value": "525308",
+          "value_unit": "COP"
+        },
+        {
+          "parameter_id": "COL_D2_2023_COL_2023_MI",
+          "value": "333827",
+          "value_unit": "COP"
+        },
+        {
+          "parameter_id": "COL_D2_2023_COL_2023_PIB",
+          "value": "1584562",
+          "value_unit": "COP"
+        },
+        {
+          "parameter_id": "COL_D2_2023_COL_2023_TAX_NET",
+          "value": "201358",
+          "value_unit": "COP"
+        },
+        {
+          "parameter_id": "COL_D6_2023_COL_2023_D21",
+          "value": "154642",
+          "value_unit": "COP"
+        },
+        {
+          "parameter_id": "COL_D6_2023_COL_2023_D211",
+          "value": "102414",
+          "value_unit": "COP"
+        },
+        {
+          "parameter_id": "COL_D6_2023_COL_2023_D29",
+          "value": "46954",
+          "value_unit": "COP"
+        },
+        {
+          "parameter_id": "COL_D6_2023_COL_2023_D31",
+          "value": "0",
+          "value_unit": "COP"
+        },
+        {
+          "parameter_id": "COL_D6_2023_COL_2023_D39",
+          "value": "-238",
+          "value_unit": "COP"
+        },
+        {
+          "parameter_id": "COL_D6_2023_COL_2023_PIB",
+          "value": "1584562",
+          "value_unit": "COP"
+        }
+      ]
+    },
+    "grid": {
+      "F_admin": "0.0012",
+      "F_fix": "0.0017073891487915632",
+      "F_fix_perp": "0.0016593891487914783",
+      "F_leak": "4.8e-05",
+      "F_trans": "0.0004593891487914784",
+      "Q_grid": "0.0112061558339798",
+      "cost_gross": "0.009046444462084",
+      "country_id": "COL",
+      "policy_variant_id": "PEN",
+      "regime_id": "r4",
+      "requirement_basis": "baseline",
+      "s_PB": "0.0",
+      "xi": "0.05"
+    },
+    "omega": {
+      "a": "1.1",
+      "bar_tau_d": "0.6",
+      "bar_tau_f": "0.6",
+      "beta_tilde": "2.125",
+      "c_legal": "1",
+      "eta_H": "-0.5",
+      "eta_d": "2.05",
+      "eta_f": "0.1",
+      "eta_w": "0.05",
+      "gain_share": "0.1",
+      "gamma": "1",
+      "kappa_tilde": "0.2",
+      "phi": "1",
+      "pi_iva": "0.5",
+      "pi_otros_productos": "0.5",
+      "pi_produccion": "0.5",
+      "rho": "1",
+      "t": "0",
+      "u_theta": "0.5",
+      "z_cost": "1",
+      "z_m": "1"
+    },
+    "omega_identidad": {
+      "scenario_id": "SCN:CMP-E1.micro",
+      "support_set_id": "CMP-E1.micro"
+    },
+    "procedencia": {
+      "contexto": "CUATRO_CELDAS_REM149_I2 1ac4ac8aaac2bd4b169e5c065a38e07a1ea4b7619e336a01c3b7ced71ba3f768 = MANIFIESTO_P7 rem153 f3d4a848f1ba88f30462877f130275ae3f2eb7d4587055d171277515decfaeeb",
+      "contrato_s6": "4d7e676a2156c7f83b231e812fa39afe417fb6057abb35083f80774fe15e3220",
+      "d7_manifest": "9faf63c3ce96ec0e18b7cbf6235bdf21fc6e8bd18ce2ed054e3eb7f7b3a04ff9",
+      "dme_gai": "D7 parameter_bindings BND:CMP-E1.micro:DME_gAI:global = 0 (EV.DME); contexto_s6.py:127 dme_gai=0.0",
+      "estado_nacional": "NAT.Providers.national(CMP-E1.micro, COL) -> run.py:642-646; 1 de 9 estados",
+      "estado_nacional_meta": {
+        "anchor_year": 2023,
+        "channel": "conditional",
+        "country_id": "COL",
+        "edition": "pub",
+        "joint_domain_sha256": "b2a90d7d89f12d4fd2b48a8af1b6e0fed5aca2cb46ee8d3a3db88cd742489151",
+        "label": "published_vector",
+        "preregistration_id": "PREG-COMPARACION-E1"
+      },
+      "metodo": "ligadura rem153 reutilizada para una celda de K1 reutilizado (extraccion/ligar_k1_reutilizados.py)",
+      "omega": "Run.omega_points(CMP-E1.micro, overrides=9 estructurales del padre I2) -> K.omega_id; 1 de 96 puntos",
+      "rejilla": "D7 external_grid fase5_cuantificacion/extraccion_grilla/grilla_efectiva.csv sha256 b94b9eedeea87d08071366e2bd8a5b7cd9662ce6f9fd9d7bee42848d6c4c5f90"
+    },
+    "shares": {
+      "s_L_bar": "74867/226366",
+      "s_bar_iva": "51207/792281",
+      "s_bar_otros_productos": "26114/792281",
+      "s_bar_produccion": "23358/792281"
+    }
+  }
+}

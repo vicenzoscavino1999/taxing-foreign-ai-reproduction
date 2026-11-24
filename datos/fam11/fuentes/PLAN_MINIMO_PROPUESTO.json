@@ -1,0 +1,604 @@
+{
+ "afirmaciones": 12,
+ "deduplicacion": {
+  "C2_por_clave_sup": {
+   "22d6a8dcf42be6fb": 0.1731239887088656,
+   "6072bd5d08a5a2b8": 0.1731239887088656
+  },
+  "K1_testigo_unico_por_grupo": true,
+  "claves_COV_sup": [
+   "22d6a8dcf42be6fb",
+   "6072bd5d08a5a2b8"
+  ],
+  "claves_estructurales_nuevas_si_se_transforman_celdas_phi_mayor_que_medio": 0,
+  "estado_estructural_sup_transformado": {
+   "a": "1.1",
+   "beta_tilde": "2.125",
+   "c_legal": "1",
+   "eta_d": "2.05",
+   "eta_f": "0.1",
+   "gamma": "1",
+   "kappa_tilde": "0.2",
+   "phi": "0.5",
+   "rho": "1",
+   "t": "0",
+   "u_theta": "0.5",
+   "z_cost": "1",
+   "z_m": "1"
+  },
+  "estado_estructural_sup_transformado_unico": true,
+  "grupos_K1": [
+   {
+    "K1_minimo_guardado": [
+     0.21560005716016362
+    ],
+    "K1_testigo_sup": [
+     0.21560005716016362
+    ],
+    "afirmaciones": [
+     "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+     "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+    ],
+    "cota": "addback_completo",
+    "estados_nacionales": [
+     "b6f4233693926cf0c03537f5aeca1833b4ca7ce36eacbc3e2c4b0362718b1797"
+    ],
+    "grupo": "K1",
+    "kind": "primary",
+    "pid": "PREG-COL-E2-2023"
+   },
+   {
+    "K1_minimo_guardado": [
+     0.21521705657251147
+    ],
+    "K1_testigo_sup": [
+     0.21521705657251147
+    ],
+    "afirmaciones": [
+     "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+     "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+    ],
+    "cota": "sin_addback",
+    "estados_nacionales": [
+     "b6f4233693926cf0c03537f5aeca1833b4ca7ce36eacbc3e2c4b0362718b1797"
+    ],
+    "grupo": "K2",
+    "kind": "primary",
+    "pid": "PREG-COL-E2-2023"
+   },
+   {
+    "K1_minimo_guardado": [
+     0.2137950304234002
+    ],
+    "K1_testigo_sup": [
+     0.2137950304234002
+    ],
+    "afirmaciones": [
+     "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+     "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+    ],
+    "cota": "addback_completo",
+    "estados_nacionales": [
+     "2d924d0ea86f32688c544c7969e79d6e49441721aeb7ab72af38d4954a90b39e"
+    ],
+    "grupo": "K3",
+    "kind": "historical_anchor",
+    "pid": "PREG-COMPARACION-E1"
+   },
+   {
+    "K1_minimo_guardado": [
+     0.2134152363576294
+    ],
+    "K1_testigo_sup": [
+     0.2134152363576294
+    ],
+    "afirmaciones": [
+     "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+     "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+    ],
+    "cota": "sin_addback",
+    "estados_nacionales": [
+     "2d924d0ea86f32688c544c7969e79d6e49441721aeb7ab72af38d4954a90b39e"
+    ],
+    "grupo": "K4",
+    "kind": "historical_anchor",
+    "pid": "PREG-COMPARACION-E1"
+   },
+   {
+    "K1_minimo_guardado": [
+     0.21560005716016362
+    ],
+    "K1_testigo_sup": [
+     0.21560005716016362
+    ],
+    "afirmaciones": [
+     "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda",
+     "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda"
+    ],
+    "cota": "addback_completo",
+    "estados_nacionales": [
+     "4d2b30c1666f903081fc8d47ed470d01aa3b64bbfa7ad933662baefd7efad752"
+    ],
+    "grupo": "K5",
+    "kind": "primary",
+    "pid": "PREG-COMPARACION-E1"
+   },
+   {
+    "K1_minimo_guardado": [
+     0.21521705657251147
+    ],
+    "K1_testigo_sup": [
+     0.21521705657251147
+    ],
+    "afirmaciones": [
+     "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda",
+     "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda"
+    ],
+    "cota": "sin_addback",
+    "estados_nacionales": [
+     "4d2b30c1666f903081fc8d47ed470d01aa3b64bbfa7ad933662baefd7efad752"
+    ],
+    "grupo": "K6",
+    "kind": "primary",
+    "pid": "PREG-COMPARACION-E1"
+   }
+  ],
+  "nota": "afirmaciones, estados admisibles, entradas efectivas, techos únicos, K1 y operaciones se cuentan por separado"
+ },
+ "eps": "1/100",
+ "kind": "plan-minimo-propuesto-rem161",
+ "naturaleza": "PROPUESTA documental; no es manifiesto ejecutable, alcance ni autorización",
+ "operaciones_futuras": {
+  "K1_contextos": {
+   "antecedente_otro_pais": [
+    96,
+    864
+   ],
+   "max": null,
+   "min": 6,
+   "unidad": "enumeraciones certificadas de K1 (una por grupo); el número de contextos por grupo no está fijado en los bytes inventariados"
+  },
+  "S6": "un contexto para K1 y otro para el encierro, si se autorizan; no se construye ahora",
+  "afirmaciones_por_grupo": [
+   [
+    2,
+    6
+   ]
+  ],
+  "bridge": 0,
+  "encierros_C2": {
+   "max_con_subdivision": 3000,
+   "max_en_raiz": 2,
+   "min": 1,
+   "unidad": "encierros de C2 en la caja transformada; G y N piden encierro por separado en cobertura5 (encierros_pedidos=2)"
+  },
+  "grupos_K1": 6,
+  "techos_puntuales_nuevos": {
+   "max": null,
+   "min": 0,
+   "nota": "la vía testigo por estructura no tiene cota sin un criterio de selección declarado; no se propone"
+  }
+ },
+ "resumen_por_afirmacion": {
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda": {
+   "C2_cov_estado_s": 0.1731239887088656,
+   "C2_hi_cobertura5": 0.2737330609666464,
+   "COV_evaluadas_en_universo": 2,
+   "COV_suficientes": 0,
+   "K1_distintos_guardados": 2,
+   "K1_minimo_guardado": 0.21560005716016362,
+   "K1_testigo_sup": 0.21560005716016362,
+   "celdas_2024p": 0,
+   "celdas_estado_nacional_no_ligado": 0,
+   "celdas_otro_preregistro_excluidas": 4,
+   "celdas_universo_ligado": 2,
+   "celdas_universo_ligado_ids": [
+    "CEL:221bd879ba0f209ae86703c687500b45cd64c9a85025",
+    "CEL:7bd7bb00e2e27a387a1115a09fe7c9e66ae91a1a9cb3"
+   ],
+   "claves_estructurales_nuevas_deduplicadas": 0,
+   "combinacion_G_lo_float": -0.04247609351480716,
+   "directas_suficientes": 0,
+   "en_Omega_COV_directas": 1,
+   "envolvente_cobertura5_float": 0.058133003806482786,
+   "fuera_Omega_COV_sin_techo": 0,
+   "max_G_lo_COV_float": -0.04247609351480716,
+   "max_G_lo_directas": "-852445223330984285978457/151115727451828646838272",
+   "max_G_lo_directas_float": -5.641009296022609,
+   "no_ligadas_que_aportarian_si_se_ligaran": 0,
+   "umbral_C2_para_testigo_con_K1_minimo": 0.2056000571601636,
+   "umbral_C2_para_testigo_con_K1_testigo": 0.2056000571601636
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda": {
+   "C2_cov_estado_s": 0.1731239887088656,
+   "C2_hi_cobertura5": 0.2737330609666464,
+   "COV_evaluadas_en_universo": 2,
+   "COV_suficientes": 0,
+   "K1_distintos_guardados": 2,
+   "K1_minimo_guardado": 0.21521705657251147,
+   "K1_testigo_sup": 0.21521705657251147,
+   "celdas_2024p": 0,
+   "celdas_estado_nacional_no_ligado": 0,
+   "celdas_otro_preregistro_excluidas": 4,
+   "celdas_universo_ligado": 2,
+   "celdas_universo_ligado_ids": [
+    "CEL:b04db965b2eb261d9a35a1afb4919f24242b11124649",
+    "CEL:c1861c869172e499e4fa9ef1e998b08c4a7f1c04f81b"
+   ],
+   "claves_estructurales_nuevas_deduplicadas": 0,
+   "combinacion_G_lo_float": -0.04209309292715502,
+   "directas_suficientes": 0,
+   "en_Omega_COV_directas": 1,
+   "envolvente_cobertura5_float": 0.05851600439413493,
+   "fuera_Omega_COV_sin_techo": 0,
+   "max_G_lo_COV_float": -0.04209309292715502,
+   "max_G_lo_directas": "-425465448580458921040333/75557863725914323419136",
+   "max_G_lo_directas_float": -5.6309883260309235,
+   "no_ligadas_que_aportarian_si_se_ligaran": 0,
+   "umbral_C2_para_testigo_con_K1_minimo": 0.20521705657251146,
+   "umbral_C2_para_testigo_con_K1_testigo": 0.20521705657251146
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda": {
+   "C2_cov_estado_s": 0.1731239887088656,
+   "C2_hi_cobertura5": 0.2737330609666464,
+   "COV_evaluadas_en_universo": 2,
+   "COV_suficientes": 0,
+   "K1_distintos_guardados": 3,
+   "K1_minimo_guardado": 0.21560005716016362,
+   "K1_testigo_sup": 0.21560005716016362,
+   "celdas_2024p": 0,
+   "celdas_estado_nacional_no_ligado": 0,
+   "celdas_otro_preregistro_excluidas": 4,
+   "celdas_universo_ligado": 3,
+   "celdas_universo_ligado_ids": [
+    "CEL:1ca58f20346762b08ccb1fcb3945792f0edfb3da96e9",
+    "CEL:b91b823ae96b25c2ffbc88558174fa102aefd9047298",
+    "CEL:d0dc073f4570420f4cb844b418fe2f5d420d5de52075"
+   ],
+   "claves_estructurales_nuevas_deduplicadas": 0,
+   "combinacion_G_lo_float": -0.04247609351480716,
+   "directas_suficientes": 0,
+   "en_Omega_COV_directas": 2,
+   "envolvente_cobertura5_float": 0.058133003806482786,
+   "fuera_Omega_COV_sin_techo": 0,
+   "max_G_lo_COV_float": -0.04247609351480716,
+   "max_G_lo_directas": "-89675985752070560048675/75557863725914323419136",
+   "max_G_lo_directas_float": -1.186851789211109,
+   "no_ligadas_que_aportarian_si_se_ligaran": 0,
+   "umbral_C2_para_testigo_con_K1_minimo": 0.2056000571601636,
+   "umbral_C2_para_testigo_con_K1_testigo": 0.2056000571601636
+  },
+  "CLM:PREG-COL-E2-2023:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda": {
+   "C2_cov_estado_s": 0.1731239887088656,
+   "C2_hi_cobertura5": 0.2737330609666464,
+   "COV_evaluadas_en_universo": 2,
+   "COV_suficientes": 0,
+   "K1_distintos_guardados": 3,
+   "K1_minimo_guardado": 0.21521705657251147,
+   "K1_testigo_sup": 0.21521705657251147,
+   "celdas_2024p": 0,
+   "celdas_estado_nacional_no_ligado": 0,
+   "celdas_otro_preregistro_excluidas": 5,
+   "celdas_universo_ligado": 3,
+   "celdas_universo_ligado_ids": [
+    "CEL:5eec4b54af620e0d967e54ad685b2ba6660c72b4eabf",
+    "CEL:6632bcc669b12d9768a1d1938eed102f9ae2864c47d5",
+    "CEL:e358015e68eb300d2849714d8998ac3ad5b9a5d258f0"
+   ],
+   "claves_estructurales_nuevas_deduplicadas": 0,
+   "combinacion_G_lo_float": -0.04209309292715502,
+   "directas_suficientes": 0,
+   "en_Omega_COV_directas": 2,
+   "envolvente_cobertura5_float": 0.05851600439413493,
+   "fuera_Omega_COV_sin_techo": 0,
+   "max_G_lo_COV_float": -0.04209309292715502,
+   "max_G_lo_directas": "-425465448580458921040333/75557863725914323419136",
+   "max_G_lo_directas_float": -5.6309883260309235,
+   "no_ligadas_que_aportarian_si_se_ligaran": 0,
+   "umbral_C2_para_testigo_con_K1_minimo": 0.20521705657251146,
+   "umbral_C2_para_testigo_con_K1_testigo": 0.20521705657251146
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda": {
+   "C2_cov_estado_s": 0.1731239887088656,
+   "C2_hi_cobertura5": 0.2737330609666464,
+   "COV_evaluadas_en_universo": 2,
+   "COV_suficientes": 0,
+   "K1_distintos_guardados": 2,
+   "K1_minimo_guardado": 0.2137950304234002,
+   "K1_testigo_sup": 0.2137950304234002,
+   "celdas_2024p": 0,
+   "celdas_estado_nacional_no_ligado": 2,
+   "celdas_otro_preregistro_excluidas": 2,
+   "celdas_universo_ligado": 2,
+   "celdas_universo_ligado_ids": [
+    "CEL:37cdb933cece13f6c2db4a88d8889634b72e8e06fd93",
+    "CEL:a3eb5c296a25c6bfebaa4a6d9c4da171f498436a1ccd"
+   ],
+   "claves_estructurales_nuevas_deduplicadas": 0,
+   "combinacion_G_lo_float": -0.040671066778043746,
+   "directas_suficientes": 0,
+   "en_Omega_COV_directas": 1,
+   "envolvente_cobertura5_float": 0.0599380305432462,
+   "fuera_Omega_COV_sin_techo": 0,
+   "max_G_lo_COV_float": -0.040671066778043746,
+   "max_G_lo_directas": "-467566594282423264264495/75557863725914323419136",
+   "max_G_lo_directas_float": -6.1881923498858855,
+   "no_ligadas_que_aportarian_si_se_ligaran": 0,
+   "umbral_C2_para_testigo_con_K1_minimo": 0.2037950304234002,
+   "umbral_C2_para_testigo_con_K1_testigo": 0.2037950304234002
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda": {
+   "C2_cov_estado_s": 0.1731239887088656,
+   "C2_hi_cobertura5": 0.2737330609666464,
+   "COV_evaluadas_en_universo": 2,
+   "COV_suficientes": 0,
+   "K1_distintos_guardados": 2,
+   "K1_minimo_guardado": 0.2134152363576294,
+   "K1_testigo_sup": 0.2134152363576294,
+   "celdas_2024p": 0,
+   "celdas_estado_nacional_no_ligado": 2,
+   "celdas_otro_preregistro_excluidas": 2,
+   "celdas_universo_ligado": 2,
+   "celdas_universo_ligado_ids": [
+    "CEL:32612f2e7a66787615dd4c454322d33ddd14c07aac0c",
+    "CEL:84d8843b96c0543b1718e3ba94193cd526b75980dd5f"
+   ],
+   "claves_estructurales_nuevas_deduplicadas": 0,
+   "combinacion_G_lo_float": -0.04029127271227295,
+   "directas_suficientes": 0,
+   "en_Omega_COV_directas": 1,
+   "envolvente_cobertura5_float": 0.060317824609016996,
+   "fuera_Omega_COV_sin_techo": 0,
+   "max_G_lo_COV_float": -0.04029127271227295,
+   "max_G_lo_directas": "-933471972177340136192861/151115727451828646838272",
+   "max_G_lo_directas_float": -6.17719934197388,
+   "no_ligadas_que_aportarian_si_se_ligaran": 0,
+   "umbral_C2_para_testigo_con_K1_minimo": 0.2034152363576294,
+   "umbral_C2_para_testigo_con_K1_testigo": 0.2034152363576294
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda": {
+   "C2_cov_estado_s": 0.1731239887088656,
+   "C2_hi_cobertura5": 0.2737330609666464,
+   "COV_evaluadas_en_universo": 2,
+   "COV_suficientes": 0,
+   "K1_distintos_guardados": 2,
+   "K1_minimo_guardado": 0.2137950304234002,
+   "K1_testigo_sup": 0.2137950304234002,
+   "celdas_2024p": 0,
+   "celdas_estado_nacional_no_ligado": 2,
+   "celdas_otro_preregistro_excluidas": 3,
+   "celdas_universo_ligado": 2,
+   "celdas_universo_ligado_ids": [
+    "CEL:0d5e1587e54605a4506886e7883895c0cc9333421f8a",
+    "CEL:3f52386637f9f033f1652dcee90b4850f57f0c1de408"
+   ],
+   "claves_estructurales_nuevas_deduplicadas": 0,
+   "combinacion_G_lo_float": -0.040671066778043746,
+   "directas_suficientes": 0,
+   "en_Omega_COV_directas": 1,
+   "envolvente_cobertura5_float": 0.0599380305432462,
+   "fuera_Omega_COV_sin_techo": 0,
+   "max_G_lo_COV_float": -0.040671066778043746,
+   "max_G_lo_directas": "-467566594282423264264495/75557863725914323419136",
+   "max_G_lo_directas_float": -6.1881923498858855,
+   "no_ligadas_que_aportarian_si_se_ligaran": 0,
+   "umbral_C2_para_testigo_con_K1_minimo": 0.2037950304234002,
+   "umbral_C2_para_testigo_con_K1_testigo": 0.2037950304234002
+  },
+  "CLM:PREG-COMPARACION-E1:historical_anchor:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda": {
+   "C2_cov_estado_s": 0.1731239887088656,
+   "C2_hi_cobertura5": 0.2737330609666464,
+   "COV_evaluadas_en_universo": 2,
+   "COV_suficientes": 0,
+   "K1_distintos_guardados": 2,
+   "K1_minimo_guardado": 0.2134152363576294,
+   "K1_testigo_sup": 0.2134152363576294,
+   "celdas_2024p": 0,
+   "celdas_estado_nacional_no_ligado": 3,
+   "celdas_otro_preregistro_excluidas": 3,
+   "celdas_universo_ligado": 2,
+   "celdas_universo_ligado_ids": [
+    "CEL:233377015eea0f1aaef4e79a970bc7a5ab1d785bef50",
+    "CEL:48f9b14ccfb50cbc083599e0905d0584cb162c0c3075"
+   ],
+   "claves_estructurales_nuevas_deduplicadas": 0,
+   "combinacion_G_lo_float": -0.04029127271227295,
+   "directas_suficientes": 0,
+   "en_Omega_COV_directas": 1,
+   "envolvente_cobertura5_float": 0.060317824609016996,
+   "fuera_Omega_COV_sin_techo": 0,
+   "max_G_lo_COV_float": -0.04029127271227295,
+   "max_G_lo_directas": "-933471972177340136192861/151115727451828646838272",
+   "max_G_lo_directas_float": -6.17719934197388,
+   "no_ligadas_que_aportarian_si_se_ligaran": 0,
+   "umbral_C2_para_testigo_con_K1_minimo": 0.2034152363576294,
+   "umbral_C2_para_testigo_con_K1_testigo": 0.2034152363576294
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:addback_completo:macro:guardrail_deuda": {
+   "C2_cov_estado_s": 0.1731239887088656,
+   "C2_hi_cobertura5": 0.2737330609666464,
+   "COV_evaluadas_en_universo": 2,
+   "COV_suficientes": 0,
+   "K1_distintos_guardados": 2,
+   "K1_minimo_guardado": 0.21560005716016362,
+   "K1_testigo_sup": 0.21560005716016362,
+   "celdas_2024p": 0,
+   "celdas_estado_nacional_no_ligado": 2,
+   "celdas_otro_preregistro_excluidas": 2,
+   "celdas_universo_ligado": 2,
+   "celdas_universo_ligado_ids": [
+    "CEL:34832ac9f2124ccf7f983176d8a752c45a8d30d9d78b",
+    "CEL:f3f422a2e81a0fdb1d9d5a181f60db3b569ea0635baf"
+   ],
+   "claves_estructurales_nuevas_deduplicadas": 0,
+   "combinacion_G_lo_float": -0.04247609351480716,
+   "directas_suficientes": 0,
+   "en_Omega_COV_directas": 1,
+   "envolvente_cobertura5_float": 0.058133003806482786,
+   "fuera_Omega_COV_sin_techo": 0,
+   "max_G_lo_COV_float": -0.04247609351480716,
+   "max_G_lo_directas": "-852445223330984285978457/151115727451828646838272",
+   "max_G_lo_directas_float": -5.641009296022609,
+   "no_ligadas_que_aportarian_si_se_ligaran": 0,
+   "umbral_C2_para_testigo_con_K1_minimo": 0.2056000571601636,
+   "umbral_C2_para_testigo_con_K1_testigo": 0.2056000571601636
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:G:sin_addback:macro:guardrail_deuda": {
+   "C2_cov_estado_s": 0.1731239887088656,
+   "C2_hi_cobertura5": 0.2737330609666464,
+   "COV_evaluadas_en_universo": 2,
+   "COV_suficientes": 0,
+   "K1_distintos_guardados": 2,
+   "K1_minimo_guardado": 0.21521705657251147,
+   "K1_testigo_sup": 0.21521705657251147,
+   "celdas_2024p": 0,
+   "celdas_estado_nacional_no_ligado": 2,
+   "celdas_otro_preregistro_excluidas": 2,
+   "celdas_universo_ligado": 2,
+   "celdas_universo_ligado_ids": [
+    "CEL:3c403f02796879c233cb7490782867423c9880dc5d8a",
+    "CEL:d4e037c43ef6148ecad597bf8db970c5fb4db77dceb1"
+   ],
+   "claves_estructurales_nuevas_deduplicadas": 0,
+   "combinacion_G_lo_float": -0.04209309292715502,
+   "directas_suficientes": 0,
+   "en_Omega_COV_directas": 1,
+   "envolvente_cobertura5_float": 0.05851600439413493,
+   "fuera_Omega_COV_sin_techo": 0,
+   "max_G_lo_COV_float": -0.04209309292715502,
+   "max_G_lo_directas": "-425465448580458921040333/75557863725914323419136",
+   "max_G_lo_directas_float": -5.6309883260309235,
+   "no_ligadas_que_aportarian_si_se_ligaran": 0,
+   "umbral_C2_para_testigo_con_K1_minimo": 0.20521705657251146,
+   "umbral_C2_para_testigo_con_K1_testigo": 0.20521705657251146
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:addback_completo:macro:guardrail_deuda": {
+   "C2_cov_estado_s": 0.1731239887088656,
+   "C2_hi_cobertura5": 0.2737330609666464,
+   "COV_evaluadas_en_universo": 2,
+   "COV_suficientes": 0,
+   "K1_distintos_guardados": 2,
+   "K1_minimo_guardado": 0.21560005716016362,
+   "K1_testigo_sup": 0.21560005716016362,
+   "celdas_2024p": 0,
+   "celdas_estado_nacional_no_ligado": 2,
+   "celdas_otro_preregistro_excluidas": 3,
+   "celdas_universo_ligado": 2,
+   "celdas_universo_ligado_ids": [
+    "CEL:7497070e548629a986a76eaf2dd7e587c9d8b0e6e389",
+    "CEL:ac17810b986dc09458dcca3d5e01434c8c8912f45b0e"
+   ],
+   "claves_estructurales_nuevas_deduplicadas": 0,
+   "combinacion_G_lo_float": -0.04247609351480716,
+   "directas_suficientes": 0,
+   "en_Omega_COV_directas": 1,
+   "envolvente_cobertura5_float": 0.058133003806482786,
+   "fuera_Omega_COV_sin_techo": 0,
+   "max_G_lo_COV_float": -0.04247609351480716,
+   "max_G_lo_directas": "-852445223330984285978457/151115727451828646838272",
+   "max_G_lo_directas_float": -5.641009296022609,
+   "no_ligadas_que_aportarian_si_se_ligaran": 0,
+   "umbral_C2_para_testigo_con_K1_minimo": 0.2056000571601636,
+   "umbral_C2_para_testigo_con_K1_testigo": 0.2056000571601636
+  },
+  "CLM:PREG-COMPARACION-E1:primary:ci:COL:f:conditional_full:N:sin_addback:macro:guardrail_deuda": {
+   "C2_cov_estado_s": 0.1731239887088656,
+   "C2_hi_cobertura5": 0.2737330609666464,
+   "COV_evaluadas_en_universo": 2,
+   "COV_suficientes": 0,
+   "K1_distintos_guardados": 3,
+   "K1_minimo_guardado": 0.21521705657251147,
+   "K1_testigo_sup": 0.21521705657251147,
+   "celdas_2024p": 0,
+   "celdas_estado_nacional_no_ligado": 2,
+   "celdas_otro_preregistro_excluidas": 3,
+   "celdas_universo_ligado": 3,
+   "celdas_universo_ligado_ids": [
+    "CEL:4ad4b7142f7f6ba4ba9813195b4e286e4d26a806f444",
+    "CEL:64212a8f50567fef60571e0c5c3df198a7e714fad389",
+    "CEL:64fa73a111efcfd0ed4c575d129213a8af1a21aeb72c"
+   ],
+   "claves_estructurales_nuevas_deduplicadas": 0,
+   "combinacion_G_lo_float": -0.04209309292715502,
+   "directas_suficientes": 0,
+   "en_Omega_COV_directas": 2,
+   "envolvente_cobertura5_float": 0.05851600439413493,
+   "fuera_Omega_COV_sin_techo": 0,
+   "max_G_lo_COV_float": -0.04209309292715502,
+   "max_G_lo_directas": "-425465448580458921040333/75557863725914323419136",
+   "max_G_lo_directas_float": -5.6309883260309235,
+   "no_ligadas_que_aportarian_si_se_ligaran": 0,
+   "umbral_C2_para_testigo_con_K1_minimo": 0.20521705657251146,
+   "umbral_C2_para_testigo_con_K1_testigo": 0.20521705657251146
+  }
+ },
+ "vias": {
+  "cota_global": {
+   "desigualdad": "sup_{Ω_COV} G <= sup_{Ω_COV} C2 − inf_{contextos} K1 <= −1/100 (envolvente separable: válida sin estructura de producto)",
+   "existente": {
+    "C2_hi_caja_padre": "616392055684187/2251799813685248",
+    "margenes_float": [
+     0.060317824609016996,
+     0.0599380305432462,
+     0.05851600439413493,
+     0.058133003806482786
+    ],
+    "motivo": "C2_hi_caja_padre − K1_testigo > −1/100 en los seis grupos; el K1 mínimo verdadero es <= K1_testigo",
+    "suficiente": false
+   },
+   "necesario": {
+    "C2_hi_Omega_COV_maximo_admisible_float": [
+     0.2034152363576294,
+     0.2037950304234002,
+     0.20521705657251146,
+     0.2056000571601636
+    ],
+    "C2_hi_Omega_COV_minimo_posible_float": 0.17312396364535645,
+    "lectura": "un encierro de C2 sobre la caja con phi <= 1/2 solo sirve si C2_hi <= K1_min_certificado − 1/100, y K1_min_certificado <= K1_testigo"
+   },
+   "requiere": [
+    "encierro certificado de C2 (G y N) en la caja estructural transformada (phi ∈ [0,1/2])",
+    "K1 mínimo certificado sobre todos los contextos de cada grupo",
+    "para PREG-COL-E2-2023: decidir si la edición 2024p pertenece al soporte (si pertenece, sus contextos entran en el mínimo de K1)"
+   ]
+  },
+  "testigo": {
+   "documental_esta_ronda": {
+    "candidatos_suficientes": 0,
+    "conclusion": "ningún estado guardado y ligado de Ω_COV satisface G_lo > −1/100",
+    "no_ligados_que_aportarian": 0
+   },
+   "umbral_C2_con_K1_del_testigo": {
+    "C2_hi_caja_padre_float": 0.2737330609666464,
+    "C2_s_float": 0.1731239887088656,
+    "definicion": "en el contexto del testigo sup, un estado estructural de Ω_COV con C2_lo > K1_testigo − 1/100",
+    "nota": "la caja padre admite C2 hasta 0,2737 pero con phi <= 1/2 no hay evidencia guardada de un C2 mayor que el de s",
+    "umbral_C2_float": [
+     0.2034152363576294,
+     0.2037950304234002,
+     0.20521705657251146,
+     0.2056000571601636
+    ]
+   },
+   "umbral_K1_en_el_estado_s": {
+    "C2_lo_s": "52323507411223954063359/302231454903657293676544",
+    "K1_testigo_por_grupo_float": [
+     0.2134152363576294,
+     0.2137950304234002,
+     0.21521705657251147,
+     0.21560005716016362
+    ],
+    "definicion": "con el techo COV aceptado del estado transformado del testigo sup (claves ['22d6a8dcf42be6fb', '6072bd5d08a5a2b8']), un contexto con K1 < C2_lo(s) + 1/100 daría G_lo > −1/100",
+    "exige_ligadura": "estructura de producto C2(estructura) − K1(contexto) y admisibilidad del estado combinado",
+    "reduccion_relativa_necesaria_float": [
+     0.14193584876720103,
+     0.1434601483360146,
+     0.1491196536104569,
+     0.15063119158025792
+    ],
+    "umbral_K1": "1383645549006513175003111/7555786372591432341913600",
+    "umbral_K1_float": 0.18312396364535646
+   }
+  }
+ }
+}
