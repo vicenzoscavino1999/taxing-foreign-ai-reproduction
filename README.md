@@ -1,7 +1,7 @@
 # Reproduction package — *Taxing the Gains from Foreign AI: Fiscal Capture Frontiers in Developing Economies*
 
 **Author:** Vicenzo Scavino Alfaro · **Package version:** 1.0.0 (2026-11-24) · **License:** MIT for code, CC BY 4.0 for
-derived data, results and texts ([LICENSE.md](LICENSE.md)) · **DOI:** to be added when the package is deposited.
+derived data, results and texts ([LICENSE.md](LICENSE.md)) · **DOI:** [10.5281/zenodo.24511872](https://doi.org/10.5281/zenodo.24511872).
 
 This package reproduces the numerical results of the article and of its technical supplement (the 40-page version
 with supplement S1–S10). Everything runs on Windows from one entry point, `run.ps1`.
@@ -300,7 +300,7 @@ Cite the article and this package; cite the data sources as indicated in [docs/D
 The citation metadata are in [CITATION.cff](CITATION.cff).
 
 ```text
-Scavino Alfaro, Vicenzo (2026). Reproduction package for "Taxing the Gains from Foreign AI: Fiscal Capture Frontiers in Developing Economies". Version 1.0.0. DOI to be added on deposit.
+Scavino Alfaro, Vicenzo (2026). Reproduction package for "Taxing the Gains from Foreign AI: Fiscal Capture Frontiers in Developing Economies". Version 1.0.0. Zenodo. https://doi.org/10.5281/zenodo.24511872.
 ```
 
 The convertible requirement of the application comes from version 1.1.1 of the replication package of the companion
