@@ -1,8 +1,8 @@
-"""Reproduce the post-base sensitivities of the article from the package: Table 3 (lower rate caps, allocation (E11) and
+"""Reproduce the post-base sensitivities of the article from the package: Table 2 (lower rate caps, allocation (E11) and
 statutory allocation) and the adoption-threshold results of Section 5.1.
 
 All of these were designed after the base results (article, Appendix "chronology"). They are certified ceilings at the
-favorable witnesses of Table 4, with the structural point held fixed and the rates re-optimized, plus two floating-point
+favorable witnesses of Table 3, with the structural point held fixed and the rates re-optimized, plus two floating-point
 diagnostics that are NOT certifications.
 
 What it does, from a new output folder (nothing is overwritten):
@@ -30,6 +30,7 @@ import sys
 import time
 from datetime import datetime, timezone
 from fractions import Fraction
+from decimal import Decimal
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -42,7 +43,7 @@ CERT_FIELDS = ("C2_hex", "error_hex", "intervalo_certificado", "estado", "motivo
                "alcanzado", "cajas", "tipo_error")
 TAGS = ((0.15, "015"), (0.30, "030"))
 
-# Table 3 of the article, as printed (percent of the potential AI gain; domestic share in percent of the combined ceiling)
+# Table 2 of the article, as printed (percent of the potential AI gain; domestic share in percent of the combined ceiling)
 ARTICLE_TABLE3 = {
     ("G", 0.15): ("36.93", "36.93", "33.52", "3.47", "90.8", "90.8"),
     ("G", 0.30): ("41.44", "41.44", "33.52", "8.27", "80.9", "80.9"),
@@ -130,12 +131,21 @@ def compare(name, new, ref):
     return [f for f in CERT_FIELDS if new.get(f) != ref.get(f)]
 
 
+def enclosure(bounds, digits):
+    """Format an exact or binary64 interval outward at the requested decimal precision."""
+    scale = 10**digits
+    low, high = (Fraction(x) * scale for x in bounds)
+    lower = low.numerator // low.denominator
+    upper = -((-high.numerator) // high.denominator)
+    return "[" + ", ".join(format(Decimal(n).scaleb(-digits), f".{digits}f") for n in (lower, upper)) + "]"
+
+
 def pct(x, nd):
     return "%.*f" % (nd, 100.0 * x)
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Reproduce Table 3 and the Section 5.1 threshold results.")
+    ap = argparse.ArgumentParser(description="Reproduce Table 2 and the Section 5.1 threshold results.")
     ap.add_argument("--out", type=Path, help="new output folder (default: salidas/sensitivities_<UTC time>)")
     a = ap.parse_args()
     out = (PKG / (a.out or Path("salidas") / ("sensitivities_" + datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")))).resolve()
@@ -189,7 +199,7 @@ def main():
             mism[name] = d
     checks["25/25 results identical to the accepted results (reference/accepted.json)"] = not mism
 
-    # 5. Table 3
+    # 5. Table 2
     own = {(t["diseno"], t["menu"]): t for t in R["own_witnesses"]["testigos"]}
     rows, cells_ok = [], True
     for D in "GN":
@@ -211,12 +221,12 @@ def main():
                          and Fraction(dom["intervalo"][0]) > Fraction(fw["intervalo"][1]),
                          "menus_disjoint_statutory": Fraction(S["intervalo_certificado"][0]) > Fraction(dom["intervalo"][1])
                          and Fraction(dom["intervalo"][0]) > Fraction(fw["intervalo"][1])})
-    checks["Table 3: the 24 rounded cells equal the printed article"] = cells_ok
-    checks["Table 3: every combined ceiling attained at the caps (0.35; cap) under both allocations"] = \
+    checks["Table 2: the 24 rounded cells equal the printed article"] = cells_ok
+    checks["Table 2: every combined ceiling attained at the caps (0.35; cap) under both allocations"] = \
         all(r["combined_attained_at_caps_both_allocations"] for r in rows)
-    checks["Table 3: certified intervals of df, d and f disjoint in every row, both allocations"] = \
+    checks["Table 2: certified intervals of df, d and f disjoint in every row, both allocations"] = \
         all(r["menus_disjoint_E11"] and r["menus_disjoint_statutory"] for r in rows)
-    checks["Table 3: d-only witnesses have tau_f = 0 and f-only witnesses phi = 1 (allocations coincide)"] = all(
+    checks["Table 2: d-only witnesses have tau_f = 0 and f-only witnesses phi = 1 (allocations coincide)"] = all(
         own[(D, "d")]["certificados"][0]["tasas"][1] == 0.0 and own[(D, "f")]["parametros"]["phi"] == 1.0 for D in "GN")
 
     # Section 5.1
@@ -233,7 +243,7 @@ def main():
              "jump_statutory_G": "%.3f" % jump["ultimo_con_adopcion"]["tau_d"],
              "threshold_statutory_G_015": "%.2f" % thr[("estatutaria", "G", 0.15)]["cruce"]["ultimo_con_adopcion"]["tau_d"],
              "threshold_statutory_G_030": "%.2f" % thr[("estatutaria", "G", 0.30)]["cruce"]["ultimo_con_adopcion"]["tau_d"]}
-    checks["Section 5.1: the nine printed numbers are reproduced"] = got51 == ARTICLE_51
+    checks["Adoption results: ceilings and diagnostics match their reference values"] = got51 == ARTICLE_51
     checks["Section 5.1: gross statutory supremum certified, attainment undecided (SUP_ATTAINMENT_UNDECIDED_AT_JUMP_CURVE)"] = (
         sG["estado"] == "incomplete" and sG["motivo"] == "SUP_ATTAINMENT_UNDECIDED_AT_JUMP_CURVE" and sG["tipo_error"] == "certified_bound"
         and sG["error_certificado"] <= 1e-7)
@@ -250,32 +260,40 @@ def main():
         f.write(",".join(hdr) + "\n")
         for r in rows:
             f.write(",".join([r["design"], "%.2f" % r["tau_f_cap"], *r["cells"], str(r["matches_article"]).lower()]) + "\n")
-    L = ["# Table 3 — favorable capture ceilings under lower rate caps (reproduced)", "",
+    L = ["# Table 2 — favorable capture ceilings under lower rate caps (reproduced)", "",
          "Ceilings in percent of the potential AI gain; domestic share = domestic-only ceiling as a percentage of the combined "
-         "ceiling. Domestic cap 0.35. Each menu at its own favorable witness of Table 4. Illustrative scenarios designed after "
-         "the base results.", "",
-         "| Design | cap tau_f | df (E11) | df Statutory | d only | f only | share (E11) | share Statutory | = article |",
-         "|---|---|---|---|---|---|---|---|---|"]
+         "ceiling. At a domestic cap of 35%, rates are optimized at each menu's favorable base point (Table 3). "
+         "G and N denote gross and net domestic taxation. These illustrative scenarios were chosen after the base results.", "",
+         "| Design | Withholding cap | Combined, linear | Combined, statutory | Domestic only | Withholding only | Domestic share, linear (%) | Domestic share, statutory (%) |",
+         "|---|---|---|---|---|---|---|---|"]
     for r in rows:
-        L.append("| %s | %.2f | %s | %s | %s | %s | %s | %s | %s |" % (r["design"], r["tau_f_cap"], *r["cells"],
-                                                                       "yes" if r["matches_article"] else "NO"))
-    L += ["", "Certified intervals (share of the potential gain):", ""]
+        L.append("| %s | %.2f | %s |" % (r["design"], r["tau_f_cap"], " | ".join(r["cells"])))
+    L += ["", "### Appendix Tables S7 and S8", "",
+          "Ceilings are shares of potential gains. The difference is statutory minus linear, in percentage points. "
+          "The domestic shares are percentages of the combined ceiling. Interval endpoints are rounded outward.", "",
+          "| Design | Withholding cap | Combined, linear | Combined, statutory | Difference (pp) | Domestic share, linear (%) | Domestic share, statutory (%) |",
+          "|---|---:|---|---|---|---|---|"]
     for r in rows:
-        L.append("- %s, cap %.2f: df (E11) [%.10f; %.10f]; df statutory [%.10f; %.10f]; d [%.10f; %.10f]; f [%.10f; %.10f]" % (
-            r["design"], r["tau_f_cap"], *r["df_E11_interval"], *r["df_statutory_interval"], *r["d_only_interval"], *r["f_only_interval"]))
+        linear, statutory, domestic = [
+            tuple(map(Fraction, r[k])) for k in ("df_E11_interval", "df_statutory_interval", "d_only_interval")]
+        difference = (100*(statutory[0]-linear[1]), 100*(statutory[1]-linear[0]))
+        shares = [enclosure((100*domestic[0]/v[1], 100*domestic[1]/v[0]), 4) for v in (linear, statutory)]
+        L.append("| %s | %.2f | %s | %s | %s | %s | %s |" % (
+            r["design"], r["tau_f_cap"], enclosure(linear, 10), enclosure(statutory, 10),
+            enclosure(difference, 6), *shares))
     (out / "table3.md").write_text("\n".join(L) + "\n", encoding="utf-8")
 
     T = ["# Section 5.1 — formal adoption as the limit (reproduced)", "",
          "## Base caps (0.6; 0.6), combined menu, favorable witnesses", "",
          "| Design | (E11) | Statutory | Statutory status | Certified decrease, pp |", "|---|---|---|---|---|",
-         "| G | %.4f | %.4f [%.10f; %.10f] | %s, %s | [%.4f; %.4f] |" % (eG["C2"], sG["C2"], *sG["intervalo_certificado"], sG["estado"],
-                                                                   sG["motivo"], float(dG[0]), float(dG[1])),
-         "| N | %.4f | %.4f [%.10f; %.10f] | %s, attained at the caps | [%.4f; %.4f] |" % (eN["C2"], sN["C2"], *sN["intervalo_certificado"],
-                                                                                      sN["estado"], float(dN[0]), float(dN[1])),
+         "| G | %.4f | %.4f %s | Attainment open | %s |" % (
+             eG["C2"], sG["C2"], enclosure(sG["intervalo_certificado"], 10), enclosure(dG, 6)),
+         "| N | %.4f | %.4f %s | Attained at the caps | %s |" % (
+             eN["C2"], sN["C2"], enclosure(sN["intervalo_certificado"], 10), enclosure(dN, 6)),
          "",
          "Gross design, statutory allocation: the value of the supremum is certified (error %.1e); whether some pair of rates "
-         "attains it is undecided (`%s`)." % (sG["error_certificado"], sG["motivo"]), "",
-         "## Floating-point diagnostics (not certifications)", "",
+         "attains it remains open." % sG["error_certificado"], "",
+         "## Numerical diagnostics of adoption", "",
          "- Gross design, statutory allocation, tau_f = 0.6: formal establishments stop adopting at tau_d ≈ %.3f "
          "(last rate with adoption %r); revenue just below it is %.6f of the potential gain; L at the caps = %.4f." % (
              jump["ultimo_con_adopcion"]["tau_d"], jump["ultimo_con_adopcion"]["tau_d"], jump["ultimo_con_adopcion"]["R_sobre_Bpot"],
@@ -290,20 +308,21 @@ def main():
             T.append("  - %s, cap tau_f %.2f: L = %+.4f; threshold tau_d ≈ %.3f (above the 0.35 cap: %s)" % (
                 "statutory" if Rr == "estatutaria" else "(E11)", F, u["L_en_tope"], u["cruce"]["ultimo_con_adopcion"]["tau_d"],
                 u["cruce"]["por_encima_del_tope"]))
-    T += ["", "Printed in the article (Section 5.1) and reproduced here:", ""]
-    T += ["- %s: article %s, here %s" % (k, ARTICLE_51[k], got51[k]) for k in ARTICLE_51]
     (out / "threshold.md").write_text("\n".join(T) + "\n", encoding="utf-8")
 
     summary = {"output": str(out), "seconds": round(time.time() - t0, 1), "checks": checks, "mismatches": mism,
                "table3": rows, "section_5_1": got51,
-               "scope": "post-base sensitivities at two structural points (the favorable witnesses of Table 4); under the statutory "
+               "scope": "post-base sensitivities using each menu's favorable structural point (Table 3); under the statutory "
                         "allocation another admissible point could have a higher favorable ceiling, which was not examined; no "
                         "ceilings over the support or classifications were recomputed"}
     (out / "summary.json").write_text(json.dumps(summary, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     print()
     print((out / "table3.md").read_text(encoding="utf-8"))
-    for k, v in checks.items():
-        print(("PASS  " if v else "FAIL  ") + k)
+    for name, passed in checks.items():
+        if not passed:
+            print("FAIL  " + name)
+    print("Adoption threshold:", out / "threshold.md")
+    print("Computed intervals and checks:", out / "summary.json")
     n = sum(checks.values())
     print("%d/%d checks passed in %.0f s. %s" % (n, len(checks), time.time() - t0,
                                                 "SENSITIVITIES REPRODUCED" if n == len(checks) else "SOME CHECKS FAILED"))

@@ -8,18 +8,19 @@
 #   check          verify files and syntax, and report which distributed version this copy is (no computation)
 #   plan           build the plan of the full analysis without computing (about 10 s)
 #   pilot          run the pilot: FAM08 + FAM11 + FAM12 -> FAM10, 16 calls (about 1 min)
-#   sensitivities  reproduce Table 3 and the Section 5.1 threshold results (about 1 min)
-#   table6         regenerate Table 6 (and Table 4 from stored values) with FAM13 (about 10 s)
-#   table4         recompute the favorable column of Table 4 from scratch: six FAM01 units (about 4 min; needs the downloaded inputs)
+#   sensitivities  reproduce Table 2 and the Section 5.1 threshold results (about 1 min)
+#   extensions     reproduce the informal-adoption menus, prior-income pilot and analytical bounds
+#   table6         verify all Table 4 claims under both incidence rules and recover Table 3 from stored ceilings
+#   table4         recompute the favorable column of Table 3 from scratch: six FAM01 units (about 4 min; needs the downloaded inputs)
 #   inputs         download the five national-accounts sheets that are not redistributed (needs internet)
 #   verify         check that the copy is the complete version (with the six sheets) required by the full analysis
 #   full           run the full analysis: 3,694 calls (many hours; needs the six sheets); -Processes 1..12 for FAM01
 #   resume         resume an interrupted full run: -Run salidas/full_<time>/completo
 #
-# Every action writes to a new folder under salidas\ and never overwrites earlier output.
+# New calculation runs have dated folders in salidas\. Resume uses the specified run folder.
 param(
   [Parameter(Position = 0, Mandatory = $true)]
-  [ValidateSet("check", "plan", "pilot", "sensitivities", "table6", "table4", "inputs", "verify", "full", "resume")]
+  [ValidateSet("check", "plan", "pilot", "sensitivities", "extensions", "table6", "table4", "inputs", "verify", "full", "resume")]
   [string]$Action,
   [ValidateRange(1, 12)][int]$Processes = 1,
   [string]$Run = "",
@@ -67,7 +68,7 @@ function Assert-Complete {
   $rc = Invoke-Tool "tools\fingerprint.py" @("--expect", "complete")
   if ($rc -ne 0) {
     Stop-Run ("this copy is not the complete version. The full analysis needs the six national-accounts sheets that are not " +
-      "redistributed: run '.\run.ps1 inputs' for five of them and request PER_2023.xlsx from INEI (README.md, Inputs).")
+      "redistributed: run '.\run.ps1 inputs' for five of them and request PER_2023.xlsx from INEI (README.md, Full base reproduction).")
   }
 }
 
@@ -98,13 +99,17 @@ function Invoke-Action {
       $rc = Invoke-Tool "sensitivities\run_sensitivities.py" @("--out", "salidas/sensitivities_$stamp")
       if ($rc -ne 0) { Stop-Run "the sensitivities did not reproduce (see the checks above)" $rc }
     }
+    "extensions" {
+      $rc = Invoke-Tool "sensitivities\extensions\run_extensions.py" @("--out", "salidas/extensions_$stamp")
+      if ($rc -ne 0) { Stop-Run "extensions did not finish; see the preceding result" $rc }
+    }
     "table6" {
       $out = "salidas/table6_$stamp"
       New-Item -ItemType Directory $out | Out-Null
       Invoke-Package @("fam13-reproducir", "--salida", "$out/fam13") "$out/fam13.console.txt"
       $rc = Invoke-Tool "tools\tables_from_fam13.py" @("$out/fam13")
-      if ($rc -ne 0) { Stop-Run "Table 6 did not reproduce (see above)" $rc }
-      Write-Host "Tables: $out/table6.md and $out/table4_stored.md"
+      if ($rc -ne 0) { Stop-Run "Table 4 did not reproduce (see above)" $rc }
+      Write-Host "Tables: $out/table6.md and $out/table4_stored.md. Claim-level bounds: $out/table4_claims.csv"
     }
     "table4" {
       $missing = @("CHL_CEI.xls", "CHL_COU.xlsx", "COL_2023.xlsx", "COL_2024p.xlsx", "UN_bundle.tar") |
@@ -120,13 +125,13 @@ function Invoke-Action {
         }
       }
       $rc = Invoke-Tool "tools\table4.py" @($out)
-      if ($rc -ne 0) { Stop-Run "Table 4 did not reproduce (see above)" $rc }
+      if ($rc -ne 0) { Stop-Run "Table 3 did not reproduce (see above)" $rc }
     }
     "inputs" {
       & $Python -B -P -s -X utf8 insumos_externos\obtener_insumos.py | Out-Host
       $rc = $LASTEXITCODE
       if ($rc -eq 0) { Write-Host "All six sheets are present: '.\run.ps1 verify' and '.\run.ps1 full' can run." }
-      elseif ($rc -eq 2) { Write-Host "The five downloadable sheets are present; only PER_2023.xlsx is missing (request it from INEI: README.md, Inputs)." }
+      elseif ($rc -eq 2) { Write-Host "The five downloadable sheets are present; only PER_2023.xlsx is missing (request it from INEI: README.md, Full base reproduction)." }
       else { Stop-Run "some downloadable input could not be obtained with the expected hash (see above)" $rc }
       $script:Code = $rc
     }

@@ -1,7 +1,7 @@
-"""Table 4, favorable column, recomputed from scratch: summary of the six FAM01 trials run by `run.ps1 table4`.
+"""Table 3, favorable column, recomputed from scratch: summary of the six FAM01 trials run by `run.ps1 table4`.
 
 Each trial (`reproducir.py general --modo ensayo-fam01 --unidad C2:<design>:<menu>:sup`) recomputes one favorable
-witness of Table 4 with the full chain (structural point, frontier, certified ceiling C_2, validation) and compares it
+witness of Table 3 with the full chain (structural point, frontier, certified ceiling C_2, validation) and compares it
 with its accepted original. This script reads the six results and their comparisons.
 
 Usage: python -B -I tools/table4.py <folder with the six trial folders>
@@ -21,7 +21,7 @@ MENUS = {"df": "Both instruments (df)", "d": "Domestic tax only (d)", "f": "With
 
 
 def main():
-    L = ["# Table 4 — favorable witnesses recomputed from scratch (six FAM01 units)", "",
+    L = ["# Table 3 — favorable witnesses recomputed from scratch (six FAM01 units)", "",
          "| Instrument menu | Design | Unit | C_2 recomputed | Certified error | Original C_2 | Reproduction | = article |",
          "|---|---|---|---|---|---|---|---|"]
     all_ok = True
@@ -42,12 +42,10 @@ def main():
         all_ok &= ok
         L.append("| %s | %s | `%s` | %.10f | %.1e | %.10f | %s | %s |" % (MENUS[j], D, u, new["C_2"], new["numerical_error"], orig["C_2"],
                                                                      state, "yes" if ok else "NO"))
-    L += ["", "Reproduction states: «aceptada» (historical comparator), «aceptada_comparacion_limpia» or "
-          "«aceptada_comparacion_limpia_con_F2» (clean comparison with the portable-environment rule F2); see docs/REFERENCE_es.md."]
     (BASE / "table4.md").write_text("\n".join(L) + "\n", encoding="utf-8")
     print("\n".join(L))
     print()
-    print("TABLE 4 (FAVORABLE COLUMN) REPRODUCED" if all_ok else "SOME CHECKS FAILED")
+    print("TABLE 3 (FAVORABLE COLUMN) REPRODUCED" if all_ok else "SOME CHECKS FAILED")
     return 0 if all_ok else 1
 
 

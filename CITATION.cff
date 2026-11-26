@@ -2,14 +2,16 @@ cff-version: 1.2.0
 message: "If you use this package, please cite it and the article it reproduces, and cite the data sources as indicated in docs/DATA_SOURCES.md."
 type: software
 title: 'Reproduction package for "Taxing the Gains from Foreign AI: Fiscal Capture Frontiers in Developing Economies"'
-version: 1.0.0
-doi: 10.5281/zenodo.24511872
-repository-code: 'https://github.com/vicenzoscavino1999/taxing-foreign-ai-reproduction'
-date-released: 2026-11-24
+version: 1.1.0
+repository-code: "https://github.com/vicenzoscavino1999/taxing-foreign-ai-reproduction"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24511871"
+    description: Concept DOI for all archived versions of this replication package.
 authors:
   - family-names: Scavino Alfaro
     given-names: Vicenzo
-    orcid: 'https://orcid.org/0009-0000-2472-9785'
+    orcid: "https://orcid.org/0009-0000-2472-9785"
 license:
   - MIT
   - CC-BY-4.0
@@ -17,6 +19,7 @@ abstract: >-
   Code, stored inputs and accepted results that reproduce the capture ceilings, frontier meshes, confrontation with the
   cost of universal social protection and post-base sensitivities of the article "Taxing the Gains from Foreign AI:
   Fiscal Capture Frontiers in Developing Economies" and its technical supplement. Single entry point run.ps1 (Windows).
+  Includes informal adoption, prior-income reporting, withholding with fixed concealment costs and the Colombia and Mexico bounds.
 keywords:
   - artificial intelligence
   - taxation

@@ -142,8 +142,8 @@ def main():
         print("%s: existe con otra huella; no es la versión que usa el paquete." % nombre)
         fallos += 1
     else:
-        print("%s: falta. No se distribuye ni se puede descargar (README.md, «Inputs»: puede "
-              "solicitarse al INEI). Sin él no corren las partes de FAM01 que usan Perú 2023. Si lo obtiene, cópielo en %s; "
+        print("%s: solicite el libro de 2023 al INEI (docs/DATA_SOURCES.md, «Peruvian workbook»). "
+              "Guárdelo en %s; "
               "debe tener %d bytes y sha256 %s." % (nombre, SNAP, n, esperado))
         return 1 if fallos else 2
     return 1 if fallos else 0

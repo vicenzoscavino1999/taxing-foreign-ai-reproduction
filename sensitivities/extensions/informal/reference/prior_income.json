@@ -1,0 +1,102 @@
+{
+  "tau_d": 0.15,
+  "tau_f": 0.15,
+  "incidence": "E11",
+  "rates": "fixed",
+  "revenue_units": "fraction of B_pot relative to the no-AI counterfactual",
+  "mass_units": "fraction of all establishments",
+  "cases": {
+    "G": {
+      "id": "FRN:966d60d4ff79087c4778d9dec5bdb9ecd65795df",
+      "parameters": {
+        "a": 2.0,
+        "beta_tilde": 4.0,
+        "c_legal": 1.0,
+        "eta_d": 0.5,
+        "eta_f": 1.2,
+        "gamma": 1.0,
+        "kappa_tilde": 0.05,
+        "phi": 0.5,
+        "rho": 0.8,
+        "t": 0.0,
+        "u_theta": 0.5,
+        "z_cost": 10.0,
+        "z_m": 1.0
+      },
+      "base": {
+        "formal_before": 0.07716049382716048,
+        "formal_after": 0.032142198072235284,
+        "exits": 0.0450182957549252,
+        "entries": 0.0,
+        "informal_adopters": 0.9678578019277647,
+        "topology": "II->IF->FF",
+        "prior_income_reported_fraction": 1.0,
+        "prior_tax_change": -0.05909719466831247,
+        "domestic_ai": 0.024793538233408716,
+        "domestic": -0.034303656434903754,
+        "withholding": 0.0007091181627615524,
+        "total_incremental": -0.033594538272142205
+      },
+      "variant": {
+        "formal_before": 0.09027926997572869,
+        "formal_after": 0.03643911940733243,
+        "exits": 0.053840150568396264,
+        "entries": 0.0,
+        "informal_adopters": 0.9635608805926676,
+        "topology": "II->IF->FF",
+        "prior_income_reported_fraction": 0.9219544457292888,
+        "prior_tax_change": -0.06061376005418607,
+        "domestic_ai": 0.026398828736616944,
+        "domestic": -0.03421493131756913,
+        "withholding": 0.0007645642537669623,
+        "total_incremental": -0.03345036706380217
+      }
+    },
+    "N": {
+      "id": "FRN:15ef1f6ab11a084635467e31c0c28c92bef6c39a",
+      "parameters": {
+        "a": 1.5,
+        "beta_tilde": 2.0,
+        "c_legal": 1.0,
+        "eta_d": 0.5,
+        "eta_f": 0.8,
+        "gamma": 1.0,
+        "kappa_tilde": 0.05,
+        "phi": 0.5,
+        "rho": 0.6,
+        "t": 0.0,
+        "u_theta": 0.5,
+        "z_cost": 100.0,
+        "z_m": 1.0
+      },
+      "base": {
+        "formal_before": 1.0,
+        "formal_after": 0.1342664742454147,
+        "exits": 0.8657335257545853,
+        "entries": 0.0,
+        "informal_adopters": 0.8657335257545853,
+        "topology": "IF->FF",
+        "prior_income_reported_fraction": 1.0,
+        "prior_tax_change": -0.14638140703382208,
+        "domestic_ai": 0.06957529381272994,
+        "domestic": -0.07680611322109214,
+        "withholding": 0.0011895836510426785,
+        "total_incremental": -0.07561652957004947
+      },
+      "variant": {
+        "formal_before": 1.0,
+        "formal_after": 0.15760848657486856,
+        "exits": 0.8423915134251314,
+        "entries": 0.0,
+        "informal_adopters": 0.8423915134251314,
+        "topology": "IF->FF",
+        "prior_income_reported_fraction": 0.9219544457292888,
+        "prior_tax_change": -0.1271840450205976,
+        "domestic_ai": 0.07333665174808159,
+        "domestic": -0.053847393272516024,
+        "withholding": 0.0013096709523913771,
+        "total_incremental": -0.05253772232012465
+      }
+    }
+  }
+}

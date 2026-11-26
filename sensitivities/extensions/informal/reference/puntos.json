@@ -1,0 +1,114 @@
+{
+  "G": {
+    "id": "FRN:966d60d4ff79087c4778d9dec5bdb9ecd65795df",
+    "parameters": {
+      "a": 2.0,
+      "beta_tilde": 4.0,
+      "c_legal": 1.0,
+      "eta_d": 0.5,
+      "eta_f": 1.2,
+      "gamma": 1.0,
+      "kappa_tilde": 0.05,
+      "phi": 0.5,
+      "rho": 0.8,
+      "t": 0.0,
+      "u_theta": 0.5,
+      "z_cost": 10.0,
+      "z_m": 1.0
+    },
+    "nodes": [
+      {
+        "tau_d": 0.15,
+        "tau_f": 0.15,
+        "CS": -0.033594538272142274,
+        "topology": "II->IF->FF"
+      },
+      {
+        "tau_d": 0.3,
+        "tau_f": 0.15,
+        "CS": -0.016792378882161344,
+        "topology": "II->IF->FF"
+      }
+    ],
+    "eligible": 25,
+    "interior": 8,
+    "old": {
+      "C_2": 0.0720414921074795,
+      "availability_assumed": true,
+      "availability_source": "conditional_scenario_foreign_leg_enabled",
+      "availability_status": "UNKNOWN",
+      "ceiling_id": "CEI:966d60d4ff79087c4778d9dec5bdb9ecd65795df",
+      "computation_status": "complete",
+      "coordination_scenario_id": null,
+      "frontier_id": "FRN:966d60d4ff79087c4778d9dec5bdb9ecd65795df",
+      "instrument_available": true,
+      "monotonicity_check": "not_applicable",
+      "numerical_error": 3.118174382588102e-08,
+      "reason_code": null,
+      "sup_lateral_high": null,
+      "sup_lateral_low": null,
+      "sup_not_attained": false,
+      "tau_d_at_sup": 0.06085853576660155,
+      "tau_f_at_sup": 0.5397216796875
+    },
+    "source_sha256": "de3d602cdec7ce3af8da93fc2466458cbc56daac5b9b965400e7c7626105a808",
+    "mesh_sha256": "007095a94b7d1fce18aea6214c56c45b370e9a6eb5b0e415da6a0cc09a26ea8c",
+    "manifest_sha256": "b1cf8af5eab8aa22c53ec279bd5660dbf57847b6be8f874c56af7d71f9cd4bab"
+  },
+  "N": {
+    "id": "FRN:15ef1f6ab11a084635467e31c0c28c92bef6c39a",
+    "parameters": {
+      "a": 1.5,
+      "beta_tilde": 2.0,
+      "c_legal": 1.0,
+      "eta_d": 0.5,
+      "eta_f": 0.8,
+      "gamma": 1.0,
+      "kappa_tilde": 0.05,
+      "phi": 0.5,
+      "rho": 0.6,
+      "t": 0.0,
+      "u_theta": 0.5,
+      "z_cost": 100.0,
+      "z_m": 1.0
+    },
+    "nodes": [
+      {
+        "tau_d": 0.15,
+        "tau_f": 0.15,
+        "CS": -0.07561652957004948,
+        "topology": "IF->FF"
+      },
+      {
+        "tau_d": 0.3,
+        "tau_f": 0.15,
+        "CS": -0.055365886254421036,
+        "topology": "II->IF->FF"
+      }
+    ],
+    "eligible": 22,
+    "interior": 8,
+    "old": {
+      "C_2": 0.10657033659820543,
+      "availability_assumed": true,
+      "availability_source": "conditional_scenario_foreign_leg_enabled",
+      "availability_status": "UNKNOWN",
+      "ceiling_id": "CEI:15ef1f6ab11a084635467e31c0c28c92bef6c39a",
+      "computation_status": "complete",
+      "coordination_scenario_id": null,
+      "frontier_id": "FRN:15ef1f6ab11a084635467e31c0c28c92bef6c39a",
+      "instrument_available": true,
+      "monotonicity_check": "not_applicable",
+      "numerical_error": 4.008808121569452e-08,
+      "reason_code": null,
+      "sup_lateral_high": null,
+      "sup_lateral_low": null,
+      "sup_not_attained": false,
+      "tau_d_at_sup": 0.10296907424926756,
+      "tau_f_at_sup": 0.5999816894531249
+    },
+    "source_sha256": "da6f6064f9b6e3119be9fb5d4f659fff5e32f8491673c07260581923cc49a765",
+    "mesh_sha256": "007095a94b7d1fce18aea6214c56c45b370e9a6eb5b0e415da6a0cc09a26ea8c",
+    "manifest_sha256": "b1cf8af5eab8aa22c53ec279bd5660dbf57847b6be8f874c56af7d71f9cd4bab"
+  }
+}

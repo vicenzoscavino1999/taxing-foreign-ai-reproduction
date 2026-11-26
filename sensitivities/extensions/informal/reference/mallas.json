@@ -1,0 +1,2454 @@
+{
+  "fixed": {
+    "N": [
+      {
+        "td": 0.15,
+        "tf": 0,
+        "CS": -0.07475252770239257,
+        "switched": 0.8621409431084033,
+        "prior_formal": 1.0,
+        "informal": 0.8621409431084033,
+        "topology": "IF->FF"
+      },
+      {
+        "td": 0.15,
+        "tf": 0.15,
+        "CS": -0.07561652957004948,
+        "switched": 0.8657335257545853,
+        "prior_formal": 1.0,
+        "informal": 0.8657335257545853,
+        "topology": "IF->FF"
+      }
+    ],
+    "G": [
+      {
+        "td": 0.15,
+        "tf": 0,
+        "CS": -0.03336996928084161,
+        "switched": 0.04456323500706507,
+        "prior_formal": 0.07716049382716048,
+        "informal": 0.9674027411799045,
+        "topology": "II->IF->FF"
+      },
+      {
+        "td": 0.15,
+        "tf": 0.15,
+        "CS": -0.033594538272142205,
+        "switched": 0.0450182957549252,
+        "prior_formal": 0.07716049382716048,
+        "informal": 0.9678578019277647,
+        "topology": "II->IF->FF"
+      }
+    ]
+  },
+  "grids": {
+    "15": [
+      {
+        "id": "FRN:0163dbf31c02c91fe7e4c79dd86b7582200a4b7d",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.0,
+        "combined": 0.001658456327722069,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:023cfa4173fca08da3610561932a19f7e7523cc6",
+        "design": "G",
+        "phi": 1.0,
+        "domestic": 0.147,
+        "combined": 0.15028995535714287,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:03665bd9e1070171422fb60c906404af6cde6b02",
+        "design": "N",
+        "phi": 0.25,
+        "domestic": 0.102,
+        "combined": 0.1268020910025614,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:03754291e269895fc3112f346d1492e99666408c",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.23426480742954114,
+        "combined": 0.23860496905899378,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:06d0bd8b5122748e11927e8068206e32ee15bf4f",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.14175,
+        "combined": 0.14704230891694114,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:08d2a644e377cf29d08664182ba72bf5e1c03dd1",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.0783009375,
+        "combined": 0.08549633130889991,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:0a8e0aed8c29c6f19bd084e34b77f79862bc9f77",
+        "design": "N",
+        "phi": 0.0,
+        "domestic": 0.0,
+        "combined": 0.000690890625,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:0b43b8d9aceacc29c42d5096151f33d370030d47",
+        "design": "G",
+        "phi": 0.0,
+        "domestic": 0.2894883285359453,
+        "combined": 0.29010573003606027,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:0d2098b197a25511055e256bd1d05b5bb6782e97",
+        "design": "G",
+        "phi": 0.75,
+        "domestic": 0.0,
+        "combined": 0.012635857735025288,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:0f98e4a276e31e519343c80d52fbe2450433f4da",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.22885112490490891,
+        "combined": 0.23459545647330204,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:11a7a5d4be4f1bf514b7f23ef95a8458fd1959af",
+        "design": "N",
+        "phi": 0.5,
+        "domestic": 0.2763297681479478,
+        "combined": 0.2794032479199157,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:145b2fced959c148955b2aa9c367b3cb6b910c61",
+        "design": "G",
+        "phi": 1.0,
+        "domestic": 0.00036044462501702454,
+        "combined": 0.006116671208569336,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:1550f3f8f01c018a6bebfbb99226e10422804f32",
+        "design": "N",
+        "phi": 0.994140625,
+        "domestic": 0.0,
+        "combined": 0.00017157426485031108,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:15bd81e509f623838e75665e521c14ba5ec262bd",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.0,
+        "combined": 0.01359129941681095,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:15ef1f6ab11a084635467e31c0c28c92bef6c39a",
+        "design": "N",
+        "phi": 0.5,
+        "domestic": 0.0,
+        "combined": 0.003968390817121924,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:17cadac376fc773ed2494296600c3fa349a4b6d1",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.28685661645834576,
+        "combined": 0.2878206426951716,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:18466eb9339736c00c2306fd50fcacf58c952e31",
+        "design": "G",
+        "phi": 1.0,
+        "domestic": 0.14699999999999996,
+        "combined": 0.14718423749999998,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:189e69508435ac1dac998e878cfeabbd24b5298d",
+        "design": "N",
+        "phi": 0.0,
+        "domestic": 0.0,
+        "combined": 0.021083131211582708,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:25038b0a61bb4d08da69c5751a7bf669216e9a51",
+        "design": "G",
+        "phi": 0.0,
+        "domestic": 0.2894883285359453,
+        "combined": 0.2949763418703006,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:256736ab841b5c165f3f55df132e1f8264e87edd",
+        "design": "N",
+        "phi": 0.25,
+        "domestic": 0.0,
+        "combined": 0.0009798139818857736,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:25b337fbb97d4df2895c5aa4585c02c0b4dabdc8",
+        "design": "N",
+        "phi": 0.667,
+        "domestic": 0.23159066282875626,
+        "combined": 0.2580832722411291,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:27dd06f623c93df77684e536875f80959337ae80",
+        "design": "G",
+        "phi": 1.0,
+        "domestic": 0.0,
+        "combined": 0.025284816836241248,
+        "ties": 1,
+        "some": true,
+        "all": true,
+        "percent": 0.0,
+        "winners": [
+          {
+            "td": 0.0,
+            "tf": 0.15,
+            "CS": 0.025284816836241248,
+            "switched": 0.10880940394638539,
+            "prior_formal": 1.0,
+            "informal": 0.10880940394638539,
+            "topology": "IF->FF"
+          }
+        ]
+      },
+      {
+        "id": "FRN:2ab9da03ed861f70dbe11a4287e75badc19ccb1b",
+        "design": "N",
+        "phi": 0.99414,
+        "domestic": 0.0,
+        "combined": 0.0001601359642612527,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:2bacbe21a081aad8439f5ec94fd8a1ce9c0a958d",
+        "design": "N",
+        "phi": 0.99414,
+        "domestic": 0.0,
+        "combined": 0.00016435006858391723,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:303fc282ba159b184d7bbf3992982c24f403147b",
+        "design": "G",
+        "phi": 0.0,
+        "domestic": 0.0783009375,
+        "combined": 0.07976070816985212,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:383767f5d98b123218b7de8c454f7b31bc9f8b84",
+        "design": "G",
+        "phi": 0.99023,
+        "domestic": 0.0,
+        "combined": 0.00016003423834484278,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:3bf89c100247e2b6e211ad5b2b20ea65be4fe596",
+        "design": "G",
+        "phi": 0.8755340576171875,
+        "domestic": 0.2894852562895977,
+        "combined": 0.32351438061470306,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:412b1a7efcc61f0a82a2ac2c1be3d37fec9c24ba",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.1948503799709895,
+        "combined": 0.19524000751717752,
+        "ties": 1,
+        "some": true,
+        "all": true,
+        "percent": 99.80043662610812,
+        "winners": [
+          {
+            "td": 0.3,
+            "tf": 0.15,
+            "CS": 0.19524000751717752,
+            "switched": 0.49364121829207336,
+            "prior_formal": 1.0,
+            "informal": 0.49364121829207336,
+            "topology": "IF->FF"
+          }
+        ]
+      },
+      {
+        "id": "FRN:41aedd546112e9a71361d85c419989bc1ea46892",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.20999999999999996,
+        "combined": 0.2151233870413971,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:4220c8a77ee7f54b05d360cce8775ffaab1a772c",
+        "design": "G",
+        "phi": 0.75,
+        "domestic": 0.20999999999999996,
+        "combined": 0.21554063723790698,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:434badb55a2ae01616223c0c3d05d0143cb0289d",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.0,
+        "combined": 0.009234395396511663,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:4352f38c89ae729ab5a91990093f038ec8a3fce9",
+        "design": "G",
+        "phi": 1.0,
+        "domestic": 0.0783009375,
+        "combined": 0.09913603187379938,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:4701961ecd4751fddbda3675b315fc35e37d3c3f",
+        "design": "N",
+        "phi": 0.25,
+        "domestic": 0.0,
+        "combined": 0.019212701405239205,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:476312232b5cc40fb909ee010468783a2487af72",
+        "design": "N",
+        "phi": 1.0,
+        "domestic": 0.07808343489583333,
+        "combined": 0.07845199606851916,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:48ee096c9461c925f2ae412b7a8177e36238617b",
+        "design": "G",
+        "phi": 0.5,
+        "domestic": 0.0,
+        "combined": 0.0032468652140088474,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:49b1e4ff6f116c5c02a4918ac21bd453da1663de",
+        "design": "G",
+        "phi": 1.0,
+        "domestic": 0.25099800796022265,
+        "combined": 0.25144073844770004,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:4fb99256b254b628c982e2575e176202d7dcdee4",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.0,
+        "combined": 0.0018953786602537936,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:51b42d21929ffdbd642427440097a59b1175a577",
+        "design": "G",
+        "phi": 0.0,
+        "domestic": 0.25099800796022265,
+        "combined": 0.25165656956034527,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:52aadf17d2ebc740cf11959f2cfca93c9adc9539",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.20999999999999996,
+        "combined": 0.21030406042462269,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:5409c23017d9a6435f486752d33d77828a98a5c6",
+        "design": "N",
+        "phi": 0.25,
+        "domestic": 0.13783218963652866,
+        "combined": 0.13824427961998384,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:546033c1ed612e60506b1470a8798ccc4452884a",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.0783009375,
+        "combined": 0.08528737437463244,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:56b3d26980f40cfe345d56590b64cffed558730b",
+        "design": "G",
+        "phi": 0.5,
+        "domestic": 0.2894883285359453,
+        "combined": 0.2942066224858078,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:5a01864c260130deb0c81fbdaa750e842d9902f4",
+        "design": "G",
+        "phi": 0.5,
+        "domestic": 0.14699999999999996,
+        "combined": 0.14744333620760974,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:5fe90d47149ba426e76e1736dcc36becb34142bd",
+        "design": "G",
+        "phi": 0.75,
+        "domestic": 0.147,
+        "combined": 0.1740520085395129,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:61a382207cd9677139cf7453d724369a3ea250e4",
+        "design": "G",
+        "phi": 1.0,
+        "domestic": 0.108375,
+        "combined": 0.11093740266618304,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:63cf7f30fb0dc5a58ea6f1616a5e11a250388547",
+        "design": "N",
+        "phi": 0.5,
+        "domestic": 0.07824500825892858,
+        "combined": 0.0783548346001048,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:649d6b93b8b612556b554eaea32900c9d71f6822",
+        "design": "N",
+        "phi": 0.5,
+        "domestic": 0.108036328125,
+        "combined": 0.10828147802083127,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:6a871b9df2cb2940c28db7507b0baf34c338e939",
+        "design": "G",
+        "phi": 0.5,
+        "domestic": 0.19120858709235153,
+        "combined": 0.19120858709235153,
+        "ties": 1,
+        "some": true,
+        "all": true,
+        "percent": 100.00000000000001,
+        "winners": [
+          {
+            "td": 0.3,
+            "tf": 0.0,
+            "CS": 0.19120858709235153,
+            "switched": 0.6104032701702107,
+            "prior_formal": 1.0,
+            "informal": 0.6104032701702107,
+            "topology": "IF->FF"
+          }
+        ]
+      },
+      {
+        "id": "FRN:6e75a7a5b36f196050c3594e360cbdc241120bdc",
+        "design": "G",
+        "phi": 0.5,
+        "domestic": 0.0,
+        "combined": 0.00022166810380488684,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:70e47770ff946a0466365d07d6757107032935fd",
+        "design": "G",
+        "phi": 0.0,
+        "domestic": 0.2894883285359453,
+        "combined": 0.3025384847859453,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:719164a08ba4d9958b162c03640772d391f17e17",
+        "design": "G",
+        "phi": 0.75,
+        "domestic": 0.0,
+        "combined": 0.0023816114924409605,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:71fac9dba19863026547370ccc4398b736a761ae",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.108375,
+        "combined": 0.10947677382066329,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:73a15e0122c07b28aab81cde1a4e6bc4111e7388",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.243468067721416,
+        "combined": 0.2475203641116432,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:73d912726207b46af3e58ad7f2295c54d5711908",
+        "design": "G",
+        "phi": 0.75,
+        "domestic": 0.1382931668593933,
+        "combined": 0.1384250867936292,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:7f4c94986e998fc9d870afea42743aa06f5e4413",
+        "design": "N",
+        "phi": 1.0,
+        "domestic": 0.14583947368421055,
+        "combined": 0.14641745427631578,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:823a823127ea45ce0238b2034024542b41c777d5",
+        "design": "G",
+        "phi": 0.75,
+        "domestic": 0.0,
+        "combined": 0.0017690200829035404,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:834d1ec31632e7ab014c39dabb9c884beb7ebce1",
+        "design": "G",
+        "phi": 0.75,
+        "domestic": 0.1275,
+        "combined": 0.12774797674494554,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:861e0f9a8aeef38b34641103b3eaf9b730eead7a",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.1995,
+        "combined": 0.20106850601744491,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:8749e1d33a15c7ad283bbddcfeddb0687c06aeb9",
+        "design": "N",
+        "phi": 0.25,
+        "domestic": 0.07673491874999999,
+        "combined": 0.07832071300112874,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:879cd5713e5b3af3806edae4a936fb985b26a856",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.17037446813926269,
+        "combined": 0.1707126677775165,
+        "ties": 1,
+        "some": true,
+        "all": true,
+        "percent": 99.80188954770799,
+        "winners": [
+          {
+            "td": 0.3,
+            "tf": 0.15,
+            "CS": 0.1707126677775165,
+            "switched": 0.4921640996340529,
+            "prior_formal": 1.0,
+            "informal": 0.4921640996340529,
+            "topology": "IF->FF"
+          }
+        ]
+      },
+      {
+        "id": "FRN:8af0fd150d540dc6c0780002003abe4bee9cf6af",
+        "design": "N",
+        "phi": 0.25,
+        "domestic": 0.1323,
+        "combined": 0.13623292507245882,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:8e8605ec0e7716fafd42a9098dd5015830752721",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.06723447552424232,
+        "combined": 0.06723447552424232,
+        "ties": 1,
+        "some": true,
+        "all": true,
+        "percent": 100.0,
+        "winners": [
+          {
+            "td": 0.15,
+            "tf": 0.0,
+            "CS": 0.06723447552424232,
+            "switched": 0.43649910162380123,
+            "prior_formal": 1.0,
+            "informal": 0.43649910162380123,
+            "topology": "IF->FF"
+          }
+        ]
+      },
+      {
+        "id": "FRN:8ec4d0aa43ed07a7b5ac4f525708e88a94738d96",
+        "design": "N",
+        "phi": 0.99414,
+        "domestic": 0.0,
+        "combined": 0.00015542608295945117,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:8fd830f17937d6e1165d3043fb323159e50ee3a8",
+        "design": "N",
+        "phi": 0.5,
+        "domestic": 0.0,
+        "combined": 0.0059525862256828875,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:966d60d4ff79087c4778d9dec5bdb9ecd65795df",
+        "design": "G",
+        "phi": 0.5,
+        "domestic": 0.0,
+        "combined": 0.005577932639890639,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:986d495f63adb21d7a38da365ce519554036e7d5",
+        "design": "G",
+        "phi": 0.0,
+        "domestic": 0.25099800796022265,
+        "combined": 0.2517098346647681,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:a0be7d4a358fe0533b52af5a5d4c5feb60778a66",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.1194375,
+        "combined": 0.14240101768570793,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:a78df7365b49e9a3e62e803f5efd06af8492c6fd",
+        "design": "N",
+        "phi": 1.0,
+        "domestic": 0.07802129129464286,
+        "combined": 0.07849515565952463,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:aa3ccb6faadfeaa0370a9875e7d5d8754ab43d75",
+        "design": "N",
+        "phi": 0.5,
+        "domestic": 0.0,
+        "combined": 0.006669794404553343,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:aa8d330edba63ec2f391bfe20a80b86aa5201105",
+        "design": "N",
+        "phi": 1.0,
+        "domestic": 0.0,
+        "combined": 0.0008955531209190351,
+        "ties": 1,
+        "some": true,
+        "all": true,
+        "percent": 0.0,
+        "winners": [
+          {
+            "td": 0.0,
+            "tf": 0.15,
+            "CS": 0.0008955531209190351,
+            "switched": 0.8071752928234157,
+            "prior_formal": 1.0,
+            "informal": 0.8071752928234157,
+            "topology": "IF->FF"
+          }
+        ]
+      },
+      {
+        "id": "FRN:b3ac8d15347988a7bc846666eace5990f0f25592",
+        "design": "G",
+        "phi": 1.0,
+        "domestic": 0.1275,
+        "combined": 0.1279508115303955,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:b62017e5e66b25ba00f37940ed9c8c3a847d5dc2",
+        "design": "N",
+        "phi": 1.0,
+        "domestic": 0.20789999999999997,
+        "combined": 0.2092687456308426,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:b69a3ab2f6719a74f12607f113cf3bd767a3cf41",
+        "design": "G",
+        "phi": 0.0,
+        "domestic": 0.04016473363832878,
+        "combined": 0.04068864308773014,
+        "ties": 1,
+        "some": true,
+        "all": true,
+        "percent": 98.71239390246625,
+        "winners": [
+          {
+            "td": 0.15,
+            "tf": 0.15,
+            "CS": 0.04068864308773016,
+            "switched": 0.8425916759155277,
+            "prior_formal": 1.0,
+            "informal": 0.8425916759155277,
+            "topology": "IF->FF"
+          }
+        ]
+      },
+      {
+        "id": "FRN:b80b670c9d847632a96b90664ea35ce6fbcc3750",
+        "design": "N",
+        "phi": 0.0,
+        "domestic": 0.2883456114496192,
+        "combined": 0.28892817165414975,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:b91550d7ee6e633a5292e850b43ae711597ac9e7",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.0,
+        "combined": 0.00021284229723590015,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:b97c34d12a4754354853f9939d58479be75d952f",
+        "design": "G",
+        "phi": 1.0,
+        "domestic": 0.25099800796022265,
+        "combined": 0.2630982427727537,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:bdeb2fcc884d1119cf5f0d46f57cc46340cf3019",
+        "design": "N",
+        "phi": 0.25,
+        "domestic": 0.0,
+        "combined": 0.0005824842607204693,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:bfad5a60f0a219e1c9535a0c54d94b4f5dacaca1",
+        "design": "G",
+        "phi": 0.5,
+        "domestic": 0.0,
+        "combined": 0.0012605476713210822,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:c1c526edad9d4f7a1a8f41f37959024d49e47740",
+        "design": "G",
+        "phi": 0.5,
+        "domestic": 0.0783009375,
+        "combined": 0.11031595064185605,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:c592917ab950821c57339cfd6503b524c5409417",
+        "design": "G",
+        "phi": 0.75,
+        "domestic": 0.2894883285359453,
+        "combined": 0.2909172954314099,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:c8aeca71986b2569c62be8cdb6c13a3879559559",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.13818,
+        "combined": 0.14707107898046115,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:c9dfdbb56940f6bd2782ff519a76b0026c110122",
+        "design": "G",
+        "phi": 0.99023,
+        "domestic": 0.0,
+        "combined": 0.00016424566566970708,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:caefa4c39389c620ca64de915777175414afcb3f",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.20999999999999996,
+        "combined": 0.21153701611241912,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:ccd084d545b97534cd339791aa67d30bdfa8e0e7",
+        "design": "N",
+        "phi": 0.0,
+        "domestic": 0.23159066282875626,
+        "combined": 0.24725085032875624,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:cd39e22cb24ba0541ffd2ed81809a21083226891",
+        "design": "G",
+        "phi": 0.0,
+        "domestic": 0.20999999999999996,
+        "combined": 0.2102796462053571,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:ce5403cab0b7a8f0631b5c2fed822ce6d319ee07",
+        "design": "N",
+        "phi": 1.0,
+        "domestic": 0.14601999999999998,
+        "combined": 0.14624545788064064,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:ced6a413d6a4f2530ea6d506792f3c055ebffb45",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.07474180397727273,
+        "combined": 0.08108105355158751,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:cffc7797b61afe9e15aea64f164a273eb17930d7",
+        "design": "G",
+        "phi": 0.99023,
+        "domestic": 0.0,
+        "combined": 0.00015679655144191243,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:d0b9abb246a8c1bac0c6dbd7dd957d9c2d54c8d3",
+        "design": "N",
+        "phi": 1.0,
+        "domestic": 0.07718235267857143,
+        "combined": 0.07907781013809857,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:d1cc2865be6e6ca49605907150cff03db464ee4b",
+        "design": "G",
+        "phi": 0.5,
+        "domestic": 0.25099800796022265,
+        "combined": 0.2524854566641935,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:d1e675e194c7643641eb150b66118022bc6bce51",
+        "design": "N",
+        "phi": 1.0,
+        "domestic": 0.11524430571616108,
+        "combined": 0.13726283202151274,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:d27129d9d1f0ebbaec67bda95648f816a1d8a0bb",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.14758191848107896,
+        "combined": 0.15573669813116553,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:d5dfc018d625320b5f2b100ccd74c7ea67655f94",
+        "design": "N",
+        "phi": 0.25,
+        "domestic": 0.0,
+        "combined": 0.0015370161124191367,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:dad8c24b8cd8810017d9765c09f6805ed124f5f7",
+        "design": "G",
+        "phi": 0.75,
+        "domestic": 0.0,
+        "combined": 0.008713844246373266,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:dc4e1ba95f168fdd846cb39a44b404f204efbb47",
+        "design": "G",
+        "phi": 0.5,
+        "domestic": 0.2894883285359453,
+        "combined": 0.2914442235695178,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:e33d297659fe45e84f514a916a8c0be234181fcd",
+        "design": "N",
+        "phi": 0.25,
+        "domestic": 0.26881059078337777,
+        "combined": 0.2789881498913635,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:e4ad793d052cc3ab1e7a50d5ced0ef28c7241852",
+        "design": "N",
+        "phi": 0.5,
+        "domestic": 0.2493246879071545,
+        "combined": 0.24979081093069552,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:e67e9fe7cd21d49f4d18a5206a67d4781f0983f1",
+        "design": "G",
+        "phi": 0.0,
+        "domestic": 0.147,
+        "combined": 0.1504061315629883,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:e8dde4bb2422b8cbac23a61425c7d9824c86a465",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.2894883285359453,
+        "combined": 0.29335818848568895,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:ea15a08fd5e5636fc103aaa7c19b7a9797fd913c",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.1382931668593933,
+        "combined": 0.13982218804378455,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:ea72334edee41e9c1f8f57b7577e93122726c057",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.13829316685939333,
+        "combined": 0.1410366460086735,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:ec06e350d3e41966d5e9749a00793fda51e090c6",
+        "design": "G",
+        "phi": 0.75,
+        "domestic": 0.13829316685939333,
+        "combined": 0.15954831642615344,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:f2ec97c32db8ef115c41451c7390ee5169890720",
+        "design": "G",
+        "phi": 0.0,
+        "domestic": 0.17037446813926269,
+        "combined": 0.1706215228094947,
+        "ties": 1,
+        "some": true,
+        "all": true,
+        "percent": 99.85520310324047,
+        "winners": [
+          {
+            "td": 0.3,
+            "tf": 0.15,
+            "CS": 0.1706215228094946,
+            "switched": 0.47728349252999813,
+            "prior_formal": 0.9999999999999999,
+            "informal": 0.47728349252999813,
+            "topology": "IF->FF"
+          }
+        ]
+      },
+      {
+        "id": "FRN:f40a78bc9ddb28a4d65565a4551580130f68d277",
+        "design": "G",
+        "phi": 0.75,
+        "domestic": 0.14758191848107896,
+        "combined": 0.14897119185166952,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:f6ba6da3f1e590cc3c790a37c93fdea74bcda681",
+        "design": "G",
+        "phi": 0.5,
+        "domestic": 0.0,
+        "combined": 0.0013393319007786496,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:f8da7e7c02dc71505ff042edbbf58f994ee6dc54",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.20789999999999997,
+        "combined": 0.2091378332168318,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:fd18b4d6af6823fc20406c4ed197bb6c58374310",
+        "design": "N",
+        "phi": 0.0,
+        "domestic": 0.07606376785714285,
+        "combined": 0.08028039409945939,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:ff6307063ae2f22d1d022914c0d35f44166da543",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.0,
+        "combined": 0.007370917012098086,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:09c72876468fe62aaf395071c1c2825d22435ff9",
+        "design": "G",
+        "phi": 0.990234375,
+        "domestic": 0.0,
+        "combined": 0.00017146537728479793,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:111c9516ac5307c36f535d6a2ec7d6c19e6e0412",
+        "design": "N",
+        "phi": 0.25,
+        "domestic": 0.1290736224021004,
+        "combined": 0.1373154220712038,
+        "ties": 1,
+        "some": false,
+        "all": false
+      }
+    ],
+    "30": [
+      {
+        "id": "FRN:0163dbf31c02c91fe7e4c79dd86b7582200a4b7d",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.0,
+        "combined": 0.001658456327722069,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:023cfa4173fca08da3610561932a19f7e7523cc6",
+        "design": "G",
+        "phi": 1.0,
+        "domestic": 0.147,
+        "combined": 0.150675,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:03665bd9e1070171422fb60c906404af6cde6b02",
+        "design": "N",
+        "phi": 0.25,
+        "domestic": 0.102,
+        "combined": 0.14304471510833858,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:03754291e269895fc3112f346d1492e99666408c",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.23426480742954114,
+        "combined": 0.23860496905899378,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:06d0bd8b5122748e11927e8068206e32ee15bf4f",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.14175,
+        "combined": 0.1537443338238925,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:08d2a644e377cf29d08664182ba72bf5e1c03dd1",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.0783009375,
+        "combined": 0.08549633130889991,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:0a8e0aed8c29c6f19bd084e34b77f79862bc9f77",
+        "design": "N",
+        "phi": 0.0,
+        "domestic": 0.0,
+        "combined": 0.000690890625,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:0b43b8d9aceacc29c42d5096151f33d370030d47",
+        "design": "G",
+        "phi": 0.0,
+        "domestic": 0.2894883285359453,
+        "combined": 0.2905454891327969,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:0d2098b197a25511055e256bd1d05b5bb6782e97",
+        "design": "G",
+        "phi": 0.75,
+        "domestic": 0.0,
+        "combined": 0.013445960922661806,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:0f98e4a276e31e519343c80d52fbe2450433f4da",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.22885112490490891,
+        "combined": 0.23459545647330204,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:11a7a5d4be4f1bf514b7f23ef95a8458fd1959af",
+        "design": "N",
+        "phi": 0.5,
+        "domestic": 0.2763297681479478,
+        "combined": 0.2794032479199157,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:145b2fced959c148955b2aa9c367b3cb6b910c61",
+        "design": "G",
+        "phi": 1.0,
+        "domestic": 0.00036044462501702454,
+        "combined": 0.012717721465884228,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:1550f3f8f01c018a6bebfbb99226e10422804f32",
+        "design": "N",
+        "phi": 0.994140625,
+        "domestic": 0.0,
+        "combined": 0.00017157426485031108,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:15bd81e509f623838e75665e521c14ba5ec262bd",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.0,
+        "combined": 0.01359129941681095,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:15ef1f6ab11a084635467e31c0c28c92bef6c39a",
+        "design": "N",
+        "phi": 0.5,
+        "domestic": 0.0,
+        "combined": 0.00748769534825533,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:17cadac376fc773ed2494296600c3fa349a4b6d1",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.28685661645834576,
+        "combined": 0.2885542530479912,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:18466eb9339736c00c2306fd50fcacf58c952e31",
+        "design": "G",
+        "phi": 1.0,
+        "domestic": 0.14699999999999996,
+        "combined": 0.14720579999999997,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:189e69508435ac1dac998e878cfeabbd24b5298d",
+        "design": "N",
+        "phi": 0.0,
+        "domestic": 0.0,
+        "combined": 0.04135547550513504,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:25038b0a61bb4d08da69c5751a7bf669216e9a51",
+        "design": "G",
+        "phi": 0.0,
+        "domestic": 0.2894883285359453,
+        "combined": 0.2988853116190709,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:256736ab841b5c165f3f55df132e1f8264e87edd",
+        "design": "N",
+        "phi": 0.25,
+        "domestic": 0.0,
+        "combined": 0.0017611532195936637,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:25b337fbb97d4df2895c5aa4585c02c0b4dabdc8",
+        "design": "N",
+        "phi": 0.667,
+        "domestic": 0.23159066282875626,
+        "combined": 0.2906065219284505,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:27dd06f623c93df77684e536875f80959337ae80",
+        "design": "G",
+        "phi": 1.0,
+        "domestic": 0.0,
+        "combined": 0.025284816836241248,
+        "ties": 1,
+        "some": true,
+        "all": true,
+        "percent": 0.0,
+        "winners": [
+          {
+            "td": 0.0,
+            "tf": 0.15,
+            "CS": 0.025284816836241248,
+            "switched": 0.10880940394638539,
+            "prior_formal": 1.0,
+            "informal": 0.10880940394638539,
+            "topology": "IF->FF"
+          }
+        ]
+      },
+      {
+        "id": "FRN:2ab9da03ed861f70dbe11a4287e75badc19ccb1b",
+        "design": "N",
+        "phi": 0.99414,
+        "domestic": 0.0,
+        "combined": 0.0001601359642612527,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:2bacbe21a081aad8439f5ec94fd8a1ce9c0a958d",
+        "design": "N",
+        "phi": 0.99414,
+        "domestic": 0.0,
+        "combined": 0.00016435006858391723,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:303fc282ba159b184d7bbf3992982c24f403147b",
+        "design": "G",
+        "phi": 0.0,
+        "domestic": 0.0783009375,
+        "combined": 0.07976070816985212,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:383767f5d98b123218b7de8c454f7b31bc9f8b84",
+        "design": "G",
+        "phi": 0.99023,
+        "domestic": 0.0,
+        "combined": 0.00016003423834484278,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:3bf89c100247e2b6e211ad5b2b20ea65be4fe596",
+        "design": "G",
+        "phi": 0.8755340576171875,
+        "domestic": 0.2894852562895977,
+        "combined": 0.3686012565781363,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:412b1a7efcc61f0a82a2ac2c1be3d37fec9c24ba",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.1948503799709895,
+        "combined": 0.19561179863768255,
+        "ties": 1,
+        "some": true,
+        "all": true,
+        "percent": 99.61075013266282,
+        "winners": [
+          {
+            "td": 0.3,
+            "tf": 0.3,
+            "CS": 0.19561179863768255,
+            "switched": 0.5143659856047484,
+            "prior_formal": 1.0,
+            "informal": 0.5143659856047484,
+            "topology": "IF->FF"
+          }
+        ]
+      },
+      {
+        "id": "FRN:41aedd546112e9a71361d85c419989bc1ea46892",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.20999999999999996,
+        "combined": 0.22054958301593308,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:4220c8a77ee7f54b05d360cce8775ffaab1a772c",
+        "design": "G",
+        "phi": 0.75,
+        "domestic": 0.20999999999999996,
+        "combined": 0.21554063723790698,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:434badb55a2ae01616223c0c3d05d0143cb0289d",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.0,
+        "combined": 0.009234395396511663,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:4352f38c89ae729ab5a91990093f038ec8a3fce9",
+        "design": "G",
+        "phi": 1.0,
+        "domestic": 0.0783009375,
+        "combined": 0.12792750810616207,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:4701961ecd4751fddbda3675b315fc35e37d3c3f",
+        "design": "N",
+        "phi": 0.25,
+        "domestic": 0.0,
+        "combined": 0.03956093630974914,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:476312232b5cc40fb909ee010468783a2487af72",
+        "design": "N",
+        "phi": 1.0,
+        "domestic": 0.07808343489583333,
+        "combined": 0.07878451779459252,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:48ee096c9461c925f2ae412b7a8177e36238617b",
+        "design": "G",
+        "phi": 0.5,
+        "domestic": 0.0,
+        "combined": 0.0061262961940270885,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:49b1e4ff6f116c5c02a4918ac21bd453da1663de",
+        "design": "G",
+        "phi": 1.0,
+        "domestic": 0.25099800796022265,
+        "combined": 0.251918528752039,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:4fb99256b254b628c982e2575e176202d7dcdee4",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.0,
+        "combined": 0.0020168941383992708,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:51b42d21929ffdbd642427440097a59b1175a577",
+        "design": "G",
+        "phi": 0.0,
+        "domestic": 0.25099800796022265,
+        "combined": 0.2521256459301977,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:52aadf17d2ebc740cf11959f2cfca93c9adc9539",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.20999999999999996,
+        "combined": 0.21030406042462269,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:5409c23017d9a6435f486752d33d77828a98a5c6",
+        "design": "N",
+        "phi": 0.25,
+        "domestic": 0.13783218963652866,
+        "combined": 0.13851385419086076,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:546033c1ed612e60506b1470a8798ccc4452884a",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.0783009375,
+        "combined": 0.09268673252172696,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:56b3d26980f40cfe345d56590b64cffed558730b",
+        "design": "G",
+        "phi": 0.5,
+        "domestic": 0.2894883285359453,
+        "combined": 0.29427123502096514,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:5a01864c260130deb0c81fbdaa750e842d9902f4",
+        "design": "G",
+        "phi": 0.5,
+        "domestic": 0.14699999999999996,
+        "combined": 0.14744333620760974,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:5fe90d47149ba426e76e1736dcc36becb34142bd",
+        "design": "G",
+        "phi": 0.75,
+        "domestic": 0.147,
+        "combined": 0.20058132725221117,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:61a382207cd9677139cf7453d724369a3ea250e4",
+        "design": "G",
+        "phi": 1.0,
+        "domestic": 0.108375,
+        "combined": 0.11330461719756091,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:63cf7f30fb0dc5a58ea6f1616a5e11a250388547",
+        "design": "N",
+        "phi": 0.5,
+        "domestic": 0.07824500825892858,
+        "combined": 0.0784823044414374,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:649d6b93b8b612556b554eaea32900c9d71f6822",
+        "design": "N",
+        "phi": 0.5,
+        "domestic": 0.108036328125,
+        "combined": 0.10828147802083127,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:6a871b9df2cb2940c28db7507b0baf34c338e939",
+        "design": "G",
+        "phi": 0.5,
+        "domestic": 0.19120858709235153,
+        "combined": 0.19120858709235153,
+        "ties": 1,
+        "some": true,
+        "all": true,
+        "percent": 100.00000000000001,
+        "winners": [
+          {
+            "td": 0.3,
+            "tf": 0.0,
+            "CS": 0.19120858709235153,
+            "switched": 0.6104032701702107,
+            "prior_formal": 1.0,
+            "informal": 0.6104032701702107,
+            "topology": "IF->FF"
+          }
+        ]
+      },
+      {
+        "id": "FRN:6e75a7a5b36f196050c3594e360cbdc241120bdc",
+        "design": "G",
+        "phi": 0.5,
+        "domestic": 0.0,
+        "combined": 0.00022166810380488684,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:70e47770ff946a0466365d07d6757107032935fd",
+        "design": "G",
+        "phi": 0.0,
+        "domestic": 0.2894883285359453,
+        "combined": 0.3025384847859453,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:719164a08ba4d9958b162c03640772d391f17e17",
+        "design": "G",
+        "phi": 0.75,
+        "domestic": 0.0,
+        "combined": 0.005403927187367769,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:71fac9dba19863026547370ccc4398b736a761ae",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.108375,
+        "combined": 0.11020738869242021,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:73a15e0122c07b28aab81cde1a4e6bc4111e7388",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.243468067721416,
+        "combined": 0.2526426948070508,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:73d912726207b46af3e58ad7f2295c54d5711908",
+        "design": "G",
+        "phi": 0.75,
+        "domestic": 0.1382931668593933,
+        "combined": 0.1384250867936292,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:7f4c94986e998fc9d870afea42743aa06f5e4413",
+        "design": "N",
+        "phi": 1.0,
+        "domestic": 0.14583947368421055,
+        "combined": 0.14641745427631578,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:823a823127ea45ce0238b2034024542b41c777d5",
+        "design": "G",
+        "phi": 0.75,
+        "domestic": 0.0,
+        "combined": 0.0018824345291726528,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:834d1ec31632e7ab014c39dabb9c884beb7ebce1",
+        "design": "G",
+        "phi": 0.75,
+        "domestic": 0.1275,
+        "combined": 0.1279911621664786,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:861e0f9a8aeef38b34641103b3eaf9b730eead7a",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.1995,
+        "combined": 0.20106850601744491,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:8749e1d33a15c7ad283bbddcfeddb0687c06aeb9",
+        "design": "N",
+        "phi": 0.25,
+        "domestic": 0.07673491874999999,
+        "combined": 0.07832071300112874,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:879cd5713e5b3af3806edae4a936fb985b26a856",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.17037446813926269,
+        "combined": 0.1707126677775165,
+        "ties": 1,
+        "some": true,
+        "all": true,
+        "percent": 99.80188954770799,
+        "winners": [
+          {
+            "td": 0.3,
+            "tf": 0.15,
+            "CS": 0.1707126677775165,
+            "switched": 0.4921640996340529,
+            "prior_formal": 1.0,
+            "informal": 0.4921640996340529,
+            "topology": "IF->FF"
+          }
+        ]
+      },
+      {
+        "id": "FRN:8af0fd150d540dc6c0780002003abe4bee9cf6af",
+        "design": "N",
+        "phi": 0.25,
+        "domestic": 0.1323,
+        "combined": 0.13623292507245882,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:8e8605ec0e7716fafd42a9098dd5015830752721",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.06723447552424232,
+        "combined": 0.06723447552424232,
+        "ties": 1,
+        "some": true,
+        "all": true,
+        "percent": 100.0,
+        "winners": [
+          {
+            "td": 0.15,
+            "tf": 0.0,
+            "CS": 0.06723447552424232,
+            "switched": 0.43649910162380123,
+            "prior_formal": 1.0,
+            "informal": 0.43649910162380123,
+            "topology": "IF->FF"
+          }
+        ]
+      },
+      {
+        "id": "FRN:8ec4d0aa43ed07a7b5ac4f525708e88a94738d96",
+        "design": "N",
+        "phi": 0.99414,
+        "domestic": 0.0,
+        "combined": 0.00015542608295945117,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:8fd830f17937d6e1165d3043fb323159e50ee3a8",
+        "design": "N",
+        "phi": 0.5,
+        "domestic": 0.0,
+        "combined": 0.011231543022382995,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:966d60d4ff79087c4778d9dec5bdb9ecd65795df",
+        "design": "G",
+        "phi": 0.5,
+        "domestic": 0.0,
+        "combined": 0.009738198908380616,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:986d495f63adb21d7a38da365ce519554036e7d5",
+        "design": "G",
+        "phi": 0.0,
+        "domestic": 0.25099800796022265,
+        "combined": 0.2517098346647681,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:a0be7d4a358fe0533b52af5a5d4c5feb60778a66",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.1194375,
+        "combined": 0.1607983661828074,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:a78df7365b49e9a3e62e803f5efd06af8492c6fd",
+        "design": "N",
+        "phi": 1.0,
+        "domestic": 0.07802129129464286,
+        "combined": 0.07892268359304752,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:aa3ccb6faadfeaa0370a9875e7d5d8754ab43d75",
+        "design": "N",
+        "phi": 0.5,
+        "domestic": 0.0,
+        "combined": 0.014416863847273163,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:aa8d330edba63ec2f391bfe20a80b86aa5201105",
+        "design": "N",
+        "phi": 1.0,
+        "domestic": 0.0,
+        "combined": 0.0008955531209190351,
+        "ties": 1,
+        "some": true,
+        "all": true,
+        "percent": 0.0,
+        "winners": [
+          {
+            "td": 0.0,
+            "tf": 0.15,
+            "CS": 0.0008955531209190351,
+            "switched": 0.8071752928234157,
+            "prior_formal": 1.0,
+            "informal": 0.8071752928234157,
+            "topology": "IF->FF"
+          }
+        ]
+      },
+      {
+        "id": "FRN:b3ac8d15347988a7bc846666eace5990f0f25592",
+        "design": "G",
+        "phi": 1.0,
+        "domestic": 0.1275,
+        "combined": 0.1279508115303955,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:b62017e5e66b25ba00f37940ed9c8c3a847d5dc2",
+        "design": "N",
+        "phi": 1.0,
+        "domestic": 0.20789999999999997,
+        "combined": 0.21115234390011411,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:b69a3ab2f6719a74f12607f113cf3bd767a3cf41",
+        "design": "G",
+        "phi": 0.0,
+        "domestic": 0.04016473363832878,
+        "combined": 0.04106181021835364,
+        "ties": 1,
+        "some": true,
+        "all": true,
+        "percent": 97.81530191860882,
+        "winners": [
+          {
+            "td": 0.15,
+            "tf": 0.3,
+            "CS": 0.04106181021835365,
+            "switched": 0.8425916759155277,
+            "prior_formal": 1.0,
+            "informal": 0.8425916759155277,
+            "topology": "IF->FF"
+          }
+        ]
+      },
+      {
+        "id": "FRN:b80b670c9d847632a96b90664ea35ce6fbcc3750",
+        "design": "N",
+        "phi": 0.0,
+        "domestic": 0.2883456114496192,
+        "combined": 0.2894883285359453,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:b91550d7ee6e633a5292e850b43ae711597ac9e7",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.0,
+        "combined": 0.00021284229723590015,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:b97c34d12a4754354853f9939d58479be75d952f",
+        "design": "G",
+        "phi": 1.0,
+        "domestic": 0.25099800796022265,
+        "combined": 0.2742767558375936,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:bdeb2fcc884d1119cf5f0d46f57cc46340cf3019",
+        "design": "N",
+        "phi": 0.25,
+        "domestic": 0.0,
+        "combined": 0.0005824842607204693,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:bfad5a60f0a219e1c9535a0c54d94b4f5dacaca1",
+        "design": "G",
+        "phi": 0.5,
+        "domestic": 0.0,
+        "combined": 0.0023784444047399286,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:c1c526edad9d4f7a1a8f41f37959024d49e47740",
+        "design": "G",
+        "phi": 0.5,
+        "domestic": 0.0783009375,
+        "combined": 0.1475018839669112,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:c592917ab950821c57339cfd6503b524c5409417",
+        "design": "G",
+        "phi": 0.75,
+        "domestic": 0.2894883285359453,
+        "combined": 0.29273068484836595,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:c8aeca71986b2569c62be8cdb6c13a3879559559",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.13818,
+        "combined": 0.1583304808241394,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:c9dfdbb56940f6bd2782ff519a76b0026c110122",
+        "design": "G",
+        "phi": 0.99023,
+        "domestic": 0.0,
+        "combined": 0.00016424566566970708,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:caefa4c39389c620ca64de915777175414afcb3f",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.20999999999999996,
+        "combined": 0.2131648749047799,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:ccd084d545b97534cd339791aa67d30bdfa8e0e7",
+        "design": "N",
+        "phi": 0.0,
+        "domestic": 0.23159066282875626,
+        "combined": 0.24725085032875624,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:cd39e22cb24ba0541ffd2ed81809a21083226891",
+        "design": "G",
+        "phi": 0.0,
+        "domestic": 0.20999999999999996,
+        "combined": 0.2102796462053571,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:ce5403cab0b7a8f0631b5c2fed822ce6d319ee07",
+        "design": "N",
+        "phi": 1.0,
+        "domestic": 0.14601999999999998,
+        "combined": 0.14624545788064064,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:ced6a413d6a4f2530ea6d506792f3c055ebffb45",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.07474180397727273,
+        "combined": 0.08723086600067648,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:cffc7797b61afe9e15aea64f164a273eb17930d7",
+        "design": "G",
+        "phi": 0.99023,
+        "domestic": 0.0,
+        "combined": 0.00015679655144191243,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:d0b9abb246a8c1bac0c6dbd7dd957d9c2d54c8d3",
+        "design": "N",
+        "phi": 1.0,
+        "domestic": 0.07718235267857143,
+        "combined": 0.0807879218721901,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:d1cc2865be6e6ca49605907150cff03db464ee4b",
+        "design": "G",
+        "phi": 0.5,
+        "domestic": 0.25099800796022265,
+        "combined": 0.2535948610024575,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:d1e675e194c7643641eb150b66118022bc6bce51",
+        "design": "N",
+        "phi": 1.0,
+        "domestic": 0.11524430571616108,
+        "combined": 0.13796927639024395,
+        "ties": 1,
+        "some": true,
+        "all": true,
+        "percent": 83.52896291939254,
+        "winners": [
+          {
+            "td": 0.15,
+            "tf": 0.3,
+            "CS": 0.13796927639024395,
+            "switched": 0.1991437599522199,
+            "prior_formal": 1.0,
+            "informal": 0.1991437599522199,
+            "topology": "IF->FF"
+          }
+        ]
+      },
+      {
+        "id": "FRN:d27129d9d1f0ebbaec67bda95648f816a1d8a0bb",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.14758191848107896,
+        "combined": 0.15573669813116553,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:d5dfc018d625320b5f2b100ccd74c7ea67655f94",
+        "design": "N",
+        "phi": 0.25,
+        "domestic": 0.0,
+        "combined": 0.003164874904779931,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:dad8c24b8cd8810017d9765c09f6805ed124f5f7",
+        "design": "G",
+        "phi": 0.75,
+        "domestic": 0.0,
+        "combined": 0.015969649708552358,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:dc4e1ba95f168fdd846cb39a44b404f204efbb47",
+        "design": "G",
+        "phi": 0.5,
+        "domestic": 0.2894883285359453,
+        "combined": 0.2914442235695178,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:e33d297659fe45e84f514a916a8c0be234181fcd",
+        "design": "N",
+        "phi": 0.25,
+        "domestic": 0.26881059078337777,
+        "combined": 0.2897504304279395,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:e4ad793d052cc3ab1e7a50d5ced0ef28c7241852",
+        "design": "N",
+        "phi": 0.5,
+        "domestic": 0.2493246879071545,
+        "combined": 0.24979081093069552,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:e67e9fe7cd21d49f4d18a5206a67d4781f0983f1",
+        "design": "G",
+        "phi": 0.0,
+        "domestic": 0.147,
+        "combined": 0.1504061315629883,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:e8dde4bb2422b8cbac23a61425c7d9824c86a465",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.2894883285359453,
+        "combined": 0.29335818848568895,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:ea15a08fd5e5636fc103aaa7c19b7a9797fd913c",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.1382931668593933,
+        "combined": 0.13982218804378455,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:ea72334edee41e9c1f8f57b7577e93122726c057",
+        "design": "G",
+        "phi": 0.25,
+        "domestic": 0.13829316685939333,
+        "combined": 0.1432243958742556,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:ec06e350d3e41966d5e9749a00793fda51e090c6",
+        "design": "G",
+        "phi": 0.75,
+        "domestic": 0.13829316685939333,
+        "combined": 0.18039278112898782,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:f2ec97c32db8ef115c41451c7390ee5169890720",
+        "design": "G",
+        "phi": 0.0,
+        "domestic": 0.17037446813926269,
+        "combined": 0.1706215228094947,
+        "ties": 1,
+        "some": true,
+        "all": true,
+        "percent": 99.85520310324047,
+        "winners": [
+          {
+            "td": 0.3,
+            "tf": 0.15,
+            "CS": 0.1706215228094946,
+            "switched": 0.47728349252999813,
+            "prior_formal": 0.9999999999999999,
+            "informal": 0.47728349252999813,
+            "topology": "IF->FF"
+          }
+        ]
+      },
+      {
+        "id": "FRN:f40a78bc9ddb28a4d65565a4551580130f68d277",
+        "design": "G",
+        "phi": 0.75,
+        "domestic": 0.14758191848107896,
+        "combined": 0.15073420934037682,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:f6ba6da3f1e590cc3c790a37c93fdea74bcda681",
+        "design": "G",
+        "phi": 0.5,
+        "domestic": 0.0,
+        "combined": 0.0025270971800361738,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:f8da7e7c02dc71505ff042edbbf58f994ee6dc54",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.20789999999999997,
+        "combined": 0.21031224550238684,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:fd18b4d6af6823fc20406c4ed197bb6c58374310",
+        "design": "N",
+        "phi": 0.0,
+        "domestic": 0.07606376785714285,
+        "combined": 0.08433486295816987,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:ff6307063ae2f22d1d022914c0d35f44166da543",
+        "design": "N",
+        "phi": 0.75,
+        "domestic": 0.0,
+        "combined": 0.007843477204886054,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:09c72876468fe62aaf395071c1c2825d22435ff9",
+        "design": "G",
+        "phi": 0.990234375,
+        "domestic": 0.0,
+        "combined": 0.00017146537728479793,
+        "ties": 1,
+        "some": false,
+        "all": false
+      },
+      {
+        "id": "FRN:111c9516ac5307c36f535d6a2ec7d6c19e6e0412",
+        "design": "N",
+        "phi": 0.25,
+        "domestic": 0.1290736224021004,
+        "combined": 0.14270691348874287,
+        "ties": 1,
+        "some": false,
+        "all": false
+      }
+    ]
+  }
+}
